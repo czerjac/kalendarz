@@ -113,17 +113,18 @@ def extract_cards(page) -> list[dict]:
           for (const a of anchors) {
             let u;
             try { u = new URL(a.href, location.href); } catch { continue; }
-            if (!/^\/turnieje\/\d+(?:\/.*)?$/.test(u.pathname)) continue;
-            const id = (u.pathname.match(/^\/turnieje\/(\d+)/) || [])[1];
-            if (!id || seen.has(id)) continue;
+            const match = u.pathname.match(/^\/turnieje\/(\d+)(?:\/.*)?$/);
+            if (!match) continue;
+            const id = match[1];
+            if (seen.has(id)) continue;
 
             let node = a;
             let chosen = null;
-            for (let i = 0; i < 8 && node; i++) {
+            for (let i = 0; i < 10 && node; i++) {
               node = node.parentElement;
               if (!node) break;
               const text = (node.innerText || '').replace(/\s+/g, ' ').trim();
-              if (text.includes('Termin:') && text.includes('Kategorie:') && text.length <= 1500) {
+              if (text.includes('Termin:') && text.includes('Kategorie:') && text.length <= 2000) {
                 chosen = node;
                 break;
               }
@@ -139,6 +140,21 @@ def extract_cards(page) -> list[dict]:
         }
         """
     )
+
+    if not raw_cards:
+        debug = page.evaluate(
+            r"""
+            () => ({
+              title: document.title,
+              body: (document.body?.innerText || '').slice(0, 5000),
+              links: [...document.querySelectorAll('a[href]')]
+                .filter(a => (a.href || '').includes('turniej'))
+                .slice(0, 80)
+                .map(a => ({text: (a.innerText || '').replace(/\s+/g, ' ').trim(), href: a.href}))
+            })
+            """
+        )
+        print("KLUBY_DEBUG=" + json.dumps(debug, ensure_ascii=False))
 
     by_url: dict[str, dict] = {}
     for raw in raw_cards:
@@ -177,7 +193,7 @@ def main() -> None:
     if not turnieje:
         raise RuntimeError(
             "Nie znaleziono żadnych przyszłych turniejów Kluby.org. "
-            "Strona mogła zmienić układ lub zablokować automatyczną przeglądarkę."
+            "W logu KLUBY_DEBUG znajduje się struktura strony do dopasowania parsera."
         )
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
