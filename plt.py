@@ -23,38 +23,18 @@ FALLBACK_CATEGORIES = {
 }
 
 MONTHS = {
-    "stycznia": 1,
-    "styczen": 1,
-    "styczeń": 1,
-    "lutego": 2,
-    "luty": 2,
-    "marca": 3,
-    "marzec": 3,
-    "kwietnia": 4,
-    "kwiecien": 4,
-    "kwiecień": 4,
-    "maja": 5,
-    "maj": 5,
-    "czerwca": 6,
-    "czerwiec": 6,
-    "lipca": 7,
-    "lipiec": 7,
-    "sierpnia": 8,
-    "sierpien": 8,
-    "sierpień": 8,
-    "wrzesnia": 9,
-    "września": 9,
-    "wrzesien": 9,
-    "wrzesień": 9,
-    "pazdziernika": 10,
-    "października": 10,
-    "pazdziernik": 10,
-    "październik": 10,
-    "listopada": 11,
-    "listopad": 11,
-    "grudnia": 12,
-    "grudzien": 12,
-    "grudzień": 12,
+    "stycznia": 1, "styczen": 1, "styczeń": 1,
+    "lutego": 2, "luty": 2,
+    "marca": 3, "marzec": 3,
+    "kwietnia": 4, "kwiecien": 4, "kwiecień": 4,
+    "maja": 5, "maj": 5,
+    "czerwca": 6, "czerwiec": 6,
+    "lipca": 7, "lipiec": 7,
+    "sierpnia": 8, "sierpien": 8, "sierpień": 8,
+    "wrzesnia": 9, "września": 9, "wrzesien": 9, "wrzesień": 9,
+    "pazdziernika": 10, "października": 10, "pazdziernik": 10, "październik": 10,
+    "listopada": 11, "listopad": 11,
+    "grudnia": 12, "grudzien": 12, "grudzień": 12,
 }
 
 CTA_RE = re.compile(r"^(zobacz więcej|sprawdź wyniki|wez udział|weź udział)$", re.I)
@@ -80,8 +60,7 @@ def canonical_list_url(href: str) -> str | None:
 
 
 def parse_polish_date_line(text: str, season_year: int) -> tuple[str, str] | None:
-    value = clean(text).lower()
-    value = value.replace("–", "-").replace("—", "-")
+    value = clean(text).lower().replace("–", "-").replace("—", "-")
 
     m = re.fullmatch(
         r"(\d{1,2})\s+([a-ząćęłńóśźż]+)\s*-\s*(\d{1,2})\s+([a-ząćęłńóśźż]+)(?:\s+(\d{4}))?",
@@ -93,9 +72,10 @@ def parse_polish_date_line(text: str, season_year: int) -> tuple[str, str] | Non
             return None
         y2 = int(year or season_year)
         y1 = y2 - 1 if MONTHS[mon1] > MONTHS[mon2] else y2
-        start = date(y1, MONTHS[mon1], int(d1))
-        end = date(y2, MONTHS[mon2], int(d2))
-        return start.isoformat(), end.isoformat()
+        return (
+            date(y1, MONTHS[mon1], int(d1)).isoformat(),
+            date(y2, MONTHS[mon2], int(d2)).isoformat(),
+        )
 
     m = re.fullmatch(
         r"(\d{1,2})\s*-\s*(\d{1,2})\s+([a-ząćęłńóśźż]+)(?:\s+(\d{4}))?",
@@ -106,9 +86,10 @@ def parse_polish_date_line(text: str, season_year: int) -> tuple[str, str] | Non
         if month not in MONTHS:
             return None
         y = int(year or season_year)
-        start = date(y, MONTHS[month], int(d1))
-        end = date(y, MONTHS[month], int(d2))
-        return start.isoformat(), end.isoformat()
+        return (
+            date(y, MONTHS[month], int(d1)).isoformat(),
+            date(y, MONTHS[month], int(d2)).isoformat(),
+        )
 
     m = re.fullmatch(r"(\d{1,2})\s+([a-ząćęłńóśźż]+)(?:\s+(\d{4}))?", value)
     if m:
@@ -118,7 +99,6 @@ def parse_polish_date_line(text: str, season_year: int) -> tuple[str, str] | Non
         y = int(year or season_year)
         d = date(y, MONTHS[month], int(day)).isoformat()
         return d, d
-
     return None
 
 
@@ -127,13 +107,11 @@ def title_from_lines(lines: list[str], date_index: int) -> str:
     candidates = []
     for line in lines[:cta_index]:
         low = line.casefold()
-        if not line or len(line) < 5:
+        if len(line) < 5:
             continue
         if low.startswith("turniej cyklu") or re.fullmatch(r"x\d+", low):
             continue
-        if low in {"logo", "katering"}:
-            continue
-        if "sezon 20" in low:
+        if low in {"logo", "katering"} or "sezon 20" in low:
             continue
         candidates.append(line)
     if not candidates:
@@ -183,19 +161,27 @@ def extract_cards(page, category_name: str) -> list[dict]:
           for (const a of links) {
             const href = a.href;
             if (!href || seen.has(href)) continue;
+
             let node = a;
             let chosen = null;
-            for (let i = 0; i < 8 && node; i++) {
+            let fallback = null;
+            for (let i = 0; i < 10 && node; i++) {
               node = node.parentElement;
               if (!node) break;
               const txt = (node.innerText || '').trim();
-              if (txt.length >= 25 && txt.length <= 1200 && monthRe.test(txt)) {
+              if (txt.length < 25 || txt.length > 1600 || !monthRe.test(txt)) continue;
+
+              if (!fallback) fallback = node;
+              const hasTitleYear = /20\d{2}/.test(txt);
+              const ctaCount = [...node.querySelectorAll('a')].filter(x => ctaRe.test((x.innerText || '').trim())).length;
+              if (hasTitleYear && ctaCount >= 1 && ctaCount <= 4) {
                 chosen = node;
-                const ctaCount = [...node.querySelectorAll('a')].filter(x => ctaRe.test((x.innerText || '').trim())).length;
-                if (ctaCount >= 1 && ctaCount <= 3) break;
+                break;
               }
             }
+            chosen = chosen || fallback;
             if (!chosen) continue;
+
             const lines = (chosen.innerText || '')
               .split(/\n+/)
               .map(x => x.replace(/\s+/g, ' ').trim())
@@ -214,12 +200,11 @@ def extract_cards(page, category_name: str) -> list[dict]:
         date_index = -1
         parsed_dates = None
         for i, line in enumerate(lines):
-            if not DATE_LINE_RE.match(line):
-                continue
-            parsed_dates = parse_polish_date_line(line, season_year)
-            if parsed_dates:
-                date_index = i
-                break
+            if DATE_LINE_RE.match(line):
+                parsed_dates = parse_polish_date_line(line, season_year)
+                if parsed_dates:
+                    date_index = i
+                    break
         if date_index < 0 or not parsed_dates:
             continue
 
@@ -228,17 +213,15 @@ def extract_cards(page, category_name: str) -> list[dict]:
         if not title:
             continue
         data_od, data_do = parsed_dates
-        items.append(
-            {
-                "zrodlo": "PLT",
-                "kategoria": category_name,
-                "nazwa": title,
-                "data_od": data_od,
-                "data_do": data_do,
-                "miasto": city,
-                "url": raw["href"],
-            }
-        )
+        items.append({
+            "zrodlo": "PLT",
+            "kategoria": category_name,
+            "nazwa": title,
+            "data_od": data_od,
+            "data_do": data_do,
+            "miasto": city,
+            "url": raw["href"],
+        })
     return items
 
 
@@ -246,7 +229,6 @@ def discover_categories(page) -> dict[str, str]:
     categories = dict(FALLBACK_CATEGORIES)
     page.goto(START_URL, wait_until="domcontentloaded", timeout=45000)
     page.wait_for_timeout(1800)
-
     links = page.evaluate(
         r"""
         () => [...document.querySelectorAll('a[href]')].map(a => ({
@@ -255,7 +237,6 @@ def discover_categories(page) -> dict[str, str]:
         }))
         """
     )
-
     for item in links:
         url = canonical_list_url(item.get("href", ""))
         text = clean(item.get("text", ""))
@@ -283,8 +264,7 @@ def main() -> None:
             locale="pl-PL",
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/152.0 Safari/537.36"
+                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0 Safari/537.36"
             ),
         )
         page = context.new_page()
@@ -311,10 +291,7 @@ def main() -> None:
 
     turnieje = sorted(unique.values(), key=lambda x: (x["data_od"], x["miasto"], x["nazwa"]))
     if not turnieje:
-        raise RuntimeError(
-            "Nie znaleziono żadnych nadchodzących turniejów PLT. "
-            "Strona mogła zmienić układ albo blokować przeglądarkę automatyczną."
-        )
+        raise RuntimeError("Nie znaleziono żadnych nadchodzących turniejów PLT.")
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     wynik = {
@@ -326,10 +303,7 @@ def main() -> None:
         "bledy": errors,
         "turnieje": turnieje,
     }
-    OUTPUT_FILE.write_text(
-        json.dumps(wynik, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    OUTPUT_FILE.write_text(json.dumps(wynik, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"PLT: łącznie pobrano {len(turnieje)} turniejów -> {OUTPUT_FILE}")
 
 
