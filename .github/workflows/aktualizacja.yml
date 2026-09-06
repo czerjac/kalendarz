@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - "plt.py"
+      - "kluby.py"
       - "requirements.txt"
       - ".github/workflows/aktualizacja.yml"
 
@@ -28,7 +29,7 @@ jobs:
       - name: Zainstaluj biblioteki
         run: pip install -r requirements.txt
 
-      - name: Zainstaluj Chromium dla PLT
+      - name: Zainstaluj Chromium dla stron JavaScript
         run: python -m playwright install --with-deps chromium
 
       - name: Pobierz turnieje PZT
@@ -40,11 +41,14 @@ jobs:
       - name: Pobierz turnieje PLT
         run: python plt.py
 
+      - name: Pobierz turnieje Kluby.org
+        run: python kluby.py
+
       - name: Zapisz wynik w repozytorium
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/turnieje_pzt.json data/turnieje_cuply.json data/turnieje_plt.json
+          git add data/turnieje_pzt.json data/turnieje_cuply.json data/turnieje_plt.json data/turnieje_kluby.json
           if git diff --cached --quiet; then
             echo "Brak zmian w danych."
           else
