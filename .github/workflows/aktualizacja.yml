@@ -4,15 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 4 * * *"
-  push:
-    paths:
-      - "pzt.py"
-      - "cuply.py"
-      - "plt.py"
-      - "kluby.py"
-      - "build.py"
-      - "requirements.txt"
-      - ".github/workflows/aktualizacja.yml"
+
+concurrency:
+  group: kalendarz-aktualizacja
+  cancel-in-progress: false
 
 permissions:
   contents: write
