@@ -1,0 +1,228 @@
+{
+  "zrodlo": "PZT TOP",
+  "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
+  "pobrano_utc": "2026-09-06T14:53:17+00:00",
+  "liczba_turniejow": 22,
+  "turnieje": [
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "V Myszkowska Liga Tenisowa Kobiet",
+      "data_od": "2026-05-11",
+      "data_do": "2026-10-31",
+      "miasto": "Myszków",
+      "ranga": "5",
+      "kategorie": "Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=57496268-6699-45FC-8338-7B2675DED639"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "V Myszkowska Liga Tenisowa Mężczyzn",
+      "data_od": "2026-05-11",
+      "data_do": "2026-10-31",
+      "miasto": "Myszków",
+      "ranga": "4",
+      "kategorie": "Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "JAREXS&LEXUS CUP 2026",
+      "data_od": "2026-09-04",
+      "data_do": "2026-09-06",
+      "miasto": "Legnica",
+      "ranga": "2",
+      "kategorie": "40+, 50+, 60+, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=2BCA8E74-98D8-4955-B399-5D11E07F9A2C"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "TENIS CLUB KK \"LATO 2026\"",
+      "data_od": "2026-09-05",
+      "data_do": "2026-09-06",
+      "miasto": "KEDZIERZYN-KOZLE",
+      "ranga": "3",
+      "kategorie": "50+, 60+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=16C74C18-66AF-4867-932F-94E808EFE8EA"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Klubowy Debel Pań WRZESIEŃ - ArKademia OLESNO",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "Olesno",
+      "ranga": "5",
+      "kategorie": "Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=43ADA3A1-0902-4533-8B93-6E46E43F27A9"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=18B8F410-E9A8-4ADE-A093-0CF0023B5949"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "\"Gryfino Open 2026\"",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "Gryfino",
+      "ranga": "3",
+      "kategorie": "45+, 60+, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=A940B588-FF38-4707-B1C0-07A2ECEE20A5"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Intelight Open Kołobrzeg",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-14",
+      "miasto": "Kołobrzeg",
+      "ranga": "2",
+      "kategorie": "40+, 45+, 50+, 60+, 70+, Open Amator, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F686A07C-5544-4ECF-AB6A-380A742F1796"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Klubowy MIXT WRZESIEŃ - ArKademia OLESNO",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "Olesno",
+      "ranga": "5",
+      "kategorie": "Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=56E632DF-5D31-4F75-B856-219905D2F828"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "TEMPO -SPORT Cup",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-13",
+      "miasto": "Połczyn -Zdrój",
+      "ranga": "3",
+      "kategorie": "55+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=34B357C3-2123-48AD-A548-DA87307DB2AD"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "MISTRZOSTWA RZESZOWA",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-13",
+      "miasto": "RZESZÓW",
+      "ranga": "3",
+      "kategorie": "40+, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=AAC7C0C0-F48A-4F5A-B2D8-2AF775FFF636"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Turniej Tenisowy o Puchar ABEL",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-13",
+      "miasto": "Sieradz",
+      "ranga": "3",
+      "kategorie": "50+, 60+, Open Amator, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=EE394AF9-008B-48A3-8C22-E013D672A5E4"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=5F698FAF-974D-4548-9D37-EAEC2EC8CE8C"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-09-18",
+      "data_do": "2026-09-18",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "70+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=D703BD36-8AE0-451E-81B3-AEBF438E7497"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Plusssz OPEN 2026",
+      "data_od": "2026-09-18",
+      "data_do": "2026-09-20",
+      "miasto": "Łęczna",
+      "ranga": "3",
+      "kategorie": "50+, Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=80B4625B-3B00-4F14-B52A-FA27F56720A0"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "TOP PZT Tour - VIII Memoriał Jurka Osoby",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-20",
+      "miasto": "Zamość",
+      "ranga": "2",
+      "kategorie": "45+, 55+, 65+, 75+, Open Amator, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=76B12D48-991B-4098-B048-65D339E3E686"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-09-20",
+      "data_do": "2026-09-20",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=A691A78D-4329-42F0-A8FE-71DFABE41147"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "TENIS CLUB KK \"LATO 2026\"",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-27",
+      "miasto": "KEDZIERZYN-KOZLE",
+      "ranga": "3",
+      "kategorie": "Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=C9A54B2C-3FBB-459A-B564-1EA39BFF8610"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Klubowy Singiel Panów WRZESIEŃ - ArKademia",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Olesno",
+      "ranga": "5",
+      "kategorie": "Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=E35A4909-FB88-47F5-AE80-3B8EB44B9A76"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Klubowy Singiel Pań WRZESIEŃ - ArKademia OLESNO",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Olesno",
+      "ranga": "5",
+      "kategorie": "Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=30A8EA48-1D65-4B5A-A408-B07159A7FC4B"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=7DD01AB2-8081-4775-B6D6-9DBD9B9225A3"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "IX Mem. Popielucha i Wesołowskiego",
+      "data_od": "2026-10-16",
+      "data_do": "2026-10-18",
+      "miasto": "Radom",
+      "ranga": "2",
+      "kategorie": "45+, 60+, Open Amator, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=33496672-4633-4B65-B2DD-11343A2FC8B0"
+    }
+  ]
+}
