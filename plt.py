@@ -83,7 +83,6 @@ def parse_polish_date_line(text: str, season_year: int) -> tuple[str, str] | Non
     value = clean(text).lower()
     value = value.replace("–", "-").replace("—", "-")
 
-    # 30 sierpnia - 1 września 2026
     m = re.fullmatch(
         r"(\d{1,2})\s+([a-ząćęłńóśźż]+)\s*-\s*(\d{1,2})\s+([a-ząćęłńóśźż]+)(?:\s+(\d{4}))?",
         value,
@@ -93,14 +92,11 @@ def parse_polish_date_line(text: str, season_year: int) -> tuple[str, str] | Non
         if mon1 not in MONTHS or mon2 not in MONTHS:
             return None
         y2 = int(year or season_year)
-        y1 = y2
-        if MONTHS[mon1] > MONTHS[mon2]:
-            y1 -= 1
+        y1 = y2 - 1 if MONTHS[mon1] > MONTHS[mon2] else y2
         start = date(y1, MONTHS[mon1], int(d1))
         end = date(y2, MONTHS[mon2], int(d2))
         return start.isoformat(), end.isoformat()
 
-    # 5 - 8 lipca 2026
     m = re.fullmatch(
         r"(\d{1,2})\s*-\s*(\d{1,2})\s+([a-ząćęłńóśźż]+)(?:\s+(\d{4}))?",
         value,
@@ -114,7 +110,6 @@ def parse_polish_date_line(text: str, season_year: int) -> tuple[str, str] | Non
         end = date(y, MONTHS[month], int(d2))
         return start.isoformat(), end.isoformat()
 
-    # 11 lipca 2026
     m = re.fullmatch(r"(\d{1,2})\s+([a-ząćęłńóśźż]+)(?:\s+(\d{4}))?", value)
     if m:
         day, month, year = m.groups()
@@ -141,15 +136,9 @@ def title_from_lines(lines: list[str], date_index: int) -> str:
         if "sezon 20" in low:
             continue
         candidates.append(line)
-
     if not candidates:
         candidates = [line for line in lines[:date_index] if len(line) >= 5 and not CTA_RE.match(line)]
-
-    if not candidates:
-        return ""
-
-    # Nazwy turniejów są zwykle najdłuższą linią w karcie.
-    return max(candidates, key=len)
+    return max(candidates, key=len) if candidates else ""
 
 
 def city_from_lines(lines: list[str], date_index: int, title: str) -> str:
@@ -160,9 +149,7 @@ def city_from_lines(lines: list[str], date_index: int, title: str) -> str:
             continue
         if low.startswith("turniej cyklu") or re.fullmatch(r"x\d+", low):
             continue
-        if low in {"logo", "katering"}:
-            continue
-        if len(line) > 80:
+        if low in {"logo", "katering"} or len(line) > 80:
             continue
         return line
     return ""
@@ -171,14 +158,13 @@ def city_from_lines(lines: list[str], date_index: int, title: str) -> str:
 def extract_cards(page, category_name: str) -> list[dict]:
     try:
         page.wait_for_function(
-            """() => !document.body.innerText.includes('Trwa ładowanie...')""",
+            "() => !document.body.innerText.includes('Trwa ładowanie...')",
             timeout=12000,
         )
     except PlaywrightTimeoutError:
         pass
 
     page.wait_for_timeout(1200)
-
     season_year = datetime.now().year
     body_text = clean(page.locator("body").inner_text())
     m = re.search(r"Sezon\s+(20\d{2})", body_text, re.I)
@@ -186,7 +172,7 @@ def extract_cards(page, category_name: str) -> list[dict]:
         season_year = int(m.group(1))
 
     raw_cards = page.evaluate(
-        """
+        r"""
         () => {
           const ctaRe = /^(Zobacz więcej|Sprawdź wyniki|Weź udział|Wez udział)$/i;
           const monthRe = /(stycznia|lutego|marca|kwietnia|maja|czerwca|lipca|sierpnia|września|wrzesnia|października|pazdziernika|listopada|grudnia)/i;
@@ -197,7 +183,6 @@ def extract_cards(page, category_name: str) -> list[dict]:
           for (const a of links) {
             const href = a.href;
             if (!href || seen.has(href)) continue;
-
             let node = a;
             let chosen = null;
             for (let i = 0; i < 8 && node; i++) {
@@ -211,7 +196,6 @@ def extract_cards(page, category_name: str) -> list[dict]:
               }
             }
             if (!chosen) continue;
-
             const lines = (chosen.innerText || '')
               .split(/\n+/)
               .map(x => x.replace(/\s+/g, ' ').trim())
@@ -236,7 +220,6 @@ def extract_cards(page, category_name: str) -> list[dict]:
             if parsed_dates:
                 date_index = i
                 break
-
         if date_index < 0 or not parsed_dates:
             continue
 
@@ -244,7 +227,6 @@ def extract_cards(page, category_name: str) -> list[dict]:
         city = city_from_lines(lines, date_index, title)
         if not title:
             continue
-
         data_od, data_do = parsed_dates
         items.append(
             {
@@ -257,7 +239,6 @@ def extract_cards(page, category_name: str) -> list[dict]:
                 "url": raw["href"],
             }
         )
-
     return items
 
 
@@ -267,7 +248,7 @@ def discover_categories(page) -> dict[str, str]:
     page.wait_for_timeout(1800)
 
     links = page.evaluate(
-        """
+        r"""
         () => [...document.querySelectorAll('a[href]')].map(a => ({
           text: (a.innerText || '').replace(/\s+/g, ' ').trim(),
           href: a.href
@@ -281,13 +262,9 @@ def discover_categories(page) -> dict[str, str]:
         if not url or not text:
             continue
         folded = text.casefold()
-        if any(
-            token in folded
-            for token in ["puchar plt", "1. liga", "2. liga", "plt kobiet", "deble", "miksty", "wiekowe", "45+"]
-        ):
+        if any(token in folded for token in ["puchar plt", "1. liga", "2. liga", "plt kobiet", "deble", "miksty", "wiekowe", "45+"]):
             categories[text] = url
 
-    # Deduplikacja po adresie, preferując krótkie i czytelne nazwy fallbackowe.
     by_url: dict[str, str] = {}
     for name, url in categories.items():
         if url not in by_url or len(name) < len(by_url[url]):
@@ -312,7 +289,6 @@ def main() -> None:
         )
         page = context.new_page()
         page.set_default_timeout(15000)
-
         categories = discover_categories(page)
 
         for category_name, base_url in categories.items():
@@ -323,13 +299,11 @@ def main() -> None:
                 checked.append({"kategoria": category_name, "url": incoming_url, "liczba": len(items)})
                 all_items.extend(items)
                 print(f"PLT: {category_name}: {len(items)} turniejów")
-            except Exception as exc:  # pojedyncza kategoria nie może wyłączyć całego importu
+            except Exception as exc:
                 errors.append(f"{category_name}: {type(exc).__name__}: {exc}")
                 print(f"PLT: błąd dla {category_name}: {exc}")
-
         browser.close()
 
-    # Deduplikacja. Ten sam turniej może pojawić się pod więcej niż jedną ścieżką/odnośnikiem.
     unique: dict[tuple[str, str, str, str], dict] = {}
     for item in all_items:
         key = (item["kategoria"], item["nazwa"], item["data_od"], item["miasto"])
