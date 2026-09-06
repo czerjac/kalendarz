@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-06T15:35:25+00:00",
+  "pobrano_utc": "2026-09-06T15:37:48+00:00",
   "liczba_turniejow": 53,
   "kategorie_sprawdzone": [
     {
@@ -37,42 +37,6 @@
   ],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "Sędziszów Małopolski",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-sedziszowa-malopolskiego-2026-5544"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "Wejherowo",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-mistrzostwa-wejherowa-2026-5549"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "Wejherowo",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-mistrzostwa-wejherowa-2026-5540"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "Kategorie wiekowe",
-      "nazwa": "Wejherowo",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-50-otwarte-mistrzostwa-wejherowa-2026-5550"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
@@ -147,21 +111,39 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Sędziszowa Małopolskiego 2026",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "Sędziszów Małopolski",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-sedziszowa-malopolskiego-2026-5544"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "Skarżysko-Kamienna",
-      "data_od": "2026-09-13",
+      "nazwa": "1. LIGA. Otwarte Mistrzostwa Wejherowa 2026",
+      "data_od": "2026-09-12",
       "data_do": "2026-09-13",
-      "miasto": "",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5542"
+      "miasto": "Wejherowo",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-mistrzostwa-wejherowa-2026-5549"
     },
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
-      "nazwa": "Skarżysko-Kamienna",
-      "data_od": "2026-09-13",
+      "nazwa": "2. LIGA. Otwarte Mistrzostwa Wejherowa 2026",
+      "data_od": "2026-09-12",
       "data_do": "2026-09-13",
-      "miasto": "",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5543"
+      "miasto": "Wejherowo",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-mistrzostwa-wejherowa-2026-5540"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "Kategorie wiekowe",
+      "nazwa": "PLT 50+. Otwarte Mistrzostwa Wejherowa 2026",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-13",
+      "miasto": "Wejherowo",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-50-otwarte-mistrzostwa-wejherowa-2026-5550"
     },
     {
       "zrodlo": "PLT",
@@ -225,6 +207,24 @@
       "data_do": "2026-09-13",
       "miasto": "Oława",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-olawy-2026-5514"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Skarżyska-Kamiennej 2026",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "Skarżysko-Kamienna",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5542"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Skarżyska-Kamiennej 2026",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "Skarżysko-Kamienna",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5543"
     },
     {
       "zrodlo": "PLT",
@@ -372,15 +372,6 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "Gorzów Wielkopolski",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-indywidualne-mistrzostwa-wojewodztwa-lubuskiego-2026-5475"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Turniej o Puchar Klubu Tenisowego Antuka 2026",
       "data_od": "2026-09-20",
@@ -396,6 +387,15 @@
       "data_do": "2026-09-20",
       "miasto": "Częstochowa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-puchar-klubu-tenisowego-antuka-2026-5567"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Letnie Mistrzostwa Województwa Lubuskiego 2026",
+      "data_od": "2026-09-20",
+      "data_do": "2026-09-20",
+      "miasto": "Gorzów Wielkopolski",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-indywidualne-mistrzostwa-wojewodztwa-lubuskiego-2026-5475"
     },
     {
       "zrodlo": "PLT",
@@ -436,10 +436,10 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "Chełmek k. Oświęcimia",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu MOKSiR Chełmek 2026- Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
-      "miasto": "",
+      "miasto": "Chełmek k. Oświęcimia",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-moksir-chelmek-2026-5570"
     },
     {
