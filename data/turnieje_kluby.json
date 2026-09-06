@@ -1,0 +1,607 @@
+{
+  "zrodlo": "Kluby.org",
+  "pobrano_utc": "2026-09-06T15:46:20+00:00",
+  "liczba_turniejow": 57,
+  "miesiace_sprawdzone": [
+    {
+      "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
+      "liczba": 42
+    },
+    {
+      "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
+      "liczba": 11
+    },
+    {
+      "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
+      "liczba": 3
+    },
+    {
+      "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
+      "liczba": 3
+    },
+    {
+      "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-01-01&data_do=2027-01-31&zakladka=0",
+      "liczba": 3
+    },
+    {
+      "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-02-01&data_do=2027-02-28&zakladka=0",
+      "liczba": 3
+    },
+    {
+      "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-03-01&data_do=2027-03-31&zakladka=0",
+      "liczba": 3
+    }
+  ],
+  "turnieje": [
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Reda",
+      "data_od": "2026-09-05",
+      "data_do": "2026-09-06",
+      "miasto": "Reda",
+      "miejsce": "MOSiR w Redzie, Reda",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12123"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Ziaja Grand Prix Wybrzeża +50",
+      "data_od": "2026-09-05",
+      "data_do": "2026-09-06",
+      "miasto": "Sopot",
+      "miejsce": "Sopot Tenis Klub, Sopot",
+      "kategorie": "SENIORZY +50",
+      "url": "https://kluby.org/turnieje/12122"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mikstowy Turniej Ino-Cup 2026",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "Inowrocław",
+      "miejsce": "OSIR Inowrocław, Inowrocław",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12075"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Indywidualny Turniej Kobiet",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "Mińsk Mazowiecki",
+      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
+      "kategorie": "KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/12058"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turnieje dla dzieci i młodzieży w kat. do lat 10,12 i 16",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "Ostrołęka",
+      "miejsce": "Ostrołęckie Stowarzyszenie Tenisowe, Ostrołęka",
+      "kategorie": "JUNIORZY",
+      "url": "https://kluby.org/turnieje/12126"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel 35+\"Lato z WARS-em 2026\"",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/11394"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Jesień Tenis 10 Cup o puchar A. Radwańskiej",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "Warszawa",
+      "miejsce": "WKT Mera, Warszawa",
+      "kategorie": "TENIS10 POMARAŃCZOWA (GSORANGE) TENIS10 POMARAŃCZOWA (BSORANGE)",
+      "url": "https://kluby.org/turnieje/12150"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mazowsze Cup - U16",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "Warszawa",
+      "miejsce": "Perun Wesoła, Warszawa",
+      "kategorie": "JUNIORZY U16 JUNIORZY U16 (Dziewczęta)",
+      "url": "https://kluby.org/turnieje/11958"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Memoriał Artura Kaniewskiego",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "Włocławek",
+      "miejsce": "Włocławski Klub Tenisowy, Włocławek",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12164"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Otwarte Mistrzostwa Łomży Kobiet",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "Łomża",
+      "miejsce": "Skate Park Łomża, Łomża",
+      "kategorie": "KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/12128"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": ",,JESIEŃ 2026’’",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-13",
+      "miasto": "Białystok",
+      "miejsce": "Korty Gdańska, Białystok",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12050"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Slow Flow Ladies Cup",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-13",
+      "miasto": "Białystok",
+      "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
+      "kategorie": "KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/11925"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Deblowe Mistrzostwa Rumi",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "Rumia",
+      "miejsce": "TKKF Orzeł Rumia, Rumia",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12056"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mistrzostwa Rumi - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Rumia",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-13",
+      "miasto": "Rumia",
+      "miejsce": "TKKF Orzeł Rumia, Rumia",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12148"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "ZIAJA Grand Prix Wybrzeża +60",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-13",
+      "miasto": "Sopot",
+      "miejsce": "Sopot Tenis Klub, Sopot",
+      "kategorie": "SENIORZY +60",
+      "url": "https://kluby.org/turnieje/12165"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Indywidualny turniej dla początkujących",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "Mińsk Mazowiecki",
+      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12059"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Kobiet 35+ \"Lato z WARS-em 2026\"",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/11399"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Grand Prix Mazowsza Juniorów",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "Warszawa",
+      "miejsce": "Jazda Tennis Academy, Warszawa",
+      "kategorie": "JUNIORZY U12 JUNIORZY U14 JUNIORZY U16 JUNIORZY U18",
+      "url": "https://kluby.org/turnieje/12155"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej o Puchar 3. Ligi",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-20",
+      "miasto": "Białystok",
+      "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12107"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Amatorski Turniej Tenisa Ziemnego",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19",
+      "miasto": "Chorzów",
+      "miejsce": "MORIS Chorzów Filarowa, Chorzów",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12082"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "JABŁOŃ CUP 2026",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19",
+      "miasto": "Pisz",
+      "miejsce": "Klub Tenisowy Pisz-Point, Pisz",
+      "kategorie": "OPEN KOBIETY OPEN SENIORZY +50 DEBEL DEBEL KOBIETY DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/11994"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "DEBEL KOBIET OPEN AMATOR",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19",
+      "miasto": "Sopot",
+      "miejsce": "Sopot Tenis Klub, Sopot",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12124"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mixt Open",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19",
+      "miasto": "Warszawa",
+      "miejsce": "Spójnia Górna, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/11901"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Park Tennis Academy Open",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19",
+      "miasto": "Warszawa",
+      "miejsce": "Park Tennis Academy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12156"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej kwalifikacyjny TENES Challenge Ladies Zima 2026/2027",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/12006"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej kwalifikacyjny TENES Challenge Open Zima 2026/2027",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12005"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej Mikstowy",
+      "data_od": "2026-09-20",
+      "data_do": "2026-09-20",
+      "miasto": "Mińsk Mazowiecki",
+      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12060"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "III Liga ŁLT Grupa Barażowa 2026",
+      "data_od": "2026-09-20",
+      "data_do": "2026-09-20",
+      "miasto": "Łomża",
+      "miejsce": "Skate Park Łomża, Łomża",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12145"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "V GP Barlinka",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Barlinek",
+      "miejsce": "Barlinecki Klub Tenisowy, Barlinek",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/11724"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Masters Ligi Letniej",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Białystok",
+      "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
+      "kategorie": "",
+      "url": "https://kluby.org/turnieje/11780"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Michałufka singiel OPEN",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Warszawa",
+      "miejsce": "Szkoła Tenisa Break, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/11955"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Gentlemans Club - Turniej Debel - Americano & Event dla Panów ( wewnętrzny dla klubowiczów )",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12112"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Mikst 35+ Masters",
+      "data_od": "2026-10-04",
+      "data_do": "2026-10-04",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/11386"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES GPM Debel Open",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12113"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES Single Cup kat. CLUB+ - wewnętrzny turniej dla Klubowiczów",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12114"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel 35+ Masters",
+      "data_od": "2026-10-11",
+      "data_do": "2026-10-11",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/11389"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES GPM Mikst Cup",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-17",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12115"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES Single Cup kat. BASIC+ - wewnętrzny turniej dla Klubowiczów",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-17",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12116"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Kobiet 35+ Masters",
+      "data_od": "2026-10-18",
+      "data_do": "2026-10-18",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/11402"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
+      "data_od": "2026-10-25",
+      "data_do": "2026-10-25",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12084"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Singiel kobiet AQUARIUS Medical Cup",
+      "data_od": "2026-10-25",
+      "data_do": "2026-10-25",
+      "miasto": "Warszawa",
+      "miejsce": "Szkoła Tenisa Break, Warszawa",
+      "kategorie": "KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/11956"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej Mikstowy (halloween)",
+      "data_od": "2026-10-31",
+      "data_do": "2026-10-31",
+      "miasto": "Żyrardów",
+      "miejsce": "Matchpoint Żyrardów, Żyrardów",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/11825"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12089"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Kobiet 35+ Zima z WARS-em 2026/27",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12094"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12085"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12090"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Kobiet 35+ Zima z WARS-em 2026/27",
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12095"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
+      "data_od": "2026-12-20",
+      "data_do": "2026-12-20",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12086"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
+      "data_od": "2027-01-10",
+      "data_do": "2027-01-10",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12091"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Kobiet 35+ Zima z WARS-em 2026/27",
+      "data_od": "2027-01-17",
+      "data_do": "2027-01-17",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12097"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
+      "data_od": "2027-01-24",
+      "data_do": "2027-01-24",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12087"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
+      "data_od": "2027-02-14",
+      "data_do": "2027-02-14",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12092"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Kobiet 35+ Zima z WARS-em 2026/27",
+      "data_od": "2027-02-21",
+      "data_do": "2027-02-21",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12098"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
+      "data_od": "2027-02-28",
+      "data_do": "2027-02-28",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12088"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
+      "data_od": "2027-03-07",
+      "data_do": "2027-03-07",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12093"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debel Kobiet 35+ Zima z WARS-em 2026/27",
+      "data_od": "2027-03-14",
+      "data_do": "2027-03-14",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12099"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Masters Debel Mikst 35+ Zima z WARS-em 2026/27 (na zaproszenie)",
+      "data_od": "2027-03-21",
+      "data_do": "2027-03-21",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12100"
+    }
+  ]
+}
