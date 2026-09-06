@@ -72,10 +72,7 @@ def parse_polish_date_line(text: str, season_year: int) -> tuple[str, str] | Non
             return None
         y2 = int(year or season_year)
         y1 = y2 - 1 if MONTHS[mon1] > MONTHS[mon2] else y2
-        return (
-            date(y1, MONTHS[mon1], int(d1)).isoformat(),
-            date(y2, MONTHS[mon2], int(d2)).isoformat(),
-        )
+        return date(y1, MONTHS[mon1], int(d1)).isoformat(), date(y2, MONTHS[mon2], int(d2)).isoformat()
 
     m = re.fullmatch(
         r"(\d{1,2})\s*-\s*(\d{1,2})\s+([a-ząćęłńóśźż]+)(?:\s+(\d{4}))?",
@@ -86,10 +83,7 @@ def parse_polish_date_line(text: str, season_year: int) -> tuple[str, str] | Non
         if month not in MONTHS:
             return None
         y = int(year or season_year)
-        return (
-            date(y, MONTHS[month], int(d1)).isoformat(),
-            date(y, MONTHS[month], int(d2)).isoformat(),
-        )
+        return date(y, MONTHS[month], int(d1)).isoformat(), date(y, MONTHS[month], int(d2)).isoformat()
 
     m = re.fullmatch(r"(\d{1,2})\s+([a-ząćęłńóśźż]+)(?:\s+(\d{4}))?", value)
     if m:
@@ -135,10 +129,7 @@ def city_from_lines(lines: list[str], date_index: int, title: str) -> str:
 
 def extract_cards(page, category_name: str) -> list[dict]:
     try:
-        page.wait_for_function(
-            "() => !document.body.innerText.includes('Trwa ładowanie...')",
-            timeout=12000,
-        )
+        page.wait_for_function("() => !document.body.innerText.includes('Trwa ładowanie...')", timeout=12000)
     except PlaywrightTimeoutError:
         pass
 
@@ -157,11 +148,9 @@ def extract_cards(page, category_name: str) -> list[dict]:
           const result = [];
           const seen = new Set();
           const links = [...document.querySelectorAll('a')].filter(a => ctaRe.test((a.innerText || '').trim()));
-
           for (const a of links) {
             const href = a.href;
             if (!href || seen.has(href)) continue;
-
             let node = a;
             let chosen = null;
             let fallback = null;
@@ -170,7 +159,6 @@ def extract_cards(page, category_name: str) -> list[dict]:
               if (!node) break;
               const txt = (node.innerText || '').trim();
               if (txt.length < 25 || txt.length > 1600 || !monthRe.test(txt)) continue;
-
               if (!fallback) fallback = node;
               const hasTitleYear = /20\d{2}/.test(txt);
               const ctaCount = [...node.querySelectorAll('a')].filter(x => ctaRe.test((x.innerText || '').trim())).length;
@@ -181,7 +169,6 @@ def extract_cards(page, category_name: str) -> list[dict]:
             }
             chosen = chosen || fallback;
             if (!chosen) continue;
-
             const lines = (chosen.innerText || '')
               .split(/\n+/)
               .map(x => x.replace(/\s+/g, ' ').trim())
@@ -207,7 +194,6 @@ def extract_cards(page, category_name: str) -> list[dict]:
                     break
         if date_index < 0 or not parsed_dates:
             continue
-
         title = title_from_lines(lines, date_index)
         city = city_from_lines(lines, date_index, title)
         if not title:
@@ -253,10 +239,29 @@ def discover_categories(page) -> dict[str, str]:
     return {name: url for url, name in by_url.items()}
 
 
+def load_previous_future() -> dict[str, list[dict]]:
+    result: dict[str, list[dict]] = {}
+    if not OUTPUT_FILE.exists():
+        return result
+    try:
+        payload = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return result
+
+    today = date.today().isoformat()
+    for item in payload.get("turnieje", []):
+        category = clean(item.get("kategoria"))
+        if category and clean(item.get("data_do")) >= today:
+            result.setdefault(category, []).append(item)
+    return result
+
+
 def main() -> None:
     all_items: list[dict] = []
     errors: list[str] = []
+    warnings: list[str] = []
     checked: list[dict] = []
+    previous = load_previous_future()
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -276,12 +281,34 @@ def main() -> None:
             try:
                 page.goto(incoming_url, wait_until="domcontentloaded", timeout=45000)
                 items = extract_cards(page, category_name)
+
+                # Jednorazowy pusty wynik bywa efektem niedoładowania aplikacji PLT — spróbuj ponownie.
+                if not items:
+                    page.reload(wait_until="domcontentloaded", timeout=45000)
+                    page.wait_for_timeout(1200)
+                    items = extract_cards(page, category_name)
+
+                # Jeśli nadal jest pusto, nie kasuj wcześniej znanych przyszłych turniejów tej kategorii.
+                if not items and previous.get(category_name):
+                    items = previous[category_name]
+                    warning = f"{category_name}: pusty odczyt po ponowieniu; zachowano {len(items)} poprzednich przyszłych rekordów"
+                    warnings.append(warning)
+                    print(f"PLT: UWAGA: {warning}")
+
                 checked.append({"kategoria": category_name, "url": incoming_url, "liczba": len(items)})
                 all_items.extend(items)
                 print(f"PLT: {category_name}: {len(items)} turniejów")
             except Exception as exc:
-                errors.append(f"{category_name}: {type(exc).__name__}: {exc}")
-                print(f"PLT: błąd dla {category_name}: {exc}")
+                old = previous.get(category_name, [])
+                if old:
+                    all_items.extend(old)
+                    warning = f"{category_name}: błąd odczytu; zachowano {len(old)} poprzednich przyszłych rekordów"
+                    warnings.append(warning)
+                    checked.append({"kategoria": category_name, "url": incoming_url, "liczba": len(old)})
+                    print(f"PLT: UWAGA: {warning}")
+                else:
+                    errors.append(f"{category_name}: {type(exc).__name__}: {exc}")
+                    print(f"PLT: błąd dla {category_name}: {exc}")
         browser.close()
 
     unique: dict[tuple[str, str, str, str], dict] = {}
@@ -300,6 +327,7 @@ def main() -> None:
         "pobrano_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "liczba_turniejow": len(turnieje),
         "kategorie_sprawdzone": checked,
+        "ostrzezenia": warnings,
         "bledy": errors,
         "turnieje": turnieje,
     }
