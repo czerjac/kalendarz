@@ -13,12 +13,12 @@ BASE_URL = "https://kluby.org"
 OUTPUT_FILE = Path("data/turnieje_kluby.json")
 DETAIL_RE = re.compile(r"^/turnieje/(\d+)(?:/.*)?$")
 DATE_RE = re.compile(
-    r"Termin:\s*(\d{4}/\d{2}/\d{2})(?:\s*\([^)]*\))?"
+    r"Termin\s*:\s*(\d{4}/\d{2}/\d{2})(?:\s*\([^)]*\))?"
     r"(?:\s*-\s*(\d{4}/\d{2}/\d{2})(?:\s*\([^)]*\))?)?",
     re.I,
 )
-PLACE_RE = re.compile(r"Miejsce:\s*(.+?)(?=\s+Kategorie:|$)", re.I)
-CATEGORIES_RE = re.compile(r"Kategorie:\s*(.+)$", re.I)
+PLACE_RE = re.compile(r"Miejsce\s*:\s*(.+?)(?=\s+Kategorie\s*:|$)", re.I)
+CATEGORIES_RE = re.compile(r"Kategorie\s*:\s*(.+)$", re.I)
 CTA_RE = re.compile(r"^(?:ZAPISZ\s+SIĘ(?:\s+ONLINE)?\s+|ZAPISZ\s+SIE(?:\s+ONLINE)?\s+)", re.I)
 
 
@@ -92,7 +92,7 @@ def parse_card_text(text: str, url: str) -> dict | None:
 def extract_cards(page) -> list[dict]:
     try:
         page.wait_for_function(
-            "() => document.body && document.body.innerText.includes('Termin:')",
+            "() => document.body && /Termin\\s*:/.test(document.body.innerText)",
             timeout=20000,
         )
     except PlaywrightTimeoutError:
@@ -124,7 +124,7 @@ def extract_cards(page) -> list[dict]:
               node = node.parentElement;
               if (!node) break;
               const text = (node.innerText || '').replace(/\s+/g, ' ').trim();
-              if (text.includes('Termin:') && text.includes('Kategorie:') && text.length <= 2000) {
+              if (/Termin\s*:/.test(text) && /Kategorie\s*:/.test(text) && text.length <= 2000) {
                 chosen = node;
                 break;
               }
