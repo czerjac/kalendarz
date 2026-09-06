@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+import calendar
 import json
 import re
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode, urlparse, urlunparse
 
@@ -12,6 +13,7 @@ from playwright.sync_api import sync_playwright
 BASE_URL = "https://kluby.org"
 OUTPUT_FILE = Path("data/turnieje_kluby.json")
 DETAIL_RE = re.compile(r"^/turnieje/(\d+)(?:/.*)?$")
+DETAIL_IN_HTML_RE = re.compile(r"(?:https?://(?:www\.)?kluby\.org)?(/turnieje/\d+)")
 DATE_RE = re.compile(
     r"Termin\s*:\s*(\d{4}/\d{2}/\d{2})(?:\s*\([^)]*\))?"
     r"(?:\s*-\s*(\d{4}/\d{2}/\d{2})(?:\s*\([^)]*\))?)?",
@@ -19,24 +21,41 @@ DATE_RE = re.compile(
 )
 PLACE_RE = re.compile(r"Miejsce\s*:\s*(.+?)(?=\s+Kategorie\s*:|$)", re.I)
 CATEGORIES_RE = re.compile(r"Kategorie\s*:\s*(.+)$", re.I)
-CTA_RE = re.compile(r"^(?:ZAPISZ\s+SIĘ(?:\s+ONLINE)?\s+|ZAPISZ\s+SIE(?:\s+ONLINE)?\s+)", re.I)
+CTA_RE = re.compile(r"^(?:ZAPISZ\s+SIĘ(?:\s+ONLINE)?|ZAPISZ\s+SIE(?:\s+ONLINE)?)\s*", re.I)
+DAY_HEADER_RE = re.compile(
+    r"^(?:Poniedziałek|Wtorek|Środa|Czwartek|Piątek|Sobota|Niedziela),\s+"
+    r"\d{1,2}\s+[A-Za-zĄąĆćĘęŁłŃńÓóŚśŹźŻż]+\s+\d{4}r?\.?(?:\s+|$)",
+    re.I,
+)
 
 
 def clean(text: str) -> str:
     return " ".join((text or "").replace("\xa0", " ").split())
 
 
-def calendar_url() -> str:
-    start = date.today()
-    end = start + timedelta(days=180)
-    params = {
-        "data_od": start.isoformat(),
-        "data_do": end.isoformat(),
-        "filtr": "1",
-        "opcja": "kalendarz",
-        "zakladka": "1",
-    }
-    return f"{BASE_URL}/tenis/turnieje?{urlencode(params)}"
+def add_months(d: date, months: int) -> date:
+    total = d.year * 12 + (d.month - 1) + months
+    year, month0 = divmod(total, 12)
+    return date(year, month0 + 1, 1)
+
+
+def month_urls(months_ahead: int = 6) -> list[str]:
+    first = date.today().replace(day=1)
+    urls: list[str] = []
+    for offset in range(months_ahead + 1):
+        start = add_months(first, offset)
+        last_day = calendar.monthrange(start.year, start.month)[1]
+        end = date(start.year, start.month, last_day)
+        params = {
+            "filtr": "1",
+            "opcja": "kalendarz",
+            "data_od": start.isoformat(),
+            "data_do": end.isoformat(),
+            # 0 = wszystkie kategorie; 1 oznacza tylko OPEN.
+            "zakladka": "0",
+        }
+        urls.append(f"{BASE_URL}/tenis/turnieje?{urlencode(params)}")
+    return urls
 
 
 def canonical_detail_url(href: str) -> str | None:
@@ -44,12 +63,25 @@ def canonical_detail_url(href: str) -> str | None:
         parsed = urlparse(href)
     except ValueError:
         return None
-    if parsed.netloc not in {"kluby.org", "www.kluby.org"}:
+    if parsed.netloc and parsed.netloc not in {"kluby.org", "www.kluby.org"}:
         return None
     match = DETAIL_RE.match(parsed.path.rstrip("/"))
     if not match:
         return None
     return urlunparse(("https", "kluby.org", f"/turnieje/{match.group(1)}", "", "", ""))
+
+
+def detail_url_from_raw(raw: dict, fallback_url: str) -> str:
+    href = raw.get("href") or ""
+    canonical = canonical_detail_url(href)
+    if canonical:
+        return canonical
+
+    html = raw.get("html") or ""
+    match = DETAIL_IN_HTML_RE.search(html)
+    if match:
+        return f"{BASE_URL}{match.group(1)}"
+    return fallback_url
 
 
 def parse_card_text(text: str, url: str) -> dict | None:
@@ -59,6 +91,7 @@ def parse_card_text(text: str, url: str) -> dict | None:
         return None
 
     before_date = clean(value[: date_match.start()])
+    before_date = DAY_HEADER_RE.sub("", before_date).strip()
     name = CTA_RE.sub("", before_date).strip(" -–—")
     if not name or len(name) < 3:
         return None
@@ -89,86 +122,66 @@ def parse_card_text(text: str, url: str) -> dict | None:
     }
 
 
-def extract_cards(page) -> list[dict]:
+def extract_cards(page, source_url: str) -> list[dict]:
     try:
         page.wait_for_function(
             "() => document.body && /Termin\\s*:/.test(document.body.innerText)",
-            timeout=20000,
+            timeout=15000,
         )
     except PlaywrightTimeoutError:
         pass
-    page.wait_for_timeout(1500)
+    page.wait_for_timeout(800)
 
     body_text = clean(page.locator("body").inner_text())
     blocked_tokens = ["403 forbidden", "access denied", "captcha", "cloudflare"]
     if any(token in body_text.casefold() for token in blocked_tokens):
-        raise RuntimeError(f"Kluby.org zablokowało przeglądarkę. Początek strony: {body_text[:300]}")
+        raise RuntimeError("Kluby.org zablokowało automatyczną przeglądarkę")
 
     raw_cards = page.evaluate(
         r"""
         () => {
-          const result = [];
-          const seen = new Set();
-          const anchors = [...document.querySelectorAll('a[href]')];
-          for (const a of anchors) {
-            let u;
-            try { u = new URL(a.href, location.href); } catch { continue; }
-            const match = u.pathname.match(/^\/turnieje\/(\d+)(?:\/.*)?$/);
-            if (!match) continue;
-            const id = match[1];
-            if (seen.has(id)) continue;
+          const selectors = 'div, li, article, section, td';
+          const all = [...document.querySelectorAll(selectors)];
+          const candidates = all.filter(el => {
+            const text = (el.innerText || '').replace(/\s+/g, ' ').trim();
+            const terminCount = (text.match(/Termin\s*:/g) || []).length;
+            return terminCount === 1 && /Kategorie\s*:/.test(text) && text.length >= 25 && text.length <= 2000;
+          });
 
-            let node = a;
-            let chosen = null;
-            for (let i = 0; i < 10 && node; i++) {
-              node = node.parentElement;
-              if (!node) break;
-              const text = (node.innerText || '').replace(/\s+/g, ' ').trim();
-              if (/Termin\s*:/.test(text) && /Kategorie\s*:/.test(text) && text.length <= 2000) {
-                chosen = node;
-                break;
-              }
-            }
-            if (!chosen) continue;
-            result.push({
-              href: a.href,
-              text: (chosen.innerText || '').replace(/\s+/g, ' ').trim()
-            });
-            seen.add(id);
-          }
-          return result;
+          // Zostaw najmniejszy sensowny element zawierający dokładnie jeden turniej.
+          const minimal = candidates.filter(el => ![...el.children].some(ch => {
+            const text = (ch.innerText || '').replace(/\s+/g, ' ').trim();
+            return (text.match(/Termin\s*:/g) || []).length === 1 && /Kategorie\s*:/.test(text) && text.length >= 25;
+          }));
+
+          return minimal.map(el => {
+            const link = el.querySelector('a[href*="/turnieje/"]') || el.closest('a[href*="/turnieje/"]');
+            return {
+              text: (el.innerText || '').replace(/\s+/g, ' ').trim(),
+              href: link ? link.href : '',
+              html: el.outerHTML.slice(0, 5000)
+            };
+          });
         }
         """
     )
 
-    if not raw_cards:
-        debug = page.evaluate(
-            r"""
-            () => ({
-              title: document.title,
-              body: (document.body?.innerText || '').slice(0, 5000),
-              links: [...document.querySelectorAll('a[href]')]
-                .filter(a => (a.href || '').includes('turniej'))
-                .slice(0, 80)
-                .map(a => ({text: (a.innerText || '').replace(/\s+/g, ' ').trim(), href: a.href}))
-            })
-            """
-        )
-        print("KLUBY_DEBUG=" + json.dumps(debug, ensure_ascii=False))
-
-    by_url: dict[str, dict] = {}
+    by_key: dict[tuple[str, str, str, str], dict] = {}
     for raw in raw_cards:
-        url = canonical_detail_url(raw.get("href", ""))
-        if not url:
-            continue
+        url = detail_url_from_raw(raw, source_url)
         item = parse_card_text(raw.get("text", ""), url)
-        if item:
-            by_url[url] = item
-    return list(by_url.values())
+        if not item:
+            continue
+        key = (item["nazwa"], item["data_od"], item["data_do"], item["miasto"])
+        by_key[key] = item
+    return list(by_key.values())
 
 
 def main() -> None:
-    source_url = calendar_url()
+    urls = month_urls(6)
+    all_items: list[dict] = []
+    checked: list[dict] = []
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
@@ -180,35 +193,47 @@ def main() -> None:
         )
         page = context.new_page()
         page.set_default_timeout(20000)
-        response = page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
-        status = response.status if response else None
-        print(f"Kluby.org: status HTTP przeglądarki: {status}")
-        turnieje = extract_cards(page)
+
+        for source_url in urls:
+            response = page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
+            status = response.status if response else None
+            if status and status >= 400:
+                raise RuntimeError(f"Kluby.org zwróciło HTTP {status}: {source_url}")
+            items = extract_cards(page, source_url)
+            checked.append({"url": source_url, "liczba": len(items)})
+            all_items.extend(items)
+            print(f"Kluby.org: {source_url}: {len(items)} turniejów")
+
         browser.close()
 
     today = date.today().isoformat()
-    turnieje = [item for item in turnieje if item["data_do"] >= today]
-    turnieje.sort(key=lambda x: (x["data_od"], x["miasto"], x["nazwa"]))
+    unique: dict[tuple[str, str, str, str], dict] = {}
+    for item in all_items:
+        if item["data_do"] < today:
+            continue
+        key = (item["nazwa"], item["data_od"], item["data_do"], item["miasto"])
+        # Preferuj bezpośredni link do turnieju, jeśli któryś duplikat go ma.
+        current = unique.get(key)
+        if current is None or ("/turnieje/" in item["url"] and "/tenis/turnieje?" in current["url"]):
+            unique[key] = item
 
+    turnieje = sorted(unique.values(), key=lambda x: (x["data_od"], x["miasto"], x["nazwa"]))
     if not turnieje:
-        raise RuntimeError(
-            "Nie znaleziono żadnych przyszłych turniejów Kluby.org. "
-            "W logu KLUBY_DEBUG znajduje się struktura strony do dopasowania parsera."
-        )
+        raise RuntimeError("Nie znaleziono żadnych przyszłych turniejów Kluby.org")
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     wynik = {
         "zrodlo": "Kluby.org",
-        "adres_zrodla": source_url,
         "pobrano_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "liczba_turniejow": len(turnieje),
+        "miesiace_sprawdzone": checked,
         "turnieje": turnieje,
     }
     OUTPUT_FILE.write_text(
         json.dumps(wynik, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(f"Kluby.org: pobrano {len(turnieje)} turniejów -> {OUTPUT_FILE}")
+    print(f"Kluby.org: łącznie pobrano {len(turnieje)} turniejów -> {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
