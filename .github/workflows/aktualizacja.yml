@@ -1,0 +1,39 @@
+name: Aktualizacja kalendarza
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  aktualizacja:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Zainstaluj biblioteki
+        run: pip install -r requirements.txt
+
+      - name: Pobierz turnieje PZT
+        run: python pzt.py
+
+      - name: Zapisz wynik w repozytorium
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/turnieje_pzt.json
+          if git diff --cached --quiet; then
+            echo "Brak zmian w danych."
+          else
+            git commit -m "Automatyczna aktualizacja kalendarza PZT"
+            git push
+          fi
