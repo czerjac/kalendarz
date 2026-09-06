@@ -6,8 +6,11 @@ on:
     - cron: "17 4 * * *"
   push:
     paths:
+      - "pzt.py"
+      - "cuply.py"
       - "plt.py"
       - "kluby.py"
+      - "build.py"
       - "requirements.txt"
       - ".github/workflows/aktualizacja.yml"
 
@@ -33,22 +36,29 @@ jobs:
         run: python -m playwright install --with-deps chromium
 
       - name: Pobierz turnieje PZT
+        continue-on-error: true
         run: python pzt.py
 
       - name: Pobierz turnieje Cuply
+        continue-on-error: true
         run: python cuply.py
 
       - name: Pobierz turnieje PLT
+        continue-on-error: true
         run: python plt.py
 
       - name: Pobierz turnieje Kluby.org
+        continue-on-error: true
         run: python kluby.py
+
+      - name: Zbuduj wspólny kalendarz
+        run: python build.py
 
       - name: Zapisz wynik w repozytorium
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/turnieje_pzt.json data/turnieje_cuply.json data/turnieje_plt.json data/turnieje_kluby.json
+          git add data/*.json
           if git diff --cached --quiet; then
             echo "Brak zmian w danych."
           else
