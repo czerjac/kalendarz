@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-06T15:49:38+00:00",
-  "liczba_turniejow": 22,
+  "pobrano_utc": "2026-09-07T09:23:22+00:00",
+  "liczba_turniejow": 18,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -23,46 +23,6 @@
       "ranga": "4",
       "kategorie": "Open Amator",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "JAREXS&LEXUS CUP 2026",
-      "data_od": "2026-09-04",
-      "data_do": "2026-09-06",
-      "miasto": "Legnica",
-      "ranga": "2",
-      "kategorie": "40+, 50+, 60+, Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=2BCA8E74-98D8-4955-B399-5D11E07F9A2C"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "TENIS CLUB KK \"LATO 2026\"",
-      "data_od": "2026-09-05",
-      "data_do": "2026-09-06",
-      "miasto": "KEDZIERZYN-KOZLE",
-      "ranga": "3",
-      "kategorie": "50+, 60+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=16C74C18-66AF-4867-932F-94E808EFE8EA"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "Klubowy Debel Pań WRZESIEŃ - ArKademia OLESNO",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "Olesno",
-      "ranga": "5",
-      "kategorie": "Open Amator",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=43ADA3A1-0902-4533-8B93-6E46E43F27A9"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "60+, 70+, 80+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=18B8F410-E9A8-4ADE-A093-0CF0023B5949"
     },
     {
       "zrodlo": "PZT TOP",

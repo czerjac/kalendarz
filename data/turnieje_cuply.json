@@ -1,22 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-09-06T15:49:43+00:00",
+  "pobrano_utc": "2026-09-07T09:23:28+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Gryfino I dla średniozaawansowanych",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "Gryfino",
-      "miejsce": "Korty Tenisowe w Gryfinie, Gryfino",
-      "typ_gry": "Singiel",
-      "poziom": "Cuply Challenger dla średniozaawansowanych (do 3.5 NTRP)",
-      "plec": "",
-      "wpisowe": "120 zł",
-      "url": "https://cuply.pl/turnieje/cuply-challenger-gryfino-i"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "Challenger Koszalin I dla średniozaawansowanych (do 4.0 NTRP)",
@@ -133,6 +120,19 @@
       "plec": "Wszyscy",
       "wpisowe": "139 zł",
       "url": "https://cuply.pl/turnieje/cuply-futures-stargard-ii-do-25-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Stargard Masters II (zaawansowani amatorzy)",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Stargard",
+      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "Singiel",
+      "poziom": "Cuply Masters (dla zaawansowanych amatorów)",
+      "plec": "",
+      "wpisowe": "120 zł",
+      "url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-06T15:50:07+00:00",
-  "liczba_turniejow": 57,
+  "pobrano_utc": "2026-09-07T09:23:55+00:00",
+  "liczba_turniejow": 49,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 42
+      "liczba": 44
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -35,103 +35,13 @@
   "turnieje": [
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Reda",
-      "data_od": "2026-09-05",
-      "data_do": "2026-09-06",
-      "miasto": "Reda",
-      "miejsce": "MOSiR w Redzie, Reda",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12123"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Ziaja Grand Prix Wybrzeża +50",
-      "data_od": "2026-09-05",
-      "data_do": "2026-09-06",
-      "miasto": "Sopot",
-      "miejsce": "Sopot Tenis Klub, Sopot",
-      "kategorie": "SENIORZY +50",
-      "url": "https://kluby.org/turnieje/12122"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Mikstowy Turniej Ino-Cup 2026",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "Inowrocław",
-      "miejsce": "OSIR Inowrocław, Inowrocław",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12075"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Indywidualny Turniej Kobiet",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "Mińsk Mazowiecki",
-      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
-      "kategorie": "KOBIETY OPEN",
-      "url": "https://kluby.org/turnieje/12058"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turnieje dla dzieci i młodzieży w kat. do lat 10,12 i 16",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "Ostrołęka",
-      "miejsce": "Ostrołęckie Stowarzyszenie Tenisowe, Ostrołęka",
-      "kategorie": "JUNIORZY",
-      "url": "https://kluby.org/turnieje/12126"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Debel 35+\"Lato z WARS-em 2026\"",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "Warszawa",
-      "miejsce": "TKKF Wars, Warszawa",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/11394"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Jesień Tenis 10 Cup o puchar A. Radwańskiej",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "Warszawa",
-      "miejsce": "WKT Mera, Warszawa",
-      "kategorie": "TENIS10 POMARAŃCZOWA (GSORANGE) TENIS10 POMARAŃCZOWA (BSORANGE)",
-      "url": "https://kluby.org/turnieje/12150"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Mazowsze Cup - U16",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "Warszawa",
-      "miejsce": "Perun Wesoła, Warszawa",
-      "kategorie": "JUNIORZY U16 JUNIORZY U16 (Dziewczęta)",
-      "url": "https://kluby.org/turnieje/11958"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Memoriał Artura Kaniewskiego",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "Włocławek",
-      "miejsce": "Włocławski Klub Tenisowy, Włocławek",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12164"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Otwarte Mistrzostwa Łomży Kobiet",
-      "data_od": "2026-09-06",
-      "data_do": "2026-09-06",
-      "miasto": "Łomża",
-      "miejsce": "Skate Park Łomża, Łomża",
-      "kategorie": "KOBIETY OPEN",
-      "url": "https://kluby.org/turnieje/12128"
+      "nazwa": "OTWRTE MISTRZOSTWA DOWÓDZTW I INSTYTUCJI MON",
+      "data_od": "2026-09-07",
+      "data_do": "2026-09-07",
+      "miasto": "Kołobrzeg",
+      "miejsce": "Baltic Tennis Club, Kołobrzeg",
+      "kategorie": "OPEN (DRUŻYNOWE MP)",
+      "url": "https://kluby.org/turnieje/12166"
     },
     {
       "zrodlo": "Kluby.org",
@@ -152,6 +62,16 @@
       "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
       "kategorie": "KOBIETY OPEN",
       "url": "https://kluby.org/turnieje/11925"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "II TURNIEJ O PUCHAR WÓJTA GMINY GARWOLIN",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "Garwolin",
+      "miejsce": "Garwolińska Akademia Tenisowa, Garwolin",
+      "kategorie": "OPEN JUNIORZY U12 JUNIORZY U18",
+      "url": "https://kluby.org/turnieje/12167"
     },
     {
       "zrodlo": "Kluby.org",
