@@ -1,5 +1,5 @@
 {
-  "wygenerowano_utc": "2026-09-07T19:49:02+00:00",
+  "wygenerowano_utc": "2026-09-07T19:51:19+00:00",
   "liczba_turniejow": 128,
   "liczba_wg_zrodla": {
     "PZT TOP": 17,
@@ -488,7 +488,7 @@
     {
       "id": "7237bece3a86d0",
       "zrodlo": "Cuply",
-      "cykl": "Cyklu Cuply",
+      "cykl": "",
       "nazwa": "Koszalin Masters (zaawansowani amatorzy)",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -5471,9 +5471,9 @@
       "kategoria_zrodla": ""
     }
   ],
-  "regiony_aktualizacja_utc": "2026-09-07T19:49:02+00:00",
+  "regiony_aktualizacja_utc": "2026-09-07T19:51:19+00:00",
   "liczba_turniejow_bez_wojewodztwa": 0,
-  "szczegoly_aktualizacja_utc": "2026-09-07T19:49:02+00:00",
+  "szczegoly_aktualizacja_utc": "2026-09-07T19:51:19+00:00",
   "szczegoly_pobrano_w_tym_przebiegu": 0,
   "szczegoly_bledy_w_tym_przebiegu": 0,
   "liczba_wg_organizacji": {
@@ -5490,7 +5490,6 @@
       "TOP PZT"
     ],
     "cykle": [
-      "Cyklu Cuply",
       "Grand Prix Mazowsza",
       "Grand Prix Podlasia i Mazur",
       "Jesienne Mistrzostwa PLT",
