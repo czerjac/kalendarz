@@ -1,0 +1,75 @@
+name: Zbuduj wtyczkę 0.1.2
+
+on:
+  push:
+    paths:
+      - ".github/workflows/zbuduj-plugin-012.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Popraw link PLT
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          php_path = Path('wordpress/tenis-net-kalendarz/tenis-net-kalendarz.php')
+          readme_path = Path('wordpress/tenis-net-kalendarz/readme.txt')
+
+          php = php_path.read_text(encoding='utf-8')
+          php = php.replace('Version: 0.1.1', 'Version: 0.1.2')
+          php = php.replace("const VERSION = '0.1.1';", "const VERSION = '0.1.2';")
+
+          old = '''    private static function details_url($item) {
+        if (!empty($item['zapisy_url'])) return esc_url($item['zapisy_url']);
+        if (!empty($item['url'])) return esc_url($item['url']);
+        return '';
+    }
+'''
+          new = '''    private static function details_url($item) {
+        // PLT: najpierw strona konkretnego turnieju, nie formularz rejestracji.
+        if (!empty($item['zrodlo']) && $item['zrodlo'] === 'PLT' && !empty($item['url'])) {
+            return esc_url($item['url']);
+        }
+        if (!empty($item['zapisy_url'])) return esc_url($item['zapisy_url']);
+        if (!empty($item['url'])) return esc_url($item['url']);
+        return '';
+    }
+'''
+          if old not in php:
+              raise SystemExit('Nie znaleziono funkcji details_url do podmiany')
+          php = php.replace(old, new, 1)
+          php_path.write_text(php, encoding='utf-8')
+
+          readme = readme_path.read_text(encoding='utf-8').replace('0.1.1', '0.1.2')
+          readme_path.write_text(readme, encoding='utf-8')
+          PY
+      - name: Test składni
+        run: |
+          php -l wordpress/tenis-net-kalendarz/tenis-net-kalendarz.php
+          grep -q "zrodlo.*PLT" wordpress/tenis-net-kalendarz/tenis-net-kalendarz.php
+      - name: Zapisz wersję 0.1.2
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add wordpress/tenis-net-kalendarz
+          git commit -m "Popraw link do strony turnieju PLT 0.1.2"
+          git pull --rebase origin main
+          git push
+      - name: Zbuduj ZIP
+        run: |
+          cd wordpress
+          zip -qr tenis-net-kalendarz-0.1.2.zip tenis-net-kalendarz
+      - name: Udostępnij ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: tenis-net-kalendarz-0.1.2
+          path: wordpress/tenis-net-kalendarz-0.1.2.zip
