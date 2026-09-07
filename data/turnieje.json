@@ -1,5 +1,5 @@
 {
-  "wygenerowano_utc": "2026-09-07T17:13:26+00:00",
+  "wygenerowano_utc": "2026-09-07T17:16:58+00:00",
   "liczba_turniejow": 129,
   "liczba_wg_zrodla": {
     "PZT TOP": 18,
@@ -750,7 +750,7 @@
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=5F698FAF-974D-4548-9D37-EAEC2EC8CE8C",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "3f278db66104c6",
@@ -864,7 +864,7 @@
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=D703BD36-8AE0-451E-81B3-AEBF438E7497",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "517df254b3d335",
@@ -883,7 +883,7 @@
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=80B4625B-3B00-4F14-B52A-FA27F56720A0",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "lubelskie"
     },
     {
       "id": "a9da002e188ba3",
@@ -1035,7 +1035,7 @@
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-konina-2026-5533",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "wielkopolskie"
     },
     {
       "id": "a81430c06d75e7",
@@ -1054,7 +1054,7 @@
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-konina-2026-5534",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "wielkopolskie"
     },
     {
       "id": "354de27ad8faaf",
@@ -1073,7 +1073,7 @@
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-jesienne-mistrzostwa-konina-2026-5532",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "wielkopolskie"
     },
     {
       "id": "42c1fce8520810",
@@ -1130,7 +1130,7 @@
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krosna-2026-5574",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "podkarpackie"
     },
     {
       "id": "3a0645d1eba5f0",
@@ -1149,7 +1149,7 @@
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-olesnica-closing-season-cup-2026-5556",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "dolnośląskie"
     },
     {
       "id": "e5e8f6d932b64b",
@@ -1168,7 +1168,7 @@
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-olesnica-closing-season-cup-2026-5557",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "dolnośląskie"
     },
     {
       "id": "3894dd513530d4",
@@ -1491,7 +1491,7 @@
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=A691A78D-4329-42F0-A8FE-71DFABE41147",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "2955d001843f45",
@@ -1586,7 +1586,7 @@
       "ranga": "",
       "url": "https://kluby.org/turnieje/11724",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "7369d9bdcc34ce",
@@ -1624,7 +1624,7 @@
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-moksir-chelmek-2026-5570",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "małopolskie"
     },
     {
       "id": "e18d5a4652502a",
@@ -1757,7 +1757,7 @@
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-zawiercia-2026-5595",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "śląskie"
     },
     {
       "id": "fe60cdd0c1ea10",
@@ -1795,7 +1795,7 @@
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=7DD01AB2-8081-4775-B6D6-9DBD9B9225A3",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "ee4dca09e3b362",
@@ -2463,6 +2463,6 @@
       "wojewodztwo": "mazowieckie"
     }
   ],
-  "regiony_aktualizacja_utc": "2026-09-07T17:14:00+00:00",
-  "liczba_turniejow_bez_wojewodztwa": 16
+  "regiony_aktualizacja_utc": "2026-09-07T17:16:59+00:00",
+  "liczba_turniejow_bez_wojewodztwa": 2
 }
