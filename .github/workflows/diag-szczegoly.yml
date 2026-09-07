@@ -1,0 +1,19 @@
+name: Diagnostyka szczegółów
+
+on:
+  push:
+    paths:
+      - "diag_szczegoly.py"
+      - ".github/workflows/diag-szczegoly.yml"
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - run: python diag_szczegoly.py
