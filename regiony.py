@@ -90,6 +90,7 @@ MANUAL_OVERRIDES = {
     "piaseczno": "mazowieckie",
     "zawiercie": "śląskie",
     "leczna": "lubelskie",
+    "kamien": "podkarpackie",
 }
 
 
