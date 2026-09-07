@@ -24,8 +24,10 @@ def clean(text: str | None) -> str:
 
 
 def stable_id(source: str, url: str, name: str, start: str) -> str:
-    raw = f"{source}|{url}|{name}|{start}".encode("utf-8")
-    return hashlib.sha1(raw).hexdigest()[:14]
+    # URL konkretnego turnieju jest stabilniejszy niż nazwa/data. Dzięki temu
+    # przesunięcie terminu lub drobna korekta nazwy nie tworzy nowego rekordu.
+    identity = f"{source}|{url}" if url else f"{source}|{name}|{start}"
+    return hashlib.sha1(identity.encode("utf-8")).hexdigest()[:14]
 
 
 def normalize_name(text: str) -> str:
@@ -44,7 +46,6 @@ def is_adult_amateur(item: dict) -> bool:
     if item.get("zrodlo") != "Kluby.org":
         return True
     categories = clean(item.get("kategorie"))
-    # Kluby.org miesza w jednym kalendarzu amatorów dorosłych z rozgrywkami młodzieżowymi.
     return not bool(YOUTH_RE.search(categories))
 
 
@@ -134,7 +135,6 @@ def main() -> None:
             items.append(item)
             counts[item["zrodlo"]] = counts.get(item["zrodlo"], 0) + 1
 
-    # Usuwamy wyłącznie identyczne rekordy wewnątrz tego samego źródła/URL.
     unique: dict[str, dict] = {}
     for item in items:
         unique[item["id"]] = item
