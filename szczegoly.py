@@ -5,7 +5,6 @@ import re
 import time
 from datetime import date, datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse, urlunparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -13,6 +12,7 @@ from playwright.sync_api import sync_playwright
 
 CALENDAR_FILE = Path("data/turnieje.json")
 CACHE_FILE = Path("data/szczegoly_turniejow.json")
+PARSER_VERSION = 2
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -53,18 +53,35 @@ def soup_lines(soup: BeautifulSoup) -> list[str]:
 
 
 def value_after(lines: list[str], labels: list[str]) -> str:
+    """Etykieta w osobnej linii albo zapis Etykieta:wartość."""
     wanted = [x.casefold().rstrip(":") for x in labels]
     for i, line in enumerate(lines):
-        folded = line.casefold().rstrip(":")
+        folded = line.casefold()
+        stripped = folded.rstrip(":")
         for label in wanted:
-            if folded == label:
+            if stripped == label:
                 if i + 1 < len(lines):
                     return clean(lines[i + 1])
             prefix = label + ":"
-            if line.casefold().startswith(prefix):
+            if folded.startswith(prefix):
                 value = clean(line[len(prefix):])
                 if value:
                     return value
+    return ""
+
+
+def value_prefix(lines: list[str], labels: list[str]) -> str:
+    """Zapis typu 'Wpisowe 130', 'Klub: ABC' albo 'Miejsce:Gdańsk'."""
+    wanted = [clean(x).casefold().rstrip(":") for x in labels]
+    for line in lines:
+        folded = line.casefold()
+        for label in wanted:
+            for sep in (":", " "):
+                prefix = label + sep
+                if folded.startswith(prefix):
+                    value = clean(line[len(prefix):])
+                    if value:
+                        return value
     return ""
 
 
@@ -80,7 +97,8 @@ def block_after(lines: list[str], labels: list[str], stop_labels: list[str], max
         return ""
     out: list[str] = []
     for line in lines[start:start + max_lines]:
-        if line.casefold().rstrip(":") in stops:
+        folded = line.casefold().rstrip(":")
+        if folded in stops:
             break
         out.append(line)
     return clean(" | ".join(out))
@@ -93,12 +111,6 @@ def normalize_voivodeship(value: str) -> str:
         if woj in folded:
             return woj
     return folded if folded in VOIVODESHIPS else ""
-
-
-def pzt_detail_url(url: str) -> str:
-    parsed = urlparse(url)
-    path = parsed.path.replace("TournamentResults.aspx", "Tournament.aspx")
-    return urlunparse(("https", parsed.netloc or "portal.pzt.pl", path, "", parsed.query, ""))
 
 
 def get_soup(session: requests.Session, url: str) -> BeautifulSoup:
@@ -128,17 +140,6 @@ def extract_cuply(session: requests.Session, item: dict) -> dict:
     m = re.search(r"Miejsce:\s*(.+?)(?:\n|$)", raw, re.I)
     if m:
         details["adres"] = clean(m.group(1))
-    desc = block_after(
-        lines,
-        ["Płeć uczestników"],
-        ["Dodatkowe informacje", "Nagrody", "Zobacz obiekt na mapie", "Uczestnicy"],
-        max_lines=18,
-    )
-    plec = details.get("plec", "")
-    if desc and plec and desc.startswith(plec):
-        desc = clean(desc[len(plec):].lstrip(" |"))
-    if desc:
-        details["opis"] = desc[:2500]
     cycle_match = re.search(r"Turniej wlicza się do\s+([^\n]+)", raw, re.I)
     if cycle_match:
         details["cykl_szczegolowy"] = clean(cycle_match.group(1))
@@ -146,9 +147,14 @@ def extract_cuply(session: requests.Session, item: dict) -> dict:
 
 
 def extract_pzt(session: requests.Session, item: dict) -> dict:
-    detail_url = pzt_detail_url(item["url"])
+    # TournamentResults.aspx zawiera pełny komunikat konkretnego turnieju.
+    detail_url = re.sub(r"^http://", "https://", item["url"], flags=re.I)
     soup = get_soup(session, detail_url)
     lines = soup_lines(soup)
+    page_text = clean(soup.get_text(" ", strip=True))
+    if clean(item.get("nazwa")) and clean(item["nazwa"]) not in page_text:
+        raise RuntimeError("PZT: strona szczegółów nie zawiera oczekiwanej nazwy turnieju")
+
     details = {
         "organizator": value_after(lines, ["Organizator"]),
         "adres": value_after(lines, ["Miejsce turnieju"]),
@@ -158,25 +164,45 @@ def extract_pzt(session: requests.Session, item: dict) -> dict:
         "dyrektor_turnieju": value_after(lines, ["Dyrektor turnieju"]),
         "sedzia_naczelny": value_after(lines, ["Sędzia naczelny"]),
         "pilka": value_after(lines, ["Piłka"]),
-        "zapisy_url": detail_url,
         "szczegoly_url": detail_url,
+        "zapisy_url": detail_url,
     }
-    fee = block_after(
-        lines,
-        ["Wpisowe"],
-        ["Nagrody", "Zakwaterowanie", "Uwagi", "Termin zgłoszeń", "Dyrektor turnieju"],
-        max_lines=12,
-    )
-    if fee:
-        details["wpisowe"] = fee[:1800]
-    contact = block_after(
-        lines,
-        ["Miejsce turnieju"],
-        ["Kategorie", "Turniej gł.", "Informacje", "Szczegóły", "Uwagi", "Termin zgłoszeń"],
-        max_lines=6,
-    )
-    if contact:
-        details["kontakt"] = contact[:800]
+
+    try:
+        idx = next(i for i, line in enumerate(lines) if line.casefold().rstrip(":") == "dyrektor turnieju")
+        contact_lines = []
+        for line in lines[idx + 2:idx + 6]:
+            if line.casefold().rstrip(":") in {"sędzia naczelny", "wpisowe", "rozgrywki"}:
+                break
+            if line.casefold().startswith(("tel.", "tel:", "email:", "e-mail:")):
+                contact_lines.append(line)
+        if contact_lines:
+            details["kontakt"] = " | ".join(contact_lines)
+    except StopIteration:
+        pass
+
+    try:
+        start = next(i for i, line in enumerate(lines) if line.casefold().rstrip(":") == "wpisowe") + 1
+        fee_lines = []
+        for line in lines[start:start + 10]:
+            if line.casefold().rstrip(":") in {"rozgrywki", "nagrody", "zakwaterowanie", "uwagi"}:
+                break
+            fee_lines.append(line)
+        if fee_lines:
+            details["wpisowe"] = " | ".join(fee_lines)
+    except StopIteration:
+        pass
+
+    try:
+        idx = next(i for i, line in enumerate(lines) if line.casefold().rstrip(":") == "typ")
+        if idx + 1 < len(lines):
+            details["typ_gry"] = lines[idx + 1]
+    except StopIteration:
+        pass
+
+    uwagi = value_after(lines, ["Uwagi"])
+    if uwagi:
+        details["opis"] = uwagi[:1800]
     return {k: v for k, v in details.items() if v}
 
 
@@ -193,81 +219,125 @@ def main_text_from_page(page) -> str:
     return page.locator("body").inner_text()
 
 
-def registration_url(page, fallback: str) -> str:
+def links_from_page(page) -> list[dict]:
     try:
-        links = page.locator("a[href]").evaluate_all(
+        return page.locator("a[href]").evaluate_all(
             """els => els.map(a => ({text:(a.innerText||'').replace(/\\s+/g,' ').trim(), href:a.href}))"""
         )
-        for link in links:
-            text = clean(link.get("text", "")).casefold()
-            href = clean(link.get("href", ""))
-            if not href:
-                continue
-            if re.search(r"zapisy|register|signup|rejestr", href, re.I):
-                return href
-            if any(token in text for token in ["zapisz", "weź udział", "wez udzial", "dołącz", "dolacz"]):
-                return href
     except Exception:
-        pass
+        return []
+
+
+def registration_url(page, fallback: str) -> str:
+    links = links_from_page(page)
+    for link in links:
+        text = clean(link.get("text", "")).casefold()
+        href = clean(link.get("href", ""))
+        if href and any(token in text for token in ["weź udział", "wez udzial", "zapisz się", "zapisz sie", "dołącz", "dolacz"]):
+            return href
+    for link in links:
+        href = clean(link.get("href", ""))
+        if href and re.search(r"zapisy|register|signup|rejestr", href, re.I):
+            return href
     return fallback
 
 
-def extract_browser(page, item: dict) -> dict:
+def extract_plt(page, item: dict) -> dict:
     response = page.goto(item["url"], wait_until="domcontentloaded", timeout=45000)
     if response is not None and response.status >= 400:
         raise RuntimeError(f"HTTP {response.status}")
     page.wait_for_timeout(900)
-    text = main_text_from_page(page)
-    lines = text_lines(text)
-    details = {
-        "organizator": value_after(lines, ["Organizator", "Organizator turnieju"]),
-        "wojewodztwo": normalize_voivodeship(value_after(lines, ["Województwo", "Wojewodztwo"])),
-        "adres": value_after(lines, ["Adres", "Adres obiektu"]),
-        "miejsce": value_after(lines, ["Miejsce turnieju", "Obiekt", "Klub", "Miejsce"]),
-        "wpisowe": value_after(lines, ["Wpisowe", "Opłata wpisowa"]),
-        "termin_zgloszen": value_after(lines, ["Termin zgłoszeń", "Termin zapisów", "Zapisy do", "Zgłoszenia do"]),
-        "system_gier": value_after(lines, ["System gier", "System rozgrywek", "Format"]),
-        "limit_uczestnikow": value_after(lines, ["Limit uczestników", "Limit zawodników"]),
-        "typ_gry": value_after(lines, ["Typ gry", "Rodzaj gry"]),
-        "poziom": value_after(lines, ["Poziom"]),
-        "plec": value_after(lines, ["Płeć uczestników", "Płeć"]),
-        "nawierzchnia": value_after(lines, ["Nawierzchnia"]),
-        "kategorie": value_after(lines, ["Kategorie", "Kategoria"]),
-        "zapisy_url": registration_url(page, item["url"]),
-        "szczegoly_url": item["url"],
-    }
+    lines = text_lines(main_text_from_page(page))
+
+    miejsce_line = value_prefix(lines, ["Miejsce"])
+    woj = ""
+    if "," in miejsce_line:
+        woj = normalize_voivodeship(miejsce_line.split(",")[-1])
+
+    venue_full = ""
+    for i, line in enumerate(lines):
+        if line.casefold().startswith("nawierzchnia latem:") and i > 0:
+            venue_full = lines[i - 1]
+            break
+    venue_name = venue_full.split(",", 1)[0].strip() if venue_full else ""
+
     cycle = ""
     for line in lines:
         m = re.search(r"Turniej cyklu\s+(.+)", line, re.I)
         if m:
             cycle = clean(m.group(1))
             break
-    if not cycle:
-        cycle = value_after(lines, ["Cykl"])
-    if cycle:
-        details["cykl_szczegolowy"] = cycle
 
-    opis = block_after(
-        lines,
-        ["Opis", "Informacje", "Informacje o turnieju"],
-        ["Uczestnicy", "Nagrody", "Zapisy", "Kontakt", "Organizator", "Miejsce"],
-        max_lines=24,
-    )
-    if opis:
-        details["opis"] = opis[:2500]
-
-    if item.get("zrodlo") == "Kluby.org":
-        try:
-            links = page.locator("a[href]").evaluate_all(
-                """els => els.map(a => a.href).filter(Boolean)"""
-            )
-            signup = next((href for href in links if re.search(r"/turnieje/\d+/zapisy", href)), "")
-            if signup:
-                details["zapisy_url"] = signup
-        except Exception:
-            pass
-
+    details = {
+        "cykl_szczegolowy": cycle,
+        "miejsce": venue_name or venue_full,
+        "adres": venue_full,
+        "wojewodztwo": woj,
+        "organizator": value_prefix(lines, ["Organizator"]),
+        "kontakt": value_prefix(lines, ["Kontakt do organizatora"]),
+        "wpisowe": value_prefix(lines, ["Wpisowe"]),
+        "system_gier": value_prefix(lines, ["System gier"]),
+        "limit_uczestnikow": value_prefix(lines, ["Limit uczestników"]),
+        "nawierzchnia": value_prefix(lines, ["Nawierzchnia latem"]),
+        "zapisy_url": registration_url(page, page.url),
+        "szczegoly_url": page.url,
+    }
     return {k: v for k, v in details.items() if v}
+
+
+def extract_kluby(page, item: dict) -> dict:
+    response = page.goto(item["url"], wait_until="domcontentloaded", timeout=45000)
+    if response is not None and response.status >= 400:
+        raise RuntimeError(f"HTTP {response.status}")
+    page.wait_for_timeout(700)
+    lines = text_lines(main_text_from_page(page))
+
+    miejsce = value_prefix(lines, ["Miejsce"])
+    klub = value_prefix(lines, ["Klub"])
+    details = {
+        "miejsce": klub or (miejsce.split(",", 1)[0] if miejsce else ""),
+        "adres": miejsce,
+        "kategorie": value_prefix(lines, ["Kategorie"]),
+        "rangi": value_prefix(lines, ["Rangi"]),
+        "wpisowe": value_prefix(lines, ["Wpisowe"]),
+        "dyrektor_turnieju": value_prefix(lines, ["Dyrektor turnieju"]),
+        "telefon_organizatora": value_prefix(lines, ["Telefon"]),
+        "email_organizatora": value_prefix(lines, ["E-mail", "Email"]),
+        "start_turnieju": value_prefix(lines, ["Start"]),
+        "termin_zgloszen": value_prefix(lines, ["Zapisy"]),
+        "cykl_szczegolowy": value_prefix(lines, ["Cykl"]),
+        "zapisy_url": registration_url(page, item["url"]),
+        "szczegoly_url": item["url"],
+    }
+
+    try:
+        idx = next(i for i, line in enumerate(lines) if line.casefold() == "dodatkowe informacje")
+        desc_lines = []
+        for line in lines[idx + 1:idx + 40]:
+            if line.casefold() in {"sponsorzy turnieju", "wyróżnione oferty", "wyroznione oferty", "mapa serwisu"}:
+                break
+            desc_lines.append(line)
+        if desc_lines:
+            details["opis"] = "\n".join(desc_lines)[:2500]
+            desc_flat = " ".join(desc_lines)
+            m = re.search(r"limit\s+(?:zgłoszeń|zgloszen|uczestnik(?:ów|ow))\s*(?:to|:)?\s*(\d+)", desc_flat, re.I)
+            if m:
+                details["limit_uczestnikow"] = m.group(1)
+    except StopIteration:
+        pass
+
+    contacts = [x for x in [details.get("telefon_organizatora"), details.get("email_organizatora")] if x]
+    if contacts:
+        details["kontakt"] = " | ".join(contacts)
+    return {k: v for k, v in details.items() if v}
+
+
+def extract_browser(page, item: dict) -> dict:
+    if item.get("zrodlo") == "PLT":
+        return extract_plt(page, item)
+    if item.get("zrodlo") == "Kluby.org":
+        return extract_kluby(page, item)
+    return {}
 
 
 def parse_last_success(entry: dict) -> date | None:
@@ -281,6 +351,8 @@ def parse_last_success(entry: dict) -> date | None:
 
 
 def due_for_refresh(item: dict, entry: dict, today: date) -> bool:
+    if entry.get("wersja_parsera") != PARSER_VERSION:
+        return True
     last = parse_last_success(entry)
     if last is None:
         return True
@@ -306,8 +378,8 @@ def merge_details(item: dict, details: dict) -> None:
     promotable = [
         "organizator", "adres", "wpisowe", "termin_zgloszen", "system_gier",
         "limit_uczestnikow", "nawierzchnia", "zapisy_url", "opis",
-        "telefon_organizatora", "kontakt", "cykl_szczegolowy",
-        "dyrektor_turnieju", "pilka",
+        "telefon_organizatora", "email_organizatora", "kontakt", "cykl_szczegolowy",
+        "dyrektor_turnieju", "sedzia_naczelny", "pilka", "start_turnieju", "rangi",
     ]
     for key in promotable:
         if details.get(key):
@@ -337,7 +409,7 @@ def main() -> None:
                 entry["usuniety_z_kalendarza_utc"] = now
             entry["aktywny_w_kalendarzu"] = False
 
-    due = []
+    due: list[dict] = []
     for item in items:
         event_id = str(item.get("id"))
         entry = cache.setdefault(event_id, {
@@ -376,8 +448,8 @@ def main() -> None:
                 details = extract_pzt(session, item)
             else:
                 details = {}
-            if details:
-                entry["dane"] = {**entry.get("dane", {}), **details}
+            entry["dane"] = details
+            entry["wersja_parsera"] = PARSER_VERSION
             entry["ostatnie_poprawne_pobranie_utc"] = now_iso()
             entry.pop("ostatni_blad", None)
             success += 1
@@ -398,8 +470,8 @@ def main() -> None:
                 entry["ostatnia_proba_utc"] = now_iso()
                 try:
                     details = extract_browser(page, item)
-                    if details:
-                        entry["dane"] = {**entry.get("dane", {}), **details}
+                    entry["dane"] = details
+                    entry["wersja_parsera"] = PARSER_VERSION
                     entry["ostatnie_poprawne_pobranie_utc"] = now_iso()
                     entry.pop("ostatni_blad", None)
                     success += 1
@@ -409,8 +481,6 @@ def main() -> None:
                 page.wait_for_timeout(500)
             browser.close()
 
-    # Jeśli szczegóły źródła PLT nie rozstrzygają niejednoznacznego "Kamienia",
-    # nie pokazujemy województwa z wcześniejszego geokodowania/cache jako pewnika.
     for item in items:
         event_id = str(item.get("id"))
         details = cache.get(event_id, {}).get("dane", {})
@@ -419,6 +489,7 @@ def main() -> None:
             item["wojewodztwo"] = ""
 
     cache_payload["aktualizacja_utc"] = now_iso()
+    cache_payload["wersja_parsera"] = PARSER_VERSION
     cache_payload["liczba_rekordow"] = len(cache)
     cache_payload["liczba_aktywnych"] = len(items)
     CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
