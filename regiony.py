@@ -82,6 +82,14 @@ MANUAL_OVERRIDES = {
     "zamosc": "lubelskie",
     "stalowa wola": "podkarpackie",
     "olesno": "opolskie",
+    "barlinek": "zachodniopomorskie",
+    "chelmek k oswiecimia": "małopolskie",
+    "konin": "wielkopolskie",
+    "krosno": "podkarpackie",
+    "olesnica": "dolnośląskie",
+    "piaseczno": "mazowieckie",
+    "zawiercie": "śląskie",
+    "leczna": "lubelskie",
 }
 
 
