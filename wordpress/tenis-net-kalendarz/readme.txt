@@ -1,7 +1,7 @@
 Tenis NET – Kalendarz turniejów amatorskich
 ============================================
 
-Wersja: 0.1.0
+Wersja: 0.1.1
 
 Instalacja
 ----------
@@ -24,7 +24,7 @@ https://raw.githubusercontent.com/czerjac/kalendarz/main/data/turnieje.json
 
 Wtyczka buforuje dane przez 15 minut i zachowuje ostatnią poprawną kopię na wypadek chwilowej niedostępności GitHuba.
 
-Wersja 0.1.0 – zakres MVP
+Wersja 0.1.1 – zakres MVP
 ------------------------
 - pobieranie wspólnego turnieje.json,
 - wyszukiwarka,
