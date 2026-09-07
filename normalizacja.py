@@ -62,6 +62,13 @@ def normalize_game_types(item: dict) -> list[str]:
             # pod oboma filtrami, zamiast zgadywać jedną z dwóch kategorii.
             kinds.extend(["debel", "mikst"])
 
+    # W Kluby.org gra pojedyncza jest często kategorią domyślną i nie jest
+    # zapisana słowem „singiel”. Jeśli nie ma śladu debla/miksta ani turnieju
+    # drużynowego, traktujemy taki turniej jako singlowy.
+    if source == "Kluby.org" and not kinds:
+        if not re.search(r"\b(druzyn\w*|team)\b", text):
+            kinds.append("singiel")
+
     order = ["singiel", "debel", "mikst"]
     return [kind for kind in order if kind in kinds]
 
