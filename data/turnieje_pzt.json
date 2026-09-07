@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-07T18:40:38+00:00",
-  "liczba_turniejow": 18,
+  "pobrano_utc": "2026-09-07T19:48:37+00:00",
+  "liczba_turniejow": 17,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -63,16 +63,6 @@
       "ranga": "3",
       "kategorie": "55+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=34B357C3-2123-48AD-A548-DA87307DB2AD"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "MISTRZOSTWA RZESZOWA",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "RZESZÓW",
-      "ranga": "3",
-      "kategorie": "40+, Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=AAC7C0C0-F48A-4F5A-B2D8-2AF775FFF636"
     },
     {
       "zrodlo": "PZT TOP",

@@ -1,8 +1,8 @@
 {
-  "wygenerowano_utc": "2026-09-07T18:41:05+00:00",
-  "liczba_turniejow": 129,
+  "wygenerowano_utc": "2026-09-07T19:49:02+00:00",
+  "liczba_turniejow": 128,
   "liczba_wg_zrodla": {
-    "PZT TOP": 18,
+    "PZT TOP": 17,
     "Cuply": 10,
     "PLT": 53,
     "Kluby.org": 48
@@ -51,7 +51,9 @@
       "opis": "42-300 Myszków, Szczygla 4 www https://www.facebook.com/LUKA.AKADEMIA.TENISOWA/",
       "kontakt": "tel.: 662071479 | email: lukaszborda@tlen.pl",
       "dyrektor_turnieju": "Borda Łukasz",
-      "sedzia_naczelny": "Sędzia nieustalony"
+      "sedzia_naczelny": "Sędzia nieustalony",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "78fe41beede583",
@@ -93,7 +95,9 @@
       "opis": "42-300 Myszków, Szczygla 4 www https://www.facebook.com/LUKA.AKADEMIA.TENISOWA/",
       "kontakt": "tel.: 662071479 | email: lukaszborda@tlen.pl",
       "dyrektor_turnieju": "Borda Łukasz",
-      "sedzia_naczelny": "Sędzia nieustalony"
+      "sedzia_naczelny": "Sędzia nieustalony",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "4703bfcb62e5ee",
@@ -121,7 +125,9 @@
         "szczegoly_url": "https://kluby.org/turnieje/12168"
       },
       "adres": "Garwolińska Akademia Tenisowa, Garwolin",
-      "zapisy_url": "https://kluby.org/turnieje/12168/zapisy"
+      "zapisy_url": "https://kluby.org/turnieje/12168/zapisy",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "d53564cbfc0cd9",
@@ -149,12 +155,14 @@
         "szczegoly_url": "https://kluby.org/turnieje/12166"
       },
       "adres": "Baltic Tennis Club, Kołobrzeg",
-      "zapisy_url": "https://kluby.org/turnieje/12166/zapisy"
+      "zapisy_url": "https://kluby.org/turnieje/12166/zapisy",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "9a73652bc3da0e",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Podlasia i Mazur",
       "nazwa": ",,JESIEŃ 2026’’",
       "data_od": "2026-09-12",
       "data_do": "2026-09-13",
@@ -196,12 +204,14 @@
       "cykl_szczegolowy": "GRAND PRIX PODLASIA I MAZUR",
       "dyrektor_turnieju": "Zdzisław Mozolewski",
       "start_turnieju": "12.09.2026",
-      "rangi": "DEBEL: GPPiM DEBEL (2)"
+      "rangi": "DEBEL: GPPiM DEBEL (2)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "7da04903d47adb",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Podlasia i Mazur",
       "nazwa": "Slow Flow Ladies Cup",
       "data_od": "2026-09-12",
       "data_do": "2026-09-13",
@@ -243,12 +253,14 @@
       "cykl_szczegolowy": "GRAND PRIX PODLASIA I MAZUR",
       "dyrektor_turnieju": "Izabela Dzikiewicz",
       "start_turnieju": "Sobota godziny poranne",
-      "rangi": "KOBIETY OPEN: GPPiM KOBIETY (2)"
+      "rangi": "KOBIETY OPEN: GPPiM KOBIETY (2)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "efd049670039c8",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "",
       "nazwa": "1. LIGA. Otwarte Letnie Mistrzostwa Pomorza 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -267,12 +279,14 @@
         "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-pomorza-2026-5545/informacje"
       },
-      "zapisy_url": "https://polskaligatenisa.pl/rejestracja"
+      "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "47029a6fe0336c",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Letnie Mistrzostwa Pomorza 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -308,7 +322,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "607510310",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "d01cf63f95d30e",
@@ -352,12 +368,14 @@
       "kontakt": "tel.: 502568438 | email: poczta@tenisgryfino.org",
       "dyrektor_turnieju": "Kmieciński Dariusz",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "TRETORN Series Control +"
+      "pilka": "TRETORN Series Control +",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "da2b242e326214",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Aktywniaki Tennis Cup II 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -393,7 +411,9 @@
       "nawierzchnia": "Twarda",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "516695579",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "833f97f3d3ebd4",
@@ -426,7 +446,9 @@
       "adres": "Bałtyk Tenis, Władysława Andersa 16, Koszalin",
       "system_gier": "Grupowy + pucharowy",
       "limit_uczestnikow": "16",
-      "zapisy_url": "https://cuply.pl/turnieje/challenger-koszalin-i-do-40-ntrp-dla-sredniozaawansowanych"
+      "zapisy_url": "https://cuply.pl/turnieje/challenger-koszalin-i-do-40-ntrp-dla-sredniozaawansowanych",
+      "organizacja": "Cuply",
+      "kategoria_zrodla": ""
     },
     {
       "id": "4a7cc4230204c8",
@@ -459,12 +481,14 @@
       "adres": "Bałtyk Tenis, Władysława Andersa 16, Koszalin",
       "system_gier": "Grupowy + pucharowy",
       "limit_uczestnikow": "12",
-      "zapisy_url": "https://cuply.pl/turnieje/futures-koszalin-i-do-25-ntrp-dla-poczatkujacych"
+      "zapisy_url": "https://cuply.pl/turnieje/futures-koszalin-i-do-25-ntrp-dla-poczatkujacych",
+      "organizacja": "Cuply",
+      "kategoria_zrodla": ""
     },
     {
       "id": "7237bece3a86d0",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cyklu Cuply",
       "nazwa": "Koszalin Masters (zaawansowani amatorzy)",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -495,7 +519,9 @@
       "system_gier": "Grupowy + pucharowy",
       "limit_uczestnikow": "16",
       "zapisy_url": "https://cuply.pl/turnieje/koszalin-masters-i-dla-zaawansowanych-amatorow",
-      "cykl_szczegolowy": "Cyklu Cuply"
+      "cykl_szczegolowy": "Cyklu Cuply",
+      "organizacja": "Cuply",
+      "kategoria_zrodla": ""
     },
     {
       "id": "148a076537d65f",
@@ -539,12 +565,14 @@
       "kontakt": "tel.: 669832198 | email: olesinski.tenis@gmail.com",
       "dyrektor_turnieju": "Olesiński Marcin",
       "sedzia_naczelny": "test test",
-      "pilka": "TRETORN"
+      "pilka": "TRETORN",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "43798a90ad5b01",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Krakowa 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -580,12 +608,14 @@
       "nawierzchnia": "Twarda",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "694995486",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "162a213c5650ef",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Obornik 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -621,7 +651,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "736-872-094",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "3643518f3c1ac7",
@@ -663,12 +695,14 @@
       "kontakt": "tel.: 729294521 | email: arkadiusz.fraczyk@gmail.com",
       "dyrektor_turnieju": "Frączyk Arkadiusz",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "WILSON"
+      "pilka": "WILSON",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "04f0a4625e65d9",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Prestige Court 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -704,7 +738,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "502 449 580",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "8801c10fb3aeaf",
@@ -748,51 +784,9 @@
       "kontakt": "tel.: 602316407 | email: dariuszosicki6@gmail.com",
       "dyrektor_turnieju": "Osicki Dariusz",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "Head tour"
-    },
-    {
-      "id": "c3172af97d10da",
-      "zrodlo": "PZT TOP",
-      "cykl": "",
-      "nazwa": "MISTRZOSTWA RZESZOWA",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "RZESZÓW",
-      "miejsce": "",
-      "kategorie": "40+, Open",
-      "typ_gry": "Gra pojedyncza; Mężczyźni",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "Zawodnik z licencją TOP PZT: 130,00 zł | Zawodnik bez licencji TOP PZT: 170,00 zł",
-      "ranga": "3",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=AAC7C0C0-F48A-4F5A-B2D8-2AF775FFF636",
-      "status": "nadchodzacy",
-      "wojewodztwo": "podkarpackie",
-      "szczegoly": {
-        "organizator": "Klub Sportowy Czarni",
-        "adres": "RZESZÓW",
-        "kategorie": "40+, Open",
-        "termin_zgloszen": "2026-09-05 23:59",
-        "termin_odwolan": "2026-09-08 23:59",
-        "dyrektor_turnieju": "KARWANSKI KRZYSZTOF",
-        "sedzia_naczelny": "Bać Michał",
-        "pilka": "TRETORN",
-        "szczegoly_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=AAC7C0C0-F48A-4F5A-B2D8-2AF775FFF636",
-        "zapisy_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=AAC7C0C0-F48A-4F5A-B2D8-2AF775FFF636",
-        "kontakt": "tel.: 501-270-404",
-        "wpisowe": "Zawodnik z licencją TOP PZT: 130,00 zł | Zawodnik bez licencji TOP PZT: 170,00 zł",
-        "typ_gry": "Gra pojedyncza; Mężczyźni",
-        "opis": "35-505 Rzeszów, Błogosławionej Karoliny 8"
-      },
-      "organizator": "Klub Sportowy Czarni",
-      "adres": "RZESZÓW",
-      "termin_zgloszen": "2026-09-05 23:59",
-      "zapisy_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=AAC7C0C0-F48A-4F5A-B2D8-2AF775FFF636",
-      "opis": "35-505 Rzeszów, Błogosławionej Karoliny 8",
-      "kontakt": "tel.: 501-270-404",
-      "dyrektor_turnieju": "KARWANSKI KRZYSZTOF",
-      "sedzia_naczelny": "Bać Michał",
-      "pilka": "TRETORN"
+      "pilka": "Head tour",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "e95af9b9a9c108",
@@ -833,12 +827,14 @@
       "telefon_organizatora": "600110551",
       "kontakt": "600110551",
       "dyrektor_turnieju": "Zdzisław Nowicki",
-      "start_turnieju": "2026-09-12"
+      "start_turnieju": "2026-09-12",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "f3b41c5ec7b5dd",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Ziaja Grand Prix Wybrzeża",
       "nazwa": "Mistrzostwa Rumi i Powiatu Wejherowskiego Amatorów w Tenisie Ziemnym w Grze podwójnej",
       "data_od": "2026-09-12",
       "data_do": "2026-09-13",
@@ -876,7 +872,9 @@
       "kontakt": "600 110 555",
       "cykl_szczegolowy": "ZIAJA GRAND PRIX WYBRZEŻA",
       "start_turnieju": "12.09.2026 godz. 9 ta",
-      "rangi": "DEBEL: Ziaja G.P.W. DEBEL (Standard)"
+      "rangi": "DEBEL: Ziaja G.P.W. DEBEL (Standard)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "219408ae5d4369",
@@ -918,12 +916,14 @@
       "kontakt": "tel.: 694897024 | email: piotrjaroos@gmail.com",
       "dyrektor_turnieju": "Jaros Piotr",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "DUNLOP FORT"
+      "pilka": "DUNLOP FORT",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "941df71ee1bb5b",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Ziaja Grand Prix Wybrzeża",
       "nazwa": "ZIAJA Grand Prix Wybrzeża +60",
       "data_od": "2026-09-12",
       "data_do": "2026-09-13",
@@ -959,12 +959,14 @@
       "kontakt": "531 675 030",
       "cykl_szczegolowy": "ZIAJA GRAND PRIX WYBRZEŻA",
       "start_turnieju": "12.09.2026",
-      "rangi": "SENIORZY +60: Ziaja G.P.W. SENIORZY +60 (Standard)"
+      "rangi": "SENIORZY +60: Ziaja G.P.W. SENIORZY +60 (Standard)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "417b426e2e6ea6",
       "zrodlo": "PLT",
-      "cykl": "PLT Kobiet",
+      "cykl": "Letnie Mistrzostwa PLT",
       "nazwa": "PLT KOBIET. Otwarte Letnie Mistrzostwa Szczecina 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -1000,12 +1002,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "502403313",
-      "cykl_szczegolowy": "Letnie Mistrzostwa PLT"
+      "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "PLT Kobiet"
     },
     {
       "id": "e097332738c7c1",
       "zrodlo": "PLT",
-      "cykl": "Puchar PLT",
+      "cykl": "Letnie Mistrzostwa PLT",
       "nazwa": "PUCHAR PLT. Otwarte Jesienne Mistrzostwa Szczecina 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -1041,12 +1045,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "502403313",
-      "cykl_szczegolowy": "Letnie Mistrzostwa PLT"
+      "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "Puchar PLT"
     },
     {
       "id": "8c5a4c02753eb5",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Sędziszowa Małopolskiego 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -1082,12 +1088,14 @@
       "nawierzchnia": "Twarda",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "576010037",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "eff5445414514e",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Otwarte Mistrzostwa Wejherowa 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-13",
@@ -1123,12 +1131,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "664017112",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "4865f559bec88c",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Mistrzostwa Wejherowa 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-13",
@@ -1164,12 +1174,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "664017112",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "83e8c4f92a76e0",
       "zrodlo": "PLT",
-      "cykl": "Kategorie wiekowe",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "PLT 50+. Otwarte Mistrzostwa Wejherowa 2026",
       "data_od": "2026-09-12",
       "data_do": "2026-09-13",
@@ -1205,12 +1217,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "664017112",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "Kategorie wiekowe"
     },
     {
       "id": "3851e736cbd125",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Aktywniaki Tennis Cup II 2026",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1246,12 +1260,14 @@
       "nawierzchnia": "Twarda",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "516695579",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "5c1d01b1cb6396",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Mazowsza",
       "nazwa": "Indywidualny turniej dla początkujących",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1289,12 +1305,14 @@
       "kontakt": "508372995",
       "cykl_szczegolowy": "GRAND PRIX MAZOWSZA",
       "start_turnieju": "13-09-2026",
-      "rangi": "OPEN: GPM OPEN (Ranga 4)"
+      "rangi": "OPEN: GPM OPEN (Ranga 4)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "1c647972d0c8b5",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Nowej Soli 2026",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1330,12 +1348,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "507113198",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "e72b319a314d17",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Nowej Soli 2026",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1371,12 +1391,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "507113198",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "5abf6258aeb920",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Obornik 2026",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1412,12 +1434,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "736-872-094",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "52b58dba0750e8",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Podium Oława 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1453,12 +1477,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "781281227",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "2173df2d01d817",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Podium Oława 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1494,12 +1520,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "781281227",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "ad4fdc037c9e97",
       "zrodlo": "PLT",
-      "cykl": "PLT Kobiet",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Oławy 2026",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1535,7 +1563,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "781281227",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "PLT Kobiet"
     },
     {
       "id": "238797429f45fc",
@@ -1579,12 +1609,14 @@
       "kontakt": "tel.: 501655772",
       "dyrektor_turnieju": "Samojłowicz Krzysztof",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "Tretorn Control+"
+      "pilka": "Tretorn Control+",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "6811ff29db9326",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Skarżyska-Kamiennej 2026",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1620,12 +1652,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "694995486",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "7cececf93dcecb",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Skarżyska-Kamiennej 2026",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1661,7 +1695,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "694995486",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "16e7a4682a5a93",
@@ -1704,12 +1740,14 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 13a"
+      "start_turnieju": "godz. 13a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "af557344453590",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Letnie Mistrzostwa PLT",
       "nazwa": "1. LIGA. Tenis Zone Tour IV 2026",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1745,12 +1783,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "608612956",
-      "cykl_szczegolowy": "Letnie Mistrzostwa PLT"
+      "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "c3f46fe8f60567",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Letnie Mistrzostwa PLT",
       "nazwa": "2. LIGA. Tenis Zone Tour IV 2026",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -1786,7 +1826,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "608612956",
-      "cykl_szczegolowy": "Letnie Mistrzostwa PLT"
+      "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "cf2d1af31a2475",
@@ -1830,7 +1872,9 @@
       "kontakt": "tel.: 501 655 772",
       "dyrektor_turnieju": "Samojłowicz Krzysztof",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "Tretorn Control+"
+      "pilka": "Tretorn Control+",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "ec9c90ab27885c",
@@ -1872,12 +1916,14 @@
       "opis": "21-010 Łęczna, Osiedle Kolonia Trębaczów 62 www Brakuje",
       "kontakt": "tel.: 505037997 | email: jaczarus@o2pl",
       "dyrektor_turnieju": "Jagiełło Andrzej",
-      "sedzia_naczelny": "Sędzia nieustalony"
+      "sedzia_naczelny": "Sędzia nieustalony",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "d5c3f82b201e67",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Podlasia i Mazur",
       "nazwa": "Turniej o Puchar 3. Ligi",
       "data_od": "2026-09-19",
       "data_do": "2026-09-20",
@@ -1913,7 +1959,9 @@
       "cykl_szczegolowy": "GRAND PRIX PODLASIA I MAZUR",
       "dyrektor_turnieju": "Tadeusz Niesterowicz",
       "start_turnieju": "Sobota godziny poranne",
-      "rangi": "OPEN: GPPiM OPEN (5)"
+      "rangi": "OPEN: GPPiM OPEN (5)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "d04eddf2d2584f",
@@ -1954,7 +2002,9 @@
       "telefon_organizatora": "32 2417 050 (wew. 34, 43)",
       "email_organizatora": "zgloszenia@moris.chorzow.pl",
       "kontakt": "32 2417 050 (wew. 34, 43) | zgloszenia@moris.chorzow.pl",
-      "start_turnieju": "9:00"
+      "start_turnieju": "9:00",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "842de8a0265f81",
@@ -1993,12 +2043,14 @@
       "system_gier": "Grupowy + pucharowy",
       "limit_uczestnikow": "20",
       "zapisy_url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-doluje-ii-do-40-ntrp",
-      "telefon_organizatora": "502 403 313"
+      "telefon_organizatora": "502 403 313",
+      "organizacja": "Cuply",
+      "kategoria_zrodla": ""
     },
     {
       "id": "eb64d393f2e7fc",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. III Coroczny Turniej o Puchar Podleśnej 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2034,12 +2086,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "607510310",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "5e1f52385a4a06",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. III Coroczny Turniej o Puchar Podleśnej 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2075,12 +2129,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "607510310",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "df64f3ba14da0e",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Kielc 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2116,12 +2172,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "697868838",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "f5b0734e52b22c",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Kielc 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2157,12 +2215,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "697868838",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "381ffdbf967e64",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Konina 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2198,12 +2258,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "783774321",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "cef813d92d73b7",
       "zrodlo": "PLT",
-      "cykl": "PLT Kobiet",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Konina 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2239,12 +2301,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "783774321",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "PLT Kobiet"
     },
     {
       "id": "b0ce91c7b3d044",
       "zrodlo": "PLT",
-      "cykl": "Puchar PLT",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "PUCHAR PLT. Otwarte Jesienne Mistrzostwa Konina 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2280,12 +2344,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "783774321",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "Puchar PLT"
     },
     {
       "id": "a593cfae89b747",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Bałtyk Koszalin 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2321,12 +2387,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "600243912",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "f6b61e54191134",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Bałtyk Koszalin 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2347,12 +2415,14 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-5559/informacje"
       },
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "fa476fab2bf3ba",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Krosna 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2388,12 +2458,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "660516017",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "3254b241fb8810",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Olesnica Closing Season Cup 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2429,12 +2501,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "781281227",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "6cbeb338f734c0",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Olesnica Closing Season Cup 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2470,12 +2544,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "781281227",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "f2f572572f25cc",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Podlasia i Mazur",
       "nazwa": "JABŁOŃ CUP 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2517,12 +2593,14 @@
       "cykl_szczegolowy": "GRAND PRIX PODLASIA I MAZUR",
       "dyrektor_turnieju": "Marcin Chmielewski",
       "start_turnieju": "19.09.2025 9.00",
-      "rangi": "OPEN: GPPiM OPEN (1)"
+      "rangi": "OPEN: GPPiM OPEN (1)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "7156755922016e",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Wiosenne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Otwarte Mistrzostwa Radomia 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2558,12 +2636,14 @@
       "nawierzchnia": "Trawiasta",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "509 629 389",
-      "cykl_szczegolowy": "Wiosenne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Wiosenne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "495da930e368a7",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Sportowego Czarni 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2599,7 +2679,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "786 332 260",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "1accb6d1f5e168",
@@ -2632,12 +2714,14 @@
       "adres": "Sopot Tenis Klub, Sopot",
       "termin_zgloszen": "do piątku godz. 13-ta",
       "zapisy_url": "https://kluby.org/turnieje/12124/zapisy",
-      "start_turnieju": "19.09.2026"
+      "start_turnieju": "19.09.2026",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "c12232c75196de",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Mazowsza",
       "nazwa": "Mixt Open",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2679,12 +2763,14 @@
       "cykl_szczegolowy": "GRAND PRIX MAZOWSZA",
       "dyrektor_turnieju": "Małgorzata Frydrych",
       "start_turnieju": "godz.16",
-      "rangi": "DEBEL MIKST: GPM MIKST (Ranga 2)"
+      "rangi": "DEBEL MIKST: GPM MIKST (Ranga 2)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "75ea6ee9017a70",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Mazowsza",
       "nazwa": "Park Tennis Academy Open",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -2724,7 +2810,9 @@
       "cykl_szczegolowy": "GRAND PRIX MAZOWSZA",
       "dyrektor_turnieju": "Marcin Piątkiewicz",
       "start_turnieju": "16",
-      "rangi": "OPEN: GPM OPEN (Ranga 2)"
+      "rangi": "OPEN: GPM OPEN (Ranga 2)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "f2965108a38a25",
@@ -2765,7 +2853,9 @@
       "telefon_organizatora": "600333398",
       "kontakt": "600333398",
       "dyrektor_turnieju": "Gabrysia Sobiech",
-      "start_turnieju": "18:00"
+      "start_turnieju": "18:00",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "560fa9f143e3a2",
@@ -2806,7 +2896,9 @@
       "telefon_organizatora": "669 378 453 ( najlepiej SMS )",
       "kontakt": "669 378 453 ( najlepiej SMS )",
       "dyrektor_turnieju": "Marcin Bogiel",
-      "start_turnieju": "17:00"
+      "start_turnieju": "17:00",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "6c9c2ed8d82b8a",
@@ -2848,12 +2940,14 @@
       "kontakt": "tel.: 665684744 | email: m4107@wp.pl",
       "dyrektor_turnieju": "Stańczyk Stanisław Adam",
       "sedzia_naczelny": "Romański Jerzy",
-      "pilka": "Tretorn Serie+ Control"
+      "pilka": "Tretorn Serie+ Control",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "aa6e4c54819c1d",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Turniej o Puchar Klubu Tenisowego Antuka 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -2889,12 +2983,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "792260678",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "d14887ac3316e9",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Turniej o Puchar Klubu Tenisowego Antuka 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -2930,7 +3026,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "792260678",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "c5d2401d7caeaa",
@@ -2969,7 +3067,9 @@
       "system_gier": "Grupowy + pucharowy",
       "limit_uczestnikow": "8",
       "zapisy_url": "https://cuply.pl/turnieje/cuply-futures-szczecin-doluje-ii-do-25-ntrp",
-      "telefon_organizatora": "502 403 313"
+      "telefon_organizatora": "502 403 313",
+      "organizacja": "Cuply",
+      "kategoria_zrodla": ""
     },
     {
       "id": "7aa660911ac9f8",
@@ -3008,12 +3108,14 @@
       "system_gier": "Grupowy + pucharowy",
       "limit_uczestnikow": "8",
       "zapisy_url": "https://cuply.pl/turnieje/cuply-masters-szczecin-doluje-dla-zaawansowanych",
-      "telefon_organizatora": "502 403 313"
+      "telefon_organizatora": "502 403 313",
+      "organizacja": "Cuply",
+      "kategoria_zrodla": ""
     },
     {
       "id": "e2de0997609f9f",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Letnie Mistrzostwa PLT",
       "nazwa": "2. LIGA. Otwarte Letnie Mistrzostwa Województwa Lubuskiego 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -3049,12 +3151,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "664646430",
-      "cykl_szczegolowy": "Letnie Mistrzostwa PLT"
+      "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "c3aaf369d6112c",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Mazowsza",
       "nazwa": "Turniej Mikstowy",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -3094,12 +3198,14 @@
       "cykl_szczegolowy": "GRAND PRIX MAZOWSZA",
       "dyrektor_turnieju": "Andrzej Lis",
       "start_turnieju": "2026-09-20 godz.12:00",
-      "rangi": "DEBEL MIKST: GPM MIKST (Ranga 3)"
+      "rangi": "DEBEL MIKST: GPM MIKST (Ranga 3)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "a854ef46d1ce2f",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Sport Myślenice 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -3135,7 +3241,9 @@
       "nawierzchnia": "Trawiasta",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "501203355",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "4d4d4fad918afc",
@@ -3179,12 +3287,14 @@
       "kontakt": "tel.: 501655772",
       "dyrektor_turnieju": "Samojłowicz Krzysztof",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "Tretorn Control+"
+      "pilka": "Tretorn Control+",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "d1ec1d69c00966",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Sportowego Czarni 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -3220,12 +3330,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "786 332 260",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "f4ac8c2024d216",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Olszynka Grochowska 2026- Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -3261,12 +3373,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "530 292 875",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "236db0d743a220",
       "zrodlo": "PLT",
-      "cykl": "2. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Olszynka Grochowska 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -3302,7 +3416,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "530 292 875",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "2. Liga"
     },
     {
       "id": "843bd354793b39",
@@ -3330,7 +3446,9 @@
         "szczegoly_url": "https://kluby.org/turnieje/12145"
       },
       "adres": "Skate Park Łomża, Łomża",
-      "zapisy_url": "https://kluby.org/turnieje/12145/zapisy"
+      "zapisy_url": "https://kluby.org/turnieje/12145/zapisy",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "b4044544732ccc",
@@ -3373,7 +3491,9 @@
       "email_organizatora": "biuro@barlineckiklubtenisowy.pl",
       "kontakt": "508 285 414 | biuro@barlineckiklubtenisowy.pl",
       "dyrektor_turnieju": "Mikołaj",
-      "start_turnieju": "9:30"
+      "start_turnieju": "9:30",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "a6991b5b8800ad",
@@ -3400,12 +3520,14 @@
         "szczegoly_url": "https://kluby.org/turnieje/11780"
       },
       "adres": "Centrum Tenisowe Zwierzyniec, Białystok",
-      "zapisy_url": "https://kluby.org/turnieje/11780/zapisy"
+      "zapisy_url": "https://kluby.org/turnieje/11780/zapisy",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "0febfc03252586",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu MOKSiR Chełmek 2026- Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -3441,7 +3563,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "694995486",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "7c124bbadb02ea",
@@ -3474,7 +3598,9 @@
       "adres": "Gorzów Wielkopolski",
       "system_gier": "Grupowy + pucharowy",
       "limit_uczestnikow": "16",
-      "zapisy_url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
+      "zapisy_url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i",
+      "organizacja": "Cuply",
+      "kategoria_zrodla": ""
     },
     {
       "id": "4033f054675a4f",
@@ -3518,7 +3644,9 @@
       "kontakt": "tel.: 602632996 | email: andrzej@kktenis.pl",
       "dyrektor_turnieju": "Bandurowski Andrzej",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "TRETORN"
+      "pilka": "TRETORN",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "bb0ba11230d0c3",
@@ -3560,12 +3688,14 @@
       "kontakt": "tel.: 729294521 | email: arkadiusz.fraczyk@gmail.com",
       "dyrektor_turnieju": "Frączyk Arkadiusz",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "WILSON"
+      "pilka": "WILSON",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "45efa2dca23b4f",
       "zrodlo": "PLT",
-      "cykl": "1. Liga",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu CS Szamotuły 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -3601,7 +3731,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "662641358",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "1. Liga"
     },
     {
       "id": "5501d1c57905a0",
@@ -3634,12 +3766,14 @@
       "adres": "Zoom Tennis Academy, Lubieszyńska 10A, Szczecin / Mierzyn",
       "system_gier": "Grupowy + pucharowy",
       "limit_uczestnikow": "16",
-      "zapisy_url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iv"
+      "zapisy_url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iv",
+      "organizacja": "Cuply",
+      "kategoria_zrodla": ""
     },
     {
       "id": "63ac897dc7c51f",
       "zrodlo": "PLT",
-      "cykl": "Puchar PLT",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "PUCHAR PLT. Otwarte Jesienne Mistrzostwa Sztumu 2026",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -3675,12 +3809,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "600448660",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "Puchar PLT"
     },
     {
       "id": "db5f49a03ddab3",
       "zrodlo": "PLT",
-      "cykl": "PLT Kobiet",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Zawiercia 2026",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -3716,7 +3852,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "883000870",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "PLT Kobiet"
     },
     {
       "id": "a2666e3ec8072e",
@@ -3758,7 +3896,9 @@
       "kontakt": "tel.: 729294521 | email: arkadiusz.fraczyk@gmail.com",
       "dyrektor_turnieju": "Frączyk Arkadiusz",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "WILSON"
+      "pilka": "WILSON",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "921e7e67776e3a",
@@ -3802,7 +3942,9 @@
       "kontakt": "tel.: 501655772",
       "dyrektor_turnieju": "Samojłowicz Krzysztof",
       "sedzia_naczelny": "Sędzia nieustalony",
-      "pilka": "Tretorn Control+"
+      "pilka": "Tretorn Control+",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "f0c4fdea5429c2",
@@ -3836,7 +3978,9 @@
       "adres": "SOT Stargardzki Ośrodek Tenisowy, Władysława Broniewskiego 19, Stargard",
       "system_gier": "Grupowy + pucharowy",
       "limit_uczestnikow": "16",
-      "zapisy_url": "https://cuply.pl/turnieje/cuply-futures-stargard-ii-do-25-ntrp"
+      "zapisy_url": "https://cuply.pl/turnieje/cuply-futures-stargard-ii-do-25-ntrp",
+      "organizacja": "Cuply",
+      "kategoria_zrodla": ""
     },
     {
       "id": "bcca18d672f8b3",
@@ -3869,12 +4013,14 @@
       "adres": "SOT Stargardzki Ośrodek Tenisowy, Władysława Broniewskiego 19, Stargard",
       "system_gier": "Grupowy + pucharowy",
       "limit_uczestnikow": "10",
-      "zapisy_url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy"
+      "zapisy_url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy",
+      "organizacja": "Cuply",
+      "kategoria_zrodla": ""
     },
     {
       "id": "3f7c3c86cc0c62",
       "zrodlo": "PLT",
-      "cykl": "Deble i Miksty",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "MIKST. Grand Prix KGmiar Cup V 2026",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -3910,12 +4056,14 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "662641358",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "Deble i Miksty"
     },
     {
       "id": "da430af2802450",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Mazowsza",
       "nazwa": "Michałufka singiel OPEN",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -3957,12 +4105,14 @@
       "cykl_szczegolowy": "GRAND PRIX MAZOWSZA",
       "dyrektor_turnieju": "Magdalena Szmyd",
       "start_turnieju": "27.09 g.10 wg planu gier dostępnego na stronie www.tenisbreak.pl",
-      "rangi": "OPEN: GPM OPEN (Ranga 2)"
+      "rangi": "OPEN: GPM OPEN (Ranga 2)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "5e7f17b5ed1487",
       "zrodlo": "PLT",
-      "cykl": "PLT Kobiet",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Kołobrzegu 2026",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
@@ -3998,7 +4148,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "669832198",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "PLT Kobiet"
     },
     {
       "id": "5e82a543f42b1b",
@@ -4039,12 +4191,14 @@
       "telefon_organizatora": "514 827 552",
       "kontakt": "514 827 552",
       "dyrektor_turnieju": "Łukasz Kosowicz",
-      "start_turnieju": "17:00"
+      "start_turnieju": "17:00",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "9ecd4ddd864976",
       "zrodlo": "PLT",
-      "cykl": "PLT Kobiet",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "PLT KOBIET. Jesienne Mistrzostwa Gdańska 2026",
       "data_od": "2026-10-04",
       "data_do": "2026-10-04",
@@ -4065,7 +4219,9 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-jesienne-mistrzostwa-gdanska-2026-5186/informacje"
       },
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "PLT Kobiet"
     },
     {
       "id": "a15e5f0ed8bf5e",
@@ -4106,12 +4262,14 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "niedziela, godz. 14a"
+      "start_turnieju": "niedziela, godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "7bdd909bf225db",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Mazowsza",
       "nazwa": "TENES GPM Debel Open",
       "data_od": "2026-10-10",
       "data_do": "2026-10-10",
@@ -4151,7 +4309,9 @@
       "cykl_szczegolowy": "GRAND PRIX MAZOWSZA",
       "dyrektor_turnieju": "Marcin Bogiel",
       "start_turnieju": "17:00",
-      "rangi": "DEBEL: GPM DEBEL OPEN (Ranga 3)"
+      "rangi": "DEBEL: GPM DEBEL OPEN (Ranga 3)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "2ca297d5dc9922",
@@ -4192,7 +4352,9 @@
       "telefon_organizatora": "669 378 453 ( najlepiej SMS )",
       "kontakt": "669 378 453 ( najlepiej SMS )",
       "dyrektor_turnieju": "Marcin Bogiel",
-      "start_turnieju": "17:00"
+      "start_turnieju": "17:00",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "f5bf951fecf076",
@@ -4233,7 +4395,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "niedziela, 14:00"
+      "start_turnieju": "niedziela, 14:00",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "47335c003e8f9d",
@@ -4277,12 +4441,14 @@
       "kontakt": "tel.: 501 729 748",
       "dyrektor_turnieju": "Sobol Norbert",
       "sedzia_naczelny": "Kowalski Rafał",
-      "pilka": "zgodnie z regulaminem WMZ-T"
+      "pilka": "zgodnie z regulaminem WMZ-T",
+      "organizacja": "TOP PZT",
+      "kategoria_zrodla": ""
     },
     {
       "id": "ad98bd95ac8ec7",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Mazowsza",
       "nazwa": "TENES GPM Mikst Cup",
       "data_od": "2026-10-17",
       "data_do": "2026-10-17",
@@ -4322,7 +4488,9 @@
       "cykl_szczegolowy": "GRAND PRIX MAZOWSZA",
       "dyrektor_turnieju": "Gabrysia Sobiech",
       "start_turnieju": "17:00",
-      "rangi": "DEBEL MIKST: GPM MIKST (Ranga 3)"
+      "rangi": "DEBEL MIKST: GPM MIKST (Ranga 3)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "078072bc6d1c6d",
@@ -4363,7 +4531,9 @@
       "telefon_organizatora": "600 333 398",
       "kontakt": "600 333 398",
       "dyrektor_turnieju": "Gabrysia Sobiech",
-      "start_turnieju": "17:00"
+      "start_turnieju": "17:00",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "7367a237a1f68d",
@@ -4404,12 +4574,14 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "niedziela, 14:00"
+      "start_turnieju": "niedziela, 14:00",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "89d58d15f7e9aa",
       "zrodlo": "PLT",
-      "cykl": "Puchar PLT",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "PUCHAR PLT. Perun Wesoła Open 2026",
       "data_od": "2026-10-18",
       "data_do": "2026-10-18",
@@ -4445,7 +4617,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "537200587",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "Puchar PLT"
     },
     {
       "id": "345f442085e5b1",
@@ -4488,12 +4662,14 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "23ef64a6795552",
       "zrodlo": "Kluby.org",
-      "cykl": "",
+      "cykl": "Grand Prix Mazowsza",
       "nazwa": "Singiel kobiet AQUARIUS Medical Cup",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
@@ -4535,12 +4711,14 @@
       "cykl_szczegolowy": "GRAND PRIX MAZOWSZA",
       "dyrektor_turnieju": "Magdalena Szmyd",
       "start_turnieju": "170",
-      "rangi": "KOBIETY OPEN: GPM KOBIETY (Ranga 2)"
+      "rangi": "KOBIETY OPEN: GPM KOBIETY (Ranga 2)",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "3d794772d05279",
       "zrodlo": "PLT",
-      "cykl": "PLT Kobiet",
+      "cykl": "Jesienne Mistrzostwa PLT",
       "nazwa": "PLT KOBIET. Indywidualne Krajowe Mistrzostwa PLT 2026",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
@@ -4576,7 +4754,9 @@
       "nawierzchnia": "Ziemna",
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "kontakt": "609815531",
-      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT"
+      "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+      "organizacja": "Polska Liga Tenisa",
+      "kategoria_zrodla": "PLT Kobiet"
     },
     {
       "id": "2ccf98089a9628",
@@ -4613,7 +4793,9 @@
       "opis": "Przebranie obowiązkowe :)\n**REGULAMIN TURNIEJU SINGLOWEGO MĘŻCZYZN**\n1. Mecz rozgrywany jest do **jednego seta, bez przewag**.\n2. Po zakończonym meczu wynik należy **zgłosić w recepcji**.\n3. Zawodnicy zobowiązani są do punktualnego stawienia się na mecze.\n4. Czas podany w planie gier jest czasem przybliżonym. Zawodnicy zobowiązani są do stawienia się na wyznaczoną godzinę, jednak mecze mogą ulec opóźnieniu.\n5. Udział w turnieju oznacza akceptację regulaminu.",
       "telefon_organizatora": "530338024",
       "kontakt": "530338024",
-      "dyrektor_turnieju": "Paulina Szczerkowska"
+      "dyrektor_turnieju": "Paulina Szczerkowska",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "c26ab8f9c0ea49",
@@ -4656,7 +4838,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "ba6da769269254",
@@ -4699,7 +4883,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "8873c9aa99038a",
@@ -4742,7 +4928,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "f76a0f0dc74ec5",
@@ -4785,7 +4973,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "bdc77774152cc9",
@@ -4828,7 +5018,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "081e0ffb57e054",
@@ -4871,7 +5063,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "8a76339fa4fb0e",
@@ -4914,7 +5108,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "29468f7006e648",
@@ -4957,7 +5153,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "c27e0a4b5bf5a6",
@@ -5000,7 +5198,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "2582e29e34ecea",
@@ -5043,7 +5243,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "d1cd4953e359fc",
@@ -5086,7 +5288,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "0e4360072814c1",
@@ -5129,7 +5333,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "d6960e60763b68",
@@ -5172,7 +5378,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "9da5e6c2a1ff3c",
@@ -5215,7 +5423,9 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     },
     {
       "id": "5fae69a0700fb4",
@@ -5256,12 +5466,60 @@
       "email_organizatora": "aup@wp.pl",
       "kontakt": "602 605 845 | aup@wp.pl",
       "dyrektor_turnieju": "Maciej Żytkiewicz",
-      "start_turnieju": "godz. 14a"
+      "start_turnieju": "godz. 14a",
+      "organizacja": "Kluby.org",
+      "kategoria_zrodla": ""
     }
   ],
-  "regiony_aktualizacja_utc": "2026-09-07T18:41:05+00:00",
+  "regiony_aktualizacja_utc": "2026-09-07T19:49:02+00:00",
   "liczba_turniejow_bez_wojewodztwa": 0,
-  "szczegoly_aktualizacja_utc": "2026-09-07T18:44:08+00:00",
-  "szczegoly_pobrano_w_tym_przebiegu": 129,
-  "szczegoly_bledy_w_tym_przebiegu": 0
+  "szczegoly_aktualizacja_utc": "2026-09-07T19:49:02+00:00",
+  "szczegoly_pobrano_w_tym_przebiegu": 0,
+  "szczegoly_bledy_w_tym_przebiegu": 0,
+  "liczba_wg_organizacji": {
+    "Cuply": 10,
+    "Kluby.org": 48,
+    "Polska Liga Tenisa": 53,
+    "TOP PZT": 17
+  },
+  "filtry": {
+    "organizacje": [
+      "Cuply",
+      "Kluby.org",
+      "Polska Liga Tenisa",
+      "TOP PZT"
+    ],
+    "cykle": [
+      "Cyklu Cuply",
+      "Grand Prix Mazowsza",
+      "Grand Prix Podlasia i Mazur",
+      "Jesienne Mistrzostwa PLT",
+      "Letnie Mistrzostwa PLT",
+      "Wiosenne Mistrzostwa PLT",
+      "Ziaja Grand Prix Wybrzeża"
+    ],
+    "kategorie_zrodla": [
+      "1. Liga",
+      "2. Liga",
+      "Deble i Miksty",
+      "Kategorie wiekowe",
+      "PLT Kobiet",
+      "Puchar PLT"
+    ],
+    "wojewodztwa": [
+      "dolnośląskie",
+      "lubelskie",
+      "lubuskie",
+      "mazowieckie",
+      "opolskie",
+      "podkarpackie",
+      "podlaskie",
+      "pomorskie",
+      "warmińsko-mazurskie",
+      "zachodniopomorskie",
+      "łódzkie",
+      "śląskie",
+      "świętokrzyskie"
+    ]
+  }
 }

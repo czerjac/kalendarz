@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-09-07T18:40:42+00:00",
+  "pobrano_utc": "2026-09-07T19:48:38+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -11,10 +11,10 @@
       "data_do": "2026-09-12",
       "miasto": "Koszalin",
       "miejsce": "Bałtyk Tenis, Koszalin",
-      "typ_gry": "Singiel",
-      "poziom": "Cuply Challenger dla średniozaawansowanych (do 3.5 NTRP)",
+      "typ_gry": "",
+      "poziom": "",
       "plec": "",
-      "wpisowe": "119 zł",
+      "wpisowe": "",
       "url": "https://cuply.pl/turnieje/challenger-koszalin-i-do-40-ntrp-dla-sredniozaawansowanych"
     },
     {
@@ -24,10 +24,10 @@
       "data_do": "2026-09-12",
       "miasto": "Koszalin",
       "miejsce": "Bałtyk Tenis, Koszalin",
-      "typ_gry": "Singiel",
-      "poziom": "Cuply Futures dla początkujących (do 2.5 NTRP)",
+      "typ_gry": "",
+      "poziom": "",
       "plec": "",
-      "wpisowe": "119 zł",
+      "wpisowe": "",
       "url": "https://cuply.pl/turnieje/futures-koszalin-i-do-25-ntrp-dla-poczatkujacych"
     },
     {
@@ -37,10 +37,10 @@
       "data_do": "2026-09-12",
       "miasto": "Koszalin",
       "miejsce": "Bałtyk Tenis, Koszalin",
-      "typ_gry": "Singiel",
-      "poziom": "Cuply Masters (dla zaawansowanych amatorów)",
-      "plec": "Wszyscy",
-      "wpisowe": "119 zł",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
       "url": "https://cuply.pl/turnieje/koszalin-masters-i-dla-zaawansowanych-amatorow"
     },
     {
@@ -50,10 +50,10 @@
       "data_do": "2026-09-19",
       "miasto": "Dołuje",
       "miejsce": "Family Garden, Szczecin, Dołuje",
-      "typ_gry": "Singiel",
-      "poziom": "Cuply Challenger dla średniozaawansowanych (do 3.5 NTRP)",
-      "plec": "Wszyscy",
-      "wpisowe": "139 zł",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-doluje-ii-do-40-ntrp"
     },
     {
@@ -63,10 +63,10 @@
       "data_do": "2026-09-20",
       "miasto": "Dołuje",
       "miejsce": "Family Garden, Szczecin, Dołuje",
-      "typ_gry": "Singiel",
-      "poziom": "Cuply Futures dla początkujących (do 2.5 NTRP)",
-      "plec": "Wszyscy",
-      "wpisowe": "139 zł",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-futures-szczecin-doluje-ii-do-25-ntrp"
     },
     {
@@ -76,10 +76,10 @@
       "data_do": "2026-09-20",
       "miasto": "Dołuje",
       "miejsce": "Family Garden, Szczecin, Dołuje",
-      "typ_gry": "Singiel",
-      "poziom": "Cuply Masters (dla zaawansowanych amatorów)",
-      "plec": "Wszyscy",
-      "wpisowe": "139 zł",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-masters-szczecin-doluje-dla-zaawansowanych"
     },
     {
@@ -89,10 +89,10 @@
       "data_do": "2026-09-26",
       "miasto": "Gorzów Wielkopolski",
       "miejsce": "Gorzów Wielkopolski",
-      "typ_gry": "Singiel",
-      "poziom": "Cuply Challenger dla średniozaawansowanych (do 3.5 NTRP)",
+      "typ_gry": "",
+      "poziom": "",
       "plec": "",
-      "wpisowe": "129 zł",
+      "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
     },
     {
@@ -102,10 +102,10 @@
       "data_do": "2026-09-26",
       "miasto": "Szczecin / Mierzyn",
       "miejsce": "Zoom Tennis Academy, Szczecin / Mierzyn",
-      "typ_gry": "Debel",
-      "poziom": "Cuply Masters (dla zaawansowanych amatorów)",
+      "typ_gry": "",
+      "poziom": "",
       "plec": "",
-      "wpisowe": "119 zł",
+      "wpisowe": "",
       "url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iv"
     },
     {
@@ -115,10 +115,10 @@
       "data_do": "2026-09-27",
       "miasto": "Stargard",
       "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
-      "typ_gry": "Singiel",
-      "poziom": "Cuply Futures dla początkujących (do 2.5 NTRP)",
-      "plec": "Wszyscy",
-      "wpisowe": "139 zł",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-futures-stargard-ii-do-25-ntrp"
     },
     {
@@ -128,10 +128,10 @@
       "data_do": "2026-09-27",
       "miasto": "Stargard",
       "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
-      "typ_gry": "Singiel",
-      "poziom": "Cuply Masters (dla zaawansowanych amatorów)",
+      "typ_gry": "",
+      "poziom": "",
       "plec": "",
-      "wpisowe": "120 zł",
+      "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy"
     }
   ]
