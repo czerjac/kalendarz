@@ -149,7 +149,7 @@ function render(){
         ${e.miejsce?`<div class="note">${esc(e.miejsce)}</div>`:''}
         <div class="meta">${pills.join('')}</div>
       </div>
-      <div class="actions">${e.url?`<a class="btn" href="${esc(e.url)}" target="_blank" rel="noopener">Szczegóły</a>`:''}</div>
+      <div class="actions"><a class="btn" href="turniej.html?id=${encodeURIComponent(e.id)}">Szczegóły</a></div>
     </article>`
   }).join('');
 }
