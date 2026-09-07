@@ -12,6 +12,7 @@ from playwright.sync_api import sync_playwright
 
 CALENDAR_FILE = Path("data/turnieje.json")
 CACHE_FILE = Path("data/szczegoly_turniejow.json")
+UNRESOLVED_FILE = Path("data/nierozpoznane_lokalizacje.json")
 PARSER_VERSION = 2
 HEADERS = {
     "User-Agent": (
@@ -53,7 +54,6 @@ def soup_lines(soup: BeautifulSoup) -> list[str]:
 
 
 def value_after(lines: list[str], labels: list[str]) -> str:
-    """Etykieta w osobnej linii albo zapis Etykieta:wartość."""
     wanted = [x.casefold().rstrip(":") for x in labels]
     for i, line in enumerate(lines):
         folded = line.casefold()
@@ -71,7 +71,6 @@ def value_after(lines: list[str], labels: list[str]) -> str:
 
 
 def value_prefix(lines: list[str], labels: list[str]) -> str:
-    """Zapis typu 'Wpisowe 130', 'Klub: ABC' albo 'Miejsce:Gdańsk'."""
     wanted = [clean(x).casefold().rstrip(":") for x in labels]
     for line in lines:
         folded = line.casefold()
@@ -83,25 +82,6 @@ def value_prefix(lines: list[str], labels: list[str]) -> str:
                     if value:
                         return value
     return ""
-
-
-def block_after(lines: list[str], labels: list[str], stop_labels: list[str], max_lines: int = 14) -> str:
-    wanted = {x.casefold().rstrip(":") for x in labels}
-    stops = {x.casefold().rstrip(":") for x in stop_labels}
-    start = None
-    for i, line in enumerate(lines):
-        if line.casefold().rstrip(":") in wanted:
-            start = i + 1
-            break
-    if start is None:
-        return ""
-    out: list[str] = []
-    for line in lines[start:start + max_lines]:
-        folded = line.casefold().rstrip(":")
-        if folded in stops:
-            break
-        out.append(line)
-    return clean(" | ".join(out))
 
 
 def normalize_voivodeship(value: str) -> str:
@@ -147,7 +127,6 @@ def extract_cuply(session: requests.Session, item: dict) -> dict:
 
 
 def extract_pzt(session: requests.Session, item: dict) -> dict:
-    # TournamentResults.aspx zawiera pełny komunikat konkretnego turnieju.
     detail_url = re.sub(r"^http://", "https://", item["url"], flags=re.I)
     soup = get_soup(session, detail_url)
     lines = soup_lines(soup)
@@ -230,14 +209,16 @@ def links_from_page(page) -> list[dict]:
 
 def registration_url(page, fallback: str) -> str:
     links = links_from_page(page)
+    # Najpierw CTA konkretnego turnieju. Nie łapiemy ogólnego "Dołącz do gry"
+    # z nagłówka PLT przed przyciskiem "WEŹ UDZIAŁ" wydarzenia.
     for link in links:
         text = clean(link.get("text", "")).casefold()
         href = clean(link.get("href", ""))
-        if href and any(token in text for token in ["weź udział", "wez udzial", "zapisz się", "zapisz sie", "dołącz", "dolacz"]):
+        if href and any(token in text for token in ["weź udział", "wez udzial", "zapisz się", "zapisz sie", "zapisz się online", "zapisz sie online"]):
             return href
     for link in links:
         href = clean(link.get("href", ""))
-        if href and re.search(r"zapisy|register|signup|rejestr", href, re.I):
+        if href and re.search(r"/turnieje/\d+/zapisy|register|signup|rejestr", href, re.I):
             return href
     return fallback
 
@@ -250,9 +231,7 @@ def extract_plt(page, item: dict) -> dict:
     lines = text_lines(main_text_from_page(page))
 
     miejsce_line = value_prefix(lines, ["Miejsce"])
-    woj = ""
-    if "," in miejsce_line:
-        woj = normalize_voivodeship(miejsce_line.split(",")[-1])
+    woj = normalize_voivodeship(miejsce_line.split(",")[-1]) if "," in miejsce_line else ""
 
     venue_full = ""
     for i, line in enumerate(lines):
@@ -487,6 +466,16 @@ def main() -> None:
         merge_details(item, details)
         if clean(item.get("miasto")).casefold() == "kamień" and item.get("zrodlo") == "PLT" and not details.get("wojewodztwo"):
             item["wojewodztwo"] = ""
+
+    # Po danych źródłowych przeliczamy regiony jeszcze raz. Dzięki temu np. PLT
+    # może rozstrzygnąć niejednoznaczny Kamień, mimo że geokoder słusznie odmówił.
+    calendar["liczba_turniejow_bez_wojewodztwa"] = sum(1 for item in items if not item.get("wojewodztwo"))
+    unresolved = load_json(UNRESOLVED_FILE, {"miasta": []})
+    resolved_cities = {clean(item.get("miasto")) for item in items if item.get("wojewodztwo")}
+    unresolved["miasta"] = [x for x in unresolved.get("miasta", []) if clean(x.get("miasto")) not in resolved_cities]
+    unresolved["liczba_nierozpoznanych_miast"] = len(unresolved["miasta"])
+    unresolved["aktualizacja_utc"] = now_iso()
+    UNRESOLVED_FILE.write_text(json.dumps(unresolved, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     cache_payload["aktualizacja_utc"] = now_iso()
     cache_payload["wersja_parsera"] = PARSER_VERSION
