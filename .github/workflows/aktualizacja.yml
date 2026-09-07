@@ -4,9 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 4 * * *"
-  push:
-    paths:
-      - "normalizacja.py"
 
 concurrency:
   group: kalendarz-aktualizacja
