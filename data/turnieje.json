@@ -199,7 +199,7 @@
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-tennis-cup-ii-2026-5591",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "podkarpackie"
     },
     {
       "id": "2fef973f4ac033",
@@ -598,7 +598,7 @@
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-aktywniaki-tennis-cup-ii-2026-5592",
       "status": "nadchodzacy",
-      "wojewodztwo": ""
+      "wojewodztwo": "podkarpackie"
     },
     {
       "id": "9ec2aaa6333e1b",
@@ -2463,6 +2463,6 @@
       "wojewodztwo": "mazowieckie"
     }
   ],
-  "regiony_aktualizacja_utc": "2026-09-07T17:16:59+00:00",
-  "liczba_turniejow_bez_wojewodztwa": 2
+  "regiony_aktualizacja_utc": "2026-09-07T17:21:46+00:00",
+  "liczba_turniejow_bez_wojewodztwa": 0
 }

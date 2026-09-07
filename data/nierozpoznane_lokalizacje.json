@@ -1,32 +1,5 @@
 {
-  "aktualizacja_utc": "2026-09-07T17:16:59+00:00",
-  "liczba_nierozpoznanych_miast": 1,
-  "miasta": [
-    {
-      "miasto": "Kamień",
-      "powod": "brak_jednoznacznego_wojewodztwa",
-      "dowody": [
-        {
-          "display_name": "Kamień, gmina Słupca, powiat słupecki, województwo wielkopolskie, 62-400, Polska",
-          "wojewodztwo": "wielkopolskie"
-        },
-        {
-          "display_name": "Kamień, Kałwągi, gmina Korsze, powiat kętrzyński, województwo warmińsko-mazurskie, 11-430, Polska",
-          "wojewodztwo": "warmińsko-mazurskie"
-        },
-        {
-          "display_name": "Kamień, gmina Szemud, powiat wejherowski, województwo pomorskie, 84-217, Polska",
-          "wojewodztwo": "pomorskie"
-        },
-        {
-          "display_name": "Kamień, Surwile, gmina Węgorzewo, powiat węgorzewski, województwo warmińsko-mazurskie, 11-600, Polska",
-          "wojewodztwo": "warmińsko-mazurskie"
-        },
-        {
-          "display_name": "Kamień, gmina Długołęka, powiat wrocławski, województwo dolnośląskie, Polska",
-          "wojewodztwo": "dolnośląskie"
-        }
-      ]
-    }
-  ]
+  "aktualizacja_utc": "2026-09-07T17:21:46+00:00",
+  "liczba_nierozpoznanych_miast": 0,
+  "miasta": []
 }
