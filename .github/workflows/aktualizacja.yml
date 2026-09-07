@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 4 * * *"
+  push:
+    paths:
+      - "szczegoly.py"
+      - "build.py"
+      - ".github/workflows/aktualizacja.yml"
 
 concurrency:
   group: kalendarz-aktualizacja
@@ -52,6 +57,10 @@ jobs:
       - name: Przypisz województwa
         continue-on-error: true
         run: python regiony.py
+
+      - name: Pobierz i zapamiętaj szczegóły
+        continue-on-error: true
+        run: python szczegoly.py
 
       - name: Zapisz wynik w repozytorium
         run: |
