@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-07T09:23:55+00:00",
-  "liczba_turniejow": 49,
+  "pobrano_utc": "2026-09-07T17:13:26+00:00",
+  "liczba_turniejow": 50,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 44
+      "liczba": 45
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -33,6 +33,16 @@
     }
   ],
   "turnieje": [
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "MASTERS GAT GARWOLIN",
+      "data_od": "2026-09-07",
+      "data_do": "2026-09-07",
+      "miasto": "Garwolin",
+      "miejsce": "Garwolińska Akademia Tenisowa, Garwolin",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12168"
+    },
     {
       "zrodlo": "Kluby.org",
       "nazwa": "OTWRTE MISTRZOSTWA DOWÓDZTW I INSTYTUCJI MON",
@@ -85,7 +95,7 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Mistrzostwa Rumi - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Rumia",
+      "nazwa": "Mistrzostwa Rumi i Powiatu Wejherowskiego Amatorów w Tenisie Ziemnym w Grze podwójnej",
       "data_od": "2026-09-12",
       "data_do": "2026-09-13",
       "miasto": "Rumia",

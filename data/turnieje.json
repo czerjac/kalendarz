@@ -1,11 +1,11 @@
 {
-  "wygenerowano_utc": "2026-09-07T09:23:55+00:00",
-  "liczba_turniejow": 128,
+  "wygenerowano_utc": "2026-09-07T17:13:26+00:00",
+  "liczba_turniejow": 129,
   "liczba_wg_zrodla": {
     "PZT TOP": 18,
     "Cuply": 10,
     "PLT": 53,
-    "Kluby.org": 47
+    "Kluby.org": 48
   },
   "odfiltrowano_turnieje_mlodziezowe": 2,
   "liczba_potencjalnych_par_duplikatow": 0,
@@ -27,7 +27,8 @@
       "wpisowe": "",
       "ranga": "5",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=57496268-6699-45FC-8338-7B2675DED639",
-      "status": "trwa"
+      "status": "trwa",
+      "wojewodztwo": "śląskie"
     },
     {
       "id": "a8f18baa014925",
@@ -45,7 +46,27 @@
       "wpisowe": "",
       "ranga": "4",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68",
-      "status": "trwa"
+      "status": "trwa",
+      "wojewodztwo": "śląskie"
+    },
+    {
+      "id": "cb62a65577fe1a",
+      "zrodlo": "Kluby.org",
+      "cykl": "",
+      "nazwa": "MASTERS GAT GARWOLIN",
+      "data_od": "2026-09-07",
+      "data_do": "2026-09-07",
+      "miasto": "Garwolin",
+      "miejsce": "Garwolińska Akademia Tenisowa, Garwolin",
+      "kategorie": "OPEN",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "ranga": "",
+      "url": "https://kluby.org/turnieje/12168",
+      "status": "trwa",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "db9bc95a83e234",
@@ -63,7 +84,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12166",
-      "status": "trwa"
+      "status": "trwa",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "6d3f50cc38a2d2",
@@ -81,7 +103,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12050",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "podlaskie"
     },
     {
       "id": "b797e08ce380e0",
@@ -99,7 +122,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11925",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "podlaskie"
     },
     {
       "id": "a1cf4b72f62f65",
@@ -117,7 +141,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-pomorza-2026-5545",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "f3bdb2a27d37bc",
@@ -135,7 +160,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-letnie-mistrzostwa-pomorza-2026-5183",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "1f71dc5c2c70e7",
@@ -153,7 +179,8 @@
       "wpisowe": "",
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=A940B588-FF38-4707-B1C0-07A2ECEE20A5",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "01fb7a4c3285e1",
@@ -171,7 +198,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-tennis-cup-ii-2026-5591",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "2fef973f4ac033",
@@ -189,7 +217,8 @@
       "wpisowe": "119 zł",
       "ranga": "",
       "url": "https://cuply.pl/turnieje/challenger-koszalin-i-do-40-ntrp-dla-sredniozaawansowanych",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "d050673bb760f4",
@@ -207,7 +236,8 @@
       "wpisowe": "119 zł",
       "ranga": "",
       "url": "https://cuply.pl/turnieje/futures-koszalin-i-do-25-ntrp-dla-poczatkujacych",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "66946c8e58c131",
@@ -225,7 +255,8 @@
       "wpisowe": "119 zł",
       "ranga": "",
       "url": "https://cuply.pl/turnieje/koszalin-masters-i-dla-zaawansowanych-amatorow",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "697d5700232034",
@@ -243,7 +274,8 @@
       "wpisowe": "",
       "ranga": "2",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F686A07C-5544-4ECF-AB6A-380A742F1796",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "2237648753930a",
@@ -261,7 +293,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5593",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "małopolskie"
     },
     {
       "id": "639d794d79a508",
@@ -279,7 +312,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-obornik-2026-5565",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "wielkopolskie"
     },
     {
       "id": "963751d5ad03f5",
@@ -297,7 +331,8 @@
       "wpisowe": "",
       "ranga": "5",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=56E632DF-5D31-4F75-B856-219905D2F828",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "opolskie"
     },
     {
       "id": "e14e14e603aead",
@@ -315,7 +350,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-kwalifikacje-do-krajowych-mistrzostw-5590",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "e1bbd1a2d144a8",
@@ -333,7 +369,8 @@
       "wpisowe": "",
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=34B357C3-2123-48AD-A548-DA87307DB2AD",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "7e842e200fd7fd",
@@ -351,7 +388,8 @@
       "wpisowe": "",
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=AAC7C0C0-F48A-4F5A-B2D8-2AF775FFF636",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "podkarpackie"
     },
     {
       "id": "086715b6131d13",
@@ -369,13 +407,14 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12056",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
-      "id": "adbeddcb68b789",
+      "id": "7288fe8e12df4e",
       "zrodlo": "Kluby.org",
       "cykl": "",
-      "nazwa": "Mistrzostwa Rumi - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Rumia",
+      "nazwa": "Mistrzostwa Rumi i Powiatu Wejherowskiego Amatorów w Tenisie Ziemnym w Grze podwójnej",
       "data_od": "2026-09-12",
       "data_do": "2026-09-13",
       "miasto": "Rumia",
@@ -387,7 +426,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12148",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "5789a02a3944bd",
@@ -405,7 +445,8 @@
       "wpisowe": "",
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=EE394AF9-008B-48A3-8C22-E013D672A5E4",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "łódzkie"
     },
     {
       "id": "16ed88ab3f9701",
@@ -423,7 +464,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12165",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "7d8f27b2a2d24d",
@@ -441,7 +483,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-letnie-mistrzostwa-szczecina-2026-5216",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "7ba2f63d65b156",
@@ -459,7 +502,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-letnie-mistrzostwa-szczecina-2026-5215",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "4d233cf86158d0",
@@ -477,7 +521,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-sedziszowa-malopolskiego-2026-5544",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "podkarpackie"
     },
     {
       "id": "ef79886fe5a604",
@@ -495,7 +540,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-mistrzostwa-wejherowa-2026-5549",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "bac12ba0a94fe3",
@@ -513,7 +559,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-mistrzostwa-wejherowa-2026-5540",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "7db95afe8c9d66",
@@ -531,7 +578,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-50-otwarte-mistrzostwa-wejherowa-2026-5550",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "739c01b58da87a",
@@ -549,7 +597,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-aktywniaki-tennis-cup-ii-2026-5592",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "9ec2aaa6333e1b",
@@ -567,7 +616,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12059",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "fb3c83ffd96e40",
@@ -585,7 +635,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-nowej-soli-2026-5515",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "lubuskie"
     },
     {
       "id": "3dd3c296141b7f",
@@ -603,7 +654,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-nowej-soli-2026-5516",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "lubuskie"
     },
     {
       "id": "6331e96a78f1ee",
@@ -621,7 +673,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-obornik-2026-5547",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "wielkopolskie"
     },
     {
       "id": "b198c6a00d5563",
@@ -639,7 +692,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-olawy-2026-5512",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "dolnośląskie"
     },
     {
       "id": "f278b3b3115f10",
@@ -657,7 +711,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-olawy-2026-5513",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "dolnośląskie"
     },
     {
       "id": "782f588ab3df61",
@@ -675,7 +730,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-olawy-2026-5514",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "dolnośląskie"
     },
     {
       "id": "c2b81042d7ddc3",
@@ -693,7 +749,8 @@
       "wpisowe": "",
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=5F698FAF-974D-4548-9D37-EAEC2EC8CE8C",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "3f278db66104c6",
@@ -711,7 +768,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5542",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "świętokrzyskie"
     },
     {
       "id": "d91e1ddaf1b4d9",
@@ -729,7 +787,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5543",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "świętokrzyskie"
     },
     {
       "id": "0e41dfaa2b4e2f",
@@ -747,7 +806,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11399",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "3cf9298c256909",
@@ -765,7 +825,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-tenis-zone-tour-iv-2026-5344",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "łódzkie"
     },
     {
       "id": "30e099df65a8d5",
@@ -783,7 +844,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-tenis-zone-tour-iv-2026-5343",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "łódzkie"
     },
     {
       "id": "926ac5d4da9f9d",
@@ -801,7 +863,8 @@
       "wpisowe": "",
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=D703BD36-8AE0-451E-81B3-AEBF438E7497",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "517df254b3d335",
@@ -819,7 +882,8 @@
       "wpisowe": "",
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=80B4625B-3B00-4F14-B52A-FA27F56720A0",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "a9da002e188ba3",
@@ -837,7 +901,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12107",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "podlaskie"
     },
     {
       "id": "fc7014a59ae7c8",
@@ -855,7 +920,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12082",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "śląskie"
     },
     {
       "id": "ddd0bc7fc6c4c4",
@@ -873,7 +939,8 @@
       "wpisowe": "139 zł",
       "ranga": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-doluje-ii-do-40-ntrp",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "4b93e90c2417a3",
@@ -891,7 +958,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5175",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "c8b98be8188745",
@@ -909,7 +977,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5176",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "29718552fee555",
@@ -927,7 +996,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-kielc-2026-5554",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "świętokrzyskie"
     },
     {
       "id": "02c9d47c2d3d5a",
@@ -945,7 +1015,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-kielc-2026-5555",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "świętokrzyskie"
     },
     {
       "id": "65e00abce8be48",
@@ -963,7 +1034,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-konina-2026-5533",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "a81430c06d75e7",
@@ -981,7 +1053,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-konina-2026-5534",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "354de27ad8faaf",
@@ -999,7 +1072,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-jesienne-mistrzostwa-konina-2026-5532",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "42c1fce8520810",
@@ -1017,7 +1091,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-5558",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "c2ae77898d23e2",
@@ -1035,7 +1110,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-5559",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "b6310336c4466e",
@@ -1053,7 +1129,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krosna-2026-5574",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "3a0645d1eba5f0",
@@ -1071,7 +1148,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-olesnica-closing-season-cup-2026-5556",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "e5e8f6d932b64b",
@@ -1089,7 +1167,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-olesnica-closing-season-cup-2026-5557",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "3894dd513530d4",
@@ -1107,7 +1186,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11994",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "warmińsko-mazurskie"
     },
     {
       "id": "d29a776f58cd1e",
@@ -1125,7 +1205,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-wiosenne-mistrzostwa-radomia-2026-5276",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "49c66a2956a5b2",
@@ -1143,7 +1224,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5568",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "podkarpackie"
     },
     {
       "id": "c7fc6cf69f0749",
@@ -1161,7 +1243,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12124",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "2c0edcc7b0fedd",
@@ -1179,7 +1262,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11901",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "7f7dde468236c4",
@@ -1197,7 +1281,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12156",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "55de6e44c60e50",
@@ -1215,7 +1300,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12006",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "547b0dcee82391",
@@ -1233,7 +1319,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12005",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "cc9de0675653b3",
@@ -1251,7 +1338,8 @@
       "wpisowe": "",
       "ranga": "2",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=76B12D48-991B-4098-B048-65D339E3E686",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "lubelskie"
     },
     {
       "id": "db82c14a4f11dc",
@@ -1269,7 +1357,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-puchar-klubu-tenisowego-antuka-2026-5566",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "śląskie"
     },
     {
       "id": "3c096c1c3a3acf",
@@ -1287,7 +1376,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-puchar-klubu-tenisowego-antuka-2026-5567",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "śląskie"
     },
     {
       "id": "b41e6c12e421ee",
@@ -1305,7 +1395,8 @@
       "wpisowe": "139 zł",
       "ranga": "",
       "url": "https://cuply.pl/turnieje/cuply-futures-szczecin-doluje-ii-do-25-ntrp",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "905b7e4bc3e23f",
@@ -1323,7 +1414,8 @@
       "wpisowe": "139 zł",
       "ranga": "",
       "url": "https://cuply.pl/turnieje/cuply-masters-szczecin-doluje-dla-zaawansowanych",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "99757a44a73f67",
@@ -1341,7 +1433,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-indywidualne-mistrzostwa-wojewodztwa-lubuskiego-2026-5475",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "lubuskie"
     },
     {
       "id": "ba5abab888fd66",
@@ -1359,7 +1452,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12060",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "1ac6f12ecdece3",
@@ -1377,7 +1471,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sport-myslenice-2026-5579",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "małopolskie"
     },
     {
       "id": "5f5b0a89d68675",
@@ -1395,7 +1490,8 @@
       "wpisowe": "",
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=A691A78D-4329-42F0-A8FE-71DFABE41147",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "2955d001843f45",
@@ -1413,7 +1509,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5569",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "podkarpackie"
     },
     {
       "id": "3f03d56d7d3278",
@@ -1431,7 +1528,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5560",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "0fb10a053b9e9a",
@@ -1449,7 +1547,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5561",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "e35d5fec488c21",
@@ -1467,7 +1566,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12145",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "podlaskie"
     },
     {
       "id": "46c130b1d361b2",
@@ -1485,7 +1585,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11724",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "7369d9bdcc34ce",
@@ -1503,7 +1604,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11780",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "podlaskie"
     },
     {
       "id": "f358c02ebd023a",
@@ -1521,7 +1623,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-moksir-chelmek-2026-5570",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "e18d5a4652502a",
@@ -1539,7 +1642,8 @@
       "wpisowe": "129 zł",
       "ranga": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "lubuskie"
     },
     {
       "id": "c385f41b60d28a",
@@ -1557,7 +1661,8 @@
       "wpisowe": "",
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=C9A54B2C-3FBB-459A-B564-1EA39BFF8610",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "opolskie"
     },
     {
       "id": "e39a310d4ad7b4",
@@ -1575,7 +1680,8 @@
       "wpisowe": "",
       "ranga": "5",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=E35A4909-FB88-47F5-AE80-3B8EB44B9A76",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "opolskie"
     },
     {
       "id": "155e067c479b9f",
@@ -1593,7 +1699,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-szamotul-2026-5162",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "wielkopolskie"
     },
     {
       "id": "6f7fe65af8e5ed",
@@ -1611,7 +1718,8 @@
       "wpisowe": "119 zł",
       "ranga": "",
       "url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iv",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "e0c8619ae3df2f",
@@ -1629,7 +1737,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-jesienne-mistrzostwa-sztumu-2026-5577",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "8f5342ca0bb27d",
@@ -1647,7 +1756,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-zawiercia-2026-5595",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "fe60cdd0c1ea10",
@@ -1665,7 +1775,8 @@
       "wpisowe": "",
       "ranga": "5",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=30A8EA48-1D65-4B5A-A408-B07159A7FC4B",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "opolskie"
     },
     {
       "id": "4df34c42948d92",
@@ -1683,7 +1794,8 @@
       "wpisowe": "",
       "ranga": "3",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=7DD01AB2-8081-4775-B6D6-9DBD9B9225A3",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": ""
     },
     {
       "id": "ee4dca09e3b362",
@@ -1701,7 +1813,8 @@
       "wpisowe": "139 zł",
       "ranga": "",
       "url": "https://cuply.pl/turnieje/cuply-futures-stargard-ii-do-25-ntrp",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "067419615d6cd4",
@@ -1719,7 +1832,8 @@
       "wpisowe": "120 zł",
       "ranga": "",
       "url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "12626904dc1b6e",
@@ -1737,7 +1851,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-kgmiar-cup-v-2026-5161",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "wielkopolskie"
     },
     {
       "id": "86e709a2f16604",
@@ -1755,7 +1870,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11955",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "e82798706cc2f3",
@@ -1773,7 +1889,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-kolobrzegu-2026-5589",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "zachodniopomorskie"
     },
     {
       "id": "dd079865e73685",
@@ -1791,7 +1908,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12112",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "86aa2844e4da6f",
@@ -1809,7 +1927,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-jesienne-mistrzostwa-gdanska-2026-5186",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "pomorskie"
     },
     {
       "id": "f7557e527301c0",
@@ -1827,7 +1946,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11386",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "3dd22913875bec",
@@ -1845,7 +1965,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12113",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "d9dbad5721968b",
@@ -1863,7 +1984,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12114",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "a6f489bf243fe9",
@@ -1881,7 +2003,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11389",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "95979cdab59dac",
@@ -1899,7 +2022,8 @@
       "wpisowe": "",
       "ranga": "2",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=33496672-4633-4B65-B2DD-11343A2FC8B0",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "50f2e092cb557c",
@@ -1917,7 +2041,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12115",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "962f8011d228cd",
@@ -1935,7 +2060,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12116",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "ba2062b108435c",
@@ -1953,7 +2079,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11402",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "82f644af263dd7",
@@ -1971,7 +2098,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-perun-wesola-open-2026-5581",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "e4a61c88101ad7",
@@ -1989,7 +2117,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12084",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "1a00a36ab07b26",
@@ -2007,7 +2136,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11956",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "2f3a025aa419b0",
@@ -2025,7 +2155,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-mistrzostwa-polski-plt-2026-5520",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "łódzkie"
     },
     {
       "id": "397f519b126740",
@@ -2043,7 +2174,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/11825",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "82eb1351a59889",
@@ -2061,7 +2193,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12089",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "765da21d5807d6",
@@ -2079,7 +2212,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12094",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "d68dc6c40aafd7",
@@ -2097,7 +2231,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12085",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "19dd74b906ee0f",
@@ -2115,7 +2250,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12090",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "d8932aad34a5a4",
@@ -2133,7 +2269,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12095",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "5bce1fa15f4f2d",
@@ -2151,7 +2288,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12086",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "35886ef328cf6a",
@@ -2169,7 +2307,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12091",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "fae1013e99e646",
@@ -2187,7 +2326,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12097",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "c49775707f6af0",
@@ -2205,7 +2345,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12087",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "b414bea65b6745",
@@ -2223,7 +2364,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12092",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "9c08726b90640e",
@@ -2241,7 +2383,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12098",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "52b585a13b4619",
@@ -2259,7 +2402,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12088",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "3a2645743616e8",
@@ -2277,7 +2421,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12093",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "a983fad492eb5a",
@@ -2295,7 +2440,8 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12099",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     },
     {
       "id": "1960f5f611a660",
@@ -2313,7 +2459,10 @@
       "wpisowe": "",
       "ranga": "",
       "url": "https://kluby.org/turnieje/12100",
-      "status": "nadchodzacy"
+      "status": "nadchodzacy",
+      "wojewodztwo": "mazowieckie"
     }
-  ]
+  ],
+  "regiony_aktualizacja_utc": "2026-09-07T17:14:00+00:00",
+  "liczba_turniejow_bez_wojewodztwa": 16
 }
