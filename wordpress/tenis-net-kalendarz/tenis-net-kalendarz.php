@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Tenis NET – Kalendarz turniejów amatorskich
  * Description: Wyświetla agregowany kalendarz turniejów amatorskich z danych JSON generowanych w repozytorium czerjac/kalendarz.
- * Version: 0.1.1
+ * Version: 0.1.2
  * Author: Tenis NET
  * Text Domain: tenis-net-kalendarz
  */
@@ -12,7 +12,7 @@ if (!defined('ABSPATH')) {
 }
 
 final class Tenis_NET_Kalendarz {
-    const VERSION = '0.1.1';
+    const VERSION = '0.1.2';
     const OPTION_URL = 'tnk_data_url';
     const OPTION_BACKUP = 'tnk_last_good_json';
     const TRANSIENT = 'tnk_calendar_data_v1';
@@ -159,6 +159,10 @@ final class Tenis_NET_Kalendarz {
     }
 
     private static function details_url($item) {
+        // PLT: najpierw strona konkretnego turnieju, nie formularz rejestracji.
+        if (!empty($item['zrodlo']) && $item['zrodlo'] === 'PLT' && !empty($item['url'])) {
+            return esc_url($item['url']);
+        }
         if (!empty($item['zapisy_url'])) return esc_url($item['zapisy_url']);
         if (!empty($item['url'])) return esc_url($item['url']);
         return '';
