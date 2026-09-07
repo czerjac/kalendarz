@@ -4,10 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 4 * * *"
-  push:
-    paths:
-      - "regiony.py"
-      - ".github/workflows/aktualizacja.yml"
 
 concurrency:
   group: kalendarz-aktualizacja
