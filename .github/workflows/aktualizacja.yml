@@ -49,6 +49,10 @@ jobs:
       - name: Zbuduj wspólny kalendarz
         run: python build.py
 
+      - name: Przypisz województwa
+        continue-on-error: true
+        run: python regiony.py
+
       - name: Zapisz wynik w repozytorium
         run: |
           git config user.name "github-actions[bot]"
@@ -58,5 +62,6 @@ jobs:
             echo "Brak zmian w danych."
           else
             git commit -m "Automatyczna aktualizacja kalendarza"
+            git pull --rebase origin main
             git push
           fi
