@@ -14,6 +14,7 @@ CACHE_FILE = Path("data/miasta_wojewodztwa.json")
 UNRESOLVED_FILE = Path("data/nierozpoznane_lokalizacje.json")
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 USER_AGENT = "tenis.net.pl-kalendarz/1.0 (https://github.com/czerjac/kalendarz)"
+AMBIGUOUS_KEYS = {"kamien"}
 
 WOJEWODZTWA = {
     "dolnoslaskie": "dolnośląskie",
@@ -34,63 +35,28 @@ WOJEWODZTWA = {
     "zachodniopomorskie": "zachodniopomorskie",
 }
 
-# Tylko przypadki, których nie chcemy zostawiać geokoderowi do zgadywania.
 MANUAL_OVERRIDES = {
-    "warszawa": "mazowieckie",
-    "krakow": "małopolskie",
-    "lodz": "łódzkie",
-    "wroclaw": "dolnośląskie",
-    "poznan": "wielkopolskie",
-    "gdansk": "pomorskie",
-    "gdynia": "pomorskie",
-    "sopot": "pomorskie",
-    "szczecin": "zachodniopomorskie",
-    "bialystok": "podlaskie",
-    "lublin": "lubelskie",
-    "rzeszow": "podkarpackie",
-    "kielce": "świętokrzyskie",
-    "opole": "opolskie",
-    "zielona gora": "lubuskie",
-    "gorzow wielkopolski": "lubuskie",
-    "bydgoszcz": "kujawsko-pomorskie",
-    "torun": "kujawsko-pomorskie",
-    "olsztyn": "warmińsko-mazurskie",
-    "koszalin": "zachodniopomorskie",
-    "kolobrzeg": "zachodniopomorskie",
-    "gryfino": "zachodniopomorskie",
-    "stargard": "zachodniopomorskie",
-    "doluje": "zachodniopomorskie",
-    "mierzyn": "zachodniopomorskie",
-    "myszkow": "śląskie",
-    "katowice": "śląskie",
-    "chorzow": "śląskie",
-    "biala podlaska": "lubelskie",
-    "minsk mazowiecki": "mazowieckie",
-    "zyrardow": "mazowieckie",
-    "ostroleka": "mazowieckie",
-    "plock": "mazowieckie",
-    "lomza": "podlaskie",
-    "pisz": "warmińsko-mazurskie",
-    "reda": "pomorskie",
-    "rumia": "pomorskie",
-    "wejherowo": "pomorskie",
-    "inowroclaw": "kujawsko-pomorskie",
-    "wloclawek": "kujawsko-pomorskie",
-    "oborniki": "wielkopolskie",
-    "legnica": "dolnośląskie",
-    "radom": "mazowieckie",
-    "zamosc": "lubelskie",
-    "stalowa wola": "podkarpackie",
-    "olesno": "opolskie",
-    "barlinek": "zachodniopomorskie",
-    "chelmek k oswiecimia": "małopolskie",
-    "konin": "wielkopolskie",
-    "krosno": "podkarpackie",
-    "olesnica": "dolnośląskie",
-    "piaseczno": "mazowieckie",
-    "zawiercie": "śląskie",
-    "leczna": "lubelskie",
-    "kamien": "podkarpackie",
+    "warszawa": "mazowieckie", "krakow": "małopolskie", "lodz": "łódzkie",
+    "wroclaw": "dolnośląskie", "poznan": "wielkopolskie", "gdansk": "pomorskie",
+    "gdynia": "pomorskie", "sopot": "pomorskie", "szczecin": "zachodniopomorskie",
+    "bialystok": "podlaskie", "lublin": "lubelskie", "rzeszow": "podkarpackie",
+    "kielce": "świętokrzyskie", "opole": "opolskie", "zielona gora": "lubuskie",
+    "gorzow wielkopolski": "lubuskie", "bydgoszcz": "kujawsko-pomorskie",
+    "torun": "kujawsko-pomorskie", "olsztyn": "warmińsko-mazurskie",
+    "koszalin": "zachodniopomorskie", "kolobrzeg": "zachodniopomorskie",
+    "gryfino": "zachodniopomorskie", "stargard": "zachodniopomorskie",
+    "doluje": "zachodniopomorskie", "mierzyn": "zachodniopomorskie",
+    "myszkow": "śląskie", "katowice": "śląskie", "chorzow": "śląskie",
+    "biala podlaska": "lubelskie", "minsk mazowiecki": "mazowieckie",
+    "zyrardow": "mazowieckie", "ostroleka": "mazowieckie", "plock": "mazowieckie",
+    "lomza": "podlaskie", "pisz": "warmińsko-mazurskie", "reda": "pomorskie",
+    "rumia": "pomorskie", "wejherowo": "pomorskie", "inowroclaw": "kujawsko-pomorskie",
+    "wloclawek": "kujawsko-pomorskie", "oborniki": "wielkopolskie",
+    "legnica": "dolnośląskie", "radom": "mazowieckie", "zamosc": "lubelskie",
+    "stalowa wola": "podkarpackie", "olesno": "opolskie",
+    "barlinek": "zachodniopomorskie", "chelmek k oswiecimia": "małopolskie",
+    "konin": "wielkopolskie", "krosno": "podkarpackie", "olesnica": "dolnośląskie",
+    "piaseczno": "mazowieckie", "zawiercie": "śląskie", "leczna": "lubelskie",
 }
 
 
@@ -98,14 +64,11 @@ def ascii_key(value: str) -> str:
     value = unicodedata.normalize("NFKD", value or "")
     value = "".join(ch for ch in value if not unicodedata.combining(ch))
     value = value.casefold().replace("ł", "l")
-    value = re.sub(r"[^a-z0-9]+", " ", value).strip()
-    return value
+    return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
 def normalize_state(value: str) -> str:
-    key = ascii_key(value)
-    key = key.replace("wojewodztwo ", "").replace(" voivodeship", "")
-    key = key.replace(" ", "-")
+    key = ascii_key(value).replace("wojewodztwo ", "").replace(" voivodeship", "").replace(" ", "-")
     return WOJEWODZTWA.get(key, "")
 
 
@@ -121,36 +84,19 @@ def load_json(path: Path, default):
 def query_one(name: str) -> tuple[str, list[dict]]:
     response = requests.get(
         NOMINATIM_URL,
-        params={
-            "q": f"{name}, Polska",
-            "format": "jsonv2",
-            "addressdetails": 1,
-            "countrycodes": "pl",
-            "limit": 5,
-        },
+        params={"q": f"{name}, Polska", "format": "jsonv2", "addressdetails": 1, "countrycodes": "pl", "limit": 5},
         headers={"User-Agent": USER_AGENT, "Accept-Language": "pl"},
         timeout=20,
     )
     response.raise_for_status()
-    results = response.json()
-    states = []
-    evidence = []
-    for item in results:
-        address = item.get("address") or {}
-        state = normalize_state(address.get("state", ""))
+    states, evidence = [], []
+    for item in response.json():
+        state = normalize_state((item.get("address") or {}).get("state", ""))
         if state:
             states.append(state)
-        evidence.append({
-            "display_name": item.get("display_name", ""),
-            "wojewodztwo": state,
-        })
-
+        evidence.append({"display_name": item.get("display_name", ""), "wojewodztwo": state})
     unique_states = sorted(set(states))
-    # Przy wielu miejscowościach o tej samej nazwie w różnych województwach
-    # nie przypisujemy nic automatycznie.
-    if len(unique_states) == 1:
-        return unique_states[0], evidence
-    return "", evidence
+    return (unique_states[0] if len(unique_states) == 1 else ""), evidence
 
 
 def resolve_city(city: str, cache: dict) -> tuple[str, dict]:
@@ -159,6 +105,11 @@ def resolve_city(city: str, cache: dict) -> tuple[str, dict]:
     if not key:
         return "", {"powod": "brak_miasta"}
 
+    # Nazwa "Kamień" występuje w wielu województwach. Nie ufamy ani geokoderowi,
+    # ani staremu cache — właściwe województwo ma podać strona konkretnego turnieju.
+    if key in AMBIGUOUS_KEYS:
+        return "", {"powod": "niejednoznaczna_nazwa_miejscowosci"}
+
     if key in MANUAL_OVERRIDES:
         return MANUAL_OVERRIDES[key], {"metoda": "reczna_regula"}
 
@@ -166,11 +117,9 @@ def resolve_city(city: str, cache: dict) -> tuple[str, dict]:
     if isinstance(cached, dict) and cached.get("wojewodztwo"):
         return cached["wojewodztwo"], {"metoda": "cache"}
 
-    # Lokalizacje typu „Szczecin / Mierzyn” sprawdzamy po obu częściach.
     parts = [part.strip() for part in re.split(r"\s*/\s*", original) if part.strip()]
     if len(parts) > 1:
-        found = []
-        evidences = []
+        found, evidences = [], []
         for part in parts:
             manual = MANUAL_OVERRIDES.get(ascii_key(part), "")
             if manual:
@@ -204,8 +153,10 @@ def main() -> None:
 
     cache_data = load_json(CACHE_FILE, {"miasta": {}})
     cache = cache_data.setdefault("miasta", {})
-    unresolved_by_city: dict[str, dict] = {}
+    for key in AMBIGUOUS_KEYS:
+        cache.pop(key, None)
 
+    unresolved_by_city: dict[str, dict] = {}
     unique_cities = sorted({" ".join((item.get("miasto") or "").split()) for item in tournaments if item.get("miasto")})
     resolved: dict[str, str] = {}
 
@@ -215,23 +166,17 @@ def main() -> None:
         if woj:
             resolved[city] = woj
             cache[key] = {
-                "miasto": city,
-                "wojewodztwo": woj,
-                "metoda": details.get("metoda", ""),
+                "miasto": city, "wojewodztwo": woj, "metoda": details.get("metoda", ""),
                 "aktualizacja_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             }
         else:
-            unresolved_by_city[city] = {
-                "miasto": city,
-                **details,
-            }
+            unresolved_by_city[city] = {"miasto": city, **details}
 
     missing_count = 0
     for item in tournaments:
         city = " ".join((item.get("miasto") or "").split())
-        woj = resolved.get(city, "")
-        item["wojewodztwo"] = woj
-        if not woj:
+        item["wojewodztwo"] = resolved.get(city, "")
+        if not item["wojewodztwo"]:
             missing_count += 1
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -244,11 +189,7 @@ def main() -> None:
     cache_data["liczba_miast"] = len(cache)
     CACHE_FILE.write_text(json.dumps(cache_data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    unresolved = {
-        "aktualizacja_utc": now,
-        "liczba_nierozpoznanych_miast": len(unresolved_by_city),
-        "miasta": list(unresolved_by_city.values()),
-    }
+    unresolved = {"aktualizacja_utc": now, "liczba_nierozpoznanych_miast": len(unresolved_by_city), "miasta": list(unresolved_by_city.values())}
     UNRESOLVED_FILE.write_text(json.dumps(unresolved, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"Województwa: rozpoznano {len(resolved)}/{len(unique_cities)} miejscowości")
