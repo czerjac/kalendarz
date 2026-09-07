@@ -13,45 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
-        with:
-          python-version: "3.12"
       - name: Popraw link PLT
         run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          php_path = Path('wordpress/tenis-net-kalendarz/tenis-net-kalendarz.php')
-          readme_path = Path('wordpress/tenis-net-kalendarz/readme.txt')
-
-          php = php_path.read_text(encoding='utf-8')
-          php = php.replace('Version: 0.1.1', 'Version: 0.1.2')
-          php = php.replace("const VERSION = '0.1.1';", "const VERSION = '0.1.2';")
-
-          old = '''    private static function details_url($item) {
-        if (!empty($item['zapisy_url'])) return esc_url($item['zapisy_url']);
-        if (!empty($item['url'])) return esc_url($item['url']);
-        return '';
-    }
-'''
-          new = '''    private static function details_url($item) {
-        // PLT: najpierw strona konkretnego turnieju, nie formularz rejestracji.
-        if (!empty($item['zrodlo']) && $item['zrodlo'] === 'PLT' && !empty($item['url'])) {
-            return esc_url($item['url']);
-        }
-        if (!empty($item['zapisy_url'])) return esc_url($item['zapisy_url']);
-        if (!empty($item['url'])) return esc_url($item['url']);
-        return '';
-    }
-'''
-          if old not in php:
-              raise SystemExit('Nie znaleziono funkcji details_url do podmiany')
-          php = php.replace(old, new, 1)
-          php_path.write_text(php, encoding='utf-8')
-
-          readme = readme_path.read_text(encoding='utf-8').replace('0.1.1', '0.1.2')
-          readme_path.write_text(readme, encoding='utf-8')
-          PY
+          python -c 'from pathlib import Path; p=Path("wordpress/tenis-net-kalendarz/tenis-net-kalendarz.php"); s=p.read_text(encoding="utf-8"); s=s.replace("Version: 0.1.1","Version: 0.1.2").replace("const VERSION = '\''0.1.1'\'';","const VERSION = '\''0.1.2'\'';"); old="    private static function details_url($item) {\n        if (!empty($item['\''zapisy_url'\''])) return esc_url($item['\''zapisy_url'\'']);\n        if (!empty($item['\''url'\''])) return esc_url($item['\''url'\'']);\n        return '\'''\'';\n    }\n"; new="    private static function details_url($item) {\n        // PLT: najpierw strona konkretnego turnieju, nie formularz rejestracji.\n        if (!empty($item['\''zrodlo'\'']) && $item['\''zrodlo'\''] === '\''PLT'\'' && !empty($item['\''url'\''])) {\n            return esc_url($item['\''url'\'']);\n        }\n        if (!empty($item['\''zapisy_url'\''])) return esc_url($item['\''zapisy_url'\'']);\n        if (!empty($item['\''url'\''])) return esc_url($item['\''url'\'']);\n        return '\'''\'';\n    }\n"; assert old in s, "Nie znaleziono details_url"; p.write_text(s.replace(old,new,1),encoding="utf-8"); r=Path("wordpress/tenis-net-kalendarz/readme.txt"); r.write_text(r.read_text(encoding="utf-8").replace("0.1.1","0.1.2"),encoding="utf-8")'
       - name: Test składni
         run: |
           php -l wordpress/tenis-net-kalendarz/tenis-net-kalendarz.php
