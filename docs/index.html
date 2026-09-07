@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kalendarz turniejów amatorskich — prototyp Tenis NET</title>
+  <style>
+    :root{
+      --bg:#f5f6f7;--card:#fff;--text:#1b1f23;--muted:#66707a;--line:#dde2e6;
+      --accent:#b51f2a;--accent-dark:#8e1720;--soft:#f7ecee;--ok:#1f7a43;
+      --radius:14px;--shadow:0 4px 18px rgba(0,0,0,.06)
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font:16px/1.45 Arial,Helvetica,sans-serif}
+    .wrap{max-width:1180px;margin:0 auto;padding:28px 18px 60px}
+    h1{font-size:clamp(28px,4vw,44px);line-height:1.08;margin:0 0 10px}
+    .lead{color:var(--muted);font-size:17px;margin:0 0 24px}
+    .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;margin-bottom:20px}
+    .filters{display:grid;grid-template-columns:1.1fr 1fr 1.2fr 1.4fr;gap:12px}
+    label{display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-bottom:6px}
+    select,input{width:100%;min-height:44px;border:1px solid #cbd2d8;border-radius:10px;padding:9px 11px;background:white;color:var(--text);font-size:15px}
+    .summary{display:flex;justify-content:space-between;gap:12px;align-items:center;margin:14px 2px 8px;color:var(--muted);font-size:14px}
+    .summary strong{color:var(--text)}
+    .list{display:grid;gap:12px}
+    .event{display:grid;grid-template-columns:132px 1fr auto;gap:18px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow)}
+    .datebox{border-right:1px solid var(--line);padding-right:16px}
+    .day{font-size:26px;font-weight:800;line-height:1.05}
+    .month{font-size:13px;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:4px}
+    .range{font-size:12px;color:var(--muted);margin-top:5px}
+    .event h2{font-size:19px;line-height:1.25;margin:0 0 6px}
+    .place{font-weight:700;margin-bottom:8px}
+    .place span{font-weight:400;color:var(--muted)}
+    .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+    .pill{font-size:12px;border:1px solid var(--line);background:#fafafa;padding:5px 8px;border-radius:999px}
+    .cycle{background:var(--soft);border-color:#ebcbd0;color:var(--accent-dark);font-weight:700}
+    .source{font-size:11px;color:#7c8791;margin-top:10px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-width:112px;min-height:42px;padding:8px 13px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:14px}
+    .btn:hover{background:var(--accent-dark)}
+    .empty,.error{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;text-align:center;color:var(--muted)}
+    .loading{padding:34px;text-align:center;color:var(--muted)}
+    .note{font-size:12px;color:var(--muted);margin-top:12px}
+    .warning{color:#9a5c00}
+    @media(max-width:850px){
+      .filters{grid-template-columns:1fr 1fr}
+      .event{grid-template-columns:100px 1fr}.event .actions{grid-column:2}.datebox{align-self:start}
+    }
+    @media(max-width:560px){
+      .wrap{padding:20px 12px 40px}.filters{grid-template-columns:1fr}.panel{padding:14px}
+      .event{grid-template-columns:1fr;gap:10px;padding:15px}.datebox{border-right:0;border-bottom:1px solid var(--line);padding:0 0 10px;display:flex;align-items:baseline;gap:8px}.day{font-size:23px}.month{margin:0}.range{margin-left:auto}.event .actions{grid-column:1}.btn{width:100%}
+      .summary{align-items:flex-start;flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Kalendarz turniejów amatorskich</h1>
+    <p class="lead">Turnieje tenisowe z całej Polski zebrane w jednym miejscu. Prototyp widoku dla tenis.net.pl/amatorzy/kalendarz/.</p>
+
+    <section class="panel" aria-label="Filtry kalendarza">
+      <div class="filters">
+        <div>
+          <label for="range">Termin</label>
+          <select id="range">
+            <option value="7">Najbliższe 7 dni</option>
+            <option value="30" selected>Najbliższe 30 dni</option>
+            <option value="90">Najbliższe 3 miesiące</option>
+            <option value="all">Wszystkie</option>
+          </select>
+        </div>
+        <div>
+          <label for="region">Województwo</label>
+          <select id="region"><option value="">Wszystkie</option></select>
+        </div>
+        <div>
+          <label for="cycle">Cykl</label>
+          <select id="cycle"><option value="">Wszystkie</option></select>
+        </div>
+        <div>
+          <label for="search">Szukaj</label>
+          <input id="search" type="search" placeholder="np. Warszawa, Open, Masters…">
+        </div>
+      </div>
+      <div class="note">Źródło danych nie jest traktowane jako organizator. „Kluby.org” będzie tylko techniczną informacją o miejscu publikacji turnieju.</div>
+    </section>
+
+    <div class="summary">
+      <div id="counter">Ładowanie danych…</div>
+      <div id="updated"></div>
+    </div>
+
+    <section id="events" class="list"><div class="loading">Ładowanie aktualnego kalendarza…</div></section>
+  </main>
+
+<script>
+const DATA_URL='https://raw.githubusercontent.com/czerjac/kalendarz/main/data/turnieje.json';
+const $=s=>document.querySelector(s);
+let all=[];
+
+const months=['stycznia','lutego','marca','kwietnia','maja','czerwca','lipca','sierpnia','września','października','listopada','grudnia'];
+function esc(v=''){return String(v).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+function cap(v=''){return v ? v.charAt(0).toUpperCase()+v.slice(1) : v}
+function cycleOf(e){return (e.cykl||'').trim() || 'brak'}
+function parseDate(s){const [y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)}
+function formatDate(e){
+  const a=parseDate(e.data_od), b=parseDate(e.data_do||e.data_od);
+  const same=e.data_od===e.data_do;
+  return {
+    day:same?String(a.getDate()):`${a.getDate()}–${b.getDate()}`,
+    month:same?months[a.getMonth()]: (a.getMonth()===b.getMonth()?months[a.getMonth()]:`${months[a.getMonth()]} / ${months[b.getMonth()]}`),
+    range:same?'':`${e.data_od} – ${e.data_do}`
+  }
+}
+function addOptions(sel,values){
+  const keep=sel.value;
+  sel.innerHTML='<option value="">Wszystkie</option>'+values.map(v=>`<option value="${esc(v)}">${esc(cap(v))}</option>`).join('');
+  if(values.includes(keep)) sel.value=keep;
+}
+function render(){
+  const range=$('#range').value, region=$('#region').value, cycle=$('#cycle').value, q=$('#search').value.trim().toLocaleLowerCase('pl');
+  const today=new Date(); today.setHours(0,0,0,0);
+  let end=null;
+  if(range!=='all'){end=new Date(today);end.setDate(end.getDate()+Number(range));}
+  const rows=all.filter(e=>{
+    const start=parseDate(e.data_od), finish=parseDate(e.data_do||e.data_od);
+    if(finish<today) return false;
+    if(end && start>end) return false;
+    if(region && (e.wojewodztwo||'')!==region) return false;
+    if(cycle && cycleOf(e)!==cycle) return false;
+    if(q){
+      const hay=[e.nazwa,e.miasto,e.miejsce,e.wojewodztwo,e.kategorie,e.typ_gry,e.poziom,cycleOf(e)].join(' ').toLocaleLowerCase('pl');
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  }).sort((a,b)=>a.data_od.localeCompare(b.data_od)||a.miasto.localeCompare(b.miasto,'pl'));
+
+  $('#counter').innerHTML=`Znaleziono <strong>${rows.length}</strong> turniejów`;
+  if(!rows.length){$('#events').innerHTML='<div class="empty">Brak turniejów spełniających wybrane kryteria.</div>';return;}
+  $('#events').innerHTML=rows.map(e=>{
+    const d=formatDate(e), cycle=cycleOf(e), woj=e.wojewodztwo||'do weryfikacji';
+    const pills=[];
+    pills.push(`<span class="pill cycle">Cykl: ${esc(cycle)}</span>`);
+    if(e.kategorie) pills.push(`<span class="pill">${esc(e.kategorie)}</span>`);
+    if(e.typ_gry) pills.push(`<span class="pill">${esc(e.typ_gry)}</span>`);
+    if(e.poziom) pills.push(`<span class="pill">${esc(e.poziom)}</span>`);
+    if(e.wpisowe) pills.push(`<span class="pill">Wpisowe: ${esc(e.wpisowe)}</span>`);
+    return `<article class="event">
+      <div class="datebox"><div class="day">${esc(d.day)}</div><div class="month">${esc(d.month)}</div><div class="range">${esc(d.range)}</div></div>
+      <div>
+        <h2>${esc(e.nazwa)}</h2>
+        <div class="place">${esc(e.miasto||'Miejsce do uzupełnienia')} <span>· ${esc(cap(woj))}</span></div>
+        ${e.miejsce?`<div class="note">${esc(e.miejsce)}</div>`:''}
+        <div class="meta">${pills.join('')}</div>
+        <div class="source">Źródło danych: ${esc(e.zrodlo||'')}</div>
+      </div>
+      <div class="actions">${e.url?`<a class="btn" href="${esc(e.url)}" target="_blank" rel="noopener">Szczegóły</a>`:''}</div>
+    </article>`
+  }).join('');
+}
+
+async function init(){
+  try{
+    const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const data=await r.json();
+    all=data.turnieje||[];
+    const regions=[...new Set(all.map(e=>e.wojewodztwo).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'pl'));
+    const cycles=[...new Set(all.map(cycleOf))].sort((a,b)=>a==='brak'?1:b==='brak'?-1:a.localeCompare(b,'pl'));
+    addOptions($('#region'),regions);addOptions($('#cycle'),cycles);
+    const stamp=data.regiony_aktualizacja_utc||data.wygenerowano_utc;
+    if(stamp){const d=new Date(stamp);$('#updated').textContent='Aktualizacja danych: '+d.toLocaleString('pl-PL');}
+    if(data.liczba_turniejow_bez_wojewodztwa){$('#updated').innerHTML+=` · <span class="warning">bez województwa: ${data.liczba_turniejow_bez_wojewodztwa}</span>`;}
+    ['range','region','cycle'].forEach(id=>$('#'+id).addEventListener('change',render));
+    $('#search').addEventListener('input',render);
+    render();
+  }catch(err){
+    $('#events').innerHTML='<div class="error">Nie udało się pobrać danych prototypu. '+esc(err.message)+'</div>';
+    $('#counter').textContent='Błąd ładowania danych';
+  }
+}
+init();
+</script>
+</body>
+</html>
