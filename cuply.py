@@ -23,13 +23,7 @@ DATE_RANGE_RE = re.compile(
     re.I,
 )
 DATE_SINGLE_RE = re.compile(r"Termin:\s*(\d{2}\.\d{2}\.\d{4})", re.I)
-CTA_PREFIXES = (
-    "weź udział",
-    "wez udzial",
-    "zapisz się",
-    "zapisz sie",
-    "lista rezerwowa",
-)
+CTA_PREFIXES = ("weź udział", "wez udzial", "zapisz się", "zapisz sie", "lista rezerwowa")
 
 
 def clean(text: str) -> str:
@@ -55,8 +49,8 @@ def parse_date_range(text: str) -> tuple[str, str] | None:
 
     match = DATE_SINGLE_RE.search(text)
     if match:
-        date = datetime.strptime(match.group(1), "%d.%m.%Y").date().isoformat()
-        return date, date
+        value = datetime.strptime(match.group(1), "%d.%m.%Y").date().isoformat()
+        return value, value
     return None
 
 
@@ -78,9 +72,7 @@ def extract_place(card_text: str) -> str:
         card_text,
         re.I,
     )
-    if match:
-        return clean(match.group(1))
-    return ""
+    return clean(match.group(1)) if match else ""
 
 
 def extract_city(place: str) -> str:
@@ -88,33 +80,6 @@ def extract_city(place: str) -> str:
         return ""
     parts = [clean(part) for part in place.split(",") if clean(part)]
     return parts[-1] if parts else place
-
-
-def value_after_label(soup: BeautifulSoup, label: str) -> str:
-    lines = [clean(x) for x in soup.get_text("\n", strip=True).splitlines()]
-    lines = [x for x in lines if x]
-    wanted = label.casefold()
-    for i, line in enumerate(lines):
-        folded = line.casefold()
-        if folded.startswith(wanted):
-            value = clean(line[len(label):].lstrip(" :"))
-            if value:
-                return value
-            if i + 1 < len(lines):
-                return lines[i + 1]
-    return ""
-
-
-def enrich_details(session: requests.Session, item: dict) -> None:
-    try:
-        soup = get_soup(session, item["url"])
-    except requests.RequestException:
-        return
-
-    item["typ_gry"] = value_after_label(soup, "Typ gry")
-    item["poziom"] = value_after_label(soup, "Poziom")
-    item["plec"] = value_after_label(soup, "Płeć uczestników")
-    item["wpisowe"] = value_after_label(soup, "Wpisowe")
 
 
 def pobierz_turnieje() -> list[dict]:
@@ -130,7 +95,6 @@ def pobierz_turnieje() -> list[dict]:
         visited_pages.add(page_url)
         soup = get_soup(session, page_url)
 
-        # Jeśli Cuply dzieli listę na strony, przejdź po linkach zawierających parametr page.
         for link in soup.find_all("a", href=True):
             absolute = urljoin(page_url, link["href"])
             parsed = urlparse(absolute)
@@ -178,13 +142,10 @@ def pobierz_turnieje() -> list[dict]:
 
     turnieje = list(by_url.values())
     if not turnieje:
-        raise RuntimeError(
-            "Nie znaleziono żadnych turniejów Cuply. Strona mogła zmienić układ."
-        )
+        raise RuntimeError("Nie znaleziono żadnych turniejów Cuply. Strona mogła zmienić układ.")
 
-    for item in turnieje:
-        enrich_details(session, item)
-
+    # Szczegóły (typ gry, poziom, wpisowe itd.) pobiera wspólny moduł szczegoly.py
+    # i zapisuje je w cache. Dzięki temu nie odwiedzamy każdej podstrony Cuply codziennie.
     turnieje.sort(key=lambda x: (x["data_od"], x["miasto"], x["nazwa"]))
     return turnieje
 
@@ -199,10 +160,7 @@ def main() -> None:
         "liczba_turniejow": len(turnieje),
         "turnieje": turnieje,
     }
-    OUTPUT_FILE.write_text(
-        json.dumps(wynik, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    OUTPUT_FILE.write_text(json.dumps(wynik, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Cuply: pobrano {len(turnieje)} turniejów -> {OUTPUT_FILE}")
 
 
