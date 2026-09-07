@@ -1,5 +1,5 @@
 {
-  "wygenerowano_utc": "2026-09-07T19:55:06+00:00",
+  "wygenerowano_utc": "2026-09-07T19:56:46+00:00",
   "liczba_turniejow": 128,
   "liczba_wg_zrodla": {
     "PZT TOP": 17,
@@ -140,7 +140,9 @@
       "zapisy_url": "https://kluby.org/turnieje/12168/zapisy",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -276,7 +278,9 @@
       "rangi": "KOBIETY OPEN: GPPiM KOBIETY (2)",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": [
         "kobiety"
       ]
@@ -1065,7 +1069,9 @@
       "rangi": "SENIORZY +60: Ziaja G.P.W. SENIORZY +60 (Standard)",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -1443,7 +1449,9 @@
       "rangi": "OPEN: GPM OPEN (Ranga 4)",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -2165,7 +2173,9 @@
       "rangi": "OPEN: GPPiM OPEN (5)",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -2210,7 +2220,9 @@
       "start_turnieju": "9:00",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -3107,7 +3119,9 @@
       "rangi": "OPEN: GPM OPEN (Ranga 2)",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -3152,7 +3166,9 @@
       "start_turnieju": "18:00",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": [
         "kobiety"
       ]
@@ -3199,7 +3215,9 @@
       "start_turnieju": "17:00",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -3813,7 +3831,9 @@
       "zapisy_url": "https://kluby.org/turnieje/12145/zapisy",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -3860,7 +3880,9 @@
       "start_turnieju": "9:30",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -3891,7 +3913,9 @@
       "zapisy_url": "https://kluby.org/turnieje/11780/zapisy",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -4826,7 +4850,9 @@
       "start_turnieju": "17:00",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -5025,7 +5051,9 @@
       "start_turnieju": "17:00",
       "organizacja": "Kluby.org",
       "kategoria_zrodla": "",
-      "rodzaje_gry": [],
+      "rodzaje_gry": [
+        "singiel"
+      ],
       "grupy_uczestnikow": []
     },
     {
@@ -6092,9 +6120,9 @@
       ]
     }
   ],
-  "regiony_aktualizacja_utc": "2026-09-07T19:55:07+00:00",
+  "regiony_aktualizacja_utc": "2026-09-07T19:56:46+00:00",
   "liczba_turniejow_bez_wojewodztwa": 0,
-  "szczegoly_aktualizacja_utc": "2026-09-07T19:55:07+00:00",
+  "szczegoly_aktualizacja_utc": "2026-09-07T19:56:46+00:00",
   "szczegoly_pobrano_w_tym_przebiegu": 0,
   "szczegoly_bledy_w_tym_przebiegu": 0,
   "liczba_wg_organizacji": {
@@ -6152,112 +6180,14 @@
     ]
   },
   "jakosc_normalizacji": {
-    "liczba_bez_rodzaju_gry": 15,
+    "liczba_bez_rodzaju_gry": 1,
     "liczba_bez_grupy_uczestnikow": 75,
     "przyklady_bez_rodzaju_gry": [
-      {
-        "id": "4703bfcb62e5ee",
-        "zrodlo": "Kluby.org",
-        "nazwa": "MASTERS GAT GARWOLIN",
-        "kategorie": "OPEN",
-        "typ_gry": ""
-      },
       {
         "id": "d53564cbfc0cd9",
         "zrodlo": "Kluby.org",
         "nazwa": "OTWRTE MISTRZOSTWA DOWÓDZTW I INSTYTUCJI MON",
         "kategorie": "OPEN (DRUŻYNOWE MP)",
-        "typ_gry": ""
-      },
-      {
-        "id": "7da04903d47adb",
-        "zrodlo": "Kluby.org",
-        "nazwa": "Slow Flow Ladies Cup",
-        "kategorie": "KOBIETY OPEN",
-        "typ_gry": ""
-      },
-      {
-        "id": "941df71ee1bb5b",
-        "zrodlo": "Kluby.org",
-        "nazwa": "ZIAJA Grand Prix Wybrzeża +60",
-        "kategorie": "SENIORZY +60",
-        "typ_gry": ""
-      },
-      {
-        "id": "5c1d01b1cb6396",
-        "zrodlo": "Kluby.org",
-        "nazwa": "Indywidualny turniej dla początkujących",
-        "kategorie": "OPEN",
-        "typ_gry": ""
-      },
-      {
-        "id": "d5c3f82b201e67",
-        "zrodlo": "Kluby.org",
-        "nazwa": "Turniej o Puchar 3. Ligi",
-        "kategorie": "OPEN",
-        "typ_gry": ""
-      },
-      {
-        "id": "d04eddf2d2584f",
-        "zrodlo": "Kluby.org",
-        "nazwa": "Amatorski Turniej Tenisa Ziemnego",
-        "kategorie": "OPEN",
-        "typ_gry": ""
-      },
-      {
-        "id": "75ea6ee9017a70",
-        "zrodlo": "Kluby.org",
-        "nazwa": "Park Tennis Academy Open",
-        "kategorie": "OPEN",
-        "typ_gry": ""
-      },
-      {
-        "id": "f2965108a38a25",
-        "zrodlo": "Kluby.org",
-        "nazwa": "Turniej kwalifikacyjny TENES Challenge Ladies Zima 2026/2027",
-        "kategorie": "KOBIETY OPEN",
-        "typ_gry": ""
-      },
-      {
-        "id": "560fa9f143e3a2",
-        "zrodlo": "Kluby.org",
-        "nazwa": "Turniej kwalifikacyjny TENES Challenge Open Zima 2026/2027",
-        "kategorie": "OPEN",
-        "typ_gry": ""
-      },
-      {
-        "id": "843bd354793b39",
-        "zrodlo": "Kluby.org",
-        "nazwa": "III Liga ŁLT Grupa Barażowa 2026",
-        "kategorie": "OPEN",
-        "typ_gry": ""
-      },
-      {
-        "id": "b4044544732ccc",
-        "zrodlo": "Kluby.org",
-        "nazwa": "V GP Barlinka",
-        "kategorie": "OPEN",
-        "typ_gry": ""
-      },
-      {
-        "id": "a6991b5b8800ad",
-        "zrodlo": "Kluby.org",
-        "nazwa": "Masters Ligi Letniej",
-        "kategorie": "",
-        "typ_gry": ""
-      },
-      {
-        "id": "2ca297d5dc9922",
-        "zrodlo": "Kluby.org",
-        "nazwa": "TENES Single Cup kat. CLUB+ - wewnętrzny turniej dla Klubowiczów",
-        "kategorie": "OPEN",
-        "typ_gry": ""
-      },
-      {
-        "id": "078072bc6d1c6d",
-        "zrodlo": "Kluby.org",
-        "nazwa": "TENES Single Cup kat. BASIC+ - wewnętrzny turniej dla Klubowiczów",
-        "kategorie": "OPEN",
         "typ_gry": ""
       }
     ]
