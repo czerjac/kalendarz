@@ -33,7 +33,6 @@
     .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
     .pill{font-size:12px;border:1px solid var(--line);background:#fafafa;padding:5px 8px;border-radius:999px}
     .cycle{background:var(--soft);border-color:#ebcbd0;color:var(--accent-dark);font-weight:700}
-    .source{font-size:11px;color:#7c8791;margin-top:10px}
     .btn{display:inline-flex;align-items:center;justify-content:center;min-width:112px;min-height:42px;padding:8px 13px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:14px}
     .btn:hover{background:var(--accent-dark)}
     .empty,.error{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;text-align:center;color:var(--muted)}
@@ -80,7 +79,6 @@
           <input id="search" type="search" placeholder="np. Warszawa, Open, Masters…">
         </div>
       </div>
-      <div class="note">Źródło danych nie jest traktowane jako organizator. „Kluby.org” będzie tylko techniczną informacją o miejscu publikacji turnieju.</div>
     </section>
 
     <div class="summary">
@@ -150,7 +148,6 @@ function render(){
         <div class="place">${esc(e.miasto||'Miejsce do uzupełnienia')} <span>· ${esc(cap(woj))}</span></div>
         ${e.miejsce?`<div class="note">${esc(e.miejsce)}</div>`:''}
         <div class="meta">${pills.join('')}</div>
-        <div class="source">Źródło danych: ${esc(e.zrodlo||'')}</div>
       </div>
       <div class="actions">${e.url?`<a class="btn" href="${esc(e.url)}" target="_blank" rel="noopener">Szczegóły</a>`:''}</div>
     </article>`
