@@ -1,0 +1,38 @@
+name: Jednorazowe odświeżenie województw
+
+on:
+  push:
+
+permissions:
+  contents: write
+
+jobs:
+  regiony:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v7
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Zainstaluj requests
+        run: pip install requests
+
+      - name: Przypisz województwa
+        run: python regiony.py
+
+      - name: Zapisz dane
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/turnieje.json data/miasta_wojewodztwa.json data/nierozpoznane_lokalizacje.json
+          if git diff --cached --quiet; then
+            echo "Brak zmian."
+          else
+            git commit -m "Uzupełnij województwa"
+            git pull --rebase origin main
+            git push
+          fi
