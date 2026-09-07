@@ -1,5 +1,5 @@
 {
-  "wygenerowano_utc": "2026-09-07T19:51:19+00:00",
+  "wygenerowano_utc": "2026-09-07T19:55:06+00:00",
   "liczba_turniejow": 128,
   "liczba_wg_zrodla": {
     "PZT TOP": 17,
@@ -53,7 +53,13 @@
       "dyrektor_turnieju": "Borda Łukasz",
       "sedzia_naczelny": "Sędzia nieustalony",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "78fe41beede583",
@@ -97,7 +103,13 @@
       "dyrektor_turnieju": "Borda Łukasz",
       "sedzia_naczelny": "Sędzia nieustalony",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "4703bfcb62e5ee",
@@ -127,7 +139,9 @@
       "adres": "Garwolińska Akademia Tenisowa, Garwolin",
       "zapisy_url": "https://kluby.org/turnieje/12168/zapisy",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "d53564cbfc0cd9",
@@ -157,7 +171,9 @@
       "adres": "Baltic Tennis Club, Kołobrzeg",
       "zapisy_url": "https://kluby.org/turnieje/12166/zapisy",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "9a73652bc3da0e",
@@ -206,7 +222,11 @@
       "start_turnieju": "12.09.2026",
       "rangi": "DEBEL: GPPiM DEBEL (2)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "7da04903d47adb",
@@ -255,7 +275,11 @@
       "start_turnieju": "Sobota godziny poranne",
       "rangi": "KOBIETY OPEN: GPPiM KOBIETY (2)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "efd049670039c8",
@@ -281,7 +305,11 @@
       },
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "47029a6fe0336c",
@@ -324,7 +352,11 @@
       "kontakt": "607510310",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "d01cf63f95d30e",
@@ -370,7 +402,13 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "TRETORN Series Control +",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "da2b242e326214",
@@ -413,7 +451,11 @@
       "kontakt": "516695579",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "833f97f3d3ebd4",
@@ -448,7 +490,11 @@
       "limit_uczestnikow": "16",
       "zapisy_url": "https://cuply.pl/turnieje/challenger-koszalin-i-do-40-ntrp-dla-sredniozaawansowanych",
       "organizacja": "Cuply",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "4a7cc4230204c8",
@@ -483,7 +529,11 @@
       "limit_uczestnikow": "12",
       "zapisy_url": "https://cuply.pl/turnieje/futures-koszalin-i-do-25-ntrp-dla-poczatkujacych",
       "organizacja": "Cuply",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "7237bece3a86d0",
@@ -521,7 +571,14 @@
       "zapisy_url": "https://cuply.pl/turnieje/koszalin-masters-i-dla-zaawansowanych-amatorow",
       "cykl_szczegolowy": "Cyklu Cuply",
       "organizacja": "Cuply",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "148a076537d65f",
@@ -567,7 +624,13 @@
       "sedzia_naczelny": "test test",
       "pilka": "TRETORN",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "43798a90ad5b01",
@@ -610,7 +673,11 @@
       "kontakt": "694995486",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "162a213c5650ef",
@@ -653,7 +720,11 @@
       "kontakt": "736-872-094",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "3643518f3c1ac7",
@@ -697,7 +768,15 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "WILSON",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "04f0a4625e65d9",
@@ -740,7 +819,11 @@
       "kontakt": "502 449 580",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "8801c10fb3aeaf",
@@ -786,7 +869,13 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "Head tour",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "e95af9b9a9c108",
@@ -829,7 +918,11 @@
       "dyrektor_turnieju": "Zdzisław Nowicki",
       "start_turnieju": "2026-09-12",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "f3b41c5ec7b5dd",
@@ -874,7 +967,11 @@
       "start_turnieju": "12.09.2026 godz. 9 ta",
       "rangi": "DEBEL: Ziaja G.P.W. DEBEL (Standard)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "219408ae5d4369",
@@ -918,7 +1015,13 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "DUNLOP FORT",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "941df71ee1bb5b",
@@ -961,7 +1064,9 @@
       "start_turnieju": "12.09.2026",
       "rangi": "SENIORZY +60: Ziaja G.P.W. SENIORZY +60 (Standard)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "417b426e2e6ea6",
@@ -1004,7 +1109,13 @@
       "kontakt": "502403313",
       "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "PLT Kobiet"
+      "kategoria_zrodla": "PLT Kobiet",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "e097332738c7c1",
@@ -1047,7 +1158,11 @@
       "kontakt": "502403313",
       "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "Puchar PLT"
+      "kategoria_zrodla": "Puchar PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "8c5a4c02753eb5",
@@ -1090,7 +1205,11 @@
       "kontakt": "576010037",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "eff5445414514e",
@@ -1133,7 +1252,11 @@
       "kontakt": "664017112",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "4865f559bec88c",
@@ -1176,7 +1299,11 @@
       "kontakt": "664017112",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "83e8c4f92a76e0",
@@ -1219,7 +1346,11 @@
       "kontakt": "664017112",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "Kategorie wiekowe"
+      "kategoria_zrodla": "Kategorie wiekowe",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "3851e736cbd125",
@@ -1262,7 +1393,11 @@
       "kontakt": "516695579",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "5c1d01b1cb6396",
@@ -1307,7 +1442,9 @@
       "start_turnieju": "13-09-2026",
       "rangi": "OPEN: GPM OPEN (Ranga 4)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "1c647972d0c8b5",
@@ -1350,7 +1487,11 @@
       "kontakt": "507113198",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "e72b319a314d17",
@@ -1393,7 +1534,11 @@
       "kontakt": "507113198",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "5abf6258aeb920",
@@ -1436,7 +1581,11 @@
       "kontakt": "736-872-094",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "52b58dba0750e8",
@@ -1479,7 +1628,11 @@
       "kontakt": "781281227",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "2173df2d01d817",
@@ -1522,7 +1675,11 @@
       "kontakt": "781281227",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "ad4fdc037c9e97",
@@ -1565,7 +1722,13 @@
       "kontakt": "781281227",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "PLT Kobiet"
+      "kategoria_zrodla": "PLT Kobiet",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "238797429f45fc",
@@ -1611,7 +1774,13 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "Tretorn Control+",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "6811ff29db9326",
@@ -1654,7 +1823,11 @@
       "kontakt": "694995486",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "7cececf93dcecb",
@@ -1697,7 +1870,11 @@
       "kontakt": "694995486",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "16e7a4682a5a93",
@@ -1742,7 +1919,13 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 13a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "af557344453590",
@@ -1785,7 +1968,11 @@
       "kontakt": "608612956",
       "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "c3f46fe8f60567",
@@ -1828,7 +2015,11 @@
       "kontakt": "608612956",
       "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "cf2d1af31a2475",
@@ -1874,7 +2065,13 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "Tretorn Control+",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "ec9c90ab27885c",
@@ -1918,7 +2115,13 @@
       "dyrektor_turnieju": "Jagiełło Andrzej",
       "sedzia_naczelny": "Sędzia nieustalony",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "d5c3f82b201e67",
@@ -1961,7 +2164,9 @@
       "start_turnieju": "Sobota godziny poranne",
       "rangi": "OPEN: GPPiM OPEN (5)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "d04eddf2d2584f",
@@ -2004,7 +2209,9 @@
       "kontakt": "32 2417 050 (wew. 34, 43) | zgloszenia@moris.chorzow.pl",
       "start_turnieju": "9:00",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "842de8a0265f81",
@@ -2045,7 +2252,14 @@
       "zapisy_url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-doluje-ii-do-40-ntrp",
       "telefon_organizatora": "502 403 313",
       "organizacja": "Cuply",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "eb64d393f2e7fc",
@@ -2088,7 +2302,11 @@
       "kontakt": "607510310",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "5e1f52385a4a06",
@@ -2131,7 +2349,11 @@
       "kontakt": "607510310",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "df64f3ba14da0e",
@@ -2174,7 +2396,11 @@
       "kontakt": "697868838",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "f5b0734e52b22c",
@@ -2217,7 +2443,11 @@
       "kontakt": "697868838",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "381ffdbf967e64",
@@ -2260,7 +2490,11 @@
       "kontakt": "783774321",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "cef813d92d73b7",
@@ -2303,7 +2537,13 @@
       "kontakt": "783774321",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "PLT Kobiet"
+      "kategoria_zrodla": "PLT Kobiet",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "b0ce91c7b3d044",
@@ -2346,7 +2586,11 @@
       "kontakt": "783774321",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "Puchar PLT"
+      "kategoria_zrodla": "Puchar PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "a593cfae89b747",
@@ -2389,7 +2633,11 @@
       "kontakt": "600243912",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "f6b61e54191134",
@@ -2417,7 +2665,11 @@
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "fa476fab2bf3ba",
@@ -2460,7 +2712,11 @@
       "kontakt": "660516017",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "3254b241fb8810",
@@ -2503,7 +2759,11 @@
       "kontakt": "781281227",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "6cbeb338f734c0",
@@ -2546,7 +2806,11 @@
       "kontakt": "781281227",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "f2f572572f25cc",
@@ -2595,7 +2859,15 @@
       "start_turnieju": "19.09.2025 9.00",
       "rangi": "OPEN: GPPiM OPEN (1)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "7156755922016e",
@@ -2638,7 +2910,11 @@
       "kontakt": "509 629 389",
       "cykl_szczegolowy": "Wiosenne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "495da930e368a7",
@@ -2681,7 +2957,11 @@
       "kontakt": "786 332 260",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "1accb6d1f5e168",
@@ -2716,7 +2996,13 @@
       "zapisy_url": "https://kluby.org/turnieje/12124/zapisy",
       "start_turnieju": "19.09.2026",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "c12232c75196de",
@@ -2765,7 +3051,15 @@
       "start_turnieju": "godz.16",
       "rangi": "DEBEL MIKST: GPM MIKST (Ranga 2)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "75ea6ee9017a70",
@@ -2812,7 +3106,9 @@
       "start_turnieju": "16",
       "rangi": "OPEN: GPM OPEN (Ranga 2)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "f2965108a38a25",
@@ -2855,7 +3151,11 @@
       "dyrektor_turnieju": "Gabrysia Sobiech",
       "start_turnieju": "18:00",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "560fa9f143e3a2",
@@ -2898,7 +3198,9 @@
       "dyrektor_turnieju": "Marcin Bogiel",
       "start_turnieju": "17:00",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "6c9c2ed8d82b8a",
@@ -2942,7 +3244,13 @@
       "sedzia_naczelny": "Romański Jerzy",
       "pilka": "Tretorn Serie+ Control",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "aa6e4c54819c1d",
@@ -2985,7 +3293,11 @@
       "kontakt": "792260678",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "d14887ac3316e9",
@@ -3028,7 +3340,11 @@
       "kontakt": "792260678",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "c5d2401d7caeaa",
@@ -3069,7 +3385,14 @@
       "zapisy_url": "https://cuply.pl/turnieje/cuply-futures-szczecin-doluje-ii-do-25-ntrp",
       "telefon_organizatora": "502 403 313",
       "organizacja": "Cuply",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "7aa660911ac9f8",
@@ -3110,7 +3433,14 @@
       "zapisy_url": "https://cuply.pl/turnieje/cuply-masters-szczecin-doluje-dla-zaawansowanych",
       "telefon_organizatora": "502 403 313",
       "organizacja": "Cuply",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "e2de0997609f9f",
@@ -3153,7 +3483,11 @@
       "kontakt": "664646430",
       "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "c3aaf369d6112c",
@@ -3200,7 +3534,15 @@
       "start_turnieju": "2026-09-20 godz.12:00",
       "rangi": "DEBEL MIKST: GPM MIKST (Ranga 3)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "a854ef46d1ce2f",
@@ -3243,7 +3585,11 @@
       "kontakt": "501203355",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "4d4d4fad918afc",
@@ -3289,7 +3635,13 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "Tretorn Control+",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "d1ec1d69c00966",
@@ -3332,7 +3684,11 @@
       "kontakt": "786 332 260",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "f4ac8c2024d216",
@@ -3375,7 +3731,11 @@
       "kontakt": "530 292 875",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "236db0d743a220",
@@ -3418,7 +3778,11 @@
       "kontakt": "530 292 875",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "2. Liga"
+      "kategoria_zrodla": "2. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "843bd354793b39",
@@ -3448,7 +3812,9 @@
       "adres": "Skate Park Łomża, Łomża",
       "zapisy_url": "https://kluby.org/turnieje/12145/zapisy",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "b4044544732ccc",
@@ -3493,7 +3859,9 @@
       "dyrektor_turnieju": "Mikołaj",
       "start_turnieju": "9:30",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "a6991b5b8800ad",
@@ -3522,7 +3890,9 @@
       "adres": "Centrum Tenisowe Zwierzyniec, Białystok",
       "zapisy_url": "https://kluby.org/turnieje/11780/zapisy",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "0febfc03252586",
@@ -3565,7 +3935,11 @@
       "kontakt": "694995486",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "7c124bbadb02ea",
@@ -3600,7 +3974,11 @@
       "limit_uczestnikow": "16",
       "zapisy_url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i",
       "organizacja": "Cuply",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "4033f054675a4f",
@@ -3646,7 +4024,13 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "TRETORN",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "bb0ba11230d0c3",
@@ -3690,7 +4074,13 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "WILSON",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "45efa2dca23b4f",
@@ -3733,7 +4123,11 @@
       "kontakt": "662641358",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "1. Liga"
+      "kategoria_zrodla": "1. Liga",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "5501d1c57905a0",
@@ -3768,7 +4162,11 @@
       "limit_uczestnikow": "16",
       "zapisy_url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iv",
       "organizacja": "Cuply",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "63ac897dc7c51f",
@@ -3811,7 +4209,11 @@
       "kontakt": "600448660",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "Puchar PLT"
+      "kategoria_zrodla": "Puchar PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "db5f49a03ddab3",
@@ -3854,7 +4256,13 @@
       "kontakt": "883000870",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "PLT Kobiet"
+      "kategoria_zrodla": "PLT Kobiet",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "a2666e3ec8072e",
@@ -3898,7 +4306,13 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "WILSON",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "921e7e67776e3a",
@@ -3944,7 +4358,13 @@
       "sedzia_naczelny": "Sędzia nieustalony",
       "pilka": "Tretorn Control+",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "f0c4fdea5429c2",
@@ -3980,7 +4400,14 @@
       "limit_uczestnikow": "16",
       "zapisy_url": "https://cuply.pl/turnieje/cuply-futures-stargard-ii-do-25-ntrp",
       "organizacja": "Cuply",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "bcca18d672f8b3",
@@ -4015,7 +4442,11 @@
       "limit_uczestnikow": "10",
       "zapisy_url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy",
       "organizacja": "Cuply",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "3f7c3c86cc0c62",
@@ -4058,7 +4489,15 @@
       "kontakt": "662641358",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "Deble i Miksty"
+      "kategoria_zrodla": "Deble i Miksty",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "da430af2802450",
@@ -4107,7 +4546,11 @@
       "start_turnieju": "27.09 g.10 wg planu gier dostępnego na stronie www.tenisbreak.pl",
       "rangi": "OPEN: GPM OPEN (Ranga 2)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "5e7f17b5ed1487",
@@ -4150,7 +4593,13 @@
       "kontakt": "669832198",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "PLT Kobiet"
+      "kategoria_zrodla": "PLT Kobiet",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "5e82a543f42b1b",
@@ -4193,7 +4642,11 @@
       "dyrektor_turnieju": "Łukasz Kosowicz",
       "start_turnieju": "17:00",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "9ecd4ddd864976",
@@ -4221,7 +4674,13 @@
       "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "PLT Kobiet"
+      "kategoria_zrodla": "PLT Kobiet",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "a15e5f0ed8bf5e",
@@ -4264,7 +4723,15 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "niedziela, godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "7bdd909bf225db",
@@ -4311,7 +4778,11 @@
       "start_turnieju": "17:00",
       "rangi": "DEBEL: GPM DEBEL OPEN (Ranga 3)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "2ca297d5dc9922",
@@ -4354,7 +4825,9 @@
       "dyrektor_turnieju": "Marcin Bogiel",
       "start_turnieju": "17:00",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "f5bf951fecf076",
@@ -4397,7 +4870,11 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "niedziela, 14:00",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "47335c003e8f9d",
@@ -4443,7 +4920,13 @@
       "sedzia_naczelny": "Kowalski Rafał",
       "pilka": "zgodnie z regulaminem WMZ-T",
       "organizacja": "TOP PZT",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
     },
     {
       "id": "ad98bd95ac8ec7",
@@ -4490,7 +4973,15 @@
       "start_turnieju": "17:00",
       "rangi": "DEBEL MIKST: GPM MIKST (Ranga 3)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "078072bc6d1c6d",
@@ -4533,7 +5024,9 @@
       "dyrektor_turnieju": "Gabrysia Sobiech",
       "start_turnieju": "17:00",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [],
+      "grupy_uczestnikow": []
     },
     {
       "id": "7367a237a1f68d",
@@ -4576,7 +5069,13 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "niedziela, 14:00",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "89d58d15f7e9aa",
@@ -4619,7 +5118,11 @@
       "kontakt": "537200587",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "Puchar PLT"
+      "kategoria_zrodla": "Puchar PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "345f442085e5b1",
@@ -4664,7 +5167,15 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "23ef64a6795552",
@@ -4713,7 +5224,13 @@
       "start_turnieju": "170",
       "rangi": "KOBIETY OPEN: GPM KOBIETY (Ranga 2)",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "3d794772d05279",
@@ -4756,7 +5273,13 @@
       "kontakt": "609815531",
       "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
       "organizacja": "Polska Liga Tenisa",
-      "kategoria_zrodla": "PLT Kobiet"
+      "kategoria_zrodla": "PLT Kobiet",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "2ccf98089a9628",
@@ -4795,7 +5318,15 @@
       "kontakt": "530338024",
       "dyrektor_turnieju": "Paulina Szczerkowska",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "c26ab8f9c0ea49",
@@ -4840,7 +5371,11 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "ba6da769269254",
@@ -4885,7 +5420,13 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "8873c9aa99038a",
@@ -4930,7 +5471,15 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "f76a0f0dc74ec5",
@@ -4975,7 +5524,11 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "bdc77774152cc9",
@@ -5020,7 +5573,13 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "081e0ffb57e054",
@@ -5065,7 +5624,15 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "8a76339fa4fb0e",
@@ -5110,7 +5677,11 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "29468f7006e648",
@@ -5155,7 +5726,13 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "c27e0a4b5bf5a6",
@@ -5200,7 +5777,15 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "2582e29e34ecea",
@@ -5245,7 +5830,11 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "d1cd4953e359fc",
@@ -5290,7 +5879,13 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "0e4360072814c1",
@@ -5335,7 +5930,15 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     },
     {
       "id": "d6960e60763b68",
@@ -5380,7 +5983,11 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "9da5e6c2a1ff3c",
@@ -5425,7 +6032,13 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
     },
     {
       "id": "5fae69a0700fb4",
@@ -5468,12 +6081,20 @@
       "dyrektor_turnieju": "Maciej Żytkiewicz",
       "start_turnieju": "godz. 14a",
       "organizacja": "Kluby.org",
-      "kategoria_zrodla": ""
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
     }
   ],
-  "regiony_aktualizacja_utc": "2026-09-07T19:51:19+00:00",
+  "regiony_aktualizacja_utc": "2026-09-07T19:55:07+00:00",
   "liczba_turniejow_bez_wojewodztwa": 0,
-  "szczegoly_aktualizacja_utc": "2026-09-07T19:51:19+00:00",
+  "szczegoly_aktualizacja_utc": "2026-09-07T19:55:07+00:00",
   "szczegoly_pobrano_w_tym_przebiegu": 0,
   "szczegoly_bledy_w_tym_przebiegu": 0,
   "liczba_wg_organizacji": {
@@ -5519,6 +6140,126 @@
       "łódzkie",
       "śląskie",
       "świętokrzyskie"
+    ],
+    "rodzaje_gry": [
+      "singiel",
+      "debel",
+      "mikst"
+    ],
+    "grupy_uczestnikow": [
+      "kobiety",
+      "mężczyźni"
+    ]
+  },
+  "jakosc_normalizacji": {
+    "liczba_bez_rodzaju_gry": 15,
+    "liczba_bez_grupy_uczestnikow": 75,
+    "przyklady_bez_rodzaju_gry": [
+      {
+        "id": "4703bfcb62e5ee",
+        "zrodlo": "Kluby.org",
+        "nazwa": "MASTERS GAT GARWOLIN",
+        "kategorie": "OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "d53564cbfc0cd9",
+        "zrodlo": "Kluby.org",
+        "nazwa": "OTWRTE MISTRZOSTWA DOWÓDZTW I INSTYTUCJI MON",
+        "kategorie": "OPEN (DRUŻYNOWE MP)",
+        "typ_gry": ""
+      },
+      {
+        "id": "7da04903d47adb",
+        "zrodlo": "Kluby.org",
+        "nazwa": "Slow Flow Ladies Cup",
+        "kategorie": "KOBIETY OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "941df71ee1bb5b",
+        "zrodlo": "Kluby.org",
+        "nazwa": "ZIAJA Grand Prix Wybrzeża +60",
+        "kategorie": "SENIORZY +60",
+        "typ_gry": ""
+      },
+      {
+        "id": "5c1d01b1cb6396",
+        "zrodlo": "Kluby.org",
+        "nazwa": "Indywidualny turniej dla początkujących",
+        "kategorie": "OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "d5c3f82b201e67",
+        "zrodlo": "Kluby.org",
+        "nazwa": "Turniej o Puchar 3. Ligi",
+        "kategorie": "OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "d04eddf2d2584f",
+        "zrodlo": "Kluby.org",
+        "nazwa": "Amatorski Turniej Tenisa Ziemnego",
+        "kategorie": "OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "75ea6ee9017a70",
+        "zrodlo": "Kluby.org",
+        "nazwa": "Park Tennis Academy Open",
+        "kategorie": "OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "f2965108a38a25",
+        "zrodlo": "Kluby.org",
+        "nazwa": "Turniej kwalifikacyjny TENES Challenge Ladies Zima 2026/2027",
+        "kategorie": "KOBIETY OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "560fa9f143e3a2",
+        "zrodlo": "Kluby.org",
+        "nazwa": "Turniej kwalifikacyjny TENES Challenge Open Zima 2026/2027",
+        "kategorie": "OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "843bd354793b39",
+        "zrodlo": "Kluby.org",
+        "nazwa": "III Liga ŁLT Grupa Barażowa 2026",
+        "kategorie": "OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "b4044544732ccc",
+        "zrodlo": "Kluby.org",
+        "nazwa": "V GP Barlinka",
+        "kategorie": "OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "a6991b5b8800ad",
+        "zrodlo": "Kluby.org",
+        "nazwa": "Masters Ligi Letniej",
+        "kategorie": "",
+        "typ_gry": ""
+      },
+      {
+        "id": "2ca297d5dc9922",
+        "zrodlo": "Kluby.org",
+        "nazwa": "TENES Single Cup kat. CLUB+ - wewnętrzny turniej dla Klubowiczów",
+        "kategorie": "OPEN",
+        "typ_gry": ""
+      },
+      {
+        "id": "078072bc6d1c6d",
+        "zrodlo": "Kluby.org",
+        "nazwa": "TENES Single Cup kat. BASIC+ - wewnętrzny turniej dla Klubowiczów",
+        "kategorie": "OPEN",
+        "typ_gry": ""
+      }
     ]
   }
 }
