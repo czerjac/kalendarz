@@ -32,6 +32,12 @@ CYKL_CANONICAL = {
     "zimowe mistrzostwa plt": "Zimowe Mistrzostwa PLT",
 }
 
+GENERIC_CYCLES = {
+    "cyklu cuply",
+    "cykl cuply",
+    "cuply",
+}
+
 
 def clean(value: str | None) -> str:
     return " ".join((value or "").replace("\xa0", " ").split())
@@ -41,7 +47,10 @@ def canonical_cycle(value: str | None) -> str:
     value = clean(value)
     if not value:
         return ""
-    return CYKL_CANONICAL.get(value.casefold(), value)
+    key = value.casefold()
+    if key in GENERIC_CYCLES:
+        return ""
+    return CYKL_CANONICAL.get(key, value)
 
 
 def classify(item: dict) -> None:
