@@ -26,10 +26,6 @@ CYKL_CANONICAL = {
     "mistrzostwa warszawy amatorow": "Mistrzostwa Warszawy Amatorów",
     "ziaja grand prix wybrzeża": "Ziaja Grand Prix Wybrzeża",
     "ziaja grand prix wybrzeza": "Ziaja Grand Prix Wybrzeża",
-    "jesienne mistrzostwa plt": "Jesienne Mistrzostwa PLT",
-    "letnie mistrzostwa plt": "Letnie Mistrzostwa PLT",
-    "wiosenne mistrzostwa plt": "Wiosenne Mistrzostwa PLT",
-    "zimowe mistrzostwa plt": "Zimowe Mistrzostwa PLT",
 }
 
 GENERIC_CYCLES = {
@@ -65,13 +61,22 @@ def classify(item: dict) -> None:
     else:
         item["kategoria_zrodla"] = clean(item.get("kategoria_zrodla"))
 
-    # Właściwy cykl pochodzi ze strony szczegółów turnieju, jeżeli źródło go podaje.
+    # Reguły redakcyjne Tenis NET:
+    # - wszystkie turnieje z systemu PLT należą do jednego cyklu „Polska Liga Tenisa”;
+    #   określenia typu wiosenne/letnie/jesienne mistrzostwa pozostają tylko w danych źródłowych/nazwie.
+    # - wszystkie wydarzenia pobrane z kalendarza TOP PZT należą do cyklu „TOP PZT”.
+    if source == "PLT":
+        item["cykl"] = "Polska Liga Tenisa"
+        return
+    if source == "PZT TOP":
+        item["cykl"] = "TOP PZT"
+        return
+
+    # Dla pozostałych źródeł właściwy cykl pochodzi ze strony szczegółów,
+    # jeżeli źródło go podaje; w przeciwnym razie zachowujemy rozpoznanie z listy.
     detailed_cycle = clean(item.get("cykl_szczegolowy"))
     if detailed_cycle:
         item["cykl"] = canonical_cycle(detailed_cycle)
-    elif source == "PLT":
-        # Nie mylimy kategorii PLT z cyklem. Jeśli szczegółów brak, cykl zostaje pusty.
-        item["cykl"] = ""
     else:
         item["cykl"] = canonical_cycle(legacy_cycle)
 
