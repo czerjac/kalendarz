@@ -26,7 +26,7 @@ jobs:
           items=data['turnieje']
           plt=[x for x in items if x.get('zrodlo')=='PLT']
           pzt=[x for x in items if x.get('zrodlo')=='PZT TOP']
-          assert plt and all(x.get('cykl')=='Polska Liga Tenisa' for x in plt)
+          assert plt and all(x.get('cykl')=='PLT' for x in plt)
           assert pzt and all(x.get('cykl')=='TOP PZT' for x in pzt)
           print('PLT:', len(plt), '->', sorted({x.get('cykl') for x in plt}))
           print('PZT:', len(pzt), '->', sorted({x.get('cykl') for x in pzt}))
