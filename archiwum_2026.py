@@ -218,6 +218,20 @@ def cuply_items_from_html(html: str, page_url: str) -> list[dict]:
         if not dates:
             continue
         start, end = dates
+        date_warning = ""
+        try:
+            parsed_start = date.fromisoformat(start)
+            parsed_end = date.fromisoformat(end)
+            if parsed_start.year == YEAR - 1 and parsed_end.year == YEAR and (parsed_end - parsed_start).days > 180:
+                raw = re.search(r"Termin:\s*(\d{1,2})\.(\d{1,2}).*?-\s*(\d{1,2})\.(\d{1,2})\.%d" % YEAR, card_text, re.I)
+                if raw and raw.group(1) == raw.group(3):
+                    corrected = date(YEAR, int(raw.group(2)), int(raw.group(1)))
+                    start = corrected.isoformat()
+                    end = corrected.isoformat()
+                    date_warning = "niespojny_zakres_dat_w_zrodle"
+        except ValueError:
+            pass
+
         if not start.startswith(f"{YEAR}-"):
             continue
         try:
@@ -225,8 +239,14 @@ def cuply_items_from_html(html: str, page_url: str) -> list[dict]:
                 continue
         except ValueError:
             continue
-        place = cuply.extract_place(card_text)
-        by_url[absolute] = {
+
+        place_match = re.search(
+            r"Miejsce:\s*(.+?)(?=\s+(?:Zobacz wyniki|Weź udział|Wez udzial|Zapisz się|Zapisz sie|Zapisy od|$))",
+            card_text,
+            re.I,
+        )
+        place = clean(place_match.group(1)) if place_match else cuply.extract_place(card_text)
+        item = {
             "zrodlo": "Cuply",
             "cykl_szczegolowy": "Cuply",
             "nazwa": name,
@@ -237,21 +257,28 @@ def cuply_items_from_html(html: str, page_url: str) -> list[dict]:
             "url": absolute,
             "status_zrodla": "Zakończone",
         }
+        if date_warning:
+            item["uwaga_zrodla"] = date_warning
+        by_url[absolute] = item
     return list(by_url.values())
 
 
-def fetch_cuply() -> tuple[list[dict], dict]:
-    session = requests.Session()
+def fetch_cuply(page) -> tuple[list[dict], dict]:
     all_items: dict[str, dict] = {}
     checked: list[dict] = []
     previous_page_keys: set[str] = set()
 
     for page_no in range(1, 31):
         url = f"https://cuply.pl/turnieje?sortuj=zakonczone&page={page_no}"
-        r = session.get(url, timeout=40, headers=HEADERS)
-        r.raise_for_status()
-        r.encoding = r.apparent_encoding or "utf-8"
-        items = cuply_items_from_html(r.text, url)
+        response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        if response is not None and response.status >= 400:
+            raise RuntimeError(f"Cuply HTTP {response.status}: {url}")
+        page.wait_for_timeout(900)
+        items = cuply_items_from_html(page.content(), url)
+        if not items:
+            page.reload(wait_until="domcontentloaded", timeout=45000)
+            page.wait_for_timeout(1200)
+            items = cuply_items_from_html(page.content(), url)
         keys = {clean(x.get("url")) for x in items}
         checked.append({"strona": page_no, "url": url, "liczba": len(items)})
         if not items:
@@ -347,10 +374,23 @@ def fetch_kluby(page) -> tuple[list[dict], dict]:
             "zakladka": "0",
         }
         url = f"https://kluby.org/tenis/turnieje?{urlencode(params)}"
-        response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        response = None
+        try:
+            response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        except Exception:
+            # Kluby.org czasem ładuje treść poprawnie, ale nie kończy zdarzenia DOMContentLoaded.
+            # Jeśli karta turnieju jest już w DOM, parsujemy ją zamiast odrzucać cały miesiąc.
+            pass
         if response is not None and response.status >= 400:
             raise RuntimeError(f"Kluby.org HTTP {response.status}: {url}")
         items = kluby.extract_cards(page, url)
+        if not items:
+            try:
+                page.goto(url, wait_until="commit", timeout=30000)
+                page.wait_for_timeout(1600)
+                items = kluby.extract_cards(page, url)
+            except Exception:
+                pass
         kept = 0
         for item in items:
             if not past_2026(item):
@@ -499,7 +539,6 @@ def main() -> None:
     # Źródła HTTP.
     for source, filename, fn in [
         ("PZT TOP", "pzt.json", fetch_pzt),
-        ("Cuply", "cuply.json", fetch_cuply),
         ("TKKF Skanda", "skanda.json", fetch_skanda),
     ]:
         path = SOURCES_DIR / filename
@@ -520,6 +559,7 @@ def main() -> None:
         page = context.new_page()
         page.set_default_timeout(20000)
         for source, filename, fn in [
+            ("Cuply", "cuply.json", fetch_cuply),
             ("PLT", "plt.json", fetch_plt),
             ("Kluby.org", "kluby.json", fetch_kluby),
         ]:

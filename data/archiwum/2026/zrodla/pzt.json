@@ -1,7 +1,7 @@
 {
   "zrodlo": "PZT TOP",
   "rok": 2026,
-  "aktualizacja_utc": "2026-09-08T18:10:24+00:00",
+  "aktualizacja_utc": "2026-09-08T18:20:18+00:00",
   "liczba_rekordow": 135,
   "liczba_widzianych_w_tym_odczycie": 135,
   "turnieje": [
@@ -16,7 +16,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=718EA781-DB0C-4DC6-B5DE-1EAD2D4223AA",
       "klucz_zrodla": "89b3a4da4f84ece434",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -30,7 +30,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=06F30E1A-EBC2-4D31-83F6-9048CB267B92",
       "klucz_zrodla": "470f498820f799739e",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -44,7 +44,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=EE69A67A-0AE2-49E5-8467-ED0EB6A04C14",
       "klucz_zrodla": "16c87dea3666d27e23",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -58,7 +58,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=238D4223-BD57-426C-9E40-7832AFE744F9",
       "klucz_zrodla": "784aa1f607ccdca5b7",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -72,7 +72,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E91FF0B7-949D-4474-AE2C-3DD3222865A7",
       "klucz_zrodla": "ac7d5adff63b646e0f",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -86,7 +86,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=51D94CA8-B6F1-4A00-8D3E-BAE80B0CA9B9",
       "klucz_zrodla": "ce01865de43227d39c",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -100,7 +100,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=FA905F43-00C2-47B3-857B-3D0E289B0EBC",
       "klucz_zrodla": "d23639c0aefbbc77f9",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -114,7 +114,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=EEF65FAB-B8B9-4D41-9780-E910D2508FE0",
       "klucz_zrodla": "6d227d718924774229",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -128,7 +128,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6EB03FC5-EA34-4FDC-A08D-58DADBB3DCB2",
       "klucz_zrodla": "ff1d6cbcfa58d8c013",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -142,7 +142,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2451E61D-88A8-490A-BD72-FF1C94F82C57",
       "klucz_zrodla": "2e46539f99d8a1f217",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -156,7 +156,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3A12B1EB-2C0F-4A43-B59D-69E853AD1D56",
       "klucz_zrodla": "fedb234f3cdfa96d2e",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -170,7 +170,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=8960B772-82A4-41D7-83FF-31E4A038C209",
       "klucz_zrodla": "7163527301976fb634",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -184,7 +184,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F494E628-7F2B-4849-A9FA-3D4228514929",
       "klucz_zrodla": "18568214feb7f24d0c",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -198,7 +198,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F69A89F5-0833-45D3-87AF-EF2E95D8BF4A",
       "klucz_zrodla": "6529176b4c9815f80b",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -212,7 +212,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9A9B4722-1B40-4087-929A-7CA1D785240F",
       "klucz_zrodla": "92edfd111b3e862402",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -226,7 +226,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E6CDBA9B-4EF5-48FE-B2A6-9D9BA0C79D0A",
       "klucz_zrodla": "344c2aa1622b0ac597",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -240,7 +240,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3CB928D7-B129-473E-94FA-E1772B05E788",
       "klucz_zrodla": "c9e9527bc84e242b35",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -254,7 +254,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3D84594A-9498-4293-B371-4AAB33469CE0",
       "klucz_zrodla": "a25f0b360717990419",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -268,7 +268,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A1524E29-EFDD-4414-8F86-C07A5F8565F8",
       "klucz_zrodla": "b7b89205515b0f373d",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -282,7 +282,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F3EB65C9-C612-45BB-87D6-7123F7E9A4F1",
       "klucz_zrodla": "afcb2642aaa5c31dda",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -296,7 +296,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=EC26B11C-1AF5-4502-A932-5EF1E59AD6CB",
       "klucz_zrodla": "44a82fa444bd8d3af4",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -310,7 +310,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7F67D4BC-30FB-4211-9129-9AC6976D772B",
       "klucz_zrodla": "c9e677cf50db494938",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -324,7 +324,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A593DFEE-6E24-49CF-8C37-F45786FA4A0E",
       "klucz_zrodla": "fb7a0f789a39815804",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -338,7 +338,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F67555AB-3C38-4632-8F3F-AC95E0AAFCF2",
       "klucz_zrodla": "b79175da9f18062794",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -352,7 +352,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=17829D68-6525-4D82-B626-8642AA56895D",
       "klucz_zrodla": "a94ca00dad878a2260",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -366,7 +366,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=82C3DB1F-B838-4CF8-A774-2CBE243A54F3",
       "klucz_zrodla": "812f32526be4c005b6",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -380,7 +380,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F216D197-7F81-4DD8-B1FF-5169AB11ADA6",
       "klucz_zrodla": "a13ac331894c6770e8",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -394,7 +394,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=BC1DB874-4A83-4BDA-8D13-2EC88BE9711E",
       "klucz_zrodla": "378d9ce68edf895b72",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -408,7 +408,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=86F91244-1CAE-4042-90D6-74DF10B09637",
       "klucz_zrodla": "e4cdba925aceeaf95d",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -422,7 +422,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=30AB6DD1-D02E-4371-9EC8-A586218F3CDA",
       "klucz_zrodla": "a2722b8a80cb862c46",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -436,7 +436,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=EBAB4288-CF52-440A-B4B5-0466B10A2DBF",
       "klucz_zrodla": "cb50a6db56657d26af",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -450,7 +450,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A4F02711-540C-454D-8CBF-AC6694743A54",
       "klucz_zrodla": "1faf0c925b9a0cd038",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -464,7 +464,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=AA2FF00D-1180-465F-828A-993D07DD1E78",
       "klucz_zrodla": "c94c4c92cdf917dd56",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -478,7 +478,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E4F40025-FC0A-44FD-A065-C0DFB9F44016",
       "klucz_zrodla": "632639837622cca0cb",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -492,7 +492,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=56F8AAA9-1C08-4711-9809-E2A4B9BB28CD",
       "klucz_zrodla": "38b8f6c06f9d206d35",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -506,7 +506,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=B505A634-844A-4AD0-BBE5-D5CC969C6A8C",
       "klucz_zrodla": "2f9b3ffb6ff8635626",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -520,7 +520,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6A0B53E4-754F-4EC4-B316-15CFB11977DB",
       "klucz_zrodla": "56602d094fcde9e033",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -534,7 +534,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A9E65328-B2D9-4178-9805-171C1E76B02D",
       "klucz_zrodla": "08653b8a39b2905752",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -548,7 +548,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F676CC92-7087-4AC9-89F9-6170A230C5B6",
       "klucz_zrodla": "62defdbdce665d9eb0",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -562,7 +562,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2713A70A-680E-420B-B637-7B747D4DCFC1",
       "klucz_zrodla": "5e1bb291754a960efb",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -576,7 +576,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=08F8925E-96CC-4BEE-A8D6-6C38150F28EC",
       "klucz_zrodla": "3f8160998f624a7b43",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -590,7 +590,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9555C191-8F6B-4C1C-9538-4F93112B0F4B",
       "klucz_zrodla": "128dcd3a6ed5ba3ef3",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -604,7 +604,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=DE7BACC1-03DC-416E-93D9-D8E092343869",
       "klucz_zrodla": "cc22dbe209fa3e5636",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -618,7 +618,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=0D1D6393-CAC0-4DAB-B2E4-C1F76A64AA24",
       "klucz_zrodla": "e8c8aff060b0b2cf2b",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -632,7 +632,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=095D9F26-7651-419E-AAF0-A1A2543B2337",
       "klucz_zrodla": "48a1b74486ac1e144c",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -646,7 +646,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F5812A3F-3472-4393-967F-F4C7796E238E",
       "klucz_zrodla": "6f8fde58194378f50f",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -660,7 +660,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6E4F7F6C-C12C-4A4E-AD97-890F96294545",
       "klucz_zrodla": "65f0b3e61e2ac0b658",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -674,7 +674,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7CD45B17-9BE7-4C99-A52B-DE94E29F1B11",
       "klucz_zrodla": "95665e3f14861ce62d",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -688,7 +688,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2AFAD115-C569-4CEC-8507-2F103EA803D3",
       "klucz_zrodla": "2692e824087250d9d1",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -702,7 +702,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=8B27F7B7-0055-497C-97FB-4E87AF6BD6BA",
       "klucz_zrodla": "08b159e9fdf9fe16e6",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -716,7 +716,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=668661C2-1E4D-4739-A4F7-A44F2791CD77",
       "klucz_zrodla": "5f358042d0ab9b82a6",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -730,7 +730,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=FD7073C1-8C6A-4091-A40B-CCD894F9F1F1",
       "klucz_zrodla": "d1a3be101a492d4242",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -744,7 +744,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6652C81B-2326-4EAD-BDFE-E584A55FCE9B",
       "klucz_zrodla": "a70bac2f2641c86b9a",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -758,7 +758,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=24E98711-CD91-4CC9-8CA2-1613794AF69C",
       "klucz_zrodla": "787eb8baaf68309f34",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -772,7 +772,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7B178CAB-9572-4314-8DCF-5B4B7125E88B",
       "klucz_zrodla": "c72bc4c7d03487da59",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -786,7 +786,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=CDA2AD39-5006-4846-9FC7-0A4F5E1B2FFF",
       "klucz_zrodla": "0c9e36dc6b4e377d4d",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -800,7 +800,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=47E01AA6-0BFC-46AF-9330-1A0D9C3EC879",
       "klucz_zrodla": "df0395768475e75706",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -814,7 +814,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=D894DA44-82D4-45E3-8570-52C7C83FF2AE",
       "klucz_zrodla": "ac4dbf875cff3f92dc",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -828,7 +828,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=C75E0037-681B-4048-B4B5-84A8C796B4F2",
       "klucz_zrodla": "22c325f244d0c02f68",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -842,7 +842,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=59A7EB34-6013-4B4F-9FA3-A51EACE14C1E",
       "klucz_zrodla": "5e3a22fb20d330c43a",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -856,7 +856,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=81DE1125-BC69-4E91-9B5E-7D2EFB64AB82",
       "klucz_zrodla": "f32eb9a8f2a991c0c1",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -870,7 +870,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=52D316B2-6D07-4CE4-9D52-53452EA7AF23",
       "klucz_zrodla": "398c4c215710979587",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -884,7 +884,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2D28AEE0-2327-44E6-84E1-609EB88DBC5D",
       "klucz_zrodla": "528046929c8cc88edf",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -898,7 +898,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=990C19E5-028B-457A-A667-1D9EA545E866",
       "klucz_zrodla": "21af7fd160ef5c2e4a",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -912,7 +912,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B",
       "klucz_zrodla": "a7b0da1145d12acb8b",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -926,7 +926,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=856A4C23-1A9F-414A-9105-529D0E1DFFC9",
       "klucz_zrodla": "b93188455791f70108",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -940,7 +940,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=75DB7CA3-6336-4960-B8C6-CF2E9AD9DFC7",
       "klucz_zrodla": "08e3453af655a3cbd6",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -954,7 +954,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=B73749B2-0A4B-4949-91D2-EF878F63357D",
       "klucz_zrodla": "b17947f1eb78222289",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -968,7 +968,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=253A723B-C9DA-4839-A5ED-F9DF7A923AAD",
       "klucz_zrodla": "374ff9d850b6a12aae",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -982,7 +982,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=CEAEEDF9-35F9-4DE3-A1D1-466F17914D7F",
       "klucz_zrodla": "861b460bcff80770ae",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -996,7 +996,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=4AE7A8B9-B0E3-48D7-9708-98EDCE34150A",
       "klucz_zrodla": "ba3bf8e0837139d7c1",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1010,7 +1010,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A9CB2051-DFA0-4299-BC5F-FF12E4578777",
       "klucz_zrodla": "6788bdfb480a2fb7c7",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1024,7 +1024,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=42FCAB7E-CC3D-48E8-8863-A22E1609079E",
       "klucz_zrodla": "caac665664453de87f",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1038,7 +1038,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=64110862-A01A-4CCE-B592-E8C74EDF0F96",
       "klucz_zrodla": "f1ffc7d2529c38f58e",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1052,7 +1052,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A4A28218-8376-4BD4-9F33-CB9763506EB4",
       "klucz_zrodla": "d6d2431fa14d9e3ceb",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1066,7 +1066,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=711F2E56-4078-44D3-ABA5-245441571CCF",
       "klucz_zrodla": "de50c57f7cedbc7650",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1080,7 +1080,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A63589A1-8BEC-4D77-AEFE-F06B4327D238",
       "klucz_zrodla": "c7aca643a54cd4bb7e",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1094,7 +1094,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=52720A78-97A2-42CA-A42A-EF690CA603FA",
       "klucz_zrodla": "5ee0a4c3a4352312b0",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1108,7 +1108,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=944F2597-0B0F-4365-A018-D9655DB1FD86",
       "klucz_zrodla": "bd52768ee34c5ccd6d",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1122,7 +1122,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=27DDD2BA-8671-4647-9448-1FB9CAFE82A6",
       "klucz_zrodla": "1ab825413b4a903b7e",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1136,7 +1136,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=961A2A39-4E14-4955-9A30-4847928FA886",
       "klucz_zrodla": "47d979d7806f98fdf2",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1150,7 +1150,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=56BF056C-E223-4A50-B931-44D55685B0B3",
       "klucz_zrodla": "38f82ad5b8d4a76dc7",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1164,7 +1164,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9939A368-11E2-43CF-8599-B372A60501B9",
       "klucz_zrodla": "5a4e2cc1f5226f87fb",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1178,7 +1178,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7A3E0D12-AB91-4D48-8CA5-533A29BDDFCD",
       "klucz_zrodla": "d34ad5348d7e291b40",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1192,7 +1192,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=AC0C4650-A58A-4516-B278-350D9C0B193A",
       "klucz_zrodla": "b22c7fe70deb7aef74",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1206,7 +1206,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=CA536FFD-69B4-42B1-B991-CC45DD2D7D97",
       "klucz_zrodla": "ca39d8942810bb5851",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1220,7 +1220,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6E48B3AD-3A51-4818-8E89-BBDCD6D3F61E",
       "klucz_zrodla": "eaf6fc7eaab5b55f7d",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1234,7 +1234,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=4ED2DB0D-BC1A-453D-AA30-5A46DDD32BA5",
       "klucz_zrodla": "f51f34b5e60958580c",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1248,7 +1248,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9AEFB746-8C27-460A-B796-7B6FECB7676B",
       "klucz_zrodla": "e70e34dec9c28f1ce8",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1262,7 +1262,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6776475A-D221-4B5A-B218-13BD75277B23",
       "klucz_zrodla": "579c0a2ef8560e36e2",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1276,7 +1276,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=B19E7367-15A4-4931-8D81-CD279211AF5E",
       "klucz_zrodla": "f3606f60ebc8ffeacf",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1290,7 +1290,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=CCF6BE05-9567-4714-B4EF-7E5BAC8AE882",
       "klucz_zrodla": "d4e604728b5fbaa101",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1304,7 +1304,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=FA909E1A-AFD8-4FB9-A2AA-4446727E2492",
       "klucz_zrodla": "6d4b569d30d6977fac",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1318,7 +1318,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F17E66BC-B0C4-404C-8106-552DE21A907E",
       "klucz_zrodla": "1eac4b1f9b349b1e90",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1332,7 +1332,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=38ACEA72-C9F8-4673-B860-189F288D2B86",
       "klucz_zrodla": "69b500418cfa0feb65",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1346,7 +1346,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=839E7A34-725F-4536-AB73-CA6974E27B39",
       "klucz_zrodla": "0ad7d3406f19185bf7",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1360,7 +1360,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=220E61CE-230C-4174-AD87-082FB58924B6",
       "klucz_zrodla": "d3656f7146396e5bd2",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1374,7 +1374,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=D8BE726F-FD7A-4A3C-A9B2-F73A923864D6",
       "klucz_zrodla": "e1600e460d9a48473d",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1388,7 +1388,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A140AC9B-9099-4AAD-A754-B9A3D1425257",
       "klucz_zrodla": "e42202214962b5094a",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1402,7 +1402,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F89E5500-507E-4326-BC57-4EB5A55BCBC7",
       "klucz_zrodla": "38077986a0c6316c4e",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1416,7 +1416,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7441CCAC-7245-4544-BF61-1F6F446BC748",
       "klucz_zrodla": "a04085b1fad3ee3074",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1430,7 +1430,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=72DF1CAF-178D-41CB-8BA5-FF39B1F7524D",
       "klucz_zrodla": "4cfe514060180d46ac",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1444,7 +1444,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7B170278-F7BB-4B0A-BEA5-49A199E798BC",
       "klucz_zrodla": "47e0baf153d9195fc4",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1458,7 +1458,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=1135583B-806A-4D62-B8B2-1BA59850CD9A",
       "klucz_zrodla": "8739c9e2a07c954da5",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1472,7 +1472,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=284409EE-743C-46DD-A86E-99076ED8B85B",
       "klucz_zrodla": "53f0c135f16ce025d2",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1486,7 +1486,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=093C6CB3-2862-40F2-ADC1-1C12233B4DB2",
       "klucz_zrodla": "803cf6d81d41d6cd07",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1500,7 +1500,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2A8836C0-5420-401A-B4DD-77E03C34DD70",
       "klucz_zrodla": "f0a2eed0b4e6ab08ef",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1514,7 +1514,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=AF529232-DAA2-4F09-9C4F-E30390DD3485",
       "klucz_zrodla": "40b278cc582c539705",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1528,7 +1528,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E",
       "klucz_zrodla": "244b12fa4a6cd0e505",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1542,7 +1542,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=43D49018-5E8C-48FF-97B4-0371A47EB6BF",
       "klucz_zrodla": "ad65fdf17a0e3d1103",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1556,7 +1556,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=EAF8CC63-52E3-4DD7-8EBB-2FFFC9C0D2E2",
       "klucz_zrodla": "df6de3f6a9b0aa6ddc",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1570,7 +1570,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=D6CE5C56-E6F1-416C-B477-7254B2F6468E",
       "klucz_zrodla": "4676bc0a110cd27fd4",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1584,7 +1584,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E",
       "klucz_zrodla": "2c8ece0a91b8b88bc4",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1598,7 +1598,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3284708E-5B24-4B2D-B190-7DC35868C987",
       "klucz_zrodla": "b3dd62cbcd9b90d873",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1612,7 +1612,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E6AE180A-7695-4856-968F-245326915E10",
       "klucz_zrodla": "d28b9efa7a9b3f1f45",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1626,7 +1626,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F8E35C74-59BC-4AA3-A605-7DB57196866F",
       "klucz_zrodla": "6c58056b39e969ad3d",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1640,7 +1640,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3B607203-08A5-474B-AB1F-69D4699B0FFA",
       "klucz_zrodla": "7a14201a0b9fd48a14",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1654,7 +1654,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=AD8AC19B-C9BD-4713-8D1F-6682B29B7211",
       "klucz_zrodla": "cd1dbfdeb86e909110",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1668,7 +1668,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=342426C8-85ED-4767-8F19-B4185C0A84D8",
       "klucz_zrodla": "12c3be25532fb7a3fd",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1682,7 +1682,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=B84E6F73-6049-43BD-9121-2064C9BD9273",
       "klucz_zrodla": "35ca887384f41c2384",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1696,7 +1696,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=41E84DFA-D00B-4E5F-926C-A25EBC342CD0",
       "klucz_zrodla": "c8ef75cfea3c790405",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1710,7 +1710,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7B389633-D063-44AF-B1B6-E7112B3D68BB",
       "klucz_zrodla": "45e961abe9d751a0dd",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1724,7 +1724,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=02EBFC50-29A7-4CF1-91AB-0D406302B795",
       "klucz_zrodla": "584693e9fa1b6061c8",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1738,7 +1738,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F7F661AA-A952-4437-AB2B-4B13F4D70541",
       "klucz_zrodla": "4744ae9893c44d1ea0",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1752,7 +1752,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=682E4A5A-CCB1-4104-9713-AEDC25E8F1CD",
       "klucz_zrodla": "0c5c5f39897fe8b803",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1766,7 +1766,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=10C08B85-1DB8-47D2-9F91-418CF6BB0794",
       "klucz_zrodla": "66f7a4e6d95bc23a8c",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1780,7 +1780,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F59DF16E-E467-4780-AE56-EC12B8C67CCB",
       "klucz_zrodla": "247d99d7373e602c9c",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1794,7 +1794,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E3FF13DD-6CF6-4014-9BA0-124510B88D16",
       "klucz_zrodla": "a1d439e49f0a29904f",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1808,7 +1808,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2BCA8E74-98D8-4955-B399-5D11E07F9A2C",
       "klucz_zrodla": "87f9b8a346ee5d1645",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1822,7 +1822,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=8972355D-3B5C-40CF-BD8F-6201F8F881EA",
       "klucz_zrodla": "9d20f1de8a271bae77",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1836,7 +1836,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=0A6CB279-C476-4D86-ADB5-FBC62CB87D5E",
       "klucz_zrodla": "56920d40a60ce065a7",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1850,7 +1850,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=16C74C18-66AF-4867-932F-94E808EFE8EA",
       "klucz_zrodla": "5c15909d845a6476ee",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1864,7 +1864,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9D98A8E3-B1BB-476B-8CD7-33E3ABF612CD",
       "klucz_zrodla": "1ee6b79bfe02bd1452",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1878,7 +1878,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=43ADA3A1-0902-4533-8B93-6E46E43F27A9",
       "klucz_zrodla": "c1b85d8cf2a95b6df7",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -1892,7 +1892,7 @@
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=18B8F410-E9A8-4ADE-A093-0CF0023B5949",
       "klucz_zrodla": "2733fa5d7262a23893",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:24+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:24+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:18+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     }
   ],

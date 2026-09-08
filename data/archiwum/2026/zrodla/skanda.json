@@ -1,7 +1,7 @@
 {
   "zrodlo": "TKKF Skanda",
   "rok": 2026,
-  "aktualizacja_utc": "2026-09-08T18:10:27+00:00",
+  "aktualizacja_utc": "2026-09-08T18:20:19+00:00",
   "liczba_rekordow": 21,
   "liczba_widzianych_w_tym_odczycie": 21,
   "turnieje": [
@@ -26,7 +26,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "e7c1de85a02b5c8e7e",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -50,7 +50,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "4c63cbb67953e0a426",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -74,7 +74,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "90f4dd4b61bba67f8d",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -98,7 +98,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "acd250b150de730ac0",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -122,7 +122,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "eedcd6e51401945125",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -146,7 +146,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "9ea155ff5047e8d5e1",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -170,7 +170,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "dd50bda51b85bf0bc1",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -194,7 +194,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "489f0119f8ee1a2fcb",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -218,7 +218,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "8d70c991280c15053c",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -242,7 +242,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "2e95f110bf549e0b71",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -266,7 +266,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "7c89739f1bb903550e",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -290,7 +290,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "3b6b97d43256345d84",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -314,7 +314,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "16b8ed73a5994a31d8",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -338,7 +338,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "7512996408dcbb47d0",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -362,7 +362,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "d53bad88b2861045c3",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -386,7 +386,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "a8819e5a43de25247b",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -410,7 +410,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "d007f65039c5b9a1b0",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -434,7 +434,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "19400397703ea758c7",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -458,7 +458,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "796cbf12624460b308",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -482,7 +482,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "0f3c514a79262188ab",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -506,7 +506,7 @@
       "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
       "klucz_zrodla": "6bb4a7aba45ff3c9f2",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:27+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:10:27+00:00",
+      "ostatnio_widziany_utc": "2026-09-08T18:20:19+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     }
   ],

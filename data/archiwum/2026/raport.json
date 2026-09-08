@@ -1,18 +1,18 @@
 {
   "rok": 2026,
-  "aktualizacja_utc": "2026-09-08T18:12:02+00:00",
+  "aktualizacja_utc": "2026-09-08T18:22:01+00:00",
   "bledy_zrodel": [],
   "liczba_rekordow_zrodlowych": {
     "PZT TOP": 135,
-    "Cuply": 22,
     "TKKF Skanda": 21,
+    "Cuply": 23,
     "PLT": 401,
     "Kluby.org": 415
   },
-  "liczba_po_filtrze_dat_i_roku": 994,
+  "liczba_po_filtrze_dat_i_roku": 995,
   "liczba_odrzuconych_jakosc": 0,
   "odrzucone_jakosc": [],
-  "liczba_po_kontroli_jakosci": 994,
+  "liczba_po_kontroli_jakosci": 995,
   "liczba_potencjalnych_par_duplikatow": 0,
   "liczba_niezweryfikowanych": 424
 }
