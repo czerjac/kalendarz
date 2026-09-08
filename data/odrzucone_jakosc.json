@@ -1,0 +1,32 @@
+{
+  "sprawdzono_utc": "2026-09-08T07:56:42+00:00",
+  "liczba_odrzuconych": 2,
+  "turnieje": [
+    {
+      "id": "b042dfa6eef186",
+      "zrodlo": "PZT TOP",
+      "nazwa": "V Myszkowska Liga Tenisowa Kobiet",
+      "data_od": "2026-05-11",
+      "data_do": "2026-10-31",
+      "miasto": "Myszków",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=57496268-6699-45FC-8338-7B2675DED639",
+      "powody": [
+        "rozgrywki_ligowe_lub_challenge",
+        "wydarzenie_wielotygodniowe"
+      ]
+    },
+    {
+      "id": "78fe41beede583",
+      "zrodlo": "PZT TOP",
+      "nazwa": "V Myszkowska Liga Tenisowa Mężczyzn",
+      "data_od": "2026-05-11",
+      "data_do": "2026-10-31",
+      "miasto": "Myszków",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68",
+      "powody": [
+        "rozgrywki_ligowe_lub_challenge",
+        "wydarzenie_wielotygodniowe"
+      ]
+    }
+  ]
+}

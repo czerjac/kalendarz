@@ -1,116 +1,16 @@
 {
   "wygenerowano_utc": "2026-09-07T19:56:46+00:00",
-  "liczba_turniejow": 128,
+  "liczba_turniejow": 126,
   "liczba_wg_zrodla": {
-    "PZT TOP": 17,
-    "Cuply": 10,
+    "Kluby.org": 48,
     "PLT": 53,
-    "Kluby.org": 48
+    "PZT TOP": 15,
+    "Cuply": 10
   },
   "odfiltrowano_turnieje_mlodziezowe": 2,
   "liczba_potencjalnych_par_duplikatow": 0,
   "potencjalne_duplikaty": [],
   "turnieje": [
-    {
-      "id": "b042dfa6eef186",
-      "zrodlo": "PZT TOP",
-      "cykl": "",
-      "nazwa": "V Myszkowska Liga Tenisowa Kobiet",
-      "data_od": "2026-05-11",
-      "data_do": "2026-10-31",
-      "miasto": "Myszków",
-      "miejsce": "",
-      "kategorie": "Open Amator",
-      "typ_gry": "Gra pojedyncza; Kobiety; 20",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "Zawodnik zrzeszony: 200,00 zł | Zawodnik NST: 240,00 zł",
-      "ranga": "5",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=57496268-6699-45FC-8338-7B2675DED639",
-      "status": "trwa",
-      "wojewodztwo": "śląskie",
-      "szczegoly": {
-        "organizator": "UKS \"LUKA Tenis Myszków\"",
-        "adres": "42-300 Myszków, Szczygla 4",
-        "kategorie": "Open Amator",
-        "termin_zgloszen": "2026-05-04 23:59",
-        "termin_odwolan": "2026-05-07 23:59",
-        "dyrektor_turnieju": "Borda Łukasz",
-        "sedzia_naczelny": "Sędzia nieustalony",
-        "szczegoly_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=57496268-6699-45FC-8338-7B2675DED639",
-        "zapisy_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=57496268-6699-45FC-8338-7B2675DED639",
-        "kontakt": "tel.: 662071479 | email: lukaszborda@tlen.pl",
-        "wpisowe": "Zawodnik zrzeszony: 200,00 zł | Zawodnik NST: 240,00 zł",
-        "typ_gry": "Gra pojedyncza; Kobiety; 20",
-        "opis": "42-300 Myszków, Szczygla 4 www https://www.facebook.com/LUKA.AKADEMIA.TENISOWA/"
-      },
-      "organizator": "UKS \"LUKA Tenis Myszków\"",
-      "adres": "42-300 Myszków, Szczygla 4",
-      "termin_zgloszen": "2026-05-04 23:59",
-      "zapisy_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=57496268-6699-45FC-8338-7B2675DED639",
-      "opis": "42-300 Myszków, Szczygla 4 www https://www.facebook.com/LUKA.AKADEMIA.TENISOWA/",
-      "kontakt": "tel.: 662071479 | email: lukaszborda@tlen.pl",
-      "dyrektor_turnieju": "Borda Łukasz",
-      "sedzia_naczelny": "Sędzia nieustalony",
-      "organizacja": "TOP PZT",
-      "kategoria_zrodla": "",
-      "rodzaje_gry": [
-        "singiel"
-      ],
-      "grupy_uczestnikow": [
-        "kobiety"
-      ]
-    },
-    {
-      "id": "78fe41beede583",
-      "zrodlo": "PZT TOP",
-      "cykl": "",
-      "nazwa": "V Myszkowska Liga Tenisowa Mężczyzn",
-      "data_od": "2026-05-11",
-      "data_do": "2026-10-31",
-      "miasto": "Myszków",
-      "miejsce": "",
-      "kategorie": "Open Amator",
-      "typ_gry": "Gra pojedyncza; Mężczyźni; 20",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "Zawodnik zrzeszony: 200,00 zł | Zawodnik NST: 240,00 zł",
-      "ranga": "4",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68",
-      "status": "trwa",
-      "wojewodztwo": "śląskie",
-      "szczegoly": {
-        "organizator": "UKS \"LUKA Tenis Myszków\"",
-        "adres": "42-300 Myszków, Szczygla 4",
-        "kategorie": "Open Amator",
-        "termin_zgloszen": "2026-05-04 23:59",
-        "termin_odwolan": "2026-05-07 23:59",
-        "dyrektor_turnieju": "Borda Łukasz",
-        "sedzia_naczelny": "Sędzia nieustalony",
-        "szczegoly_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68",
-        "zapisy_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68",
-        "kontakt": "tel.: 662071479 | email: lukaszborda@tlen.pl",
-        "wpisowe": "Zawodnik zrzeszony: 200,00 zł | Zawodnik NST: 240,00 zł",
-        "typ_gry": "Gra pojedyncza; Mężczyźni; 20",
-        "opis": "42-300 Myszków, Szczygla 4 www https://www.facebook.com/LUKA.AKADEMIA.TENISOWA/"
-      },
-      "organizator": "UKS \"LUKA Tenis Myszków\"",
-      "adres": "42-300 Myszków, Szczygla 4",
-      "termin_zgloszen": "2026-05-04 23:59",
-      "zapisy_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68",
-      "opis": "42-300 Myszków, Szczygla 4 www https://www.facebook.com/LUKA.AKADEMIA.TENISOWA/",
-      "kontakt": "tel.: 662071479 | email: lukaszborda@tlen.pl",
-      "dyrektor_turnieju": "Borda Łukasz",
-      "sedzia_naczelny": "Sędzia nieustalony",
-      "organizacja": "TOP PZT",
-      "kategoria_zrodla": "",
-      "rodzaje_gry": [
-        "singiel"
-      ],
-      "grupy_uczestnikow": [
-        "mężczyźni"
-      ]
-    },
     {
       "id": "4703bfcb62e5ee",
       "zrodlo": "Kluby.org",
@@ -6191,5 +6091,12 @@
         "typ_gry": ""
       }
     ]
+  },
+  "kontrola_jakosci": {
+    "sprawdzono_utc": "2026-09-08T07:56:42+00:00",
+    "liczba_przed": 128,
+    "liczba_po": 126,
+    "odrzucono": 2,
+    "zasada": "PZT: odrzucamy wielotygodniowe ligi/challenge oraz trwające rekordy bez drabinki i meczów co najmniej 7 dni po starcie"
   }
 }
