@@ -62,11 +62,12 @@ def classify(item: dict) -> None:
         item["kategoria_zrodla"] = clean(item.get("kategoria_zrodla"))
 
     # Reguły redakcyjne Tenis NET:
-    # - wszystkie turnieje z systemu PLT należą do jednego cyklu „Polska Liga Tenisa”;
-    #   określenia typu wiosenne/letnie/jesienne mistrzostwa pozostają tylko w danych źródłowych/nazwie.
+    # - wszystkie turnieje z systemu Polska Liga Tenisa mają wspólny cykl „PLT”;
+    #   określenia typu 1. Liga, 2. Liga, Puchar PLT oraz wiosenne/letnie/jesienne
+    #   mistrzostwa pozostają w kategorii źródłowej lub nazwie turnieju.
     # - wszystkie wydarzenia pobrane z kalendarza TOP PZT należą do cyklu „TOP PZT”.
     if source == "PLT":
-        item["cykl"] = "Polska Liga Tenisa"
+        item["cykl"] = "PLT"
         return
     if source == "PZT TOP":
         item["cykl"] = "TOP PZT"
