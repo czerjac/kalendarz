@@ -20,7 +20,7 @@ ARCHIVE_FILE = ROOT / "turnieje.json"
 REPORT_FILE = ROOT / "raport.json"
 DUP_FILE = ROOT / "duplikaty_do_weryfikacji.json"
 PZT_CACHE_FILE = ROOT / "pzt_szczegoly.json"
-PZT_PARSER_VERSION = 1
+PZT_PARSER_VERSION = 2
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -87,7 +87,6 @@ def city_from_address(address: str) -> str:
         city = clean(match.group(1))
         city = re.split(r"\s+(?:ul\.|al\.|aleja|pl\.)\s+", city, maxsplit=1, flags=re.I)[0]
         return city.strip(" -")
-    # Ostrożny fallback: jeżeli pierwszy człon nie wygląda jak ulica, może być miastem.
     first = clean(value.split(",", 1)[0])
     if first and not re.search(r"\b(?:ul\.|aleja|al\.|pl\.|korty|centrum|hala|obiekt)\b", first, re.I):
         if len(first.split()) <= 4:
@@ -114,8 +113,6 @@ def cache_due(item: dict, entry: dict) -> bool:
         return True
     if not entry.get("dane"):
         return True
-    # Wyniki potrafią pojawić się po kilku dniach. Niedawne wydarzenia bez danych
-    # wynikowych sprawdzamy ponownie przy cotygodniowym przebiegu archiwum.
     details = entry.get("dane", {})
     end = parse_iso_date(item.get("data_do"))
     if end and not details.get("wyniki_potwierdzone") and 0 <= (TODAY - end).days <= 35:
@@ -143,12 +140,14 @@ def fetch_pzt_detail(session: requests.Session, item: dict) -> dict:
     deadline = value_after(lines, ["Termin zgłoszeń"])
     director = value_after(lines, ["Dyrektor turnieju"])
 
+    # Nie traktujemy samego wystąpienia etykiet „Drabinki”, „Mecze” lub „Zwycięzcy”
+    # jako dowodu rozegrania turnieju, bo są elementami interfejsu PZT.
+    # Potwierdzeniem jest co najmniej jedna sekcja Drabinki/Mecze bez adnotacji „brak wyników”.
     no_draws = "drabinki (brak wynikow)" in folded
     no_matches = "mecze (brak wynikow)" in folded
     has_draws = "drabinki" in folded and not no_draws
     has_matches = "mecze" in folded and not no_matches
-    has_winners = "zwyciezcy" in folded
-    results_confirmed = bool(has_draws or has_matches or has_winners)
+    results_confirmed = bool(has_draws or has_matches)
 
     details = {
         "organizator": organizer,
@@ -208,11 +207,17 @@ def enrich_pzt(items: list[dict]) -> tuple[dict, dict]:
             item["kategorie"] = details["kategorie"]
         item["wyniki_potwierdzone"] = bool(details.get("wyniki_potwierdzone"))
 
+        source_status = ascii_text(clean(item.get("status_zrodla")))
+        if item["wyniki_potwierdzone"]:
+            item["status_archiwum"] = "rozegrany"
+        elif "zakoncz" in source_status:
+            item["status_archiwum"] = "zakonczony_wg_zrodla"
+        else:
+            item["status_archiwum"] = "niezweryfikowany"
+
         organizer = clean(item.get("organizator"))
         name = clean(item.get("nazwa"))
         if organizer and ascii_text(name).endswith(ascii_text(organizer)):
-            # PZT na liście wyników dopisuje organizatora po przecinku do nazwy.
-            # Zachowujemy nazwę źródłową, ale tworzymy rdzeń do porównań między portalami.
             if name.casefold().endswith(organizer.casefold()):
                 core = name[: -len(organizer)].rstrip(" ,-/")
                 if core:
@@ -229,6 +234,7 @@ def enrich_pzt(items: list[dict]) -> tuple[dict, dict]:
         "pzt_bledy_szczegolow": failed,
         "pzt_z_miastem": sum(1 for x in pzt_items if clean(x.get("miasto"))),
         "pzt_z_potwierdzonymi_wynikami": sum(1 for x in pzt_items if x.get("wyniki_potwierdzone")),
+        "pzt_bez_potwierdzonych_wynikow": sum(1 for x in pzt_items if not x.get("wyniki_potwierdzone")),
     }
     return payload, stats
 
@@ -322,11 +328,13 @@ def main() -> None:
     _, pzt_stats = enrich_pzt(items)
     duplicates = duplicate_candidates(items)
     duplicate_counts = Counter(x["pewnosc"] for x in duplicates)
+    status_counts = Counter(clean(x.get("status_archiwum")) for x in items if clean(x.get("status_archiwum")))
 
     archive["aktualizacja_audytu_utc"] = now_iso()
     archive["liczba_potencjalnych_par_duplikatow"] = len(duplicates)
     archive["liczba_potencjalnych_par_duplikatow_wg_pewnosci"] = dict(sorted(duplicate_counts.items()))
     archive["liczba_z_potwierdzonymi_wynikami_pzt"] = pzt_stats["pzt_z_potwierdzonymi_wynikami"]
+    archive["liczba_wg_statusu_archiwum"] = dict(sorted(status_counts.items()))
     save_json(ARCHIVE_FILE, archive)
 
     save_json(DUP_FILE, {
@@ -339,6 +347,8 @@ def main() -> None:
     })
 
     report = load_json(REPORT_FILE, {"rok": YEAR})
+    report["liczba_niezweryfikowanych"] = status_counts.get("niezweryfikowany", 0)
+    report["liczba_wg_statusu_archiwum"] = dict(sorted(status_counts.items()))
     report["audyt"] = {
         "aktualizacja_utc": now_iso(),
         **pzt_stats,
@@ -349,6 +359,7 @@ def main() -> None:
 
     print("\n=== AUDYT ARCHIWUM 2026 ===")
     print("PZT:", pzt_stats)
+    print("Statusy archiwum:", dict(status_counts))
     print("Kandydaci duplikatów:", len(duplicates), dict(duplicate_counts))
     for row in duplicates[:30]:
         print(
