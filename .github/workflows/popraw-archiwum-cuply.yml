@@ -1,0 +1,135 @@
+name: Popraw archiwum Cuply
+
+on:
+  push:
+    paths:
+      - ".github/workflows/popraw-archiwum-cuply.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Popraw parser Cuply w archiwum
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('archiwum_2026.py')
+          s=p.read_text(encoding='utf-8')
+          old='''        card_text = clean(card.get_text(" ", strip=True))
+                  dates = cuply.parse_date_range(card_text)
+                  if not dates:
+                      continue
+                  start, end = dates
+                  if not start.startswith(f"{YEAR}-"):
+                      continue
+                  try:
+                      if date.fromisoformat(end) >= TODAY:
+                          continue
+                  except ValueError:
+                      continue
+                  place = cuply.extract_place(card_text)
+                  by_url[absolute] = {
+                      "zrodlo": "Cuply",
+                      "cykl_szczegolowy": "Cuply",
+                      "nazwa": name,
+                      "data_od": start,
+                      "data_do": end,
+                      "miasto": cuply.extract_city(place),
+                      "miejsce": place,
+                      "url": absolute,
+                      "status_zrodla": "Zakończone",
+                  }
+          '''
+          new='''        card_text = clean(card.get_text(" ", strip=True))
+                  dates = cuply.parse_date_range(card_text)
+                  if not dates:
+                      continue
+                  start, end = dates
+                  date_warning = ""
+
+                  # Cuply potrafi mieć literówkę w zakresie dat, np. 26.07-26.06.2026.
+                  # Standardowy parser słusznie interpretuje taki zapis jako przekroczenie roku,
+                  # ale dla zakończonego jednodniowego turnieju daje to absurdalny zakres ~11 miesięcy.
+                  # W takim wyjątkowym przypadku zachowujemy pierwszy dzień w roku archiwum i
+                  # oznaczamy rekord do późniejszej weryfikacji zamiast go bezgłośnie zgubić.
+                  try:
+                      parsed_start = date.fromisoformat(start)
+                      parsed_end = date.fromisoformat(end)
+                      if parsed_start.year == YEAR - 1 and parsed_end.year == YEAR and (parsed_end - parsed_start).days > 180:
+                          raw = re.search(r"Termin:\\s*(\\d{1,2})\\.(\\d{1,2}).*?-\\s*(\\d{1,2})\\.(\\d{1,2})\\.%d" % YEAR, card_text, re.I)
+                          if raw and raw.group(1) == raw.group(3):
+                              corrected = date(YEAR, int(raw.group(2)), int(raw.group(1)))
+                              start = corrected.isoformat()
+                              end = corrected.isoformat()
+                              date_warning = "niespojny_zakres_dat_w_zrodle"
+                  except ValueError:
+                      pass
+
+                  if not start.startswith(f"{YEAR}-"):
+                      continue
+                  try:
+                      if date.fromisoformat(end) >= TODAY:
+                          continue
+                  except ValueError:
+                      continue
+
+                  place_match = re.search(
+                      r"Miejsce:\\s*(.+?)(?=\\s+(?:Zobacz wyniki|Weź udział|Wez udzial|Zapisz się|Zapisz sie|Zapisy od|$))",
+                      card_text,
+                      re.I,
+                  )
+                  place = clean(place_match.group(1)) if place_match else cuply.extract_place(card_text)
+                  item = {
+                      "zrodlo": "Cuply",
+                      "cykl_szczegolowy": "Cuply",
+                      "nazwa": name,
+                      "data_od": start,
+                      "data_do": end,
+                      "miasto": cuply.extract_city(place),
+                      "miejsce": place,
+                      "url": absolute,
+                      "status_zrodla": "Zakończone",
+                  }
+                  if date_warning:
+                      item["uwaga_zrodla"] = date_warning
+                  by_url[absolute] = item
+          '''
+          if old not in s:
+              raise SystemExit('Nie znaleziono oczekiwanego bloku Cuply')
+          p.write_text(s.replace(old,new,1),encoding='utf-8')
+          PY
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - run: python -m py_compile archiwum_2026.py
+      - name: Przelicz archiwum
+        run: python archiwum_2026.py
+      - name: Zweryfikuj Cuply
+        run: |
+          python - <<'PY'
+          import json
+          p=json.load(open('data/archiwum/2026/zrodla/cuply.json',encoding='utf-8'))
+          active=[x for x in p['turnieje'] if x.get('aktywny_w_zrodle_przy_ostatnim_odczycie')]
+          assert len(active) >= 23, len(active)
+          assert all(x.get('miasto') for x in active), [x['nazwa'] for x in active if not x.get('miasto')]
+          anomalies=[x for x in active if x.get('uwaga_zrodla')]
+          print('CUPLY ACTIVE',len(active))
+          print('ANOMALIE',[(x['nazwa'],x['data_od'],x['data_do'],x.get('uwaga_zrodla')) for x in anomalies])
+          data=json.load(open('data/archiwum/2026/turnieje.json',encoding='utf-8'))
+          print('ARCHIWUM FINAL',data['liczba_turniejow_po_kontroli_jakosci'])
+          print('DUPLIKATY',data['liczba_potencjalnych_par_duplikatow'])
+          PY
+      - name: Zapisz poprawkę i dane
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archiwum_2026.py data/archiwum/2026
+          git commit -m "Popraw dane Cuply w archiwum 2026"
+          git pull --rebase origin main
+          git push
