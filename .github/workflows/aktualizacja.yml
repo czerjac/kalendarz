@@ -63,6 +63,9 @@ jobs:
       - name: Znormalizuj rodzaj gry i płeć
         run: python normalizacja.py
 
+      - name: Kontrola jakości kalendarza
+        run: python jakosc.py
+
       - name: Zapisz wynik w repozytorium
         run: |
           git config user.name "github-actions[bot]"
