@@ -28,11 +28,7 @@ CYKL_CANONICAL = {
     "ziaja grand prix wybrzeza": "Ziaja Grand Prix Wybrzeża",
 }
 
-GENERIC_CYCLES = {
-    "cyklu cuply",
-    "cykl cuply",
-    "cuply",
-}
+GENERIC_CYCLES = set()
 
 
 def clean(value: str | None) -> str:
@@ -63,14 +59,17 @@ def classify(item: dict) -> None:
 
     # Reguły redakcyjne Tenis NET:
     # - wszystkie turnieje z systemu Polska Liga Tenisa mają wspólny cykl „PLT”;
-    #   określenia typu 1. Liga, 2. Liga, Puchar PLT oraz wiosenne/letnie/jesienne
-    #   mistrzostwa pozostają w kategorii źródłowej lub nazwie turnieju.
-    # - wszystkie wydarzenia pobrane z kalendarza TOP PZT należą do cyklu „TOP PZT”.
+    # - wszystkie wydarzenia pobrane z kalendarza TOP PZT należą do cyklu „TOP PZT”;
+    # - wszystkie turnieje pobrane z Cuply należą do cyklu „Cuply”.
+    # Szczegółowe nazwy/kategorie źródłowe zachowujemy w osobnych polach.
     if source == "PLT":
         item["cykl"] = "PLT"
         return
     if source == "PZT TOP":
         item["cykl"] = "TOP PZT"
+        return
+    if source == "Cuply":
+        item["cykl"] = "Cuply"
         return
 
     # Dla pozostałych źródeł właściwy cykl pochodzi ze strony szczegółów,
