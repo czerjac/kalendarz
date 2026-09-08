@@ -1,0 +1,81 @@
+name: Archiwum turniejów 2026
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "47 5 * * 1"
+
+concurrency:
+  group: kalendarz-archiwum-2026
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  archiwum:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v7
+
+      - name: Sprawdź czy automatyczny backfill jest nadal aktywny
+        id: okres
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date -u +%Y)" -le "2026" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Automatyczne archiwum 2026 zakończyło okres zbierania."
+          fi
+
+      - name: Ustaw Python
+        if: steps.okres.outputs.run == 'true'
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Zainstaluj biblioteki
+        if: steps.okres.outputs.run == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Zainstaluj Chromium
+        if: steps.okres.outputs.run == 'true'
+        run: python -m playwright install --with-deps chromium
+
+      - name: Zaktualizuj archiwum 2026
+        if: steps.okres.outputs.run == 'true'
+        run: python archiwum_2026.py
+
+      - name: Sprawdź spójność wyniku
+        if: steps.okres.outputs.run == 'true'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('data/archiwum/2026')
+          data=json.load(open(root/'turnieje.json',encoding='utf-8'))
+          report=json.load(open(root/'raport.json',encoding='utf-8'))
+          assert data.get('rok') == 2026
+          assert data.get('liczba_turniejow_po_kontroli_jakosci',0) >= 500
+          assert Path(root/'duplikaty_do_weryfikacji.json').exists()
+          print('Archiwum:',data['liczba_turniejow_po_kontroli_jakosci'])
+          print('Źródła:',data.get('liczba_wg_zrodla',{}))
+          if report.get('bledy_zrodel'):
+              print('UWAGA - źródła z błędem; zachowano dane kumulacyjne:',report['bledy_zrodel'])
+          PY
+
+      - name: Zapisz wynik w repozytorium
+        if: steps.okres.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/archiwum/2026
+          if git diff --cached --quiet; then
+            echo "Brak zmian w archiwum."
+          else
+            git commit -m "Automatyczna aktualizacja archiwum 2026"
+            git pull --rebase origin main
+            git push
+          fi
