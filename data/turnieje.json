@@ -1,11 +1,12 @@
 {
-  "wygenerowano_utc": "2026-09-08T08:54:12+00:00",
-  "liczba_turniejow": 124,
+  "wygenerowano_utc": "2026-09-08T15:52:31+00:00",
+  "liczba_turniejow": 133,
   "liczba_wg_zrodla": {
     "Kluby.org": 46,
     "PLT": 53,
     "PZT TOP": 15,
-    "Cuply": 10
+    "Cuply": 10,
+    "TKKF Skanda": 9
   },
   "odfiltrowano_turnieje_mlodziezowe": 2,
   "liczba_potencjalnych_par_duplikatow": 0,
@@ -600,6 +601,39 @@
         "kobiety",
         "mężczyźni"
       ]
+    },
+    {
+      "id": "ec524c6d74facd",
+      "zrodlo": "TKKF Skanda",
+      "cykl": "Grand Prix Skandy",
+      "nazwa": "Masters Grand Prix Skandy w grze pojedynczej",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "Olsztyn",
+      "miejsce": "TKKF Skanda",
+      "kategorie": "",
+      "typ_gry": "gra pojedyncza",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "ranga": "",
+      "url": "http://kortyskanda.pl/turnieje.html",
+      "wojewodztwo": "warmińsko-mazurskie",
+      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
+      "organizator": "TKKF \"Skanda\"",
+      "kontakt": "500 036 039 | kortyskanda@gmail.com",
+      "telefon_organizatora": "500 036 039",
+      "email_organizatora": "kortyskanda@gmail.com",
+      "cykl_szczegolowy": "Grand Prix Skandy",
+      "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
+      "start_turnieju": "10:00",
+      "status": "nadchodzacy",
+      "organizacja": "TKKF Skanda",
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "04f0a4625e65d9",
@@ -2629,6 +2663,42 @@
       "grupy_uczestnikow": []
     },
     {
+      "id": "0d94bcee1be35b",
+      "zrodlo": "TKKF Skanda",
+      "cykl": "Seniorzy Olsztyna",
+      "nazwa": "V turniej Seniorów Olsztyna w grze pojedynczej",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19",
+      "miasto": "Olsztyn",
+      "miejsce": "TKKF Skanda",
+      "kategorie": "Kobiety i mężczyźni open",
+      "typ_gry": "gra pojedyncza kobiet i mężczyzn open",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "ranga": "",
+      "url": "http://kortyskanda.pl/turnieje.html",
+      "wojewodztwo": "warmińsko-mazurskie",
+      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
+      "organizator": "TKKF \"Skanda\"",
+      "kontakt": "500 036 039 | kortyskanda@gmail.com",
+      "telefon_organizatora": "500 036 039",
+      "email_organizatora": "kortyskanda@gmail.com",
+      "cykl_szczegolowy": "Seniorzy Olsztyna",
+      "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
+      "start_turnieju": "10:00",
+      "status": "nadchodzacy",
+      "organizacja": "TKKF Skanda",
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
+        "mężczyźni"
+      ]
+    },
+    {
       "id": "f2f572572f25cc",
       "zrodlo": "Kluby.org",
       "cykl": "Grand Prix Podlasia i Mazur",
@@ -3414,6 +3484,41 @@
       "grupy_uczestnikow": []
     },
     {
+      "id": "48171d86e20eef",
+      "zrodlo": "TKKF Skanda",
+      "cykl": "Seniorzy Olsztyna",
+      "nazwa": "V turniej Seniorów Olsztyna w grze pojedynczej",
+      "data_od": "2026-09-20",
+      "data_do": "2026-09-20",
+      "miasto": "Olsztyn",
+      "miejsce": "TKKF Skanda",
+      "kategorie": "Mężczyźni 50+",
+      "typ_gry": "gra pojedyncza mężczyzn pow. 50 lat",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "ranga": "",
+      "url": "http://kortyskanda.pl/turnieje.html",
+      "wojewodztwo": "warmińsko-mazurskie",
+      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
+      "organizator": "TKKF \"Skanda\"",
+      "kontakt": "500 036 039 | kortyskanda@gmail.com",
+      "telefon_organizatora": "500 036 039",
+      "email_organizatora": "kortyskanda@gmail.com",
+      "cykl_szczegolowy": "Seniorzy Olsztyna",
+      "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
+      "start_turnieju": "10:00",
+      "status": "nadchodzacy",
+      "organizacja": "TKKF Skanda",
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
+    },
+    {
       "id": "4d4d4fad918afc",
       "zrodlo": "PZT TOP",
       "cykl": "TOP PZT",
@@ -3907,6 +4012,41 @@
         "singiel"
       ],
       "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
+    },
+    {
+      "id": "0a571b04190d45",
+      "zrodlo": "TKKF Skanda",
+      "cykl": "",
+      "nazwa": "Olsztyn Masters Mikst - mistrzostwa Olsztyna w grze mieszanej (edycja czternasta)",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Olsztyn",
+      "miejsce": "TKKF Skanda",
+      "kategorie": "",
+      "typ_gry": "gra mieszana",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "ranga": "",
+      "url": "http://kortyskanda.pl/turnieje.html",
+      "wojewodztwo": "warmińsko-mazurskie",
+      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
+      "organizator": "TKKF \"Skanda\"",
+      "kontakt": "500 036 039 | kortyskanda@gmail.com",
+      "telefon_organizatora": "500 036 039",
+      "email_organizatora": "kortyskanda@gmail.com",
+      "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
+      "start_turnieju": "10:00",
+      "status": "nadchodzacy",
+      "organizacja": "TKKF Skanda",
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "mikst"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety",
         "mężczyźni"
       ]
     },
@@ -4430,6 +4570,39 @@
       ]
     },
     {
+      "id": "11cabeb259c383",
+      "zrodlo": "TKKF Skanda",
+      "cykl": "Grand Prix Skandy",
+      "nazwa": "V Grand Prix Skandy w grze podwójnej",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Olsztyn",
+      "miejsce": "TKKF Skanda",
+      "kategorie": "",
+      "typ_gry": "gra podwójna",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "ranga": "",
+      "url": "http://kortyskanda.pl/turnieje.html",
+      "wojewodztwo": "warmińsko-mazurskie",
+      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
+      "organizator": "TKKF \"Skanda\"",
+      "kontakt": "500 036 039 | kortyskanda@gmail.com",
+      "telefon_organizatora": "500 036 039",
+      "email_organizatora": "kortyskanda@gmail.com",
+      "cykl_szczegolowy": "Grand Prix Skandy",
+      "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
+      "start_turnieju": "10:00",
+      "status": "nadchodzacy",
+      "organizacja": "TKKF Skanda",
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
+    },
+    {
       "id": "5e82a543f42b1b",
       "zrodlo": "Kluby.org",
       "cykl": "",
@@ -4511,6 +4684,76 @@
       ]
     },
     {
+      "id": "c7b8a960ab9526",
+      "zrodlo": "TKKF Skanda",
+      "cykl": "Debel Pań",
+      "nazwa": "V turniej Debel Pań",
+      "data_od": "2026-10-04",
+      "data_do": "2026-10-04",
+      "miasto": "Olsztyn",
+      "miejsce": "TKKF Skanda",
+      "kategorie": "Kobiety",
+      "typ_gry": "gra podwójna kobiet",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "ranga": "",
+      "url": "http://kortyskanda.pl/turnieje.html",
+      "wojewodztwo": "warmińsko-mazurskie",
+      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
+      "organizator": "TKKF \"Skanda\"",
+      "kontakt": "500 036 039 | kortyskanda@gmail.com",
+      "telefon_organizatora": "500 036 039",
+      "email_organizatora": "kortyskanda@gmail.com",
+      "cykl_szczegolowy": "Debel Pań",
+      "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
+      "start_turnieju": "10:00",
+      "status": "nadchodzacy",
+      "organizacja": "TKKF Skanda",
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "kobiety"
+      ]
+    },
+    {
+      "id": "5a7aea7a2ea706",
+      "zrodlo": "TKKF Skanda",
+      "cykl": "Seniorski Debel",
+      "nazwa": "V turniej Seniorski Debel",
+      "data_od": "2026-10-04",
+      "data_do": "2026-10-04",
+      "miasto": "Olsztyn",
+      "miejsce": "TKKF Skanda",
+      "kategorie": "Mężczyźni 50+",
+      "typ_gry": "gra podwójna mężczyzn pow. 50 lat",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "ranga": "",
+      "url": "http://kortyskanda.pl/turnieje.html",
+      "wojewodztwo": "warmińsko-mazurskie",
+      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
+      "organizator": "TKKF \"Skanda\"",
+      "kontakt": "500 036 039 | kortyskanda@gmail.com",
+      "telefon_organizatora": "500 036 039",
+      "email_organizatora": "kortyskanda@gmail.com",
+      "cykl_szczegolowy": "Seniorski Debel",
+      "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
+      "start_turnieju": "10:00",
+      "status": "nadchodzacy",
+      "organizacja": "TKKF Skanda",
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": [
+        "mężczyźni"
+      ]
+    },
+    {
       "id": "a15e5f0ed8bf5e",
       "zrodlo": "Kluby.org",
       "cykl": "",
@@ -4560,6 +4803,38 @@
         "kobiety",
         "mężczyźni"
       ]
+    },
+    {
+      "id": "c9ed0b0c7b3419",
+      "zrodlo": "TKKF Skanda",
+      "cykl": "",
+      "nazwa": "Rosyjska Ruletka",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
+      "miasto": "Olsztyn",
+      "miejsce": "TKKF Skanda",
+      "kategorie": "",
+      "typ_gry": "gra pojedyncza (tie-breaki)",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "ranga": "",
+      "url": "http://kortyskanda.pl/turnieje.html",
+      "wojewodztwo": "warmińsko-mazurskie",
+      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
+      "organizator": "TKKF \"Skanda\"",
+      "kontakt": "500 036 039 | kortyskanda@gmail.com",
+      "telefon_organizatora": "500 036 039",
+      "email_organizatora": "kortyskanda@gmail.com",
+      "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
+      "start_turnieju": "10:00",
+      "status": "nadchodzacy",
+      "organizacja": "TKKF Skanda",
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "7bdd909bf225db",
@@ -4757,6 +5032,38 @@
       "grupy_uczestnikow": [
         "mężczyźni"
       ]
+    },
+    {
+      "id": "6ce926553c6985",
+      "zrodlo": "TKKF Skanda",
+      "cykl": "",
+      "nazwa": "Towarzyski debel losowany",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-17",
+      "miasto": "Olsztyn",
+      "miejsce": "TKKF Skanda",
+      "kategorie": "",
+      "typ_gry": "gra podwójna",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "ranga": "",
+      "url": "http://kortyskanda.pl/turnieje.html",
+      "wojewodztwo": "warmińsko-mazurskie",
+      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
+      "organizator": "TKKF \"Skanda\"",
+      "kontakt": "500 036 039 | kortyskanda@gmail.com",
+      "telefon_organizatora": "500 036 039",
+      "email_organizatora": "kortyskanda@gmail.com",
+      "opis": "Start: 10:00. Informacje i zapisy u organizatora.",
+      "start_turnieju": "10:00",
+      "status": "nadchodzacy",
+      "organizacja": "TKKF Skanda",
+      "kategoria_zrodla": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "grupy_uczestnikow": []
     },
     {
       "id": "ad98bd95ac8ec7",
@@ -5924,29 +6231,35 @@
       ]
     }
   ],
-  "regiony_aktualizacja_utc": "2026-09-08T08:54:12+00:00",
+  "regiony_aktualizacja_utc": "2026-09-08T15:52:31+00:00",
   "liczba_turniejow_bez_wojewodztwa": 1,
-  "szczegoly_aktualizacja_utc": "2026-09-08T08:55:13+00:00",
-  "szczegoly_pobrano_w_tym_przebiegu": 41,
+  "szczegoly_aktualizacja_utc": "2026-09-08T15:52:36+00:00",
+  "szczegoly_pobrano_w_tym_przebiegu": 9,
   "szczegoly_bledy_w_tym_przebiegu": 0,
   "liczba_wg_organizacji": {
     "Cuply": 10,
     "Kluby.org": 46,
     "Polska Liga Tenisa": 53,
-    "TOP PZT": 15
+    "TKKF Skanda": 9,
+    "TOP PZT": 17
   },
   "filtry": {
     "organizacje": [
       "Cuply",
       "Kluby.org",
       "Polska Liga Tenisa",
+      "TKKF Skanda",
       "TOP PZT"
     ],
     "cykle": [
       "Cuply",
+      "Debel Pań",
       "Grand Prix Mazowsza",
       "Grand Prix Podlasia i Mazur",
+      "Grand Prix Skandy",
       "PLT",
+      "Seniorski Debel",
+      "Seniorzy Olsztyna",
       "TOP PZT",
       "Ziaja Grand Prix Wybrzeża"
     ],
@@ -5974,17 +6287,26 @@
       "łódzkie",
       "śląskie",
       "świętokrzyskie"
+    ],
+    "rodzaje_gry": [
+      "singiel",
+      "debel",
+      "mikst"
+    ],
+    "grupy_uczestnikow": [
+      "kobiety",
+      "mężczyźni"
     ]
   },
   "jakosc_normalizacji": {
     "liczba_bez_rodzaju_gry": 0,
-    "liczba_bez_grupy_uczestnikow": 73,
+    "liczba_bez_grupy_uczestnikow": 77,
     "przyklady_bez_rodzaju_gry": []
   },
   "kontrola_jakosci": {
-    "sprawdzono_utc": "2026-09-08T08:55:14+00:00",
-    "liczba_przed": 126,
-    "liczba_po": 124,
+    "sprawdzono_utc": "2026-09-08T15:52:38+00:00",
+    "liczba_przed": 135,
+    "liczba_po": 133,
     "odrzucono": 2,
     "zasada": "PZT: odrzucamy wielotygodniowe ligi/challenge oraz trwające rekordy bez drabinki i meczów co najmniej 7 dni po starcie"
   }
