@@ -46,6 +46,10 @@ jobs:
         continue-on-error: true
         run: python kluby.py
 
+      - name: Pobierz turnieje TKKF Skanda
+        continue-on-error: true
+        run: python skanda.py
+
       - name: Zbuduj wspólny kalendarz
         run: python build.py
 
