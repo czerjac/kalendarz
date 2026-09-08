@@ -1,0 +1,30 @@
+name: Diagnoza Skanda
+
+on:
+  push:
+    paths:
+      - ".github/workflows/diag-skanda.yml"
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz strony Skandy
+        run: |
+          python - <<'PY'
+          import requests
+          from bs4 import BeautifulSoup
+          for url in ['http://kortyskanda.pl/turnieje.html','http://kortyskanda.pl/kontakt.html']:
+              print('\n===== URL',url,'=====')
+              r=requests.get(url,timeout=30,headers={'User-Agent':'Mozilla/5.0'})
+              print('status',r.status_code,'final',r.url,'encoding',r.encoding)
+              r.encoding=r.apparent_encoding or r.encoding
+              soup=BeautifulSoup(r.text,'html.parser')
+              print('TITLE:', soup.title.get_text(' ',strip=True) if soup.title else '')
+              print('TABLES:', len(soup.find_all('table')))
+              for i,t in enumerate(soup.find_all('table')[:5]):
+                  print('--- TABLE',i,'---')
+                  print(t.get_text('\n',strip=True)[:6000])
+              print('--- BODY TEXT ---')
+              print(soup.get_text('\n',strip=True)[:12000])
+          PY
