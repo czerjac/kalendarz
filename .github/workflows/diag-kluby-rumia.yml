@@ -1,0 +1,28 @@
+name: Diagnoza Kluby Rumia
+
+on:
+  push:
+    paths:
+      - ".github/workflows/diag-kluby-rumia.yml"
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sprawdź redirecty
+        run: |
+          set +e
+          for u in \
+            https://kluby.org/turnieje/12056 \
+            https://kluby.org/turnieje/12056/zapisy \
+            https://kluby.org/turnieje/11399 \
+            https://kluby.org/turnieje/11399/zapisy
+          do
+            echo "===== $u ====="
+            curl -sS -o /dev/null -D - -A 'Mozilla/5.0' "$u" | sed -n '1,20p'
+            echo
+          done
+          echo '===== FOLLOW RUMIA ====='
+          curl -sS -L -o /dev/null -w 'final=%{url_effective} code=%{http_code}\n' -A 'Mozilla/5.0' https://kluby.org/turnieje/12056/zapisy
+          echo '===== FOLLOW WARS ====='
+          curl -sS -L -o /dev/null -w 'final=%{url_effective} code=%{http_code}\n' -A 'Mozilla/5.0' https://kluby.org/turnieje/11399/zapisy
