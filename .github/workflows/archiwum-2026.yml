@@ -48,6 +48,10 @@ jobs:
         if: steps.okres.outputs.run == 'true'
         run: python archiwum_2026.py
 
+      - name: Uzupełnij PZT i wykonaj audyt duplikatów
+        if: steps.okres.outputs.run == 'true'
+        run: python archiwum_audyt.py
+
       - name: Sprawdź spójność wyniku
         if: steps.okres.outputs.run == 'true'
         run: |
@@ -57,11 +61,15 @@ jobs:
           root=Path('data/archiwum/2026')
           data=json.load(open(root/'turnieje.json',encoding='utf-8'))
           report=json.load(open(root/'raport.json',encoding='utf-8'))
+          duplicates=json.load(open(root/'duplikaty_do_weryfikacji.json',encoding='utf-8'))
           assert data.get('rok') == 2026
           assert data.get('liczba_turniejow_po_kontroli_jakosci',0) >= 500
-          assert Path(root/'duplikaty_do_weryfikacji.json').exists()
+          assert Path(root/'pzt_szczegoly.json').exists()
+          assert isinstance(duplicates.get('pary'), list)
           print('Archiwum:',data['liczba_turniejow_po_kontroli_jakosci'])
           print('Źródła:',data.get('liczba_wg_zrodla',{}))
+          print('Kandydaci duplikatów:',duplicates.get('liczba',0),duplicates.get('liczba_wg_pewnosci',{}))
+          print('Audyt PZT:',report.get('audyt',{}))
           if report.get('bledy_zrodel'):
               print('UWAGA - źródła z błędem; zachowano dane kumulacyjne:',report['bledy_zrodel'])
           PY
