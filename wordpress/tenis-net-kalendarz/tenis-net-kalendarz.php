@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Tenis NET – Kalendarz turniejów amatorskich
  * Description: Wyświetla agregowany kalendarz turniejów amatorskich z danych JSON generowanych w repozytorium czerjac/kalendarz.
- * Version: 0.1.2
+ * Version: 0.2.0
  * Author: Tenis NET
  * Text Domain: tenis-net-kalendarz
  */
@@ -11,8 +11,10 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+require_once plugin_dir_path(__FILE__) . 'includes/manual-tournaments.php';
+
 final class Tenis_NET_Kalendarz {
-    const VERSION = '0.1.2';
+    const VERSION = '0.2.0';
     const OPTION_URL = 'tnk_data_url';
     const OPTION_BACKUP = 'tnk_last_good_json';
     const TRANSIENT = 'tnk_calendar_data_v1';
@@ -20,6 +22,7 @@ final class Tenis_NET_Kalendarz {
     const CACHE_TTL = 900;
 
     public static function init() {
+        Tenis_NET_Kalendarz_Manual::init();
         add_shortcode('tenis_kalendarz', array(__CLASS__, 'shortcode'));
         add_action('admin_menu', array(__CLASS__, 'admin_menu'));
         add_action('admin_init', array(__CLASS__, 'register_settings'));
@@ -27,6 +30,7 @@ final class Tenis_NET_Kalendarz {
     }
 
     public static function activate() {
+        Tenis_NET_Kalendarz_Manual::register_post_type();
         if (get_option(self::OPTION_URL, '') === '') {
             add_option(self::OPTION_URL, self::DEFAULT_URL, '', false);
         }
@@ -53,7 +57,8 @@ final class Tenis_NET_Kalendarz {
         ?>
         <div class="wrap">
             <h1>Kalendarz Tenis NET</h1>
-            <p>Wstaw shortcode <code>[tenis_kalendarz]</code> w treści dowolnej strony WordPress.</p>
+            <p>Wstaw shortcode <code>[tenis_kalendarz]</code> w treści strony kalendarza.</p>
+            <p>Turnieje spoza źródeł automatycznych dodasz przez <strong>Kalendarz turniejów → Dodaj turniej</strong>.</p>
             <form method="post" action="options.php">
                 <?php settings_fields('tnk_settings'); ?>
                 <table class="form-table" role="presentation"><tr>
@@ -184,6 +189,7 @@ final class Tenis_NET_Kalendarz {
         $data = self::fetch_data();
         if (is_wp_error($data)) return '<div class="tnk tnk-error">' . esc_html($data->get_error_message()) . '</div>';
         $items = isset($data['turnieje']) && is_array($data['turnieje']) ? $data['turnieje'] : array();
+        $items = array_merge($items, Tenis_NET_Kalendarz_Manual::items());
         usort($items, function($a,$b){$ka=(isset($a['data_od'])?$a['data_od']:'').'|'.(isset($a['miasto'])?$a['miasto']:'').'|'.(isset($a['nazwa'])?$a['nazwa']:'');$kb=(isset($b['data_od'])?$b['data_od']:'').'|'.(isset($b['miasto'])?$b['miasto']:'').'|'.(isset($b['nazwa'])?$b['nazwa']:'');return strcmp($ka,$kb);});
         $wojewodztwa=self::list_values($items,'wojewodztwo'); $organizacje=self::list_values($items,'organizacja'); $cykle=self::list_values($items,'cykl'); $rodzaje=self::flatten_values($items,'rodzaje_gry');
         $id=wp_unique_id('tnk-'); $generated=!empty($data['wygenerowano_utc'])?$data['wygenerowano_utc']:''; $generated_text='';

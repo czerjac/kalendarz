@@ -1,42 +1,30 @@
 Tenis NET – Kalendarz turniejów amatorskich
 ============================================
 
-Wersja: 0.1.2
+Wersja: 0.2.0
 
-Instalacja
-----------
+Instalacja / aktualizacja
+------------------------
 1. WordPress → Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
-2. Wybierz plik ZIP tej wtyczki i kliknij „Zainstaluj teraz”.
-3. Włącz wtyczkę.
-4. Utwórz zwykłą stronę testową WordPress.
-5. W treści strony wpisz shortcode:
+2. Wybierz ZIP i zastąp obecną wersję wtyczki.
+3. Shortcode pozostaje bez zmian: [tenis_kalendarz]
 
-   [tenis_kalendarz]
+Ręczne turnieje
+---------------
+WordPress → Kalendarz turniejów → Dodaj turniej
 
-6. Opublikuj stronę i sprawdź kalendarz na komputerze oraz telefonie.
+Nazwa turnieju jest tytułem wpisu. Opis wpisujemy w głównym edytorze WordPress. Dane turnieju znajdują się w sekcji „Dane turnieju”. Do publicznego kalendarza trafiają tylko opublikowane ręczne turnieje, których data zakończenia jeszcze nie minęła.
+
+Wersja 0.2.0
+------------
+- wszystkie funkcje wersji 0.1.2,
+- ręczne dodawanie turniejów w WordPressie,
+- szkice nie są publikowane w kalendarzu,
+- ręczne turnieje są łączone z automatycznym turnieje.json,
+- ręczne cykle automatycznie trafiają do filtra Cykl,
+- ręczne turnieje korzystają z tych samych filtrów, tabeli, kart i szczegółów,
+- lista administracyjna pokazuje termin, miasto i cykl.
 
 Ustawienia
 ----------
 WordPress → Ustawienia → Kalendarz Tenis NET
-
-Domyślne źródło danych:
-https://raw.githubusercontent.com/czerjac/kalendarz/main/data/turnieje.json
-
-Wtyczka buforuje dane przez 15 minut i zachowuje ostatnią poprawną kopię na wypadek chwilowej niedostępności GitHuba.
-
-Wersja 0.1.2 – zakres MVP
-------------------------
-- pobieranie wspólnego turnieje.json,
-- wyszukiwarka,
-- filtr: termin,
-- filtr: województwo,
-- filtr: organizacja,
-- filtr: cykl,
-- filtr: singiel/debel/mikst,
-- tabela na komputerach,
-- karty na telefonach,
-- rozwijane szczegóły,
-- link do zapisów / strony źródłowej,
-- licznik widocznych turniejów,
-- informacja o dacie aktualizacji danych,
-- fallback do ostatniej poprawnej kopii JSON.
