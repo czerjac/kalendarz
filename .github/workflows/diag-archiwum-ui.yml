@@ -1,0 +1,60 @@
+name: Diagnoza archiwum UI
+
+on:
+  push:
+    paths:
+      - ".github/workflows/diag-archiwum-ui.yml"
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Sprawdź Cuply i PLT
+        run: |
+          python - <<'PY'
+          from playwright.sync_api import sync_playwright
+          import re
+          with sync_playwright() as p:
+              b=p.chromium.launch(headless=True)
+              c=b.new_context(locale='pl-PL', user_agent='Mozilla/5.0')
+              page=c.new_page(); page.set_default_timeout(15000)
+
+              print('=== CUPLY ===')
+              page.goto('https://cuply.pl/turnieje', wait_until='domcontentloaded', timeout=45000)
+              page.wait_for_timeout(1500)
+              print('before url',page.url,'finished text count',page.get_by_text('Zakończone', exact=True).count())
+              loc=page.get_by_text('Zakończone', exact=True)
+              if loc.count():
+                  loc.last.click()
+                  page.wait_for_timeout(1800)
+              print('after url',page.url)
+              print('heading snippet',page.locator('body').inner_text()[:4000])
+              links=page.locator('a[href]').evaluate_all("els=>els.map(a=>({t:(a.innerText||'').replace(/\\s+/g,' ').trim(),h:a.href})).filter(x=>x.t||x.h.includes('page'))")
+              for x in links:
+                  if re.search(r'page|nast|poprz|^\\d+$',x['t'],re.I) or 'turnieje?' in x['h']:
+                      print('CUPLY LINK',x)
+
+              print('=== PLT ===')
+              page.goto('https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund', wait_until='domcontentloaded', timeout=45000)
+              page.wait_for_timeout(1500)
+              print('before url',page.url,'finished count',page.get_by_text('Zakończone', exact=True).count())
+              loc=page.get_by_text('Zakończone', exact=True)
+              if loc.count():
+                  loc.last.click()
+                  page.wait_for_timeout(2200)
+              print('after url',page.url)
+              body=page.locator('body').inner_text()
+              print(body[:6000])
+              print('sprawdz wyniki',len(re.findall('Sprawdź wyniki',body,re.I)))
+              links=page.locator('a[href]').evaluate_all("els=>els.map(a=>({t:(a.innerText||'').replace(/\\s+/g,' ').trim(),h:a.href})).filter(x=>x.t||x.h.includes('page'))")
+              for x in links:
+                  if re.search(r'page|nast|poprz|^\\d+$',x['t'],re.I) or 'finished' in x['h']:
+                      print('PLT LINK',x)
+              b.close()
+          PY
