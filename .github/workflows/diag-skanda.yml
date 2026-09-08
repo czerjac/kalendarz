@@ -9,6 +9,8 @@ jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
+      - name: Zainstaluj biblioteki
+        run: pip install requests beautifulsoup4
       - name: Pobierz strony Skandy
         run: |
           python - <<'PY'
