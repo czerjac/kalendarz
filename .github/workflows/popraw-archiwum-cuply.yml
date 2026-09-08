@@ -16,12 +16,13 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - name: Popraw parser Cuply w archiwum
+      - name: Uodpornij parsery archiwum
         run: |
           python - <<'PY'
           from pathlib import Path
           p=Path('archiwum_2026.py')
           s=p.read_text(encoding='utf-8')
+
           old='''        card_text = clean(card.get_text(" ", strip=True))
                   dates = cuply.parse_date_range(card_text)
                   if not dates:
@@ -53,12 +54,6 @@ jobs:
                       continue
                   start, end = dates
                   date_warning = ""
-
-                  # Cuply potrafi mieć literówkę w zakresie dat, np. 26.07-26.06.2026.
-                  # Standardowy parser słusznie interpretuje taki zapis jako przekroczenie roku,
-                  # ale dla zakończonego jednodniowego turnieju daje to absurdalny zakres ~11 miesięcy.
-                  # W takim wyjątkowym przypadku zachowujemy pierwszy dzień w roku archiwum i
-                  # oznaczamy rekord do późniejszej weryfikacji zamiast go bezgłośnie zgubić.
                   try:
                       parsed_start = date.fromisoformat(start)
                       parsed_end = date.fromisoformat(end)
@@ -102,15 +97,138 @@ jobs:
                   by_url[absolute] = item
           '''
           if old not in s:
-              raise SystemExit('Nie znaleziono oczekiwanego bloku Cuply')
-          p.write_text(s.replace(old,new,1),encoding='utf-8')
+              raise SystemExit('Nie znaleziono bloku kart Cuply')
+          s=s.replace(old,new,1)
+
+          old='''def fetch_cuply() -> tuple[list[dict], dict]:
+              session = requests.Session()
+              all_items: dict[str, dict] = {}
+              checked: list[dict] = []
+              previous_page_keys: set[str] = set()
+
+              for page_no in range(1, 31):
+                  url = f"https://cuply.pl/turnieje?sortuj=zakonczone&page={page_no}"
+                  r = session.get(url, timeout=40, headers=HEADERS)
+                  r.raise_for_status()
+                  r.encoding = r.apparent_encoding or "utf-8"
+                  items = cuply_items_from_html(r.text, url)
+                  keys = {clean(x.get("url")) for x in items}
+                  checked.append({"strona": page_no, "url": url, "liczba": len(items)})
+                  if not items:
+                      break
+                  if page_no > 1 and keys and keys == previous_page_keys:
+                      break
+                  new_count = 0
+                  for item in items:
+                      if item["url"] not in all_items:
+                          new_count += 1
+                      all_items[item["url"]] = item
+                  if page_no > 1 and new_count == 0:
+                      break
+                  previous_page_keys = keys
+              return list(all_items.values()), {"strony_sprawdzone": checked}
+          '''
+          new='''def fetch_cuply(page) -> tuple[list[dict], dict]:
+              all_items: dict[str, dict] = {}
+              checked: list[dict] = []
+              previous_page_keys: set[str] = set()
+
+              for page_no in range(1, 31):
+                  url = f"https://cuply.pl/turnieje?sortuj=zakonczone&page={page_no}"
+                  response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                  if response is not None and response.status >= 400:
+                      raise RuntimeError(f"Cuply HTTP {response.status}: {url}")
+                  page.wait_for_timeout(900)
+                  items = cuply_items_from_html(page.content(), url)
+                  if not items:
+                      page.reload(wait_until="domcontentloaded", timeout=45000)
+                      page.wait_for_timeout(1200)
+                      items = cuply_items_from_html(page.content(), url)
+                  keys = {clean(x.get("url")) for x in items}
+                  checked.append({"strona": page_no, "url": url, "liczba": len(items)})
+                  if not items:
+                      break
+                  if page_no > 1 and keys and keys == previous_page_keys:
+                      break
+                  new_count = 0
+                  for item in items:
+                      if item["url"] not in all_items:
+                          new_count += 1
+                      all_items[item["url"]] = item
+                  if page_no > 1 and new_count == 0:
+                      break
+                  previous_page_keys = keys
+              return list(all_items.values()), {"strony_sprawdzone": checked}
+          '''
+          if old not in s:
+              raise SystemExit('Nie znaleziono funkcji fetch_cuply')
+          s=s.replace(old,new,1)
+
+          old='''        response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                  if response is not None and response.status >= 400:
+                      raise RuntimeError(f"Kluby.org HTTP {response.status}: {url}")
+                  items = kluby.extract_cards(page, url)
+          '''
+          new='''        response = None
+                  try:
+                      response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                  except Exception:
+                      # Kluby.org czasem ładuje treść poprawnie, ale nie kończy zdarzenia DOMContentLoaded.
+                      # Jeśli karta turnieju jest już w DOM, parsujemy ją zamiast odrzucać cały miesiąc.
+                      pass
+                  if response is not None and response.status >= 400:
+                      raise RuntimeError(f"Kluby.org HTTP {response.status}: {url}")
+                  items = kluby.extract_cards(page, url)
+                  if not items:
+                      try:
+                          page.goto(url, wait_until="commit", timeout=30000)
+                          page.wait_for_timeout(1600)
+                          items = kluby.extract_cards(page, url)
+                      except Exception:
+                          pass
+          '''
+          if old not in s:
+              raise SystemExit('Nie znaleziono bloku Kluby.org')
+          s=s.replace(old,new,1)
+
+          old='''    for source, filename, fn in [
+                  ("PZT TOP", "pzt.json", fetch_pzt),
+                  ("Cuply", "cuply.json", fetch_cuply),
+                  ("TKKF Skanda", "skanda.json", fetch_skanda),
+              ]:
+          '''
+          new='''    for source, filename, fn in [
+                  ("PZT TOP", "pzt.json", fetch_pzt),
+                  ("TKKF Skanda", "skanda.json", fetch_skanda),
+              ]:
+          '''
+          if old not in s:
+              raise SystemExit('Nie znaleziono listy źródeł HTTP')
+          s=s.replace(old,new,1)
+
+          old='''        for source, filename, fn in [
+                      ("PLT", "plt.json", fetch_plt),
+                      ("Kluby.org", "kluby.json", fetch_kluby),
+                  ]:
+          '''
+          new='''        for source, filename, fn in [
+                      ("Cuply", "cuply.json", fetch_cuply),
+                      ("PLT", "plt.json", fetch_plt),
+                      ("Kluby.org", "kluby.json", fetch_kluby),
+                  ]:
+          '''
+          if old not in s:
+              raise SystemExit('Nie znaleziono listy źródeł przeglądarkowych')
+          s=s.replace(old,new,1)
+
+          p.write_text(s,encoding='utf-8')
           PY
       - run: pip install -r requirements.txt
       - run: python -m playwright install --with-deps chromium
       - run: python -m py_compile archiwum_2026.py
       - name: Przelicz archiwum
         run: python archiwum_2026.py
-      - name: Zweryfikuj Cuply
+      - name: Zweryfikuj wynik
         run: |
           python - <<'PY'
           import json
@@ -119,10 +237,13 @@ jobs:
           assert len(active) >= 23, len(active)
           assert all(x.get('miasto') for x in active), [x['nazwa'] for x in active if not x.get('miasto')]
           anomalies=[x for x in active if x.get('uwaga_zrodla')]
+          report=json.load(open('data/archiwum/2026/raport.json',encoding='utf-8'))
+          assert not report['bledy_zrodel'], report['bledy_zrodel']
+          data=json.load(open('data/archiwum/2026/turnieje.json',encoding='utf-8'))
           print('CUPLY ACTIVE',len(active))
           print('ANOMALIE',[(x['nazwa'],x['data_od'],x['data_do'],x.get('uwaga_zrodla')) for x in anomalies])
-          data=json.load(open('data/archiwum/2026/turnieje.json',encoding='utf-8'))
           print('ARCHIWUM FINAL',data['liczba_turniejow_po_kontroli_jakosci'])
+          print('ŹRÓDŁA',data['liczba_wg_zrodla'])
           print('DUPLIKATY',data['liczba_potencjalnych_par_duplikatow'])
           PY
       - name: Zapisz poprawkę i dane
@@ -130,6 +251,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add archiwum_2026.py data/archiwum/2026
-          git commit -m "Popraw dane Cuply w archiwum 2026"
+          git commit -m "Uodpornij archiwum 2026 i popraw Cuply"
           git pull --rebase origin main
           git push
