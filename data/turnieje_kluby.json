@@ -1,7 +1,7 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-07T19:56:46+00:00",
-  "liczba_turniejow": 50,
+  "pobrano_utc": "2026-09-08T08:54:12+00:00",
+  "liczba_turniejow": 48,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
@@ -33,26 +33,6 @@
     }
   ],
   "turnieje": [
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "MASTERS GAT GARWOLIN",
-      "data_od": "2026-09-07",
-      "data_do": "2026-09-07",
-      "miasto": "Garwolin",
-      "miejsce": "Garwolińska Akademia Tenisowa, Garwolin",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12168"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "OTWRTE MISTRZOSTWA DOWÓDZTW I INSTYTUCJI MON",
-      "data_od": "2026-09-07",
-      "data_do": "2026-09-07",
-      "miasto": "Kołobrzeg",
-      "miejsce": "Baltic Tennis Club, Kołobrzeg",
-      "kategorie": "OPEN (DRUŻYNOWE MP)",
-      "url": "https://kluby.org/turnieje/12166"
-    },
     {
       "zrodlo": "Kluby.org",
       "nazwa": ",,JESIEŃ 2026’’",

@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-07T19:56:36+00:00",
+  "pobrano_utc": "2026-09-08T08:54:02+00:00",
   "liczba_turniejow": 53,
   "kategorie_sprawdzone": [
     {
@@ -40,15 +40,6 @@
   "turnieje": [
     {
       "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Letnie Mistrzostwa Pomorza 2026",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Gdańsk",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-pomorza-2026-5545"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Otwarte Letnie Mistrzostwa Pomorza 2026",
       "data_od": "2026-09-12",
@@ -64,6 +55,15 @@
       "data_do": "2026-09-12",
       "miasto": "Kamień",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-tennis-cup-ii-2026-5591"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Krakowa 2026",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "Kraków",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5598"
     },
     {
       "zrodlo": "PLT",
