@@ -15,6 +15,7 @@ SOURCES = [
     DATA_DIR / "turnieje_cuply.json",
     DATA_DIR / "turnieje_plt.json",
     DATA_DIR / "turnieje_kluby.json",
+    DATA_DIR / "turnieje_skanda.json",
 ]
 YOUTH_RE = re.compile(r"\b(JUNIORZY|JUNIORKI|TENIS10|U1[02468])\b", re.I)
 
@@ -24,9 +25,14 @@ def clean(text: str | None) -> str:
 
 
 def stable_id(source: str, url: str, name: str, start: str) -> str:
-    # URL konkretnego turnieju jest stabilniejszy niż nazwa/data. Dzięki temu
-    # przesunięcie terminu lub drobna korekta nazwy nie tworzy nowego rekordu.
-    identity = f"{source}|{url}" if url else f"{source}|{name}|{start}"
+    # Zwykle URL konkretnego turnieju jest stabilniejszy niż nazwa/data.
+    # Skanda publikuje jednak cały sezon na jednej wspólnej stronie, więc dla
+    # tego źródła identyfikatorem musi być nazwa + data, inaczej wszystkie
+    # wydarzenia dostałyby ten sam ID.
+    if source == "TKKF Skanda":
+        identity = f"{source}|{name}|{start}"
+    else:
+        identity = f"{source}|{url}" if url else f"{source}|{name}|{start}"
     return hashlib.sha1(identity.encode("utf-8")).hexdigest()[:14]
 
 
@@ -77,6 +83,21 @@ def normalize_item(item: dict) -> dict:
         "ranga": clean(item.get("ranga")),
         "url": url,
     }
+
+    # Niektóre źródła (np. Skanda) podają pełne dane już na stronie zbiorczej,
+    # więc zachowujemy je od razu zamiast zmuszać warstwę szczegółów do
+    # ponownego pobierania tej samej strony dla każdego wydarzenia.
+    passthrough = [
+        "wojewodztwo", "adres", "organizator", "kontakt",
+        "telefon_organizatora", "email_organizatora", "cykl_szczegolowy",
+        "zapisy_url", "opis", "system_gier", "limit_uczestnikow",
+        "nawierzchnia", "start_turnieju", "rangi", "dyrektor_turnieju",
+        "sedzia_naczelny", "pilka", "termin_zgloszen",
+    ]
+    for key in passthrough:
+        value = clean(item.get(key))
+        if value:
+            result[key] = value
 
     today = date.today().isoformat()
     result["status"] = "trwa" if start <= today <= end else "nadchodzacy"
