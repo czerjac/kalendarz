@@ -236,7 +236,7 @@
     {
       "id": "833f97f3d3ebd4",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cuply",
       "nazwa": "Challenger Koszalin I dla średniozaawansowanych (do 4.0 NTRP)",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -275,7 +275,7 @@
     {
       "id": "4a7cc4230204c8",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cuply",
       "nazwa": "Futures Koszalin I - dla początkujących (do 2.5 NTRP)",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -314,7 +314,7 @@
     {
       "id": "7237bece3a86d0",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cuply",
       "nazwa": "Koszalin Masters (zaawansowani amatorzy)",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -2032,7 +2032,7 @@
     {
       "id": "842de8a0265f81",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cuply",
       "nazwa": "Cuply Challenger Szczecin Dołuje II (do 4.0 NTRP)",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
@@ -3171,7 +3171,7 @@
     {
       "id": "c5d2401d7caeaa",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cuply",
       "nazwa": "Cuply Futures Szczecin Dołuje II (do 2.5 NTRP)",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -3219,7 +3219,7 @@
     {
       "id": "7aa660911ac9f8",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cuply",
       "nazwa": "Cuply Masters Szczecin Dołuje - dla zaawansowanych",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -3772,7 +3772,7 @@
     {
       "id": "7c124bbadb02ea",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cuply",
       "nazwa": "Cuply Challenger Gorzów I",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -3960,7 +3960,7 @@
     {
       "id": "5501d1c57905a0",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cuply",
       "nazwa": "DUO ZOOM & BREJK Open IV - turniej deblowy OPEN",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -4197,7 +4197,7 @@
     {
       "id": "f0c4fdea5429c2",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cuply",
       "nazwa": "Cuply Futures Stargard II dla początkujących (do 2.5 NTRP)",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -4240,7 +4240,7 @@
     {
       "id": "bcca18d672f8b3",
       "zrodlo": "Cuply",
-      "cykl": "",
+      "cykl": "Cuply",
       "nazwa": "Cuply Stargard Masters II (zaawansowani amatorzy)",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -5943,6 +5943,7 @@
       "TOP PZT"
     ],
     "cykle": [
+      "Cuply",
       "Grand Prix Mazowsza",
       "Grand Prix Podlasia i Mazur",
       "PLT",
