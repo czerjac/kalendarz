@@ -1,0 +1,38 @@
+name: Test cyklu Cuply
+
+on:
+  push:
+    paths:
+      - ".github/workflows/test-cuply-cykl.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Przelicz cykle
+        run: python klasyfikacja.py
+      - name: Sprawdź Cuply
+        run: |
+          python - <<'PY'
+          import json
+          data=json.load(open('data/turnieje.json',encoding='utf-8'))
+          cuply=[x for x in data['turnieje'] if x.get('zrodlo')=='Cuply']
+          assert cuply and all(x.get('cykl')=='Cuply' for x in cuply)
+          print('Cuply:', len(cuply), '->', sorted({x.get('cykl') for x in cuply}))
+          print('CYKLE:', data.get('filtry',{}).get('cykle',[]))
+          PY
+      - name: Zapisz wynik
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/turnieje.json
+          git commit -m "Ustaw cykl Cuply w danych"
+          git pull --rebase origin main
+          git push
