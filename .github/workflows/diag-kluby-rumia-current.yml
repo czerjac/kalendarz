@@ -21,7 +21,7 @@ jobs:
         run: |
           python - <<'PY'
           import json
-          d=json.load(open('data/kluby.json',encoding='utf-8'))
+          d=json.load(open('data/turnieje_kluby.json',encoding='utf-8'))
           items=d.get('turnieje', d if isinstance(d,list) else [])
           for x in items:
               t=' '.join(str(x.get(k,'')) for k in ('nazwa','miasto','miejsce','url'))
