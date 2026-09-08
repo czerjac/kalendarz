@@ -1,6 +1,8 @@
 {
   "rok": 2026,
-  "aktualizacja_utc": "2026-09-08T18:22:01+00:00",
+  "aktualizacja_utc": "2026-09-08T18:35:43+00:00",
+  "uwaga": "To są wyłącznie kandydaci do ręcznej weryfikacji. Skrypt nie scala rekordów automatycznie.",
   "liczba": 0,
+  "liczba_wg_pewnosci": {},
   "pary": []
 }

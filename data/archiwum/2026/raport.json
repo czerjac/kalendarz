@@ -14,5 +14,15 @@
   "odrzucone_jakosc": [],
   "liczba_po_kontroli_jakosci": 995,
   "liczba_potencjalnych_par_duplikatow": 0,
-  "liczba_niezweryfikowanych": 424
+  "liczba_niezweryfikowanych": 424,
+  "audyt": {
+    "aktualizacja_utc": "2026-09-08T18:35:43+00:00",
+    "pzt_liczba": 135,
+    "pzt_szczegoly_pobrane_w_tym_przebiegu": 135,
+    "pzt_bledy_szczegolow": 0,
+    "pzt_z_miastem": 135,
+    "pzt_z_potwierdzonymi_wynikami": 135,
+    "liczba_kandydatow_duplikatow": 0,
+    "kandydaci_wg_pewnosci": {}
+  }
 }

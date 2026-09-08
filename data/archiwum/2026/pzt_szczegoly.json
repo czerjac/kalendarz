@@ -1,0 +1,2185 @@
+{
+  "turnieje": {
+    "c69824640a2606c70b": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=718EA781-DB0C-4DC6-B5DE-1EAD2D4223AA",
+      "nazwa": "XXII Ogólnopolski Turniej Lekarzy \"Trzech Króli\", Polskie Stowarzyszenie Tenisowe Lekarzy",
+      "dane": {
+        "organizator": "Polskie Stowarzyszenie Tenisowe Lekarzy",
+        "adres": "42-200 Częstochowa, Drogowców 12",
+        "miasto": "Częstochowa",
+        "kategorie": "45+, 55+, 60+, 65+, 70+, 75+, 85+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:37+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:37+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:38+00:00"
+    },
+    "b1b6ff9ee9312b2f00": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=06F30E1A-EBC2-4D31-83F6-9048CB267B92",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:38+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:38+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:39+00:00"
+    },
+    "05127138770571a2c8": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=EE69A67A-0AE2-49E5-8467-ED0EB6A04C14",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:39+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:39+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:39+00:00"
+    },
+    "177ec495bf0e2bce37": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=238D4223-BD57-426C-9E40-7832AFE744F9",
+      "nazwa": "KONESSO CUP, Miejski Klub Tenisowy Stalowa Wola",
+      "dane": {
+        "organizator": "Miejski Klub Tenisowy Stalowa Wola",
+        "adres": "37-450 Stalowa Wola",
+        "miasto": "Stalowa Wola",
+        "kategorie": "Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:39+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:39+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:40+00:00"
+    },
+    "4e44ffe6805ef44638": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E91FF0B7-949D-4474-AE2C-3DD3222865A7",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:40+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:40+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:40+00:00"
+    },
+    "2f9991d76e927d3284": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=51D94CA8-B6F1-4A00-8D3E-BAE80B0CA9B9",
+      "nazwa": "TENIS CLUB KK \"ZIMA 2025/26\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 Kędzierzyn-Koźle, Bol.Śmiałego 2",
+        "miasto": "Kędzierzyn-Koźle",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:40+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:40+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:40+00:00"
+    },
+    "8307395188ea97ed15": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=FA905F43-00C2-47B3-857B-3D0E289B0EBC",
+      "nazwa": "LEGIA WINTER OPEN, Legia Tenis Sp. z o.o.",
+      "dane": {
+        "organizator": "Legia Tenis Sp. z o.o.",
+        "adres": "00-459 Warszawa, Myśliwiecka 4A",
+        "miasto": "Warszawa",
+        "kategorie": "40+, 50+, 60+, 70+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:41+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:41+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:41+00:00"
+    },
+    "d0915ff0e01423e1fe": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=EEF65FAB-B8B9-4D41-9780-E910D2508FE0",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:41+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:41+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:41+00:00"
+    },
+    "4b4f6b239dbea4eedf": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6EB03FC5-EA34-4FDC-A08D-58DADBB3DCB2",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:42+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:42+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:42+00:00"
+    },
+    "c9a4f41821d16c5dff": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2451E61D-88A8-490A-BD72-FF1C94F82C57",
+      "nazwa": "TENIS CLUB KK \"ZIMA 2025/26\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 Kędzierzyn-Koźle, Bol.Śmiałego 2",
+        "miasto": "Kędzierzyn-Koźle",
+        "kategorie": "50+, 60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:42+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:42+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:42+00:00"
+    },
+    "97451de4c3735048ba": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3A12B1EB-2C0F-4A43-B59D-69E853AD1D56",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:43+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:43+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:43+00:00"
+    },
+    "e4788f6ca5439f6f61": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=8960B772-82A4-41D7-83FF-31E4A038C209",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:43+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:43+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:43+00:00"
+    },
+    "b77a8aeb4f983a0c21": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F494E628-7F2B-4849-A9FA-3D4228514929",
+      "nazwa": "VI Otwarte Halowe Mistrzostwa Podkarpacia Amatorów, Miejski Klub Tenisowy Stalowa Wola",
+      "dane": {
+        "organizator": "Miejski Klub Tenisowy Stalowa Wola",
+        "adres": "37-450 Stalowa Wola, WYSZYŃSKIEGO 1",
+        "miasto": "Stalowa Wola",
+        "kategorie": "40+, 50+, 65+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:44+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:44+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:44+00:00"
+    },
+    "b48d83322b6f3031b7": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F69A89F5-0833-45D3-87AF-EF2E95D8BF4A",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:44+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:44+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:44+00:00"
+    },
+    "dce8c892251f3c0bb4": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9A9B4722-1B40-4087-929A-7CA1D785240F",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:45+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:45+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:45+00:00"
+    },
+    "934f411ff17ae98546": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E6CDBA9B-4EF5-48FE-B2A6-9D9BA0C79D0A",
+      "nazwa": "TENIS CLUB KK \"ZIMA 2025/26\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 Kędzierzyn-Koźle, Bol.Śmiałego 2",
+        "miasto": "Kędzierzyn-Koźle",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:45+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:45+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:45+00:00"
+    },
+    "b4aab08596a6d03f00": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3CB928D7-B129-473E-94FA-E1772B05E788",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:45+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:45+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:46+00:00"
+    },
+    "612090f71690c157a9": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3D84594A-9498-4293-B371-4AAB33469CE0",
+      "nazwa": "TENIS CLUB KK \"ZIMA 2025/26\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 Kędzierzyn-Koźle, Bol.Śmiałego 2",
+        "miasto": "Kędzierzyn-Koźle",
+        "kategorie": "50+, 60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:46+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:46+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:46+00:00"
+    },
+    "bc2929930b8a832719": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A1524E29-EFDD-4414-8F86-C07A5F8565F8",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 75+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:46+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:46+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:47+00:00"
+    },
+    "9e007ede4a9ee7baf4": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F3EB65C9-C612-45BB-87D6-7123F7E9A4F1",
+      "nazwa": "SUPER TIE- BREAK SUNDAY MOSZCZENICA CUP, Aktywna Galicja",
+      "dane": {
+        "organizator": "Aktywna Galicja",
+        "adres": "38-321 Moszczenica, Ul.Gorlicka 361",
+        "miasto": "Moszczenica",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:47+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:47+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:47+00:00"
+    },
+    "e637870e473b2a3887": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=EC26B11C-1AF5-4502-A932-5EF1E59AD6CB",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:47+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:47+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:48+00:00"
+    },
+    "c6c41b10cead571c2f": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7F67D4BC-30FB-4211-9129-9AC6976D772B",
+      "nazwa": "GRAND PRIX Stalowej Woli Amatorów , Miejski Klub Tenisowy Stalowa Wola",
+      "dane": {
+        "organizator": "Miejski Klub Tenisowy Stalowa Wola",
+        "adres": "37-450 Stalowa Wola, Wyszyńskiego 1",
+        "miasto": "Stalowa Wola",
+        "kategorie": "60+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:48+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:48+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:48+00:00"
+    },
+    "1a823fbaa866e89442": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A593DFEE-6E24-49CF-8C37-F45786FA4A0E",
+      "nazwa": "KOBIECE GRANIE !!!, Miejski Klub Tenisowy Stalowa Wola",
+      "dane": {
+        "organizator": "Miejski Klub Tenisowy Stalowa Wola",
+        "adres": "37-450 Stalowa Wola, Wyszyńskiego 1",
+        "miasto": "Stalowa Wola",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:48+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:48+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:49+00:00"
+    },
+    "b5c90826c92028ac10": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F67555AB-3C38-4632-8F3F-AC95E0AAFCF2",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:49+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:49+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:49+00:00"
+    },
+    "193b7b5b48cf5acf1b": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=17829D68-6525-4D82-B626-8642AA56895D",
+      "nazwa": "II MEMORIAŁ BRONISŁAWA JĘDRZEJOWSKIEGO, Aktywna Galicja",
+      "dane": {
+        "organizator": "Aktywna Galicja",
+        "adres": "38-321 Moszczenica, Ul.Gorlicka 361",
+        "miasto": "Moszczenica",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:49+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:49+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:50+00:00"
+    },
+    "7b3723f5444dc60213": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=82C3DB1F-B838-4CF8-A774-2CBE243A54F3",
+      "nazwa": "TENIS CLUB KK \"ZIMA 2025/26\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 Kędzierzyn-Koźle, Bol.Śmiałego 2",
+        "miasto": "Kędzierzyn-Koźle",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:50+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:50+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:50+00:00"
+    },
+    "8a6ce41926e4fee1dd": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F216D197-7F81-4DD8-B1FF-5169AB11ADA6",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:50+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:50+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:51+00:00"
+    },
+    "5800ebbbcf3ceecbf3": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=BC1DB874-4A83-4BDA-8D13-2EC88BE9711E",
+      "nazwa": "X Rokitnickie Asy , Klub Sportowy MULTISPORT Zabrze",
+      "dane": {
+        "organizator": "Klub Sportowy MULTISPORT Zabrze",
+        "adres": "41-807 Zabrze, Moniuszki 2",
+        "miasto": "Zabrze",
+        "kategorie": "60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:51+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:51+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:51+00:00"
+    },
+    "aea8e8b5bea9bb5584": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=86F91244-1CAE-4042-90D6-74DF10B09637",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:51+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:51+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:52+00:00"
+    },
+    "6a0584579cde02f434": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=30AB6DD1-D02E-4371-9EC8-A586218F3CDA",
+      "nazwa": "VIII Memoriał im. Janusza Dulińca, Stowarzyszenie AG TENIS CHORZOWSKA w Radomiu",
+      "dane": {
+        "organizator": "Stowarzyszenie AG TENIS CHORZOWSKA w Radomiu",
+        "adres": "26-600 Radom, Ul. Chorzowska 11a",
+        "miasto": "Radom",
+        "kategorie": "40+, 50+, 60+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:52+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:52+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:52+00:00"
+    },
+    "fdeb9169d960733541": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=EBAB4288-CF52-440A-B4B5-0466B10A2DBF",
+      "nazwa": "XXV Mistrzostwa Beskidzkiej Izby Lekarskiej Tenis, Polskie Stowarzyszenie Tenisowe Lekarzy",
+      "dane": {
+        "organizator": "Polskie Stowarzyszenie Tenisowe Lekarzy",
+        "adres": "43-346 Bielsko-Biała, ul. Ceramiczna 20",
+        "miasto": "Bielsko-Biała",
+        "kategorie": "35+, 40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:52+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:52+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:53+00:00"
+    },
+    "f31be9109eacee7d2f": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A4F02711-540C-454D-8CBF-AC6694743A54",
+      "nazwa": "TENIS CLUB KK \"ZIMA 2025/26\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 Kędzierzyn-Koźle, Bol.Śmiałego 2",
+        "miasto": "Kędzierzyn-Koźle",
+        "kategorie": "50+, 60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:53+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:53+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:53+00:00"
+    },
+    "ee314c119e8380adf8": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=AA2FF00D-1180-465F-828A-993D07DD1E78",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:53+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:53+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:54+00:00"
+    },
+    "a00b68553b26cd5e79": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E4F40025-FC0A-44FD-A065-C0DFB9F44016",
+      "nazwa": "Halowe Mistrzostwa Polski TOP, Fundacja De Arte Athletica - Tenis Kozerki",
+      "dane": {
+        "organizator": "Fundacja De Arte Athletica - Tenis Kozerki",
+        "adres": "05-825 Grodzisk Mazowiecki, Jowisza, Kozerki 92",
+        "miasto": "Grodzisk Mazowiecki",
+        "kategorie": "30+, 35+, 40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, 80+, 85+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:54+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:54+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:54+00:00"
+    },
+    "da12f27e9ff08a043e": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=56F8AAA9-1C08-4711-9809-E2A4B9BB28CD",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:54+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:54+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:55+00:00"
+    },
+    "d29c5725d43a220d80": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=B505A634-844A-4AD0-BBE5-D5CC969C6A8C",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:55+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:55+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:55+00:00"
+    },
+    "2a12a651feaaae1a17": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6A0B53E4-754F-4EC4-B316-15CFB11977DB",
+      "nazwa": "Elbud Cup, Elbud Łuków",
+      "dane": {
+        "organizator": "Elbud Łuków",
+        "adres": "21-400 Łuków, Wiatraki 1",
+        "miasto": "Łuków",
+        "kategorie": "45+, 60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:55+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:55+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:55+00:00"
+    },
+    "d24492da072772bfdd": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A9E65328-B2D9-4178-9805-171C1E76B02D",
+      "nazwa": "Megalux Cup by \"W Pogoni za Zdrowiem\", Szczeciński Klub Tenisowy",
+      "dane": {
+        "organizator": "Szczeciński Klub Tenisowy",
+        "adres": "Szczecin",
+        "miasto": "Szczecin",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:56+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:56+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:56+00:00"
+    },
+    "f1ade935b089e07684": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F676CC92-7087-4AC9-89F9-6170A230C5B6",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:56+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:56+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:56+00:00"
+    },
+    "2c5bc9cac5ee667d21": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2713A70A-680E-420B-B637-7B747D4DCFC1",
+      "nazwa": "HALOWE MISTRZOSTWA CHEŁMCA ATC 2026, Ekspresja J. Stanek - Akademia Tenisa Chełmiec Janusz Stanek",
+      "dane": {
+        "organizator": "Ekspresja J. Stanek - Akademia Tenisa Chełmiec Janusz Stanek",
+        "adres": "33-395 Chełmiec, Łączna 6, 33-395 Chełmiec",
+        "miasto": "Chełmiec",
+        "kategorie": "50+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:57+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:57+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:57+00:00"
+    },
+    "348dd402bfa66faa4e": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=08F8925E-96CC-4BEE-A8D6-6C38150F28EC",
+      "nazwa": "TENIS CLUB KK \"ZIMA 2025/26\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 Kędzierzyn-Koźle, Bol.Śmiałego 2",
+        "miasto": "Kędzierzyn-Koźle",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:57+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:57+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:57+00:00"
+    },
+    "6c54c27d2e26c2346b": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9555C191-8F6B-4C1C-9538-4F93112B0F4B",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:58+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:58+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:58+00:00"
+    },
+    "3b99e745bea612bddf": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=DE7BACC1-03DC-416E-93D9-D8E092343869",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:58+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:58+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:58+00:00"
+    },
+    "673547f282412aba18": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=0D1D6393-CAC0-4DAB-B2E4-C1F76A64AA24",
+      "nazwa": "TENIS CLUB KK \"ZIMA 2025/26\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 Kędzierzyn-Koźle, Bol.Śmiałego 2",
+        "miasto": "Kędzierzyn-Koźle",
+        "kategorie": "60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:58+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:58+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:59+00:00"
+    },
+    "3ad7e3422666029b83": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=095D9F26-7651-419E-AAF0-A1A2543B2337",
+      "nazwa": "TOP Grand Park Cup, Grand Park",
+      "dane": {
+        "organizator": "Grand Park",
+        "adres": "46-081 Dobrzeń Wielki, Kościuszki 25",
+        "miasto": "Dobrzeń Wielki",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:59+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:59+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:34:59+00:00"
+    },
+    "b7b5238d84fb631d65": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F5812A3F-3472-4393-967F-F4C7796E238E",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:34:59+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:34:59+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:00+00:00"
+    },
+    "0adcaccd022f62232e": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6E4F7F6C-C12C-4A4E-AD97-890F96294545",
+      "nazwa": "TOP \"Port Mielno\" Cup, Klub Tenisowy Bałtyk Koszalin",
+      "dane": {
+        "organizator": "Klub Tenisowy Bałtyk Koszalin",
+        "adres": "75-016 Koszalin, ul. Władysława Andersa 16",
+        "miasto": "Koszalin",
+        "kategorie": "40+, 50+, 60+, Open Amator",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:00+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:00+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:00+00:00"
+    },
+    "8d3f18c7fc87f11de6": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7CD45B17-9BE7-4C99-A52B-DE94E29F1B11",
+      "nazwa": "Tradycyjny Turniej Otwarcia Sezonu, Sieradzki Klub Tenisowy",
+      "dane": {
+        "organizator": "Sieradzki Klub Tenisowy",
+        "adres": "98-200 Sieradz, Sportowa 1",
+        "miasto": "Sieradz",
+        "kategorie": "50+, 60+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:00+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:00+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:01+00:00"
+    },
+    "076ddb64da436343e9": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2AFAD115-C569-4CEC-8507-2F103EA803D3",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:01+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:01+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:01+00:00"
+    },
+    "21bce0843d14d33ba5": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=8B27F7B7-0055-497C-97FB-4E87AF6BD6BA",
+      "nazwa": "Powitanie sezonu 2026 z TMT ŁĘCZNA, Towarzystwo Miłośników Tenisa Ziemnego w Łęcznej",
+      "dane": {
+        "organizator": "Towarzystwo Miłośników Tenisa Ziemnego w Łęcznej",
+        "adres": "21-010 Łęczna, bogdanowicza 9",
+        "miasto": "Łęczna",
+        "kategorie": "50+, Open Amator",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:01+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:01+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:02+00:00"
+    },
+    "ffb583f9dbab4cd3c4": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=668661C2-1E4D-4739-A4F7-A44F2791CD77",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:02+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:02+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:02+00:00"
+    },
+    "37c9c22c7dbfef4491": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=FD7073C1-8C6A-4091-A40B-CCD894F9F1F1",
+      "nazwa": "Turniej Tenisowy o Puchar Dyrektora MOSIR SIERADZ, Sieradzki Klub Tenisowy",
+      "dane": {
+        "organizator": "Sieradzki Klub Tenisowy",
+        "adres": "98-200 Sieradz, Sportowa 1",
+        "miasto": "Sieradz",
+        "kategorie": "50+, 60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:02+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:02+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:03+00:00"
+    },
+    "989d9387c70999eb20": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6652C81B-2326-4EAD-BDFE-E584A55FCE9B",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:03+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:03+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:03+00:00"
+    },
+    "f6a3d03221eadbd04a": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=24E98711-CD91-4CC9-8CA2-1613794AF69C",
+      "nazwa": "Intelight Open Kołobrzeg , Baltic Tennis Club",
+      "dane": {
+        "organizator": "Baltic Tennis Club",
+        "adres": "78-100 Kołobrzeg, Sikorskiego 1",
+        "miasto": "Kołobrzeg",
+        "kategorie": "40+, 50+, 60+, 70+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:03+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:03+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:04+00:00"
+    },
+    "d1ed60dfac0c4ed1d1": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7B178CAB-9572-4314-8DCF-5B4B7125E88B",
+      "nazwa": "PRZYTOK OPEN 2026, Przytok Tennis Club",
+      "dane": {
+        "organizator": "Przytok Tennis Club",
+        "adres": "66-003 Przytok, Golfowa 1",
+        "miasto": "Przytok",
+        "kategorie": "Open Amator",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:04+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:04+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:04+00:00"
+    },
+    "27bfa2617918111fb2": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=CDA2AD39-5006-4846-9FC7-0A4F5E1B2FFF",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:04+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:04+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:05+00:00"
+    },
+    "8684addde1ef2b4956": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=47E01AA6-0BFC-46AF-9330-1A0D9C3EC879",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:05+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:05+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:05+00:00"
+    },
+    "ebc1f3546de9c98013": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=D894DA44-82D4-45E3-8570-52C7C83FF2AE",
+      "nazwa": "I Turniej Kwalifikacyjny LUQAM Cup 2026, Towarzystwo Sportowe \"Tytus\" Rymanów Zdrój",
+      "dane": {
+        "organizator": "Towarzystwo Sportowe \"Tytus\" Rymanów Zdrój",
+        "adres": "38-481 Rymanów Zdrój, Zdrojowa 61/2, 1",
+        "miasto": "Rymanów Zdrój",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:05+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:05+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:06+00:00"
+    },
+    "22c20cfcd81c7f8252": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=C75E0037-681B-4048-B4B5-84A8C796B4F2",
+      "nazwa": "TOPszlem - TOP Gdynia Open by Babolat, Klub Tenisowy Arka",
+      "dane": {
+        "organizator": "Klub Tenisowy Arka",
+        "adres": "81-409 Gdynia, Ejsmonda 3",
+        "miasto": "Gdynia",
+        "kategorie": "40+, 50+, 60+, 70+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:06+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:06+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:06+00:00"
+    },
+    "168f63b09c435c92b7": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=59A7EB34-6013-4B4F-9FA3-A51EACE14C1E",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:06+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:06+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:07+00:00"
+    },
+    "a0274eb34f2d06b12d": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=81DE1125-BC69-4E91-9B5E-7D2EFB64AB82",
+      "nazwa": "Reg Med Babolat Cup Żary 2026, Klub Tenisowy Żary",
+      "dane": {
+        "organizator": "Klub Tenisowy Żary",
+        "adres": "68-200 Żary, ul. Hutnicza 3 68-200 Żary",
+        "miasto": "Żary",
+        "kategorie": "45+, 55+, 65+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:07+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:07+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:07+00:00"
+    },
+    "3e3906bb781f2c12e2": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=52D316B2-6D07-4CE4-9D52-53452EA7AF23",
+      "nazwa": "TENIS CLUB KK \"LATO 2026\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 KEDZIERZYN-KOZLE, 2 Bol.Śmiałego",
+        "miasto": "KEDZIERZYN-KOZLE",
+        "kategorie": "50+, 60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:07+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:07+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:07+00:00"
+    },
+    "14bcd85add5e79b1b6": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2D28AEE0-2327-44E6-84E1-609EB88DBC5D",
+      "nazwa": "XXVIII Turniej o Puchar Burmistrza Połczyna Zdroju, Połczyńskie Towarzystwo Tenisowe i Sportu \"Mecz\"",
+      "dane": {
+        "organizator": "Połczyńskie Towarzystwo Tenisowe i Sportu \"Mecz\"",
+        "adres": "78-320 Połczyn-Zdrój, ul. Solankowa 1",
+        "miasto": "Połczyn-Zdrój",
+        "kategorie": "60+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:08+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:08+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:08+00:00"
+    },
+    "387ffde396aad543ba": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=990C19E5-028B-457A-A667-1D9EA545E866",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:08+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:08+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:08+00:00"
+    },
+    "437d516978e634df65": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B",
+      "nazwa": "XXXV Letnie Mistrzostwa Polski Lekarzy w Tenisie, Polskie Stowarzyszenie Tenisowe Lekarzy",
+      "dane": {
+        "organizator": "Polskie Stowarzyszenie Tenisowe Lekarzy",
+        "adres": "51-612 Wrocław, Ignacego Jana Paderewskiego 35",
+        "miasto": "Wrocław",
+        "kategorie": "35+, 40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, 80+, 85+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:09+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:09+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:09+00:00"
+    },
+    "c997274f5e82b544fb": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=856A4C23-1A9F-414A-9105-529D0E1DFFC9",
+      "nazwa": "XVIII Memoriał dr Tomasza Teresińskiego, ZTT KT Return Zamość",
+      "dane": {
+        "organizator": "ZTT KT Return Zamość",
+        "adres": "22-400 Zamość, ul. Studzienna 2",
+        "miasto": "Zamość",
+        "kategorie": "55+, 65+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:09+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:09+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:09+00:00"
+    },
+    "7a60b7394ba118953d": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=75DB7CA3-6336-4960-B8C6-CF2E9AD9DFC7",
+      "nazwa": "„PUCHAR KAPITANA SEKCJI 2026”, Klub Sportowy \"Energetyk\" Gryfino, Amatorska Sekcja Tenisa Ziemnego w Gryfinie",
+      "dane": {
+        "organizator": "Klub Sportowy \"Energetyk\" Gryfino, Amatorska Sekcja Tenisa Ziemnego w Gryfinie",
+        "adres": "74-100 Gryfino, Sportowa 1",
+        "miasto": "Gryfino",
+        "kategorie": "45+, 60+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:10+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:10+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:10+00:00"
+    },
+    "b103ef569226721dd7": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=B73749B2-0A4B-4949-91D2-EF878F63357D",
+      "nazwa": "GDULA CUP 2026 Memoriał Jacka i Marcina , Fundacja Tenis dla Wszystkich",
+      "dane": {
+        "organizator": "Fundacja Tenis dla Wszystkich",
+        "adres": "20-709 Lublin, ul.Krasińskiego 11 oraz ul. Jutrzenki 1",
+        "miasto": "Lublin",
+        "kategorie": "45+, 60+, 75+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:10+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:10+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:11+00:00"
+    },
+    "fb7e94e72c4a5cc657": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=253A723B-C9DA-4839-A5ED-F9DF7A923AAD",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:11+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:11+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:11+00:00"
+    },
+    "6234364458a41d5c88": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=CEAEEDF9-35F9-4DE3-A1D1-466F17914D7F",
+      "nazwa": "XV MP Nauczycieli, Połczyńskie Towarzystwo Tenisowe i Sportu \"Mecz\"",
+      "dane": {
+        "organizator": "Połczyńskie Towarzystwo Tenisowe i Sportu \"Mecz\"",
+        "adres": "78-550 Czaplinek, Sikory 59A",
+        "miasto": "Czaplinek",
+        "kategorie": "40+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:11+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:11+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:12+00:00"
+    },
+    "b322d90a0986186b6c": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=4AE7A8B9-B0E3-48D7-9708-98EDCE34150A",
+      "nazwa": "Mercedes-Benz Auto Idea Open, HOUSE OF TENNIS",
+      "dane": {
+        "organizator": "HOUSE OF TENNIS",
+        "adres": "10-687 Bartąg, Sportowej Pasji 5",
+        "miasto": "Bartąg",
+        "kategorie": "55+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:12+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:12+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:12+00:00"
+    },
+    "aeb2beb9907d234679": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A9CB2051-DFA0-4299-BC5F-FF12E4578777",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:12+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:12+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:13+00:00"
+    },
+    "ada77d82dcd61d6aa0": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=42FCAB7E-CC3D-48E8-8863-A22E1609079E",
+      "nazwa": "IV Memoriał imienia ks. Jerzego Ossolińskiego, Profi",
+      "dane": {
+        "organizator": "Profi",
+        "adres": "37-500 Jarosław, Harcerska 5",
+        "miasto": "Jarosław",
+        "kategorie": "40+, 50+, 60+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:13+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:13+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:13+00:00"
+    },
+    "6f3714d05454108f01": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=64110862-A01A-4CCE-B592-E8C74EDF0F96",
+      "nazwa": "XV MP Nauczycieli, Połczyńskie Towarzystwo Tenisowe i Sportu \"Mecz\"",
+      "dane": {
+        "organizator": "Połczyńskie Towarzystwo Tenisowe i Sportu \"Mecz\"",
+        "adres": "78-550 Czaplinek, Sikory 59A",
+        "miasto": "Czaplinek",
+        "kategorie": "55+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:13+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:13+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:14+00:00"
+    },
+    "f455b70b98d6d8ddc4": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A4A28218-8376-4BD4-9F33-CB9763506EB4",
+      "nazwa": "Klubowy MIXT CUP 2026 - ArKademia, Fundacja ArKademia",
+      "dane": {
+        "organizator": "Fundacja ArKademia",
+        "adres": "46-022 Zawada, Skośna 9",
+        "miasto": "Zawada",
+        "kategorie": "Open Amator",
+        "termin_zgloszen": "2026-06-18 23:59",
+        "dyrektor_turnieju": "Frączyk Arkadiusz",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:14+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:14+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:14+00:00"
+    },
+    "f28c28ddf4d719ab87": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=711F2E56-4078-44D3-ABA5-245441571CCF",
+      "nazwa": "TENIS CLUB KK \"LATO 2026\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 KEDZIERZYN-KOZLE, 2 Bol.Śmiałego",
+        "miasto": "KEDZIERZYN-KOZLE",
+        "kategorie": "50+, 60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:14+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:14+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:14+00:00"
+    },
+    "ad79e42c2d5cad10b7": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A63589A1-8BEC-4D77-AEFE-F06B4327D238",
+      "nazwa": "Turniej o Puchar Starosty Powiatu Stalowowolskiego, Miejski Klub Tenisowy Stalowa Wola",
+      "dane": {
+        "organizator": "Miejski Klub Tenisowy Stalowa Wola",
+        "adres": "37-450 Stalowa Wola , Skoczyńskiego 3",
+        "miasto": "Stalowa Wola",
+        "kategorie": "Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:15+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:15+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:15+00:00"
+    },
+    "d61c870a7407998e73": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=52720A78-97A2-42CA-A42A-EF690CA603FA",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 Piaseczno",
+        "miasto": "Piaseczno",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:15+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:15+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:15+00:00"
+    },
+    "0c9463a0c9eb07921b": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=944F2597-0B0F-4365-A018-D9655DB1FD86",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:15+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:15+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:16+00:00"
+    },
+    "77860b7cfb7988a5ba": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=27DDD2BA-8671-4647-9448-1FB9CAFE82A6",
+      "nazwa": "V Ogólnopolski Turniej Tenisowy Lekarzy, Polskie Stowarzyszenie Tenisowe Lekarzy",
+      "dane": {
+        "organizator": "Polskie Stowarzyszenie Tenisowe Lekarzy",
+        "adres": "84-200 Wejherowo, Kalwaryjska",
+        "miasto": "Wejherowo",
+        "kategorie": "35+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:16+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:16+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:16+00:00"
+    },
+    "6501bccb3ed00f9630": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=961A2A39-4E14-4955-9A30-4847928FA886",
+      "nazwa": "II Turniej Kwalifikacyjny LUQAM Cup 2026, Towarzystwo Sportowe \"Tytus\" Rymanów Zdrój",
+      "dane": {
+        "organizator": "Towarzystwo Sportowe \"Tytus\" Rymanów Zdrój",
+        "adres": "38-481 Rymanów Zdrój, Zdrojowa 61/2, 1",
+        "miasto": "Rymanów Zdrój",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:16+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:16+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:17+00:00"
+    },
+    "c46c17e346b96e0980": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=56BF056C-E223-4A50-B931-44D55685B0B3",
+      "nazwa": "Intelight Open Kołobrzeg , Baltic Tennis Club",
+      "dane": {
+        "organizator": "Baltic Tennis Club",
+        "adres": "78-100 Kołobrzeg, Sikorskiego 1",
+        "miasto": "Kołobrzeg",
+        "kategorie": "50+, 60+, 70+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:17+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:17+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:17+00:00"
+    },
+    "2410c28e9fad21e4ca": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9939A368-11E2-43CF-8599-B372A60501B9",
+      "nazwa": "Turniej o Puchar Prezydenta Miasta Mielca, Klub Tenisa Ziemnego - Tenisowy Mielec na Kusocińskiego",
+      "dane": {
+        "organizator": "Klub Tenisa Ziemnego - Tenisowy Mielec na Kusocińskiego",
+        "adres": "39-300 Mielec, kusocinskiego korty tenisowe",
+        "miasto": "Mielec",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:17+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:17+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:18+00:00"
+    },
+    "eb08366fcca771952a": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7A3E0D12-AB91-4D48-8CA5-533A29BDDFCD",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:18+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:18+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:18+00:00"
+    },
+    "7a224d2e34e1c3c0a3": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=AC0C4650-A58A-4516-B278-350D9C0B193A",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 Warszawa",
+        "miasto": "Warszawa",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:18+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:18+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:19+00:00"
+    },
+    "f49685da038d3dc7b0": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=CA536FFD-69B4-42B1-B991-CC45DD2D7D97",
+      "nazwa": "TOPszlem - TOPBLEDON, Michałówek 2016",
+      "dane": {
+        "organizator": "Michałówek 2016",
+        "adres": "99-416 Nieborów, Michałówek 6A",
+        "miasto": "Nieborów",
+        "kategorie": "40+, 50+, 60+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:19+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:19+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:19+00:00"
+    },
+    "c06bc48630d02bbb94": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6E48B3AD-3A51-4818-8E89-BBDCD6D3F61E",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:19+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:19+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:20+00:00"
+    },
+    "437a43f097086e9d2a": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=4ED2DB0D-BC1A-453D-AA30-5A46DDD32BA5",
+      "nazwa": "IV Ogólnopolski Turniej Tenisowy Lekarzy MEDBLEDON, Michałówek 2016",
+      "dane": {
+        "organizator": "Michałówek 2016",
+        "adres": "99-416 Nieborów, Michałówek 6A",
+        "miasto": "Nieborów",
+        "kategorie": "40+, 45+, 50+, 55+, 60+, 65+, 70+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:20+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:20+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:20+00:00"
+    },
+    "b65fb4903451db0ee4": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9AEFB746-8C27-460A-B796-7B6FECB7676B",
+      "nazwa": "LEGIA OPEN 2026, Legia Tenis Sp. z o.o.",
+      "dane": {
+        "organizator": "Legia Tenis Sp. z o.o.",
+        "adres": "00-459 Warszawa, Myśliwiecka 4A",
+        "miasto": "Warszawa",
+        "kategorie": "40+, 50+, 60+, 70+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:20+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:20+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:21+00:00"
+    },
+    "5ad718a919dc381d7f": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=6776475A-D221-4B5A-B218-13BD75277B23",
+      "nazwa": "III Turniej Kwalifikacyjny LUQAM Cup 2026, Towarzystwo Sportowe \"Tytus\" Rymanów Zdrój",
+      "dane": {
+        "organizator": "Towarzystwo Sportowe \"Tytus\" Rymanów Zdrój",
+        "adres": "38-481 Rymanów Zdrój, Zdrojowa 61/2, 1",
+        "miasto": "Rymanów Zdrój",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:21+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:21+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:21+00:00"
+    },
+    "dbce190d99cf128be9": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=B19E7367-15A4-4931-8D81-CD279211AF5E",
+      "nazwa": "Klubowy MIXT LIPIEC - ArKademia Olesno, Fundacja ArKademia",
+      "dane": {
+        "organizator": "Fundacja ArKademia",
+        "adres": "46-300 Olesno, Weselna 4",
+        "miasto": "Olesno",
+        "kategorie": "Open Amator",
+        "termin_zgloszen": "2026-07-09 23:59",
+        "dyrektor_turnieju": "Frączyk Arkadiusz",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:21+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:21+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:21+00:00"
+    },
+    "da1f245e47d8591be0": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=CCF6BE05-9567-4714-B4EF-7E5BAC8AE882",
+      "nazwa": "„Grand Prix Gryfina 2026”, Klub Sportowy \"Energetyk\" Gryfino, Amatorska Sekcja Tenisa Ziemnego w Gryfinie",
+      "dane": {
+        "organizator": "Klub Sportowy \"Energetyk\" Gryfino, Amatorska Sekcja Tenisa Ziemnego w Gryfinie",
+        "adres": "74-100 Gryfino, Sportowa 1",
+        "miasto": "Gryfino",
+        "kategorie": "45+, 60+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:22+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:22+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:22+00:00"
+    },
+    "aed7c7aeaec7a9ffc0": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=FA909E1A-AFD8-4FB9-A2AA-4446727E2492",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:22+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:22+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:22+00:00"
+    },
+    "0574a42b6382c4e692": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F17E66BC-B0C4-404C-8106-552DE21A907E",
+      "nazwa": "SMECZ OPEN 2026 Skarżysko-Kamienna, STT SMECZ SKARŻYSKO-KAMIENNA",
+      "dane": {
+        "organizator": "STT SMECZ SKARŻYSKO-KAMIENNA",
+        "adres": "26-110 Skarżysko-Kamienna, Paryska 1",
+        "miasto": "Skarżysko-Kamienna",
+        "kategorie": "40+, 50+, 60+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:23+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:23+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:23+00:00"
+    },
+    "a679dbd1a07de34a3c": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=38ACEA72-C9F8-4673-B860-189F288D2B86",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:23+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:23+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:23+00:00"
+    },
+    "f8592624d55d3a77c7": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=839E7A34-725F-4536-AB73-CA6974E27B39",
+      "nazwa": "TENIS CLUB KK \"LATO 2026\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 KEDZIERZYN-KOZLE, 2 Bol.Śmiałego",
+        "miasto": "KEDZIERZYN-KOZLE",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:23+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:23+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:24+00:00"
+    },
+    "5983143efc5c572505": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=220E61CE-230C-4174-AD87-082FB58924B6",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:24+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:24+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:24+00:00"
+    },
+    "63ec971093f65159e6": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=D8BE726F-FD7A-4A3C-A9B2-F73A923864D6",
+      "nazwa": "Arsanit CUP III - UWAGA! Zmiana terminu, Elbud Łuków",
+      "dane": {
+        "organizator": "Elbud Łuków",
+        "adres": "21-400 Łuków, ul. Wiatraki 1",
+        "miasto": "Łuków",
+        "kategorie": "45+, 60+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:24+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:24+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:25+00:00"
+    },
+    "f7a845ec5e54d83ebe": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A140AC9B-9099-4AAD-A754-B9A3D1425257",
+      "nazwa": "Turniej amatorski LUQAM Cup, Towarzystwo Sportowe \"Tytus\" Rymanów Zdrój",
+      "dane": {
+        "organizator": "Towarzystwo Sportowe \"Tytus\" Rymanów Zdrój",
+        "adres": "38-481 Rymanów Zdrój, Zdrojowa 61/2, 1",
+        "miasto": "Rymanów Zdrój",
+        "kategorie": "Open",
+        "termin_zgloszen": "2026-07-22 17:00",
+        "dyrektor_turnieju": "Krzysztyński Józef",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:25+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:25+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:25+00:00"
+    },
+    "280a16a293657a0261": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F89E5500-507E-4326-BC57-4EB5A55BCBC7",
+      "nazwa": "GRAND PRIX STALOWEJ WOLI AMATORÓW, Miejski Klub Tenisowy Stalowa Wola",
+      "dane": {
+        "organizator": "Miejski Klub Tenisowy Stalowa Wola",
+        "adres": "37-450 Stalowa Wola",
+        "miasto": "Stalowa Wola",
+        "kategorie": "Open Amator",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:25+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:25+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:26+00:00"
+    },
+    "71ec7960522d1b929c": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7441CCAC-7245-4544-BF61-1F6F446BC748",
+      "nazwa": "Klubowy Singiel Panów LIPIEC - ArKademia Olesno, Fundacja ArKademia",
+      "dane": {
+        "organizator": "Fundacja ArKademia",
+        "adres": "46-300 Olesno, Weselna 4",
+        "miasto": "Olesno",
+        "kategorie": "Open Amator",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:26+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:26+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:26+00:00"
+    },
+    "539ed1dafc96ccc569": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=72DF1CAF-178D-41CB-8BA5-FF39B1F7524D",
+      "nazwa": "TENIS CLUB KK \"LATO 2026\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 KEDZIERZYN-KOZLE, 2 Bol.Śmiałego",
+        "miasto": "KEDZIERZYN-KOZLE",
+        "kategorie": "50+, 60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:26+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:26+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:27+00:00"
+    },
+    "8ad257768c18e8203f": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7B170278-F7BB-4B0A-BEA5-49A199E798BC",
+      "nazwa": "TOPSZLEM - TOP RZESZÓW OPEN , Klub Sportowy Czarni",
+      "dane": {
+        "organizator": "Klub Sportowy Czarni",
+        "adres": "RZESZÓW",
+        "miasto": "RZESZÓW",
+        "kategorie": "50+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:27+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:27+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:27+00:00"
+    },
+    "b2e0475c4e0876117b": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=1135583B-806A-4D62-B8B2-1BA59850CD9A",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:27+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:27+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:28+00:00"
+    },
+    "dad27ae50da79ca393": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=284409EE-743C-46DD-A86E-99076ED8B85B",
+      "nazwa": "Intelight Open Kołobrzeg , Baltic Tennis Club",
+      "dane": {
+        "organizator": "Baltic Tennis Club",
+        "adres": "78-100 Kołobrzeg, Sikorskiego 1",
+        "miasto": "Kołobrzeg",
+        "kategorie": "40+, 50+, 60+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:28+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:28+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:28+00:00"
+    },
+    "5acfd903ce1021caf4": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=093C6CB3-2862-40F2-ADC1-1C12233B4DB2",
+      "nazwa": "Klubowy Debel Pań SIERPIEŃ - ArKademia OLESNO, Fundacja ArKademia",
+      "dane": {
+        "organizator": "Fundacja ArKademia",
+        "adres": "46-300 Olesno, Weselna 4",
+        "miasto": "Olesno",
+        "kategorie": "Open Amator",
+        "termin_zgloszen": "2026-08-01 15:00",
+        "dyrektor_turnieju": "Frączyk Arkadiusz",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:28+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:28+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:29+00:00"
+    },
+    "50caa5ffa2015742fe": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2A8836C0-5420-401A-B4DD-77E03C34DD70",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 Warszawa",
+        "miasto": "Warszawa",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:29+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:29+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:29+00:00"
+    },
+    "4a5f9c6737a03fec0c": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=AF529232-DAA2-4F09-9C4F-E30390DD3485",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:29+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:29+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:29+00:00"
+    },
+    "527fa7eb9e51c20548": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E",
+      "nazwa": "42. Narodowe Mistrzostwa Polski TOP, Klub Tenisowy Arka",
+      "dane": {
+        "organizator": "Klub Tenisowy Arka",
+        "adres": "81-409 Gdynia, Ejsmonda 3",
+        "miasto": "Gdynia",
+        "kategorie": "30+, 35+, 40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, 80+, 85+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:30+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:30+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:30+00:00"
+    },
+    "023d3e83552e59ee86": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=43D49018-5E8C-48FF-97B4-0371A47EB6BF",
+      "nazwa": "XX Turniej Tenisa o Puchar Burmistrza Miasta Jasła, Jasielski Klub Tenisowy",
+      "dane": {
+        "organizator": "Jasielski Klub Tenisowy",
+        "adres": "Jasło",
+        "miasto": "Jasło",
+        "kategorie": "50+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:30+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:30+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:30+00:00"
+    },
+    "82f7d40c8e293aaa20": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=EAF8CC63-52E3-4DD7-8EBB-2FFFC9C0D2E2",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:31+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:31+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:31+00:00"
+    },
+    "8e47da4593cfc88e4b": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=D6CE5C56-E6F1-416C-B477-7254B2F6468E",
+      "nazwa": "IX TURNIEJ O PUCHAR BURMISTRZA GMINY KUN, OST \"WINNER\"",
+      "dane": {
+        "organizator": "OSTROWIECKIE STOWARZYSZENIE TENISOWE \"WINNER\"",
+        "adres": "27-415 Nietulisko Duże",
+        "miasto": "Nietulisko Duże",
+        "kategorie": "45+, Open Amator",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:31+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:31+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:31+00:00"
+    },
+    "df10f44060c1e08752": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E",
+      "nazwa": "Klubowy MIXT SIERPIEŃ - ArKademia OLESNO, Fundacja ArKademia",
+      "dane": {
+        "organizator": "Fundacja ArKademia",
+        "adres": "46-300 Olesno, Weselna 4",
+        "miasto": "Olesno",
+        "kategorie": "Open Amator",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:32+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:32+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:32+00:00"
+    },
+    "0290510a824cdafb13": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3284708E-5B24-4B2D-B190-7DC35868C987",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:32+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:32+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:32+00:00"
+    },
+    "5c04e1c4606bbfbd5f": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E6AE180A-7695-4856-968F-245326915E10",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:33+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:33+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:33+00:00"
+    },
+    "24888cb1f061bf1582": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F8E35C74-59BC-4AA3-A605-7DB57196866F",
+      "nazwa": "\"Gryfino Cup 2026\", Klub Sportowy \"Energetyk\" Gryfino, Amatorska Sekcja Tenisa Ziemnego w Gryfinie",
+      "dane": {
+        "organizator": "Klub Sportowy \"Energetyk\" Gryfino, Amatorska Sekcja Tenisa Ziemnego w Gryfinie",
+        "adres": "74-100 Gryfino, Sportowa1",
+        "miasto": "Gryfino",
+        "kategorie": "45+, 60+, Open",
+        "termin_zgloszen": "2026-08-21 16:00",
+        "dyrektor_turnieju": "Kmieciński Dariusz",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:33+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:33+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:33+00:00"
+    },
+    "fd220672a120144b8a": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3B607203-08A5-474B-AB1F-69D4699B0FFA",
+      "nazwa": "GRAND PRIX STALOWEJ WOLI AMATORÓW, Miejski Klub Tenisowy Stalowa Wola",
+      "dane": {
+        "organizator": "Miejski Klub Tenisowy Stalowa Wola",
+        "adres": "Stalowa Wola , Skoczyńskiego 3",
+        "miasto": "Stalowa Wola",
+        "kategorie": "Open Amator",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:33+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:33+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:34+00:00"
+    },
+    "21331bbf150a1a7744": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=AD8AC19B-C9BD-4713-8D1F-6682B29B7211",
+      "nazwa": "Otwarte Mistrzostwa Kalisza, Kaliskie Towarzystwo Tenisowe",
+      "dane": {
+        "organizator": "Kaliskie Towarzystwo Tenisowe",
+        "adres": "62-800 Kalisz, Łódzka 19",
+        "miasto": "Kalisz",
+        "kategorie": "50+, 60+, 70+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:34+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:34+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:34+00:00"
+    },
+    "5fdbf3e5caec63b8ce": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=342426C8-85ED-4767-8F19-B4185C0A84D8",
+      "nazwa": "RECMAN CUP JUBILEUSZOWA X EDYCJA, Polski Związek Tenisowy",
+      "dane": {
+        "organizator": "Polski Związek Tenisowy",
+        "adres": "16-400 Suwałki, ul. Wojska Polskiego 17 - korty tenisowe OSiR",
+        "miasto": "Suwałki",
+        "kategorie": "Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:34+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:34+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:35+00:00"
+    },
+    "1cbbcfd62a1f4227a7": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=B84E6F73-6049-43BD-9121-2064C9BD9273",
+      "nazwa": "TENIS CLUB KK \"LATO 2026\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 KEDZIERZYN-KOZLE, 2 Bol.Śmiałego",
+        "miasto": "KEDZIERZYN-KOZLE",
+        "kategorie": "50+, 60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:35+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:35+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:35+00:00"
+    },
+    "9455e38ba163aa32d9": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=41E84DFA-D00B-4E5F-926C-A25EBC342CD0",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:35+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:35+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:36+00:00"
+    },
+    "798e0e361b26d2305b": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=7B389633-D063-44AF-B1B6-E7112B3D68BB",
+      "nazwa": "XXVI OTWARTE MISTRZOSTWA ŁODZI AMATORÓW, KT Start Łódź",
+      "dane": {
+        "organizator": "KT Start Łódź",
+        "adres": "91-348 Łódź, św.Teresy 6/58",
+        "miasto": "Łódź",
+        "kategorie": "50+, 60+, 70+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:36+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:36+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:36+00:00"
+    },
+    "b6ddc7406eac0bd190": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=02EBFC50-29A7-4CF1-91AB-0D406302B795",
+      "nazwa": "Ogólnopolski Turniej Lekarzy - LEGIA MED OPEN, Legia Tenis Sp. z o.o.",
+      "dane": {
+        "organizator": "Legia Tenis Sp. z o.o.",
+        "adres": "00-459 Warszawa, Myśliwiecka 4a",
+        "miasto": "Warszawa",
+        "kategorie": "40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, 85+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:36+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:36+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:37+00:00"
+    },
+    "48bb3b35ab78efe44f": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F7F661AA-A952-4437-AB2B-4B13F4D70541",
+      "nazwa": "III Otwarte Mistrzostwa Opola , Towarzystwo Rekreacyjno - Sportowe \"Chabry\"",
+      "dane": {
+        "organizator": "Towarzystwo Rekreacyjno - Sportowe \"Chabry\"",
+        "adres": "45-221 OPOLE, ul.Chabrów 74",
+        "miasto": "OPOLE",
+        "kategorie": "60+, 70+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:37+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:37+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:37+00:00"
+    },
+    "7eae2ffe28c03216bc": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=682E4A5A-CCB1-4104-9713-AEDC25E8F1CD",
+      "nazwa": "KRESOWE BABA CUP, ZTT KT Return Zamość",
+      "dane": {
+        "organizator": "ZTT KT Return Zamość",
+        "adres": "22-400 Zamość, ul. Studzienna 2",
+        "miasto": "Zamość",
+        "kategorie": "60+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:37+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:37+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:38+00:00"
+    },
+    "5c3a5020b55b9f11ee": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=10C08B85-1DB8-47D2-9F91-418CF6BB0794",
+      "nazwa": "Klubowy Singiel Panów SIERPIEŃ - ArKademia OLESNO, Fundacja ArKademia",
+      "dane": {
+        "organizator": "Fundacja ArKademia",
+        "adres": "46-300 Olesno, Weselna 4",
+        "miasto": "Olesno",
+        "kategorie": "Open Amator",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:38+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:38+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:38+00:00"
+    },
+    "8bf61d12433078e555": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F59DF16E-E467-4780-AE56-EC12B8C67CCB",
+      "nazwa": "Klubowy Singiel Pań SIERPIEŃ - ArKademia OLESNO, Fundacja ArKademia",
+      "dane": {
+        "organizator": "Fundacja ArKademia",
+        "adres": "46-300 Olesno, Weselna 4",
+        "miasto": "Olesno",
+        "kategorie": "Open Amator",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:38+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:38+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:39+00:00"
+    },
+    "2e8c09c6263d5830f9": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E3FF13DD-6CF6-4014-9BA0-124510B88D16",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:39+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:39+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:39+00:00"
+    },
+    "64a5e89c83222a8d98": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2BCA8E74-98D8-4955-B399-5D11E07F9A2C",
+      "nazwa": "JAREXS&LEXUS CUP 2026, Sinet Klub Aleksandra Grubman",
+      "dane": {
+        "organizator": "Sinet Klub Aleksandra Grubman",
+        "adres": "59-220 Legnica, Bielańska 29",
+        "miasto": "Legnica",
+        "kategorie": "40+, 50+, 60+, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:39+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:39+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:40+00:00"
+    },
+    "8b545fd127f348c54d": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=8972355D-3B5C-40CF-BD8F-6201F8F881EA",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "70+",
+        "termin_zgloszen": "2026-09-03 23:59",
+        "dyrektor_turnieju": "Samojłowicz Krzysztof",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:40+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:40+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:40+00:00"
+    },
+    "1986ff31bb7780292c": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=0A6CB279-C476-4D86-ADB5-FBC62CB87D5E",
+      "nazwa": "Klubowy Debel Panów WRZESIEŃ - ArKademia OLESNO, Fundacja ArKademia",
+      "dane": {
+        "organizator": "Fundacja ArKademia",
+        "adres": "46-300 Olesno, Weselna 4",
+        "miasto": "Olesno",
+        "kategorie": "Open Amator",
+        "termin_zgloszen": "2026-09-04 15:00",
+        "dyrektor_turnieju": "Frączyk Arkadiusz",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:40+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:40+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:40+00:00"
+    },
+    "c03e2f10012693cdd9": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=16C74C18-66AF-4867-932F-94E808EFE8EA",
+      "nazwa": "TENIS CLUB KK \"LATO 2026\", Kędzierzyński Klub Tenisowy",
+      "dane": {
+        "organizator": "KKT Kędzierzyn-Koźle",
+        "adres": "47-232 KEDZIERZYN-KOZLE, 2 Bol.Śmiałego",
+        "miasto": "KEDZIERZYN-KOZLE",
+        "kategorie": "50+, 60+",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:40+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:40+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:41+00:00"
+    },
+    "05286d1b702676e442": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9D98A8E3-B1BB-476B-8CD7-33E3ABF612CD",
+      "nazwa": "XXIV MEMORIAŁ IM. BOGDANA GAJEWSKIEGO , Miejski Klub Tenisowy Stalowa Wola",
+      "dane": {
+        "organizator": "Miejski Klub Tenisowy Stalowa Wola",
+        "adres": "37-450 Stalowa Wola",
+        "miasto": "Stalowa Wola",
+        "kategorie": "40+, 50+, 65+, Open Amator, Open",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:41+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:41+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:41+00:00"
+    },
+    "bbf72c57959bfc22f2": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=43ADA3A1-0902-4533-8B93-6E46E43F27A9",
+      "nazwa": "Klubowy Debel Pań WRZESIEŃ - ArKademia OLESNO, Fundacja ArKademia",
+      "dane": {
+        "organizator": "Fundacja ArKademia",
+        "adres": "46-300 Olesno, Weselna 4",
+        "miasto": "Olesno",
+        "kategorie": "Open Amator",
+        "termin_zgloszen": "2026-09-05 15:00",
+        "dyrektor_turnieju": "Frączyk Arkadiusz",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:41+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:41+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:42+00:00"
+    },
+    "5a87dbab771c73a033": {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=18B8F410-E9A8-4ADE-A093-0CF0023B5949",
+      "nazwa": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "dane": {
+        "organizator": "Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+        "adres": "05-500 PIASECZNO",
+        "miasto": "PIASECZNO",
+        "kategorie": "60+, 70+, 80+",
+        "termin_zgloszen": "2026-09-05 23:59",
+        "dyrektor_turnieju": "Samojłowicz Krzysztof",
+        "wyniki_potwierdzone": true,
+        "status_wynikow": "sa_dane_wynikowe"
+      },
+      "ostatnio_widziany_w_archiwum_utc": "2026-09-08T18:35:42+00:00",
+      "ostatnia_proba_utc": "2026-09-08T18:35:42+00:00",
+      "wersja_parsera": 1,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-08T18:35:42+00:00"
+    }
+  },
+  "aktualizacja_utc": "2026-09-08T18:35:42+00:00",
+  "wersja_parsera": 1,
+  "liczba_rekordow": 135
+}
