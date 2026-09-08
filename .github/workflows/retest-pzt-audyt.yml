@@ -1,0 +1,42 @@
+name: Retest audytu PZT archiwum
+
+on:
+  push:
+    paths:
+      - ".github/workflows/retest-pzt-audyt.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  audyt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python archiwum_audyt.py
+      - name: Kontrola i zapis
+        run: |
+          python - <<'PY'
+          import json
+          root='data/archiwum/2026/'
+          r=json.load(open(root+'raport.json',encoding='utf-8'))
+          a=r.get('audyt',{})
+          print('PZT',a)
+          print('STATUSY',r.get('liczba_wg_statusu_archiwum',{}))
+          assert a.get('pzt_bledy_szczegolow') == 0
+          assert a.get('pzt_z_miastem') == a.get('pzt_liczba')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/archiwum/2026
+          if git diff --cached --quiet; then
+            echo "Brak zmian."
+          else
+            git commit -m "Popraw klasyfikację wyników PZT w archiwum"
+            git pull --rebase origin main
+            git push
+          fi
