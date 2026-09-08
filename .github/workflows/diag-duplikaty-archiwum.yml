@@ -1,0 +1,47 @@
+name: Diagnoza podobnych rekordów archiwum
+
+on:
+  push:
+    paths:
+      - ".github/workflows/diag-duplikaty-archiwum.yml"
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Najbardziej podobne pary między źródłami
+        run: |
+          python - <<'PY'
+          import json
+          from difflib import SequenceMatcher
+          from archiwum_audyt import match_name, match_city, date_distance, clean
+          data=json.load(open('data/archiwum/2026/turnieje.json',encoding='utf-8'))
+          items=data['turnieje']
+          pairs=[]
+          for i,a in enumerate(items):
+              for b in items[i+1:]:
+                  if clean(a.get('zrodlo'))==clean(b.get('zrodlo')): continue
+                  dd=date_distance(a,b)
+                  if dd is None or dd>1: continue
+                  na,nb=match_name(a),match_name(b)
+                  if not na or not nb: continue
+                  score=SequenceMatcher(None,na,nb).ratio()
+                  ca,cb=match_city(a.get('miasto','')),match_city(b.get('miasto',''))
+                  same=bool(ca and cb and ca==cb)
+                  pairs.append((score,same,dd,a,b,ca,cb))
+          pairs.sort(key=lambda x:(x[1],x[0]),reverse=True)
+          print('TOP SAME CITY:')
+          n=0
+          for score,same,dd,a,b,ca,cb in pairs:
+              if not same: continue
+              print(round(score,3),'d=',dd,a['data_od'],'|',a['zrodlo'],a['nazwa'],'<=>',b['zrodlo'],b['nazwa'],'|',a.get('miasto'),b.get('miasto'))
+              n+=1
+              if n>=40: break
+          print('\nTOP ALL:')
+          for score,same,dd,a,b,ca,cb in sorted(pairs,key=lambda x:x[0],reverse=True)[:40]:
+              print(round(score,3),'samecity=',same,'d=',dd,a['data_od'],'|',a['zrodlo'],a['nazwa'],'<=>',b['zrodlo'],b['nazwa'],'|',a.get('miasto'),b.get('miasto'))
+          PY
