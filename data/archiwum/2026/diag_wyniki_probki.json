@@ -1,0 +1,1465 @@
+{
+  "cel": "Rozpoznanie schematów publikacji wyników. Raport zapisuje strukturę, nie pełne dane uczestników ani dane kontaktowe.",
+  "pzt": {
+    "nazwa": "Halowe Mistrzostwa Polski TOP, Fundacja De Arte Athletica - Tenis Kozerki",
+    "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E4F40025-FC0A-44FD-A065-C0DFB9F44016",
+    "kategorie_zrodlowe": "30+, 35+, 40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, 80+, 85+, Open Amator, Open",
+    "final_url": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=E4F40025-FC0A-44FD-A065-C0DFB9F44016",
+    "strona_glowna_wynikow": {
+      "tytul": "Tenis w Polsce - Polski Związek Tenisowy - PZT.pl",
+      "liczba_tabel": 1,
+      "wiersze_tabel": [
+        82
+      ],
+      "liczba_draw_frame": 0,
+      "liczba_draw": 0,
+      "liczba_form": 1,
+      "liczba_input": 7,
+      "linie_strukturalne": [
+        "WYNIKI",
+        "Wyniki",
+        "> Drabinki",
+        "Drabinki",
+        "Mecze",
+        "Kategoria: 30+. Typ: Gra podwójna; Mieszany",
+        "Zajęte miejsca - Turniej główny",
+        "Turniej główny - Faza eliminacyjna",
+        "Grupa A",
+        "Grupa B",
+        "Turniej główny - Faza finałowa",
+        "Grupa Drabinka 1 - 4",
+        "Kategoria: 30+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: 30+. Typ: Gra podwójna; Mężczyźni",
+        "Turniej główny",
+        "Grupa",
+        "Kategoria: 35+. Typ: Gra pojedyncza; Kobiety",
+        "Kategoria: 35+. Typ: Gra podwójna; Kobiety",
+        "Kategoria: 35+. Typ: Gra pojedyncza; Mężczyźni",
+        "Drabinka - Turniej główny",
+        "Kategoria: 40+. Typ: Gra podwójna; Mieszany",
+        "Kategoria: 40+. Typ: Gra pojedyncza; Kobiety",
+        "Kategoria: 40+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: 40+. Typ: Gra podwójna; Mężczyźni",
+        "Kategoria: 45+. Typ: Gra pojedyncza; Kobiety",
+        "Kategoria: 45+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: 50+. Typ: Gra podwójna; Mieszany",
+        "Kategoria: 50+. Typ: Gra pojedyncza; Kobiety",
+        "Kategoria: 50+. Typ: Gra podwójna; Kobiety",
+        "Kategoria: 50+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: 50+. Typ: Gra podwójna; Mężczyźni",
+        "Kategoria: 55+. Typ: Gra pojedyncza; Kobiety",
+        "Kategoria: 55+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: 55+. Typ: Gra podwójna; Mężczyźni",
+        "Kategoria: 60+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: 60+. Typ: Gra podwójna; Mężczyźni",
+        "Kategoria: 65+. Typ: Gra pojedyncza; Kobiety",
+        "Kategoria: 65+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: 65+. Typ: Gra podwójna; Mężczyźni",
+        "Kategoria: 70+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: 70+. Typ: Gra podwójna; Mężczyźni",
+        "Kategoria: 75+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: 80+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: 80+. Typ: Gra podwójna; Mężczyźni",
+        "Kategoria: 85+. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: Open. Typ: Gra podwójna; Mieszany",
+        "Kategoria: Open. Typ: Gra pojedyncza; Kobiety",
+        "Kategoria: Open. Typ: Gra podwójna; Kobiety",
+        "Kategoria: Open. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: Open. Typ: Gra podwójna; Mężczyźni",
+        "Kategoria: Open Amator. Typ: Gra podwójna; Mieszany",
+        "Kategoria: Open Amator. Typ: Gra pojedyncza; Kobiety",
+        "Kategoria: Open Amator. Typ: Gra podwójna; Kobiety",
+        "Kategoria: Open Amator. Typ: Gra pojedyncza; Mężczyźni",
+        "Kategoria: Open Amator. Typ: Gra podwójna; Mężczyźni"
+      ],
+      "linki_strukturalne": [
+        {
+          "tekst": "WYNIKI",
+          "href": "https://portal.pzt.pl/Results.aspx",
+          "onclick": ""
+        },
+        {
+          "tekst": "Wyniki",
+          "href": "https://portal.pzt.pl/Results.aspx",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinki",
+          "href": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=E4F40025-FC0A-44FD-A065-C0DFB9F44016",
+          "onclick": ""
+        },
+        {
+          "tekst": "Mecze",
+          "href": "https://portal.pzt.pl/TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID=E4F40025-FC0A-44FD-A065-C0DFB9F44016",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1FQzY2N0YwRi0yQzBELTRENEUtQTE5My1FMDUyMzM2NjgwN0EmTGV2ZWw9TSZMZXZlbDI9RkdH');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa A",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQzY2N0YwRi0yQzBELTRENEUtQTE5My1FMDUyMzM2NjgwN0EmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa B",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQzY2N0YwRi0yQzBELTRENEUtQTE5My1FMDUyMzM2NjgwN0EmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa Drabinka 1 - 4",
+          "href": "javascript:popUpGroup('/Ladder/EventLadder.aspx?QS=RXZlbnRJRD1FQzY2N0YwRi0yQzBELTRENEUtQTE5My1FMDUyMzM2NjgwN0EmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD01QjhEMDU5Ni1GMzFDLTQxQTktOTM2Ny0wODhBQTUwNTM4ODUmTGV2ZWw9TSZMZXZlbDI9RkdH');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa A",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD01QjhEMDU5Ni1GMzFDLTQxQTktOTM2Ny0wODhBQTUwNTM4ODUmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa B",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD01QjhEMDU5Ni1GMzFDLTQxQTktOTM2Ny0wODhBQTUwNTM4ODUmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa Drabinka 1 - 4",
+          "href": "javascript:popUpGroup('/Ladder/EventLadder.aspx?QS=RXZlbnRJRD01QjhEMDU5Ni1GMzFDLTQxQTktOTM2Ny0wODhBQTUwNTM4ODUmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04MUU1ODZFRC1ERUEzLTQwMjEtQUZCMC02OTBFRjhCMzAxRjYmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD04MUU1ODZFRC1ERUEzLTQwMjEtQUZCMC02OTBFRjhCMzAxRjYmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0wMzdDRjc0OS1GOEY0LTRERkQtOUJEQS02NjUxRTIyNzNEN0YmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD0wMzdDRjc0OS1GOEY0LTRERkQtOUJEQS02NjUxRTIyNzNEN0YmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0zREYzMjFGMS1BNUY1LTQ1QUQtOEI0NS01N0VBQjE4NDhFNkMmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD0zREYzMjFGMS1BNUY1LTQ1QUQtOEI0NS01N0VBQjE4NDhFNkMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1FNzg3NzE1RC1GMkRBLTQxOEYtOERFNy1GMjE3RTM1QTA0RUMmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1BNzA1OTgwMi0yQjdELTQwMjAtODgyRS1BQkMzNUJFMDY4RkUmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1BNzA1OTgwMi0yQjdELTQwMjAtODgyRS1BQkMzNUJFMDY4RkUmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD03MjFGM0Y2OC1DRkU4LTQ4QzktOThCRC0zRDZFMTNEODBDNUMmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD03MjFGM0Y2OC1DRkU4LTQ4QzktOThCRC0zRDZFMTNEODBDNUMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1FNzY3QUQzNi1ENjBCLTQ5RkEtOTg1Ny03QjQ5MjgyMDFBQkEmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1CRjAzMERGRi01NDMzLTQ2QjEtODNFNi1DMDRBRDY3RTUyQ0EmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1CRjAzMERGRi01NDMzLTQ2QjEtODNFNi1DMDRBRDY3RTUyQ0EmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD01ODQxNkU4Ni0yNkExLTQyNjQtOThGNi03NjRGM0I0RDM0RTkmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD01ODQxNkU4Ni0yNkExLTQyNjQtOThGNi03NjRGM0I0RDM0RTkmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1ERThENDNBQi1CRkY0LTRDNTgtQTA3Qy05RkI4M0ExMTY3NDEmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0zN0IyRTQxNi00RjhDLTRFN0ItQjg1Ny0zMzMwMTNGMEJFOUMmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1DRkJERjYxMy1DRkJCLTQ3RDgtQTlCOC04REY2ODJDMjQ2QTkmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1DRkJERjYxMy1DRkJCLTQ3RDgtQTlCOC04REY2ODJDMjQ2QTkmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD02RDMwQ0U2OC1ERDM1LTRGNzYtOEJFRi1FQjBFM0NDN0UwNDAmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD02RDMwQ0U2OC1ERDM1LTRGNzYtOEJFRi1FQjBFM0NDN0UwNDAmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0yRTA3ODgwNC1CNjMxLTQ4OUQtQUVDOS0wRTFEMTU2ODhFM0UmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1DQzFCQTUwRi1CMkE4LTQzMzMtODZDRi01MThFRUM3RjY2RUYmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1DQzFCQTUwRi1CMkE4LTQzMzMtODZDRi01MThFRUM3RjY2RUYmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0zMjdFQjZBMS02MDdBLTQ5QjUtQTg5RC1FQkQxRkU3OThCN0UmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD0zMjdFQjZBMS02MDdBLTQ5QjUtQTg5RC1FQkQxRkU3OThCN0UmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1EOEI0RkIyNy1EMUVDLTRGQUEtQTc0OS1CQkZERTNDNUJDMjMmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1FOTY0QTM3My0wNDQwLTRERjktQjQ1MS01QjZFREREMUNGRTMmTGV2ZWw9TSZMZXZlbDI9RkdH');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa A",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FOTY0QTM3My0wNDQwLTRERjktQjQ1MS01QjZFREREMUNGRTMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa B",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FOTY0QTM3My0wNDQwLTRERjktQjQ1MS01QjZFREREMUNGRTMmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa Drabinka 1 - 4",
+          "href": "javascript:popUpGroup('/Ladder/EventLadder.aspx?QS=RXZlbnRJRD1FOTY0QTM3My0wNDQwLTRERjktQjQ1MS01QjZFREREMUNGRTMmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1CRkU5QkRFNi05NUE0LTQ5ODQtOEVDNC1EN0U3MjY5QTc0NkEmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04QjIxMjU4NS0yMzk1LTQyREQtQUNDMC1DMjNERjFGM0JENTcmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD02QjE5QTY0MC02MUIyLTRBOUEtQTlDQy00REY3RUEwMTNBRkImTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD02QjE5QTY0MC02MUIyLTRBOUEtQTlDQy00REY3RUEwMTNBRkImTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD01RDhFM0UyOC05NkQwLTRBN0EtQkUxNS04MEIzQTgxMkJBQTAmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04MkY3RTBCOS1EMDBGLTRFMzUtOTE2MC1CQTEwMTM5NkQ5NzkmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD04MkY3RTBCOS1EMDBGLTRFMzUtOTE2MC1CQTEwMTM5NkQ5NzkmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0wRDgxMjk0MS03RkIxLTQwRkUtQjYwNy0zMjkxREI1NkFDMEEmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0wOTJGMDExMy1BNDcyLTQ3RkItOTJEQy1BRDUxODlDODA3N0MmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD03REY3MUFGRS03RkU3LTQ1NzYtOTJCMi02NTYwMTEzMDc4OTgmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1ERUUxRTYwMi02NUJDLTREMTktOUVGNC0zNjQxNUZCRjI4N0UmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1EOTQ2OTlGQS1GOTY3LTQwOUMtQUYxNy1DOTE0MDBFMjVDMTImTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04M0I3QkQ2Qi00NTMyLTQ2N0QtODA4Qi0yMThFMEE5MUZCRjEmTGV2ZWw9TSZMZXZlbDI9RkdH');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa A",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD04M0I3QkQ2Qi00NTMyLTQ2N0QtODA4Qi0yMThFMEE5MUZCRjEmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa B",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD04M0I3QkQ2Qi00NTMyLTQ2N0QtODA4Qi0yMThFMEE5MUZCRjEmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa Drabinka 1 - 4",
+          "href": "javascript:popUpGroup('/Ladder/EventLadder.aspx?QS=RXZlbnRJRD04M0I3QkQ2Qi00NTMyLTQ2N0QtODA4Qi0yMThFMEE5MUZCRjEmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD01RDNEQTMzMy00QjJDLTQ0MzYtOEFEOC0xNUYwNUM5N0NCRDMmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0yMTU2REU1Ny1EMzlBLTQ1OTctODMwQy0wRjJFNTg3RTlCRDkmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Zajęte miejsca - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0zQjA4NjczRS03REE3LTRGQkUtOEVDMS0yRTRDMzA5RjdERUMmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD0zQjA4NjczRS03REE3LTRGQkUtOEVDMS0yRTRDMzA5RjdERUMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1EQjZGQ0YyQi02MUUxLTQ5OTYtQkZGMS1DMTE2M0MxQjA2OTEmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0yNEY2NDVCMS0wRDM2LTQ2NEMtOTRFNi0yQ0RBNDJGQjhBM0MmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04QTgzODI1MS1DMjJFLTRCOTYtQUEwQS1FQ0UyRDM0Q0IxMkImTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD03N0FEMTk4RS1FMkE1LTQyQTMtOUZCOC00QjBCQjYyM0E0MDMmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD01N0IyREQyNC01REI1LTQ0NUQtODlCNC0zRkRERDIzMjI2QUEmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1ENDA5MzRCNi05NkY1LTQ3RjEtQTY1Ni02N0JDNTI2NDU5OUMmTGV2ZWw9TQ==');",
+          "onclick": ""
+        },
+        {
+          "tekst": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD05RTc4MjE2RC1FQzQ4LTQxRjQtQTJFMC1BODNFRjA4ODIyNDgmTGV2ZWw9TQ==');",
+          "onclick": ""
+        }
+      ],
+      "popup_urls": [
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQzY2N0YwRi0yQzBELTRENEUtQTE5My1FMDUyMzM2NjgwN0EmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQzY2N0YwRi0yQzBELTRENEUtQTE5My1FMDUyMzM2NjgwN0EmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventLadder.aspx?QS=RXZlbnRJRD1FQzY2N0YwRi0yQzBELTRENEUtQTE5My1FMDUyMzM2NjgwN0EmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD01QjhEMDU5Ni1GMzFDLTQxQTktOTM2Ny0wODhBQTUwNTM4ODUmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD01QjhEMDU5Ni1GMzFDLTQxQTktOTM2Ny0wODhBQTUwNTM4ODUmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventLadder.aspx?QS=RXZlbnRJRD01QjhEMDU5Ni1GMzFDLTQxQTktOTM2Ny0wODhBQTUwNTM4ODUmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD04MUU1ODZFRC1ERUEzLTQwMjEtQUZCMC02OTBFRjhCMzAxRjYmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD0wMzdDRjc0OS1GOEY0LTRERkQtOUJEQS02NjUxRTIyNzNEN0YmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD0zREYzMjFGMS1BNUY1LTQ1QUQtOEI0NS01N0VBQjE4NDhFNkMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1BNzA1OTgwMi0yQjdELTQwMjAtODgyRS1BQkMzNUJFMDY4RkUmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD03MjFGM0Y2OC1DRkU4LTQ4QzktOThCRC0zRDZFMTNEODBDNUMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1CRjAzMERGRi01NDMzLTQ2QjEtODNFNi1DMDRBRDY3RTUyQ0EmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD01ODQxNkU4Ni0yNkExLTQyNjQtOThGNi03NjRGM0I0RDM0RTkmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1DRkJERjYxMy1DRkJCLTQ3RDgtQTlCOC04REY2ODJDMjQ2QTkmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD02RDMwQ0U2OC1ERDM1LTRGNzYtOEJFRi1FQjBFM0NDN0UwNDAmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1DQzFCQTUwRi1CMkE4LTQzMzMtODZDRi01MThFRUM3RjY2RUYmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD0zMjdFQjZBMS02MDdBLTQ5QjUtQTg5RC1FQkQxRkU3OThCN0UmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FOTY0QTM3My0wNDQwLTRERjktQjQ1MS01QjZFREREMUNGRTMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FOTY0QTM3My0wNDQwLTRERjktQjQ1MS01QjZFREREMUNGRTMmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventLadder.aspx?QS=RXZlbnRJRD1FOTY0QTM3My0wNDQwLTRERjktQjQ1MS01QjZFREREMUNGRTMmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD02QjE5QTY0MC02MUIyLTRBOUEtQTlDQy00REY3RUEwMTNBRkImTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD04MkY3RTBCOS1EMDBGLTRFMzUtOTE2MC1CQTEwMTM5NkQ5NzkmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD04M0I3QkQ2Qi00NTMyLTQ2N0QtODA4Qi0yMThFMEE5MUZCRjEmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD04M0I3QkQ2Qi00NTMyLTQ2N0QtODA4Qi0yMThFMEE5MUZCRjEmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventLadder.aspx?QS=RXZlbnRJRD04M0I3QkQ2Qi00NTMyLTQ2N0QtODA4Qi0yMThFMEE5MUZCRjEmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD0zQjA4NjczRS03REE3LTRGQkUtOEVDMS0yRTRDMzA5RjdERUMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9"
+      ]
+    },
+    "okna_wynikowe": [
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQzY2N0YwRi0yQzBELTRENEUtQTE5My1FMDUyMzM2NjgwN0EmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 1,
+        "wiersze_tabel": [
+          4
+        ],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 109,
+        "linie_strukturalne": [
+          "Turniej główny: Halowe Mistrzostwa Polski TOP, Od: 2026-03-27 Do: 2026-04-02, Miejsce turnieju:",
+          "Kategoria: 30+ Typ: Gra podwójna; Mieszany, Symbol: XD30",
+          "System turnieju: Grupy - każdy z każdym",
+          "Turniej główny - Faza eliminacyjna. Grupa A"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQzY2N0YwRi0yQzBELTRENEUtQTE5My1FMDUyMzM2NjgwN0EmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 1,
+        "wiersze_tabel": [
+          4
+        ],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 109,
+        "linie_strukturalne": [
+          "Turniej główny: Halowe Mistrzostwa Polski TOP, Od: 2026-03-27 Do: 2026-04-02, Miejsce turnieju:",
+          "Kategoria: 30+ Typ: Gra podwójna; Mieszany, Symbol: XD30",
+          "System turnieju: Grupy - każdy z każdym",
+          "Turniej główny - Faza eliminacyjna. Grupa B"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventLadder.aspx?QS=RXZlbnRJRD1FQzY2N0YwRi0yQzBELTRENEUtQTE5My1FMDUyMzM2NjgwN0EmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 0,
+        "wiersze_tabel": [],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 32,
+        "linie_strukturalne": [
+          "Kategoria: 30+ Typ: Gra podwójna; Mieszany, Symbol: XD30",
+          "System turnieju: Pucharowy",
+          "Turniej główny - Faza finałowa.",
+          "Półfinał",
+          "Finał"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD01QjhEMDU5Ni1GMzFDLTQxQTktOTM2Ny0wODhBQTUwNTM4ODUmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 1,
+        "wiersze_tabel": [
+          4
+        ],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 97,
+        "linie_strukturalne": [
+          "Turniej główny: Halowe Mistrzostwa Polski TOP, Od: 2026-03-27 Do: 2026-04-02, Miejsce turnieju:",
+          "Kategoria: 30+ Typ: Gra pojedyncza; Mężczyźni, Symbol: MS30",
+          "System turnieju: Grupy - każdy z każdym",
+          "Turniej główny - Faza eliminacyjna. Grupa A"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD01QjhEMDU5Ni1GMzFDLTQxQTktOTM2Ny0wODhBQTUwNTM4ODUmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 1,
+        "wiersze_tabel": [
+          4
+        ],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 97,
+        "linie_strukturalne": [
+          "Turniej główny: Halowe Mistrzostwa Polski TOP, Od: 2026-03-27 Do: 2026-04-02, Miejsce turnieju:",
+          "Kategoria: 30+ Typ: Gra pojedyncza; Mężczyźni, Symbol: MS30",
+          "System turnieju: Grupy - każdy z każdym",
+          "Turniej główny - Faza eliminacyjna. Grupa B"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventLadder.aspx?QS=RXZlbnRJRD01QjhEMDU5Ni1GMzFDLTQxQTktOTM2Ny0wODhBQTUwNTM4ODUmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 0,
+        "wiersze_tabel": [],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 24,
+        "linie_strukturalne": [
+          "Kategoria: 30+ Typ: Gra pojedyncza; Mężczyźni, Symbol: MS30",
+          "System turnieju: Pucharowy",
+          "Turniej główny - Faza finałowa.",
+          "Półfinał",
+          "Finał"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD04MUU1ODZFRC1ERUEzLTQwMjEtQUZCMC02OTBFRjhCMzAxRjYmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 1,
+        "wiersze_tabel": [
+          6
+        ],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 260,
+        "linie_strukturalne": [
+          "Turniej główny: Halowe Mistrzostwa Polski TOP, Od: 2026-03-27 Do: 2026-04-02, Miejsce turnieju:",
+          "Kategoria: 30+ Typ: Gra podwójna; Mężczyźni, Symbol: MD30",
+          "System turnieju: Grupy - każdy z każdym",
+          "Turniej główny"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD0wMzdDRjc0OS1GOEY0LTRERkQtOUJEQS02NjUxRTIyNzNEN0YmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 1,
+        "wiersze_tabel": [
+          6
+        ],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 240,
+        "linie_strukturalne": [
+          "Turniej główny: Halowe Mistrzostwa Polski TOP, Od: 2026-03-27 Do: 2026-04-02, Miejsce turnieju:",
+          "Kategoria: 35+ Typ: Gra pojedyncza; Kobiety, Symbol: WS35",
+          "System turnieju: Grupy - każdy z każdym",
+          "Turniej główny"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD0zREYzMjFGMS1BNUY1LTQ1QUQtOEI0NS01N0VBQjE4NDhFNkMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 1,
+        "wiersze_tabel": [
+          6
+        ],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 260,
+        "linie_strukturalne": [
+          "Turniej główny: Halowe Mistrzostwa Polski TOP, Od: 2026-03-27 Do: 2026-04-02, Miejsce turnieju:",
+          "Kategoria: 35+ Typ: Gra podwójna; Kobiety, Symbol: WD35",
+          "System turnieju: Grupy - każdy z każdym",
+          "Turniej główny"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1BNzA1OTgwMi0yQjdELTQwMjAtODgyRS1BQkMzNUJFMDY4RkUmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 1,
+        "wiersze_tabel": [
+          5
+        ],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 175,
+        "linie_strukturalne": [
+          "Turniej główny: Halowe Mistrzostwa Polski TOP, Od: 2026-03-27 Do: 2026-04-02, Miejsce turnieju:",
+          "Kategoria: 40+ Typ: Gra podwójna; Mieszany, Symbol: XD40",
+          "System turnieju: Grupy - każdy z każdym",
+          "Turniej główny"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD03MjFGM0Y2OC1DRkU4LTQ4QzktOThCRC0zRDZFMTNEODBDNUMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 1,
+        "wiersze_tabel": [
+          7
+        ],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 339,
+        "linie_strukturalne": [
+          "Turniej główny: Halowe Mistrzostwa Polski TOP, Od: 2026-03-27 Do: 2026-04-02, Miejsce turnieju:",
+          "Kategoria: 40+ Typ: Gra pojedyncza; Kobiety, Symbol: WS40",
+          "System turnieju: Grupy - każdy z każdym",
+          "Turniej główny"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      },
+      {
+        "url": "https://portal.pzt.pl/Ladder/EventTable.aspx?QS=RXZlbnRJRD1CRjAzMERGRi01NDMzLTQ2QjEtODNFNi1DMDRBRDY3RTUyQ0EmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9",
+        "tytul": "",
+        "liczba_tabel": 1,
+        "wiersze_tabel": [
+          5
+        ],
+        "liczba_draw_frame": 0,
+        "liczba_draw": 0,
+        "liczba_form": 1,
+        "liczba_input": 175,
+        "linie_strukturalne": [
+          "Turniej główny: Halowe Mistrzostwa Polski TOP, Od: 2026-03-27 Do: 2026-04-02, Miejsce turnieju:",
+          "Kategoria: 40+ Typ: Gra podwójna; Mężczyźni, Symbol: MD40",
+          "System turnieju: Grupy - każdy z każdym",
+          "Turniej główny"
+        ],
+        "linki_strukturalne": [],
+        "popup_urls": []
+      }
+    ]
+  },
+  "kluby_org": [
+    {
+      "nazwa": "Debel Mikst 40+ Zima z Wars-em 2025/26",
+      "kategorie": "DEBEL MIKST +40",
+      "url": "https://kluby.org/turnieje/10368",
+      "podstrony": {
+        "wyniki": {
+          "url": "https://kluby.org/turnieje/10368/wyniki",
+          "tytul": "Debel Mikst 40+ Zima z Wars-em 2025/26 - TENIS - Baza turniejów | Kluby.org",
+          "liczba_tabel": 11,
+          "wiersze_tabel": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "liczba_draw_frame": 1,
+          "liczba_draw": 2,
+          "liczba_form": 0,
+          "liczba_input": 0,
+          "linie_strukturalne": [
+            "Wyniki",
+            "Mecze",
+            "Grupa A",
+            "Grupa B",
+            "Grupa C",
+            "Drabinka finałowa",
+            "1/4 finału",
+            "1/2 finału",
+            "finał"
+          ],
+          "linki_strukturalne": [
+            {
+              "tekst": "Logowanie",
+              "href": "https://kluby.org/logowanie?page=%2Fturnieje%2F10368%2Fwyniki",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10368/wyniki",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10368/wyniki",
+              "onclick": ""
+            },
+            {
+              "tekst": "Mecze",
+              "href": "https://kluby.org/turnieje/10368/mecze",
+              "onclick": ""
+            },
+            {
+              "tekst": "Tabela",
+              "href": "https://kluby.org/turnieje/10368/wyniki#grupa_tabela-35928",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10368/wyniki#grupa_wyniki-35928",
+              "onclick": ""
+            },
+            {
+              "tekst": "Tabela",
+              "href": "https://kluby.org/turnieje/10368/wyniki#grupa_tabela-35929",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10368/wyniki#grupa_wyniki-35929",
+              "onclick": ""
+            },
+            {
+              "tekst": "Tabela",
+              "href": "https://kluby.org/turnieje/10368/wyniki#grupa_tabela-35930",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10368/wyniki#grupa_wyniki-35930",
+              "onclick": ""
+            }
+          ],
+          "popup_urls": []
+        },
+        "mecze": {
+          "url": "https://kluby.org/turnieje/10368/mecze",
+          "tytul": "Debel Mikst 40+ Zima z Wars-em 2025/26 - TENIS - Baza turniejów | Kluby.org",
+          "liczba_tabel": 6,
+          "wiersze_tabel": [
+            30,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "liczba_draw_frame": 0,
+          "liczba_draw": 0,
+          "liczba_form": 0,
+          "liczba_input": 0,
+          "linie_strukturalne": [
+            "Mecze",
+            "Wyniki",
+            "Wynik",
+            "Grupa A",
+            "Grupa B",
+            "Grupa C",
+            "Drabinka finałowa",
+            "1/4 finału",
+            "1/2 finału",
+            "finał"
+          ],
+          "linki_strukturalne": [
+            {
+              "tekst": "Logowanie",
+              "href": "https://kluby.org/logowanie?page=%2Fturnieje%2F10368%2Fmecze",
+              "onclick": ""
+            },
+            {
+              "tekst": "Mecze",
+              "href": "https://kluby.org/turnieje/10368/mecze",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10368/wyniki",
+              "onclick": ""
+            },
+            {
+              "tekst": "Mecze",
+              "href": "https://kluby.org/turnieje/10368/mecze",
+              "onclick": ""
+            }
+          ],
+          "popup_urls": []
+        }
+      }
+    },
+    {
+      "nazwa": "Noworoczny Turniej Mikstowy Ino-Cup 2026",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/10824",
+      "podstrony": {
+        "wyniki": {
+          "url": "https://kluby.org/turnieje/10824/wyniki",
+          "tytul": "Noworoczny Turniej Mikstowy Ino-Cup 2026 - TENIS - Baza turniejów | Kluby.org",
+          "liczba_tabel": 11,
+          "wiersze_tabel": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "liczba_draw_frame": 2,
+          "liczba_draw": 4,
+          "liczba_form": 0,
+          "liczba_input": 0,
+          "linie_strukturalne": [
+            "Wyniki",
+            "Mecze",
+            "Grupa A",
+            "Grupa B",
+            "Grupa C",
+            "Drabinka finałowa",
+            "1/4 finału",
+            "1/2 finału",
+            "finał"
+          ],
+          "linki_strukturalne": [
+            {
+              "tekst": "Logowanie",
+              "href": "https://kluby.org/logowanie?page=%2Fturnieje%2F10824%2Fwyniki",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10824/wyniki",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10824/wyniki",
+              "onclick": ""
+            },
+            {
+              "tekst": "Mecze",
+              "href": "https://kluby.org/turnieje/10824/mecze",
+              "onclick": ""
+            },
+            {
+              "tekst": "Tabela",
+              "href": "https://kluby.org/turnieje/10824/wyniki#grupa_tabela-35921",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10824/wyniki#grupa_wyniki-35921",
+              "onclick": ""
+            },
+            {
+              "tekst": "Tabela",
+              "href": "https://kluby.org/turnieje/10824/wyniki#grupa_tabela-35922",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10824/wyniki#grupa_wyniki-35922",
+              "onclick": ""
+            },
+            {
+              "tekst": "Tabela",
+              "href": "https://kluby.org/turnieje/10824/wyniki#grupa_tabela-35923",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10824/wyniki#grupa_wyniki-35923",
+              "onclick": ""
+            }
+          ],
+          "popup_urls": []
+        },
+        "mecze": {
+          "url": "https://kluby.org/turnieje/10824/mecze",
+          "tytul": "Noworoczny Turniej Mikstowy Ino-Cup 2026 - TENIS - Baza turniejów | Kluby.org",
+          "liczba_tabel": 6,
+          "wiersze_tabel": [
+            23,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "liczba_draw_frame": 0,
+          "liczba_draw": 0,
+          "liczba_form": 0,
+          "liczba_input": 0,
+          "linie_strukturalne": [
+            "Mecze",
+            "Wyniki",
+            "Wynik",
+            "Grupa A",
+            "Grupa B",
+            "Grupa C",
+            "Drabinka finałowa",
+            "1/4 finału",
+            "1/2 finału",
+            "finał"
+          ],
+          "linki_strukturalne": [
+            {
+              "tekst": "Logowanie",
+              "href": "https://kluby.org/logowanie?page=%2Fturnieje%2F10824%2Fmecze",
+              "onclick": ""
+            },
+            {
+              "tekst": "Mecze",
+              "href": "https://kluby.org/turnieje/10824/mecze",
+              "onclick": ""
+            },
+            {
+              "tekst": "Wyniki",
+              "href": "https://kluby.org/turnieje/10824/wyniki",
+              "onclick": ""
+            },
+            {
+              "tekst": "Mecze",
+              "href": "https://kluby.org/turnieje/10824/mecze",
+              "onclick": ""
+            }
+          ],
+          "popup_urls": []
+        }
+      }
+    }
+  ],
+  "plt": [
+    {
+      "nazwa": "1. LIGA. Otwarte Zimowe Mistrzostwa Poznania 2026",
+      "kategoria": "1. Liga",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816/wyniki",
+      "api": [
+        {
+          "url": "https://api.polskaligatenisa.pl/api/V1/rounds/1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816?include=court,settings,timePeriods",
+          "schemat": {
+            "pola_turnieju": [
+              "active",
+              "author_id",
+              "awards",
+              "city",
+              "color",
+              "contact_number",
+              "court",
+              "court_id",
+              "date_round",
+              "description",
+              "game_system",
+              "gaming_sys_id",
+              "id",
+              "is_catering",
+              "is_cup_phase",
+              "is_item_awards",
+              "is_money_awards",
+              "is_permanent",
+              "is_ranking",
+              "is_registration_open",
+              "is_size_ask",
+              "is_taking_part",
+              "is_tv",
+              "keepers",
+              "limit_player",
+              "location",
+              "logo",
+              "max_cup_players",
+              "price",
+              "registered_players_count",
+              "round_bracket_desc",
+              "season_id",
+              "series",
+              "settings",
+              "short_description",
+              "slug",
+              "start_round_date",
+              "summary_ranking",
+              "terms",
+              "timePeriods",
+              "title",
+              "type",
+              "type_ranking_id",
+              "voivodship_id",
+              "weight_point"
+            ],
+            "id": 4816,
+            "slug": "1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816",
+            "gaming_sys_id": 1,
+            "type_ranking_id": 2,
+            "registered_players_count": 12,
+            "is_cup_phase": true
+          }
+        },
+        {
+          "url": "https://api.polskaligatenisa.pl/api/V1/rounds/1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816?include=groups.resultMatches.firstPlayer,groups.resultMatches.secondPlayer",
+          "schemat": {
+            "pola_turnieju": [
+              "active",
+              "author_id",
+              "awards",
+              "city",
+              "color",
+              "contact_number",
+              "court_id",
+              "date_round",
+              "description",
+              "game_system",
+              "gaming_sys_id",
+              "groups",
+              "id",
+              "is_catering",
+              "is_cup_phase",
+              "is_item_awards",
+              "is_money_awards",
+              "is_permanent",
+              "is_ranking",
+              "is_registration_open",
+              "is_size_ask",
+              "is_taking_part",
+              "is_tv",
+              "keepers",
+              "limit_player",
+              "location",
+              "logo",
+              "max_cup_players",
+              "price",
+              "registered_players_count",
+              "round_bracket_desc",
+              "season_id",
+              "series",
+              "short_description",
+              "slug",
+              "start_round_date",
+              "summary_ranking",
+              "terms",
+              "title",
+              "type",
+              "type_ranking_id",
+              "voivodship_id",
+              "weight_point"
+            ],
+            "id": 4816,
+            "slug": "1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816",
+            "gaming_sys_id": 1,
+            "type_ranking_id": 2,
+            "registered_players_count": 12,
+            "is_cup_phase": true,
+            "liczba_grup": 7,
+            "pola_grupy": [
+              "colored_places",
+              "created_at",
+              "groupPlayers",
+              "id",
+              "name",
+              "parent_id",
+              "resultMatches",
+              "slug",
+              "time_id",
+              "time_period_end_date",
+              "time_period_name",
+              "time_period_start_date",
+              "type_id"
+            ],
+            "liczba_meczow_grupowych": 19,
+            "liczba_meczow_z_obiektami_par": 0,
+            "pola_wiersza_tabeli_grupy": [
+              "defeats",
+              "draws",
+              "gem_p",
+              "gem_z",
+              "id",
+              "nick",
+              "number_matches",
+              "order",
+              "pair_id",
+              "player_id",
+              "points",
+              "user_name",
+              "wins"
+            ],
+            "pola_meczu": [
+              "date_match",
+              "firstPair",
+              "firstPlayer",
+              "first_player_id",
+              "group_id",
+              "group_player_id",
+              "id",
+              "is_walkover",
+              "matchDay",
+              "matchday_id",
+              "num_court",
+              "round_id",
+              "rounds",
+              "score",
+              "secondPair",
+              "secondPlayer",
+              "second_player_id",
+              "winnPlayer",
+              "winner_id"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "MIKST. Turniej III Króli w Pile 2026",
+      "kategoria": "Deble i Miksty",
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-turniej-iii-kroli-w-pile-2026-4862/wyniki",
+      "api": [
+        {
+          "url": "https://api.polskaligatenisa.pl/api/V1/rounds/mikst-turniej-iii-kroli-w-pile-2026-4862?include=court,settings,timePeriods",
+          "schemat": {
+            "pola_turnieju": [
+              "active",
+              "author_id",
+              "awards",
+              "city",
+              "color",
+              "contact_number",
+              "court",
+              "court_id",
+              "date_round",
+              "description",
+              "game_system",
+              "gaming_sys_id",
+              "id",
+              "is_catering",
+              "is_cup_phase",
+              "is_item_awards",
+              "is_money_awards",
+              "is_permanent",
+              "is_ranking",
+              "is_registration_open",
+              "is_size_ask",
+              "is_taking_part",
+              "is_tv",
+              "keepers",
+              "limit_player",
+              "location",
+              "logo",
+              "max_cup_players",
+              "price",
+              "registered_players_count",
+              "round_bracket_desc",
+              "season_id",
+              "series",
+              "settings",
+              "short_description",
+              "slug",
+              "start_round_date",
+              "summary_ranking",
+              "terms",
+              "timePeriods",
+              "title",
+              "type",
+              "type_ranking_id",
+              "voivodship_id",
+              "weight_point"
+            ],
+            "id": 4862,
+            "slug": "mikst-turniej-iii-kroli-w-pile-2026-4862",
+            "gaming_sys_id": 1,
+            "type_ranking_id": 11,
+            "registered_players_count": 20,
+            "is_cup_phase": true
+          }
+        }
+      ]
+    },
+    {
+      "nazwa": "DEBEL. Zimowe Mistrzostwa Wielkopolski - Debel Kobiet 2026",
+      "kategoria": "Deble i Miksty",
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-zimowe-mistrzostwa-wielkopolski-debel-kobiet-2026-4875/wyniki",
+      "api": [
+        {
+          "url": "https://api.polskaligatenisa.pl/api/V1/rounds/debel-zimowe-mistrzostwa-wielkopolski-debel-kobiet-2026-4875?include=court,settings,timePeriods",
+          "schemat": {
+            "pola_turnieju": [
+              "active",
+              "author_id",
+              "awards",
+              "city",
+              "color",
+              "contact_number",
+              "court",
+              "court_id",
+              "date_round",
+              "description",
+              "game_system",
+              "gaming_sys_id",
+              "id",
+              "is_catering",
+              "is_cup_phase",
+              "is_item_awards",
+              "is_money_awards",
+              "is_permanent",
+              "is_ranking",
+              "is_registration_open",
+              "is_size_ask",
+              "is_taking_part",
+              "is_tv",
+              "keepers",
+              "limit_player",
+              "location",
+              "logo",
+              "max_cup_players",
+              "price",
+              "registered_players_count",
+              "round_bracket_desc",
+              "season_id",
+              "series",
+              "settings",
+              "short_description",
+              "slug",
+              "start_round_date",
+              "summary_ranking",
+              "terms",
+              "timePeriods",
+              "title",
+              "type",
+              "type_ranking_id",
+              "voivodship_id",
+              "weight_point"
+            ],
+            "id": 4875,
+            "slug": "debel-zimowe-mistrzostwa-wielkopolski-debel-kobiet-2026-4875",
+            "gaming_sys_id": 1,
+            "type_ranking_id": 11,
+            "registered_players_count": 16,
+            "is_cup_phase": true
+          }
+        }
+      ]
+    }
+  ],
+  "cuply": [
+    {
+      "nazwa": "DUO ZOOM & BREJK Open III",
+      "url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iii",
+      "zakladki": {
+        "Informacje": {
+          "tables": 0,
+          "rows": 0,
+          "cards": 0,
+          "grids": 0,
+          "svgs": 13,
+          "linie_strukturalne": [
+            "Grupy",
+            "Fazy pucharowe",
+            "Wyniki",
+            "Grupowy + pucharowy"
+          ]
+        },
+        "Pary": {
+          "tables": 1,
+          "rows": 9,
+          "cards": 0,
+          "grids": 0,
+          "svgs": 24,
+          "linie_strukturalne": [
+            "Grupy",
+            "Fazy pucharowe",
+            "Wyniki"
+          ]
+        },
+        "Grupy": {
+          "tables": 4,
+          "rows": 28,
+          "cards": 0,
+          "grids": 1,
+          "svgs": 25,
+          "linie_strukturalne": [
+            "Grupy",
+            "Fazy pucharowe",
+            "Wyniki",
+            "Grupa A",
+            "Grupa B"
+          ]
+        },
+        "Fazy pucharowe": {
+          "tables": 4,
+          "rows": 28,
+          "cards": 0,
+          "grids": 1,
+          "svgs": 25,
+          "linie_strukturalne": [
+            "Grupy",
+            "Fazy pucharowe",
+            "Wyniki",
+            "PÓŁFINAŁY",
+            "2 mecze",
+            "FINAŁ",
+            "1 mecz"
+          ]
+        },
+        "Wyniki": {
+          "tables": 5,
+          "rows": 35,
+          "cards": 0,
+          "grids": 1,
+          "svgs": 25,
+          "linie_strukturalne": [
+            "Grupy",
+            "Fazy pucharowe",
+            "Wyniki",
+            "Grupa A",
+            "Grupa B",
+            "Półfinały",
+            "Finał",
+            "# MECZ WYNIK DATA KORT"
+          ]
+        }
+      },
+      "wywolania_sieciowe_cuply": [
+        "https://cuply.pl/livewire-455adfad/update"
+      ]
+    },
+    {
+      "nazwa": "GARDENIA - DUO ZOOM Tenis CUP VII",
+      "url": "https://cuply.pl/turnieje/gardenia-duo-zoom-tenis-cup-vii",
+      "zakladki": {
+        "Informacje": {
+          "tables": 0,
+          "rows": 0,
+          "cards": 0,
+          "grids": 0,
+          "svgs": 13,
+          "linie_strukturalne": [
+            "Grupy",
+            "Fazy pucharowe",
+            "Wyniki",
+            "Grupowy + pucharowy"
+          ]
+        },
+        "Pary": {
+          "tables": 1,
+          "rows": 9,
+          "cards": 0,
+          "grids": 0,
+          "svgs": 25,
+          "linie_strukturalne": [
+            "Grupy",
+            "Fazy pucharowe",
+            "Wyniki"
+          ]
+        },
+        "Grupy": {
+          "tables": 4,
+          "rows": 28,
+          "cards": 0,
+          "grids": 1,
+          "svgs": 26,
+          "linie_strukturalne": [
+            "Grupy",
+            "Fazy pucharowe",
+            "Wyniki",
+            "Grupa A",
+            "Grupa B"
+          ]
+        },
+        "Fazy pucharowe": {
+          "tables": 4,
+          "rows": 28,
+          "cards": 0,
+          "grids": 1,
+          "svgs": 26,
+          "linie_strukturalne": [
+            "Grupy",
+            "Fazy pucharowe",
+            "Wyniki",
+            "PÓŁFINAŁY",
+            "2 mecze",
+            "FINAŁ",
+            "1 mecz"
+          ]
+        },
+        "Wyniki": {
+          "tables": 5,
+          "rows": 35,
+          "cards": 0,
+          "grids": 1,
+          "svgs": 26,
+          "linie_strukturalne": [
+            "Grupy",
+            "Fazy pucharowe",
+            "Wyniki",
+            "Grupa A",
+            "Grupa B",
+            "Półfinały",
+            "Finał",
+            "# MECZ WYNIK DATA KORT"
+          ]
+        }
+      },
+      "wywolania_sieciowe_cuply": [
+        "https://cuply.pl/livewire-455adfad/update"
+      ]
+    }
+  ]
+}
