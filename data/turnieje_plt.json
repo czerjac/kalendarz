@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-08T08:54:02+00:00",
+  "pobrano_utc": "2026-09-09T08:59:55+00:00",
   "liczba_turniejow": 53,
   "kategorie_sprawdzone": [
     {
@@ -77,15 +77,6 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Obornik 2026",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Oborniki",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-obornik-2026-5565"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Prestige Court 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -118,33 +109,6 @@
       "data_do": "2026-09-12",
       "miasto": "Sędziszów Małopolski",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-sedziszowa-malopolskiego-2026-5544"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Mistrzostwa Wejherowa 2026",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "Wejherowo",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-mistrzostwa-wejherowa-2026-5549"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Mistrzostwa Wejherowa 2026",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "Wejherowo",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-mistrzostwa-wejherowa-2026-5540"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "Kategorie wiekowe",
-      "nazwa": "PLT 50+. Otwarte Mistrzostwa Wejherowa 2026",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "Wejherowo",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-50-otwarte-mistrzostwa-wejherowa-2026-5550"
     },
     {
       "zrodlo": "PLT",
@@ -230,7 +194,34 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Tenis Zone Tour IV 2026",
+      "nazwa": "1. LIGA. Otwarte Mistrzostwa Wejherowa 2026",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "Wejherowo",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-mistrzostwa-wejherowa-2026-5549"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Mistrzostwa Wejherowa 2026",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "Wejherowo",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-mistrzostwa-wejherowa-2026-5540"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "Kategorie wiekowe",
+      "nazwa": "PLT 50+. Otwarte Mistrzostwa Wejherowa 2026",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "Wejherowo",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-50-otwarte-mistrzostwa-wejherowa-2026-5550"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Tenis Zone Tour IV 2026- Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
       "miasto": "Łódź",
@@ -239,7 +230,7 @@
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Tenis Zone Tour IV 2026",
+      "nazwa": "2. LIGA. Tenis Zone Tour IV 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
       "miasto": "Łódź",
@@ -338,7 +329,7 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Olesnica Closing Season Cup 2026",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu OKT Oleśnica 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "miasto": "Oleśnica",
@@ -347,7 +338,7 @@
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Olesnica Closing Season Cup 2026",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu OKT Oleśnica 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "miasto": "Oleśnica",
@@ -442,6 +433,15 @@
       "data_do": "2026-09-26",
       "miasto": "Chełmek k. Oświęcimia",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-moksir-chelmek-2026-5570"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Rakietmania 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Lublin",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-rakietmania-2026-kwalifikacje-do-krajowych-mistrzostw-5584"
     },
     {
       "zrodlo": "PLT",

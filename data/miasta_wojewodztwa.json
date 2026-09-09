@@ -4,25 +4,25 @@
       "miasto": "Białystok",
       "wojewodztwo": "podlaskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "chorzow": {
       "miasto": "Chorzów",
       "wojewodztwo": "śląskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "czestochowa": {
       "miasto": "Częstochowa",
       "wojewodztwo": "śląskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "doluje": {
       "miasto": "Dołuje",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "garwolin": {
       "miasto": "Garwolin",
@@ -34,273 +34,279 @@
       "miasto": "Gdańsk",
       "wojewodztwo": "pomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "gorzow wielkopolski": {
       "miasto": "Gorzów Wielkopolski",
       "wojewodztwo": "lubuskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "gryfino": {
       "miasto": "Gryfino",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "kedzierzyn kozle": {
       "miasto": "KEDZIERZYN-KOZLE",
       "wojewodztwo": "opolskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "kielce": {
       "miasto": "Kielce",
       "wojewodztwo": "świętokrzyskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "koszalin": {
       "miasto": "Koszalin",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "kolobrzeg": {
       "miasto": "Kołobrzeg",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "krakow": {
       "miasto": "Kraków",
       "wojewodztwo": "małopolskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "minsk mazowiecki": {
       "miasto": "Mińsk Mazowiecki",
       "wojewodztwo": "mazowieckie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "myszkow": {
       "miasto": "Myszków",
       "wojewodztwo": "śląskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "myslenice": {
       "miasto": "Myślenice",
       "wojewodztwo": "małopolskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "nowa sol": {
       "miasto": "Nowa Sól",
       "wojewodztwo": "lubuskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "oborniki": {
       "miasto": "Oborniki",
       "wojewodztwo": "wielkopolskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "olesno": {
       "miasto": "Olesno",
       "wojewodztwo": "opolskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "otwock": {
       "miasto": "Otwock",
       "wojewodztwo": "mazowieckie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "olawa": {
       "miasto": "Oława",
       "wojewodztwo": "dolnośląskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "pisz": {
       "miasto": "Pisz",
       "wojewodztwo": "warmińsko-mazurskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "polczyn zdroj": {
       "miasto": "Połczyn -Zdrój",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "rzeszow": {
       "miasto": "Rzeszów",
       "wojewodztwo": "podkarpackie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "radom": {
       "miasto": "Radom",
       "wojewodztwo": "mazowieckie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "rumia": {
       "miasto": "Rumia",
       "wojewodztwo": "pomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "sieradz": {
       "miasto": "Sieradz",
       "wojewodztwo": "łódzkie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "skarzysko kamienna": {
       "miasto": "Skarżysko-Kamienna",
       "wojewodztwo": "świętokrzyskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "sopot": {
       "miasto": "Sopot",
       "wojewodztwo": "pomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "stargard": {
       "miasto": "Stargard",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "szamotuly": {
       "miasto": "Szamotuły",
       "wojewodztwo": "wielkopolskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "szczecin": {
       "miasto": "Szczecin",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "szczecin mierzyn": {
       "miasto": "Szczecin / Mierzyn",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "sztum": {
       "miasto": "Sztum",
       "wojewodztwo": "pomorskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "sedziszow malopolski": {
       "miasto": "Sędziszów Małopolski",
       "wojewodztwo": "podkarpackie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "warszawa": {
       "miasto": "Warszawa",
       "wojewodztwo": "mazowieckie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "wejherowo": {
       "miasto": "Wejherowo",
       "wojewodztwo": "pomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "zamosc": {
       "miasto": "Zamość",
       "wojewodztwo": "lubelskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:12+00:00"
     },
     "lomza": {
       "miasto": "Łomża",
       "wojewodztwo": "podlaskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:12+00:00"
     },
     "lodz": {
       "miasto": "Łódź",
       "wojewodztwo": "łódzkie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:12+00:00"
     },
     "zyrardow": {
       "miasto": "Żyrardów",
       "wojewodztwo": "mazowieckie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:12+00:00"
     },
     "barlinek": {
       "miasto": "Barlinek",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "chelmek k oswiecimia": {
       "miasto": "Chełmek k. Oświęcimia",
       "wojewodztwo": "małopolskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "konin": {
       "miasto": "Konin",
       "wojewodztwo": "wielkopolskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "krosno": {
       "miasto": "Krosno",
       "wojewodztwo": "podkarpackie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:08+00:00"
     },
     "olesnica": {
       "miasto": "Oleśnica",
       "wojewodztwo": "dolnośląskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "piaseczno": {
       "miasto": "PIASECZNO",
       "wojewodztwo": "mazowieckie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     },
     "zawiercie": {
       "miasto": "Zawiercie",
       "wojewodztwo": "śląskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:12+00:00"
     },
     "leczna": {
       "miasto": "Łęczna",
       "wojewodztwo": "lubelskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:12+00:00"
     },
     "olsztyn": {
       "miasto": "Olsztyn",
       "wojewodztwo": "warmińsko-mazurskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-09-08T15:52:31+00:00"
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
+    },
+    "lublin": {
+      "miasto": "Lublin",
+      "wojewodztwo": "lubelskie",
+      "metoda": "reczna_regula",
+      "aktualizacja_utc": "2026-09-09T09:00:10+00:00"
     }
   },
-  "aktualizacja_utc": "2026-09-08T15:52:31+00:00",
-  "liczba_miast": 50
+  "aktualizacja_utc": "2026-09-09T09:00:12+00:00",
+  "liczba_miast": 51
 }

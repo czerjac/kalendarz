@@ -1,7 +1,7 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-08T08:54:12+00:00",
-  "liczba_turniejow": 48,
+  "pobrano_utc": "2026-09-09T09:00:07+00:00",
+  "liczba_turniejow": 50,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
@@ -9,7 +9,7 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 11
+      "liczba": 13
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -62,16 +62,6 @@
       "miejsce": "Garwolińska Akademia Tenisowa, Garwolin",
       "kategorie": "OPEN JUNIORZY U12 JUNIORZY U18",
       "url": "https://kluby.org/turnieje/12167"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Deblowe Mistrzostwa Rumi",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Rumia",
-      "miejsce": "TKKF Orzeł Rumia, Rumia",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12056"
     },
     {
       "zrodlo": "Kluby.org",
@@ -205,6 +195,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Rybienko Open Series MASTERS 2026 - SINGIEL Vol.5",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19",
+      "miasto": "Wyszków",
+      "miejsce": "Tenis w Rybienku Leśnym, Wyszków",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12173"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Turniej Mikstowy",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -272,6 +272,16 @@
       "miejsce": "TKKF Wars, Warszawa",
       "kategorie": "DEBEL MIKST",
       "url": "https://kluby.org/turnieje/11386"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej Singlowy",
+      "data_od": "2026-10-04",
+      "data_do": "2026-10-04",
+      "miasto": "Żyrardów",
+      "miejsce": "Matchpoint Żyrardów, Żyrardów",
+      "kategorie": "OPEN (Męski) KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/12174"
     },
     {
       "zrodlo": "Kluby.org",
@@ -352,6 +362,16 @@
       "miejsce": "Szkoła Tenisa Break, Warszawa",
       "kategorie": "KOBIETY OPEN",
       "url": "https://kluby.org/turnieje/11956"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES GMP Single Cup OPEN",
+      "data_od": "2026-10-31",
+      "data_do": "2026-10-31",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12171"
     },
     {
       "zrodlo": "Kluby.org",

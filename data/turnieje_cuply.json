@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-09-08T08:53:44+00:00",
+  "pobrano_utc": "2026-09-09T08:59:36+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -29,19 +29,6 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/futures-koszalin-i-do-25-ntrp-dla-poczatkujacych"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Koszalin Masters (zaawansowani amatorzy)",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Koszalin",
-      "miejsce": "Bałtyk Tenis, Koszalin",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/koszalin-masters-i-dla-zaawansowanych-amatorow"
     },
     {
       "zrodlo": "Cuply",
@@ -94,6 +81,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Stargard IV dla średniozaawansowanych (do 4.0 NTRP)",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Stargard",
+      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-stargard-iv-dla-sredniozaawansowanych-do-40-ntrp"
     },
     {
       "zrodlo": "Cuply",

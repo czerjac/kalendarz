@@ -1,5 +1,62 @@
 {
-  "aktualizacja_utc": "2026-09-08T15:52:36+00:00",
-  "liczba_nierozpoznanych_miast": 0,
-  "miasta": []
+  "aktualizacja_utc": "2026-09-09T09:01:21+00:00",
+  "liczba_nierozpoznanych_miast": 3,
+  "miasta": [
+    {
+      "miasto": "Kamień",
+      "powod": "niejednoznaczna_nazwa_miejscowosci"
+    },
+    {
+      "miasto": "Leszno",
+      "powod": "brak_jednoznacznego_wojewodztwa",
+      "dowody": [
+        {
+          "display_name": "Leszno, województwo wielkopolskie, Polska",
+          "wojewodztwo": "wielkopolskie"
+        },
+        {
+          "display_name": "Leszno, województwo wielkopolskie, Polska",
+          "wojewodztwo": "wielkopolskie"
+        },
+        {
+          "display_name": "Leszno, gmina Leszno, powiat warszawski zachodni, województwo mazowieckie, 05-084, Polska",
+          "wojewodztwo": "mazowieckie"
+        },
+        {
+          "display_name": "Leszno, Kiełpino, gmina Kartuzy, powiat kartuski, województwo pomorskie, 83-307, Polska",
+          "wojewodztwo": "pomorskie"
+        },
+        {
+          "display_name": "Leszno, gmina Barczewo, powiat olsztyński, województwo warmińsko-mazurskie, 11-010, Polska",
+          "wojewodztwo": "warmińsko-mazurskie"
+        }
+      ]
+    },
+    {
+      "miasto": "Wyszków",
+      "powod": "brak_jednoznacznego_wojewodztwa",
+      "dowody": [
+        {
+          "display_name": "Wyszków, gmina Wyszków, powiat wyszkowski, województwo mazowieckie, Polska",
+          "wojewodztwo": "mazowieckie"
+        },
+        {
+          "display_name": "Wyszków, gmina Liw, powiat węgrowski, województwo mazowieckie, 07-100, Polska",
+          "wojewodztwo": "mazowieckie"
+        },
+        {
+          "display_name": "Wyszków, gmina Bogatynia, powiat zgorzelecki, województwo dolnośląskie, Polska",
+          "wojewodztwo": "dolnośląskie"
+        },
+        {
+          "display_name": "Wyszków, gmina Wyszków, powiat wyszkowski, województwo mazowieckie, 02-700, Polska",
+          "wojewodztwo": "mazowieckie"
+        },
+        {
+          "display_name": "powiat wyszkowski, województwo mazowieckie, Polska",
+          "wojewodztwo": "mazowieckie"
+        }
+      ]
+    }
+  ]
 }

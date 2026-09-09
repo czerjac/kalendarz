@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-08T08:53:43+00:00",
-  "liczba_turniejow": 17,
+  "pobrano_utc": "2026-09-09T08:59:34+00:00",
+  "liczba_turniejow": 19,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -63,6 +63,16 @@
       "ranga": "3",
       "kategorie": "55+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=34B357C3-2123-48AD-A548-DA87307DB2AD"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "MISTRZOSTWA RZESZOWA",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-13",
+      "miasto": "RZESZÓW",
+      "ranga": "3",
+      "kategorie": "40+, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=AAC7C0C0-F48A-4F5A-B2D8-2AF775FFF636"
     },
     {
       "zrodlo": "PZT TOP",
@@ -173,6 +183,16 @@
       "ranga": "2",
       "kategorie": "45+, 60+, Open Amator, Open",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=33496672-4633-4B65-B2DD-11343A2FC8B0"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "XXVII Halowe Mistrzostwa Polski Lekarzy w Tenisie",
+      "data_od": "2026-11-12",
+      "data_do": "2026-11-15",
+      "miasto": "Leszno",
+      "ranga": "3",
+      "kategorie": "35+, 40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, 80+, 85+, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=174259E0-AC22-4CE7-8DEC-CEADFDD48DBD"
     }
   ]
 }
