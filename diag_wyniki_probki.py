@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -17,7 +17,12 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0 Safari/537.36"
     )
 }
-KEYWORDS = re.compile(r"wynik|drabink|mecz|grup|faza|play.?off|zwyci|klasyfik", re.I)
+STRUCT_RE = re.compile(
+    r"grup|faza|puchar|drabink|mecz|wynik|fina|ćwierć|cwierc|półfina|polfina|"
+    r"turniej główny|turniej glowny|system turnieju|gra pojedyncza|gra podwójna|mieszany",
+    re.I,
+)
+POPUP_RE = re.compile(r"popUpGroup\(['\"]([^'\"]+)['\"]\)", re.I)
 
 
 def load(path: Path, default):
@@ -31,205 +36,323 @@ def clean(value) -> str:
     return " ".join(str(value or "").replace("\xa0", " ").split())
 
 
-def clip(value: str, limit: int = 20000) -> str:
-    value = value or ""
-    return value if len(value) <= limit else value[:limit] + "\n...[ucięto]"
+def get(url: str, timeout: int = 40) -> requests.Response:
+    r = requests.get(url, headers=HEADERS, timeout=timeout)
+    r.raise_for_status()
+    r.encoding = r.apparent_encoding or "utf-8"
+    return r
 
 
-def uniq_samples(rows: list[dict], limit: int) -> list[dict]:
-    out = []
+def structural_lines(text: str, limit: int = 80) -> list[str]:
+    lines = []
     seen = set()
-    for row in rows:
-        url = clean(row.get("url"))
-        if not url or url in seen:
+    for raw in (text or "").splitlines():
+        line = clean(raw)
+        if not line or not STRUCT_RE.search(line):
             continue
-        seen.add(url)
-        out.append(row)
-        if len(out) >= limit:
+        # Nie zapisujemy długich wierszy zawierających dane osób; interesują nas etykiety struktury.
+        if len(line) > 180:
+            continue
+        if line not in seen:
+            seen.add(line)
+            lines.append(line)
+        if len(lines) >= limit:
             break
+    return lines
+
+
+def html_shape(html: str, base_url: str) -> dict:
+    soup = BeautifulSoup(html, "html.parser")
+    text = soup.get_text("\n", strip=True)
+    links = []
+    popup_urls = []
+    for el in soup.find_all(["a", "button"]):
+        label = clean(el.get_text(" ", strip=True))
+        href = clean(el.get("href"))
+        onclick = clean(el.get("onclick"))
+        blob = " ".join([label, href, onclick])
+        if STRUCT_RE.search(blob):
+            links.append({
+                "tekst": label[:120],
+                "href": urljoin(base_url, href) if href and not href.lower().startswith("javascript:") else href,
+                "onclick": onclick[:300],
+            })
+        for value in [href, onclick]:
+            m = POPUP_RE.search(value or "")
+            if m:
+                popup_urls.append(urljoin(base_url, m.group(1)))
+    table_rows = [len(t.find_all("tr")) for t in soup.find_all("table")]
+    return {
+        "tytul": clean(soup.title.get_text(" ", strip=True) if soup.title else ""),
+        "liczba_tabel": len(table_rows),
+        "wiersze_tabel": table_rows[:50],
+        "liczba_draw_frame": len(soup.select(".draw-frame")),
+        "liczba_draw": len(soup.select(".draw")),
+        "liczba_form": len(soup.find_all("form")),
+        "liczba_input": len(soup.find_all("input")),
+        "linie_strukturalne": structural_lines(text),
+        "linki_strukturalne": links[:80],
+        "popup_urls": list(dict.fromkeys(popup_urls))[:80],
+    }
+
+
+def choose_pzt() -> dict:
+    cache = load(ROOT / "pzt_szczegoly.json", {"turnieje": {}}).get("turnieje", {})
+    rows = []
+    for entry in cache.values():
+        data = entry.get("dane", {})
+        rows.append({
+            "nazwa": clean(entry.get("nazwa")),
+            "url": clean(entry.get("url")),
+            "kategorie": clean(data.get("kategorie")),
+            "wyniki": bool(data.get("wyniki_potwierdzone")),
+        })
+    rows.sort(key=lambda x: x["kategorie"].count(","), reverse=True)
+    for row in rows:
+        if "mistrzostw polski" in row["nazwa"].casefold() and row["wyniki"]:
+            return row
+    return next(x for x in rows if x["wyniki"])
+
+
+def probe_pzt() -> dict:
+    sample = choose_pzt()
+    r = get(sample["url"])
+    main = html_shape(r.text, r.url)
+    popup_summaries = []
+    # Kilka reprezentatywnych okien: grupy i drabinki; bez kopiowania nazw zawodników.
+    for popup_url in main.get("popup_urls", [])[:12]:
+        try:
+            pr = get(popup_url)
+            shape = html_shape(pr.text, pr.url)
+            popup_summaries.append({"url": pr.url, **shape})
+        except Exception as exc:
+            popup_summaries.append({"url": popup_url, "blad": f"{type(exc).__name__}: {exc}"})
+    return {
+        "nazwa": sample["nazwa"],
+        "url": sample["url"],
+        "kategorie_zrodlowe": sample["kategorie"],
+        "final_url": r.url,
+        "strona_glowna_wynikow": main,
+        "okna_wynikowe": popup_summaries,
+    }
+
+
+def plt_samples() -> list[dict]:
+    rows = load(ROOT / "zrodla/plt.json", {"turnieje": []}).get("turnieje", [])
+    picks = []
+    rules = [
+        lambda x: clean(x.get("kategoria")).casefold() == "1. liga",
+        lambda x: "MIKST" in clean(x.get("nazwa")).upper(),
+        lambda x: "DEBEL" in clean(x.get("nazwa")).upper(),
+    ]
+    seen = set()
+    for rule in rules:
+        for row in rows:
+            if rule(row) and row.get("url") not in seen:
+                picks.append(row)
+                seen.add(row.get("url"))
+                break
+    return picks
+
+
+def safe_round_summary(payload: dict) -> dict:
+    data = payload.get("data", {}) if isinstance(payload, dict) else {}
+    out = {
+        "pola_turnieju": sorted(data.keys()) if isinstance(data, dict) else [],
+    }
+    if not isinstance(data, dict):
+        return out
+    for key in ["id", "slug", "gaming_sys_id", "type_ranking_id", "registered_players_count", "is_cup_phase"]:
+        if key in data:
+            out[key] = data[key]
+    groups = (data.get("groups") or {}).get("data", []) if isinstance(data.get("groups"), dict) else []
+    if groups:
+        out["liczba_grup"] = len(groups)
+        out["pola_grupy"] = sorted(groups[0].keys())
+        match_count = 0
+        pair_match_count = 0
+        player_row_fields = set()
+        match_fields = set()
+        for group in groups:
+            gp = (group.get("groupPlayers") or {}).get("data", []) if isinstance(group.get("groupPlayers"), dict) else []
+            if gp:
+                player_row_fields.update(gp[0].keys())
+            matches = (group.get("resultMatches") or {}).get("data", []) if isinstance(group.get("resultMatches"), dict) else []
+            match_count += len(matches)
+            for match in matches:
+                match_fields.update(match.keys())
+                first_pair = (match.get("firstPair") or {}).get("data", []) if isinstance(match.get("firstPair"), dict) else []
+                second_pair = (match.get("secondPair") or {}).get("data", []) if isinstance(match.get("secondPair"), dict) else []
+                if first_pair or second_pair:
+                    pair_match_count += 1
+        out["liczba_meczow_grupowych"] = match_count
+        out["liczba_meczow_z_obiektami_par"] = pair_match_count
+        out["pola_wiersza_tabeli_grupy"] = sorted(player_row_fields)
+        out["pola_meczu"] = sorted(match_fields)
+    # Faza pucharowa może występować pod różnymi kluczami zależnie od endpointu.
+    for key in ["cup", "bracket", "brackets", "cupPhase", "cup_phase", "ladder"]:
+        if key in data:
+            value = data[key]
+            out[f"typ_{key}"] = type(value).__name__
+            if isinstance(value, dict):
+                out[f"pola_{key}"] = sorted(value.keys())
+            elif isinstance(value, list):
+                out[f"liczba_{key}"] = len(value)
     return out
 
 
-def choose_samples() -> list[dict]:
-    result: list[dict] = []
+def probe_plt(browser) -> list[dict]:
+    output = []
+    for sample in plt_samples():
+        base = sample["url"].rsplit("/", 1)[0]
+        context = browser.new_context(locale="pl-PL", user_agent=HEADERS["User-Agent"])
+        page = context.new_page()
+        api_urls = []
 
-    # PZT: turniej wielokategoriowy / mistrzostwa + zwykły + przykład bez wyników.
-    pzt_cache = load(ROOT / "pzt_szczegoly.json", {"turnieje": {}}).get("turnieje", {})
-    pzt_rows = []
-    for entry in pzt_cache.values():
-        data = entry.get("dane", {})
-        pzt_rows.append({
-            "zrodlo": "PZT TOP",
-            "nazwa": entry.get("nazwa", ""),
-            "url": entry.get("url", ""),
-            "kategorie": data.get("kategorie", ""),
-            "wyniki_potwierdzone": bool(data.get("wyniki_potwierdzone")),
-        })
-    pzt_rows.sort(key=lambda x: clean(x.get("kategorie")).count(","), reverse=True)
-    pzt_pick = []
-    pzt_pick += [x for x in pzt_rows if "mistrzostw polski" in clean(x.get("nazwa")).casefold()][:2]
-    pzt_pick += [x for x in pzt_rows if x.get("wyniki_potwierdzone")][:2]
-    pzt_pick += [x for x in pzt_rows if not x.get("wyniki_potwierdzone")][:1]
-    result += uniq_samples(pzt_pick, 5)
+        def on_response(response):
+            url = response.url
+            if url.startswith("https://api.polskaligatenisa.pl/api/V1/rounds/") and response.status == 200:
+                api_urls.append(url)
 
-    # PLT: po jednym przykładzie głównych systemów/kategorii.
-    plt_rows = load(ROOT / "zrodla/plt.json", {"turnieje": []}).get("turnieje", [])
-    priorities = ["Puchar PLT", "1. Liga", "2. Liga", "PLT Kobiet", "Deble i Miksty", "Kategorie wiekowe"]
-    for cat in priorities:
-        candidates = [x for x in plt_rows if clean(x.get("kategoria")).casefold() == cat.casefold()]
-        if candidates:
-            result.append(candidates[0])
-    # Jeśli źródłowe etykiety deblowe/mikstowe są bardziej szczegółowe, dobierz po nazwie.
-    for token in ["DEBEL", "MIKST"]:
-        candidates = [x for x in plt_rows if token in clean(x.get("nazwa")).upper()]
-        if candidates:
-            result += uniq_samples(candidates, 1)
-
-    # Cuply: zwykły + potencjalny debel/mikst/grupy.
-    cuply_rows = load(ROOT / "zrodla/cuply.json", {"turnieje": []}).get("turnieje", [])
-    special = [x for x in cuply_rows if re.search(r"debel|mikst|double|mix", clean(x.get("nazwa")), re.I)]
-    result += uniq_samples(special + cuply_rows, 3)
-
-    # Kluby.org: debel/mikst + singiel.
-    kluby_rows = load(ROOT / "zrodla/kluby.json", {"turnieje": []}).get("turnieje", [])
-    special = [x for x in kluby_rows if re.search(r"debel|mikst", clean(x.get("kategorie")) + " " + clean(x.get("nazwa")), re.I)]
-    singles = [x for x in kluby_rows if re.search(r"open|sing", clean(x.get("kategorie")) + " " + clean(x.get("nazwa")), re.I)]
-    result += uniq_samples(special + singles, 3)
-
-    # Usuń duplikaty URL między wszystkimi źródłami.
-    final = []
-    seen = set()
-    for row in result:
-        url = clean(row.get("url"))
-        if not url or url in seen:
-            continue
-        seen.add(url)
-        final.append({
-            "zrodlo": clean(row.get("zrodlo")),
-            "nazwa": clean(row.get("nazwa")),
-            "url": url,
-            "kategoria": clean(row.get("kategoria")),
-            "kategorie": clean(row.get("kategorie")),
-        })
-    return final
-
-
-def static_probe(sample: dict) -> dict:
-    url = sample["url"]
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=35)
-        r.raise_for_status()
-        r.encoding = r.apparent_encoding or "utf-8"
-        soup = BeautifulSoup(r.text, "html.parser")
-        body = clean(soup.get_text("\n", strip=True))
-        links = []
-        for a in soup.find_all(["a", "button", "input"]):
-            text = clean(a.get_text(" ", strip=True) or a.get("value") or a.get("title"))
-            href = clean(a.get("href"))
-            onclick = clean(a.get("onclick"))
-            blob = " ".join([text, href, onclick])
-            if KEYWORDS.search(blob):
-                links.append({"text": text, "href": href, "onclick": onclick, "target": clean(a.get("target"))})
-        scripts = []
-        for script in soup.find_all("script"):
-            txt = script.string or script.get_text(" ", strip=True)
-            if txt and (KEYWORDS.search(txt) or "window.open" in txt):
-                scripts.append(clip(clean(txt), 4000))
-        return {
-            "status": r.status_code,
-            "final_url": r.url,
-            "content_type": r.headers.get("content-type", ""),
-            "text": clip(body),
-            "relevant_controls": links[:100],
-            "relevant_scripts": scripts[:20],
-        }
-    except Exception as exc:
-        return {"blad": f"{type(exc).__name__}: {exc}"}
-
-
-def browser_probe(browser, sample: dict) -> dict:
-    context = browser.new_context(locale="pl-PL", user_agent=HEADERS["User-Agent"])
-    page = context.new_page()
-    network = []
-
-    def on_response(response):
+        page.on("response", on_response)
         try:
-            req_type = response.request.resource_type
-            content_type = response.headers.get("content-type", "")
-            if req_type not in {"xhr", "fetch"} and "json" not in content_type.lower():
-                return
-            row = {
-                "url": response.url,
-                "status": response.status,
-                "resource_type": req_type,
-                "content_type": content_type,
-            }
+            for suffix in ["wyniki", "grupy", "faza-pucharowa"]:
+                page.goto(f"{base}/{suffix}", wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(2200)
+            summaries = []
+            for api_url in dict.fromkeys(api_urls):
+                try:
+                    ar = get(api_url)
+                    summaries.append({
+                        "url": api_url,
+                        "schemat": safe_round_summary(ar.json()),
+                    })
+                except Exception as exc:
+                    summaries.append({"url": api_url, "blad": f"{type(exc).__name__}: {exc}"})
+            output.append({
+                "nazwa": clean(sample.get("nazwa")),
+                "kategoria": clean(sample.get("kategoria")),
+                "url": sample["url"],
+                "api": summaries,
+            })
+        finally:
+            context.close()
+    return output
+
+
+def cuply_samples() -> list[dict]:
+    rows = load(ROOT / "zrodla/cuply.json", {"turnieje": []}).get("turnieje", [])
+    special = [x for x in rows if re.search(r"debel|mikst|duo", clean(x.get("nazwa")), re.I)]
+    ordinary = [x for x in rows if x not in special]
+    picks = []
+    for row in special + ordinary:
+        if row.get("url") and row.get("url") not in {x.get("url") for x in picks}:
+            picks.append(row)
+        if len(picks) >= 2:
+            break
+    return picks
+
+
+def page_tab_shape(page) -> dict:
+    text = page.locator("body").inner_text(timeout=5000)
+    return page.evaluate(
+        r"""
+        () => ({
+          tables: document.querySelectorAll('table').length,
+          rows: document.querySelectorAll('table tr').length,
+          cards: document.querySelectorAll('[class*="card"], [class*="Card"]').length,
+          grids: document.querySelectorAll('[class*="grid"]').length,
+          svgs: document.querySelectorAll('svg').length
+        })
+        """
+    ) | {"linie_strukturalne": structural_lines(text)}
+
+
+def probe_cuply(browser) -> list[dict]:
+    output = []
+    for sample in cuply_samples():
+        context = browser.new_context(locale="pl-PL", user_agent=HEADERS["User-Agent"])
+        page = context.new_page()
+        network_urls = []
+
+        def on_response(response):
+            u = response.url
+            host = urlparse(u).netloc
+            if host.endswith("cuply.pl") and response.request.resource_type in {"xhr", "fetch"}:
+                network_urls.append(u)
+
+        page.on("response", on_response)
+        try:
+            page.goto(sample["url"], wait_until="domcontentloaded", timeout=60000)
+            page.wait_for_timeout(1800)
+            tabs = {}
+            for label in ["Informacje", "Pary", "Grupy", "Fazy pucharowe", "Wyniki"]:
+                locator = page.get_by_text(label, exact=True)
+                if locator.count() == 0:
+                    continue
+                try:
+                    locator.first.click(timeout=5000)
+                    page.wait_for_timeout(900)
+                    tabs[label] = page_tab_shape(page)
+                except Exception as exc:
+                    tabs[label] = {"blad": f"{type(exc).__name__}: {exc}"}
+            output.append({
+                "nazwa": clean(sample.get("nazwa")),
+                "url": sample["url"],
+                "zakladki": tabs,
+                "wywolania_sieciowe_cuply": list(dict.fromkeys(network_urls))[:80],
+            })
+        finally:
+            context.close()
+    return output
+
+
+def kluby_samples() -> list[dict]:
+    rows = load(ROOT / "zrodla/kluby.json", {"turnieje": []}).get("turnieje", [])
+    special = [x for x in rows if re.search(r"debel|mikst", clean(x.get("kategorie")) + " " + clean(x.get("nazwa")), re.I)]
+    picks = []
+    for row in special:
+        if row.get("url") and row.get("url") not in {x.get("url") for x in picks}:
+            picks.append(row)
+        if len(picks) >= 2:
+            break
+    return picks
+
+
+def probe_kluby() -> list[dict]:
+    output = []
+    for sample in kluby_samples():
+        base = sample["url"].rstrip("/")
+        pages = {}
+        for suffix in ["wyniki", "mecze"]:
+            url = f"{base}/{suffix}"
             try:
-                if any(x in content_type.lower() for x in ["json", "text", "javascript"]):
-                    row["body"] = clip(response.text(), 12000)
-            except Exception:
-                pass
-            network.append(row)
-        except Exception:
-            pass
-
-    page.on("response", on_response)
-    try:
-        page.goto(sample["url"], wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(4500)
-        try:
-            body_text = page.locator("body").inner_text(timeout=5000)
-        except Exception:
-            body_text = ""
-
-        controls = page.evaluate(
-            r"""
-            () => [...document.querySelectorAll('a,button,input[type="button"],input[type="submit"]')]
-              .map(el => ({
-                tag: el.tagName,
-                text: (el.innerText || el.value || el.title || '').replace(/\s+/g,' ').trim(),
-                href: el.href || el.getAttribute('href') || '',
-                onclick: el.getAttribute('onclick') || '',
-                target: el.getAttribute('target') || '',
-                id: el.id || '',
-                cls: el.className || ''
-              }))
-              .filter(x => /wynik|drabink|mecz|grup|faza|play.?off|zwyci|klasyfik/i.test(
-                 [x.text,x.href,x.onclick,x.id,String(x.cls)].join(' ')
-              ))
-              .slice(0,150)
-            """
-        )
-        frames = [f.url for f in page.frames if f.url]
-        return {
-            "final_url": page.url,
-            "title": page.title(),
-            "text": clip(body_text),
-            "relevant_controls": controls,
-            "frames": frames,
-            "network": network[:120],
-        }
-    except Exception as exc:
-        return {"blad": f"{type(exc).__name__}: {exc}", "network": network[:120]}
-    finally:
-        context.close()
+                r = get(url)
+                pages[suffix] = {"url": r.url, **html_shape(r.text, r.url)}
+            except Exception as exc:
+                pages[suffix] = {"url": url, "blad": f"{type(exc).__name__}: {exc}"}
+        output.append({
+            "nazwa": clean(sample.get("nazwa")),
+            "kategorie": clean(sample.get("kategorie")),
+            "url": sample["url"],
+            "podstrony": pages,
+        })
+    return output
 
 
 def main() -> None:
-    samples = choose_samples()
-    payload = {"liczba_probek": len(samples), "probki": []}
+    payload = {
+        "cel": "Rozpoznanie schematów publikacji wyników. Raport zapisuje strukturę, nie pełne dane uczestników ani dane kontaktowe.",
+        "pzt": probe_pzt(),
+        "kluby_org": probe_kluby(),
+    }
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        for i, sample in enumerate(samples, 1):
-            print(f"[{i}/{len(samples)}] {sample['zrodlo']}: {sample['nazwa']}")
-            payload["probki"].append({
-                **sample,
-                "static": static_probe(sample),
-                "browser": browser_probe(browser, sample),
-            })
+        payload["plt"] = probe_plt(browser)
+        payload["cuply"] = probe_cuply(browser)
         browser.close()
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Zapisano {OUT} ({OUT.stat().st_size} B)")
+    print(f"Zapisano bezpieczny raport strukturalny: {OUT} ({OUT.stat().st_size} B)")
 
 
 if __name__ == "__main__":
