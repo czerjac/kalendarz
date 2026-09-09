@@ -30,11 +30,14 @@ jobs:
       - name: Zbierz próbki formatów wyników
         run: python diag_formaty_wynikow.py
 
+      - name: Zbuduj krótkie podsumowanie diagnostyki
+        run: python diag_formaty_podsumowanie.py
+
       - name: Zapisz diagnostykę
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/diagnostyka_wynikow_2026.json
+          git add data/diagnostyka_wynikow_2026.json data/diagnostyka_wynikow_2026_summary.json
           if git diff --cached --quiet; then
             echo "Brak zmian."
           else
