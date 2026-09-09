@@ -1,0 +1,2691 @@
+{
+  "liczba_probek": 15,
+  "probki": [
+    {
+      "label": "PZT_MP_TOP_2026",
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E",
+      "final_url": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E",
+      "error": null,
+      "meta": {},
+      "ma_grupy": true,
+      "ma_drabinke": true,
+      "ma_faze_pucharowa": false,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 5,
+          "tag": "A",
+          "text": "",
+          "href": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E#helpLogin",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "load-local",
+          "name": ""
+        },
+        {
+          "i": 7,
+          "tag": "A",
+          "text": "",
+          "href": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E#helpPass",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "A1",
+          "name": ""
+        },
+        {
+          "i": 21,
+          "tag": "A",
+          "text": "WYNIKI",
+          "href": "https://portal.pzt.pl/Results.aspx",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 25,
+          "tag": "A",
+          "text": "Wyniki",
+          "href": "https://portal.pzt.pl/Results.aspx",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 29,
+          "tag": "A",
+          "text": "Drabinki",
+          "href": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 30,
+          "tag": "A",
+          "text": "Mecze",
+          "href": "https://portal.pzt.pl/TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 33,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1FOTU2OTk1Ny1CRTBCLTRBMTUtQTkxMC0wMjhGNUE5OEZCOTYmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 34,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1CQ0UyNzAxOS1ERkM4LTRBNDYtODQwQy1CRTM4NUU5MTcxNkMmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 35,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0yMTNBQkY2MC00NkQ1LTQ3MEMtQkVBNC1BMkUzM0M1OUNGODYmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 36,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD05QUMxMDY0NC05NDZBLTQ3RDMtOEIwNy0wODQwMTFGRjgwRDQmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 37,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0yODY0OUEwMi03MTY2LTRCNUEtQkNDQy05MDE5MDM0NjE2MEImTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 38,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1BMEEwQUM5Mi01RDFCLTQ3MUUtOTVBMS1FQ0U0RTg1OTczRkYmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 39,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD00Qjg0OTg2MS1BRDI0LTQzMEYtQTg4Qi0wRkQwN0EyNTc5NjcmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 40,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04ODdBRjEyRS1DMTBBLTRBRDMtOEI4Ri0zRjFEMkYyRkVCOTcmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 41,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1CQjFCMTdGMC1DMjY1LTQ3OEEtQjM5Qi01MUUzMzMzODQwQTAmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 42,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD02MDc5OUMzNi00NzIwLTRGQUEtOTM0MS05MkQxMDVCMUZBQzkmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 43,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1ERDE2MjYzNi03MjlCLTQyRjMtQUIxRC1ENzA1QTkwRkM0QjImTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 44,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0zQkQ5QjQ1NS04Q0QxLTQ1QzUtQkNDRS1FNUUyQjI2OTdGODImTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 45,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD05OTNFNjQwQS05NTM4LTRERjEtQjRFMC02ODlCRUY4NDU1MEEmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 46,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1GQzBBNzc1Ri0yMTYzLTQzNTMtOENDOS00Qjk3NjZFM0RBODkmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 47,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1FNzMwNTBCRS0wMTBGLTREOUYtOEY2Qi02NEQ2QTlEQzM5NjQmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 48,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD00Nzg5MjIxRS00RUY3LTQyQTgtQUFFMi0xRENGQURDREU4RTMmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 49,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1ENjYwQjlGNC02MkYxLTQwODktOENEQS1BRjNBRDhGRjAxMDUmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 50,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1BNUMyMEQ3Qy0zODdELTRGMTgtOTBDOS03QkFERDY1QTUwN0QmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 52,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1GOTM5QkYwNi01NDE2LTQ4RTQtQjVDMS1BQzQ0ODk0M0M2QzUmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 54,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1CQkMzNTUwOC1ERDQ5LTQwMzgtOTQ2NC1EQThBNDM3NTczRDMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 55,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04MTk3NjFFQy1ERTJFLTQwRjMtOEM1MS1FQjkzQzkyQzk0NTYmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 56,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1DRkI1RUJFQy02RjQ2LTRCMTktQjQ2Qy1CMjJGN0YwN0FFNkEmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 57,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04QkNGNkU1MS0xMUVBLTQyMTctQkUwQy00NThEQkM4RTYyNzMmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 58,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0yRTc5ODQyMy01NURGLTQ5QTAtQURFNS0xMzNDMUU5NDU5REUmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 59,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD01NjZBNEExMi04RjQ0LTQ3QzYtODdDOS04Qzg5MUJBMDc2QTgmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 60,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD02NUY1NUQ4Ni0wREE3LTRGMDUtOTIwNi0wNUI3OTU3REVCRDEmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 61,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0wQTdDREU2MS0zRDU2LTQzOEEtQjI3OC1BRkRGNUQxQzQxRDMmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 63,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD01QThGRDkzOC01RTY2LTQwMkItOTFGMi0wMDUzRTZCODk2REYmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 64,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD02ODcwODA2Ni03RTRGLTQzNEUtOUFCMC1FMzZEQzlFN0M5N0UmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 65,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD05OUE1MDlGNy0xOTlGLTRCRDgtQTcyMS1FNDRGQkIyRjMzRTYmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 67,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD05RjE0MUNCMy04QUY5LTQzNUMtOUYxNi1DNkE1RDY4RTNDNTAmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 69,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD0wMTQ5QURDQi1CQTk2LTQ3RjYtODkzQi04RjNFNTQ5Qzc0ODcmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 70,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04NUExQTE0Ni00NUUxLTRERDctODRFNC00NjQ5M0UwQzRENUMmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 71,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1CNTAyMjE4OC04RDM1LTRDRjgtQkEwMC0wMjZCMjU5QzFEOUMmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 72,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD02RDU1OUY2Ni0zNzcyLTQ5NjctOTk5Ny1EQUI0NUNDMzBFNjEmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 73,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0zRkZENzk0Ri0wODJELTRBRTctOEQzQi1FMUFGNkMwQTY5NjImTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 74,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0xRUMzNEY3NS1FRURBLTRBNjEtQUI0OS0xREFEMEQ1RjFDNjcmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 75,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD03M0RCRjdFQy03N0NFLTRENzktODJFMS05NEQ5NjZFQUJCOUUmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 77,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD04RURBN0NFNy1CMDNBLTQyNDQtQTMwOC0xRjRCRTQ0MTFEMUMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 78,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1DRTVCODFGMC04RjNFLTRENkMtODUyNS00NDU2REE2NkVDMEImTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 79,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1CQ0I1RTYxMi0yMzY3LTRDRkUtODg2Mi04N0ZGRjk2MkNBNTkmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 80,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1EN0QwNzMxRS0yQjBELTQxOEItQjdBNi00RDkyODRDMkI2QkUmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 81,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD05MTQ4MjY2Qi1FNTZFLTRFRTgtQjFDMy1BMTFCRUVFN0NCRTEmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 82,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0xNjA0NzRBMC01QjQwLTQ2NTQtQkY5MC00QUY4OTIwQThBQkYmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 83,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1BMjNEMzdDMS0wMTJBLTRFRkItQjYwMS01REUxOTUzOEM5QjkmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 84,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0wNTE3QTM1Ri1DNDMzLTRFOTMtODUwNi1ERUFFRTc5NDVDMEQmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 85,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04QTE5QzE3MS05ODNGLTQ5RUYtODA2OC05RjFDQkQ1M0U3OTMmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 86,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1EOTY4MzFEMi1DNUM2LTQ5MEYtODUzQS02MDc3OUY0Qzg3RTAmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 87,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0wNTU0OUMyNC1CMEJGLTQyOEUtODY0Qi1EQjNFN0NENjNFQzYmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [
+        {
+          "url": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET"
+        },
+        {
+          "url": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET"
+        },
+        {
+          "url": "https://portal.pzt.pl/TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET"
+        }
+      ],
+      "popups": [
+        {
+          "url": "https://portal.pzt.pl/TournamentMatches.aspx?QS=RXZlbnRJRD1FOTU2OTk1Ny1CRTBCLTRBMTUtQTkxMC0wMjhGNUE5OEZCOTYmTGV2ZWw9TQ==",
+          "title": "Tenis w Polsce - Polski Związek Tenisowy - portal.pzt.pl",
+          "text": "Turniej główny: 42. Narodowe Mistrzostwa Polski TOP, Od: 2026-08-08 Do: 2026-08-14,\nMiejsce turnieju:\nKategoria: 30+ Typ: Gra podwójna; Mieszany\nRunda: 1\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tSłużalec Karolina\nGórnicki Łukasz\t\t\t\tBYE\n2\tDanek Maria\nAndrzejewski Michał\t6:3\t7:5\t\tZachwiej Paulina\nGłogowski Marek\n3\tWardyńska Katarzyna\nZawadka Karol\t\t\t\tBYE\n4\tKowalczyk Natalia\nPodleśny Michał\t6:3\t6:0\t\tAdamczyk Marta\nGąsior Oskar\n5\tJabłońska Joanna\nDyrda Adam\t\t\t\tBYE\n6\tSzal Małgorzata\t\t\t\tBYE\nWrona Jakub\n7\tDzikiewicz Izabela\nDzikiewicz Paweł\tw.o.\t\t\tKobylarz Kasia\nAndrzejewski Pawel\n8\tLaska Monika\t\t\t\tBYE\nWicha Piotr\nĆwierćfinał\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tDanek Maria\nAndrzejewski Michał\t2:6\t7:6\t10:7\tSłużalec Karolina\nGórnicki Łukasz\n2\tKowalczyk Natalia\nPodleśny Michał\t6:1\t6:1\t\tWardyńska Katarzyna\nZawadka Karol\n3\tSzal Małgorzata\nWrona Jakub\t6:3\t7:5\t\tJabłońska Joanna\nDyrda Adam\n4\tDzikiewicz Izabela\nDzikiewicz Paweł\t6:2\t7:5\t\tLaska Monika\nWicha Piotr\nPółfinał\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tKowalczyk Natalia\nPodleśny Michał\t6:1\t6:1\t\tDanek Maria\nAndrzejewski Michał\n2\tDzikiewicz Izabela\nDzikiewicz Paweł\t6:1\t6:0\t\tSzal Małgorzata\nWrona Jakub\nFinał\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tKowalczyk Natalia\nPodleśny Michał\t6:1\t6:2\t\tDzikiewicz Izabela\nDzikiewicz Paweł"
+        },
+        {
+          "url": "https://portal.pzt.pl/TournamentMatches.aspx?QS=RXZlbnRJRD1CQ0UyNzAxOS1ERkM4LTRBNDYtODQwQy1CRTM4NUU5MTcxNkMmTGV2ZWw9TQ==",
+          "title": "Tenis w Polsce - Polski Związek Tenisowy - portal.pzt.pl",
+          "text": "Turniej główny: 42. Narodowe Mistrzostwa Polski TOP, Od: 2026-08-08 Do: 2026-08-14,\nMiejsce turnieju:\nKategoria: 30+ Typ: Gra pojedyncza; Kobiety\nĆwierćfinał\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tLaska Monika\t\t\t\tBYE\n2\tDobrowolska Joanna\t6:0\t6:0\t\tTomasiak-Jurkiewicz Ewa\n3\tKowalczyk Natalia\t6:0\t6:0\t\tJeziorek Agnieszka\n4\tSzal Małgorzata\t2:6\t6:3\t10:5\tDzikiewicz Izabela\nPółfinał\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tDobrowolska Joanna\t6:1\t6:3\t\tLaska Monika\n2\tKowalczyk Natalia\t6:1\t6:1\t\tSzal Małgorzata\nFinał\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tDobrowolska Joanna\t6:1\t6:0\t\tKowalczyk Natalia"
+        }
+      ],
+      "tekst_poczatek": "nie znam swojego loginu / przypomnij hasło\nZgłoszenie / rejestracja online\nKALENDARZ\n \nKLASYFIKACJE\n \nKLUB ROKU\n \nWYNIKI\n \nLICENCJE\n \nBAZA ZAWODNIKÓW\nZnajdujesz się: Wyniki > Seniorzy I Amatorzy > Turniej > Drabinki\nTurniej Seniorzy I Amatorzy\nStatus: Zakończony\n42. Narodowe Mistrzostwa Polski TOP\n1\nRanga\nOd: 2026.08.08 Do: 2026.08.14\nOrganizator:\nKlub Tenisowy Arka\nMiejsce turnieju:\n81-409 Gdynia, Ejsmonda 3\nKategorie:\n30+, 35+, 40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, 80+, 85+, Open Amator, Open\nTurniej gł.:\n2026-08-08\nPlan gier\nDrabinki\nMecze\nZwycięzcy\nRelacja z turnieju\nKategoria: 30+. Typ: Gra podwójna; Mieszany\n\nDrabinka - Turniej główny\n\nKategoria: 30+. Typ: Gra pojedyncza; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 30+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 30+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 35+. Typ: Gra podwójna; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 35+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 40+. Typ: Gra podwójna; Mieszany\n\nDrabinka - Turniej główny\n\nKategoria: 40+. Typ: Gra pojedyncza; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 40+. Typ: Gra podwójna; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 40+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 40+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 45+. Typ: Gra pojedyncza; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 45+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 50+. Typ: Gra podwójna; Mieszany\n\nDrabinka - Turniej główny\n\nKategoria: 50+. Typ: Gra pojedyncza; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 50+. Typ: Gra podwójna; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 50+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 50+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 55+. Typ: Gra pojedyncza; Kobiety\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 55+. Typ: Gra podwójna; Kobiety\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 55+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 55+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 60+. Typ: Gra podwójna; Mieszany\n\nDrabinka - Turniej główny\n\nKategoria: 60+. Typ: Gra pojedyncza; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 60+. Typ: Gra podwójna; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 60+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 60+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 65+. Typ: Gra pojedyncza; Kobiety\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 65+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 65+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 70+. Typ: Gra podwójna; Mieszany\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 70+. Typ: Gra pojedyncza; Kobiety\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 70+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 70+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 75+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 75+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 80+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 80+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 85+. Typ: Gra pojedyncza; Mężczyźni\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: Open. Typ: Gra podwójna; Mieszany\n\nDrabinka - Turniej główny\n\nKategoria: Open. Typ: Gra pojedyncza; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: Open. Typ: Gra podwójna; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: Open. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: Open. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: Open Amator. Typ: Gra podwójna; Mieszany\n\nDrabinka - Turniej główny\n\nKategoria: Open Amator. Typ: Gra pojedyncza; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: Open Amator. Typ: Gra podwójna; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: Open Amator. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: Open Amator. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\nPOLSKI ZWIĄZEK TENISOWY\nul. Konduktorska 4 lok.19/U\n(wejście I, parter).\n00-775 Warszawa\ntel. (48-22) 122 12 00, 122 12 01\nfax. (48-22) 122 12 11\ne-mail: pzt@pzt.pl\nRachunek opłat statutowych: Bank Pekao S.A.\n20 1240 1037 1111 0011 1172 8672\nRachunek Kolegium Sędziów: Bank Pekao S.A.\n61 1240 1037 1111 0011 1172 8904\nDane do faktur:\nPolski Związek Tenisowy\nul. Konduktorska 4 lok.19/U\n00-775 Warszawa\nNIP: 526-21-70-384\n\nCopyright Polski Związek Tenisowy.\nAll rights reserved\nprojekt i wykonanie e-ARES Sp. z o.o.\nStrona portal.pzt.pl używa plików cookies. Korzystanie z witryny bez zmiany ustawień Twojej przeglądarki oznacza, ż"
+    },
+    {
+      "label": "PZT_MP_LEKARZY_2026",
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B",
+      "final_url": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B",
+      "error": null,
+      "meta": {},
+      "ma_grupy": true,
+      "ma_drabinke": true,
+      "ma_faze_pucharowa": false,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 5,
+          "tag": "A",
+          "text": "",
+          "href": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B#helpLogin",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "load-local",
+          "name": ""
+        },
+        {
+          "i": 7,
+          "tag": "A",
+          "text": "",
+          "href": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B#helpPass",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "A1",
+          "name": ""
+        },
+        {
+          "i": 21,
+          "tag": "A",
+          "text": "WYNIKI",
+          "href": "https://portal.pzt.pl/Results.aspx",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 25,
+          "tag": "A",
+          "text": "Wyniki",
+          "href": "https://portal.pzt.pl/Results.aspx",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 29,
+          "tag": "A",
+          "text": "Drabinki",
+          "href": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 30,
+          "tag": "A",
+          "text": "Mecze",
+          "href": "https://portal.pzt.pl/TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 34,
+          "tag": "A",
+          "text": "Grupa A",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1DQTRFMkI5Qi1DM0E0LTQ1MkYtQUM3MC05MUU1MUY5NUQyNTImTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 35,
+          "tag": "A",
+          "text": "Grupa B",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1DQTRFMkI5Qi1DM0E0LTQ1MkYtQUM3MC05MUU1MUY5NUQyNTImTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 36,
+          "tag": "A",
+          "text": "Grupa Drabinka 1 - 8",
+          "href": "javascript:popUpGroup('/Ladder/EventLadder.aspx?QS=RXZlbnRJRD1DQTRFMkI5Qi1DM0E0LTQ1MkYtQUM3MC05MUU1MUY5NUQyNTImTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 37,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0xODdBREEwOC0yRDY3LTQ4MTctQTAxMi04RkU3Q0U0QkE2QzkmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 39,
+          "tag": "A",
+          "text": "Grupa A",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD04MDBCMUMyNC05Mzk3LTQxRDQtODQ3Ni02Mjk4QkI2QjU1NDcmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 40,
+          "tag": "A",
+          "text": "Grupa B",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD04MDBCMUMyNC05Mzk3LTQxRDQtODQ3Ni02Mjk4QkI2QjU1NDcmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 41,
+          "tag": "A",
+          "text": "Grupa Drabinka 1 - 8",
+          "href": "javascript:popUpGroup('/Ladder/EventLadder.aspx?QS=RXZlbnRJRD04MDBCMUMyNC05Mzk3LTQxRDQtODQ3Ni02Mjk4QkI2QjU1NDcmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 43,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD00MDNCOTM4NC1DRDE1LTQ3OTYtOTM4NC0xQzBGMzk1RkY5MUMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 44,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD02QTlENDlFNi1DNkE0LTQxNjMtODZGMS1BQTNCQ0U2RENGOTYmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 45,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1GQ0M5NDBERC05M0NGLTRDQ0YtODk2MC1BM0ZCRTcwMDlCRDImTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 47,
+          "tag": "A",
+          "text": "Grupa A",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD02MUEzMEZDQy0wRTE4LTQ3MTMtOTJFMC02NjFFQjI4OTcyOTEmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 48,
+          "tag": "A",
+          "text": "Grupa B",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD02MUEzMEZDQy0wRTE4LTQ3MTMtOTJFMC02NjFFQjI4OTcyOTEmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 49,
+          "tag": "A",
+          "text": "Grupa Drabinka 1 - 8",
+          "href": "javascript:popUpGroup('/Ladder/EventLadder.aspx?QS=RXZlbnRJRD02MUEzMEZDQy0wRTE4LTQ3MTMtOTJFMC02NjFFQjI4OTcyOTEmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 51,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1GQTUxMjg5NC1GMjBCLTRCNEItOTI2OS1DNzQ2MDNGMUMzNDUmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 52,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0yNzA1Rjg5My03QUQ5LTQ2MTctQjQwOC1CQkM0MTREQUIxQTYmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 53,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04QzE4QjI4Qi03OUExLTRERDMtQUZDQi01REM0MDc4OTJDOTQmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 54,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD03RDc1MEYxQi04NkNBLTQ5MTItQUE1Ri1FOEREM0M4RTk1QzYmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 55,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD04MjM1RDdGQy1EM0EwLTRFMjQtQkI4RC02QkY4QUU5Mzg3MzAmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 57,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1BQTk4NjNGRC1EOTE0LTQ4NzYtQTYxQi02QkFFMDBBRDQzMkYmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 58,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1FNTk3NUM5OS00MDJGLTQ4NzgtODBFMC01QUVBRjVDOUYzQjkmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 60,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD00NUExN0I0RC02NEQzLTQ4ODgtQUQzRC04RjFFMUFFNDYyRkYmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 61,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1CNTk3NTk2MC0xNUIzLTRFRTYtQkRGRC1GODI1RjUxMzJBQjAmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 62,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0wQTg3MEU1Qi1ENDJCLTRBRkYtODZCNy0zMUNFQjFGM0NCQUQmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 64,
+          "tag": "A",
+          "text": "Grupa A",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1DMkZCN0RBNy0yQURDLTRBQjktOEYyOC02QzkyOTE5MDQwRDImTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 65,
+          "tag": "A",
+          "text": "Grupa B",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1DMkZCN0RBNy0yQURDLTRBQjktOEYyOC02QzkyOTE5MDQwRDImTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 66,
+          "tag": "A",
+          "text": "Grupa Drabinka 1 - 8",
+          "href": "javascript:popUpGroup('/Ladder/EventLadder.aspx?QS=RXZlbnRJRD1DMkZCN0RBNy0yQURDLTRBQjktOEYyOC02QzkyOTE5MDQwRDImTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 68,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD0xRUVCOTJEOS00Q0Q3LTQ0NjItOTQ4OC1FQUNDQTRCODIxOTMmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 69,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD0zMEZBQTNGNi00NzgwLTQzOEItQjg3Qy0yMUE2NTVDNzQ4QzkmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 71,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD0zRTk5MTAxNi00NjczLTQ3MTAtQjk1Ny0yQzJFNUU5MEY5QjEmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 73,
+          "tag": "A",
+          "text": "Grupa",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1ENDhFOTA1RC1CMkUzLTQyMUMtQjlCOS0xOTIwRURERkQzNjEmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 74,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD01NTc1QjVERS1DOUZCLTQzRkMtOEEzOC1GMUMyNzk0NzhEOUQmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 75,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD1EMkVFNDNFOC1CMkU0LTQwRDUtOEU5NC0wRDREQTY1NEM3MDMmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 76,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD03MzRFNTY5RS1FOTAzLTRBMDMtODRGQS1CQkU0M0U3QjlCNDgmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 77,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD03OTUyQzhEOS01OEI2LTQzNDAtQTZBRS03Qjk1MDY3NTUxREQmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 78,
+          "tag": "A",
+          "text": "Drabinka - Turniej główny",
+          "href": "javascript:popUp('/Ladder/EventLadderRead.aspx?QS=RXZlbnRJRD01QjYzMTI1MC1GNjBDLTQ4NkItOTkxRS1FQzU3MTRFRUI5QzAmTGV2ZWw9TQ==%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [
+        {
+          "url": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET"
+        },
+        {
+          "url": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET"
+        },
+        {
+          "url": "https://portal.pzt.pl/TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID=58D439BD-7886-4A0A-B3BC-B88DCDB1810B",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET"
+        }
+      ],
+      "popups": [
+        {
+          "url": "https://portal.pzt.pl/TournamentMatches.aspx?QS=RXZlbnRJRD1DQTRFMkI5Qi1DM0E0LTQ1MkYtQUM3MC05MUU1MUY5NUQyNTImTGV2ZWw9TSZSb3VuZE5tYnI9MQ==",
+          "title": "Tenis w Polsce - Polski Związek Tenisowy - portal.pzt.pl",
+          "text": "Turniej główny: XXXV Letnie Mistrzostwa Polski Lekarzy w Tenisie, Od: 2026-06-04 Do: 2026-06-07,\nMiejsce turnieju: Olimpijski Club Wrocław\nKategoria: 35+ Typ: Gra pojedyncza; Mężczyźni\nGrupa A\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tPokrzywnicki Marcin\tw.o.\t\t\tCiba Tomasz\n2\tPokrzywnicki Marcin\t6:0\t6:0\t\tBogusławski Stanisław\n3\tBogusławski Stanisław\t6:1\t6:1\t\tCiba Tomasz\n4\tPokrzywnicki Marcin\t\t\t\t\n5\tCiba Tomasz\t\t\t\t\n6\tBogusławski Stanisław\t\t\t\t"
+        },
+        {
+          "url": "https://portal.pzt.pl/TournamentMatches.aspx?QS=RXZlbnRJRD1DQTRFMkI5Qi1DM0E0LTQ1MkYtQUM3MC05MUU1MUY5NUQyNTImTGV2ZWw9TSZSb3VuZE5tYnI9Mg==",
+          "title": "Tenis w Polsce - Polski Związek Tenisowy - portal.pzt.pl",
+          "text": "Turniej główny: XXXV Letnie Mistrzostwa Polski Lekarzy w Tenisie, Od: 2026-06-04 Do: 2026-06-07,\nMiejsce turnieju: Olimpijski Club Wrocław\nKategoria: 35+ Typ: Gra pojedyncza; Mężczyźni\nGrupa B\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tStawiński Michał\t6:0\t6:0\t\tKowalski Adrian\n2\tStawiński Michał\t6:2\t6:0\t\tCzak Maciej\n3\tKowalski Adrian\t6:2\t6:1\t\tCzak Maciej\n4\tKrywiak Marcin\tw.o.\t\t\tStawiński Michał\n5\tKrywiak Marcin\t6:1\t6:0\t\tKowalski Adrian\n6\tKrywiak Marcin\tw.o.\t\t\tCzak Maciej"
+        }
+      ],
+      "tekst_poczatek": "nie znam swojego loginu / przypomnij hasło\nZgłoszenie / rejestracja online\nKALENDARZ\n \nKLASYFIKACJE\n \nKLUB ROKU\n \nWYNIKI\n \nLICENCJE\n \nBAZA ZAWODNIKÓW\nZnajdujesz się: Wyniki > Seniorzy I Amatorzy > Turniej > Drabinki\nTurniej Seniorzy I Amatorzy\nStatus: Zakończony\nXXXV Letnie Mistrzostwa Polski Lekarzy w Tenisie\n3\nRanga\nOd: 2026.06.04 Do: 2026.06.07\nOrganizator:\nPolskie Stowarzyszenie Tenisowe Lekarzy\nMiejsce turnieju:\n51-612 Wrocław, Ignacego Jana Paderewskiego 35\nKategorie:\n35+, 40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, 80+, 85+, Open\nPlan gier\nDrabinki\nMecze\nZwycięzcy\nRelacja z turnieju\nKategoria: 35+. Typ: Gra pojedyncza; Mężczyźni\n\nZajęte miejsca - Turniej główny\nTurniej główny - Faza eliminacyjna\nGrupa A\nGrupa B\nTurniej główny - Faza finałowa\nGrupa Drabinka 1 - 8\n\nKategoria: 40+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 45+. Typ: Gra pojedyncza; Kobiety\n\nZajęte miejsca - Turniej główny\nTurniej główny - Faza eliminacyjna\nGrupa A\nGrupa B\nTurniej główny - Faza finałowa\nGrupa Drabinka 1 - 8\n\nKategoria: 45+. Typ: Gra podwójna; Kobiety\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 45+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 50+. Typ: Gra podwójna; Mieszany\n\nDrabinka - Turniej główny\n\nKategoria: 50+. Typ: Gra pojedyncza; Mężczyźni\n\nZajęte miejsca - Turniej główny\nTurniej główny - Faza eliminacyjna\nGrupa A\nGrupa B\nTurniej główny - Faza finałowa\nGrupa Drabinka 1 - 8\n\nKategoria: 55+. Typ: Gra pojedyncza; Kobiety\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 55+. Typ: Gra podwójna; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 55+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 55+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 60+. Typ: Gra pojedyncza; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: 60+. Typ: Gra podwójna; Kobiety\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 60+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 65+. Typ: Gra pojedyncza; Kobiety\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 65+. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 65+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 70+. Typ: Gra pojedyncza; Mężczyźni\n\nZajęte miejsca - Turniej główny\nTurniej główny - Faza eliminacyjna\nGrupa A\nGrupa B\nTurniej główny - Faza finałowa\nGrupa Drabinka 1 - 8\n\nKategoria: 75+. Typ: Gra pojedyncza; Mężczyźni\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 75+. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: 80+. Typ: Gra pojedyncza; Mężczyźni\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: 85+. Typ: Gra pojedyncza; Mężczyźni\n\nZajęte miejsca - Turniej główny\nTurniej główny\nGrupa\n\nKategoria: Open. Typ: Gra podwójna; Mieszany\n\nDrabinka - Turniej główny\n\nKategoria: Open. Typ: Gra pojedyncza; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: Open. Typ: Gra podwójna; Kobiety\n\nDrabinka - Turniej główny\n\nKategoria: Open. Typ: Gra pojedyncza; Mężczyźni\n\nDrabinka - Turniej główny\n\nKategoria: Open. Typ: Gra podwójna; Mężczyźni\n\nDrabinka - Turniej główny\nPOLSKI ZWIĄZEK TENISOWY\nul. Konduktorska 4 lok.19/U\n(wejście I, parter).\n00-775 Warszawa\ntel. (48-22) 122 12 00, 122 12 01\nfax. (48-22) 122 12 11\ne-mail: pzt@pzt.pl\nRachunek opłat statutowych: Bank Pekao S.A.\n20 1240 1037 1111 0011 1172 8672\nRachunek Kolegium Sędziów: Bank Pekao S.A.\n61 1240 1037 1111 0011 1172 8904\nDane do faktur:\nPolski Związek Tenisowy\nul. Konduktorska 4 lok.19/U\n00-775 Warszawa\nNIP: 526-21-70-384\n\nCopyright Polski Związek Tenisowy.\nAll rights reserved\nprojekt i wykonanie e-ARES Sp. z o.o.\nStrona portal.pzt.pl używa plików cookies. Korzystanie z witryny bez zmiany ustawień Twojej przeglądarki oznacza, że będą one umieszczane w Twoim urządzeniu końcowym."
+    },
+    {
+      "label": "PZT_MIXT_ARKADEMIA_2026",
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E",
+      "final_url": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E",
+      "error": null,
+      "meta": {},
+      "ma_grupy": true,
+      "ma_drabinke": true,
+      "ma_faze_pucharowa": false,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 5,
+          "tag": "A",
+          "text": "",
+          "href": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E#helpLogin",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "load-local",
+          "name": ""
+        },
+        {
+          "i": 7,
+          "tag": "A",
+          "text": "",
+          "href": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E#helpPass",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "A1",
+          "name": ""
+        },
+        {
+          "i": 21,
+          "tag": "A",
+          "text": "WYNIKI",
+          "href": "https://portal.pzt.pl/Results.aspx",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 25,
+          "tag": "A",
+          "text": "Wyniki",
+          "href": "https://portal.pzt.pl/Results.aspx",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 28,
+          "tag": "A",
+          "text": "Drabinki",
+          "href": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 29,
+          "tag": "A",
+          "text": "Mecze",
+          "href": "https://portal.pzt.pl/TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 33,
+          "tag": "A",
+          "text": "Grupa A",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQjE4OUQ4NC0xMzYzLTRDM0YtQjY3Ri0yQjFFMTI1NDE5MTkmTGV2ZWw9TSZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 34,
+          "tag": "A",
+          "text": "Grupa B",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQjE4OUQ4NC0xMzYzLTRDM0YtQjY3Ri0yQjFFMTI1NDE5MTkmTGV2ZWw9TSZSb3VuZE5tYnI9MiZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 35,
+          "tag": "A",
+          "text": "Grupa C",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQjE4OUQ4NC0xMzYzLTRDM0YtQjY3Ri0yQjFFMTI1NDE5MTkmTGV2ZWw9TSZSb3VuZE5tYnI9MyZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 36,
+          "tag": "A",
+          "text": "Grupa 1 - 3",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQjE4OUQ4NC0xMzYzLTRDM0YtQjY3Ri0yQjFFMTI1NDE5MTkmTGV2ZWw9RiZSb3VuZE5tYnI9MSZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 37,
+          "tag": "A",
+          "text": "Grupa 4 - 6",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQjE4OUQ4NC0xMzYzLTRDM0YtQjY3Ri0yQjFFMTI1NDE5MTkmTGV2ZWw9RiZSb3VuZE5tYnI9MiZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 38,
+          "tag": "A",
+          "text": "Grupa 7 - 9",
+          "href": "javascript:popUpGroup('/Ladder/EventTable.aspx?QS=RXZlbnRJRD1FQjE4OUQ4NC0xMzYzLTRDM0YtQjY3Ri0yQjFFMTI1NDE5MTkmTGV2ZWw9RiZSb3VuZE5tYnI9MyZVc2VySUQ9%27);",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [
+        {
+          "url": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET"
+        },
+        {
+          "url": "https://portal.pzt.pl/TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET"
+        },
+        {
+          "url": "https://portal.pzt.pl/TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID=E6FA8E4E-5F51-4FEC-9F38-C71D438B323E",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET"
+        }
+      ],
+      "popups": [
+        {
+          "url": "https://portal.pzt.pl/TournamentMatches.aspx?QS=RXZlbnRJRD1FQjE4OUQ4NC0xMzYzLTRDM0YtQjY3Ri0yQjFFMTI1NDE5MTkmTGV2ZWw9TSZSb3VuZE5tYnI9MQ==",
+          "title": "Tenis w Polsce - Polski Związek Tenisowy - portal.pzt.pl",
+          "text": "Turniej główny: Klubowy MIXT SIERPIEŃ - ArKademia OLESNO, Od: 2026-08-15 Do: 2026-08-15,\nMiejsce turnieju:\nKategoria: Open Amator Typ: Gra podwójna; Mieszany\nGrupa A\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tStellmach Żaneta\nLempa Paweł\t4:0\t4:0\t\tBrodny Zbigniew\nDroś Irena\n2\tStellmach Żaneta\nLempa Paweł\t3:4\t4:2\t10:7\tKarpińska-Kamińska Anna\nKamiński Błażej\n3\tKarpińska-Kamińska Anna\nKamiński Błażej\t4:0\t4:0\t\tBrodny Zbigniew\nDroś Irena"
+        },
+        {
+          "url": "https://portal.pzt.pl/TournamentMatches.aspx?QS=RXZlbnRJRD1FQjE4OUQ4NC0xMzYzLTRDM0YtQjY3Ri0yQjFFMTI1NDE5MTkmTGV2ZWw9TSZSb3VuZE5tYnI9Mg==",
+          "title": "Tenis w Polsce - Polski Związek Tenisowy - portal.pzt.pl",
+          "text": "Turniej główny: Klubowy MIXT SIERPIEŃ - ArKademia OLESNO, Od: 2026-08-15 Do: 2026-08-15,\nMiejsce turnieju:\nKategoria: Open Amator Typ: Gra podwójna; Mieszany\nGrupa B\nlp\tZawodnik\tSet 1\tSet 2\tSet 3\tZawodnik\n1\tWildau Monika\nWildau Martin\t4:2\t3:4\t10:3\tLiguda Jan\nRabiega Irena\n2\tWildau Monika\nWildau Martin\t4:1\t4:3\t\tBrodny Arkadiusz\nBrodny Agnieszka\n3\tLiguda Jan\nRabiega Irena\t4:1\t4:2\t\tBrodny Arkadiusz\nBrodny Agnieszka"
+        }
+      ],
+      "tekst_poczatek": "nie znam swojego loginu / przypomnij hasło\nZgłoszenie / rejestracja online\nKALENDARZ\n \nKLASYFIKACJE\n \nKLUB ROKU\n \nWYNIKI\n \nLICENCJE\n \nBAZA ZAWODNIKÓW\nZnajdujesz się: Wyniki > Seniorzy I Amatorzy > Turniej > Drabinki\nTurniej Seniorzy I Amatorzy\nStatus: Zakończony\nKlubowy MIXT SIERPIEŃ - ArKademia OLESNO\n5\nRanga\nOd: 2026.08.15 Do: 2026.08.15\nOrganizator:\nFundacja ArKademia\nMiejsce turnieju:\n46-300 Olesno, Weselna 4\nKategorie:\nOpen Amator\nTurniej gł.:\n2026-08-15\nDrabinki\nMecze\nZwycięzcy\nRelacja z turnieju\nKategoria: Open Amator. Typ: Gra podwójna; Mieszany\n\nZajęte miejsca - Turniej główny\nTurniej główny - Faza eliminacyjna\nGrupa A\nGrupa B\nGrupa C\nTurniej główny - Faza finałowa\nGrupa 1 - 3\nGrupa 4 - 6\nGrupa 7 - 9\nPOLSKI ZWIĄZEK TENISOWY\nul. Konduktorska 4 lok.19/U\n(wejście I, parter).\n00-775 Warszawa\ntel. (48-22) 122 12 00, 122 12 01\nfax. (48-22) 122 12 11\ne-mail: pzt@pzt.pl\nRachunek opłat statutowych: Bank Pekao S.A.\n20 1240 1037 1111 0011 1172 8672\nRachunek Kolegium Sędziów: Bank Pekao S.A.\n61 1240 1037 1111 0011 1172 8904\nDane do faktur:\nPolski Związek Tenisowy\nul. Konduktorska 4 lok.19/U\n00-775 Warszawa\nNIP: 526-21-70-384\n\nCopyright Polski Związek Tenisowy.\nAll rights reserved\nprojekt i wykonanie e-ARES Sp. z o.o.\nStrona portal.pzt.pl używa plików cookies. Korzystanie z witryny bez zmiany ustawień Twojej przeglądarki oznacza, że będą one umieszczane w Twoim urządzeniu końcowym."
+    },
+    {
+      "label": "PLT_1. Liga",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816/wyniki",
+      "final_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816/wyniki",
+      "error": null,
+      "meta": {
+        "zrodlo": "PLT",
+        "kategoria": "1. Liga",
+        "nazwa": "1. LIGA. Otwarte Zimowe Mistrzostwa Poznania 2026",
+        "data_od": "2026-01-03",
+        "data_do": "2026-01-03",
+        "miasto": "Poznań",
+        "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816/wyniki",
+        "status_zrodla": "Zakończone",
+        "klucz_zrodla": "04131864d934cf32b2",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:11:48+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:21:47+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": true,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": true,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 5,
+          "tag": "A",
+          "text": "Puchar PLT 2026(dla wszystkich)",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 28,
+          "tag": "A",
+          "text": "Puchar PLT",
+          "href": "https://polskaligatenisa.pl/ranking/puchar-plt/sezon/2026",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 37,
+          "tag": "A",
+          "text": "Sezon 2025",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2025/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 38,
+          "tag": "A",
+          "text": "Sezon 2024",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2024/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 39,
+          "tag": "A",
+          "text": "Sezon 2023",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2023/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 54,
+          "tag": "A",
+          "text": "Grupy",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816/grupy",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 55,
+          "tag": "A",
+          "text": "Faza pucharowa",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816/faza-pucharowa",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 56,
+          "tag": "A",
+          "text": "Terminarz / Wyniki",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 100,
+          "tag": "A",
+          "text": "ZALOGUJ SIĘ",
+          "href": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816%2Fwyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [
+        {
+          "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-zimowe-mistrzostwa-poznania-2026-4816/wyniki",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html",
+          "method": "GET"
+        }
+      ],
+      "popups": [],
+      "tekst_poczatek": "NAJWIĘKSZA LIGA TENISOWA dla amatorów w Polsce\nLOGINDOŁĄCZ DO GRY\nNEWSY\nKALENDARZ TURNIEJÓW\nLIGI LOKALNE\nRANKINGI 2026\nDMP\nMULTIMEDIA\nREGULAMIN\nO NAS\nPolska Liga Tenisa\nTurnieje\n1. LIGA. Otwarte Zimowe Mistrzostwa Poznania 2026\n1. LIGA. Otwarte Zimowe Mistrzostwa Poznania 2026\n3 stycznia 2026\nTurniej cyklu Zimowe Mistrzostwa PLT\nInformacje\nSzczegóły\nUczestnicy\nGrupy\nFaza pucharowa\nTerminarz / Wyniki\nNewsy o turnieju\nNagrody\nRegulamin\nTransmisje\nPlan gier\nGrupa A\nData\tGodz.\tMecz\tWynik\n03.01\t09:00\t\nK. May\nŁ. Stachowiak\n\t\n0\n2\n4\n4\n\n03.01\t10:00\t\nF. Fujak\nŁ. Stachowiak\n\t\n1\n4\n3\n4\n2\n10\n\n03.01\t11:00\t\nF. Fujak\nK. May\n\t\n3\n2\n4\n4\nGrupa B\nData\tGodz.\tMecz\tWynik\n03.01\t09:00\t\nM. Troszczyński\nM. Niewiada\n\t\n4\n4\n1\n0\n\n03.01\t10:00\t\nD. Cierzniak\nM. Niewiada\n\t\n3\n3\n4\n4\n\n03.01\t12:00\t\nD. Cierzniak\nM. Troszczyński\n\t\n0\n3\n4\n4\nGrupa C\nData\tGodz.\tMecz\tWynik\n03.01\t09:00\t\nI. Gośko\nJ. Rumiński\n\t\n4\n4\n1\n2\n\n03.01\t11:00\t\nW. Jodko\nJ. Rumiński\n\t\n4\n4\n1\n0\n\n03.01\t12:00\t\nW. Jodko\nI. Gośko\n\t\n4\n4\n2\n0\nGrupa D\nData\tGodz.\tMecz\tWynik\n03.01\t10:00\t\nD. Oszmałek\nB. Dziubański\n\t\n2\n0\n4\n4\n\n03.01\t11:00\t\nD. Dembiński\nB. Dziubański\n\t\n1\n0\n4\n4\n\n03.01\t12:00\t\nD. Dembiński\nD. Oszmałek\n\t\n0\n4\n5\n4\n0\n10\n1/4 FINAŁU\nData\tGodz.\tMecz\tWynik\n03.01\t13:00\t\nW. Jodko\nD. Oszmałek\n\t\n4\n4\n1\n0\n\n03.01\t13:00\t\nM. Troszczyński\nK. May\n\t\n4\n4\n3\n2\n\n03.01\t13:00\t\nB. Dziubański\nI. Gośko\n\t\n3\n2\n4\n4\n\n03.01\t14:00\t\nŁ. Stachowiak\nM. Niewiada\n\t\n2\n3\n4\n4\n1/2 FINAŁU\nData\tGodz.\tMecz\tWynik\n03.01\t15:00\t\nM. Niewiada\nW. Jodko\n\t\n1\n2\n4\n4\n\n03.01\t15:00\t\nM. Troszczyński\nI. Gośko\n\t\n4\n4\n2\n0\nFINAŁ\nData\tGodz.\tMecz\tWynik\n03.01\t16:00\t\nW. Jodko\nM. Troszczyński\n\t\n4\n4\n0\n1\nAby grać w turniejach\nJuż od 10 zł\nZALOGUJ SIĘ\n2026 © Polska Liga Tenisa. Wszelkie prawa zastrzeżone\nPolityka prywatnościRegulamin\nSzanowna Użytkowniczko, Szanowny Użytkowniku,\n\nZanim klikniesz „Przejdź do serwisu” lub zamkniesz to okno, prosimy o przeczytanie tej informacji. Prosimy w niej o Twoją dobrowolną zgodę na przetwarzanie Twoich danych osobowych przez naszych partnerów biznesowych oraz przekazujemy informacje o tzw. cookies i o przetwarzaniu przez nas Twoich danych osobowych. Klikając „Przejdź do serwisu” lub zamykając okno przez kliknięcie w znaczek X, zgadzasz się na poniższe. Możesz też odmówić zgody lub ograniczyć jej zakres.\n\n1. Informacje ogólne\nNiniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: www.polskaligatenisa.pl\nOperatorem serwisu oraz Administratorem danych osobowych jest: Polska Liga Tenisa Sp. z o.o. z siedzibą w Rzeszowie przy ul. Warneńczyka 85c, kod pocztowy: 35-612 Rzeszów\nAdres kontaktowy poczty elektronicznej operatora: kontakt@polskaligatenisa.pl\nOperator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie.\nSerwis wykorzystuje dane osobowe w następujących celach:\nProwadzenie newslettera\nProwadzenie systemu komentarzy\nPrezentacja profil użytkownika innym użytkownikom\nObsługa zapytań przez formularz\nRealizacja zamówionych usług\nPrezentacja oferty lub informacji\nSerwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący sposób:\nPoprzez dobrowolnie wprowadzone w formularzach dane, które zostają wprowadzone do systemów Operatora.\nPoprzez zapisywanie w urządzeniach końcowych plików cookie (tzw. „ciasteczka”).\n2. Wybrane metody ochrony danych stosowane przez Operatora\nMiejsca logowania i wprowadzania danych osobowych są chronione w warstwie transmisji (certyfikat SSL). Dzięki temu dane osobowe i dane logowania, wprowadzone na stronie, zostają zaszyfrowane w komputerze użytkownika i mogą być odczytane jedynie na docelowym serwerze.\nDane osobowe przechowywane w bazie danych są zaszyfrowane w taki sposób, że jedynie posiadający Operator klucz może je odczytać. Dzięki temu dane są chronione na wypadek wykradzenia bazy danych z serwera.\nW celu ochrony danych Operator regularnie wykonuje kopie bezpieczeństwa.\nIstotnym elementem ochrony danych jest regularna aktualizacja wszelkiego oprogramowania, wykorzystywanego przez Operatora do przetwarzania danych osobowych, co w szczególności oznacza regularne aktualizacje komponentów programistycznych.\n3. Hosting\nSerwis jest hostowany (technicznie utrzymywany) na serwerach operatora: mydevil.net\n4. Twoje prawa i dodatkowe informacje o sposobie wykorzystania danych\nZakładając konto wyrażasz zgodę na przetwarzanie Twoich danych osobowych przez Administratora oraz na wykorzystywanie wizerunku utrwalonego na zdjęciach.\nW niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osobowe innym odbiorcom, jeśli będzie to niezbędne do wykonania zawartej z Tobą umowy lub do zrealizowania obowiązków ciążących na Administratorze. Dotyczy to takich grup odbiorców:\nfirma hostingowa na zasadzie powierzenia\noperatorzy płatności\noperatorzy systemu komentarzy\nupoważnieni pracownicy i współpracownicy, którzy korzystają z danych w celu realizacji celu działania strony\nfirmy, świadczące usługi marketingu na rzecz Administratora\nTwoje dane osobowe przetwarzane przez Administratora nie dłużej, niż jest to ko"
+    },
+    {
+      "label": "PLT_2. Liga",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-zimowe-mistrzostwa-stargardu-2026-4820/wyniki",
+      "final_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-zimowe-mistrzostwa-stargardu-2026-4820/wyniki",
+      "error": null,
+      "meta": {
+        "zrodlo": "PLT",
+        "kategoria": "2. Liga",
+        "nazwa": "2. LIGA. Otwarte Zimowe Mistrzostwa Stargardu 2026",
+        "data_od": "2026-01-03",
+        "data_do": "2026-01-03",
+        "miasto": "Stargard",
+        "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-zimowe-mistrzostwa-stargardu-2026-4820/wyniki",
+        "status_zrodla": "Zakończone",
+        "klucz_zrodla": "29f7853375a42f578f",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:11:48+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:21:47+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": true,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": true,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 5,
+          "tag": "A",
+          "text": "Puchar PLT 2026(dla wszystkich)",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 28,
+          "tag": "A",
+          "text": "Puchar PLT",
+          "href": "https://polskaligatenisa.pl/ranking/puchar-plt/sezon/2026",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 37,
+          "tag": "A",
+          "text": "Sezon 2025",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2025/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 38,
+          "tag": "A",
+          "text": "Sezon 2024",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2024/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 39,
+          "tag": "A",
+          "text": "Sezon 2023",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2023/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 54,
+          "tag": "A",
+          "text": "Grupy",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-zimowe-mistrzostwa-stargardu-2026-4820/grupy",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 55,
+          "tag": "A",
+          "text": "Faza pucharowa",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-zimowe-mistrzostwa-stargardu-2026-4820/faza-pucharowa",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 56,
+          "tag": "A",
+          "text": "Terminarz / Wyniki",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-zimowe-mistrzostwa-stargardu-2026-4820/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 74,
+          "tag": "A",
+          "text": "ZALOGUJ SIĘ",
+          "href": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-otwarte-zimowe-mistrzostwa-stargardu-2026-4820%2Fwyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [
+        {
+          "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-zimowe-mistrzostwa-stargardu-2026-4820/wyniki",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html",
+          "method": "GET"
+        }
+      ],
+      "popups": [],
+      "tekst_poczatek": "NAJWIĘKSZA LIGA TENISOWA dla amatorów w Polsce\nLOGINDOŁĄCZ DO GRY\nNEWSY\nKALENDARZ TURNIEJÓW\nLIGI LOKALNE\nRANKINGI 2026\nDMP\nMULTIMEDIA\nREGULAMIN\nO NAS\nPolska Liga Tenisa\nTurnieje\n2. LIGA. Otwarte Zimowe Mistrzostwa Stargardu 2026\n2. LIGA. Otwarte Zimowe Mistrzostwa Stargardu 2026\n3 stycznia 2026\nTurniej cyklu Zimowe Mistrzostwa PLT\nInformacje\nSzczegóły\nUczestnicy\nGrupy\nFaza pucharowa\nTerminarz / Wyniki\nNewsy o turnieju\nNagrody\nRegulamin\nTransmisje\nPlan gier\nGrupa A\nData\tGodz.\tMecz\tWynik\n03.01\t09:00\t\nR. Śliwiński\nE. Koniecki\n\t\n0\n0\n4\n4\n(w.o.)\n\n03.01\t09:00\t\nM. Ślęzak\nA. Sobczyk\n\t\n1\n4\n5\n4\n0\n10\n\n03.01\t10:00\t\nR. Śliwiński\nA. Sobczyk\n\t\n0\n0\n4\n4\n(w.o.)\n\n03.01\t10:00\t\nM. Ślęzak\nE. Koniecki\n\t\n4\n1\n6\n2\n4\n10\n\n03.01\t11:00\t\nA. Sobczyk\nE. Koniecki\n\t\n4\n1\n3\n3\n4\n10\n\n03.01\t12:00\t\nR. Śliwiński\nM. Ślęzak\n\t\n0\n0\n4\n4\n(w.o.)\nAby grać w turniejach\nJuż od 10 zł\nZALOGUJ SIĘ\n2026 © Polska Liga Tenisa. Wszelkie prawa zastrzeżone\nPolityka prywatnościRegulamin\nSzanowna Użytkowniczko, Szanowny Użytkowniku,\n\nZanim klikniesz „Przejdź do serwisu” lub zamkniesz to okno, prosimy o przeczytanie tej informacji. Prosimy w niej o Twoją dobrowolną zgodę na przetwarzanie Twoich danych osobowych przez naszych partnerów biznesowych oraz przekazujemy informacje o tzw. cookies i o przetwarzaniu przez nas Twoich danych osobowych. Klikając „Przejdź do serwisu” lub zamykając okno przez kliknięcie w znaczek X, zgadzasz się na poniższe. Możesz też odmówić zgody lub ograniczyć jej zakres.\n\n1. Informacje ogólne\nNiniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: www.polskaligatenisa.pl\nOperatorem serwisu oraz Administratorem danych osobowych jest: Polska Liga Tenisa Sp. z o.o. z siedzibą w Rzeszowie przy ul. Warneńczyka 85c, kod pocztowy: 35-612 Rzeszów\nAdres kontaktowy poczty elektronicznej operatora: kontakt@polskaligatenisa.pl\nOperator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie.\nSerwis wykorzystuje dane osobowe w następujących celach:\nProwadzenie newslettera\nProwadzenie systemu komentarzy\nPrezentacja profil użytkownika innym użytkownikom\nObsługa zapytań przez formularz\nRealizacja zamówionych usług\nPrezentacja oferty lub informacji\nSerwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący sposób:\nPoprzez dobrowolnie wprowadzone w formularzach dane, które zostają wprowadzone do systemów Operatora.\nPoprzez zapisywanie w urządzeniach końcowych plików cookie (tzw. „ciasteczka”).\n2. Wybrane metody ochrony danych stosowane przez Operatora\nMiejsca logowania i wprowadzania danych osobowych są chronione w warstwie transmisji (certyfikat SSL). Dzięki temu dane osobowe i dane logowania, wprowadzone na stronie, zostają zaszyfrowane w komputerze użytkownika i mogą być odczytane jedynie na docelowym serwerze.\nDane osobowe przechowywane w bazie danych są zaszyfrowane w taki sposób, że jedynie posiadający Operator klucz może je odczytać. Dzięki temu dane są chronione na wypadek wykradzenia bazy danych z serwera.\nW celu ochrony danych Operator regularnie wykonuje kopie bezpieczeństwa.\nIstotnym elementem ochrony danych jest regularna aktualizacja wszelkiego oprogramowania, wykorzystywanego przez Operatora do przetwarzania danych osobowych, co w szczególności oznacza regularne aktualizacje komponentów programistycznych.\n3. Hosting\nSerwis jest hostowany (technicznie utrzymywany) na serwerach operatora: mydevil.net\n4. Twoje prawa i dodatkowe informacje o sposobie wykorzystania danych\nZakładając konto wyrażasz zgodę na przetwarzanie Twoich danych osobowych przez Administratora oraz na wykorzystywanie wizerunku utrwalonego na zdjęciach.\nW niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osobowe innym odbiorcom, jeśli będzie to niezbędne do wykonania zawartej z Tobą umowy lub do zrealizowania obowiązków ciążących na Administratorze. Dotyczy to takich grup odbiorców:\nfirma hostingowa na zasadzie powierzenia\noperatorzy płatności\noperatorzy systemu komentarzy\nupoważnieni pracownicy i współpracownicy, którzy korzystają z danych w celu realizacji celu działania strony\nfirmy, świadczące usługi marketingu na rzecz Administratora\nTwoje dane osobowe przetwarzane przez Administratora nie dłużej, niż jest to konieczne do wykonania związanych z nimi czynności określonych osobnymi przepisami (np. o prowadzeniu rachunkowości). W odniesieniu do danych marketingowych dane nie będą przetwarzane dłużej niż przez 3 lata.\nPrzysługuje Ci prawo żądania od Administratora:\ndostępu do danych osobowych Ciebie dotyczących,\nich sprostowania,\nusunięcia,\nograniczenia przetwarzania,\noraz przenoszenia danych.\nPrzysługuje Ci prawo do złożenia sprzeciwu w zakresie przetwarzania wskazanego w pkt 3.3 c) wobec przetwarzania danych osobowych w celu wykonania prawnie uzasadnionych interesów realizowanych przez Administratora, w tym profilowania, przy czym prawo sprzeciwu nie będzie mogło być wykonane w przypadku istnienia ważnych prawnie uzasadnionych podstaw do przetwarzania, nadrzędnych wo"
+    },
+    {
+      "label": "PLT_Puchar PLT",
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/wyniki",
+      "final_url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/wyniki",
+      "error": null,
+      "meta": {
+        "zrodlo": "PLT",
+        "kategoria": "Puchar PLT",
+        "nazwa": "PUCHAR PLT. Otwarte Zimowe Mistrzostwa Stargardu 2026",
+        "data_od": "2026-01-04",
+        "data_do": "2026-01-04",
+        "miasto": "Stargard",
+        "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/wyniki",
+        "status_zrodla": "Zakończone",
+        "klucz_zrodla": "7b6bc2f8ad0ccb041b",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:11:48+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:21:47+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": true,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": true,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 5,
+          "tag": "A",
+          "text": "Puchar PLT 2026(dla wszystkich)",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 28,
+          "tag": "A",
+          "text": "Puchar PLT",
+          "href": "https://polskaligatenisa.pl/ranking/puchar-plt/sezon/2026",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 37,
+          "tag": "A",
+          "text": "Sezon 2025",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2025/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 38,
+          "tag": "A",
+          "text": "Sezon 2024",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2024/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 39,
+          "tag": "A",
+          "text": "Sezon 2023",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2023/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 51,
+          "tag": "A",
+          "text": "Informacje",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/informacje",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 52,
+          "tag": "A",
+          "text": "Szczegóły",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/szczegoly",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 53,
+          "tag": "A",
+          "text": "Uczestnicy",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/zawodnicy",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 54,
+          "tag": "A",
+          "text": "Grupy",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/grupy",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 55,
+          "tag": "A",
+          "text": "Faza pucharowa",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/faza-pucharowa",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 56,
+          "tag": "A",
+          "text": "Terminarz / Wyniki",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 57,
+          "tag": "A",
+          "text": "Newsy o turnieju",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/news",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 58,
+          "tag": "A",
+          "text": "Nagrody",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/nagrody",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 59,
+          "tag": "A",
+          "text": "Regulamin",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/regulamin",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 61,
+          "tag": "A",
+          "text": "Plan gier",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/plan-gier",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 62,
+          "tag": "A",
+          "text": "ZALOGUJ SIĘ",
+          "href": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpuchar-plt%2Fpuchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821%2Fwyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [
+        {
+          "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-zimowe-mistrzostwa-stargardu-2026-4821/wyniki",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html",
+          "method": "GET"
+        }
+      ],
+      "popups": [],
+      "tekst_poczatek": "NAJWIĘKSZA LIGA TENISOWA dla amatorów w Polsce\nLOGINDOŁĄCZ DO GRY\nNEWSY\nKALENDARZ TURNIEJÓW\nLIGI LOKALNE\nRANKINGI 2026\nDMP\nMULTIMEDIA\nREGULAMIN\nO NAS\nPolska Liga Tenisa\nTurnieje\nPUCHAR PLT. Otwarte Zimowe Mistrzostwa Stargardu 2026\nPUCHAR PLT. Otwarte Zimowe Mistrzostwa Stargardu 2026\n4 stycznia 2026\nTurniej cyklu Zimowe Mistrzostwa PLT\nInformacje\nSzczegóły\nUczestnicy\nGrupy\nFaza pucharowa\nTerminarz / Wyniki\nNewsy o turnieju\nNagrody\nRegulamin\nTransmisje\nPlan gier\nTrwa ładowanie...\nAby grać w turniejach\nJuż od 10 zł\nZALOGUJ SIĘ\n2026 © Polska Liga Tenisa. Wszelkie prawa zastrzeżone\nPolityka prywatnościRegulamin\nSzanowna Użytkowniczko, Szanowny Użytkowniku,\n\nZanim klikniesz „Przejdź do serwisu” lub zamkniesz to okno, prosimy o przeczytanie tej informacji. Prosimy w niej o Twoją dobrowolną zgodę na przetwarzanie Twoich danych osobowych przez naszych partnerów biznesowych oraz przekazujemy informacje o tzw. cookies i o przetwarzaniu przez nas Twoich danych osobowych. Klikając „Przejdź do serwisu” lub zamykając okno przez kliknięcie w znaczek X, zgadzasz się na poniższe. Możesz też odmówić zgody lub ograniczyć jej zakres.\n\n1. Informacje ogólne\nNiniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: www.polskaligatenisa.pl\nOperatorem serwisu oraz Administratorem danych osobowych jest: Polska Liga Tenisa Sp. z o.o. z siedzibą w Rzeszowie przy ul. Warneńczyka 85c, kod pocztowy: 35-612 Rzeszów\nAdres kontaktowy poczty elektronicznej operatora: kontakt@polskaligatenisa.pl\nOperator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie.\nSerwis wykorzystuje dane osobowe w następujących celach:\nProwadzenie newslettera\nProwadzenie systemu komentarzy\nPrezentacja profil użytkownika innym użytkownikom\nObsługa zapytań przez formularz\nRealizacja zamówionych usług\nPrezentacja oferty lub informacji\nSerwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący sposób:\nPoprzez dobrowolnie wprowadzone w formularzach dane, które zostają wprowadzone do systemów Operatora.\nPoprzez zapisywanie w urządzeniach końcowych plików cookie (tzw. „ciasteczka”).\n2. Wybrane metody ochrony danych stosowane przez Operatora\nMiejsca logowania i wprowadzania danych osobowych są chronione w warstwie transmisji (certyfikat SSL). Dzięki temu dane osobowe i dane logowania, wprowadzone na stronie, zostają zaszyfrowane w komputerze użytkownika i mogą być odczytane jedynie na docelowym serwerze.\nDane osobowe przechowywane w bazie danych są zaszyfrowane w taki sposób, że jedynie posiadający Operator klucz może je odczytać. Dzięki temu dane są chronione na wypadek wykradzenia bazy danych z serwera.\nW celu ochrony danych Operator regularnie wykonuje kopie bezpieczeństwa.\nIstotnym elementem ochrony danych jest regularna aktualizacja wszelkiego oprogramowania, wykorzystywanego przez Operatora do przetwarzania danych osobowych, co w szczególności oznacza regularne aktualizacje komponentów programistycznych.\n3. Hosting\nSerwis jest hostowany (technicznie utrzymywany) na serwerach operatora: mydevil.net\n4. Twoje prawa i dodatkowe informacje o sposobie wykorzystania danych\nZakładając konto wyrażasz zgodę na przetwarzanie Twoich danych osobowych przez Administratora oraz na wykorzystywanie wizerunku utrwalonego na zdjęciach.\nW niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osobowe innym odbiorcom, jeśli będzie to niezbędne do wykonania zawartej z Tobą umowy lub do zrealizowania obowiązków ciążących na Administratorze. Dotyczy to takich grup odbiorców:\nfirma hostingowa na zasadzie powierzenia\noperatorzy płatności\noperatorzy systemu komentarzy\nupoważnieni pracownicy i współpracownicy, którzy korzystają z danych w celu realizacji celu działania strony\nfirmy, świadczące usługi marketingu na rzecz Administratora\nTwoje dane osobowe przetwarzane przez Administratora nie dłużej, niż jest to konieczne do wykonania związanych z nimi czynności określonych osobnymi przepisami (np. o prowadzeniu rachunkowości). W odniesieniu do danych marketingowych dane nie będą przetwarzane dłużej niż przez 3 lata.\nPrzysługuje Ci prawo żądania od Administratora:\ndostępu do danych osobowych Ciebie dotyczących,\nich sprostowania,\nusunięcia,\nograniczenia przetwarzania,\noraz przenoszenia danych.\nPrzysługuje Ci prawo do złożenia sprzeciwu w zakresie przetwarzania wskazanego w pkt 3.3 c) wobec przetwarzania danych osobowych w celu wykonania prawnie uzasadnionych interesów realizowanych przez Administratora, w tym profilowania, przy czym prawo sprzeciwu nie będzie mogło być wykonane w przypadku istnienia ważnych prawnie uzasadnionych podstaw do przetwarzania, nadrzędnych wobec Ciebie interesów, praw i wolności, w szczególności ustalenia, dochodzenia lub obrony roszczeń.\nNa działania Administratora przysługuje skarga do Prezesa Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa.\nPodanie danych osobowych jest dobrowolne, lecz niezbędne do obsługi Serwisu.\nW stosunku do Ciebie mogą"
+    },
+    {
+      "label": "PLT_PLT Kobiet",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-zimowe-mistrzostwa-stargardu-2026-4822/wyniki",
+      "final_url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-zimowe-mistrzostwa-stargardu-2026-4822/wyniki",
+      "error": null,
+      "meta": {
+        "zrodlo": "PLT",
+        "kategoria": "PLT Kobiet",
+        "nazwa": "PLT KOBIET. Otwarte Zimowe Mistrzostwa Stargardu 2026",
+        "data_od": "2026-01-03",
+        "data_do": "2026-01-03",
+        "miasto": "Stargard",
+        "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-zimowe-mistrzostwa-stargardu-2026-4822/wyniki",
+        "status_zrodla": "Zakończone",
+        "klucz_zrodla": "4e751e7d977e7303ff",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:11:48+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:21:47+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": true,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": true,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 5,
+          "tag": "A",
+          "text": "Puchar PLT 2026(dla wszystkich)",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 28,
+          "tag": "A",
+          "text": "Puchar PLT",
+          "href": "https://polskaligatenisa.pl/ranking/puchar-plt/sezon/2026",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 37,
+          "tag": "A",
+          "text": "Sezon 2025",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2025/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 38,
+          "tag": "A",
+          "text": "Sezon 2024",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2024/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 39,
+          "tag": "A",
+          "text": "Sezon 2023",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2023/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 54,
+          "tag": "A",
+          "text": "Grupy",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-zimowe-mistrzostwa-stargardu-2026-4822/grupy",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 55,
+          "tag": "A",
+          "text": "Faza pucharowa",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-zimowe-mistrzostwa-stargardu-2026-4822/faza-pucharowa",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 56,
+          "tag": "A",
+          "text": "Terminarz / Wyniki",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-zimowe-mistrzostwa-stargardu-2026-4822/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 86,
+          "tag": "A",
+          "text": "ZALOGUJ SIĘ",
+          "href": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-liga-tenisa-kobiet%2Fplt-kobiet-otwarte-zimowe-mistrzostwa-stargardu-2026-4822%2Fwyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [
+        {
+          "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-zimowe-mistrzostwa-stargardu-2026-4822/wyniki",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html",
+          "method": "GET"
+        }
+      ],
+      "popups": [],
+      "tekst_poczatek": "NAJWIĘKSZA LIGA TENISOWA dla amatorów w Polsce\nLOGINDOŁĄCZ DO GRY\nNEWSY\nKALENDARZ TURNIEJÓW\nLIGI LOKALNE\nRANKINGI 2026\nDMP\nMULTIMEDIA\nREGULAMIN\nO NAS\nPolska Liga Tenisa\nTurnieje\nPLT KOBIET. Otwarte Zimowe Mistrzostwa Stargardu 2026\nPLT KOBIET. Otwarte Zimowe Mistrzostwa Stargardu 2026\n3 stycznia 2026\nTurniej cyklu Zimowe Mistrzostwa PLT\nInformacje\nSzczegóły\nUczestnicy\nGrupy\nFaza pucharowa\nTerminarz / Wyniki\nNewsy o turnieju\nNagrody\nRegulamin\nTransmisje\nPlan gier\nGrupa A\nData\tGodz.\tMecz\tWynik\n03.01\t09:00\t\nB. Stelter\nA. Szewczyk\n\t\n4\n4\n0\n0\n(w.o.)\n\n03.01\t10:00\t\nM. Drobek-Słowik\nA. Kurzyk\n\t\n4\n4\n1\n3\n\n03.01\t11:00\t\nB. Stelter\nA. Kurzyk\n\t\n0\n0\n4\n4\n(w.o.)\n\n03.01\t12:00\t\nM. Drobek-Słowik\nA. Szewczyk\n\t\n4\n4\n0\n0\n(w.o.)\n\n03.01\t13:00\t\nM. Drobek-Słowik\nB. Stelter\n\t\n4\n4\n0\n0\n(w.o.)\n\n03.01\t13:00\t\nA. Szewczyk\nA. Kurzyk\n\t\n0\n0\n4\n4\n(w.o.)\nGrupa B\nData\tGodz.\tMecz\tWynik\n03.01\t11:00\t\nK. Zawadzka-Koniecka\nJ. Ankudowicz\n\t\n4\n0\n4\n0\n4\n10\n\n03.01\t12:00\t\nA. Giermak\nJ. Ankudowicz\n\t\n0\n2\n4\n4\n\n03.01\t13:00\t\nA. Giermak\nK. Zawadzka-Koniecka\n\t\n4\n4\n2\n2\n1/2 FINAŁU\nData\tGodz.\tMecz\tWynik\n03.01\t13:30\t\nM. Drobek-Słowik\nA. Giermak\n\t\n4\n4\n1\n2\n\n03.01\t13:30\t\nJ. Ankudowicz\nA. Kurzyk\n\t\n4\n4\n2\n2\nFINAŁ\nData\tGodz.\tMecz\tWynik\n03.01\t14:39\t\nM. Drobek-Słowik\nJ. Ankudowicz\n\t\n3\n1\n4\n4\nAby grać w turniejach\nJuż od 10 zł\nZALOGUJ SIĘ\n2026 © Polska Liga Tenisa. Wszelkie prawa zastrzeżone\nPolityka prywatnościRegulamin\nSzanowna Użytkowniczko, Szanowny Użytkowniku,\n\nZanim klikniesz „Przejdź do serwisu” lub zamkniesz to okno, prosimy o przeczytanie tej informacji. Prosimy w niej o Twoją dobrowolną zgodę na przetwarzanie Twoich danych osobowych przez naszych partnerów biznesowych oraz przekazujemy informacje o tzw. cookies i o przetwarzaniu przez nas Twoich danych osobowych. Klikając „Przejdź do serwisu” lub zamykając okno przez kliknięcie w znaczek X, zgadzasz się na poniższe. Możesz też odmówić zgody lub ograniczyć jej zakres.\n\n1. Informacje ogólne\nNiniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: www.polskaligatenisa.pl\nOperatorem serwisu oraz Administratorem danych osobowych jest: Polska Liga Tenisa Sp. z o.o. z siedzibą w Rzeszowie przy ul. Warneńczyka 85c, kod pocztowy: 35-612 Rzeszów\nAdres kontaktowy poczty elektronicznej operatora: kontakt@polskaligatenisa.pl\nOperator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie.\nSerwis wykorzystuje dane osobowe w następujących celach:\nProwadzenie newslettera\nProwadzenie systemu komentarzy\nPrezentacja profil użytkownika innym użytkownikom\nObsługa zapytań przez formularz\nRealizacja zamówionych usług\nPrezentacja oferty lub informacji\nSerwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący sposób:\nPoprzez dobrowolnie wprowadzone w formularzach dane, które zostają wprowadzone do systemów Operatora.\nPoprzez zapisywanie w urządzeniach końcowych plików cookie (tzw. „ciasteczka”).\n2. Wybrane metody ochrony danych stosowane przez Operatora\nMiejsca logowania i wprowadzania danych osobowych są chronione w warstwie transmisji (certyfikat SSL). Dzięki temu dane osobowe i dane logowania, wprowadzone na stronie, zostają zaszyfrowane w komputerze użytkownika i mogą być odczytane jedynie na docelowym serwerze.\nDane osobowe przechowywane w bazie danych są zaszyfrowane w taki sposób, że jedynie posiadający Operator klucz może je odczytać. Dzięki temu dane są chronione na wypadek wykradzenia bazy danych z serwera.\nW celu ochrony danych Operator regularnie wykonuje kopie bezpieczeństwa.\nIstotnym elementem ochrony danych jest regularna aktualizacja wszelkiego oprogramowania, wykorzystywanego przez Operatora do przetwarzania danych osobowych, co w szczególności oznacza regularne aktualizacje komponentów programistycznych.\n3. Hosting\nSerwis jest hostowany (technicznie utrzymywany) na serwerach operatora: mydevil.net\n4. Twoje prawa i dodatkowe informacje o sposobie wykorzystania danych\nZakładając konto wyrażasz zgodę na przetwarzanie Twoich danych osobowych przez Administratora oraz na wykorzystywanie wizerunku utrwalonego na zdjęciach.\nW niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osobowe innym odbiorcom, jeśli będzie to niezbędne do wykonania zawartej z Tobą umowy lub do zrealizowania obowiązków ciążących na Administratorze. Dotyczy to takich grup odbiorców:\nfirma hostingowa na zasadzie powierzenia\noperatorzy płatności\noperatorzy systemu komentarzy\nupoważnieni pracownicy i współpracownicy, którzy korzystają z danych w celu realizacji celu działania strony\nfirmy, świadczące usługi marketingu na rzecz Administratora\nTwoje dane osobowe przetwarzane przez Administratora nie dłużej, niż jest to konieczne do wykonania związanych z nimi czynności określonych osobnymi przepisami (np. o prowadzeniu rachunkowości). W odniesieniu do danych marketingowych dane nie będą przetwarzane dłużej niż przez 3 lata.\nPrzysługuje Ci prawo żądania od Administratora:\ndostępu do danych osobowych Ciebie dotyczących,\nich sprostowania,\nusunięcia,\nogranic"
+    },
+    {
+      "label": "PLT_Deble i Miksty",
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-turniej-iii-kroli-w-pile-2026-4862/wyniki",
+      "final_url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-turniej-iii-kroli-w-pile-2026-4862/wyniki",
+      "error": null,
+      "meta": {
+        "zrodlo": "PLT",
+        "kategoria": "Deble i Miksty",
+        "nazwa": "MIKST. Turniej III Króli w Pile 2026",
+        "data_od": "2026-01-06",
+        "data_do": "2026-01-06",
+        "miasto": "Piła",
+        "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-turniej-iii-kroli-w-pile-2026-4862/wyniki",
+        "status_zrodla": "Zakończone",
+        "klucz_zrodla": "513395d476c303dc17",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:11:48+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:21:47+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": true,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": true,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 5,
+          "tag": "A",
+          "text": "Puchar PLT 2026(dla wszystkich)",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 28,
+          "tag": "A",
+          "text": "Puchar PLT",
+          "href": "https://polskaligatenisa.pl/ranking/puchar-plt/sezon/2026",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 37,
+          "tag": "A",
+          "text": "Sezon 2025",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2025/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 38,
+          "tag": "A",
+          "text": "Sezon 2024",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2024/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 39,
+          "tag": "A",
+          "text": "Sezon 2023",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2023/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 54,
+          "tag": "A",
+          "text": "Grupy",
+          "href": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-turniej-iii-kroli-w-pile-2026-4862/grupy",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 55,
+          "tag": "A",
+          "text": "Faza pucharowa",
+          "href": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-turniej-iii-kroli-w-pile-2026-4862/faza-pucharowa",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 56,
+          "tag": "A",
+          "text": "Terminarz / Wyniki",
+          "href": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-turniej-iii-kroli-w-pile-2026-4862/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 138,
+          "tag": "A",
+          "text": "ZALOGUJ SIĘ",
+          "href": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fdeble-miksty%2Fmikst-turniej-iii-kroli-w-pile-2026-4862%2Fwyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [
+        {
+          "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-turniej-iii-kroli-w-pile-2026-4862/wyniki",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html",
+          "method": "GET"
+        }
+      ],
+      "popups": [],
+      "tekst_poczatek": "NAJWIĘKSZA LIGA TENISOWA dla amatorów w Polsce\nLOGINDOŁĄCZ DO GRY\nNEWSY\nKALENDARZ TURNIEJÓW\nLIGI LOKALNE\nRANKINGI 2026\nDMP\nMULTIMEDIA\nREGULAMIN\nO NAS\nPolska Liga Tenisa\nTurnieje\nMIKST. Turniej III Króli w Pile 2026\nMIKST. Turniej III Króli w Pile 2026\n6 stycznia 2026\nTurniej cyklu Zimowe Mistrzostwa PLT\nInformacje\nSzczegóły\nUczestnicy\nGrupy\nFaza pucharowa\nTerminarz / Wyniki\nNewsy o turnieju\nNagrody\nRegulamin\nTransmisje\nPlan gier\nGrupa A\nData\tGodz.\tMecz\tWynik\n06.01\t09:00\t\nP. Stróżyński\n/\nL. Ostrowska\nO. Malas\n/\nM. Gajzler\n\t\n4\n3\n10\n1\n4\n6\n\n06.01\t09:00\t\nW. Gdaniec\n/\nD. Słojewska\nH. Szmyt\n/\nW. Lorek\n\t\n4\n4\n2\n2\n\n06.01\t11:00\t\nP. Stróżyński\n/\nL. Ostrowska\nH. Szmyt\n/\nW. Lorek\n\t\n4\n4\n1\n3\n\n06.01\t11:00\t\nW. Gdaniec\n/\nD. Słojewska\nO. Malas\n/\nM. Gajzler\n\t\n4\n4\n2\n2\n\n06.01\t13:00\t\nP. Stróżyński\n/\nL. Ostrowska\nW. Gdaniec\n/\nD. Słojewska\n\t\n3\n2\n4\n4\n\n06.01\t13:00\t\nH. Szmyt\n/\nW. Lorek\nO. Malas\n/\nM. Gajzler\n\t\n0\n4\n8\n4\n3\n10\nGrupa B\nData\tGodz.\tMecz\tWynik\n06.01\t10:00\t\nN. Abraham\n/\nM. Hinca\nM. Lewandowski\n/\nW. Wiącek\n\t\n2\n3\n4\n4\n\n06.01\t12:00\t\nK. Ziętkowski\n/\nK. Gwizdowska\nM. Lewandowski\n/\nW. Wiącek\n\t\n3\n4\n10\n4\n1\n2\n\n06.01\t14:00\t\nK. Ziętkowski\n/\nK. Gwizdowska\nN. Abraham\n/\nM. Hinca\n\t\n4\n2\n10\n1\n4\n8\nGrupa C\nData\tGodz.\tMecz\tWynik\n06.01\t10:00\t\nJ. Ankudowicz\n/\nK. Szalaty\nW. Świderska\n/\nD. Murek\n\t\n4\n4\n0\n1\n\n06.01\t12:00\t\nA. Szczeciński\n/\nJ. Sierhej\nW. Świderska\n/\nD. Murek\n\t\n4\n4\n1\n0\n\n06.01\t14:00\t\nA. Szczeciński\n/\nJ. Sierhej\nJ. Ankudowicz\n/\nK. Szalaty\n\t\n4\n1\n10\n2\n4\n8\n1/4 FINAŁU\nData\tGodz.\tMecz\tWynik\n06.01\t17:00\t\nW. Gdaniec\n/\nD. Słojewska\nO. Malas\n/\nM. Gajzler\n\t\n0\n4\n12\n4\n2\n10\n\n06.01\t17:00\t\nJ. Ankudowicz\n/\nK. Szalaty\nM. Lewandowski\n/\nW. Wiącek\n\t\n4\n4\n1\n2\n\n06.01\t17:30\t\nK. Ziętkowski\n/\nK. Gwizdowska\nP. Stróżyński\n/\nL. Ostrowska\n\t\n4\n4\n2\n0\n\n06.01\t17:30\t\nA. Szczeciński\n/\nJ. Sierhej\nN. Abraham\n/\nM. Hinca\n\t\n4\n4\n0\n0\n1/2 FINAŁU\nData\tGodz.\tMecz\tWynik\n06.01\t19:25\t\nW. Gdaniec\n/\nD. Słojewska\nJ. Ankudowicz\n/\nK. Szalaty\n\t\n3\n2\n4\n4\n\n06.01\t19:25\t\nK. Ziętkowski\n/\nK. Gwizdowska\nA. Szczeciński\n/\nJ. Sierhej\n\t\n4\n2\n10\n3\n4\n5\nFINAŁ\nData\tGodz.\tMecz\tWynik\n06.01\t20:00\t\nJ. Ankudowicz\n/\nK. Szalaty\nK. Ziętkowski\n/\nK. Gwizdowska\n\t\n2\n4\n6\n4\n3\n10\nAby grać w turniejach\nJuż od 10 zł\nZALOGUJ SIĘ\n2026 © Polska Liga Tenisa. Wszelkie prawa zastrzeżone\nPolityka prywatnościRegulamin\nSzanowna Użytkowniczko, Szanowny Użytkowniku,\n\nZanim klikniesz „Przejdź do serwisu” lub zamkniesz to okno, prosimy o przeczytanie tej informacji. Prosimy w niej o Twoją dobrowolną zgodę na przetwarzanie Twoich danych osobowych przez naszych partnerów biznesowych oraz przekazujemy informacje o tzw. cookies i o przetwarzaniu przez nas Twoich danych osobowych. Klikając „Przejdź do serwisu” lub zamykając okno przez kliknięcie w znaczek X, zgadzasz się na poniższe. Możesz też odmówić zgody lub ograniczyć jej zakres.\n\n1. Informacje ogólne\nNiniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: www.polskaligatenisa.pl\nOperatorem serwisu oraz Administratorem danych osobowych jest: Polska Liga Tenisa Sp. z o.o. z siedzibą w Rzeszowie przy ul. Warneńczyka 85c, kod pocztowy: 35-612 Rzeszów\nAdres kontaktowy poczty elektronicznej operatora: kontakt@polskaligatenisa.pl\nOperator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie.\nSerwis wykorzystuje dane osobowe w następujących celach:\nProwadzenie newslettera\nProwadzenie systemu komentarzy\nPrezentacja profil użytkownika innym użytkownikom\nObsługa zapytań przez formularz\nRealizacja zamówionych usług\nPrezentacja oferty lub informacji\nSerwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący sposób:\nPoprzez dobrowolnie wprowadzone w formularzach dane, które zostają wprowadzone do systemów Operatora.\nPoprzez zapisywanie w urządzeniach końcowych plików cookie (tzw. „ciasteczka”).\n2. Wybrane metody ochrony danych stosowane przez Operatora\nMiejsca logowania i wprowadzania danych osobowych są chronione w warstwie transmisji (certyfikat SSL). Dzięki temu dane osobowe i dane logowania, wprowadzone na stronie, zostają zaszyfrowane w komputerze użytkownika i mogą być odczytane jedynie na docelowym serwerze.\nDane osobowe przechowywane w bazie danych są zaszyfrowane w taki sposób, że jedynie posiadający Operator klucz może je odczytać. Dzięki temu dane są chronione na wypadek wykradzenia bazy danych z serwera.\nW celu ochrony danych Operator regularnie wykonuje kopie bezpieczeństwa.\nIstotnym elementem ochrony danych jest regularna aktualizacja wszelkiego oprogramowania, wykorzystywanego przez Operatora do przetwarzania danych osobowych, co w szczególności oznacza regularne aktualizacje komponentów programistycznych.\n3. Hosting\nSerwis jest hostowany (technicznie utrzymywany) na serwerach operatora: mydevil.net\n4. Twoje prawa i dodatkowe informacje o sposobie wykorzystania danych\nZakładając konto wyrażasz zgodę na przetwarzanie Twoich danych osobowych przez Administratora oraz na wykorzystywanie wizerunku utrwalonego na zdjęciach.\nW niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osob"
+    },
+    {
+      "label": "PLT_Kategorie wiekowe",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-45-memorial-radoslawa-grobelskiego-2026-5158/wyniki",
+      "final_url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-45-memorial-radoslawa-grobelskiego-2026-5158/wyniki",
+      "error": null,
+      "meta": {
+        "zrodlo": "PLT",
+        "kategoria": "Kategorie wiekowe",
+        "nazwa": "PLT 45+. Memoriał Radosława Grobelskiego 2026",
+        "data_od": "2026-08-29",
+        "data_do": "2026-08-29",
+        "miasto": "Leszno",
+        "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-45-memorial-radoslawa-grobelskiego-2026-5158/wyniki",
+        "status_zrodla": "Zakończone",
+        "klucz_zrodla": "31ee483f6118bc2568",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:11:48+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:21:47+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": true,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": true,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 5,
+          "tag": "A",
+          "text": "Puchar PLT 2026(dla wszystkich)",
+          "href": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 28,
+          "tag": "A",
+          "text": "Puchar PLT",
+          "href": "https://polskaligatenisa.pl/ranking/puchar-plt/sezon/2026",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 37,
+          "tag": "A",
+          "text": "Sezon 2025",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2025/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 38,
+          "tag": "A",
+          "text": "Sezon 2024",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2024/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 39,
+          "tag": "A",
+          "text": "Sezon 2023",
+          "href": "https://polskaligatenisa.pl/dmp/druzynowe-mistrzostwa-polski-plt-sezon-2023/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 54,
+          "tag": "A",
+          "text": "Grupy",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-45-memorial-radoslawa-grobelskiego-2026-5158/grupy",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 55,
+          "tag": "A",
+          "text": "Faza pucharowa",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-45-memorial-radoslawa-grobelskiego-2026-5158/faza-pucharowa",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 56,
+          "tag": "A",
+          "text": "Terminarz / Wyniki",
+          "href": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-45-memorial-radoslawa-grobelskiego-2026-5158/wyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 86,
+          "tag": "A",
+          "text": "ZALOGUJ SIĘ",
+          "href": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-liga-tenisa-45%2Fplt-45-memorial-radoslawa-grobelskiego-2026-5158%2Fwyniki",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [
+        {
+          "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-45-memorial-radoslawa-grobelskiego-2026-5158/wyniki",
+          "status": 200,
+          "resource_type": "document",
+          "content_type": "text/html",
+          "method": "GET"
+        }
+      ],
+      "popups": [],
+      "tekst_poczatek": "NAJWIĘKSZA LIGA TENISOWA dla amatorów w Polsce\nLOGINDOŁĄCZ DO GRY\nNEWSY\nKALENDARZ TURNIEJÓW\nLIGI LOKALNE\nRANKINGI 2026\nDMP\nMULTIMEDIA\nREGULAMIN\nO NAS\nPolska Liga Tenisa\nTurnieje\nPLT 45+. Memoriał Radosława Grobelskiego 2026\nPLT 45+. Memoriał Radosława Grobelskiego 2026\n29 sierpnia 2026\nTurniej cyklu Letnie Mistrzostwa PLT\nInformacje\nSzczegóły\nUczestnicy\nGrupy\nFaza pucharowa\nTerminarz / Wyniki\nNewsy o turnieju\nNagrody\nRegulamin\nTransmisje\nPlan gier\nGrupa A\nData\tGodz.\tMecz\tWynik\n29.08\t09:00\t\nR. Wojciechowski\nM. Swienton\n\t\n4\n3\n7\n2\n4\n10\n\n29.08\t09:00\t\nS. Stańczak\nB. Latanowicz\n\t\n1\n1\n4\n4\n\n29.08\t10:00\t\nR. Wojciechowski\nB. Latanowicz\n\t\n4\n4\n3\n1\n\n29.08\t10:00\t\nS. Stańczak\nM. Swienton\n\t\n0\n1\n4\n4\n\n29.08\t13:00\t\nR. Wojciechowski\nS. Stańczak\n\t\n4\n4\n1\n0\n\n29.08\t13:00\t\nB. Latanowicz\nM. Swienton\n\t\n4\n4\n1\n3\nGrupa B\nData\tGodz.\tMecz\tWynik\n29.08\t11:00\t\nW. Rymwid\nL. Janusz\n\t\n4\n4\n1\n1\n\n29.08\t12:00\t\nŁ. Chwaliszewski\nL. Janusz\n\t\n4\n2\n10\n0\n4\n6\n\n29.08\t14:00\t\nŁ. Chwaliszewski\nW. Rymwid\n\t\n1\n2\n4\n4\n1/2 FINAŁU\nData\tGodz.\tMecz\tWynik\n29.08\t15:02\t\nR. Wojciechowski\nŁ. Chwaliszewski\n\t\n4\n4\n0\n1\n\n29.08\t15:02\t\nW. Rymwid\nB. Latanowicz\n\t\n4\n2\n7\n1\n4\n10\nFINAŁ\nData\tGodz.\tMecz\tWynik\n29.08\t16:41\t\nR. Wojciechowski\nB. Latanowicz\n\t\n0\n0\n4\n4\n(w.o.)\nAby grać w turniejach\nJuż od 10 zł\nZALOGUJ SIĘ\n2026 © Polska Liga Tenisa. Wszelkie prawa zastrzeżone\nPolityka prywatnościRegulamin\nSzanowna Użytkowniczko, Szanowny Użytkowniku,\n\nZanim klikniesz „Przejdź do serwisu” lub zamkniesz to okno, prosimy o przeczytanie tej informacji. Prosimy w niej o Twoją dobrowolną zgodę na przetwarzanie Twoich danych osobowych przez naszych partnerów biznesowych oraz przekazujemy informacje o tzw. cookies i o przetwarzaniu przez nas Twoich danych osobowych. Klikając „Przejdź do serwisu” lub zamykając okno przez kliknięcie w znaczek X, zgadzasz się na poniższe. Możesz też odmówić zgody lub ograniczyć jej zakres.\n\n1. Informacje ogólne\nNiniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: www.polskaligatenisa.pl\nOperatorem serwisu oraz Administratorem danych osobowych jest: Polska Liga Tenisa Sp. z o.o. z siedzibą w Rzeszowie przy ul. Warneńczyka 85c, kod pocztowy: 35-612 Rzeszów\nAdres kontaktowy poczty elektronicznej operatora: kontakt@polskaligatenisa.pl\nOperator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie.\nSerwis wykorzystuje dane osobowe w następujących celach:\nProwadzenie newslettera\nProwadzenie systemu komentarzy\nPrezentacja profil użytkownika innym użytkownikom\nObsługa zapytań przez formularz\nRealizacja zamówionych usług\nPrezentacja oferty lub informacji\nSerwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący sposób:\nPoprzez dobrowolnie wprowadzone w formularzach dane, które zostają wprowadzone do systemów Operatora.\nPoprzez zapisywanie w urządzeniach końcowych plików cookie (tzw. „ciasteczka”).\n2. Wybrane metody ochrony danych stosowane przez Operatora\nMiejsca logowania i wprowadzania danych osobowych są chronione w warstwie transmisji (certyfikat SSL). Dzięki temu dane osobowe i dane logowania, wprowadzone na stronie, zostają zaszyfrowane w komputerze użytkownika i mogą być odczytane jedynie na docelowym serwerze.\nDane osobowe przechowywane w bazie danych są zaszyfrowane w taki sposób, że jedynie posiadający Operator klucz może je odczytać. Dzięki temu dane są chronione na wypadek wykradzenia bazy danych z serwera.\nW celu ochrony danych Operator regularnie wykonuje kopie bezpieczeństwa.\nIstotnym elementem ochrony danych jest regularna aktualizacja wszelkiego oprogramowania, wykorzystywanego przez Operatora do przetwarzania danych osobowych, co w szczególności oznacza regularne aktualizacje komponentów programistycznych.\n3. Hosting\nSerwis jest hostowany (technicznie utrzymywany) na serwerach operatora: mydevil.net\n4. Twoje prawa i dodatkowe informacje o sposobie wykorzystania danych\nZakładając konto wyrażasz zgodę na przetwarzanie Twoich danych osobowych przez Administratora oraz na wykorzystywanie wizerunku utrwalonego na zdjęciach.\nW niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osobowe innym odbiorcom, jeśli będzie to niezbędne do wykonania zawartej z Tobą umowy lub do zrealizowania obowiązków ciążących na Administratorze. Dotyczy to takich grup odbiorców:\nfirma hostingowa na zasadzie powierzenia\noperatorzy płatności\noperatorzy systemu komentarzy\nupoważnieni pracownicy i współpracownicy, którzy korzystają z danych w celu realizacji celu działania strony\nfirmy, świadczące usługi marketingu na rzecz Administratora\nTwoje dane osobowe przetwarzane przez Administratora nie dłużej, niż jest to konieczne do wykonania związanych z nimi czynności określonych osobnymi przepisami (np. o prowadzeniu rachunkowości). W odniesieniu do danych marketingowych dane nie będą przetwarzane dłużej niż przez 3 lata.\nPrzysługuje Ci prawo żądania od Administratora:\ndostępu do danych osobowych Ciebie dotyczących,\nich sprostowania,\nusunięcia,\nograniczenia przetwarzania,\noraz prze"
+    },
+    {
+      "label": "Cuply_1",
+      "url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iii",
+      "final_url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iii",
+      "error": null,
+      "meta": {
+        "zrodlo": "Cuply",
+        "cykl_szczegolowy": "Cuply",
+        "nazwa": "DUO ZOOM & BREJK Open III",
+        "data_od": "2026-05-09",
+        "data_do": "2026-05-09",
+        "miasto": "Szczecin / Mierzyn",
+        "miejsce": "Zoom Tennis Academy, Szczecin / Mierzyn",
+        "url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iii",
+        "status_zrodla": "Zakończone",
+        "klucz_zrodla": "27393b684d8e15c35a",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": true,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": true,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 25,
+          "tag": "BUTTON",
+          "text": "Grupy",
+          "href": "",
+          "onclick": "",
+          "target": "",
+          "type": "button",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 26,
+          "tag": "BUTTON",
+          "text": "Fazy pucharowe",
+          "href": "",
+          "onclick": "",
+          "target": "",
+          "type": "button",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 27,
+          "tag": "BUTTON",
+          "text": "Wyniki",
+          "href": "",
+          "onclick": "",
+          "target": "",
+          "type": "button",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 28,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/zapisy/turniej/47",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 29,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/zapisy/turniej/47",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 30,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/zapisy/turniej/47",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 69,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/turnieje/majeran-zoom-tenis-cup-ix-dla-poczatkujacych",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 71,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/turnieje/super-masters-zoom-1000-eliminacje-23",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [],
+      "popups": [],
+      "tekst_poczatek": "Turnieje\nLigi lokalne\nRanking\nJak to działa\nDla Organizatorów\nBlog\nZaloguj się\nDołącz teraz\nTurnieje\nLigi lokalne\nRanking\nJak to działa\nDla Organizatorów\nBlog\nZaloguj się\nDołącz teraz\nCuply\nTurnieje\nDUO ZOOM & BREJK Open III\nDUO ZOOM & BREJK Open III\nTermin: 09.05.2026\nMiejsce: Zoom Tennis Academy, Lubieszyńska 10A, Szczecin / Mierzyn\nInformacje\nUczestnicy\nPary\nGrupy\nFazy pucharowe\nWyniki\nBrak miejsc\nZapisz się na listę rezerwową\nInformacje\n\nRozgrywka\n\nTermin:\n09.05.2026\nSystem gier:\nGrupowy + pucharowy\nLimit uczestników:\n16\nTyp gry:\nDebel\n\nTurniej dla zaawansowanych amatorów (Sugerowany poziom 1 liga SLT+)\n\nBrak miejsc\nZapisz się na listę rezerwową\n\nZobacz obiekt na mapie\n\nBrak miejsc\nZapisz się na listę rezerwową\n\nNie znalazłeś potrzebnych Ci informacji?\n\nSkontaktuj się z nami\nSprawdź inne turnieje w okolicy (12)\nSzukaj wg województwa\nZachodniopomorskie\nChallenger Koszalin I dla średniozaawansowanych (do 4.0 NTRP)\nTermin: 12.09 - 12.09.2026\nMiejsce: Bałtyk Tenis, Koszalin\nWeź udział w turnieju\nFutures Koszalin I - dla początkujących (do 2.5 NTRP)\nTermin: 12.09 - 12.09.2026\nMiejsce: Bałtyk Tenis, Koszalin\nWeź udział w turnieju\nCuply Challenger Szczecin Dołuje II (do 4.0 NTRP)\nTermin: 19.09 - 19.09.2026\nMiejsce: Family Garden, Szczecin, Dołuje\nWeź udział w turnieju\nCuply Futures Szczecin Dołuje II (do 2.5 NTRP)\nTermin: 20.09 - 20.09.2026\nMiejsce: Family Garden, Szczecin, Dołuje\nWeź udział w turnieju\nCuply Masters Szczecin Dołuje - dla zaawansowanych\nTermin: 20.09 - 20.09.2026\nMiejsce: Family Garden, Szczecin, Dołuje\nWeź udział w turnieju\nDUO ZOOM & BREJK Open IV - turniej deblowy OPEN\nTermin: 26.09 - 26.09.2026\nMiejsce: Zoom Tennis Academy, Szczecin / Mierzyn\nWeź udział w turnieju\nCuply Challenger Stargard IV dla średniozaawansowanych (do 4.0 NTRP)\nTermin: 26.09 - 26.09.2026\nMiejsce: SOT Stargardzki Ośrodek Tenisowy, Stargard\nWeź udział w turnieju\nCuply Futures Stargard II dla początkujących (do 2.5 NTRP)\nTermin: 27.09 - 27.09.2026\nMiejsce: SOT Stargardzki Ośrodek Tenisowy, Stargard\nWeź udział w turnieju\nCuply Stargard Masters II (zaawansowani amatorzy)\nTermin: 27.09 - 27.09.2026\nMiejsce: SOT Stargardzki Ośrodek Tenisowy, Stargard\nWeź udział w turnieju\nMAJERAN - ZOOM Tenis CUP IX - dla początkujących\nTermin: 03.10 - 03.10.2026\nMiejsce: Zoom Tennis Academy, Szczecin\nZapisz się na listę rezerwową\nSuper Masters ZOOM 1000$ eliminacje 2/3\nTermin: 17.10 - 17.10.2026\nMiejsce: Zoom Tennis Academy, Szczecin\nZapisz się na listę rezerwową\nGARDENIA - DUO ZOOM Tenis CUP VIII - turniej deblowy dla początkujących\nTermin: 24.10 - 24.10.2026\nMiejsce: Zoom Tenis Academy, Szczecin\nWeź udział w turnieju\nZobacz więcej\n\nRozgrywka\n\nTurnieje\nLigi lokalne\nRanking\nTrenerzy\nObiekty\n\nSerwis\n\nBlog\nPartnerzy\nFAQ\nJak to działa\n\nWięcej\n\nRegulamin\nPolityka Prywatności\nPolityka Cookies\nKontakt\n\n© Cuply. All Right Reserved"
+    },
+    {
+      "label": "Cuply_2",
+      "url": "https://cuply.pl/turnieje/majeran-zoom-tenis-cup-viii",
+      "final_url": "https://cuply.pl/turnieje/majeran-zoom-tenis-cup-viii",
+      "error": null,
+      "meta": {
+        "zrodlo": "Cuply",
+        "cykl_szczegolowy": "Cuply",
+        "nazwa": "MAJERAN - ZOOM Tenis CUP VIII",
+        "data_od": "2026-05-16",
+        "data_do": "2026-05-16",
+        "miasto": "Szczecin",
+        "miejsce": "Zoom Tennis Academy, Szczecin",
+        "url": "https://cuply.pl/turnieje/majeran-zoom-tenis-cup-viii",
+        "status_zrodla": "Zakończone",
+        "klucz_zrodla": "b654e498a12b076983",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": true,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": true,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 24,
+          "tag": "BUTTON",
+          "text": "Grupy",
+          "href": "",
+          "onclick": "",
+          "target": "",
+          "type": "button",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 25,
+          "tag": "BUTTON",
+          "text": "Fazy pucharowe",
+          "href": "",
+          "onclick": "",
+          "target": "",
+          "type": "button",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 26,
+          "tag": "BUTTON",
+          "text": "Wyniki",
+          "href": "",
+          "onclick": "",
+          "target": "",
+          "type": "button",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 27,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/zapisy/turniej/49",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 28,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/zapisy/turniej/49",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 29,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/zapisy/turniej/49",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 68,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/turnieje/majeran-zoom-tenis-cup-ix-dla-poczatkujacych",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 70,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/turnieje/super-masters-zoom-1000-eliminacje-23",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [],
+      "popups": [],
+      "tekst_poczatek": "Turnieje\nLigi lokalne\nRanking\nJak to działa\nDla Organizatorów\nBlog\nZaloguj się\nDołącz teraz\nTurnieje\nLigi lokalne\nRanking\nJak to działa\nDla Organizatorów\nBlog\nZaloguj się\nDołącz teraz\nCuply\nTurnieje\nMAJERAN - ZOOM Tenis CUP VIII\nMAJERAN - ZOOM Tenis CUP VIII\nTermin: 16.05.2026\nMiejsce: Zoom Tennis Academy, Szczecin\nInformacje\nUczestnicy\nGrupy\nFazy pucharowe\nWyniki\nBrak miejsc\nZapisz się na listę rezerwową\nInformacje\n\nRozgrywka\n\nTermin:\n16.05.2026\nSystem gier:\nGrupowy + pucharowy\nLimit uczestników:\n12\nTyp gry:\nSingiel\nBrak miejsc\nZapisz się na listę rezerwową\n\nZobacz obiekt na mapie\n\nBrak miejsc\nZapisz się na listę rezerwową\n\nNie znalazłeś potrzebnych Ci informacji?\n\nSkontaktuj się z nami\nSprawdź inne turnieje w okolicy (12)\nSzukaj wg województwa\nZachodniopomorskie\nChallenger Koszalin I dla średniozaawansowanych (do 4.0 NTRP)\nTermin: 12.09 - 12.09.2026\nMiejsce: Bałtyk Tenis, Koszalin\nWeź udział w turnieju\nFutures Koszalin I - dla początkujących (do 2.5 NTRP)\nTermin: 12.09 - 12.09.2026\nMiejsce: Bałtyk Tenis, Koszalin\nWeź udział w turnieju\nCuply Challenger Szczecin Dołuje II (do 4.0 NTRP)\nTermin: 19.09 - 19.09.2026\nMiejsce: Family Garden, Szczecin, Dołuje\nWeź udział w turnieju\nCuply Futures Szczecin Dołuje II (do 2.5 NTRP)\nTermin: 20.09 - 20.09.2026\nMiejsce: Family Garden, Szczecin, Dołuje\nWeź udział w turnieju\nCuply Masters Szczecin Dołuje - dla zaawansowanych\nTermin: 20.09 - 20.09.2026\nMiejsce: Family Garden, Szczecin, Dołuje\nWeź udział w turnieju\nDUO ZOOM & BREJK Open IV - turniej deblowy OPEN\nTermin: 26.09 - 26.09.2026\nMiejsce: Zoom Tennis Academy, Szczecin / Mierzyn\nWeź udział w turnieju\nCuply Challenger Stargard IV dla średniozaawansowanych (do 4.0 NTRP)\nTermin: 26.09 - 26.09.2026\nMiejsce: SOT Stargardzki Ośrodek Tenisowy, Stargard\nWeź udział w turnieju\nCuply Futures Stargard II dla początkujących (do 2.5 NTRP)\nTermin: 27.09 - 27.09.2026\nMiejsce: SOT Stargardzki Ośrodek Tenisowy, Stargard\nWeź udział w turnieju\nCuply Stargard Masters II (zaawansowani amatorzy)\nTermin: 27.09 - 27.09.2026\nMiejsce: SOT Stargardzki Ośrodek Tenisowy, Stargard\nWeź udział w turnieju\nMAJERAN - ZOOM Tenis CUP IX - dla początkujących\nTermin: 03.10 - 03.10.2026\nMiejsce: Zoom Tennis Academy, Szczecin\nZapisz się na listę rezerwową\nSuper Masters ZOOM 1000$ eliminacje 2/3\nTermin: 17.10 - 17.10.2026\nMiejsce: Zoom Tennis Academy, Szczecin\nZapisz się na listę rezerwową\nGARDENIA - DUO ZOOM Tenis CUP VIII - turniej deblowy dla początkujących\nTermin: 24.10 - 24.10.2026\nMiejsce: Zoom Tenis Academy, Szczecin\nWeź udział w turnieju\nZobacz więcej\n\nRozgrywka\n\nTurnieje\nLigi lokalne\nRanking\nTrenerzy\nObiekty\n\nSerwis\n\nBlog\nPartnerzy\nFAQ\nJak to działa\n\nWięcej\n\nRegulamin\nPolityka Prywatności\nPolityka Cookies\nKontakt\n\n© Cuply. All Right Reserved"
+    },
+    {
+      "label": "Cuply_3",
+      "url": "https://cuply.pl/turnieje/mistrzostwa-powiatu-lobeskiego-2026",
+      "final_url": "https://cuply.pl/turnieje/mistrzostwa-powiatu-lobeskiego-2026",
+      "error": null,
+      "meta": {
+        "zrodlo": "Cuply",
+        "cykl_szczegolowy": "Cuply",
+        "nazwa": "Mistrzostwa Powiatu Łobeskiego 2026",
+        "data_od": "2026-05-27",
+        "data_do": "2026-05-27",
+        "miasto": "—",
+        "miejsce": "—",
+        "url": "https://cuply.pl/turnieje/mistrzostwa-powiatu-lobeskiego-2026",
+        "status_zrodla": "Zakończone",
+        "klucz_zrodla": "b1bf484f8919819441",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": false,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": true,
+      "ma_wyniki": true,
+      "elementy_istotne": [
+        {
+          "i": 24,
+          "tag": "BUTTON",
+          "text": "Fazy pucharowe",
+          "href": "",
+          "onclick": "",
+          "target": "",
+          "type": "button",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 25,
+          "tag": "BUTTON",
+          "text": "Wyniki",
+          "href": "",
+          "onclick": "",
+          "target": "",
+          "type": "button",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 26,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/zapisy/turniej/53",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 27,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/zapisy/turniej/53",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 28,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/zapisy/turniej/53",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 67,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/turnieje/majeran-zoom-tenis-cup-ix-dla-poczatkujacych",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        },
+        {
+          "i": 69,
+          "tag": "A",
+          "text": "Zapisz się na listę rezerwową",
+          "href": "https://cuply.pl/turnieje/super-masters-zoom-1000-eliminacje-23",
+          "onclick": "",
+          "target": "",
+          "type": "",
+          "id": "",
+          "name": ""
+        }
+      ],
+      "network_istotny": [],
+      "popups": [],
+      "tekst_poczatek": "Turnieje\nLigi lokalne\nRanking\nJak to działa\nDla Organizatorów\nBlog\nZaloguj się\nDołącz teraz\nTurnieje\nLigi lokalne\nRanking\nJak to działa\nDla Organizatorów\nBlog\nZaloguj się\nDołącz teraz\nCuply\nTurnieje\nMistrzostwa Powiatu Łobeskiego 2026\nMistrzostwa Powiatu Łobeskiego 2026\nTermin: 27.05.2026\nInformacje\nUczestnicy\nFazy pucharowe\nWyniki\nBrak miejsc\nZapisz się na listę rezerwową\nInformacje\n\nRozgrywka\n\nTermin:\n27.05.2026\nSystem gier:\nPucharowy\nLimit uczestników:\n16\nTyp gry:\nSingiel\nPłeć uczestników:\nMężczyźni\nBrak miejsc\nZapisz się na listę rezerwową\n\nNie znalazłeś potrzebnych Ci informacji?\n\nSkontaktuj się z nami\nSprawdź inne turnieje w okolicy (12)\nSzukaj wg województwa\nZachodniopomorskie\nChallenger Koszalin I dla średniozaawansowanych (do 4.0 NTRP)\nTermin: 12.09 - 12.09.2026\nMiejsce: Bałtyk Tenis, Koszalin\nWeź udział w turnieju\nFutures Koszalin I - dla początkujących (do 2.5 NTRP)\nTermin: 12.09 - 12.09.2026\nMiejsce: Bałtyk Tenis, Koszalin\nWeź udział w turnieju\nCuply Challenger Szczecin Dołuje II (do 4.0 NTRP)\nTermin: 19.09 - 19.09.2026\nMiejsce: Family Garden, Szczecin, Dołuje\nWeź udział w turnieju\nCuply Futures Szczecin Dołuje II (do 2.5 NTRP)\nTermin: 20.09 - 20.09.2026\nMiejsce: Family Garden, Szczecin, Dołuje\nWeź udział w turnieju\nCuply Masters Szczecin Dołuje - dla zaawansowanych\nTermin: 20.09 - 20.09.2026\nMiejsce: Family Garden, Szczecin, Dołuje\nWeź udział w turnieju\nDUO ZOOM & BREJK Open IV - turniej deblowy OPEN\nTermin: 26.09 - 26.09.2026\nMiejsce: Zoom Tennis Academy, Szczecin / Mierzyn\nWeź udział w turnieju\nCuply Challenger Stargard IV dla średniozaawansowanych (do 4.0 NTRP)\nTermin: 26.09 - 26.09.2026\nMiejsce: SOT Stargardzki Ośrodek Tenisowy, Stargard\nWeź udział w turnieju\nCuply Futures Stargard II dla początkujących (do 2.5 NTRP)\nTermin: 27.09 - 27.09.2026\nMiejsce: SOT Stargardzki Ośrodek Tenisowy, Stargard\nWeź udział w turnieju\nCuply Stargard Masters II (zaawansowani amatorzy)\nTermin: 27.09 - 27.09.2026\nMiejsce: SOT Stargardzki Ośrodek Tenisowy, Stargard\nWeź udział w turnieju\nMAJERAN - ZOOM Tenis CUP IX - dla początkujących\nTermin: 03.10 - 03.10.2026\nMiejsce: Zoom Tennis Academy, Szczecin\nZapisz się na listę rezerwową\nSuper Masters ZOOM 1000$ eliminacje 2/3\nTermin: 17.10 - 17.10.2026\nMiejsce: Zoom Tennis Academy, Szczecin\nZapisz się na listę rezerwową\nGARDENIA - DUO ZOOM Tenis CUP VIII - turniej deblowy dla początkujących\nTermin: 24.10 - 24.10.2026\nMiejsce: Zoom Tenis Academy, Szczecin\nWeź udział w turnieju\nZobacz więcej\n\nRozgrywka\n\nTurnieje\nLigi lokalne\nRanking\nTrenerzy\nObiekty\n\nSerwis\n\nBlog\nPartnerzy\nFAQ\nJak to działa\n\nWięcej\n\nRegulamin\nPolityka Prywatności\nPolityka Cookies\nKontakt\n\n© Cuply. All Right Reserved"
+    },
+    {
+      "label": "Kluby_MIKST",
+      "url": "https://kluby.org/turnieje/10368",
+      "final_url": "https://kluby.org/turnieje/10368",
+      "error": null,
+      "meta": {
+        "zrodlo": "Kluby.org",
+        "nazwa": "Debel Mikst 40+ Zima z Wars-em 2025/26",
+        "data_od": "2026-01-04",
+        "data_do": "2026-01-04",
+        "miasto": "Warszawa",
+        "miejsce": "TKKF Wars, Warszawa",
+        "kategorie": "DEBEL MIKST +40",
+        "url": "https://kluby.org/turnieje/10368",
+        "klucz_zrodla": "5146f5d17a4a1981bc",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:12:01+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:22:01+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": false,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": false,
+      "ma_wyniki": false,
+      "elementy_istotne": [],
+      "network_istotny": [
+        {
+          "url": "https://kluby.org/cdn-cgi/rum?",
+          "status": 204,
+          "resource_type": "xhr",
+          "content_type": "text/plain",
+          "method": "POST"
+        },
+        {
+          "url": "https://kluby.org/cdn-cgi/challenge-platform/h/g/jsd/oneshot/330e41bb475c/0.2684459935241722:1788948324:cvQgN914ifHTgs_2jIBL6OdL3JMVpd5diRi3U7D8XG8/a38579822f86cb4a",
+          "status": 200,
+          "resource_type": "xhr",
+          "content_type": "text/plain; charset=UTF-8",
+          "method": "POST"
+        }
+      ],
+      "popups": [],
+      "tekst_poczatek": "NIE UDAŁO SIĘ OTWORZYĆ STRONY\n\nBłąd\nCoś poszło nie tak\n\nStrona może być chwilowo niedostępna albo podany adres jest nieprawidłowy. Spróbuj ponownie za moment lub wróć na stronę główną.\n\nSpróbuj ponownie\nStrona główna\n\nJeśli problem się powtarza, spróbuj ponownie za kilka minut."
+    },
+    {
+      "label": "Kluby_DEBEL",
+      "url": "https://kluby.org/turnieje/10824",
+      "final_url": "https://kluby.org/turnieje/10824",
+      "error": null,
+      "meta": {
+        "zrodlo": "Kluby.org",
+        "nazwa": "Noworoczny Turniej Mikstowy Ino-Cup 2026",
+        "data_od": "2026-01-10",
+        "data_do": "2026-01-10",
+        "miasto": "Inowrocław",
+        "miejsce": "CT Set Point, Inowrocław",
+        "kategorie": "DEBEL MIKST",
+        "url": "https://kluby.org/turnieje/10824",
+        "klucz_zrodla": "ff4b4bc47995178ef3",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:12:01+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:22:01+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": false,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": false,
+      "ma_wyniki": false,
+      "elementy_istotne": [],
+      "network_istotny": [
+        {
+          "url": "https://kluby.org/cdn-cgi/rum?",
+          "status": 204,
+          "resource_type": "xhr",
+          "content_type": "text/plain",
+          "method": "POST"
+        }
+      ],
+      "popups": [],
+      "tekst_poczatek": "NIE UDAŁO SIĘ OTWORZYĆ STRONY\n\nBłąd\nCoś poszło nie tak\n\nStrona może być chwilowo niedostępna albo podany adres jest nieprawidłowy. Spróbuj ponownie za moment lub wróć na stronę główną.\n\nSpróbuj ponownie\nStrona główna\n\nJeśli problem się powtarza, spróbuj ponownie za kilka minut."
+    },
+    {
+      "label": "Kluby_WIELE_KAT",
+      "url": "https://kluby.org/turnieje/11091",
+      "final_url": "https://kluby.org/turnieje/11091",
+      "error": null,
+      "meta": {
+        "zrodlo": "Kluby.org",
+        "nazwa": "Zimowy Rundziak Kiełbasiany",
+        "data_od": "2026-02-15",
+        "data_do": "2026-02-15",
+        "miasto": "Kielce",
+        "miejsce": "KT Wschodnia Kielce, Kielce",
+        "kategorie": "OPEN (2 drabinka) PRO KOBIETY OPEN",
+        "url": "https://kluby.org/turnieje/11091",
+        "klucz_zrodla": "9c40917898317bab43",
+        "pierwsze_wykrycie_utc": "2026-09-08T18:12:01+00:00",
+        "ostatnio_widziany_utc": "2026-09-08T18:22:01+00:00",
+        "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+      },
+      "ma_grupy": false,
+      "ma_drabinke": false,
+      "ma_faze_pucharowa": false,
+      "ma_wyniki": false,
+      "elementy_istotne": [],
+      "network_istotny": [
+        {
+          "url": "https://kluby.org/cdn-cgi/rum?",
+          "status": 204,
+          "resource_type": "xhr",
+          "content_type": "text/plain",
+          "method": "POST"
+        }
+      ],
+      "popups": [],
+      "tekst_poczatek": "NIE UDAŁO SIĘ OTWORZYĆ STRONY\n\nBłąd\nCoś poszło nie tak\n\nStrona może być chwilowo niedostępna albo podany adres jest nieprawidłowy. Spróbuj ponownie za moment lub wróć na stronę główną.\n\nSpróbuj ponownie\nStrona główna\n\nJeśli problem się powtarza, spróbuj ponownie za kilka minut."
+    }
+  ]
+}
