@@ -50,3 +50,14 @@ $feed['posts']=array(entry(4)); $feed['posts'][0]['content']='tampered'; Tenis_N
 $feed['posts']=array(); for($i=10;$i<23;$i++)$feed['posts'][]=entry($i);
 Tenis_NET_Wyniki::import(true); check(count($posts)===13,'backfill batch limited to ten');
 Tenis_NET_Wyniki::import(true); check(count($posts)===16,'next batch continues without duplicates');
+$now = new DateTimeImmutable('now', new DateTimeZone('Europe/Warsaw'));
+$tuesday = $now->modify('tuesday this week')->setTime(4,0);
+if ($now < $tuesday) $tuesday = $tuesday->modify('-7 days');
+$posts=array(); $meta=array(); $feed['run_date']=$tuesday->format('Y-m-d'); $feed['posts']=array();
+for($i=100;$i<113;$i++) { $e=entry($i); $e['date_end']=$tuesday->modify('-7 days')->format('Y-m-d'); $feed['posts'][]=$e; }
+$old=entry(200); $old['date_end']=$tuesday->modify('-8 days')->format('Y-m-d'); $feed['posts'][]=$old;
+$future=entry(201); $future['date_end']=$tuesday->format('Y-m-d'); $feed['posts'][]=$future;
+Tenis_NET_Wyniki::import(false);
+check(count($posts)===13,'one weekly import processes all entries and only previous seven days');
+$next=Tenis_NET_Wyniki::next_run(new DateTimeImmutable('2026-10-20 05:00',new DateTimeZone('Europe/Warsaw')));
+check($next->format('Y-m-d H:i P')==='2026-10-27 04:30 +01:00','weekly time survives autumn clock change');

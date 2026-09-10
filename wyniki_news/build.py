@@ -81,6 +81,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--today', type=date.fromisoformat)
+    ap.add_argument('--backfill', action='store_true', help='Ręcznie odśwież całe archiwum po 1 lipca; domyślnie tylko ostatnie 7 dni')
     args = ap.parse_args()
     now = datetime.now(timezone.utc)
     today = args.today or datetime.now(ZoneInfo('Europe/Warsaw')).date()
@@ -92,10 +93,10 @@ def main():
     for x in candidates:
         if x.get('zrodlo') != 'PLT': continue
         attempt = state['attempts'].get(x['url'], {})
-        # Recent events and older incomplete events rechecked weekly.
+        # Weekly snapshot only; older events require an explicit manual backfill.
         age = (today - date.fromisoformat(x.get('data_do') or x['data_od'])).days
         days = (today - date.fromisoformat(attempt.get('date', '2000-01-01'))).days
-        if not attempt or age <= 35 or (not attempt.get('ready') and days >= 7): jobs.append(x)
+        if args.backfill or age <= 7: jobs.append(x)
     jobs.sort(key=lambda x: (state['attempts'].get(x['url'], {}).get('date', ''), x['data_od']))
     if args.limit: jobs = jobs[:args.limit]
     errors = []

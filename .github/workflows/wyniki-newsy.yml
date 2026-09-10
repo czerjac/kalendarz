@@ -37,7 +37,7 @@ jobs:
         run: |
           php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
           php tests/wyniki_news/wordpress_import_test.php
-      - name: Pobierz wyniki od lipca 2026 i uzupełnij opóźnione
+      - name: Pobierz dostępne wyniki z poprzednich siedmiu dni
         run: python -m wyniki_news.build
       - name: Zapisz wyłącznie osobny katalog wyników
         run: |

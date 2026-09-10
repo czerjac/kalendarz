@@ -14,13 +14,13 @@ Osobny dodatek do istniejącego kalendarza. Nie zmienia jego wtyczki, zbierania 
 
 `wyniki-newsy.yml`: wtorek 04:00, `Europe/Warsaw` (uwzględnia czas letni). GitHub może opóźnić zadanie; harmonogram wymaga aktywnego workflow na głównej gałęzi. Ręczne uruchomienie jest dostępne w Actions.
 
-Kolektor sprawdza nowe zakończone turnieje, ostatnie 35 dni i raz w tygodniu starsze niepełne wyniki. WordPress automatycznie odbiera tylko zestaw z ostatniego wtorku, uwzględniając ostatnie 35 dni, aby nadrobić spóźnione wyniki. Obejmuje również turnieje rozegrane w dni robocze. Starsze archiwum importuje się przyciskiem w panelu. Potwierdzone stare wyniki poza oknem 35 dni nie są ponownie sprawdzane.
+Kolektor sprawdza wyłącznie turnieje zakończone w poprzednich siedmiu dniach kalendarzowych: wtorek–poniedziałek. WordPress odbiera tylko zestaw z ostatniego wtorku i tylko ten sam zakres siedmiu dni. Nie ma automatycznego uzupełniania starszych wyników. Starsze przygotowane archiwum pozostaje dostępne przez przycisk w panelu; jego ponowne pobranie ze źródeł wymaga ręcznego polecenia `python -m wyniki_news.build --backfill`.
 
-Wtyczka sprawdza plik co godzinę i przetwarza po 10 zmian. WP-Cron zależy od ruchu. Aby publikować nad ranem także bez odwiedzin, hosting powinien uruchamiać WordPress Cron co 5–10 minut. Sam harmonogram GitHuba nie gwarantuje dokładnej godziny publikacji.
+Wtyczka odbiera plik raz w tygodniu, we wtorek o 04:30 czasu polskiego, po przygotowaniu danych przez GitHub. Automatyczny import obejmuje cały tygodniowy zestaw; limit 10 dotyczy tylko ręcznego importu archiwum. Nie ma godzinowego sprawdzania ani automatycznych ponowień. WP-Cron zależy od ruchu: aby wykonać odbiór bez odwiedzin, wystarczy uruchomienie WordPress Cron na hostingu raz we wtorek o 04:30. Nie zmieniaj harmonogramów wymaganych przez inne wtyczki. GitHub może opóźnić zadanie; gdy świeżego zestawu zabraknie, w raporcie będzie komunikat i potrzebny będzie import ręczny. Godzina rozpoczęcia zbierania nie jest gwarancją dokładnej godziny publikacji.
 
 ## Instalacja
 
-1. Zrób kopię zapasową WordPressa. Zainstaluj ZIP `tenis-net-wyniki-0.1.0.zip` przez Wtyczki → Dodaj nową → Wyślij wtyczkę; włącz. Nie usuwaj wtyczki kalendarza.
+1. Zrób kopię zapasową WordPressa. Zainstaluj ZIP `tenis-net-wyniki-0.1.1.zip` przez Wtyczki → Dodaj nową → Wyślij wtyczkę; włącz. Jeśli masz wersję 0.1.0, wybierz zastąpienie aktualnej wtyczki nową wersją. Godzinowe zadanie zostanie usunięte automatycznie; ustawienia i wpisy pozostaną. Nie usuwaj wtyczki kalendarza.
 2. Narzędzia → Wyniki Tenis NET: wybierz kategorię i autora. Pozostaw szkice oraz wyłączony odbiór automatyczny. Zapisz.
 3. Importuj pierwszych 10 turniejów i sprawdź je w sekcji Wpisy → Szkice: wygląd tabel, polskie znaki, źródło i kategorię.
 4. Gdy próbka jest poprawna, możesz opublikować te szkice zwykłymi narzędziami WordPressa. Zmiana trybu nie publikuje automatycznie identycznych szkiców już zaimportowanych.

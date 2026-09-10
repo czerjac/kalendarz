@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Tenis NET – Wyniki i newsy
  * Description: Importuje osobny plik wyników z GitHuba do zwykłych wpisów. Nie zmienia kalendarza.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Requires PHP: 7.4
  * Author: Tenis NET
  */
@@ -14,6 +14,7 @@ final class Tenis_NET_Wyniki {
     const HOOK = 'tnw_check_weekly_feed';
 
     public static function init() {
+        add_action('init', array(__CLASS__, 'migrate_schedule'));
         add_action('admin_menu', array(__CLASS__, 'menu'));
         add_action('admin_post_tnw_save', array(__CLASS__, 'save'));
         add_action('admin_post_tnw_import', array(__CLASS__, 'manual'));
@@ -25,9 +26,24 @@ final class Tenis_NET_Wyniki {
     }
 
     public static function activate() {
-        if (!wp_next_scheduled(self::HOOK)) { wp_schedule_event(time() + 60, 'hourly', self::HOOK); }
+        self::migrate_schedule();
         if (!get_option(self::OPTION)) {
             add_option(self::OPTION, array('enabled' => false, 'mode' => 'draft', 'category' => 0, 'author' => get_current_user_id()), '', false);
+        }
+    }
+
+    public static function next_run($now) {
+        $next = $now->setTimezone(new DateTimeZone('Europe/Warsaw'))->modify('tuesday this week')->setTime(4, 30);
+        return $next <= $now ? $next->modify('+7 days') : $next;
+    }
+
+    public static function migrate_schedule() {
+        if (get_option('tnw_schedule_version') !== '0.1.1') {
+            wp_clear_scheduled_hook(self::HOOK);
+            update_option('tnw_schedule_version', '0.1.1', false);
+        }
+        if (!wp_next_scheduled(self::HOOK)) {
+            wp_schedule_single_event(self::next_run(new DateTimeImmutable('now'))->getTimestamp(), self::HOOK);
         }
     }
 
@@ -39,7 +55,7 @@ final class Tenis_NET_Wyniki {
     public static function page() {
         self::guard(); $s = self::settings();
         echo '<div class="wrap"><h1>Wyniki i newsy Tenis NET</h1><p>Pierwsza wersja obsługuje PLT. Pozostałe źródła będą dodawane oddzielnie.</p>';
-        echo '<p>Wyniki turniejów zakończonych po 1 lipca 2026. GitHub sprawdza je we wtorki o 04:00 czasu polskiego. WordPress odbiera nowy zestaw przy najbliższym uruchomieniu zadania, zwykle w ciągu godziny. Przy małym ruchu potrzebny jest cron hostingu.</p>';
+        echo '<p>GitHub zbiera wyniki raz w tygodniu, we wtorek o 04:00 czasu polskiego, z poprzednich siedmiu dni (wtorek–poniedziałek). WordPress odbiera zestaw raz, o 04:30, aby dać czas na jego przygotowanie. Nie ma godzinowego sprawdzania ani automatycznych ponowień. Przy braku ruchu wystarczy cotygodniowe uruchomienie WordPress Cron przez hosting we wtorek o 04:30. GitHub może opóźnić zbieranie; brak świeżego zestawu zostanie zapisany w raporcie.</p>';
         echo '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="tnw_save">';
         wp_nonce_field('tnw_save');
         echo '<p><label><input type="checkbox" name="enabled" value="1" ' . checked($s['enabled'], true, false) . '> Włącz cotygodniowy odbiór newsów</label></p>';
@@ -69,6 +85,7 @@ final class Tenis_NET_Wyniki {
     }
 
     public static function scheduled() {
+        self::migrate_schedule();
         $s = self::settings(); if (empty($s['enabled'])) { return; }
         self::import(false);
     }
@@ -88,14 +105,16 @@ final class Tenis_NET_Wyniki {
             $now = new DateTimeImmutable('now', new DateTimeZone('Europe/Warsaw'));
             $tuesday = $now->modify('tuesday this week')->setTime(4, 0);
             if ($now < $tuesday) { $tuesday = $tuesday->modify('-7 days'); }
-            if (!$manual && ($feed['run_date'] ?? '') !== $tuesday->format('Y-m-d')) { return; }
+            if (!$manual && ($feed['run_date'] ?? '') !== $tuesday->format('Y-m-d')) {
+                update_option('tnw_last_report', 'Brak świeżego wtorkowego zestawu. Nie ponawiano automatycznie; można użyć importu ręcznego.', false); return;
+            }
             $done = 0; $unchanged = 0; $remaining = 0;
             foreach ($feed['posts'] as $entry) {
                 if (!self::valid($entry)) { throw new Exception('Nieprawidłowy rekord wyników; przerwano import.'); }
                 if (!$manual) {
                     $end = $entry['date_end'];
-                    // Weekend plus late results from the previous 35 days; never the whole backfill automatically.
-                    if ($end < $tuesday->modify('-35 days')->format('Y-m-d') || $end >= $tuesday->format('Y-m-d')) { continue; }
+                    // Exactly the previous seven calendar days, Tuesday through Monday.
+                    if ($end < $tuesday->modify('-7 days')->format('Y-m-d') || $end >= $tuesday->format('Y-m-d')) { continue; }
                 }
                 $slug = 'tnw-' . str_replace(':', '-', $entry['id']);
                 $existing = get_posts(array('name' => $slug, 'post_type' => 'post', 'post_status' => array('publish', 'draft', 'pending', 'future', 'private', 'trash'), 'numberposts' => 1));
@@ -103,7 +122,7 @@ final class Tenis_NET_Wyniki {
                 $post = $existing ? $existing[0] : null;
                 if ($post && get_post_meta($post->ID, '_tnw_id', true) !== $entry['id']) { throw new Exception('Konflikt adresu wpisu — wymagana ręczna kontrola: ' . $slug); }
                 if ($post && (get_post_meta($post->ID, '_tnw_fingerprint', true) === $entry['fingerprint'] || get_post_meta($post->ID, '_tnw_pending_fingerprint', true) === $entry['fingerprint'] || $post->post_status === 'trash')) { $unchanged++; continue; }
-                if ($done >= 10) { $remaining++; continue; }
+                if ($manual && $done >= 10) { $remaining++; continue; }
                 if ($post) {
                     // Keep published and manually edited posts intact; expose a proposed correction.
                     $last = get_post_meta($post->ID, '_tnw_generated_hash', true);
