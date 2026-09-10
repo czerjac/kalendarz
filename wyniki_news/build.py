@@ -9,11 +9,12 @@ from collections import Counter
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from . import plt
+from . import kluby, plt
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data' / 'wyniki_news'
 CUTOFF = date(2026, 7, 1)  # User requested strictly AFTER July 1.
+ADAPTERS = {'PLT': plt, 'Kluby.org': kluby}
 
 
 def load(path, default):
@@ -47,7 +48,6 @@ def article(t):
     intro += f"){(' w miejscowości ' + esc(t['miasto'])) if t['miasto'] else ''}."
     if final:
         intro += f" Zwycięstwo w finale: {esc(label(final['strona_' + final['zwyciezca']]))}. Drugie miejsce: {esc(label(final['strona_' + ('b' if final['zwyciezca']=='a' else 'a')]))}."
-        # Display score with named A/B below, not from winner perspective.
     parts = ['<p>' + intro + '</p>', '<p>Kategoria źródłowa: ' + esc(t['kategoria']) + '.</p>']
     if not t['gotowy']: parts.append('<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>')
     for gid in dict.fromkeys(m['grupa_id'] for m in t['mecze']):
@@ -72,7 +72,7 @@ def discover():
     for path in paths:
         for item in load(path, {}).get('turnieje', []):
             if item.get('url'):
-                merged[item['url']] = {k: item[k] for k in ('url', 'zrodlo', 'nazwa', 'kategoria', 'kategoria_zrodla', 'miasto', 'data_od', 'data_do') if k in item}
+                merged[item['url']] = {k: item[k] for k in ('url', 'zrodlo', 'nazwa', 'kategoria', 'kategoria_zrodla', 'kategorie', 'miasto', 'data_od', 'data_do') if k in item}
     return merged
 
 
@@ -88,49 +88,52 @@ def main():
     state = load(OUT / 'stan.json', {'known': {}, 'attempts': {}, 'results': {}})
     state['known'].update(discover())
     candidates = [x for x in state['known'].values() if eligible(x, today)]
-    pending = [x for x in candidates if x.get('zrodlo') != 'PLT']
+    pending = [x for x in candidates if x.get('zrodlo') not in ADAPTERS]
     jobs = []
     for x in candidates:
-        if x.get('zrodlo') != 'PLT': continue
-        attempt = state['attempts'].get(x['url'], {})
-        # Weekly snapshot only; older events require an explicit manual backfill.
+        if x.get('zrodlo') not in ADAPTERS:
+            continue
         age = (today - date.fromisoformat(x.get('data_do') or x['data_od'])).days
-        days = (today - date.fromisoformat(attempt.get('date', '2000-01-01'))).days
-        if args.backfill or age <= 7: jobs.append(x)
-    jobs.sort(key=lambda x: (state['attempts'].get(x['url'], {}).get('date', ''), x['data_od']))
+        if args.backfill or age <= 7:
+            jobs.append(x)
+    jobs.sort(key=lambda x: (state['attempts'].get(x['url'], {}).get('date', ''), x['data_od'], x.get('zrodlo', '')))
     if args.limit: jobs = jobs[:args.limit]
     errors = []
     with requests.Session() as session:
         for index, item in enumerate(jobs):
+            source = item.get('zrodlo')
             try:
-                result = plt.fetch(item, session)
+                result = ADAPTERS[source].fetch(item, session)
                 previous = state['results'].get(result['id'])
                 # Preserve last good data on partial/regressed response; disable automatic publishing.
                 if previous and (len(result['mecze']) < len(previous['mecze']) or (previous['gotowy'] and not result['gotowy'])):
                     previous['gotowy'] = False
                     previous['uwagi'] = sorted(set(previous['uwagi'] + ['Nowszy odczyt jest niepełny — zachowano poprzednie wyniki']))
-                else: state['results'][result['id']] = result
-                state['attempts'][item['url']] = {'date': today.isoformat(), 'ready': result['gotowy']}
+                else:
+                    state['results'][result['id']] = result
+                state['attempts'][item['url']] = {'date': today.isoformat(), 'ready': result['gotowy'], 'source': source}
             except Exception as exc:
-                errors.append({'url': item['url'], 'error': type(exc).__name__})
-                state['attempts'][item['url']] = {'date': today.isoformat(), 'ready': False}
-            print(f"PLT {index+1}/{len(jobs)}", flush=True)
+                errors.append({'url': item['url'], 'source': source, 'error': type(exc).__name__})
+                state['attempts'][item['url']] = {'date': today.isoformat(), 'ready': False, 'source': source}
+            print(f"{source} {index+1}/{len(jobs)}", flush=True)
             save(OUT / 'stan.json', state)
             time.sleep(0.25)
     posts = [article(t) for t in state['results'].values()]
     posts.sort(key=lambda x: (x['date_end'], x['id']))
-    # Weekly window is Friday–Monday; delayed results use backfill/manual import or retry queue.
     monday = today - timedelta(days=(today.weekday() - 0) % 7)
     weekend_start = monday - timedelta(days=3)
     feed = {'schema_version': 1, 'generated_at': now.isoformat(), 'run_date': today.isoformat(),
             'cutoff_exclusive': CUTOFF.isoformat(), 'weekend_start': weekend_start.isoformat(),
-            'weekend_end': monday.isoformat(), 'supported_sources': ['PLT'], 'posts': posts}
+            'weekend_end': monday.isoformat(), 'supported_sources': list(ADAPTERS), 'posts': posts}
+    remaining = {source: sum(x['url'] not in state['attempts'] for x in candidates if x.get('zrodlo') == source)
+                 for source in ADAPTERS}
     save(OUT / 'stan.json', state)
     save(OUT / 'feed.json', feed)
     save(OUT / 'raport.json', {'generated_at': now.isoformat(), 'attempted': len(jobs), 'errors': errors,
                              'ready': sum(x['ready'] for x in posts), 'needs_review': sum(not x['ready'] for x in posts),
                              'awaiting_adapter': dict(Counter(x['zrodlo'] for x in pending)),
-                             'remaining_unfetched_plt': sum(x['url'] not in state['attempts'] for x in candidates if x.get('zrodlo')=='PLT')})
+                             'remaining_unfetched': remaining,
+                             'remaining_unfetched_plt': remaining.get('PLT', 0)})
     if errors: print('Some source requests failed; last good results preserved.', flush=True)
 
 
