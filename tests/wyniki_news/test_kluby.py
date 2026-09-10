@@ -33,6 +33,13 @@ DOUBLES = '''
 </tbody></table>
 '''
 
+MULTI_FINAL = '''
+<table><thead><tr><th>Runda</th><th>Gracz 1</th><th>Gracz 2</th><th>Wynik</th><th>Wygrany</th></tr></thead><tbody>
+<tr><td>finał</td><td><a href="/gracze/5">Gracz Piąty</a></td><td><a href="/gracze/6">Gracz Szósty</a></td><td>6:2 6:2</td><td><a href="/gracze/5">Gracz Piąty</a></td></tr>
+<tr><td>finał</td><td><a href="/gracze/1">Jan Kowalski</a></td><td><a href="/gracze/4">Marek Kot</a></td><td>6:4 6:4</td><td><a href="/gracze/1">Jan Kowalski</a></td></tr>
+</tbody></table>
+'''
+
 
 class KlubyParserTest(unittest.TestCase):
     def test_group_and_knockout(self):
@@ -51,6 +58,13 @@ class KlubyParserTest(unittest.TestCase):
         self.assertEqual(len(standings), 2)
         fid = final_id(matches, standings, warnings)
         self.assertEqual(fid, matches[-1]['id'])
+        self.assertEqual(warnings, [])
+
+    def test_multiple_finals_are_resolved_by_standings(self):
+        matches, warnings = parse_matches(MULTI_FINAL, '125', '7', 'OPEN')
+        standings = parse_standings(STANDINGS)
+        fid = final_id(matches, standings, warnings)
+        self.assertEqual(fid, matches[1]['id'])
         self.assertEqual(warnings, [])
 
     def test_doubles_are_one_side_with_two_players(self):
