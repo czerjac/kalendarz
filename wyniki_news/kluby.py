@@ -136,11 +136,13 @@ def table_columns(table) -> dict[str, int] | None:
     headers = [fold(x.get_text(" ", strip=True)) for x in table.find_all("th")]
     if not headers:
         return None
+
     def col(*needles):
         for i, h in enumerate(headers):
             if any(n in h for n in needles):
                 return i
         return None
+
     cols = {
         "round": col("runda"),
         "a": col("gracz 1", "zawodnik 1", "para 1"),
@@ -248,21 +250,59 @@ def parse_standings(html: str) -> list[dict]:
     return []
 
 
+def participant_names(side_value: dict | None) -> set[str]:
+    return {fold(x["nazwa"]) for x in (side_value or {}).get("zawodnicy", []) if clean(x.get("nazwa"))}
+
+
+def final_sides(match: dict) -> tuple[set[str], set[str]]:
+    winner_key = match.get("zwyciezca")
+    if winner_key not in {"a", "b"}:
+        return set(), set()
+    loser_key = "b" if winner_key == "a" else "a"
+    return participant_names(match.get("strona_" + winner_key)), participant_names(match.get("strona_" + loser_key))
+
+
 def final_id(matches: list[dict], standings: list[dict], warnings: list[str]) -> str | None:
     finals = [x for x in matches if fold(x["faza"]) == "final" or fold(x.get("runda")) == "final"]
+    completed = [x for x in finals if x.get("zakonczony")]
     if not finals:
         return None
-    if len(finals) != 1 or not finals[0]["zakonczony"]:
-        warnings.append("Brak potwierdzonego pojedynczego finału")
+    if not completed:
+        warnings.append("Brak zakończonego finału")
         return None
-    final = finals[0]
+
+    # Kluby.org może publikować kilka drabinek (np. o różne miejsca), każdą z własnym
+    # wierszem „finał”. Gdy jest ich kilka, końcowa kolejność wskazuje finał główny.
+    if len(completed) > 1:
+        if len(standings) < 2:
+            warnings.append("Wiele finałów i brak końcowej kolejności do rozstrzygnięcia")
+            return None
+        first = {fold(x["nazwa"]) for x in standings[0]["zawodnicy"]}
+        second = {fold(x["nazwa"]) for x in standings[1]["zawodnicy"]}
+        matching = []
+        for candidate in completed:
+            winner_names, loser_names = final_sides(candidate)
+            if winner_names == first and loser_names == second:
+                matching.append(candidate)
+        if len(matching) == 1:
+            return matching[0]["id"]
+        if not matching:
+            warnings.append("Żaden z finałów nie zgadza się z końcową kolejnością")
+        else:
+            warnings.append("Więcej niż jeden finał zgadza się z końcową kolejnością")
+        return None
+
+    final = completed[0]
     if len(standings) >= 2:
-        win = final["strona_" + final["zwyciezca"]]
-        lose = final["strona_" + ("b" if final["zwyciezca"] == "a" else "a")]
-        if {fold(x["nazwa"]) for x in win["zawodnicy"]} != {fold(x["nazwa"]) for x in standings[0]["zawodnicy"]}:
+        winner_names, loser_names = final_sides(final)
+        first = {fold(x["nazwa"]) for x in standings[0]["zawodnicy"]}
+        second = {fold(x["nazwa"]) for x in standings[1]["zawodnicy"]}
+        if winner_names != first:
             warnings.append("Zwycięzca finału jest sprzeczny z końcową kolejnością")
-        if {fold(x["nazwa"]) for x in lose["zawodnicy"]} != {fold(x["nazwa"]) for x in standings[1]["zawodnicy"]}:
+        if loser_names != second:
             warnings.append("Finalista jest sprzeczny z końcową kolejnością")
+        if winner_names != first or loser_names != second:
+            return None
     return final["id"]
 
 
