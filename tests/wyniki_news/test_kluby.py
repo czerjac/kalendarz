@@ -68,7 +68,7 @@ class KlubyParserTest(unittest.TestCase):
         self.assertEqual({x['id'] for x in cats}, {'10', '11'})
 
     def test_score_conflict_blocks_clean_result(self):
-        bad = MATCHES.replace('<td><a href="/gracze/1">Jan Kowalski</a></td></tr>', '<td><a href="/gracze/4">Marek Kot</a></td></tr>', 1)
+        bad = MATCHES.replace('<td><a href="/gracze/1">Jan Kowalski</a></td></tr>', '<td><a href="/gracze/2">Adam Nowak</a></td></tr>', 1)
         matches, warnings = parse_matches(bad, '123', '7', 'OPEN')
         self.assertTrue(any('sprzeczny' in x for x in warnings))
 
