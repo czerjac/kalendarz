@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-09T08:59:55+00:00",
+  "pobrano_utc": "2026-09-10T08:58:36+00:00",
   "liczba_turniejow": 53,
   "kategorie_sprawdzone": [
     {
@@ -131,15 +131,6 @@
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Nowej Soli 2026",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Nowa Sól",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-nowej-soli-2026-5516"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Obornik 2026",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -190,24 +181,6 @@
       "data_do": "2026-09-13",
       "miasto": "Skarżysko-Kamienna",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5543"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Mistrzostwa Wejherowa 2026",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Wejherowo",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-mistrzostwa-wejherowa-2026-5549"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Mistrzostwa Wejherowa 2026",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Wejherowo",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-mistrzostwa-wejherowa-2026-5540"
     },
     {
       "zrodlo": "PLT",
@@ -436,6 +409,24 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu MOKSiR Chełmek 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Chełmek k. Oświęcimia",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-moksir-chelmek-2026-5571"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu TP Ogrodowa 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Legnica",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-tp-ogrodowa-2026-kwalifikacje-do-krajowych-mistrzostw-5599"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Rakietmania 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-26",
@@ -451,6 +442,15 @@
       "data_do": "2026-09-26",
       "miasto": "Szamotuły",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-szamotul-2026-5162"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu CS Szamotuły 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Szamotuły",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-szamotul-2026-5163"
     },
     {
       "zrodlo": "PLT",

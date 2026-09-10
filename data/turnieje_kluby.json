@@ -1,19 +1,19 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-09T09:00:07+00:00",
-  "liczba_turniejow": 50,
+  "pobrano_utc": "2026-09-10T08:58:47+00:00",
+  "liczba_turniejow": 55,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 45
+      "liczba": 48
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 13
+      "liczba": 14
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 3
+      "liczba": 4
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -33,6 +33,16 @@
     }
   ],
   "turnieje": [
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "MASTERS Lechia Tennis Challenge",
+      "data_od": "2026-09-11",
+      "data_do": "2026-09-11",
+      "miasto": "Gdańsk",
+      "miejsce": "Lechia Tennis Club, Gdańsk",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12181"
+    },
     {
       "zrodlo": "Kluby.org",
       "nazwa": ",,JESIEŃ 2026’’",
@@ -82,6 +92,16 @@
       "miejsce": "Sopot Tenis Klub, Sopot",
       "kategorie": "SENIORZY +60",
       "url": "https://kluby.org/turnieje/12165"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mistrzostwa Warszawy U12 by WKT Mera",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-14",
+      "miasto": "Warszawa",
+      "miejsce": "WKT Mera, Warszawa",
+      "kategorie": "JUNIORZY U12 (BS U12 (singlowy)) JUNIORKI U12 (GS U12 (singlowy))",
+      "url": "https://kluby.org/turnieje/12176"
     },
     {
       "zrodlo": "Kluby.org",
@@ -152,6 +172,16 @@
       "miejsce": "Sopot Tenis Klub, Sopot",
       "kategorie": "DEBEL KOBIETY",
       "url": "https://kluby.org/turnieje/12124"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Memoriał Bogusława Pawłowskiego 2026",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-20",
+      "miasto": "Warszawa",
+      "miejsce": "Korty Macieja, Warszawa",
+      "kategorie": "OPEN KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/12179"
     },
     {
       "zrodlo": "Kluby.org",
@@ -345,6 +375,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Debel Kobiet - Open",
+      "data_od": "2026-10-24",
+      "data_do": "2026-10-24",
+      "miasto": "Warszawa",
+      "miejsce": "Spójnia Górna, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12177"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
@@ -392,6 +432,16 @@
       "miejsce": "TKKF Wars, Warszawa",
       "kategorie": "DEBEL",
       "url": "https://kluby.org/turnieje/12089"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mixt Open",
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21",
+      "miasto": "Warszawa",
+      "miejsce": "Spójnia Górna, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12178"
     },
     {
       "zrodlo": "Kluby.org",

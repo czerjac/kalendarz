@@ -1,11 +1,7 @@
 {
-  "aktualizacja_utc": "2026-09-09T09:01:21+00:00",
+  "aktualizacja_utc": "2026-09-10T09:01:27+00:00",
   "liczba_nierozpoznanych_miast": 3,
   "miasta": [
-    {
-      "miasto": "Kamień",
-      "powod": "niejednoznaczna_nazwa_miejscowosci"
-    },
     {
       "miasto": "Leszno",
       "powod": "brak_jednoznacznego_wojewodztwa",
@@ -55,6 +51,28 @@
         {
           "display_name": "powiat wyszkowski, województwo mazowieckie, Polska",
           "wojewodztwo": "mazowieckie"
+        }
+      ]
+    },
+    {
+      "miasto": "Łobez",
+      "powod": "brak_jednoznacznego_wojewodztwa",
+      "dowody": [
+        {
+          "display_name": "Łobez, gmina Łobez, powiat łobeski, województwo zachodniopomorskie, 73-150, Polska",
+          "wojewodztwo": "zachodniopomorskie"
+        },
+        {
+          "display_name": "Łobez, gmina Jaraczewo, powiat jarociński, województwo wielkopolskie, 63-233, Polska",
+          "wojewodztwo": "wielkopolskie"
+        },
+        {
+          "display_name": "Łobez, Biały Bór, gmina Biały Bór, powiat szczecinecki, województwo zachodniopomorskie, Polska",
+          "wojewodztwo": "zachodniopomorskie"
+        },
+        {
+          "display_name": "powiat łobeski, województwo zachodniopomorskie, Polska",
+          "wojewodztwo": "zachodniopomorskie"
         }
       ]
     }

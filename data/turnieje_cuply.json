@@ -1,34 +1,21 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-09-09T08:59:36+00:00",
+  "pobrano_utc": "2026-09-10T08:58:22+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
       "zrodlo": "Cuply",
-      "nazwa": "Challenger Koszalin I dla średniozaawansowanych (do 4.0 NTRP)",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Koszalin",
-      "miejsce": "Bałtyk Tenis, Koszalin",
+      "nazwa": "Grand Prix Łobza - Turniej Charytatywny - Gramy dla Dominika",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "Łobez",
+      "miejsce": "Korty Miejskie w Łobzie, Łobez",
       "typ_gry": "",
       "poziom": "",
       "plec": "",
       "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/challenger-koszalin-i-do-40-ntrp-dla-sredniozaawansowanych"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Futures Koszalin I - dla początkujących (do 2.5 NTRP)",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Koszalin",
-      "miejsce": "Bałtyk Tenis, Koszalin",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/futures-koszalin-i-do-25-ntrp-dla-poczatkujacych"
+      "url": "https://cuply.pl/turnieje/grand-prix-lobza-turniej-charytatywny-gramy-dla-dominika"
     },
     {
       "zrodlo": "Cuply",
@@ -133,6 +120,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "MAJERAN - ZOOM Tenis CUP IX - dla początkujących",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Szczecin",
+      "miejsce": "Zoom Tennis Academy, Szczecin",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/majeran-zoom-tenis-cup-ix-dla-poczatkujacych"
     }
   ]
 }
