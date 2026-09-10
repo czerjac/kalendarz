@@ -1,0 +1,53 @@
+name: Wyniki i newsy amatorskie
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'wyniki_news/**'
+      - 'wordpress/tenis-net-wyniki/**'
+      - 'tests/wyniki_news/**'
+      - '.github/workflows/wyniki-newsy.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * 2'
+      timezone: Europe/Warsaw
+
+concurrency:
+  group: wyniki-newsy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  wyniki:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Zainstaluj zależności wyników
+        run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+      - name: Sprawdź parser i reguły publikacji
+        run: python -m unittest discover -s tests/wyniki_news -v
+      - name: Sprawdź wtyczkę i ochronę wpisów
+        run: |
+          php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
+          php tests/wyniki_news/wordpress_import_test.php
+      - name: Pobierz wyniki od lipca 2026 i uzupełnij opóźnione
+        run: python -m wyniki_news.build
+      - name: Zapisz wyłącznie osobny katalog wyników
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/wyniki_news/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Aktualizacja wyników i newsów amatorskich'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Raport
+        run: cat data/wyniki_news/raport.json >> "$GITHUB_STEP_SUMMARY"
