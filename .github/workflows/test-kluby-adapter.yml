@@ -7,7 +7,7 @@ on:
     paths:
       - 'wyniki_news/kluby.py'
       - 'wyniki_news/build.py'
-      - 'tests/wyniki_news/test_kluby.py'
+      - 'tests/wyniki_news/**'
       - '.github/workflows/test-kluby-adapter.yml'
   workflow_dispatch:
 
@@ -25,14 +25,14 @@ jobs:
           python-version: '3.12'
       - name: Zainstaluj zależności
         run: pip install requests==2.32.5 beautifulsoup4==4.13.5
-      - name: Testy jednostkowe
-        run: python -m unittest tests.wyniki_news.test_kluby -v
+      - name: Pełne testy modułu wyników
+        run: python -m unittest discover -s tests/wyniki_news -v
       - name: Smoke test na publicznych wynikach Kluby.org
         run: |
           python - <<'PY'
           import json
           import requests
-          from wyniki_news.kluby import fetch, get, parse_matches, parse_standings, fold
+          from wyniki_news.kluby import fetch
 
           samples = [
               {
@@ -52,39 +52,18 @@ jobs:
           with requests.Session() as session:
               for item in samples:
                   result = fetch(item, session)
-                  if not result['mecze']:
-                      raise SystemExit('Brak meczów dla ' + item['url'])
-                  if not any(m['zakonczony'] for m in result['mecze']):
-                      raise SystemExit('Brak potwierdzonego meczu dla ' + item['url'])
+                  if not result['gotowy'] or not result['final_id']:
+                      raise SystemExit('Niepełny wynik dla ' + item['url'] + ': ' + repr(result['uwagi']))
+                  if not result['mecze'] or not all(m['zakonczony'] for m in result['mecze']):
+                      raise SystemExit('Niepełne mecze dla ' + item['url'])
+                  if not all(m['strona_a']['typ'] == 'para' and m['strona_b']['typ'] == 'para' for m in result['mecze']):
+                      raise SystemExit('Nie rozpoznano par dla ' + item['url'])
                   out.append({
                       'id': result['id'],
                       'mecze': len(result['mecze']),
-                      'zakonczone': sum(m['zakonczony'] for m in result['mecze']),
                       'final_id': result['final_id'],
                       'gotowy': result['gotowy'],
-                      'uwagi': result['uwagi'][:8],
-                      'typy_faz': sorted(set(m['typ_fazy'] for m in result['mecze'])),
-                      'pary': sum(m['strona_a']['typ'] == 'para' for m in result['mecze'])
+                      'typy_faz': sorted(set(m['typ_fazy'] for m in result['mecze']))
                   })
-
-              base = 'https://kluby.org/turnieje/10824'
-              matches, _ = parse_matches(get(session, base + '/mecze'), '10824', '', 'DEBEL MIKST')
-              standings = parse_standings(get(session, base + '/kolejnosc', optional=True))
-              def names(side): return [p['nazwa'] for p in (side or {}).get('zawodnicy', [])]
-              diagnostic = {
-                  'finals_10824': [
-                      {
-                          'faza': m['faza'], 'runda': m['runda'],
-                          'a': names(m['strona_a']), 'b': names(m['strona_b']),
-                          'winner': m['zwyciezca'], 'wynik': m['wynik']
-                      }
-                      for m in matches if fold(m['faza']) == 'final' or fold(m['runda']) == 'final'
-                  ],
-                  'standings_10824': [
-                      {'pozycja': s['pozycja'], 'zawodnicy': [p['nazwa'] for p in s['zawodnicy']], 'miejsce': s['miejsce'], 'etap': s['etap']}
-                      for s in standings[:8]
-                  ]
-              }
           print(json.dumps(out, ensure_ascii=False, indent=2))
-          print(json.dumps(diagnostic, ensure_ascii=False, indent=2))
           PY
