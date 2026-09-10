@@ -1,13 +1,15 @@
-# Wyniki i newsy — pierwsza wersja PLT
+# Wyniki i newsy — PLT + Kluby.org
 
 Osobny dodatek do istniejącego kalendarza. Nie zmienia jego wtyczki, zbierania danych ani archiwum. Czyta kalendarz i archiwum, zapisuje wyłącznie `data/wyniki_news/`.
 
 ## Zakres
 
-- Turnieje PLT zakończone **po 1 lipca 2026**, przed dniem pobrania. Jeden turniej = jeden zwykły wpis WordPress.
+- Turnieje PLT i Kluby.org zakończone **po 1 lipca 2026**, przed dniem pobrania. Jeden turniej = jeden zwykły wpis WordPress.
 - Neutralny wstęp, zwycięzca finału gdy potwierdzony, listy meczów według faz, wyniki A:B, link do źródła. Bez dopisywania relacji z przebiegu spotkań.
 - Dane sportowe: nazwiska, identyfikatory zawodników/par, wyniki, faza i turniej. Profile kontaktowe nie są zapisywane.
-- PZT TOP, Cuply i Kluby.org nie są jeszcze obsługiwane. Liczba oczekujących turniejów widnieje w raporcie.
+- PLT jest pobierane z publicznego endpointu wynikowego API.
+- Kluby.org jest pobierane z publicznych, serwerowo renderowanych stron `/mecze` i `/kolejnosc`; adapter obsługuje singiel, debel/mikst, grupy oraz fazę pucharową i weryfikuje finał z końcową klasyfikacją, jeśli jest dostępna.
+- PZT TOP i Cuply nie są jeszcze obsługiwane przez produkcyjny pipeline wyników. Liczba oczekujących turniejów widnieje w raporcie.
 - Niepełne lub sprzeczne dane blokują automatyczną publikację: wpis pozostaje szkicem. Nie jest to gwarancja poprawności samego źródła.
 
 ## Harmonogram
@@ -39,6 +41,6 @@ Wyłączenie dodatku zatrzymuje odbiór, ale pozostawia wpisy. Nie potrzeba udos
 
 `php tests/wyniki_news/wordpress_import_test.php`
 
-Testy PHP wykorzystują symulowane funkcje WordPressa; nie zastępują testu na docelowym WordPressie. Pierwsza instalacja i próbka szkiców są konieczne przed włączeniem automatycznej publikacji.
+Testy PHP wykorzystują symulowane funkcje WordPressa; nie zastępują testu na docelowym WordPressie. Parser Kluby.org został dodatkowo sprawdzony na publicznych turniejach zawierających debel/mikst, grupy i fazę pucharową. Pierwsza instalacja i próbka szkiców są konieczne przed włączeniem automatycznej publikacji.
 
 Dane: `stan.json` — stan i mecze; `feed.json` — gotowe treści; `raport.json` — kompletność i błędy. Uruchomienie: `python -m wyniki_news.build`. Zależności: requests 2.32.5, beautifulsoup4 4.13.5.
