@@ -1,10 +1,12 @@
-name: Diagnostyka wyników PZT
+name: Test adaptera PZT TOP
 
 on:
   push:
     branches:
       - feature/pzt-wyniki-adapter
     paths:
+      - 'wyniki_news/pzt.py'
+      - 'tests/wyniki_news/test_pzt.py'
       - '.github/workflows/diag-pzt-wyniki.yml'
   workflow_dispatch:
 
@@ -12,66 +14,58 @@ permissions:
   contents: read
 
 jobs:
-  diag:
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
-      - run: pip install requests==2.32.5 beautifulsoup4==4.13.5
-      - name: Sprawdź strukturę tabel meczowych PZT
+      - name: Zainstaluj zależności
+        run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+      - name: Testy adaptera PZT
+        run: python -m unittest tests.wyniki_news.test_pzt -v
+      - name: Smoke test na publicznych wynikach PZT
         run: |
           python - <<'PY'
           import json
-          import re
-          from urllib.parse import urljoin
           import requests
-          from bs4 import BeautifulSoup
+          from wyniki_news.pzt import fetch
 
-          tid = '7B170278-F7BB-4B0A-BEA5-49A199E798BC'
-          base = 'https://portal.pzt.pl/'
-          headers = {'User-Agent': 'Mozilla/5.0 (compatible; TenisNET/1.0; +https://www.tenis.net.pl/)'}
-          s = requests.Session()
-          play = s.get(base + f'TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID={tid}', headers=headers, timeout=40)
-          play.raise_for_status()
-          soup = BeautifulSoup(play.text, 'html.parser')
-          urls = []
-          for a in soup.find_all('a', href=True):
-              m = re.search(r"['\"](/TournamentMatches\.aspx\?QS=[^'\"]+)['\"]", a['href'], re.I)
-              if m:
-                  u = urljoin(base, m.group(1))
-                  if u not in urls: urls.append(u)
-          print('EVENT_URLS', len(urls))
-          for n, url in enumerate(urls[:4], 1):
-              r = s.get(url, headers=headers, timeout=40)
-              r.raise_for_status()
-              page = BeautifulSoup(r.text, 'html.parser')
-              flat = ' | '.join(' '.join(x.split()) for x in page.stripped_strings)
-              print('\nEVENT', n, url)
-              print('HEAD', flat[:900])
-              for ti, table in enumerate(page.find_all('table')):
-                  headers_txt = [' '.join(th.get_text(' ', strip=True).split()) for th in table.find_all('th')]
-                  rows = []
-                  for tr in table.find_all('tr'):
-                      cells = tr.find_all(['td','th'], recursive=False)
-                      if not cells: continue
-                      rows.append([
-                          {
-                              'text': ' '.join(c.get_text(' ', strip=True).split()),
-                              'class': c.get('class', []),
-                              'style': c.get('style', ''),
-                              'links': [
-                                  {'text': ' '.join(a.get_text(' ', strip=True).split()), 'href': a.get('href',''), 'class': a.get('class', [])}
-                                  for a in c.find_all('a', href=True)
-                              ],
-                              'strong': [' '.join(x.get_text(' ', strip=True).split()) for x in c.find_all(['strong','b'])]
-                          }
-                          for c in cells
-                      ])
-                  blob = ' '.join(x['text'] for row in rows for x in row)
-                  if 'Zawodnik' in blob or 'Set 1' in blob or 'Finał' in blob or 'final' in blob.casefold():
-                      print('TABLE', ti, 'HEADERS', json.dumps(headers_txt, ensure_ascii=False))
-                      print('ROWS', json.dumps(rows[:12], ensure_ascii=False, indent=2)[:9000])
+          samples = [
+              {
+                  'url': 'http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=7B170278-F7BB-4B0A-BEA5-49A199E798BC',
+                  'nazwa': 'TOPSZLEM - TOP RZESZÓW OPEN',
+                  'data_od': '2026-07-25', 'data_do': '2026-07-26',
+                  'miasto': 'RZESZÓW', 'kategoria': '50+, Open Amator, Open'
+              },
+              {
+                  'url': 'http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9AEFB746-8C27-460A-B796-7B6FECB7676B',
+                  'nazwa': 'LEGIA OPEN 2026',
+                  'data_od': '2026-07-10', 'data_do': '2026-07-12',
+                  'miasto': 'WARSZAWA', 'kategoria': '40+, 50+, 60+, 70+, Open Amator, Open'
+              }
+          ]
+          out = []
+          with requests.Session() as session:
+              for item in samples:
+                  result = fetch(item, session)
+                  if not result['mecze']:
+                      raise SystemExit('Brak meczów dla ' + item['nazwa'])
+                  if not any(m['zakonczony'] for m in result['mecze']):
+                      raise SystemExit('Brak zakończonych meczów dla ' + item['nazwa'])
+                  out.append({
+                      'id': result['id'],
+                      'mecze': len(result['mecze']),
+                      'zakonczone': sum(m['zakonczony'] for m in result['mecze']),
+                      'single': sum(m['strona_a']['typ'] == 'osoba' for m in result['mecze']),
+                      'pary': sum(m['strona_a']['typ'] == 'para' for m in result['mecze']),
+                      'grupa': sum(m['typ_fazy'] == 'grupa' for m in result['mecze']),
+                      'puchar': sum(m['typ_fazy'] == 'puchar' for m in result['mecze']),
+                      'final_id': result['final_id'],
+                      'gotowy': result['gotowy'],
+                      'uwagi': result['uwagi'][:12]
+                  })
+          print(json.dumps(out, ensure_ascii=False, indent=2))
           PY
