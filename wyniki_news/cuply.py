@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 HOSTS = {"cuply.pl", "www.cuply.pl"}
 UA = "Mozilla/5.0 (compatible; TenisNET/1.0; +https://www.tenis.net.pl/)"
 SCORE_RE = re.compile(r"(?<!\d)(\d{1,2})\s*:\s*(\d{1,2})(?!\d)")
-WO_RE = re.compile(r"\b(?:w\.?\s*o\.?|walkower)\b", re.I)
+WO_RE = re.compile(r"(?<!\w)w\s*[./]?\s*o\.?(?!\w)|\bwalk(?:over|ower)\b", re.I)
 ACTIVE_GROUP_RE = re.compile(r"setActiveGroup\(['\"]([^'\"]+)['\"]\)", re.I)
 
 
