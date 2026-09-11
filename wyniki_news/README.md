@@ -1,13 +1,15 @@
-# Wyniki i newsy — pierwsza wersja PLT
+# Wyniki i newsy — PLT + PZT TOP
 
 Osobny dodatek do istniejącego kalendarza. Nie zmienia jego wtyczki, zbierania danych ani archiwum. Czyta kalendarz i archiwum, zapisuje wyłącznie `data/wyniki_news/`.
 
 ## Zakres
 
-- Turnieje PLT zakończone **po 1 lipca 2026**, przed dniem pobrania. Jeden turniej = jeden zwykły wpis WordPress.
+- Turnieje PLT i PZT TOP zakończone **po 1 lipca 2026**, przed dniem pobrania. Jeden rekord turnieju = jeden zwykły wpis WordPress.
 - Neutralny wstęp, zwycięzca finału gdy potwierdzony, listy meczów według faz, wyniki A:B, link do źródła. Bez dopisywania relacji z przebiegu spotkań.
 - Dane sportowe: nazwiska, identyfikatory zawodników/par, wyniki, faza i turniej. Profile kontaktowe nie są zapisywane.
-- PZT TOP, Cuply i Kluby.org nie są jeszcze obsługiwane. Liczba oczekujących turniejów widnieje w raporcie.
+- PZT TOP jest pobierany z publicznych, serwerowo renderowanych tabel `TournamentMatches.aspx`; lista konkurencji pochodzi z `TournamentMatchesPlay.aspx`, a finały są dodatkowo sprawdzane z `TournamentTabResults.aspx` (zakładka „Zwycięzcy”). Adapter obsługuje singiel, debel, grupy, drabinki pucharowe, BYE, walkowery i krecze. Nie wymaga logowania ani Playwrighta.
+- W PZT jeden turniej może zawierać wiele konkurencji (np. Open, Open Amator, 50+, singiel i debel). Wszystkie mecze są pobierane, ale przy obecnym modelu jednego newsa z jednym głównym finałem turniej wielokategoriowy jest oznaczany do kontroli redakcyjnej, a nie do automatycznej publikacji.
+- Cuply i Kluby.org nie są jeszcze obsługiwane na tej gałęzi. Liczba oczekujących turniejów widnieje w raporcie. Adapter Kluby.org jest rozwijany niezależnie.
 - Niepełne lub sprzeczne dane blokują automatyczną publikację: wpis pozostaje szkicem. Nie jest to gwarancja poprawności samego źródła.
 
 ## Harmonogram
