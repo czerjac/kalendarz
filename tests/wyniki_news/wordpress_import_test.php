@@ -26,9 +26,9 @@ function wp_slash($v) { return $v; }
 function wp_insert_post($fields,...$a) { global $posts; $id=$fields['ID']??count($posts)+1; $fields['ID']=$id; $posts[$id]=(object)$fields; return $id; }
 function get_post($id) { global $posts; return clone $posts[$id]; }
 function check($condition,$message) { if(!$condition)throw new Exception($message); echo 'OK '.$message.PHP_EOL; }
-function entry($id,$ready=true,$body='wyniki') {
-    $title='Turniej '.$id;
-    return array('id'=>'plt:'.$id,'title'=>$title,'content'=>$body,'fingerprint'=>hash('sha256',$title."\n".$body),'date_end'=>'2026-07-04','ready'=>$ready,'issues'=>array());
+function entry($id,$ready=true,$body='wyniki',$source='plt') {
+    $title='Turniej '.$source.':'.$id;
+    return array('id'=>$source.':'.$id,'title'=>$title,'content'=>$body,'fingerprint'=>hash('sha256',$title."\n".$body),'date_end'=>'2026-07-04','ready'=>$ready,'issues'=>array());
 }
 require __DIR__.'/../../wordpress/tenis-net-wyniki/tenis-net-wyniki.php';
 $feed['posts']=array(entry(1)); Tenis_NET_Wyniki::import(true);
@@ -61,3 +61,14 @@ Tenis_NET_Wyniki::import(false);
 check(count($posts)===13,'one weekly import processes all entries and only previous seven days');
 $next=Tenis_NET_Wyniki::next_run(new DateTimeImmutable('2026-10-20 05:00',new DateTimeZone('Europe/Warsaw')));
 check($next->format('Y-m-d H:i P')==='2026-10-27 04:30 +01:00','weekly time survives autumn clock change');
+
+
+$posts=array(); $meta=array(); $feed['posts']=array(
+    entry(301,true,'plt result','plt'),
+    entry(91,true,'cuply result','cuply'),
+    entry(10368,true,'kluby result','kluby'),
+    entry('7B170278-F7BB-4B0A-BEA5-49A199E798BC',false,'pzt result','pzt')
+);
+Tenis_NET_Wyniki::import(true);
+check(count($posts)===4,'plugin accepts PLT, Cuply, Kluby.org and PZT TOP identifiers');
+check($posts[4]->post_status==='draft','PZT review item remains draft');

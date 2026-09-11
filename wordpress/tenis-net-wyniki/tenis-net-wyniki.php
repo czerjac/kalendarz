@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Tenis NET – Wyniki i newsy
  * Description: Importuje osobny plik wyników z GitHuba do zwykłych wpisów. Nie zmienia kalendarza.
- * Version: 0.1.1
+ * Version: 0.2.0
  * Requires PHP: 7.4
  * Author: Tenis NET
  */
@@ -38,9 +38,9 @@ final class Tenis_NET_Wyniki {
     }
 
     public static function migrate_schedule() {
-        if (get_option('tnw_schedule_version') !== '0.1.1') {
+        if (get_option('tnw_schedule_version') !== '0.2.0') {
             wp_clear_scheduled_hook(self::HOOK);
-            update_option('tnw_schedule_version', '0.1.1', false);
+            update_option('tnw_schedule_version', '0.2.0', false);
         }
         if (!wp_next_scheduled(self::HOOK)) {
             wp_schedule_single_event(self::next_run(new DateTimeImmutable('now'))->getTimestamp(), self::HOOK);
@@ -54,7 +54,7 @@ final class Tenis_NET_Wyniki {
 
     public static function page() {
         self::guard(); $s = self::settings();
-        echo '<div class="wrap"><h1>Wyniki i newsy Tenis NET</h1><p>Pierwsza wersja obsługuje PLT. Pozostałe źródła będą dodawane oddzielnie.</p>';
+        echo '<div class="wrap"><h1>Wyniki i newsy Tenis NET</h1><p>Obsługiwane źródła: PLT, Cuply, Kluby.org i PZT TOP. Niepełne lub niejednoznaczne wyniki pozostają szkicami do kontroli redakcyjnej.</p>';
         echo '<p>GitHub zbiera wyniki raz w tygodniu, we wtorek o 04:00 czasu polskiego, z poprzednich siedmiu dni (wtorek–poniedziałek). WordPress odbiera zestaw raz, o 04:30, aby dać czas na jego przygotowanie. Nie ma godzinowego sprawdzania ani automatycznych ponowień. Przy braku ruchu wystarczy cotygodniowe uruchomienie WordPress Cron przez hosting we wtorek o 04:30. GitHub może opóźnić zbieranie; brak świeżego zestawu zostanie zapisany w raporcie.</p>';
         echo '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="tnw_save">';
         wp_nonce_field('tnw_save');
@@ -150,7 +150,9 @@ final class Tenis_NET_Wyniki {
     private static function valid($e) {
         if (!is_array($e)) { return false; }
         foreach (array('id', 'title', 'content', 'fingerprint', 'date_end') as $key) { if (!isset($e[$key]) || !is_string($e[$key]) || !$e[$key]) { return false; } }
-        return preg_match('/^plt:[0-9]+$/', $e['id']) && preg_match('/^[a-f0-9]{64}$/', $e['fingerprint']) && hash_equals(hash('sha256', $e['title'] . "\n" . $e['content']), $e['fingerprint']) &&
+        $valid_id = preg_match('/^(?:plt|cuply|kluby):[0-9]+$/', $e['id']) ||
+            preg_match('/^pzt:[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/', $e['id']);
+        return $valid_id && preg_match('/^[a-f0-9]{64}$/', $e['fingerprint']) && hash_equals(hash('sha256', $e['title'] . "\n" . $e['content']), $e['fingerprint']) &&
             preg_match('/^\d{4}-\d{2}-\d{2}$/', $e['date_end']) && $e['date_end'] > '2026-07-01' && isset($e['ready']) && is_bool($e['ready']);
     }
 
