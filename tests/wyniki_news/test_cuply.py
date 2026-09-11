@@ -144,6 +144,15 @@ class CuplyParserTest(unittest.TestCase):
         self.assertTrue(matches[0]['zakonczony'])
         self.assertEqual(matches[0]['zwyciezca'], 'b')
 
+    def test_cuply_slash_walkover_variant(self):
+        walkover = HIGHLIGHT.replace('<span>2:4</span><span>1:4</span>', '<span>W/O</span>')
+        matches, warnings = parse_phase(walkover, '91', 'final', 'Finał')
+        self.assertEqual(warnings, [])
+        self.assertTrue(matches[0]['walkower'])
+        self.assertTrue(matches[0]['zakonczony'])
+        self.assertEqual(matches[0]['wynik'], '(walkower)')
+        self.assertEqual(matches[0]['zwyciezca'], 'b')
+
     def test_score_winner_from_a_perspective(self):
         cell = BeautifulSoup('<td><span>3:4</span><span>4:2</span><span>10:6</span></td>', 'html.parser').td
         sets, result, _, winner = score_parts(cell)
