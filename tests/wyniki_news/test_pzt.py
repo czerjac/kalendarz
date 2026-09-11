@@ -65,6 +65,8 @@ RETIREMENT = '''
 <tr><th>lp</th><th>Zawodnik</th><th>Set 1</th><th>Set 2</th><th>Set 3</th><th>Zawodnik</th></tr>
 <tr><td>1</td><td>Jan Kowalski</td><td>3:6</td><td>4:3</td><td>:ret.</td><td>Adam Nowak</td></tr>
 <tr><td>2</td><td>Piotr Lis</td><td>5:2</td><td></td><td>ret.:0</td><td>Marek Kot</td></tr>
+<tr><td>3</td><td>Matras Grzegorz</td><td>6:1</td><td>3:0</td><td>ret.:</td><td>Ciuła Paweł</td></tr>
+<tr><td>4</td><td>Anna A</td><td>2:6</td><td>ret.</td><td></td><td>Beata B</td></tr>
 </table></body></html>
 '''
 
@@ -121,10 +123,11 @@ class PztParserTest(unittest.TestCase):
         self.assertEqual(matches[1]['zwyciezca'], 'a')
         self.assertEqual(warnings, [])
 
-    def test_retirement_orientation(self):
+    def test_retirement_rows_keep_pzt_winner_on_left(self):
         _, matches, warnings = parse_event(RETIREMENT, 'https://portal.pzt.pl/TournamentMatches.aspx?QS=RXZlbnRJRD1FVkVOVC00JkxldmVsPU0=')
-        self.assertEqual(matches[0]['zwyciezca'], 'a')
-        self.assertEqual(matches[1]['zwyciezca'], 'b')
+        self.assertEqual(len(matches), 4)
+        self.assertTrue(all(m['zwyciezca'] == 'a' for m in matches))
+        self.assertEqual(matches[2]['wynik'], '6:1 3:0 ret.:')
         self.assertEqual(warnings, [])
 
     def test_winners_singles_and_doubles(self):
