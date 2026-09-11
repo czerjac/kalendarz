@@ -1,0 +1,26 @@
+name: Finalna regresja integracji 4 źródeł
+
+on:
+  push:
+    branches:
+      - feature/integracja-wyniki-4-zrodla-ci
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+      - name: Testy Python
+        run: python -m unittest discover -s tests/wyniki_news -v
+      - name: Testy WordPress
+        run: |
+          php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
+          php tests/wyniki_news/wordpress_import_test.php
