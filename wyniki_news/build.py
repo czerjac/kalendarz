@@ -9,11 +9,15 @@ from collections import Counter
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from . import plt
+from . import plt, pzt
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data' / 'wyniki_news'
 CUTOFF = date(2026, 7, 1)  # User requested strictly AFTER July 1.
+ADAPTERS = {
+    'PLT': plt.fetch,
+    'PZT TOP': pzt.fetch,
+}
 
 
 def load(path, default):
@@ -88,22 +92,21 @@ def main():
     state = load(OUT / 'stan.json', {'known': {}, 'attempts': {}, 'results': {}})
     state['known'].update(discover())
     candidates = [x for x in state['known'].values() if eligible(x, today)]
-    pending = [x for x in candidates if x.get('zrodlo') != 'PLT']
+    pending = [x for x in candidates if x.get('zrodlo') not in ADAPTERS]
     jobs = []
     for x in candidates:
-        if x.get('zrodlo') != 'PLT': continue
+        if x.get('zrodlo') not in ADAPTERS: continue
         attempt = state['attempts'].get(x['url'], {})
         # Weekly snapshot only; older events require an explicit manual backfill.
         age = (today - date.fromisoformat(x.get('data_do') or x['data_od'])).days
-        days = (today - date.fromisoformat(attempt.get('date', '2000-01-01'))).days
         if args.backfill or age <= 7: jobs.append(x)
-    jobs.sort(key=lambda x: (state['attempts'].get(x['url'], {}).get('date', ''), x['data_od']))
+    jobs.sort(key=lambda x: (state['attempts'].get(x['url'], {}).get('date', ''), x['data_od'], x.get('zrodlo', '')))
     if args.limit: jobs = jobs[:args.limit]
     errors = []
     with requests.Session() as session:
         for index, item in enumerate(jobs):
             try:
-                result = plt.fetch(item, session)
+                result = ADAPTERS[item['zrodlo']](item, session)
                 previous = state['results'].get(result['id'])
                 # Preserve last good data on partial/regressed response; disable automatic publishing.
                 if previous and (len(result['mecze']) < len(previous['mecze']) or (previous['gotowy'] and not result['gotowy'])):
@@ -112,9 +115,9 @@ def main():
                 else: state['results'][result['id']] = result
                 state['attempts'][item['url']] = {'date': today.isoformat(), 'ready': result['gotowy']}
             except Exception as exc:
-                errors.append({'url': item['url'], 'error': type(exc).__name__})
+                errors.append({'url': item['url'], 'source': item.get('zrodlo'), 'error': type(exc).__name__})
                 state['attempts'][item['url']] = {'date': today.isoformat(), 'ready': False}
-            print(f"PLT {index+1}/{len(jobs)}", flush=True)
+            print(f"{item.get('zrodlo', 'SOURCE')} {index+1}/{len(jobs)}", flush=True)
             save(OUT / 'stan.json', state)
             time.sleep(0.25)
     posts = [article(t) for t in state['results'].values()]
@@ -124,13 +127,14 @@ def main():
     weekend_start = monday - timedelta(days=3)
     feed = {'schema_version': 1, 'generated_at': now.isoformat(), 'run_date': today.isoformat(),
             'cutoff_exclusive': CUTOFF.isoformat(), 'weekend_start': weekend_start.isoformat(),
-            'weekend_end': monday.isoformat(), 'supported_sources': ['PLT'], 'posts': posts}
+            'weekend_end': monday.isoformat(), 'supported_sources': list(ADAPTERS), 'posts': posts}
     save(OUT / 'stan.json', state)
     save(OUT / 'feed.json', feed)
     save(OUT / 'raport.json', {'generated_at': now.isoformat(), 'attempted': len(jobs), 'errors': errors,
                              'ready': sum(x['ready'] for x in posts), 'needs_review': sum(not x['ready'] for x in posts),
                              'awaiting_adapter': dict(Counter(x['zrodlo'] for x in pending)),
-                             'remaining_unfetched_plt': sum(x['url'] not in state['attempts'] for x in candidates if x.get('zrodlo')=='PLT')})
+                             'remaining_unfetched_plt': sum(x['url'] not in state['attempts'] for x in candidates if x.get('zrodlo')=='PLT'),
+                             'remaining_unfetched_pzt': sum(x['url'] not in state['attempts'] for x in candidates if x.get('zrodlo')=='PZT TOP')})
     if errors: print('Some source requests failed; last good results preserved.', flush=True)
 
 
