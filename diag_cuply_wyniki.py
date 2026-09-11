@@ -140,3 +140,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# Diagnostic trigger after the workflow was added.
