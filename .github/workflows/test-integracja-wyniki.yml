@@ -1,0 +1,97 @@
+name: Test integracji wyników 4 źródeł
+
+on:
+  push:
+    branches:
+      - feature/integracja-wyniki-4-zrodla
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v7
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Zainstaluj zależności
+        run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+
+      - name: Pełne testy modułu wyników
+        run: python -m unittest discover -s tests/wyniki_news -v
+
+      - name: Sprawdź wtyczkę WordPress
+        run: |
+          php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
+          php tests/wyniki_news/wordpress_import_test.php
+
+      - name: Smoke test wszystkich czterech źródeł
+        run: |
+          python - <<'PY'
+          import json
+          import requests
+          from pathlib import Path
+          from wyniki_news import cuply, kluby, plt, pzt
+          from wyniki_news.build import ADAPTERS
+
+          expected = {'PLT', 'Cuply', 'Kluby.org', 'PZT TOP'}
+          if set(ADAPTERS) != expected:
+              raise SystemExit('Nieprawidłowa mapa adapterów: ' + repr(ADAPTERS.keys()))
+
+          state = json.loads(Path('data/wyniki_news/stan.json').read_text('utf-8'))
+          plt_item = None
+          for result in state.get('results', {}).values():
+              if result.get('zrodlo') == 'PLT' and result.get('gotowy') and result.get('url') in state.get('known', {}):
+                  plt_item = state['known'][result['url']]
+                  break
+          if not plt_item:
+              raise SystemExit('Brak znanego, wcześniej potwierdzonego turnieju PLT do smoke testu')
+
+          fixed = [
+              ('Cuply', cuply.fetch, {
+                  'url': 'https://cuply.pl/turnieje/cuply-challenger-gryfino-i',
+                  'nazwa': 'Cuply Challenger Gryfino I dla średniozaawansowanych',
+                  'data_od': '2026-09-06', 'data_do': '2026-09-06', 'miasto': 'Gryfino'
+              }, 37),
+              ('Kluby.org', kluby.fetch, {
+                  'url': 'https://kluby.org/turnieje/10368',
+                  'nazwa': 'Debel Mikst 40+ Zima z Wars-em 2025/26',
+                  'data_od': '2026-01-04', 'data_do': '2026-01-04', 'miasto': 'Warszawa', 'kategoria': 'DEBEL MIKST +40'
+              }, 25),
+              ('PZT TOP', pzt.fetch, {
+                  'url': 'http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=7B170278-F7BB-4B0A-BEA5-49A199E798BC',
+                  'nazwa': 'TOPSZLEM - TOP RZESZÓW OPEN',
+                  'data_od': '2026-07-25', 'data_do': '2026-07-26', 'miasto': 'RZESZÓW', 'kategoria': '50+, Open Amator, Open'
+              }, 46),
+          ]
+
+          out = []
+          with requests.Session() as session:
+              r = plt.fetch(plt_item, session)
+              if not r.get('mecze'):
+                  raise SystemExit('PLT: brak meczów w smoke teście')
+              out.append({'source': 'PLT', 'id': r['id'], 'matches': len(r['mecze']), 'ready': r['gotowy']})
+
+              for name, func, item, expected_count in fixed:
+                  r = func(item, session)
+                  if len(r.get('mecze', [])) != expected_count:
+                      raise SystemExit(f'{name}: oczekiwano {expected_count} meczów, jest {len(r.get("mecze", []))}')
+                  if any(not m.get('zakonczony') for m in r['mecze']):
+                      raise SystemExit(name + ': wykryto nieukończony mecz w znanej próbce')
+                  if name in {'Cuply', 'Kluby.org'} and not r.get('gotowy'):
+                      raise SystemExit(name + ': znana próbka nie jest gotowa: ' + repr(r.get('uwagi')))
+                  if name == 'PZT TOP':
+                      unexpected = [x for x in r.get('uwagi', []) if 'wielokategoriowy' not in x]
+                      if unexpected:
+                          raise SystemExit('PZT TOP: nieoczekiwane ostrzeżenia: ' + repr(unexpected))
+                  out.append({'source': name, 'id': r['id'], 'matches': len(r['mecze']), 'ready': r['gotowy'], 'issues': r.get('uwagi', [])})
+
+          print(json.dumps(out, ensure_ascii=False, indent=2))
+          PY
