@@ -1,13 +1,16 @@
-# Wyniki i newsy — pierwsza wersja PLT
+# Wyniki i newsy — PLT + Cuply
 
 Osobny dodatek do istniejącego kalendarza. Nie zmienia jego wtyczki, zbierania danych ani archiwum. Czyta kalendarz i archiwum, zapisuje wyłącznie `data/wyniki_news/`.
 
 ## Zakres
 
-- Turnieje PLT zakończone **po 1 lipca 2026**, przed dniem pobrania. Jeden turniej = jeden zwykły wpis WordPress.
+- Turnieje PLT i Cuply zakończone **po 1 lipca 2026**, przed dniem pobrania. Jeden turniej = jeden zwykły wpis WordPress.
 - Neutralny wstęp, zwycięzca finału gdy potwierdzony, listy meczów według faz, wyniki A:B, link do źródła. Bez dopisywania relacji z przebiegu spotkań.
 - Dane sportowe: nazwiska, identyfikatory zawodników/par, wyniki, faza i turniej. Profile kontaktowe nie są zapisywane.
-- PZT TOP, Cuply i Kluby.org nie są jeszcze obsługiwane. Liczba oczekujących turniejów widnieje w raporcie.
+- Cuply jest pobierane z publicznego komponentu Livewire przez zwykłe żądania HTTP. Produkcyjny kolektor nie wymaga Playwrighta ani Chromium.
+- Adapter Cuply obsługuje singiel i debel, grupy + play-off, super tie-breaki, opcjonalną pustą fazę meczu o 3. miejsce oraz walkowery `W/O`/`w.o.`. Stabilny identyfikator zawodnika pochodzi z publicznego adresu `/zawodnicy/<slug>`.
+- Cuply oznacza zwycięzcę w HTML; adapter porównuje to oznaczenie z wynikiem liczbowym. Sprzeczność lub niepełne dane blokują automatyczną publikację zamiast wymuszać rozstrzygnięcie.
+- PZT TOP i Kluby.org nie są jeszcze obsługiwane na tej gałęzi. Liczba oczekujących turniejów widnieje w raporcie.
 - Niepełne lub sprzeczne dane blokują automatyczną publikację: wpis pozostaje szkicem. Nie jest to gwarancja poprawności samego źródła.
 
 ## Harmonogram
@@ -41,4 +44,4 @@ Wyłączenie dodatku zatrzymuje odbiór, ale pozostawia wpisy. Nie potrzeba udos
 
 Testy PHP wykorzystują symulowane funkcje WordPressa; nie zastępują testu na docelowym WordPressie. Pierwsza instalacja i próbka szkiców są konieczne przed włączeniem automatycznej publikacji.
 
-Dane: `stan.json` — stan i mecze; `feed.json` — gotowe treści; `raport.json` — kompletność i błędy. Uruchomienie: `python -m wyniki_news.build`. Zależności: requests 2.32.5, beautifulsoup4 4.13.5.
+Dane: `stan.json` — stan i mecze; `feed.json` — gotowe treści; `raport.json` — kompletność i błędy. Uruchomienie: `python -m wyniki_news.build`. Zależności produkcyjne: requests 2.32.5, beautifulsoup4 4.13.5.
