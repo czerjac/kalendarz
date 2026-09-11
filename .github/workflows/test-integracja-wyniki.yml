@@ -95,3 +95,20 @@ jobs:
 
           print(json.dumps(out, ensure_ascii=False, indent=2))
           PY
+
+      - name: Symulacja produkcyjnego tygodniowego build
+        run: |
+          python -m wyniki_news.build --today 2026-09-11
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(Path('data/wyniki_news/raport.json').read_text('utf-8'))
+          feed = json.loads(Path('data/wyniki_news/feed.json').read_text('utf-8'))
+          expected = {'PLT', 'Cuply', 'Kluby.org', 'PZT TOP'}
+          if set(feed.get('supported_sources', [])) != expected:
+              raise SystemExit('Feed nie zawiera czterech źródeł: ' + repr(feed.get('supported_sources')))
+          if report.get('awaiting_adapter'):
+              raise SystemExit('Pozostały źródła bez adaptera: ' + repr(report['awaiting_adapter']))
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          PY
