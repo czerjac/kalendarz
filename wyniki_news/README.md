@@ -1,17 +1,19 @@
-# Wyniki i newsy — PLT + Cuply
+# Wyniki i newsy — PLT + Cuply + Kluby.org + PZT TOP
 
 Osobny dodatek do istniejącego kalendarza. Nie zmienia jego wtyczki, zbierania danych ani archiwum. Czyta kalendarz i archiwum, zapisuje wyłącznie `data/wyniki_news/`.
 
 ## Zakres
 
-- Turnieje PLT i Cuply zakończone **po 1 lipca 2026**, przed dniem pobrania. Jeden turniej = jeden zwykły wpis WordPress.
-- Neutralny wstęp, zwycięzca finału gdy potwierdzony, listy meczów według faz, wyniki A:B, link do źródła. Bez dopisywania relacji z przebiegu spotkań.
-- Dane sportowe: nazwiska, identyfikatory zawodników/par, wyniki, faza i turniej. Profile kontaktowe nie są zapisywane.
-- Cuply jest pobierane z publicznego komponentu Livewire przez zwykłe żądania HTTP. Produkcyjny kolektor nie wymaga Playwrighta ani Chromium.
-- Adapter Cuply obsługuje singiel i debel, grupy + play-off, super tie-breaki, opcjonalną pustą fazę meczu o 3. miejsce oraz walkowery `W/O`/`w.o.`. Stabilny identyfikator zawodnika pochodzi z publicznego adresu `/zawodnicy/<slug>`.
-- Cuply oznacza zwycięzcę w HTML; adapter porównuje to oznaczenie z wynikiem liczbowym. Sprzeczność lub niepełne dane blokują automatyczną publikację zamiast wymuszać rozstrzygnięcie.
-- PZT TOP i Kluby.org nie są jeszcze obsługiwane na tej gałęzi. Liczba oczekujących turniejów widnieje w raporcie.
+- Turnieje PLT, Cuply, Kluby.org i PZT TOP zakończone **po 1 lipca 2026**, przed dniem pobrania. Jeden turniej źródłowy = jeden zwykły wpis WordPress.
+- Neutralny wstęp, zwycięzca finału gdy istnieje jeden potwierdzony finał, listy meczów według faz, wyniki A:B, link do źródła. Bez dopisywania relacji z przebiegu spotkań.
+- Dane sportowe: nazwiska, identyfikatory zawodników/par, wyniki, faza, kategoria źródłowa i turniej. Profile kontaktowe nie są zapisywane.
+- **PLT**: publiczne dane wynikowe pobierane przez istniejący adapter PLT.
+- **Cuply**: publiczny komponent Livewire obsługiwany zwykłymi żądaniami HTTP; produkcyjny kolektor nie wymaga Playwrighta ani Chromium. Adapter obsługuje singiel/debel, grupy + play-off, super tie-breaki i walkowery.
+- **Kluby.org**: serwerowo renderowane strony `/mecze` i `/kolejnosc`, pobierane przez `requests` + BeautifulSoup. Adapter obsługuje singiel, debel/mikst, grupy + play-off, wiele drabinek oraz weryfikację finału z klasyfikacją końcową.
+- **PZT TOP**: publiczne `TournamentMatchesPlay.aspx`, `TournamentMatches.aspx?QS=...` i `TournamentTabResults.aspx`. Adapter zachowuje `EventID`, obsługuje singiel/debel, grupy, drabinki, BYE, walkowery, krecze i super tie-breaki.
+- PZT TOP i Kluby.org mogą publikować kilka konkurencji w jednym turnieju. Wszystkie mecze są pobierane i zachowują kategorię źródłową, ale turniej wielokategoriowy pozostaje szkicem do kontroli redakcyjnej, ponieważ obecny model newsa ma tylko jeden główny `final_id`.
 - Niepełne lub sprzeczne dane blokują automatyczną publikację: wpis pozostaje szkicem. Nie jest to gwarancja poprawności samego źródła.
+- Adaptery nie scalają automatycznie tożsamości zawodników ani turniejów pomiędzy serwisami.
 
 ## Harmonogram
 
@@ -27,7 +29,7 @@ Wtyczka odbiera plik raz w tygodniu, we wtorek o 04:30 czasu polskiego, po przyg
 2. Narzędzia → Wyniki Tenis NET: wybierz kategorię i autora. Pozostaw szkice oraz wyłączony odbiór automatyczny. Zapisz.
 3. Importuj pierwszych 10 turniejów i sprawdź je w sekcji Wpisy → Szkice: wygląd tabel, polskie znaki, źródło i kategorię.
 4. Gdy próbka jest poprawna, możesz opublikować te szkice zwykłymi narzędziami WordPressa. Zmiana trybu nie publikuje automatycznie identycznych szkiców już zaimportowanych.
-5. W ustawieniach dodatku wybierz automatyczną publikację potwierdzonych wyników. Importuj kolejne partie archiwum, aż raport pokaże zero pozostałych. Niepełne wpisy nadal zostają szkicami. Archiwalne newsy mają bieżącą datę publikacji, a termin turnieju w tytule i treści.
+5. W ustawieniach dodatku wybierz automatyczną publikację potwierdzonych wyników. Importuj kolejne partie archiwum, aż raport pokaże zero pozostałych. Niepełne i wielokategoriowe wpisy nadal zostają szkicami. Archiwalne newsy mają bieżącą datę publikacji, a termin turnieju w tytule i treści.
 6. Zaznacz cotygodniowy odbiór i zapisz. Uzgodnij z hostingiem uruchamianie WordPress Cron, jeśli publikacja ma następować bez nocnego ruchu.
 
 Ponowny import nie tworzy kopii. Opublikowanych i ręcznie poprawionych wpisów dodatek nie nadpisuje. Proponowana korekta pojawia się w edytorze wpisu w sekcji Wyniki Tenis NET; jej zastosowanie jest świadomą decyzją redaktora. Usunięte do kosza wpisy nie są odtwarzane.
