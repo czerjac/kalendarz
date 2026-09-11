@@ -7,6 +7,7 @@ from wyniki_news.cuply import (
     phase_buttons,
     parse_phase,
     score_parts,
+    source_winner,
     split_participants,
     validate_url,
 )
@@ -25,6 +26,16 @@ SINGLES = '''
 <a href="https://cuply.pl/zawodnicy/adam-nowak">Adam Nowak</a>
 </td><td><span>4:2</span><span>4:1</span></td><td>06.09.2026 10:00</td><td>Kort 2</td></tr>
 </tbody></table></div>
+'''
+
+HIGHLIGHT = '''
+<table><thead><tr><th>#</th><th>MECZ</th><th>WYNIK</th><th>DATA</th><th>KORT</th></tr></thead><tbody>
+<tr><td>1</td><td><div>
+<span class="font-medium text-primary"><a href="https://cuply.pl/zawodnicy/jan-kowalski">Jan Kowalski</a></span>
+<span>vs</span>
+<span class="font-medium text-primary font-bold"><mark class="bg-featured"><a href="https://cuply.pl/zawodnicy/adam-nowak">Adam Nowak</a></mark></span>
+</div></td><td><span>2:4</span><span>1:4</span></td><td>06.09.2026</td><td>—</td></tr>
+</tbody></table>
 '''
 
 DOUBLES = '''
@@ -74,6 +85,22 @@ class CuplyParserTest(unittest.TestCase):
         self.assertTrue(m['zakonczony'])
         self.assertEqual(m['typ_fazy'], 'puchar')
 
+    def test_source_winner_from_cuply_highlight(self):
+        soup = BeautifulSoup(HIGHLIGHT, 'html.parser')
+        cell = soup.find('tbody').find_all('td')[1]
+        self.assertEqual(source_winner(cell), 'b')
+        matches, warnings = parse_phase(HIGHLIGHT, '91', 'final', 'Finał')
+        self.assertEqual(warnings, [])
+        self.assertEqual(matches[0]['zwyciezca'], 'b')
+        self.assertTrue(matches[0]['zakonczony'])
+
+    def test_conflicting_highlight_and_score_blocks_match(self):
+        conflict = HIGHLIGHT.replace('<span>2:4</span><span>1:4</span>', '<span>4:2</span><span>4:1</span>')
+        matches, warnings = parse_phase(conflict, '91', 'final', 'Finał')
+        self.assertFalse(matches[0]['zakonczony'])
+        self.assertIsNone(matches[0]['zwyciezca'])
+        self.assertTrue(any('sprzeczne' in x for x in warnings))
+
     def test_doubles_pair_and_super_tiebreak(self):
         matches, warnings = parse_phase(DOUBLES, '44', 'final', 'Finał')
         self.assertEqual(warnings, [])
@@ -102,12 +129,20 @@ class CuplyParserTest(unittest.TestCase):
         self.assertFalse(matches[0]['zakonczony'])
         self.assertTrue(any('brak potwierdzonego wyniku' in x for x in warnings))
 
-    def test_walkover_without_numeric_result_is_not_guessed(self):
+    def test_walkover_without_source_winner_is_not_guessed(self):
         broken = SINGLES.replace('<span>4:2</span><span>4:1</span>', '<span>w.o.</span>')
         matches, warnings = parse_phase(broken, '91', 'final', 'Finał')
         self.assertTrue(matches[0]['walkower'])
         self.assertFalse(matches[0]['zakonczony'])
         self.assertTrue(any('walkower' in x for x in warnings))
+
+    def test_walkover_with_source_winner_is_complete(self):
+        walkover = HIGHLIGHT.replace('<span>2:4</span><span>1:4</span>', '<span>w.o.</span>')
+        matches, warnings = parse_phase(walkover, '91', 'final', 'Finał')
+        self.assertEqual(warnings, [])
+        self.assertTrue(matches[0]['walkower'])
+        self.assertTrue(matches[0]['zakonczony'])
+        self.assertEqual(matches[0]['zwyciezca'], 'b')
 
     def test_score_winner_from_a_perspective(self):
         cell = BeautifulSoup('<td><span>3:4</span><span>4:2</span><span>10:6</span></td>', 'html.parser').td
