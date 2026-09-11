@@ -68,12 +68,18 @@ jobs:
                   result = fetch(sample['item'], session)
                   if len(result['mecze']) < sample['min_matches']:
                       raise SystemExit('Za mało meczów: ' + sample['label'] + ' ' + str(len(result['mecze'])))
-                  if any(not m['zakonczony'] for m in result['mecze']):
+                  incomplete = [m for m in result['mecze'] if not m['zakonczony']]
+                  if incomplete:
+                      print('INCOMPLETE', sample['label'], json.dumps(incomplete, ensure_ascii=False, indent=2))
+                      print('ISSUES', json.dumps(result['uwagi'], ensure_ascii=False, indent=2))
                       raise SystemExit('Niepełny mecz: ' + sample['label'])
-                  if any(m['strona_a']['typ'] != sample['expected_side'] or m['strona_b']['typ'] != sample['expected_side'] for m in result['mecze']):
+                  wrong_sides = [m for m in result['mecze'] if m['strona_a']['typ'] != sample['expected_side'] or m['strona_b']['typ'] != sample['expected_side']]
+                  if wrong_sides:
+                      print('WRONG SIDES', json.dumps(wrong_sides, ensure_ascii=False, indent=2))
                       raise SystemExit('Błędny typ strony: ' + sample['label'])
                   finals = [m for m in result['mecze'] if m['faza'].strip().casefold() in ('finał', 'final')]
                   if len(finals) != 1 or result['final_id'] != finals[0]['id']:
+                      print('FINALS', json.dumps(finals, ensure_ascii=False, indent=2))
                       raise SystemExit('Brak pojedynczego finału: ' + sample['label'])
                   if result['uwagi']:
                       raise SystemExit('Ostrzeżenia: ' + sample['label'] + ' ' + repr(result['uwagi']))
