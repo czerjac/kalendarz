@@ -1,20 +1,21 @@
-name: Diagnostyka wyników Cuply
+name: Test adaptera Cuply
 
 on:
   push:
     branches:
       - feature/cuply-wyniki-adapter
     paths:
-      - 'diag_cuply_wyniki.py'
+      - 'wyniki_news/cuply.py'
+      - 'tests/wyniki_news/test_cuply.py'
       - 'diag_cuply_http.py'
       - '.github/workflows/diag-cuply-wyniki.yml'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  diag:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Pobierz repozytorium
@@ -26,26 +27,56 @@ jobs:
           python-version: '3.12'
 
       - name: Zainstaluj biblioteki
-        run: pip install playwright==1.55.0 requests==2.32.5 beautifulsoup4==4.13.5
+        run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+
+      - name: Pełne testy modułu wyników
+        run: python -m unittest discover -s tests/wyniki_news -v
 
       - name: Sprawdź Livewire bez przeglądarki
         run: python diag_cuply_http.py
 
-      - name: Zainstaluj Chromium
-        run: python -m playwright install --with-deps chromium
-
-      - name: Zbierz diagnostykę Cuply
-        run: python diag_cuply_wyniki.py
-
-      - name: Zapisz diagnostykę na gałęzi
+      - name: Smoke test publicznych wyników Cuply
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/diagnostyka_cuply_wyniki.json
-          if git diff --cached --quiet; then
-            echo "Brak zmian."
-          else
-            git commit -m "Zapisz diagnostykę wyników Cuply"
-            git pull --rebase origin feature/cuply-wyniki-adapter
-            git push origin HEAD:feature/cuply-wyniki-adapter
-          fi
+          python - <<'PY'
+          import json
+          import requests
+          from wyniki_news.cuply import fetch
+
+          samples = [
+              {
+                  'label': 'grupy+QF+SF+F+3m',
+                  'item': {'url': 'https://cuply.pl/turnieje/cuply-challenger-gryfino-i', 'nazwa': 'Cuply Challenger Gryfino I', 'data_od': '2026-09-06', 'data_do': '2026-09-06', 'miasto': 'Gryfino'},
+                  'min_matches': 30,
+                  'expected_side': 'osoba',
+              },
+              {
+                  'label': 'grupy+SF+F',
+                  'item': {'url': 'https://cuply.pl/turnieje/cuply-stargard-masters-zaawansowani-amatorzy', 'nazwa': 'Cuply Stargard Masters', 'data_od': '2026-08-30', 'data_do': '2026-08-30', 'miasto': 'Stargard'},
+                  'min_matches': 15,
+                  'expected_side': 'osoba',
+              },
+              {
+                  'label': 'debel grupy+SF+F',
+                  'item': {'url': 'https://cuply.pl/turnieje/duo-zoom-brejk-open-iii', 'nazwa': 'DUO ZOOM & BREJK Open III', 'data_od': '2026-05-09', 'data_do': '2026-05-09', 'miasto': 'Szczecin'},
+                  'min_matches': 10,
+                  'expected_side': 'para',
+              },
+          ]
+          out = []
+          with requests.Session() as session:
+              for sample in samples:
+                  result = fetch(sample['item'], session)
+                  if len(result['mecze']) < sample['min_matches']:
+                      raise SystemExit('Za mało meczów: ' + sample['label'] + ' ' + str(len(result['mecze'])))
+                  if any(not m['zakonczony'] for m in result['mecze']):
+                      raise SystemExit('Niepełny mecz: ' + sample['label'])
+                  if any(m['strona_a']['typ'] != sample['expected_side'] or m['strona_b']['typ'] != sample['expected_side'] for m in result['mecze']):
+                      raise SystemExit('Błędny typ strony: ' + sample['label'])
+                  finals = [m for m in result['mecze'] if m['faza'].strip().casefold() in ('finał', 'final')]
+                  if len(finals) != 1 or result['final_id'] != finals[0]['id']:
+                      raise SystemExit('Brak pojedynczego finału: ' + sample['label'])
+                  if result['uwagi']:
+                      raise SystemExit('Ostrzeżenia: ' + sample['label'] + ' ' + repr(result['uwagi']))
+                  out.append({'label': sample['label'], 'id': result['id'], 'mecze': len(result['mecze']), 'fazy': sorted(set(m['faza'] for m in result['mecze'])), 'kategoria': result['kategoria']})
+          print(json.dumps(out, ensure_ascii=False, indent=2))
+          PY
