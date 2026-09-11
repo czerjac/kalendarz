@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-09-11T13:58:38.477176+00:00",
-  "attempted": 11,
+  "generated_at": "2026-09-11T14:28:38.660605+00:00",
+  "attempted": 35,
   "errors": [],
-  "ready": 130,
-  "needs_review": 2,
-  "awaiting_adapter": {
-    "PZT TOP": 51,
-    "Kluby.org": 112
-  },
+  "ready": 134,
+  "needs_review": 22,
+  "awaiting_adapter": {},
   "remaining_unfetched_plt": 0,
-  "remaining_unfetched_cuply": 14
+  "remaining_unfetched_cuply": 14,
+  "remaining_unfetched_kluby": 95,
+  "remaining_unfetched_pzt": 44
 }
