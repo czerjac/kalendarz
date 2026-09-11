@@ -1,0 +1,30 @@
+name: Aktualizacja wtyczki WordPress do 4 źródeł
+
+on:
+  push:
+    paths:
+      - '.github/workflows/patch-wp-plugin-4-sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Zastosuj poprawkę
+        run: python tools/patch_wp_plugin_4_sources.py
+      - name: Test składni PHP
+        run: php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
+      - name: Test importu WordPress
+        run: php tests/wyniki_news/wordpress_import_test.php
+      - name: Zapisz sprawdzoną wersję
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add wordpress/tenis-net-wyniki/tenis-net-wyniki.php tests/wyniki_news/wordpress_import_test.php
+          git commit -m 'Rozszerz wtyczkę WordPress na cztery źródła wyników'
+          git pull --rebase origin main
+          git push origin HEAD:main
