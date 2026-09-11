@@ -9,7 +9,7 @@ from collections import Counter
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from . import cuply, plt
+from . import cuply, kluby, plt, pzt
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data' / 'wyniki_news'
@@ -17,6 +17,8 @@ CUTOFF = date(2026, 7, 1)  # User requested strictly AFTER July 1.
 ADAPTERS = {
     'PLT': plt.fetch,
     'Cuply': cuply.fetch,
+    'Kluby.org': kluby.fetch,
+    'PZT TOP': pzt.fetch,
 }
 
 
@@ -35,7 +37,8 @@ def eligible(item, today):
     try:
         end = date.fromisoformat(item.get('data_do') or item['data_od'])
         return CUTOFF < end < today
-    except (ValueError, KeyError, TypeError): return False
+    except (ValueError, KeyError, TypeError):
+        return False
 
 
 def label(side):
@@ -47,16 +50,23 @@ def article(t):
     finished = [m for m in t['mecze'] if m['zakonczony']]
     final = next((m for m in finished if m['id'] == t['final_id']), None)
     intro = f"Turniej {esc(t['nazwa'])} ({esc(t['data_od'])}"
-    if t['data_do'] != t['data_od']: intro += ' – ' + esc(t['data_do'])
+    if t['data_do'] != t['data_od']:
+        intro += ' – ' + esc(t['data_do'])
     intro += f"){(' w miejscowości ' + esc(t['miasto'])) if t['miasto'] else ''}."
     if final:
         intro += f" Zwycięstwo w finale: {esc(label(final['strona_' + final['zwyciezca']]))}. Drugie miejsce: {esc(label(final['strona_' + ('b' if final['zwyciezca']=='a' else 'a')]))}."
-        # Display score with named A/B below, not from winner perspective.
     parts = ['<p>' + intro + '</p>', '<p>Kategoria źródłowa: ' + esc(t['kategoria']) + '.</p>']
-    if not t['gotowy']: parts.append('<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>')
+    if not t['gotowy']:
+        parts.append('<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>')
     for gid in dict.fromkeys(m['grupa_id'] for m in t['mecze']):
         group = [m for m in t['mecze'] if m['grupa_id'] == gid]
-        parts += ['<h2>' + esc(group[0]['faza']) + '</h2>', '<figure class="wp-block-table"><table><thead><tr><th>Zawodnik / para A</th><th>Zawodnik / para B</th><th>Wynik A:B</th></tr></thead><tbody>']
+        category = group[0].get('kategoria_zrodlowa') or ''
+        if category and category != t['kategoria']:
+            parts.append('<h2>' + esc(category) + '</h2>')
+            heading = 'h3'
+        else:
+            heading = 'h2'
+        parts += [f'<{heading}>' + esc(group[0]['faza']) + f'</{heading}>', '<figure class="wp-block-table"><table><thead><tr><th>Zawodnik / para A</th><th>Zawodnik / para B</th><th>Wynik A:B</th></tr></thead><tbody>']
         for m in group:
             result = m['wynik'] if m['zakonczony'] else 'Brak potwierdzonego wyniku'
             parts.append('<tr><td>' + esc(label(m['strona_a'])) + '</td><td>' + esc(label(m['strona_b'])) + '</td><td>' + esc(result) + '</td></tr>')
@@ -95,12 +105,15 @@ def main():
     pending = [x for x in candidates if x.get('zrodlo') not in ADAPTERS]
     jobs = []
     for x in candidates:
-        if x.get('zrodlo') not in ADAPTERS: continue
+        if x.get('zrodlo') not in ADAPTERS:
+            continue
         # Weekly snapshot only; older events require an explicit manual backfill.
         age = (today - date.fromisoformat(x.get('data_do') or x['data_od'])).days
-        if args.backfill or age <= 7: jobs.append(x)
+        if args.backfill or age <= 7:
+            jobs.append(x)
     jobs.sort(key=lambda x: (state['attempts'].get(x['url'], {}).get('date', ''), x['data_od'], x.get('zrodlo', '')))
-    if args.limit: jobs = jobs[:args.limit]
+    if args.limit:
+        jobs = jobs[:args.limit]
     errors = []
     with requests.Session() as session:
         for index, item in enumerate(jobs):
@@ -112,7 +125,8 @@ def main():
                 if previous and (len(result['mecze']) < len(previous['mecze']) or (previous['gotowy'] and not result['gotowy'])):
                     previous['gotowy'] = False
                     previous['uwagi'] = sorted(set(previous['uwagi'] + ['Nowszy odczyt jest niepełny — zachowano poprzednie wyniki']))
-                else: state['results'][result['id']] = result
+                else:
+                    state['results'][result['id']] = result
                 state['attempts'][item['url']] = {'date': today.isoformat(), 'ready': result['gotowy']}
             except Exception as exc:
                 errors.append({'url': item['url'], 'source': source, 'error': type(exc).__name__})
@@ -130,12 +144,17 @@ def main():
             'weekend_end': monday.isoformat(), 'supported_sources': list(ADAPTERS), 'posts': posts}
     save(OUT / 'stan.json', state)
     save(OUT / 'feed.json', feed)
-    save(OUT / 'raport.json', {'generated_at': now.isoformat(), 'attempted': len(jobs), 'errors': errors,
-                             'ready': sum(x['ready'] for x in posts), 'needs_review': sum(not x['ready'] for x in posts),
-                             'awaiting_adapter': dict(Counter(x['zrodlo'] for x in pending)),
-                             'remaining_unfetched_plt': sum(x['url'] not in state['attempts'] for x in candidates if x.get('zrodlo')=='PLT'),
-                             'remaining_unfetched_cuply': sum(x['url'] not in state['attempts'] for x in candidates if x.get('zrodlo')=='Cuply')})
-    if errors: print('Some source requests failed; last good results preserved.', flush=True)
+    report = {'generated_at': now.isoformat(), 'attempted': len(jobs), 'errors': errors,
+              'ready': sum(x['ready'] for x in posts), 'needs_review': sum(not x['ready'] for x in posts),
+              'awaiting_adapter': dict(Counter(x['zrodlo'] for x in pending))}
+    for source, key in (('PLT', 'plt'), ('Cuply', 'cuply'), ('Kluby.org', 'kluby'), ('PZT TOP', 'pzt')):
+        report[f'remaining_unfetched_{key}'] = sum(
+            x['url'] not in state['attempts'] for x in candidates if x.get('zrodlo') == source
+        )
+    save(OUT / 'raport.json', report)
+    if errors:
+        print('Some source requests failed; last good results preserved.', flush=True)
 
 
-if __name__ == '__main__': main()
+if __name__ == '__main__':
+    main()
