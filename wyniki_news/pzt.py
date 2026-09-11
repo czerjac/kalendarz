@@ -5,7 +5,7 @@ import base64
 import hashlib
 import re
 import unicodedata
-from urllib.parse import parse_qs, unquote, urljoin, urlsplit
+from urllib.parse import parse_qs, urljoin, urlsplit
 
 from bs4 import BeautifulSoup
 
@@ -15,8 +15,7 @@ TOURNAMENT_ID_RE = re.compile(r"^[0-9A-Fa-f-]{20,}$")
 MATCH_URL_RE = re.compile(r"['\"](/TournamentMatches\.aspx\?QS=[^'\"]+)['\"]", re.I)
 SCORE_RE = re.compile(r"(?<!\d)(\d{1,2})\s*[:/]\s*(\d{1,2})(?!\d)")
 WO_RE = re.compile(r"\bw\.?\s*o\.?\b|walkower", re.I)
-RET_RIGHT_RE = re.compile(r":\s*(?:ret\.?|krecz)\b", re.I)
-RET_LEFT_RE = re.compile(r"\b(?:ret\.?|krecz)\s*:", re.I)
+RET_RE = re.compile(r"\b(?:ret\.?|krecz)\b", re.I)
 SPECIAL_LEFT_WIN_RE = re.compile(r"\bV\s*:\s*0\b", re.I)
 RANK_RE = re.compile(r"^(?:1|2|3|3-4|3–4|4|5(?:\s*\(.*\))?)$")
 
@@ -134,10 +133,11 @@ def score_sets(parts: list[str]) -> list[dict]:
 
 def score_winner(parts: list[str]) -> str | None:
     raw = " ".join(clean(x) for x in parts if clean(x))
-    if WO_RE.search(raw) or SPECIAL_LEFT_WIN_RE.search(raw) or RET_RIGHT_RE.search(raw):
+    # PZT TournamentMatches presents the winner in the left participant column.
+    # The retirement marker refers to the opponent even though the portal renders
+    # several textual forms (:ret., ret.:, standalone ret.).
+    if WO_RE.search(raw) or SPECIAL_LEFT_WIN_RE.search(raw) or RET_RE.search(raw):
         return "a"
-    if RET_LEFT_RE.search(raw):
-        return "b"
     sets = score_sets(parts)
     if not sets:
         return None
@@ -152,7 +152,7 @@ def meaningful_score(parts: list[str]) -> bool:
     raw = " ".join(clean(x) for x in parts if clean(x))
     if not raw or raw == ":":
         return False
-    return bool(SCORE_RE.search(raw) or WO_RE.search(raw) or "ret" in fold(raw) or "krecz" in fold(raw) or SPECIAL_LEFT_WIN_RE.search(raw))
+    return bool(SCORE_RE.search(raw) or WO_RE.search(raw) or RET_RE.search(raw) or SPECIAL_LEFT_WIN_RE.search(raw))
 
 
 def parse_event(html: str, source_url: str) -> tuple[dict, list[dict], list[str]]:
