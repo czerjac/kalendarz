@@ -6,7 +6,9 @@ on:
       - feature/pzt-wyniki-adapter
     paths:
       - 'wyniki_news/pzt.py'
-      - 'tests/wyniki_news/test_pzt.py'
+      - 'wyniki_news/build.py'
+      - 'wyniki_news/README.md'
+      - 'tests/wyniki_news/**'
       - '.github/workflows/diag-pzt-wyniki.yml'
   workflow_dispatch:
 
@@ -24,17 +26,18 @@ jobs:
           python-version: '3.12'
       - name: Zainstaluj zależności
         run: pip install requests==2.32.5 beautifulsoup4==4.13.5
-      - name: Testy adaptera PZT
-        run: python -m unittest tests.wyniki_news.test_pzt -v
+      - name: Pełne testy modułu wyników
+        run: python -m unittest discover -s tests/wyniki_news -v
+      - name: Sprawdź składnię wtyczki WordPress
+        run: php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
+      - name: Test importu WordPress
+        run: php tests/wyniki_news/wordpress_import_test.php
       - name: Smoke test na publicznych wynikach PZT
         run: |
           python - <<'PY'
           import json
           import requests
-          from wyniki_news.pzt import (
-              BASE, extract_match_urls, fetch, final_match, get,
-              parse_event, parse_winners, side_names, verify_final
-          )
+          from wyniki_news.pzt import fetch
 
           samples = [
               {
@@ -54,46 +57,19 @@ jobs:
           with requests.Session() as session:
               for item in samples:
                   result = fetch(item, session)
-                  if not result['mecze']:
-                      raise SystemExit('Brak meczów dla ' + item['nazwa'])
-                  if not any(m['zakonczony'] for m in result['mecze']):
-                      raise SystemExit('Brak zakończonych meczów dla ' + item['nazwa'])
+                  if not result['mecze'] or not all(m['zakonczony'] for m in result['mecze']):
+                      raise SystemExit('Niekompletny odczyt PZT dla ' + item['nazwa'])
+                  unexpected = [x for x in result['uwagi'] if 'wielokategoriowy' not in x]
+                  if unexpected:
+                      raise SystemExit('Nieoczekiwane ostrzeżenia PZT: ' + repr(unexpected))
                   out.append({
                       'id': result['id'],
                       'mecze': len(result['mecze']),
-                      'zakonczone': sum(m['zakonczony'] for m in result['mecze']),
                       'single': sum(m['strona_a']['typ'] == 'osoba' for m in result['mecze']),
                       'pary': sum(m['strona_a']['typ'] == 'para' for m in result['mecze']),
                       'grupa': sum(m['typ_fazy'] == 'grupa' for m in result['mecze']),
                       'puchar': sum(m['typ_fazy'] == 'puchar' for m in result['mecze']),
-                      'final_id': result['final_id'],
-                      'gotowy': result['gotowy'],
-                      'uwagi': result['uwagi'][:12]
-                  })
-
-              tid = '7B170278-F7BB-4B0A-BEA5-49A199E798BC'
-              index = get(session, BASE + f'TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID={tid}')
-              winners = parse_winners(get(session, BASE + f'TournamentTabResults.aspx?CategoryID=AIS&Male=&TournamentID={tid}'))
-              diag = []
-              for url in extract_match_urls(index):
-                  meta, matches, warnings = parse_event(get(session, url), url)
-                  finals = final_match(matches)
-                  local = []
-                  fid = verify_final(matches, winners.get(meta['klucz']), local) if finals else None
-                  final = finals[0] if len(finals) == 1 else None
-                  win = final['strona_' + final['zwyciezca']] if final else None
-                  lose = final['strona_' + ('b' if final and final['zwyciezca'] == 'a' else 'a')] if final else None
-                  standing = winners.get(meta['klucz'], {})
-                  diag.append({
-                      'meta': meta,
-                      'final_winner': sorted(side_names(win)) if win else [],
-                      'final_loser': sorted(side_names(lose)) if lose else [],
-                      'standing_1': sorted(side_names(standing.get('miejsca', {}).get('1'))),
-                      'standing_2': sorted(side_names(standing.get('miejsca', {}).get('2'))),
-                      'verified_final': fid,
-                      'issues': local,
+                      'uwagi': result['uwagi']
                   })
           print(json.dumps(out, ensure_ascii=False, indent=2))
-          print('RZESZOW_FINAL_DIAG')
-          print(json.dumps(diag, ensure_ascii=False, indent=2))
           PY
