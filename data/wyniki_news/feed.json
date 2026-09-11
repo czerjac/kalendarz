@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T18:03:47.575972+00:00",
-  "run_date": "2026-09-10",
+  "generated_at": "2026-09-11T13:58:38.477176+00:00",
+  "run_date": "2026-09-11",
   "cutoff_exclusive": "2026-07-01",
   "weekend_start": "2026-09-04",
   "weekend_end": "2026-09-07",
   "supported_sources": [
-    "PLT"
+    "PLT",
+    "Cuply"
   ],
   "posts": [
     {
@@ -1513,6 +1514,18 @@
       "ready": true,
       "issues": [],
       "fingerprint": "d73a3cf1767cad7bba7b532edf0f937f8862384b55d4fbda22a638e450ed6ecd"
+    },
+    {
+      "id": "cuply:91",
+      "title": "Cuply Challenger Gryfino I dla średniozaawansowanych — wyniki (2026-09-06)",
+      "content": "<p>Turniej Cuply Challenger Gryfino I dla średniozaawansowanych (2026-09-06) w miejscowości Gryfino. Zwycięstwo w finale: Petro Diavoliuk. Drugie miejsce: Dominik Mikołajko.</p>\n<p>Kategoria źródłowa: Singiel; Cuply Challenger dla średniozaawansowanych (do 3.5 NTRP).</p>\n<h2>Grupa A</h2>\n<figure class=\"wp-block-table\"><table><thead><tr><th>Zawodnik / para A</th><th>Zawodnik / para B</th><th>Wynik A:B</th></tr></thead><tbody>\n<tr><td>Petro Diavoliuk</td><td>Tomasz Furmańczyk</td><td>4:0, 4:2</td></tr>\n<tr><td>Maciej Konieczny</td><td>Krzysztof Bochen</td><td>4:2, 4:3</td></tr>\n<tr><td>Petro Diavoliuk</td><td>Krzysztof Bochen</td><td>4:0, 4:1</td></tr>\n<tr><td>Maciej Konieczny</td><td>Tomasz Furmańczyk</td><td>3:4, 4:1, 7:10</td></tr>\n<tr><td>Petro Diavoliuk</td><td>Maciej Konieczny</td><td>4:0, 4:3</td></tr>\n<tr><td>Krzysztof Bochen</td><td>Tomasz Furmańczyk</td><td>0:4, 3:4</td></tr>\n</tbody></table></figure>\n<h2>Grupa B</h2>\n<figure class=\"wp-block-table\"><table><thead><tr><th>Zawodnik / para A</th><th>Zawodnik / para B</th><th>Wynik A:B</th></tr></thead><tbody>\n<tr><td>Dominik Mikołajko</td><td>Bartosz Piotrowski</td><td>4:1, 4:2</td></tr>\n<tr><td>Krzysztof Gozdek</td><td>Karol Gajo</td><td>4:1, 4:0</td></tr>\n<tr><td>Krzysztof Gozdek</td><td>Bartosz Piotrowski</td><td>1:4, 0:4</td></tr>\n<tr><td>Karol Gajo</td><td>Bartosz Piotrowski</td><td>2:4, 1:4</td></tr>\n<tr><td>Dominik Mikołajko</td><td>Karol Gajo</td><td>4:1, 4:3</td></tr>\n<tr><td>Dominik Mikołajko</td><td>Krzysztof Gozdek</td><td>4:3, 4:1</td></tr>\n</tbody></table></figure>\n<h2>Grupa C</h2>\n<figure class=\"wp-block-table\"><table><thead><tr><th>Zawodnik / para A</th><th>Zawodnik / para B</th><th>Wynik A:B</th></tr></thead><tbody>\n<tr><td>Dawid Urbański</td><td>Łukasz Zieliński</td><td>1:4, 1:4</td></tr>\n<tr><td>Marceli Śniadecki</td><td>Bartosz Ludwinek</td><td>4:3, 4:2</td></tr>\n<tr><td>Dawid Urbański</td><td>Bartosz Ludwinek</td><td>1:4, 2:4</td></tr>\n<tr><td>Marceli Śniadecki</td><td>Dawid Urbański</td><td>(walkower)</td></tr>\n<tr><td>Marceli Śniadecki</td><td>Łukasz Zieliński</td><td>3:4, 2:4</td></tr>\n<tr><td>Łukasz Zieliński</td><td>Bartosz Ludwinek</td><td>4:2, 4:3</td></tr>\n</tbody></table></figure>\n<h2>Grupa D</h2>\n<figure class=\"wp-block-table\"><table><thead><tr><th>Zawodnik / para A</th><th>Zawodnik / para B</th><th>Wynik A:B</th></tr></thead><tbody>\n<tr><td>Jakub Krakiewicz</td><td>Filip Szarek</td><td>4:1, 4:3</td></tr>\n<tr><td>Jakub Rucinski</td><td>Jacek Turczyński</td><td>2:4, 2:4</td></tr>\n<tr><td>Jakub Krakiewicz</td><td>Jakub Rucinski</td><td>4:1, 4:2</td></tr>\n<tr><td>Filip Szarek</td><td>Jacek Turczyński</td><td>4:2, 0:4, 10:6</td></tr>\n<tr><td>Jakub Krakiewicz</td><td>Jacek Turczyński</td><td>4:0, 4:3</td></tr>\n<tr><td>Filip Szarek</td><td>Jakub Rucinski</td><td>1:4, 1:4</td></tr>\n</tbody></table></figure>\n<h2>Grupa E</h2>\n<figure class=\"wp-block-table\"><table><thead><tr><th>Zawodnik / para A</th><th>Zawodnik / para B</th><th>Wynik A:B</th></tr></thead><tbody>\n<tr><td>Florian Szarek</td><td>Michał Dobrowolski</td><td>1:4, 4:1, 10:6</td></tr>\n<tr><td>Wojciech Kotowski</td><td>Arkadiusz Margula</td><td>3:4, 4:1, 10:6</td></tr>\n<tr><td>Florian Szarek</td><td>Arkadiusz Margula</td><td>1:4, 2:4</td></tr>\n<tr><td>Michał Dobrowolski</td><td>Wojciech Kotowski</td><td>2:4, 2:4</td></tr>\n<tr><td>Michał Dobrowolski</td><td>Arkadiusz Margula</td><td>1:4, 2:4</td></tr>\n<tr><td>Florian Szarek</td><td>Wojciech Kotowski</td><td>1:4, 0:4</td></tr>\n</tbody></table></figure>\n<h2>Ćwierćfinały</h2>\n<figure class=\"wp-block-table\"><table><thead><tr><th>Zawodnik / para A</th><th>Zawodnik / para B</th><th>Wynik A:B</th></tr></thead><tbody>\n<tr><td>Petro Diavoliuk</td><td>Bartosz Piotrowski</td><td>4:0, 4:3</td></tr>\n<tr><td>Łukasz Zieliński</td><td>Wojciech Kotowski</td><td>3:4, 2:4</td></tr>\n<tr><td>Dominik Mikołajko</td><td>Arkadiusz Margula</td><td>4:0, 4:1</td></tr>\n<tr><td>Jakub Krakiewicz</td><td>Marceli Śniadecki</td><td>4:3, 4:1</td></tr>\n</tbody></table></figure>\n<h2>Półfinały</h2>\n<figure class=\"wp-block-table\"><table><thead><tr><th>Zawodnik / para A</th><th>Zawodnik / para B</th><th>Wynik A:B</th></tr></thead><tbody>\n<tr><td>Petro Diavoliuk</td><td>Wojciech Kotowski</td><td>4:1, 4:2</td></tr>\n<tr><td>Dominik Mikołajko</td><td>Jakub Krakiewicz</td><td>4:1, 2:4, 10:8</td></tr>\n</tbody></table></figure>\n<h2>Finał</h2>\n<figure class=\"wp-block-table\"><table><thead><tr><th>Zawodnik / para A</th><th>Zawodnik / para B</th><th>Wynik A:B</th></tr></thead><tbody>\n<tr><td>Petro Diavoliuk</td><td>Dominik Mikołajko</td><td>4:1, 3:4, 10:8</td></tr>\n</tbody></table></figure>\n<p>Źródło: <a href=\"https://cuply.pl/turnieje/cuply-challenger-gryfino-i\">Cuply — wyniki turnieju</a>.</p>",
+      "source_url": "https://cuply.pl/turnieje/cuply-challenger-gryfino-i",
+      "source": "Cuply",
+      "date_start": "2026-09-06",
+      "date_end": "2026-09-06",
+      "ready": true,
+      "issues": [],
+      "fingerprint": "e58f2b16ba486308c8576fb27e3d2a8793fd15f00326c28dce70f45d51ed2514"
     },
     {
       "id": "plt:5089",

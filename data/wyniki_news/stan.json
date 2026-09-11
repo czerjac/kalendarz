@@ -8672,8 +8672,8 @@
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Krakowa 2026",
       "kategoria_zrodla": "1. Liga",
       "miasto": "Kraków",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12"
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19"
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5593": {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5593",
@@ -8681,8 +8681,8 @@
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Krakowa 2026",
       "kategoria_zrodla": "2. Liga",
       "miasto": "Kraków",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12"
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19"
     },
     "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=56E632DF-5D31-4F75-B856-219905D2F828": {
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=56E632DF-5D31-4F75-B856-219905D2F828",
@@ -9790,6 +9790,51 @@
       "miasto": "Warszawa",
       "data_od": "2027-03-21",
       "data_do": "2027-03-21"
+    },
+    "https://kluby.org/turnieje/12187": {
+      "url": "https://kluby.org/turnieje/12187",
+      "zrodlo": "Kluby.org",
+      "nazwa": "MASTERS Lechia Tennis Challenge",
+      "kategoria_zrodla": "",
+      "miasto": "Gdańsk",
+      "data_od": "2026-09-11",
+      "data_do": "2026-09-11"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-olawy-2026-5602": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-olawy-2026-5602",
+      "zrodlo": "PLT",
+      "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Oławy 2026",
+      "kategoria_zrodla": "PLT Kobiet",
+      "miasto": "Oława",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13"
+    },
+    "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-grand-prix-spin-u-2026-5603": {
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-grand-prix-spin-u-2026-5603",
+      "zrodlo": "PLT",
+      "nazwa": "DEBEL. Grand Prix SPIN-u 2026",
+      "kategoria_zrodla": "Deble i Miksty",
+      "miasto": "Rzeszów",
+      "data_od": "2026-09-20",
+      "data_do": "2026-09-20"
+    },
+    "https://kluby.org/turnieje/12184": {
+      "url": "https://kluby.org/turnieje/12184",
+      "zrodlo": "Kluby.org",
+      "nazwa": "NEW YORK GAMES - Turniej Drużynowy",
+      "kategoria_zrodla": "",
+      "miasto": "Warszawa",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-grand-prix-spin-u-2026-kwalifikacje-do-krajowych-mistrzostw-5605": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-grand-prix-spin-u-2026-kwalifikacje-do-krajowych-mistrzostw-5605",
+      "zrodlo": "PLT",
+      "nazwa": "2. LIGA. Grand Prix SPIN-u 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "kategoria_zrodla": "2. Liga",
+      "miasto": "Rzeszów",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27"
     }
   },
   "attempts": {
@@ -10278,43 +10323,47 @@
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-finaly-letnich-mistrzostw-polski-plt-2026-5466/wyniki": {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-finaly-letnich-mistrzostw-polski-plt-2026-5469/wyniki": {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-finaly-letnich-mistrzostw-polski-plt-2026-5470/wyniki": {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-finaly-letnich-mistrzostw-polski-plt-2026-5468/wyniki": {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-rzeszowa-2026-5087/wyniki": {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-rzeszowa-2026-5088/wyniki": {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-finaly-letnich-mistrzostw-polski-plt-2026-5467/wyniki": {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-lezajska-2026-5517/wyniki": {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5531/wyniki": {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-otwarte-jesienne-mistrzostwa-rzeszowa-2026-5089/wyniki": {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
+      "ready": true
+    },
+    "https://cuply.pl/turnieje/cuply-challenger-gryfino-i": {
+      "date": "2026-09-11",
       "ready": true
     }
   },
@@ -131772,6 +131821,1743 @@
       "final_id": "131283",
       "gotowy": true,
       "uwagi": []
+    },
+    "cuply:91": {
+      "id": "cuply:91",
+      "zrodlo": "Cuply",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-gryfino-i",
+      "nazwa": "Cuply Challenger Gryfino I dla średniozaawansowanych",
+      "kategoria": "Singiel; Cuply Challenger dla średniozaawansowanych (do 3.5 NTRP)",
+      "data_od": "2026-09-06",
+      "data_do": "2026-09-06",
+      "miasto": "Gryfino",
+      "mecze": [
+        {
+          "id": "cuply-mecz:d6f2ddbfedd652fcad68",
+          "grupa_id": "cuply:91:grupa-a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:petro-diavoliuk",
+            "id_zrodlowe": "petro-diavoliuk",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:petro-diavoliuk",
+                "nazwa": "Petro Diavoliuk"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:tomasz-furmanczyk",
+            "id_zrodlowe": "tomasz-furmanczyk",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:tomasz-furmanczyk",
+                "nazwa": "Tomasz Furmańczyk"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 2
+            }
+          ],
+          "wynik": "4:0, 4:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 10:00",
+          "kort": "Kort 2",
+          "nr_meczu_zrodlowy": "3"
+        },
+        {
+          "id": "cuply-mecz:af3e7ac30cb67313d603",
+          "grupa_id": "cuply:91:grupa-a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:maciej-konieczny",
+            "id_zrodlowe": "maciej-konieczny",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:maciej-konieczny",
+                "nazwa": "Maciej Konieczny"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:krzysztof-bochen",
+            "id_zrodlowe": "krzysztof-bochen",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:krzysztof-bochen",
+                "nazwa": "Krzysztof Bochen"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 2
+            },
+            {
+              "a": 4,
+              "b": 3
+            }
+          ],
+          "wynik": "4:2, 4:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 10:00",
+          "kort": "Kort 1",
+          "nr_meczu_zrodlowy": "4"
+        },
+        {
+          "id": "cuply-mecz:fb0db4e52440c7a08043",
+          "grupa_id": "cuply:91:grupa-a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:petro-diavoliuk",
+            "id_zrodlowe": "petro-diavoliuk",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:petro-diavoliuk",
+                "nazwa": "Petro Diavoliuk"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:krzysztof-bochen",
+            "id_zrodlowe": "krzysztof-bochen",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:krzysztof-bochen",
+                "nazwa": "Krzysztof Bochen"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 1
+            }
+          ],
+          "wynik": "4:0, 4:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 12:00",
+          "kort": "Kort 3",
+          "nr_meczu_zrodlowy": "2"
+        },
+        {
+          "id": "cuply-mecz:989707b125f2162d2e83",
+          "grupa_id": "cuply:91:grupa-a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:maciej-konieczny",
+            "id_zrodlowe": "maciej-konieczny",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:maciej-konieczny",
+                "nazwa": "Maciej Konieczny"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:tomasz-furmanczyk",
+            "id_zrodlowe": "tomasz-furmanczyk",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:tomasz-furmanczyk",
+                "nazwa": "Tomasz Furmańczyk"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 3,
+              "b": 4
+            },
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 7,
+              "b": 10
+            }
+          ],
+          "wynik": "3:4, 4:1, 7:10",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 12:00",
+          "kort": "Kort 4",
+          "nr_meczu_zrodlowy": "5"
+        },
+        {
+          "id": "cuply-mecz:f3041fce70564db2d2f5",
+          "grupa_id": "cuply:91:grupa-a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:petro-diavoliuk",
+            "id_zrodlowe": "petro-diavoliuk",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:petro-diavoliuk",
+                "nazwa": "Petro Diavoliuk"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:maciej-konieczny",
+            "id_zrodlowe": "maciej-konieczny",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:maciej-konieczny",
+                "nazwa": "Maciej Konieczny"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 3
+            }
+          ],
+          "wynik": "4:0, 4:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 14:00",
+          "kort": "Kort 2",
+          "nr_meczu_zrodlowy": "1"
+        },
+        {
+          "id": "cuply-mecz:97067f41d8095009fbfd",
+          "grupa_id": "cuply:91:grupa-a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:krzysztof-bochen",
+            "id_zrodlowe": "krzysztof-bochen",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:krzysztof-bochen",
+                "nazwa": "Krzysztof Bochen"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:tomasz-furmanczyk",
+            "id_zrodlowe": "tomasz-furmanczyk",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:tomasz-furmanczyk",
+                "nazwa": "Tomasz Furmańczyk"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 0,
+              "b": 4
+            },
+            {
+              "a": 3,
+              "b": 4
+            }
+          ],
+          "wynik": "0:4, 3:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 15:00",
+          "kort": "Kort 1",
+          "nr_meczu_zrodlowy": "6"
+        },
+        {
+          "id": "cuply-mecz:27e96a52f6e6d9025832",
+          "grupa_id": "cuply:91:grupa-b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:dominik-mikolajko",
+            "id_zrodlowe": "dominik-mikolajko",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:dominik-mikolajko",
+                "nazwa": "Dominik Mikołajko"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:bartosz-piotrowski",
+            "id_zrodlowe": "bartosz-piotrowski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:bartosz-piotrowski",
+                "nazwa": "Bartosz Piotrowski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 4,
+              "b": 2
+            }
+          ],
+          "wynik": "4:1, 4:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 10:00",
+          "kort": "Kort 3",
+          "nr_meczu_zrodlowy": "3"
+        },
+        {
+          "id": "cuply-mecz:775c42d90d537256f0c5",
+          "grupa_id": "cuply:91:grupa-b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:krzysztof-gozdek",
+            "id_zrodlowe": "krzysztof-gozdek",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:krzysztof-gozdek",
+                "nazwa": "Krzysztof Gozdek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:karol-gajo",
+            "id_zrodlowe": "karol-gajo",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:karol-gajo",
+                "nazwa": "Karol Gajo"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 4,
+              "b": 0
+            }
+          ],
+          "wynik": "4:1, 4:0",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 10:00",
+          "kort": "Kort 4",
+          "nr_meczu_zrodlowy": "4"
+        },
+        {
+          "id": "cuply-mecz:7c0953b9a08c7f287316",
+          "grupa_id": "cuply:91:grupa-b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:krzysztof-gozdek",
+            "id_zrodlowe": "krzysztof-gozdek",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:krzysztof-gozdek",
+                "nazwa": "Krzysztof Gozdek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:bartosz-piotrowski",
+            "id_zrodlowe": "bartosz-piotrowski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:bartosz-piotrowski",
+                "nazwa": "Bartosz Piotrowski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 1,
+              "b": 4
+            },
+            {
+              "a": 0,
+              "b": 4
+            }
+          ],
+          "wynik": "1:4, 0:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 13:00",
+          "kort": "Kort 2",
+          "nr_meczu_zrodlowy": "5"
+        },
+        {
+          "id": "cuply-mecz:4c3093443a11ea761900",
+          "grupa_id": "cuply:91:grupa-b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:karol-gajo",
+            "id_zrodlowe": "karol-gajo",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:karol-gajo",
+                "nazwa": "Karol Gajo"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:bartosz-piotrowski",
+            "id_zrodlowe": "bartosz-piotrowski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:bartosz-piotrowski",
+                "nazwa": "Bartosz Piotrowski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 2,
+              "b": 4
+            },
+            {
+              "a": 1,
+              "b": 4
+            }
+          ],
+          "wynik": "2:4, 1:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 13:50",
+          "kort": "Kort 4",
+          "nr_meczu_zrodlowy": "6"
+        },
+        {
+          "id": "cuply-mecz:9a063fe956ec29bd2827",
+          "grupa_id": "cuply:91:grupa-b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:dominik-mikolajko",
+            "id_zrodlowe": "dominik-mikolajko",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:dominik-mikolajko",
+                "nazwa": "Dominik Mikołajko"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:karol-gajo",
+            "id_zrodlowe": "karol-gajo",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:karol-gajo",
+                "nazwa": "Karol Gajo"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 4,
+              "b": 3
+            }
+          ],
+          "wynik": "4:1, 4:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 14:00",
+          "kort": "Kort 1",
+          "nr_meczu_zrodlowy": "2"
+        },
+        {
+          "id": "cuply-mecz:7e78737343fa5129beb7",
+          "grupa_id": "cuply:91:grupa-b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:dominik-mikolajko",
+            "id_zrodlowe": "dominik-mikolajko",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:dominik-mikolajko",
+                "nazwa": "Dominik Mikołajko"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:krzysztof-gozdek",
+            "id_zrodlowe": "krzysztof-gozdek",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:krzysztof-gozdek",
+                "nazwa": "Krzysztof Gozdek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 3
+            },
+            {
+              "a": 4,
+              "b": 1
+            }
+          ],
+          "wynik": "4:3, 4:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 15:00",
+          "kort": "Kort 3",
+          "nr_meczu_zrodlowy": "1"
+        },
+        {
+          "id": "cuply-mecz:f5f96ded92ee786fddff",
+          "grupa_id": "cuply:91:grupa-c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:dawid-urbanski",
+            "id_zrodlowe": "dawid-urbanski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:dawid-urbanski",
+                "nazwa": "Dawid Urbański"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:lukasz-zielinski",
+            "id_zrodlowe": "lukasz-zielinski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:lukasz-zielinski",
+                "nazwa": "Łukasz Zieliński"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 1,
+              "b": 4
+            },
+            {
+              "a": 1,
+              "b": 4
+            }
+          ],
+          "wynik": "1:4, 1:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 11:00",
+          "kort": "Kort 2",
+          "nr_meczu_zrodlowy": "4"
+        },
+        {
+          "id": "cuply-mecz:af5ed885919eac60b76d",
+          "grupa_id": "cuply:91:grupa-c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:marceli-sniadecki",
+            "id_zrodlowe": "marceli-sniadecki",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:marceli-sniadecki",
+                "nazwa": "Marceli Śniadecki"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:bartosz-ludwinek-2",
+            "id_zrodlowe": "bartosz-ludwinek-2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:bartosz-ludwinek-2",
+                "nazwa": "Bartosz Ludwinek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 3
+            },
+            {
+              "a": 4,
+              "b": 2
+            }
+          ],
+          "wynik": "4:3, 4:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 12:00",
+          "kort": "Kort 1",
+          "nr_meczu_zrodlowy": "3"
+        },
+        {
+          "id": "cuply-mecz:e7171f626703ab43fa13",
+          "grupa_id": "cuply:91:grupa-c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:dawid-urbanski",
+            "id_zrodlowe": "dawid-urbanski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:dawid-urbanski",
+                "nazwa": "Dawid Urbański"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:bartosz-ludwinek-2",
+            "id_zrodlowe": "bartosz-ludwinek-2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:bartosz-ludwinek-2",
+                "nazwa": "Bartosz Ludwinek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 1,
+              "b": 4
+            },
+            {
+              "a": 2,
+              "b": 4
+            }
+          ],
+          "wynik": "1:4, 2:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 12:00",
+          "kort": "Kort 3",
+          "nr_meczu_zrodlowy": "5"
+        },
+        {
+          "id": "cuply-mecz:206ca04e31e1a7f73782",
+          "grupa_id": "cuply:91:grupa-c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:marceli-sniadecki",
+            "id_zrodlowe": "marceli-sniadecki",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:marceli-sniadecki",
+                "nazwa": "Marceli Śniadecki"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:dawid-urbanski",
+            "id_zrodlowe": "dawid-urbanski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:dawid-urbanski",
+                "nazwa": "Dawid Urbański"
+              }
+            ]
+          },
+          "sety": [],
+          "wynik": "(walkower)",
+          "walkower": true,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 13:00",
+          "kort": "Kort 1",
+          "nr_meczu_zrodlowy": "1"
+        },
+        {
+          "id": "cuply-mecz:74d6b869289c805d1195",
+          "grupa_id": "cuply:91:grupa-c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:marceli-sniadecki",
+            "id_zrodlowe": "marceli-sniadecki",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:marceli-sniadecki",
+                "nazwa": "Marceli Śniadecki"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:lukasz-zielinski",
+            "id_zrodlowe": "lukasz-zielinski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:lukasz-zielinski",
+                "nazwa": "Łukasz Zieliński"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 3,
+              "b": 4
+            },
+            {
+              "a": 2,
+              "b": 4
+            }
+          ],
+          "wynik": "3:4, 2:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 14:00",
+          "kort": "Kort 4",
+          "nr_meczu_zrodlowy": "2"
+        },
+        {
+          "id": "cuply-mecz:df9f9523d6eed0a189dc",
+          "grupa_id": "cuply:91:grupa-c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:lukasz-zielinski",
+            "id_zrodlowe": "lukasz-zielinski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:lukasz-zielinski",
+                "nazwa": "Łukasz Zieliński"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:bartosz-ludwinek-2",
+            "id_zrodlowe": "bartosz-ludwinek-2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:bartosz-ludwinek-2",
+                "nazwa": "Bartosz Ludwinek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 2
+            },
+            {
+              "a": 4,
+              "b": 3
+            }
+          ],
+          "wynik": "4:2, 4:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 15:00",
+          "kort": "Kort 2",
+          "nr_meczu_zrodlowy": "6"
+        },
+        {
+          "id": "cuply-mecz:0ea1abd7d07939667244",
+          "grupa_id": "cuply:91:grupa-d",
+          "faza": "Grupa D",
+          "runda": "Grupa D",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:jakub-krakiewicz",
+            "id_zrodlowe": "jakub-krakiewicz",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jakub-krakiewicz",
+                "nazwa": "Jakub Krakiewicz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:filip-szarek",
+            "id_zrodlowe": "filip-szarek",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:filip-szarek",
+                "nazwa": "Filip Szarek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 4,
+              "b": 3
+            }
+          ],
+          "wynik": "4:1, 4:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 11:00",
+          "kort": "Kort 4",
+          "nr_meczu_zrodlowy": "1"
+        },
+        {
+          "id": "cuply-mecz:0c9648fd2b821003e9e7",
+          "grupa_id": "cuply:91:grupa-d",
+          "faza": "Grupa D",
+          "runda": "Grupa D",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:jakub-rucinski",
+            "id_zrodlowe": "jakub-rucinski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jakub-rucinski",
+                "nazwa": "Jakub Rucinski"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:jacek-turczynski-2",
+            "id_zrodlowe": "jacek-turczynski-2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jacek-turczynski-2",
+                "nazwa": "Jacek Turczyński"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 2,
+              "b": 4
+            },
+            {
+              "a": 2,
+              "b": 4
+            }
+          ],
+          "wynik": "2:4, 2:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 11:00",
+          "kort": "Kort 3",
+          "nr_meczu_zrodlowy": "6"
+        },
+        {
+          "id": "cuply-mecz:206609d3c749dca1d50d",
+          "grupa_id": "cuply:91:grupa-d",
+          "faza": "Grupa D",
+          "runda": "Grupa D",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:jakub-krakiewicz",
+            "id_zrodlowe": "jakub-krakiewicz",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jakub-krakiewicz",
+                "nazwa": "Jakub Krakiewicz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:jakub-rucinski",
+            "id_zrodlowe": "jakub-rucinski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jakub-rucinski",
+                "nazwa": "Jakub Rucinski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 4,
+              "b": 2
+            }
+          ],
+          "wynik": "4:1, 4:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 14:00",
+          "kort": "Kort 1",
+          "nr_meczu_zrodlowy": "2"
+        },
+        {
+          "id": "cuply-mecz:a59e6f69ccd573c6bd98",
+          "grupa_id": "cuply:91:grupa-d",
+          "faza": "Grupa D",
+          "runda": "Grupa D",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:filip-szarek",
+            "id_zrodlowe": "filip-szarek",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:filip-szarek",
+                "nazwa": "Filip Szarek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:jacek-turczynski-2",
+            "id_zrodlowe": "jacek-turczynski-2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jacek-turczynski-2",
+                "nazwa": "Jacek Turczyński"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 2
+            },
+            {
+              "a": 0,
+              "b": 4
+            },
+            {
+              "a": 10,
+              "b": 6
+            }
+          ],
+          "wynik": "4:2, 0:4, 10:6",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 14:00",
+          "kort": "Kort 2",
+          "nr_meczu_zrodlowy": "5"
+        },
+        {
+          "id": "cuply-mecz:331c107b62dd12b904e3",
+          "grupa_id": "cuply:91:grupa-d",
+          "faza": "Grupa D",
+          "runda": "Grupa D",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:jakub-krakiewicz",
+            "id_zrodlowe": "jakub-krakiewicz",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jakub-krakiewicz",
+                "nazwa": "Jakub Krakiewicz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:jacek-turczynski-2",
+            "id_zrodlowe": "jacek-turczynski-2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jacek-turczynski-2",
+                "nazwa": "Jacek Turczyński"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 3
+            }
+          ],
+          "wynik": "4:0, 4:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 16:00",
+          "kort": "Kort 3",
+          "nr_meczu_zrodlowy": "3"
+        },
+        {
+          "id": "cuply-mecz:78f8d961160410f2fa26",
+          "grupa_id": "cuply:91:grupa-d",
+          "faza": "Grupa D",
+          "runda": "Grupa D",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:filip-szarek",
+            "id_zrodlowe": "filip-szarek",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:filip-szarek",
+                "nazwa": "Filip Szarek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:jakub-rucinski",
+            "id_zrodlowe": "jakub-rucinski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jakub-rucinski",
+                "nazwa": "Jakub Rucinski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 1,
+              "b": 4
+            },
+            {
+              "a": 1,
+              "b": 4
+            }
+          ],
+          "wynik": "1:4, 1:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 16:00",
+          "kort": "Kort 4",
+          "nr_meczu_zrodlowy": "4"
+        },
+        {
+          "id": "cuply-mecz:f8c28e19945530ca9776",
+          "grupa_id": "cuply:91:grupa-e",
+          "faza": "Grupa E",
+          "runda": "Grupa E",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:florian-szarek",
+            "id_zrodlowe": "florian-szarek",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:florian-szarek",
+                "nazwa": "Florian Szarek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:michal-dobrowolski",
+            "id_zrodlowe": "michal-dobrowolski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:michal-dobrowolski",
+                "nazwa": "Michał Dobrowolski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 1,
+              "b": 4
+            },
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 10,
+              "b": 6
+            }
+          ],
+          "wynik": "1:4, 4:1, 10:6",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 12:00",
+          "kort": "Kort 1",
+          "nr_meczu_zrodlowy": "1"
+        },
+        {
+          "id": "cuply-mecz:76a30141d5381f9f1149",
+          "grupa_id": "cuply:91:grupa-e",
+          "faza": "Grupa E",
+          "runda": "Grupa E",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:wojtek-kotowski",
+            "id_zrodlowe": "wojtek-kotowski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:wojtek-kotowski",
+                "nazwa": "Wojciech Kotowski"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:arkadiusz-margula",
+            "id_zrodlowe": "arkadiusz-margula",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:arkadiusz-margula",
+                "nazwa": "Arkadiusz Margula"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 3,
+              "b": 4
+            },
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 10,
+              "b": 6
+            }
+          ],
+          "wynik": "3:4, 4:1, 10:6",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 12:00",
+          "kort": "Kort 2",
+          "nr_meczu_zrodlowy": "6"
+        },
+        {
+          "id": "cuply-mecz:e39aa5c997ec522b96de",
+          "grupa_id": "cuply:91:grupa-e",
+          "faza": "Grupa E",
+          "runda": "Grupa E",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:florian-szarek",
+            "id_zrodlowe": "florian-szarek",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:florian-szarek",
+                "nazwa": "Florian Szarek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:arkadiusz-margula",
+            "id_zrodlowe": "arkadiusz-margula",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:arkadiusz-margula",
+                "nazwa": "Arkadiusz Margula"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 1,
+              "b": 4
+            },
+            {
+              "a": 2,
+              "b": 4
+            }
+          ],
+          "wynik": "1:4, 2:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 14:00",
+          "kort": "Kort 3",
+          "nr_meczu_zrodlowy": "3"
+        },
+        {
+          "id": "cuply-mecz:1824f75a959adc4eedc4",
+          "grupa_id": "cuply:91:grupa-e",
+          "faza": "Grupa E",
+          "runda": "Grupa E",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:michal-dobrowolski",
+            "id_zrodlowe": "michal-dobrowolski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:michal-dobrowolski",
+                "nazwa": "Michał Dobrowolski"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:wojtek-kotowski",
+            "id_zrodlowe": "wojtek-kotowski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:wojtek-kotowski",
+                "nazwa": "Wojciech Kotowski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 2,
+              "b": 4
+            },
+            {
+              "a": 2,
+              "b": 4
+            }
+          ],
+          "wynik": "2:4, 2:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 15:00",
+          "kort": "Kort 4",
+          "nr_meczu_zrodlowy": "4"
+        },
+        {
+          "id": "cuply-mecz:74734a94863d4127c087",
+          "grupa_id": "cuply:91:grupa-e",
+          "faza": "Grupa E",
+          "runda": "Grupa E",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:michal-dobrowolski",
+            "id_zrodlowe": "michal-dobrowolski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:michal-dobrowolski",
+                "nazwa": "Michał Dobrowolski"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:arkadiusz-margula",
+            "id_zrodlowe": "arkadiusz-margula",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:arkadiusz-margula",
+                "nazwa": "Arkadiusz Margula"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 1,
+              "b": 4
+            },
+            {
+              "a": 2,
+              "b": 4
+            }
+          ],
+          "wynik": "1:4, 2:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 15:30",
+          "kort": "Kort 1",
+          "nr_meczu_zrodlowy": "5"
+        },
+        {
+          "id": "cuply-mecz:fc71db2f1ff43d56e201",
+          "grupa_id": "cuply:91:grupa-e",
+          "faza": "Grupa E",
+          "runda": "Grupa E",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:cuply:florian-szarek",
+            "id_zrodlowe": "florian-szarek",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:florian-szarek",
+                "nazwa": "Florian Szarek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:wojtek-kotowski",
+            "id_zrodlowe": "wojtek-kotowski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:wojtek-kotowski",
+                "nazwa": "Wojciech Kotowski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 1,
+              "b": 4
+            },
+            {
+              "a": 0,
+              "b": 4
+            }
+          ],
+          "wynik": "1:4, 0:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 16:00",
+          "kort": "Kort 2",
+          "nr_meczu_zrodlowy": "2"
+        },
+        {
+          "id": "cuply-mecz:2702fd6faddd61e574ed",
+          "grupa_id": "cuply:91:cwiercfinaly",
+          "faza": "Ćwierćfinały",
+          "runda": "Ćwierćfinały",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:cuply:petro-diavoliuk",
+            "id_zrodlowe": "petro-diavoliuk",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:petro-diavoliuk",
+                "nazwa": "Petro Diavoliuk"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:bartosz-piotrowski",
+            "id_zrodlowe": "bartosz-piotrowski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:bartosz-piotrowski",
+                "nazwa": "Bartosz Piotrowski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 3
+            }
+          ],
+          "wynik": "4:0, 4:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 17:00",
+          "kort": "—",
+          "nr_meczu_zrodlowy": "1"
+        },
+        {
+          "id": "cuply-mecz:ebb59e98bf5f7cb2929b",
+          "grupa_id": "cuply:91:cwiercfinaly",
+          "faza": "Ćwierćfinały",
+          "runda": "Ćwierćfinały",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:cuply:lukasz-zielinski",
+            "id_zrodlowe": "lukasz-zielinski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:lukasz-zielinski",
+                "nazwa": "Łukasz Zieliński"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:wojtek-kotowski",
+            "id_zrodlowe": "wojtek-kotowski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:wojtek-kotowski",
+                "nazwa": "Wojciech Kotowski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 3,
+              "b": 4
+            },
+            {
+              "a": 2,
+              "b": 4
+            }
+          ],
+          "wynik": "3:4, 2:4",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 17:00",
+          "kort": "—",
+          "nr_meczu_zrodlowy": "2"
+        },
+        {
+          "id": "cuply-mecz:4c4504c4eccbcd75ea30",
+          "grupa_id": "cuply:91:cwiercfinaly",
+          "faza": "Ćwierćfinały",
+          "runda": "Ćwierćfinały",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:cuply:dominik-mikolajko",
+            "id_zrodlowe": "dominik-mikolajko",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:dominik-mikolajko",
+                "nazwa": "Dominik Mikołajko"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:arkadiusz-margula",
+            "id_zrodlowe": "arkadiusz-margula",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:arkadiusz-margula",
+                "nazwa": "Arkadiusz Margula"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 1
+            }
+          ],
+          "wynik": "4:0, 4:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 17:00",
+          "kort": "—",
+          "nr_meczu_zrodlowy": "3"
+        },
+        {
+          "id": "cuply-mecz:4ae70c95ad47c276d399",
+          "grupa_id": "cuply:91:cwiercfinaly",
+          "faza": "Ćwierćfinały",
+          "runda": "Ćwierćfinały",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:cuply:jakub-krakiewicz",
+            "id_zrodlowe": "jakub-krakiewicz",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jakub-krakiewicz",
+                "nazwa": "Jakub Krakiewicz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:marceli-sniadecki",
+            "id_zrodlowe": "marceli-sniadecki",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:marceli-sniadecki",
+                "nazwa": "Marceli Śniadecki"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 3
+            },
+            {
+              "a": 4,
+              "b": 1
+            }
+          ],
+          "wynik": "4:3, 4:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 17:00",
+          "kort": "—",
+          "nr_meczu_zrodlowy": "4"
+        },
+        {
+          "id": "cuply-mecz:4a580ad6b3acb7892c9f",
+          "grupa_id": "cuply:91:polfinaly",
+          "faza": "Półfinały",
+          "runda": "Półfinały",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:cuply:petro-diavoliuk",
+            "id_zrodlowe": "petro-diavoliuk",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:petro-diavoliuk",
+                "nazwa": "Petro Diavoliuk"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:wojtek-kotowski",
+            "id_zrodlowe": "wojtek-kotowski",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:wojtek-kotowski",
+                "nazwa": "Wojciech Kotowski"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 4,
+              "b": 2
+            }
+          ],
+          "wynik": "4:1, 4:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 18:00",
+          "kort": "—",
+          "nr_meczu_zrodlowy": "1"
+        },
+        {
+          "id": "cuply-mecz:6e0f87333ce423f3c320",
+          "grupa_id": "cuply:91:polfinaly",
+          "faza": "Półfinały",
+          "runda": "Półfinały",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:cuply:dominik-mikolajko",
+            "id_zrodlowe": "dominik-mikolajko",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:dominik-mikolajko",
+                "nazwa": "Dominik Mikołajko"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:jakub-krakiewicz",
+            "id_zrodlowe": "jakub-krakiewicz",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:jakub-krakiewicz",
+                "nazwa": "Jakub Krakiewicz"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 2,
+              "b": 4
+            },
+            {
+              "a": 10,
+              "b": 8
+            }
+          ],
+          "wynik": "4:1, 2:4, 10:8",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 19:43",
+          "kort": "—",
+          "nr_meczu_zrodlowy": "2"
+        },
+        {
+          "id": "cuply-mecz:102aa6a633ac4343a716",
+          "grupa_id": "cuply:91:final",
+          "faza": "Finał",
+          "runda": "Finał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:cuply:petro-diavoliuk",
+            "id_zrodlowe": "petro-diavoliuk",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:petro-diavoliuk",
+                "nazwa": "Petro Diavoliuk"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:cuply:dominik-mikolajko",
+            "id_zrodlowe": "dominik-mikolajko",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "cuply:dominik-mikolajko",
+                "nazwa": "Dominik Mikołajko"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 3,
+              "b": 4
+            },
+            {
+              "a": 10,
+              "b": 8
+            }
+          ],
+          "wynik": "4:1, 3:4, 10:8",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": "06.09.2026 20:00",
+          "kort": "—",
+          "nr_meczu_zrodlowy": "1"
+        }
+      ],
+      "final_id": "cuply-mecz:102aa6a633ac4343a716",
+      "gotowy": true,
+      "uwagi": [],
+      "meta_zrodla": {
+        "typ_gry": "Singiel",
+        "poziom": "Cuply Challenger dla średniozaawansowanych (do 3.5 NTRP)",
+        "system_gier": "Grupowy + pucharowy"
+      }
     }
   }
 }
