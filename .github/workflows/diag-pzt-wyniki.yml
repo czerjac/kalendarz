@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests==2.32.5 beautifulsoup4==4.13.5
-      - name: Sprawdź linki wynikowe PZT
+      - name: Sprawdź strukturę tabel meczowych PZT
         run: |
           python - <<'PY'
           import json
@@ -34,32 +34,44 @@ jobs:
           base = 'https://portal.pzt.pl/'
           headers = {'User-Agent': 'Mozilla/5.0 (compatible; TenisNET/1.0; +https://www.tenis.net.pl/)'}
           s = requests.Session()
-          for path in [
-              f'TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID={tid}',
-              f'TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID={tid}',
-              f'TournamentTabResults.aspx?CategoryID=AIS&Male=&TournamentID={tid}',
-          ]:
-              r = s.get(urljoin(base, path), headers=headers, timeout=40, allow_redirects=True)
-              print('\nPAGE', path, 'STATUS', r.status_code, 'FINAL', r.url)
-              print('LEN', len(r.text), 'ENC', r.apparent_encoding)
+          play = s.get(base + f'TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID={tid}', headers=headers, timeout=40)
+          play.raise_for_status()
+          soup = BeautifulSoup(play.text, 'html.parser')
+          urls = []
+          for a in soup.find_all('a', href=True):
+              m = re.search(r"['\"](/TournamentMatches\.aspx\?QS=[^'\"]+)['\"]", a['href'], re.I)
+              if m:
+                  u = urljoin(base, m.group(1))
+                  if u not in urls: urls.append(u)
+          print('EVENT_URLS', len(urls))
+          for n, url in enumerate(urls[:4], 1):
+              r = s.get(url, headers=headers, timeout=40)
               r.raise_for_status()
-              soup = BeautifulSoup(r.text, 'html.parser')
-              links = []
-              for a in soup.find_all('a', href=True):
-                  href = a.get('href', '')
-                  text = ' '.join(a.get_text(' ', strip=True).split())
-                  if any(x.casefold() in href.casefold() for x in ['TournamentMatches', 'EventLadder', 'EventTable', 'TournamentDrawsheet', 'TournamentTabResults']):
-                      links.append({'text': text, 'href': href})
-              print('LINKS', json.dumps(links[:160], ensure_ascii=False, indent=2))
-              scriptlike = []
-              for tag in soup.find_all(['a','input','button']):
-                  blob = ' '.join(str(tag.get(k) or '') for k in ['href','onclick','value','data-url'])
-                  if re.search(r'popUp|EventID|QS=|TournamentMatches', blob, re.I):
-                      scriptlike.append(blob[:500])
-              print('SCRIPTLIKE', json.dumps(scriptlike[:120], ensure_ascii=False, indent=2))
-              print('TABLES', len(soup.find_all('table')))
-              for i, table in enumerate(soup.find_all('table')[:20]):
-                  txt = ' | '.join(' '.join(x.split()) for x in table.stripped_strings)
-                  if any(k in txt.casefold() for k in ['zawodnik', 'set 1', 'finał', 'final', 'kategoria']):
-                      print('TABLE', i, txt[:1800])
+              page = BeautifulSoup(r.text, 'html.parser')
+              flat = ' | '.join(' '.join(x.split()) for x in page.stripped_strings)
+              print('\nEVENT', n, url)
+              print('HEAD', flat[:900])
+              for ti, table in enumerate(page.find_all('table')):
+                  headers_txt = [' '.join(th.get_text(' ', strip=True).split()) for th in table.find_all('th')]
+                  rows = []
+                  for tr in table.find_all('tr'):
+                      cells = tr.find_all(['td','th'], recursive=False)
+                      if not cells: continue
+                      rows.append([
+                          {
+                              'text': ' '.join(c.get_text(' ', strip=True).split()),
+                              'class': c.get('class', []),
+                              'style': c.get('style', ''),
+                              'links': [
+                                  {'text': ' '.join(a.get_text(' ', strip=True).split()), 'href': a.get('href',''), 'class': a.get('class', [])}
+                                  for a in c.find_all('a', href=True)
+                              ],
+                              'strong': [' '.join(x.get_text(' ', strip=True).split()) for x in c.find_all(['strong','b'])]
+                          }
+                          for c in cells
+                      ])
+                  blob = ' '.join(x['text'] for row in rows for x in row)
+                  if 'Zawodnik' in blob or 'Set 1' in blob or 'Finał' in blob or 'final' in blob.casefold():
+                      print('TABLE', ti, 'HEADERS', json.dumps(headers_txt, ensure_ascii=False))
+                      print('ROWS', json.dumps(rows[:12], ensure_ascii=False, indent=2)[:9000])
           PY
