@@ -6,8 +6,9 @@ on:
       - feature/cuply-wyniki-adapter
     paths:
       - 'wyniki_news/cuply.py'
+      - 'wyniki_news/build.py'
+      - 'wyniki_news/README.md'
       - 'tests/wyniki_news/test_cuply.py'
-      - 'diag_cuply_http.py'
       - '.github/workflows/diag-cuply-wyniki.yml'
   workflow_dispatch:
 
@@ -32,8 +33,11 @@ jobs:
       - name: Pełne testy modułu wyników
         run: python -m unittest discover -s tests/wyniki_news -v
 
-      - name: Sprawdź Livewire bez przeglądarki
-        run: python diag_cuply_http.py
+      - name: Sprawdź składnię wtyczki WordPress
+        run: php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
+
+      - name: Test importu WordPress
+        run: php tests/wyniki_news/wordpress_import_test.php
 
       - name: Smoke test publicznych wyników Cuply
         run: |
@@ -46,19 +50,19 @@ jobs:
               {
                   'label': 'grupy+QF+SF+F+3m',
                   'item': {'url': 'https://cuply.pl/turnieje/cuply-challenger-gryfino-i', 'nazwa': 'Cuply Challenger Gryfino I', 'data_od': '2026-09-06', 'data_do': '2026-09-06', 'miasto': 'Gryfino'},
-                  'min_matches': 30,
+                  'matches': 37,
                   'expected_side': 'osoba',
               },
               {
                   'label': 'grupy+SF+F',
                   'item': {'url': 'https://cuply.pl/turnieje/cuply-stargard-masters-zaawansowani-amatorzy', 'nazwa': 'Cuply Stargard Masters', 'data_od': '2026-08-30', 'data_do': '2026-08-30', 'miasto': 'Stargard'},
-                  'min_matches': 15,
+                  'matches': 23,
                   'expected_side': 'osoba',
               },
               {
                   'label': 'debel grupy+SF+F',
                   'item': {'url': 'https://cuply.pl/turnieje/duo-zoom-brejk-open-iii', 'nazwa': 'DUO ZOOM & BREJK Open III', 'data_od': '2026-05-09', 'data_do': '2026-05-09', 'miasto': 'Szczecin'},
-                  'min_matches': 10,
+                  'matches': 15,
                   'expected_side': 'para',
               },
           ]
@@ -66,20 +70,14 @@ jobs:
           with requests.Session() as session:
               for sample in samples:
                   result = fetch(sample['item'], session)
-                  if len(result['mecze']) < sample['min_matches']:
-                      raise SystemExit('Za mało meczów: ' + sample['label'] + ' ' + str(len(result['mecze'])))
-                  incomplete = [m for m in result['mecze'] if not m['zakonczony']]
-                  if incomplete:
-                      print('INCOMPLETE', sample['label'], json.dumps(incomplete, ensure_ascii=False, indent=2))
-                      print('ISSUES', json.dumps(result['uwagi'], ensure_ascii=False, indent=2))
+                  if len(result['mecze']) != sample['matches']:
+                      raise SystemExit('Nieoczekiwana liczba meczów: ' + sample['label'] + ' ' + str(len(result['mecze'])))
+                  if any(not m['zakonczony'] for m in result['mecze']):
                       raise SystemExit('Niepełny mecz: ' + sample['label'])
-                  wrong_sides = [m for m in result['mecze'] if m['strona_a']['typ'] != sample['expected_side'] or m['strona_b']['typ'] != sample['expected_side']]
-                  if wrong_sides:
-                      print('WRONG SIDES', json.dumps(wrong_sides, ensure_ascii=False, indent=2))
+                  if any(m['strona_a']['typ'] != sample['expected_side'] or m['strona_b']['typ'] != sample['expected_side'] for m in result['mecze']):
                       raise SystemExit('Błędny typ strony: ' + sample['label'])
                   finals = [m for m in result['mecze'] if m['faza'].strip().casefold() in ('finał', 'final')]
                   if len(finals) != 1 or result['final_id'] != finals[0]['id']:
-                      print('FINALS', json.dumps(finals, ensure_ascii=False, indent=2))
                       raise SystemExit('Brak pojedynczego finału: ' + sample['label'])
                   if result['uwagi']:
                       raise SystemExit('Ostrzeżenia: ' + sample['label'] + ' ' + repr(result['uwagi']))
