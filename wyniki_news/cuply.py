@@ -99,6 +99,29 @@ def split_participants(cell) -> tuple[dict | None, dict | None]:
     return fallback[0], fallback[1]
 
 
+def source_winner(cell) -> str | None:
+    """Read Cuply's own winner highlight from the desktop participant row."""
+    desktop = cell.find("div", recursive=False)
+    root = desktop or cell
+    participant_spans = []
+    for span in root.find_all("span", recursive=False):
+        if any(source_player(a) for a in span.find_all("a", href=True)):
+            participant_spans.append(span)
+    if len(participant_spans) != 2:
+        return None
+
+    flags = []
+    for span in participant_spans:
+        classes = set(span.get("class") or [])
+        marked = "font-bold" in classes or bool(span.find("mark", class_=lambda c: c and "bg-featured" in str(c).split()))
+        flags.append(marked)
+    if flags == [True, False]:
+        return "a"
+    if flags == [False, True]:
+        return "b"
+    return None
+
+
 def score_parts(cell) -> tuple[list[dict], str, bool, str | None]:
     raw = clean(cell.get_text(" ", strip=True))
     pairs = [(int(a), int(b)) for a, b in SCORE_RE.findall(raw)]
@@ -141,12 +164,19 @@ def parse_phase(markup: str, tournament_id: str, slug: str, label: str) -> tuple
             if not number or not re.fullmatch(r"\d+", number):
                 continue
             a, b = split_participants(cells[1])
-            sets, result, walkover, winner = score_parts(cells[2])
+            sets, result, walkover, numeric_winner = score_parts(cells[2])
+            highlighted_winner = source_winner(cells[1])
+            conflict = bool(highlighted_winner and numeric_winner and highlighted_winner != numeric_winner)
+            winner = None if conflict else (highlighted_winner or numeric_winner)
             valid_sides = bool(a and b and a["id"] != b["id"] and a["typ"] == b["typ"])
-            done = bool(valid_sides and winner and sets)
-            if walkover and not winner:
+            score_present = bool(sets or walkover)
+            done = bool(valid_sides and winner and score_present and not conflict)
+
+            if conflict:
+                warnings.append(f"{label} mecz {number}: oznaczenie zwycięzcy Cuply jest sprzeczne z wynikiem")
+            elif walkover and not winner:
                 warnings.append(f"{label} mecz {number}: walkower bez jednoznacznego zwycięzcy")
-            elif not sets:
+            elif not score_present:
                 warnings.append(f"{label} mecz {number}: brak potwierdzonego wyniku")
             elif not winner:
                 warnings.append(f"{label} mecz {number}: wynik nie wskazuje zwycięzcy")
@@ -280,7 +310,11 @@ def fetch(item, session):
     for slug, label in phases:
         markup = livewire_call(session, item["url"], state, "setActiveGroup", [slug])
         parsed, local = parse_phase(markup, state["tournament_id"], slug, label)
-        warnings.extend(local)
+        # Empty optional placement tabs are normal on Cuply (for example a configured
+        # third-place match that was not played), so only propagate parser warnings
+        # when the phase actually exposed match rows.
+        if parsed:
+            warnings.extend(local)
         for match in parsed:
             if match["id"] in seen:
                 warnings.append("Powtórzony identyfikator meczu " + match["id"])
