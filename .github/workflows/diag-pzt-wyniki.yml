@@ -1,0 +1,60 @@
+name: Diagnostyka wyników PZT
+
+on:
+  push:
+    branches:
+      - feature/pzt-wyniki-adapter
+    paths:
+      - '.github/workflows/diag-pzt-wyniki.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+      - name: Sprawdź linki wynikowe PZT
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          from urllib.parse import urljoin
+          import requests
+          from bs4 import BeautifulSoup
+
+          tid = '7B170278-F7BB-4B0A-BEA5-49A199E798BC'
+          base = 'https://portal.pzt.pl/'
+          headers = {'User-Agent': 'Mozilla/5.0 (compatible; TenisNET/1.0; +https://www.tenis.net.pl/)'}
+          s = requests.Session()
+          for path in [
+              f'TournamentResults.aspx?CategoryID=AIS&TournamentID={tid}',
+              f'TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID={tid}',
+              f'TournamentTabResults.aspx?CategoryID=AIS&Male=&TournamentID={tid}',
+          ]:
+              r = s.get(urljoin(base, path), headers=headers, timeout=40, allow_redirects=True)
+              print('\nPAGE', path, 'STATUS', r.status_code, 'FINAL', r.url)
+              print('LEN', len(r.text), 'ENC', r.apparent_encoding)
+              r.raise_for_status()
+              soup = BeautifulSoup(r.text, 'html.parser')
+              links = []
+              for a in soup.find_all('a', href=True):
+                  href = a.get('href', '')
+                  text = ' '.join(a.get_text(' ', strip=True).split())
+                  if any(x.casefold() in href.casefold() for x in ['TournamentMatches', 'EventLadder', 'EventTable', 'TournamentDrawsheet', 'TournamentTabResults']):
+                      links.append({'text': text, 'href': href})
+              print('LINKS', json.dumps(links[:120], ensure_ascii=False, indent=2))
+              scripts = []
+              for tag in soup.find_all(['a','input','button']):
+                  blob = ' '.join(str(tag.get(k) or '') for k in ['href','onclick','value','data-url'])
+                  if re.search(r'popUp|EventID|QS=', blob, re.I):
+                      scripts.append(blob[:500])
+              print('SCRIPTLIKE', json.dumps(scripts[:80], ensure_ascii=False, indent=2))
+          PY
