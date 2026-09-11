@@ -31,7 +31,10 @@ jobs:
           python - <<'PY'
           import json
           import requests
-          from wyniki_news.pzt import fetch
+          from wyniki_news.pzt import (
+              BASE, extract_match_urls, fetch, final_match, get,
+              parse_event, parse_winners, side_names, verify_final
+          )
 
           samples = [
               {
@@ -67,5 +70,30 @@ jobs:
                       'gotowy': result['gotowy'],
                       'uwagi': result['uwagi'][:12]
                   })
+
+              tid = '7B170278-F7BB-4B0A-BEA5-49A199E798BC'
+              index = get(session, BASE + f'TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID={tid}')
+              winners = parse_winners(get(session, BASE + f'TournamentTabResults.aspx?CategoryID=AIS&Male=&TournamentID={tid}'))
+              diag = []
+              for url in extract_match_urls(index):
+                  meta, matches, warnings = parse_event(get(session, url), url)
+                  finals = final_match(matches)
+                  local = []
+                  fid = verify_final(matches, winners.get(meta['klucz']), local) if finals else None
+                  final = finals[0] if len(finals) == 1 else None
+                  win = final['strona_' + final['zwyciezca']] if final else None
+                  lose = final['strona_' + ('b' if final and final['zwyciezca'] == 'a' else 'a')] if final else None
+                  standing = winners.get(meta['klucz'], {})
+                  diag.append({
+                      'meta': meta,
+                      'final_winner': sorted(side_names(win)) if win else [],
+                      'final_loser': sorted(side_names(lose)) if lose else [],
+                      'standing_1': sorted(side_names(standing.get('miejsca', {}).get('1'))),
+                      'standing_2': sorted(side_names(standing.get('miejsca', {}).get('2'))),
+                      'verified_final': fid,
+                      'issues': local,
+                  })
           print(json.dumps(out, ensure_ascii=False, indent=2))
+          print('RZESZOW_FINAL_DIAG')
+          print(json.dumps(diag, ensure_ascii=False, indent=2))
           PY
