@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-10T08:58:47+00:00",
-  "liczba_turniejow": 55,
+  "pobrano_utc": "2026-09-11T08:56:58+00:00",
+  "liczba_turniejow": 56,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 48
+      "liczba": 50
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -41,7 +41,17 @@
       "miasto": "Gdańsk",
       "miejsce": "Lechia Tennis Club, Gdańsk",
       "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12181"
+      "url": "https://kluby.org/turnieje/12187"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Arkadia Kids Cup",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "",
+      "miejsce": "",
+      "kategorie": "TENIS10 POMARAŃCZOWA (Chłopcy)",
+      "url": "https://kluby.org/turnieje/12188"
     },
     {
       "zrodlo": "Kluby.org",
@@ -60,7 +70,7 @@
       "data_do": "2026-09-13",
       "miasto": "Białystok",
       "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
-      "kategorie": "KOBIETY OPEN",
+      "kategorie": "OPEN (FUN) KOBIETY OPEN",
       "url": "https://kluby.org/turnieje/11925"
     },
     {
@@ -165,16 +175,6 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "DEBEL KOBIET OPEN AMATOR",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Sopot",
-      "miejsce": "Sopot Tenis Klub, Sopot",
-      "kategorie": "DEBEL KOBIETY",
-      "url": "https://kluby.org/turnieje/12124"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "Memoriał Bogusława Pawłowskiego 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-20",
@@ -272,6 +272,16 @@
       "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
       "kategorie": "",
       "url": "https://kluby.org/turnieje/11780"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "NEW YORK GAMES - Turniej Drużynowy",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12184"
     },
     {
       "zrodlo": "Kluby.org",
