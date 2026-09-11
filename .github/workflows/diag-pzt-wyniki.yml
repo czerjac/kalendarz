@@ -35,8 +35,8 @@ jobs:
           headers = {'User-Agent': 'Mozilla/5.0 (compatible; TenisNET/1.0; +https://www.tenis.net.pl/)'}
           s = requests.Session()
           for path in [
-              f'TournamentResults.aspx?CategoryID=AIS&TournamentID={tid}',
               f'TournamentDrawsheet.aspx?CategoryID=AIS&Male=&TournamentID={tid}',
+              f'TournamentMatchesPlay.aspx?CategoryID=AIS&Male=&TournamentID={tid}',
               f'TournamentTabResults.aspx?CategoryID=AIS&Male=&TournamentID={tid}',
           ]:
               r = s.get(urljoin(base, path), headers=headers, timeout=40, allow_redirects=True)
@@ -50,11 +50,16 @@ jobs:
                   text = ' '.join(a.get_text(' ', strip=True).split())
                   if any(x.casefold() in href.casefold() for x in ['TournamentMatches', 'EventLadder', 'EventTable', 'TournamentDrawsheet', 'TournamentTabResults']):
                       links.append({'text': text, 'href': href})
-              print('LINKS', json.dumps(links[:120], ensure_ascii=False, indent=2))
-              scripts = []
+              print('LINKS', json.dumps(links[:160], ensure_ascii=False, indent=2))
+              scriptlike = []
               for tag in soup.find_all(['a','input','button']):
                   blob = ' '.join(str(tag.get(k) or '') for k in ['href','onclick','value','data-url'])
-                  if re.search(r'popUp|EventID|QS=', blob, re.I):
-                      scripts.append(blob[:500])
-              print('SCRIPTLIKE', json.dumps(scripts[:80], ensure_ascii=False, indent=2))
+                  if re.search(r'popUp|EventID|QS=|TournamentMatches', blob, re.I):
+                      scriptlike.append(blob[:500])
+              print('SCRIPTLIKE', json.dumps(scriptlike[:120], ensure_ascii=False, indent=2))
+              print('TABLES', len(soup.find_all('table')))
+              for i, table in enumerate(soup.find_all('table')[:20]):
+                  txt = ' | '.join(' '.join(x.split()) for x in table.stripped_strings)
+                  if any(k in txt.casefold() for k in ['zawodnik', 'set 1', 'finał', 'final', 'kategoria']):
+                      print('TABLE', i, txt[:1800])
           PY
