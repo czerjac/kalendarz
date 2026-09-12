@@ -16,14 +16,15 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          import re
+          import re, textwrap
 
           p = Path('wyniki_news/build.py')
           s = p.read_text('utf-8')
           s = s.replace('import time\n', 'import time\nimport unicodedata\n')
           start = s.index('def label(side):')
           end = s.index('\ndef discover():', start)
-          block = r'''def label(side, separator=', '):
+          block = textwrap.dedent(r'''\
+          def label(side, separator=', '):
               return separator.join(p['nazwa'] for p in side['zawodnicy']) if side else 'Nieustalony uczestnik'
 
 
@@ -172,8 +173,7 @@ jobs:
                   'tags': suggested_tags(t, meta),
                   'fingerprint': hashlib.sha256((title + '\n' + body).encode()).hexdigest(),
               }
-          '''
-          block = '\n'.join(line[10:] if line.startswith('          ') else line for line in block.splitlines()) + '\n'
+          ''')
           s = s[:start] + block + s[end:]
           old = "merged[item['url']] = {k: item[k] for k in ('url', 'zrodlo', 'nazwa', 'kategoria', 'kategoria_zrodla', 'miasto', 'data_od', 'data_do') if k in item}"
           new = "merged[item['url']] = {k: item[k] for k in ('url', 'zrodlo', 'nazwa', 'kategoria', 'kategoria_zrodla', 'kategorie', 'miasto', 'miejsce', 'wojewodztwo', 'cykl', 'rodzaje_gry', 'data_od', 'data_do') if k in item}"
@@ -190,39 +190,39 @@ jobs:
           s = s.replace(' * Version: 0.2.0', ' * Version: 0.3.0', 1)
           marker = '    public static function import($manual) {'
           assert marker in s
-          helpers = r'''    private static function category_for($entry, $fallback, &$notes) {
-              $name = isset($entry['voivodeship']) ? sanitize_text_field($entry['voivodeship']) : '';
-              if ($name !== '') {
-                  $term = get_term_by('slug', sanitize_title($name), 'category');
-                  if (!$term || is_wp_error($term)) { $term = get_term_by('name', $name, 'category'); }
-                  if ($term && !is_wp_error($term)) { return (int) $term->term_id; }
-                  $notes[] = 'Nie znaleziono kategorii województwa: ' . $name;
+          helpers = textwrap.dedent(r'''\
+              private static function category_for($entry, $fallback, &$notes) {
+                  $name = isset($entry['voivodeship']) ? sanitize_text_field($entry['voivodeship']) : '';
+                  if ($name !== '') {
+                      $term = get_term_by('slug', sanitize_title($name), 'category');
+                      if (!$term || is_wp_error($term)) { $term = get_term_by('name', $name, 'category'); }
+                      if ($term && !is_wp_error($term)) { return (int) $term->term_id; }
+                      $notes[] = 'Nie znaleziono kategorii województwa: ' . $name;
+                  }
+                  return (int) $fallback;
               }
-              return (int) $fallback;
-          }
 
-          private static function tag_ids($entry, &$notes) {
-              $ids = array();
-              $names = isset($entry['tags']) && is_array($entry['tags']) ? $entry['tags'] : array();
-              foreach ($names as $name) {
-                  $name = sanitize_text_field($name);
-                  if ($name === '') { continue; }
-                  $term = get_term_by('slug', sanitize_title($name), 'post_tag');
-                  if (!$term || is_wp_error($term)) { $term = get_term_by('name', $name, 'post_tag'); }
-                  if ($term && !is_wp_error($term)) { $ids[] = (int) $term->term_id; }
-                  else { $notes[] = 'Nie znaleziono tagu: ' . $name; }
+              private static function tag_ids($entry, &$notes) {
+                  $ids = array();
+                  $names = isset($entry['tags']) && is_array($entry['tags']) ? $entry['tags'] : array();
+                  foreach ($names as $name) {
+                      $name = sanitize_text_field($name);
+                      if ($name === '') { continue; }
+                      $term = get_term_by('slug', sanitize_title($name), 'post_tag');
+                      if (!$term || is_wp_error($term)) { $term = get_term_by('name', $name, 'post_tag'); }
+                      if ($term && !is_wp_error($term)) { $ids[] = (int) $term->term_id; }
+                      else { $notes[] = 'Nie znaleziono tagu: ' . $name; }
+                  }
+                  return array_values(array_unique($ids));
               }
-              return array_values(array_unique($ids));
-          }
 
-          '''
-          helpers = '\n'.join(line[10:] if line.startswith('          ') else line for line in helpers.splitlines()) + '\n'
+          ''')
           s = s.replace(marker, helpers + marker)
           s = s.replace('$done = 0; $unchanged = 0; $remaining = 0;', '$done = 0; $unchanged = 0; $remaining = 0; $taxonomy_notes = array();')
           pattern = re.compile(r"\s+\$fields = array\('post_title' => sanitize_text_field\(\$entry\['title'\]\).*?self::metadata\(\$id, \$entry\); \$done\+\+;", re.S)
           m = pattern.search(s)
           assert m, 'fields block not found'
-          replacement = r'''
+          replacement = textwrap.dedent(r'''\
                   $category_id = self::category_for($entry, $s['category'], $taxonomy_notes);
                   $tag_ids = self::tag_ids($entry, $taxonomy_notes);
                   $fields = array('post_title' => sanitize_text_field($entry['title']), 'post_content' => wp_kses_post($entry['content']), 'post_name' => $slug,
@@ -233,7 +233,10 @@ jobs:
                   if (is_wp_error($id)) { throw new Exception('Nie udało się zapisać wpisu: ' . $entry['id']); }
                   if ($tag_ids) { wp_set_post_terms($id, $tag_ids, 'post_tag', false); }
                   update_post_meta($id, '_tnw_id', $entry['id']);
-                  self::metadata($id, $entry); $done++;'''
+                  self::metadata($id, $entry); $done++;
+          ''').rstrip()
+          # Zachowaj wcięcie bloku wewnątrz foreach.
+          replacement = '\n' + '\n'.join('                ' + line if line else '' for line in replacement.splitlines())
           s = s[:m.start()] + replacement + s[m.end():]
           needle = "        $valid_id = preg_match('/^(?:plt|cuply|kluby):[0-9]+$/', $e['id']) ||"
           assert needle in s
@@ -254,7 +257,8 @@ jobs:
           s = s.replace("        post = article(tournament)\n", "        post = article(tournament, {'wojewodztwo': 'mazowieckie', 'miasto': 'Warszawa'})\n")
           p.write_text(s, 'utf-8')
 
-          Path('tests/wyniki_news/test_editorial_article.py').write_text(r'''import unittest
+          Path('tests/wyniki_news/test_editorial_article.py').write_text(textwrap.dedent(r'''\
+          import unittest
 
           from wyniki_news.build import article
 
@@ -294,7 +298,7 @@ jobs:
 
           if __name__ == '__main__':
               unittest.main()
-          '''.replace('          ', ''), 'utf-8')
+          '''), 'utf-8')
 
           p = Path('tests/wyniki_news/wordpress_import_test.php')
           s = p.read_text('utf-8')
@@ -303,7 +307,7 @@ jobs:
           anchor = 'function sanitize_text_field($s) { return strip_tags($s); }\n'
           assert anchor in s
           s = s.replace(anchor, anchor + insert)
-          append = r'''
+          append = textwrap.dedent(r'''\
 
           $posts=array(); $meta=array(); $post_terms=array();
           $categories=array((object)array('term_id'=>7,'name'=>'mazowieckie','slug'=>'mazowieckie'));
@@ -313,12 +317,13 @@ jobs:
           $feed['posts']=array($e); Tenis_NET_Wyniki::import(true);
           check($posts[1]->post_category===array(7),'voivodeship selects existing WordPress category');
           check(($post_terms[1]['post_tag']??array())===array(11),'controlled cycle selects existing WordPress tag');
-          '''
-          s += '\n' + '\n'.join(line[10:] if line.startswith('          ') else line for line in append.splitlines()) + '\n'
+          ''')
+          s += '\n' + append + '\n'
           p.write_text(s, 'utf-8')
           PY
       - name: Testy Python i PHP
         run: |
+          python -m pip install requests beautifulsoup4
           python -m unittest discover -s tests/wyniki_news -v
           php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
           php tests/wyniki_news/wordpress_import_test.php
