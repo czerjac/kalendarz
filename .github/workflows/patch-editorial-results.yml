@@ -1,0 +1,332 @@
+name: Przygotuj redakcyjny format wyników i taksonomie WP
+on:
+  push:
+    branches: [feature/wyniki-redakcja-kategorie-tagi]
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/wyniki-redakcja-kategorie-tagi
+      - name: Zmień generator, wtyczkę i testy
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p = Path('wyniki_news/build.py')
+          s = p.read_text('utf-8')
+          s = s.replace('import time\n', 'import time\nimport unicodedata\n')
+          start = s.index('def label(side):')
+          end = s.index('\ndef discover():', start)
+          block = r'''def label(side, separator=', '):
+              return separator.join(p['nazwa'] for p in side['zawodnicy']) if side else 'Nieustalony uczestnik'
+
+
+          MONTHS_PL = {
+              1: 'stycznia', 2: 'lutego', 3: 'marca', 4: 'kwietnia', 5: 'maja', 6: 'czerwca',
+              7: 'lipca', 8: 'sierpnia', 9: 'września', 10: 'października', 11: 'listopada', 12: 'grudnia',
+          }
+
+
+          def fold_text(value):
+              text = str(value or '').casefold().replace('ł', 'l')
+              return unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
+
+
+          def date_phrase(start, end):
+              try:
+                  a, b = date.fromisoformat(start), date.fromisoformat(end or start)
+              except (TypeError, ValueError):
+                  return str(start), 'W dniu'
+              if a == b:
+                  return f'{a.day} {MONTHS_PL[a.month]} {a.year}', 'W dniu'
+              if a.year == b.year and a.month == b.month:
+                  return f'{a.day}–{b.day} {MONTHS_PL[a.month]} {a.year}', 'W dniach'
+              if a.year == b.year:
+                  return f'{a.day} {MONTHS_PL[a.month]} – {b.day} {MONTHS_PL[b.month]} {a.year}', 'W dniach'
+              return f'{a.day} {MONTHS_PL[a.month]} {a.year} – {b.day} {MONTHS_PL[b.month]} {b.year}', 'W dniach'
+
+
+          def suggested_tags(t, meta):
+              tags = []
+              source_tag = {
+                  'PZT TOP': 'Tenis Open Polska PZT',
+                  'PLT': 'Polska Liga Tenisa',
+                  'Cuply': 'Cuply',
+              }.get(t.get('zrodlo'))
+              if source_tag:
+                  tags.append(source_tag)
+              cycle = str(meta.get('cykl') or '')
+              folded = fold_text(cycle)
+              for needle, tag in (
+                  ('grand prix mazowsza', 'Grand Prix Mazowsza'),
+                  ('grand prix wybrzeza', 'Grand Prix Wybrzeża'),
+                  ('grand prix podlasia i mazur', 'Grand Prix Podlasia i Mazur'),
+              ):
+                  if needle in folded and tag not in tags:
+                      tags.append(tag)
+              return tags
+
+
+          def singles_gender(category):
+              x = fold_text(category)
+              if any(k in x for k in ('kobiet', 'panie', 'women', 'damsk')):
+                  return 'female'
+              if any(k in x for k in ('mezczy', 'panowie', 'men', 'mesk')):
+                  return 'male'
+              return None
+
+
+          def article(t, meta=None):
+              meta = meta or {}
+              esc = lambda x: html.escape(str(x), quote=True)
+              finished = [m for m in t['mecze'] if m['zakonczony']]
+              final = next((m for m in finished if m['id'] == t['final_id']), None)
+              category = str(meta.get('kategorie') or meta.get('kategoria_zrodla') or t.get('kategoria') or '')
+              cycle = str(meta.get('cykl') or '')
+              venue = str(meta.get('miejsce') or '')
+              city = str(meta.get('miasto') or t.get('miasto') or '')
+              date_text, date_intro = date_phrase(t['data_od'], t['data_do'])
+              if venue and city:
+                  location = f' na obiekcie {esc(venue)} ({esc(city)})'
+              elif venue:
+                  location = f' na obiekcie {esc(venue)}'
+              elif city:
+                  location = f' w miejscowości {esc(city)}'
+              else:
+                  location = ''
+              intro = f'{date_intro} {esc(date_text)}{location} rozegrano turniej {esc(t["nazwa"])}'
+              if category:
+                  intro += f' w kategorii {esc(category)}'
+              intro += '.'
+              if cycle and fold_text(cycle) not in {'brak', 'none'}:
+                  intro += f' Zawody były częścią cyklu {esc(cycle)}.'
+              winner = loser = None
+              if final and final.get('zwyciezca') in {'a', 'b'}:
+                  wk = final['zwyciezca']
+                  lk = 'b' if wk == 'a' else 'a'
+                  winner, loser = final['strona_' + wk], final['strona_' + lk]
+                  result = esc(final.get('wynik') or '')
+                  wlabel, llabel = esc(label(winner)), esc(label(loser))
+                  if len(winner.get('zawodnicy', [])) == 2 and len(loser.get('zawodnicy', [])) == 2:
+                      intro += f' Zwyciężyła para {wlabel}, która w finale okazała się lepsza od pary {llabel}'
+                      if result:
+                          intro += f' — {result}'
+                      intro += '.'
+                  else:
+                      gender = singles_gender(category or t.get('kategoria', ''))
+                      if gender == 'female':
+                          intro += f' W finale {wlabel} pokonała {llabel}'
+                          if result:
+                              intro += f' — {result}'
+                          intro += '.'
+                      elif gender == 'male':
+                          intro += f' W finale {wlabel} pokonał {llabel}'
+                          if result:
+                              intro += f' — {result}'
+                          intro += '.'
+                      else:
+                          intro += f' Finał: {wlabel} – {llabel}'
+                          if result:
+                              intro += f' — {result}'
+                          intro += '.'
+              intro += ' Poniżej szczegółowe wyniki.'
+
+              parts = ['<p>' + intro + '</p>']
+              if not t['gotowy']:
+                  parts.append('<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>')
+              shown_categories = set()
+              for gid in dict.fromkeys(m['grupa_id'] for m in t['mecze']):
+                  group = [m for m in t['mecze'] if m['grupa_id'] == gid]
+                  source_category = group[0].get('kategoria_zrodlowa') or ''
+                  if source_category and source_category != t.get('kategoria') and source_category not in shown_categories:
+                      parts.append('<h2>' + esc(source_category) + '</h2>')
+                      shown_categories.add(source_category)
+                      heading = 'h3'
+                  else:
+                      heading = 'h3' if source_category and source_category in shown_categories else 'h2'
+                  parts.append(f'<{heading}>' + esc(group[0]['faza']) + f'</{heading}>')
+                  lines = []
+                  for m in group:
+                      result = m['wynik'] if m['zakonczony'] else 'Brak potwierdzonego wyniku'
+                      lines.append(esc(label(m['strona_a'])) + ' – ' + esc(label(m['strona_b'])) + ' — <strong>' + esc(result) + '</strong>')
+                  parts.append('<p>' + '<br>\n'.join(lines) + '</p>')
+              parts.append('<p>Źródło: <a href="' + esc(t['url']) + '">' + esc(t['zrodlo']) + ' — wyniki turnieju</a>.</p>')
+
+              if final and winner:
+                  prefix = (city + ': ') if city else ''
+                  verb = 'triumfują' if len(winner.get('zawodnicy', [])) == 2 else 'triumfuje'
+                  title = prefix + label(winner) + f' {verb} w turnieju ' + t['nazwa']
+              else:
+                  title = t['nazwa'] + ' — wyniki (' + t['data_od'] + ')'
+              body = '\n'.join(parts)
+              return {
+                  'id': t['id'], 'title': title, 'content': body, 'source_url': t['url'], 'source': t['zrodlo'],
+                  'date_start': t['data_od'], 'date_end': t['data_do'], 'ready': t['gotowy'], 'issues': t['uwagi'],
+                  'voivodeship': str(meta.get('wojewodztwo') or ''), 'cycle': cycle,
+                  'tags': suggested_tags(t, meta),
+                  'fingerprint': hashlib.sha256((title + '\n' + body).encode()).hexdigest(),
+              }
+          '''
+          block = '\n'.join(line[10:] if line.startswith('          ') else line for line in block.splitlines()) + '\n'
+          s = s[:start] + block + s[end:]
+          old = "merged[item['url']] = {k: item[k] for k in ('url', 'zrodlo', 'nazwa', 'kategoria', 'kategoria_zrodla', 'miasto', 'data_od', 'data_do') if k in item}"
+          new = "merged[item['url']] = {k: item[k] for k in ('url', 'zrodlo', 'nazwa', 'kategoria', 'kategoria_zrodla', 'kategorie', 'miasto', 'miejsce', 'wojewodztwo', 'cykl', 'rodzaje_gry', 'data_od', 'data_do') if k in item}"
+          assert old in s
+          s = s.replace(old, new)
+          old = "posts = [article(t) for t in state['results'].values()]"
+          new = "posts = [article(t, state['known'].get(t.get('url', ''), {})) for t in state['results'].values()]"
+          assert old in s
+          s = s.replace(old, new)
+          p.write_text(s, 'utf-8')
+
+          p = Path('wordpress/tenis-net-wyniki/tenis-net-wyniki.php')
+          s = p.read_text('utf-8')
+          s = s.replace(' * Version: 0.2.0', ' * Version: 0.3.0', 1)
+          marker = '    public static function import($manual) {'
+          assert marker in s
+          helpers = r'''    private static function category_for($entry, $fallback, &$notes) {
+              $name = isset($entry['voivodeship']) ? sanitize_text_field($entry['voivodeship']) : '';
+              if ($name !== '') {
+                  $term = get_term_by('slug', sanitize_title($name), 'category');
+                  if (!$term || is_wp_error($term)) { $term = get_term_by('name', $name, 'category'); }
+                  if ($term && !is_wp_error($term)) { return (int) $term->term_id; }
+                  $notes[] = 'Nie znaleziono kategorii województwa: ' . $name;
+              }
+              return (int) $fallback;
+          }
+
+          private static function tag_ids($entry, &$notes) {
+              $ids = array();
+              $names = isset($entry['tags']) && is_array($entry['tags']) ? $entry['tags'] : array();
+              foreach ($names as $name) {
+                  $name = sanitize_text_field($name);
+                  if ($name === '') { continue; }
+                  $term = get_term_by('slug', sanitize_title($name), 'post_tag');
+                  if (!$term || is_wp_error($term)) { $term = get_term_by('name', $name, 'post_tag'); }
+                  if ($term && !is_wp_error($term)) { $ids[] = (int) $term->term_id; }
+                  else { $notes[] = 'Nie znaleziono tagu: ' . $name; }
+              }
+              return array_values(array_unique($ids));
+          }
+
+          '''
+          helpers = '\n'.join(line[10:] if line.startswith('          ') else line for line in helpers.splitlines()) + '\n'
+          s = s.replace(marker, helpers + marker)
+          s = s.replace('$done = 0; $unchanged = 0; $remaining = 0;', '$done = 0; $unchanged = 0; $remaining = 0; $taxonomy_notes = array();')
+          pattern = re.compile(r"\s+\$fields = array\('post_title' => sanitize_text_field\(\$entry\['title'\]\).*?self::metadata\(\$id, \$entry\); \$done\+\+;", re.S)
+          m = pattern.search(s)
+          assert m, 'fields block not found'
+          replacement = r'''
+                  $category_id = self::category_for($entry, $s['category'], $taxonomy_notes);
+                  $tag_ids = self::tag_ids($entry, $taxonomy_notes);
+                  $fields = array('post_title' => sanitize_text_field($entry['title']), 'post_content' => wp_kses_post($entry['content']), 'post_name' => $slug,
+                      'post_type' => 'post', 'post_author' => $s['author'], 'post_category' => array($category_id),
+                      'post_status' => ($entry['ready'] === true && $s['mode'] === 'publish') ? 'publish' : 'draft');
+                  if ($post) { $fields['ID'] = $post->ID; }
+                  $id = wp_insert_post(wp_slash($fields), true);
+                  if (is_wp_error($id)) { throw new Exception('Nie udało się zapisać wpisu: ' . $entry['id']); }
+                  if ($tag_ids) { wp_set_post_terms($id, $tag_ids, 'post_tag', false); }
+                  update_post_meta($id, '_tnw_id', $entry['id']);
+                  self::metadata($id, $entry); $done++;'''
+          s = s[:m.start()] + replacement + s[m.end():]
+          needle = "        $valid_id = preg_match('/^(?:plt|cuply|kluby):[0-9]+$/', $e['id']) ||"
+          assert needle in s
+          validation = "        if (isset($e['voivodeship']) && !is_string($e['voivodeship'])) { return false; }\n        if (isset($e['cycle']) && !is_string($e['cycle'])) { return false; }\n        if (isset($e['tags']) && (!is_array($e['tags']) || count(array_filter($e['tags'], 'is_string')) !== count($e['tags']))) { return false; }\n"
+          s = s.replace(needle, validation + needle)
+          report_old = '            update_option(\'tnw_last_report\', $now->format(\'Y-m-d H:i\') . "\\nObsłużono: $done\\nBez zmian: $unchanged\\nPozostało w tym zakresie: $remaining\\nKorekty opublikowanych wpisów znajdują się w ich edytorze.", false);'
+          assert report_old in s
+          report_new = '            $taxonomy_notes = array_values(array_unique($taxonomy_notes));\n            $taxonomy_report = $taxonomy_notes ? "\\nUwagi kategorii/tagów:\\n- " . implode("\\n- ", $taxonomy_notes) : "";\n            update_option(\'tnw_last_report\', $now->format(\'Y-m-d H:i\') . "\\nObsłużono: $done\\nBez zmian: $unchanged\\nPozostało w tym zakresie: $remaining\\nKorekty opublikowanych wpisów znajdują się w ich edytorze." . $taxonomy_report, false);'
+          s = s.replace(report_old, report_new)
+          meta_old = "        update_post_meta($id, '_tnw_issues', $entry['issues'] ?? array());"
+          meta_new = meta_old + "\n        update_post_meta($id, '_tnw_voivodeship', $entry['voivodeship'] ?? '');\n        update_post_meta($id, '_tnw_cycle', $entry['cycle'] ?? '');\n        update_post_meta($id, '_tnw_tags', $entry['tags'] ?? array());"
+          assert meta_old in s
+          s = s.replace(meta_old, meta_new)
+          p.write_text(s, 'utf-8')
+
+          p = Path('tests/wyniki_news/test_article_categories.py')
+          s = p.read_text('utf-8')
+          s = s.replace("        post = article(tournament)\n", "        post = article(tournament, {'wojewodztwo': 'mazowieckie', 'miasto': 'Warszawa'})\n")
+          p.write_text(s, 'utf-8')
+
+          Path('tests/wyniki_news/test_editorial_article.py').write_text(r'''import unittest
+
+          from wyniki_news.build import article
+
+
+          class EditorialArticleTest(unittest.TestCase):
+              def test_doubles_article_is_prose_and_plain_results(self):
+                  tournament = {
+                      'id': 'kluby:999', 'zrodlo': 'Kluby.org', 'url': 'https://kluby.org/turnieje/999',
+                      'nazwa': 'Deblowy Masters Zima', 'kategoria': 'debel 40+',
+                      'data_od': '2026-09-12', 'data_do': '2026-09-12', 'miasto': 'Warszawa',
+                      'final_id': 'f1', 'gotowy': True, 'uwagi': [],
+                      'mecze': [{
+                          'id': 'f1', 'grupa_id': 'final', 'faza': 'Finał', 'typ_fazy': 'puchar',
+                          'kategoria_zrodlowa': 'debel 40+',
+                          'strona_a': {'typ': 'para', 'zawodnicy': [{'nazwa': 'Mariusz Osiak'}, {'nazwa': 'Włodek Brzusek'}]},
+                          'strona_b': {'typ': 'para', 'zawodnicy': [{'nazwa': 'Jan Kowalski'}, {'nazwa': 'Sebastian Nowak'}]},
+                          'wynik': '7:5', 'zwyciezca': 'a', 'zakonczony': True,
+                      }],
+                  }
+                  meta = {'wojewodztwo': 'mazowieckie', 'miasto': 'Warszawa', 'miejsce': 'Klub Tenisowy Orzeł',
+                          'kategorie': 'debel 40+', 'cykl': 'Grand Prix Mazowsza'}
+                  post = article(tournament, meta)
+                  self.assertEqual(post['title'], 'Warszawa: Mariusz Osiak, Włodek Brzusek triumfują w turnieju Deblowy Masters Zima')
+                  self.assertNotIn('<table', post['content'])
+                  self.assertIn('Zwyciężyła para Mariusz Osiak, Włodek Brzusek', post['content'])
+                  self.assertIn('Mariusz Osiak, Włodek Brzusek – Jan Kowalski, Sebastian Nowak — <strong>7:5</strong>', post['content'])
+                  self.assertEqual(post['voivodeship'], 'mazowieckie')
+                  self.assertEqual(post['tags'], ['Grand Prix Mazowsza'])
+
+              def test_source_tags_are_controlled(self):
+                  base = {'mecze': [], 'final_id': None, 'gotowy': False, 'uwagi': [], 'nazwa': 'T',
+                          'kategoria': '', 'data_od': '2026-09-01', 'data_do': '2026-09-01', 'miasto': '', 'url': 'https://x'}
+                  for source, expected in [('PLT', 'Polska Liga Tenisa'), ('Cuply', 'Cuply'), ('PZT TOP', 'Tenis Open Polska PZT')]:
+                      t = dict(base, id=source.lower(), zrodlo=source)
+                      self.assertEqual(article(t, {})['tags'], [expected])
+
+
+          if __name__ == '__main__':
+              unittest.main()
+          '''.replace('          ', ''), 'utf-8')
+
+          p = Path('tests/wyniki_news/wordpress_import_test.php')
+          s = p.read_text('utf-8')
+          s = s.replace('$posts = array(); $meta = array(); $feed =', '$posts = array(); $meta = array(); $post_terms = array(); $categories = array(); $tags = array(); $feed =', 1)
+          insert = '''\nfunction sanitize_title($s) { $s=strtolower($s); $s=strtr($s,array('ą'=>'a','ć'=>'c','ę'=>'e','ł'=>'l','ń'=>'n','ó'=>'o','ś'=>'s','ź'=>'z','ż'=>'z')); return trim(preg_replace('/[^a-z0-9]+/','-',$s),'-'); }\nfunction get_term_by($field,$value,$taxonomy) { global $categories,$tags; $pool=$taxonomy==='category'?$categories:$tags; foreach($pool as $term) { if(($field==='slug' && $term->slug===$value)||($field==='name' && $term->name===$value))return clone $term; } return false; }\nfunction wp_set_post_terms($id,$ids,$taxonomy,$append=false) { global $post_terms; $post_terms[$id][$taxonomy]=$ids; return $ids; }\n'''
+          anchor = 'function sanitize_text_field($s) { return strip_tags($s); }\n'
+          assert anchor in s
+          s = s.replace(anchor, anchor + insert)
+          append = r'''
+
+          $posts=array(); $meta=array(); $post_terms=array();
+          $categories=array((object)array('term_id'=>7,'name'=>'mazowieckie','slug'=>'mazowieckie'));
+          $tags=array((object)array('term_id'=>11,'name'=>'Grand Prix Mazowsza','slug'=>'grand-prix-mazowsza'));
+          $e=entry(500,true,'regional result','kluby');
+          $e['voivodeship']='mazowieckie'; $e['cycle']='Grand Prix Mazowsza'; $e['tags']=array('Grand Prix Mazowsza');
+          $feed['posts']=array($e); Tenis_NET_Wyniki::import(true);
+          check($posts[1]->post_category===array(7),'voivodeship selects existing WordPress category');
+          check(($post_terms[1]['post_tag']??array())===array(11),'controlled cycle selects existing WordPress tag');
+          '''
+          s += '\n' + '\n'.join(line[10:] if line.startswith('          ') else line for line in append.splitlines()) + '\n'
+          p.write_text(s, 'utf-8')
+          PY
+      - name: Testy Python i PHP
+        run: |
+          python -m unittest discover -s tests/wyniki_news -v
+          php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
+          php tests/wyniki_news/wordpress_import_test.php
+      - name: Zapisz wynik i usuń workflow techniczny
+        run: |
+          rm .github/workflows/patch-editorial-results.yml
+          git config user.name "czerjac"
+          git config user.email "czerjac@gmail.com"
+          git add wyniki_news/build.py wordpress/tenis-net-wyniki/tenis-net-wyniki.php tests/wyniki_news .github/workflows/patch-editorial-results.yml
+          git commit -m "Ulepsz format newsów oraz kategorie i tagi WordPress"
+          git push origin HEAD:feature/wyniki-redakcja-kategorie-tagi
