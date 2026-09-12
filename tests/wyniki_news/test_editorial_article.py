@@ -47,9 +47,10 @@ class EditorialArticleTest(unittest.TestCase):
         self.assertIn('W dniu 12 września 2026', post['content'])
         self.assertIn('Zwyciężyła para Mariusz Osiak, Włodek Brzusek', post['content'])
         self.assertIn(
-            'Mariusz Osiak, Włodek Brzusek – Jan Kowalski, Sebastian Nowak — <strong>7:5</strong>',
+            'Mariusz Osiak, Włodek Brzusek – Jan Kowalski, Sebastian Nowak <strong>7:5</strong>',
             post['content'],
         )
+        self.assertNotIn('Sebastian Nowak — <strong>7:5</strong>', post['content'])
         self.assertEqual(post['voivodeship'], 'mazowieckie')
         self.assertEqual(post['tags'], ['Grand Prix Mazowsza'])
 
