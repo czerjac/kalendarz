@@ -141,7 +141,7 @@ def article(t, meta=None):
         if len(winner.get('zawodnicy', [])) == 2 and len(loser.get('zawodnicy', [])) == 2:
             intro += f' Zwyciężyła para {winner_label}, która w finale okazała się lepsza od pary {loser_label}'
             if result:
-                intro += f' — {result}'
+                intro += f' {result}'
             intro += '.'
         else:
             gender = singles_gender(category or t.get('kategoria', ''))
@@ -152,7 +152,7 @@ def article(t, meta=None):
             else:
                 intro += f' Finał: {winner_label} – {loser_label}'
             if result:
-                intro += f' — {result}'
+                intro += f' {result}'
             intro += '.'
     intro += ' Poniżej szczegółowe wyniki.'
 
@@ -176,7 +176,7 @@ def article(t, meta=None):
             result = match['wynik'] if match['zakonczony'] else 'Brak potwierdzonego wyniku'
             lines.append(
                 esc(label(match['strona_a'])) + ' – ' + esc(label(match['strona_b'])) +
-                ' — <strong>' + esc(result) + '</strong>'
+                ' <strong>' + esc(result) + '</strong>'
             )
         parts.append('<p>' + '<br>\n'.join(lines) + '</p>')
 
