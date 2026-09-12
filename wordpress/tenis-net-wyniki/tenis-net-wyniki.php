@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Tenis NET – Wyniki i newsy
  * Description: Importuje osobny plik wyników z GitHuba do zwykłych wpisów. Nie zmienia kalendarza.
- * Version: 0.2.0
+ * Version: 0.3.0
  * Requires PHP: 7.4
  * Author: Tenis NET
  */
@@ -55,15 +55,16 @@ final class Tenis_NET_Wyniki {
     public static function page() {
         self::guard(); $s = self::settings();
         echo '<div class="wrap"><h1>Wyniki i newsy Tenis NET</h1><p>Obsługiwane źródła: PLT, Cuply, Kluby.org i PZT TOP. Niepełne lub niejednoznaczne wyniki pozostają szkicami do kontroli redakcyjnej.</p>';
+        echo '<p>Kategoria wpisu jest dobierana automatycznie według województwa. Tagi są przypisywane tylko dla ustalonych źródeł i cykli. Wtyczka nie tworzy nowych kategorii ani tagów.</p>';
         echo '<p>GitHub zbiera wyniki raz w tygodniu, we wtorek o 04:00 czasu polskiego, z poprzednich siedmiu dni (wtorek–poniedziałek). WordPress odbiera zestaw raz, o 04:30, aby dać czas na jego przygotowanie. Nie ma godzinowego sprawdzania ani automatycznych ponowień. Przy braku ruchu wystarczy cotygodniowe uruchomienie WordPress Cron przez hosting we wtorek o 04:30. GitHub może opóźnić zbieranie; brak świeżego zestawu zostanie zapisany w raporcie.</p>';
         echo '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="tnw_save">';
         wp_nonce_field('tnw_save');
         echo '<p><label><input type="checkbox" name="enabled" value="1" ' . checked($s['enabled'], true, false) . '> Włącz cotygodniowy odbiór newsów</label></p>';
         echo '<p><label>Nowe wpisy: <select name="mode"><option value="draft" ' . selected($s['mode'], 'draft', false) . '>Szkice do sprawdzenia</option><option value="publish" ' . selected($s['mode'], 'publish', false) . '>Publikuj automatycznie potwierdzone wyniki</option></select></label></p>';
-        echo '<p>Kategoria wpisów: '; wp_dropdown_categories(array('hide_empty' => 0, 'name' => 'category', 'selected' => $s['category'], 'show_option_none' => 'Wybierz kategorię', 'option_none_value' => 0)); echo '</p>';
+        echo '<p>Kategoria awaryjna (gdy brak województwa lub odpowiedniej kategorii): '; wp_dropdown_categories(array('hide_empty' => 0, 'name' => 'category', 'selected' => $s['category'], 'show_option_none' => 'Wybierz kategorię', 'option_none_value' => 0)); echo '</p>';
         echo '<p>Autor wpisów: '; wp_dropdown_users(array('name' => 'author', 'selected' => $s['author'], 'capability' => 'publish_posts')); echo '</p>';
         submit_button('Zapisz ustawienia'); echo '</form><hr>';
-        echo '<h2>Archiwalne newsy</h2><p>Każde kliknięcie obsłuży do 10 nowych lub zmienionych turniejów. Ponowne uruchomienie nie tworzy kopii. Archiwalne artykuły otrzymują bieżącą datę publikacji; data turnieju jest w tytule i treści. Niepełne wyniki zawsze trafiają do szkiców.</p>';
+        echo '<h2>Archiwalne newsy</h2><p>Każde kliknięcie obsłuży do 10 nowych lub zmienionych turniejów. Ponowne uruchomienie nie tworzy kopii. Archiwalne artykuły otrzymują bieżącą datę publikacji; data turnieju jest w treści. Niepełne wyniki zawsze trafiają do szkiców.</p>';
         echo '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="tnw_import">'; wp_nonce_field('tnw_import'); submit_button('Importuj kolejne 10 turniejów od lipca', 'secondary'); echo '</form>';
         echo '<h2>Ostatni przebieg</h2><pre>' . esc_html(get_option('tnw_last_report', 'Jeszcze nie uruchomiono.')) . '</pre></div>';
     }
@@ -74,7 +75,7 @@ final class Tenis_NET_Wyniki {
         if ($mode === 'publish' && !current_user_can('publish_posts')) { wp_die('Brak prawa publikacji.'); }
         $category = absint($_POST['category'] ?? 0); $author = absint($_POST['author'] ?? 0);
         $term = get_term($category, 'category');
-        if (!$category || !$term || is_wp_error($term) || !user_can($author, 'publish_posts')) { wp_die('Wybierz istniejącą kategorię i autora z prawem publikacji.'); }
+        if (!$category || !$term || is_wp_error($term) || !user_can($author, 'publish_posts')) { wp_die('Wybierz istniejącą kategorię awaryjną i autora z prawem publikacji.'); }
         update_option(self::OPTION, array('enabled' => !empty($_POST['enabled']), 'mode' => $mode, 'category' => $category, 'author' => $author), false);
         wp_safe_redirect(admin_url('tools.php?page=tnw')); exit;
     }
@@ -90,9 +91,58 @@ final class Tenis_NET_Wyniki {
         self::import(false);
     }
 
+    private static function allowed_voivodeships() {
+        return array(
+            'dolnośląskie', 'kujawsko-pomorskie', 'lubelskie', 'lubuskie', 'łódzkie',
+            'małopolskie', 'mazowieckie', 'opolskie', 'podkarpackie', 'podlaskie',
+            'pomorskie', 'śląskie', 'świętokrzyskie', 'warmińsko-mazurskie',
+            'wielkopolskie', 'zachodniopomorskie'
+        );
+    }
+
+    private static function allowed_tags() {
+        return array(
+            'Tenis Open Polska PZT', 'Polska Liga Tenisa', 'Cuply',
+            'Grand Prix Mazowsza', 'Grand Prix Wybrzeża', 'Grand Prix Podlasia i Mazur'
+        );
+    }
+
+    private static function category_for($entry, $fallback, &$notes) {
+        $name = isset($entry['voivodeship']) ? sanitize_text_field($entry['voivodeship']) : '';
+        if ($name !== '') {
+            if (!in_array($name, self::allowed_voivodeships(), true)) {
+                $notes[] = 'Nieobsługiwane województwo: ' . $name;
+                return (int) $fallback;
+            }
+            $term = get_term_by('slug', sanitize_title($name), 'category');
+            if (!$term || is_wp_error($term)) { $term = get_term_by('name', $name, 'category'); }
+            if ($term && !is_wp_error($term)) { return (int) $term->term_id; }
+            $notes[] = 'Nie znaleziono kategorii województwa: ' . $name;
+        }
+        return (int) $fallback;
+    }
+
+    private static function tag_ids($entry, &$notes) {
+        $ids = array();
+        $names = isset($entry['tags']) && is_array($entry['tags']) ? $entry['tags'] : array();
+        foreach ($names as $name) {
+            $name = sanitize_text_field($name);
+            if ($name === '') { continue; }
+            if (!in_array($name, self::allowed_tags(), true)) {
+                $notes[] = 'Pominięto nieobsługiwany tag: ' . $name;
+                continue;
+            }
+            $term = get_term_by('slug', sanitize_title($name), 'post_tag');
+            if (!$term || is_wp_error($term)) { $term = get_term_by('name', $name, 'post_tag'); }
+            if ($term && !is_wp_error($term)) { $ids[] = (int) $term->term_id; }
+            else { $notes[] = 'Nie znaleziono tagu: ' . $name; }
+        }
+        return array_values(array_unique($ids));
+    }
+
     public static function import($manual) {
         $s = self::settings();
-        if (!$s['category'] || !user_can($s['author'], 'publish_posts')) { update_option('tnw_last_report', 'Najpierw wybierz kategorię i autora.', false); return; }
+        if (!$s['category'] || !user_can($s['author'], 'publish_posts')) { update_option('tnw_last_report', 'Najpierw wybierz kategorię awaryjną i autora.', false); return; }
         // Atomic lock; stale lock recovery after a crashed PHP request.
         $lock = (int) get_option('tnw_import_lock', 0);
         if ($lock && $lock < time() - 900) { delete_option('tnw_import_lock'); }
@@ -108,7 +158,7 @@ final class Tenis_NET_Wyniki {
             if (!$manual && ($feed['run_date'] ?? '') !== $tuesday->format('Y-m-d')) {
                 update_option('tnw_last_report', 'Brak świeżego wtorkowego zestawu. Nie ponawiano automatycznie; można użyć importu ręcznego.', false); return;
             }
-            $done = 0; $unchanged = 0; $remaining = 0;
+            $done = 0; $unchanged = 0; $remaining = 0; $taxonomy_notes = array();
             foreach ($feed['posts'] as $entry) {
                 if (!self::valid($entry)) { throw new Exception('Nieprawidłowy rekord wyników; przerwano import.'); }
                 if (!$manual) {
@@ -133,16 +183,27 @@ final class Tenis_NET_Wyniki {
                         $done++; continue;
                     }
                 }
-                $fields = array('post_title' => sanitize_text_field($entry['title']), 'post_content' => wp_kses_post($entry['content']), 'post_name' => $slug,
-                    'post_type' => 'post', 'post_author' => $s['author'], 'post_category' => array($s['category']),
-                    'post_status' => ($entry['ready'] === true && $s['mode'] === 'publish') ? 'publish' : 'draft');
+                $category_id = self::category_for($entry, $s['category'], $taxonomy_notes);
+                $tag_ids = self::tag_ids($entry, $taxonomy_notes);
+                $fields = array(
+                    'post_title' => sanitize_text_field($entry['title']),
+                    'post_content' => wp_kses_post($entry['content']),
+                    'post_name' => $slug,
+                    'post_type' => 'post',
+                    'post_author' => $s['author'],
+                    'post_category' => array($category_id),
+                    'post_status' => ($entry['ready'] === true && $s['mode'] === 'publish') ? 'publish' : 'draft'
+                );
                 if ($post) { $fields['ID'] = $post->ID; }
                 $id = wp_insert_post(wp_slash($fields), true);
                 if (is_wp_error($id)) { throw new Exception('Nie udało się zapisać wpisu: ' . $entry['id']); }
+                wp_set_post_terms($id, $tag_ids, 'post_tag', false);
                 update_post_meta($id, '_tnw_id', $entry['id']);
                 self::metadata($id, $entry); $done++;
             }
-            update_option('tnw_last_report', $now->format('Y-m-d H:i') . "\nObsłużono: $done\nBez zmian: $unchanged\nPozostało w tym zakresie: $remaining\nKorekty opublikowanych wpisów znajdują się w ich edytorze.", false);
+            $taxonomy_notes = array_values(array_unique($taxonomy_notes));
+            $taxonomy_report = $taxonomy_notes ? "\nUwagi kategorii/tagów:\n- " . implode("\n- ", $taxonomy_notes) : '';
+            update_option('tnw_last_report', $now->format('Y-m-d H:i') . "\nObsłużono: $done\nBez zmian: $unchanged\nPozostało w tym zakresie: $remaining\nKorekty opublikowanych wpisów znajdują się w ich edytorze." . $taxonomy_report, false);
         } catch (Exception $e) { update_option('tnw_last_report', $e->getMessage(), false); }
         finally { delete_option('tnw_import_lock'); }
     }
@@ -150,6 +211,9 @@ final class Tenis_NET_Wyniki {
     private static function valid($e) {
         if (!is_array($e)) { return false; }
         foreach (array('id', 'title', 'content', 'fingerprint', 'date_end') as $key) { if (!isset($e[$key]) || !is_string($e[$key]) || !$e[$key]) { return false; } }
+        if (isset($e['voivodeship']) && !is_string($e['voivodeship'])) { return false; }
+        if (isset($e['cycle']) && !is_string($e['cycle'])) { return false; }
+        if (isset($e['tags']) && (!is_array($e['tags']) || count(array_filter($e['tags'], 'is_string')) !== count($e['tags']))) { return false; }
         $valid_id = preg_match('/^(?:plt|cuply|kluby):[0-9]+$/', $e['id']) ||
             preg_match('/^pzt:[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/', $e['id']);
         return $valid_id && preg_match('/^[a-f0-9]{64}$/', $e['fingerprint']) && hash_equals(hash('sha256', $e['title'] . "\n" . $e['content']), $e['fingerprint']) &&
@@ -161,6 +225,9 @@ final class Tenis_NET_Wyniki {
         $post = get_post($id);
         update_post_meta($id, '_tnw_generated_hash', hash('sha256', $post->post_title . "\n" . $post->post_content));
         update_post_meta($id, '_tnw_issues', $entry['issues'] ?? array());
+        update_post_meta($id, '_tnw_voivodeship', $entry['voivodeship'] ?? '');
+        update_post_meta($id, '_tnw_cycle', $entry['cycle'] ?? '');
+        update_post_meta($id, '_tnw_tags', $entry['tags'] ?? array());
     }
 
     public static function metabox($post) {
@@ -178,8 +245,17 @@ final class Tenis_NET_Wyniki {
         check_admin_referer('tnw_apply_' . $id); $entry = get_post_meta($id, '_tnw_pending', true);
         if (!self::valid($entry)) { wp_die('Brak poprawnej aktualizacji.'); }
         if (get_post_status($id) === 'publish' && !current_user_can('publish_posts')) { wp_die('Brak uprawnień publikacji.'); }
-        $result = wp_update_post(wp_slash(array('ID' => $id, 'post_title' => sanitize_text_field($entry['title']), 'post_content' => wp_kses_post($entry['content']))), true);
+        $settings = self::settings(); $notes = array();
+        $category_id = self::category_for($entry, $settings['category'], $notes);
+        $tag_ids = self::tag_ids($entry, $notes);
+        $result = wp_update_post(wp_slash(array(
+            'ID' => $id,
+            'post_title' => sanitize_text_field($entry['title']),
+            'post_content' => wp_kses_post($entry['content']),
+            'post_category' => array($category_id)
+        )), true);
         if (is_wp_error($result)) { wp_die('Nie zapisano aktualizacji.'); }
+        wp_set_post_terms($id, $tag_ids, 'post_tag', false);
         self::metadata($id, $entry); delete_post_meta($id, '_tnw_pending'); delete_post_meta($id, '_tnw_pending_fingerprint');
         wp_safe_redirect(get_edit_post_link($id, 'raw')); exit;
     }
