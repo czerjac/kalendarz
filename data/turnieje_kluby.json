@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-11T08:56:58+00:00",
+  "pobrano_utc": "2026-09-12T08:40:11+00:00",
   "liczba_turniejow": 56,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 50
+      "liczba": 51
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -35,23 +35,13 @@
   "turnieje": [
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "MASTERS Lechia Tennis Challenge",
-      "data_od": "2026-09-11",
-      "data_do": "2026-09-11",
-      "miasto": "Gdańsk",
-      "miejsce": "Lechia Tennis Club, Gdańsk",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12187"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "Arkadia Kids Cup",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
       "miasto": "",
       "miejsce": "",
-      "kategorie": "TENIS10 POMARAŃCZOWA (Chłopcy)",
-      "url": "https://kluby.org/turnieje/12188"
+      "kategorie": "TENIS10 POMARAŃCZOWA",
+      "url": "https://kluby.org/turnieje/12189"
     },
     {
       "zrodlo": "Kluby.org",
@@ -112,6 +102,16 @@
       "miejsce": "WKT Mera, Warszawa",
       "kategorie": "JUNIORZY U12 (BS U12 (singlowy)) JUNIORKI U12 (GS U12 (singlowy))",
       "url": "https://kluby.org/turnieje/12176"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Zielonka Masters Singlowy 2026",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "Warszawa",
+      "miejsce": "Zielonka Dębinki, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12196"
     },
     {
       "zrodlo": "Kluby.org",
