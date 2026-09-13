@@ -1,29 +1,9 @@
 {
   "zrodlo": "TKKF Skanda",
-  "pobrano_utc": "2026-09-12T08:40:13+00:00",
-  "liczba_turniejow": 9,
+  "pobrano_utc": "2026-09-13T09:35:05+00:00",
+  "liczba_turniejow": 8,
   "odrzucono_odwolane": 9,
   "turnieje": [
-    {
-      "zrodlo": "TKKF Skanda",
-      "nazwa": "Masters Grand Prix Skandy w grze pojedynczej",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Olsztyn",
-      "miejsce": "TKKF Skanda",
-      "wojewodztwo": "warmińsko-mazurskie",
-      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
-      "organizator": "TKKF \"Skanda\"",
-      "telefon_organizatora": "500 036 039",
-      "email_organizatora": "kortyskanda@gmail.com",
-      "kontakt": "500 036 039 | kortyskanda@gmail.com",
-      "typ_gry": "gra pojedyncza",
-      "kategorie": "",
-      "cykl_szczegolowy": "Grand Prix Skandy",
-      "url": "http://kortyskanda.pl/turnieje.html",
-      "start_turnieju": "10:00",
-      "opis": "Start: 10:00. Informacje i zapisy u organizatora."
-    },
     {
       "zrodlo": "TKKF Skanda",
       "nazwa": "V turniej Seniorów Olsztyna w grze pojedynczej",

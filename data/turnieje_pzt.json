@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-12T08:39:44+00:00",
-  "liczba_turniejow": 19,
+  "pobrano_utc": "2026-09-13T09:34:35+00:00",
+  "liczba_turniejow": 17,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -26,16 +26,6 @@
     },
     {
       "zrodlo": "PZT TOP",
-      "nazwa": "\"Gryfino Open 2026\"",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Gryfino",
-      "ranga": "3",
-      "kategorie": "45+, 60+, Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=A940B588-FF38-4707-B1C0-07A2ECEE20A5"
-    },
-    {
-      "zrodlo": "PZT TOP",
       "nazwa": "Intelight Open Kołobrzeg",
       "data_od": "2026-09-12",
       "data_do": "2026-09-14",
@@ -43,16 +33,6 @@
       "ranga": "2",
       "kategorie": "40+, 45+, 50+, 60+, 70+, Open Amator, Open",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F686A07C-5544-4ECF-AB6A-380A742F1796"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "Klubowy MIXT WRZESIEŃ - ArKademia OLESNO",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Olesno",
-      "ranga": "5",
-      "kategorie": "Open Amator",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=56E632DF-5D31-4F75-B856-219905D2F828"
     },
     {
       "zrodlo": "PZT TOP",

@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-12T08:40:00+00:00",
-  "liczba_turniejow": 52,
+  "pobrano_utc": "2026-09-13T09:34:53+00:00",
+  "liczba_turniejow": 51,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -22,7 +22,7 @@
     {
       "kategoria": "PLT Kobiet",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/lista-rund?incoming=true",
-      "liczba": 6
+      "liczba": 5
     },
     {
       "kategoria": "Deble i Miksty",
@@ -35,72 +35,11 @@
       "liczba": 1
     }
   ],
-  "ostrzezenia": [],
+  "ostrzezenia": [
+    "Kategorie wiekowe: pusty odczyt po ponowieniu; zachowano 1 poprzednich przyszłych rekordów"
+  ],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Aktywniaki Tennis Cup II 2026",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Kamień",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-aktywniaki-tennis-cup-ii-2026-5592"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Nowej Soli 2026",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Nowa Sól",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-nowej-soli-2026-5515"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Obornik 2026",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Oborniki",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-obornik-2026-5547"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Podium Oława 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Oława",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-olawy-2026-5512"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Podium Oława 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Oława",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-olawy-2026-5513"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "PLT Kobiet",
-      "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Oławy 2026",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Oława",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-olawy-2026-5602"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Skarżyska-Kamiennej 2026",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Skarżysko-Kamienna",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5542"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "Kategorie wiekowe",
@@ -109,24 +48,6 @@
       "data_do": "2026-09-13",
       "miasto": "Wejherowo",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-50-otwarte-mistrzostwa-wejherowa-2026-5550"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Tenis Zone Tour IV 2026- Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Łódź",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-tenis-zone-tour-iv-2026-5344"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Tenis Zone Tour IV 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Łódź",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-tenis-zone-tour-iv-2026-5343"
     },
     {
       "zrodlo": "PLT",
@@ -427,6 +348,24 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu TP Ogrodowa 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Legnica",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-tp-ogrodowa-2026-kwalifikacje-do-krajowych-mistrzostw-5600"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Sport Myślenice 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Myślenice",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-sport-myslenice-2026-5580"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Grand Prix SPIN-u 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
@@ -445,12 +384,30 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu SKT Sanok 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Sanok",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-skt-sanok-2026-kwalifikacje-do-krajowych-mistrzostw-5601"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "Deble i Miksty",
       "nazwa": "MIKST. Grand Prix KGmiar Cup V 2026",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
       "miasto": "Szamotuły",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-kgmiar-cup-v-2026-5161"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu SKT Break Point 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Sztum",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-skt-break-point-2026-5578"
     },
     {
       "zrodlo": "PLT",
@@ -463,12 +420,48 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Perun Wesoła 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-perun-wesola-2026-5562"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Perun Wesoła 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
       "miasto": "Warszawa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-perun-wesola-2026-5563"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu UKS Jura Zawiercie 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Zawiercie",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-uks-jura-zawiercie-2026-kwalifikacje-do-krajowych-mistrzostw-5594"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Letnie Mistrzostwa Brodnicy 2026",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Brodnica",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-brodnicy-2026-5524"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu BTC Kołobrzeg 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Kołobrzeg",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltic-tennis-club-kolobrzeg-2026-kwalifikacje-do-krajowych-mistrzostw-5587"
     },
     {
       "zrodlo": "PLT",

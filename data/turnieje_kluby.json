@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-12T08:40:11+00:00",
-  "liczba_turniejow": 56,
+  "pobrano_utc": "2026-09-13T09:35:04+00:00",
+  "liczba_turniejow": 55,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 51
+      "liczba": 52
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 14
+      "liczba": 15
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -35,16 +35,6 @@
   "turnieje": [
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Arkadia Kids Cup",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "",
-      "miejsce": "",
-      "kategorie": "TENIS10 POMARAŃCZOWA",
-      "url": "https://kluby.org/turnieje/12189"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": ",,JESIEŃ 2026’’",
       "data_od": "2026-09-12",
       "data_do": "2026-09-13",
@@ -62,16 +52,6 @@
       "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
       "kategorie": "OPEN (FUN) KOBIETY OPEN",
       "url": "https://kluby.org/turnieje/11925"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "II TURNIEJ O PUCHAR WÓJTA GMINY GARWOLIN",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Garwolin",
-      "miejsce": "Garwolińska Akademia Tenisowa, Garwolin",
-      "kategorie": "OPEN JUNIORZY U12 JUNIORZY U18",
-      "url": "https://kluby.org/turnieje/12167"
     },
     {
       "zrodlo": "Kluby.org",
@@ -105,16 +85,6 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Zielonka Masters Singlowy 2026",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-12",
-      "miasto": "Warszawa",
-      "miejsce": "Zielonka Dębinki, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12196"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "Indywidualny turniej dla początkujących",
       "data_od": "2026-09-13",
       "data_do": "2026-09-13",
@@ -142,6 +112,16 @@
       "miejsce": "Jazda Tennis Academy, Warszawa",
       "kategorie": "JUNIORZY U12 JUNIORZY U14 JUNIORZY U16 JUNIORZY U18",
       "url": "https://kluby.org/turnieje/12155"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Tenis",
+      "data_od": "2026-09-14",
+      "data_do": "2026-09-14",
+      "miasto": "",
+      "miejsce": "",
+      "kategorie": "OPEN (Klasy 4-5) OPEN (Klasy 6-8)",
+      "url": "https://kluby.org/turnieje/12197"
     },
     {
       "zrodlo": "Kluby.org",
@@ -292,6 +272,16 @@
       "miejsce": "Szkoła Tenisa Break, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/11955"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "2 Turniej Łódzkiej Ligi Tenisa",
+      "data_od": "2026-10-01",
+      "data_do": "2027-01-10",
+      "miasto": "",
+      "miejsce": "",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12200"
     },
     {
       "zrodlo": "Kluby.org",
