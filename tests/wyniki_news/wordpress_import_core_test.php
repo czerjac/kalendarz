@@ -11,14 +11,30 @@ function update_option($k,$v,...$a) { global $options; $options[$k]=$v; }
 function add_option($k,$v,...$a) { global $options; if(isset($options[$k]))return false; $options[$k]=$v; return true; }
 function delete_option($k) { global $options; unset($options[$k]); }
 function user_can(...$a) { return true; }
+function current_user_can(...$a) { return true; }
 function wp_remote_get(...$a) { global $feed; return $feed; }
 function is_wp_error($v) { return false; }
 function wp_remote_retrieve_response_code($r) { return 200; }
 function wp_remote_retrieve_body($r) { return json_encode($r); }
-function get_posts($q) { global $posts,$meta; foreach($posts as $p) {
-    if(isset($q['name']) && $p->post_name === $q['name'])return array(clone $p);
-    if(isset($q['meta_key']) && ($meta[$p->ID][$q['meta_key']]??null)===$q['meta_value'])return array(clone $p);
-} return array(); }
+function get_posts($q) {
+    global $posts,$meta;
+    $result=array();
+    foreach($posts as $p) {
+        if(isset($q['post_type']) && ($p->post_type??'post') !== $q['post_type'])continue;
+        if(isset($q['post_status'])) {
+            $allowed=is_array($q['post_status'])?$q['post_status']:array($q['post_status']);
+            if(!in_array($p->post_status??'draft',$allowed,true))continue;
+        }
+        if(isset($q['name']) && ($p->post_name??'') !== $q['name'])continue;
+        if(isset($q['meta_key'])) {
+            if(!array_key_exists($q['meta_key'],$meta[$p->ID]??array()))continue;
+            if(array_key_exists('meta_value',$q) && ($meta[$p->ID][$q['meta_key']]??null)!==$q['meta_value'])continue;
+        }
+        $result[]=clone $p;
+        if(($q['numberposts']??-1)===1)break;
+    }
+    return $result;
+}
 function get_post_meta($id,$key,...$a) { global $meta; return $meta[$id][$key]??''; }
 function update_post_meta($id,$key,$value) { global $meta; $meta[$id][$key]=$value; }
 function sanitize_text_field($s) { return strip_tags($s); }
