@@ -11004,7 +11004,7 @@
       "kategoria_zrodla": "Kategorie wiekowe",
       "kategorie": "",
       "miasto": "Wejherowo",
-      "miejsce": "Wejherowskie Korty Tenisowe - Lech Bieńkowski",
+      "miejsce": "",
       "wojewodztwo": "pomorskie",
       "cykl": "PLT",
       "rodzaje_gry": [
@@ -11148,7 +11148,7 @@
       "kategoria_zrodla": "1. Liga",
       "kategorie": "",
       "miasto": "Gdańsk",
-      "miejsce": "Korty Tenisowe Podleśna",
+      "miejsce": "",
       "wojewodztwo": "pomorskie",
       "cykl": "PLT",
       "rodzaje_gry": [
@@ -11309,7 +11309,7 @@
       "kategorie": "",
       "miasto": "Oleśnica",
       "miejsce": "Oleśnicki Klub Tenisowy",
-      "wojewodztwo": "śląskie",
+      "wojewodztwo": "dolnośląskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -11325,7 +11325,7 @@
       "kategorie": "",
       "miasto": "Oleśnica",
       "miejsce": "Oleśnicki Klub Tenisowy",
-      "wojewodztwo": "śląskie",
+      "wojewodztwo": "dolnośląskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -11865,7 +11865,7 @@
       "kategorie": "",
       "miasto": "Szamotuły",
       "miejsce": "Centrum Sportu Szamotuły",
-      "wojewodztwo": "wielkopolskie",
+      "wojewodztwo": "opolskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -11881,7 +11881,7 @@
       "kategorie": "",
       "miasto": "Szamotuły",
       "miejsce": "Centrum Sportu Szamotuły",
-      "wojewodztwo": "wielkopolskie",
+      "wojewodztwo": "opolskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -12009,7 +12009,7 @@
       "kategorie": "",
       "miasto": "Szamotuły",
       "miejsce": "Centrum Sportu Szamotuły",
-      "wojewodztwo": "wielkopolskie",
+      "wojewodztwo": "opolskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "debel",
@@ -12771,6 +12771,166 @@
       ],
       "data_od": "2026-09-27",
       "data_do": "2026-09-27"
+    },
+    "https://kluby.org/turnieje/12197": {
+      "url": "https://kluby.org/turnieje/12197",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Tenis",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN (Klasy 4-5) OPEN (Klasy 6-8)",
+      "miasto": "",
+      "miejsce": "",
+      "wojewodztwo": "",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-09-14",
+      "data_do": "2026-09-14"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-tp-ogrodowa-2026-kwalifikacje-do-krajowych-mistrzostw-5600": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-tp-ogrodowa-2026-kwalifikacje-do-krajowych-mistrzostw-5600",
+      "zrodlo": "PLT",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu TP Ogrodowa 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "kategoria_zrodla": "2. Liga",
+      "kategorie": "",
+      "miasto": "Legnica",
+      "miejsce": "Tenis Park Ogrodowa",
+      "wojewodztwo": "dolnośląskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-sport-myslenice-2026-5580": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-sport-myslenice-2026-5580",
+      "zrodlo": "PLT",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Sport Myślenice 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "kategoria_zrodla": "2. Liga",
+      "kategorie": "",
+      "miasto": "Myślenice",
+      "miejsce": "Korty Tenisowe Sport Myślenice",
+      "wojewodztwo": "małopolskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-skt-sanok-2026-kwalifikacje-do-krajowych-mistrzostw-5601": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-skt-sanok-2026-kwalifikacje-do-krajowych-mistrzostw-5601",
+      "zrodlo": "PLT",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu SKT Sanok 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "kategoria_zrodla": "2. Liga",
+      "kategorie": "",
+      "miasto": "Sanok",
+      "miejsce": "Sanocki Klub Tenisowy",
+      "wojewodztwo": "podkarpackie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-skt-break-point-2026-5578": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-skt-break-point-2026-5578",
+      "zrodlo": "PLT",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu SKT Break Point 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "kategoria_zrodla": "2. Liga",
+      "kategorie": "",
+      "miasto": "Sztum",
+      "miejsce": "Sztumski Klub Tenisa Ziemnego",
+      "wojewodztwo": "pomorskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-perun-wesola-2026-5562": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-perun-wesola-2026-5562",
+      "zrodlo": "PLT",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Perun Wesoła 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "kategoria_zrodla": "1. Liga",
+      "kategorie": "",
+      "miasto": "Warszawa",
+      "miejsce": "Perun Wesoła",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-uks-jura-zawiercie-2026-kwalifikacje-do-krajowych-mistrzostw-5594": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-uks-jura-zawiercie-2026-kwalifikacje-do-krajowych-mistrzostw-5594",
+      "zrodlo": "PLT",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu UKS Jura Zawiercie 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "kategoria_zrodla": "1. Liga",
+      "kategorie": "",
+      "miasto": "Zawiercie",
+      "miejsce": "UKS Jura Tenis Zawiercie",
+      "wojewodztwo": "śląskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27"
+    },
+    "https://kluby.org/turnieje/12200": {
+      "url": "https://kluby.org/turnieje/12200",
+      "zrodlo": "Kluby.org",
+      "nazwa": "2 Turniej Łódzkiej Ligi Tenisa",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "",
+      "miejsce": "",
+      "wojewodztwo": "",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-10-01",
+      "data_do": "2027-01-10"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-brodnicy-2026-5524": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-brodnicy-2026-5524",
+      "zrodlo": "PLT",
+      "nazwa": "1. LIGA. Otwarte Letnie Mistrzostwa Brodnicy 2026",
+      "kategoria_zrodla": "1. Liga",
+      "kategorie": "",
+      "miasto": "Brodnica",
+      "miejsce": "OSiR Brodnica",
+      "wojewodztwo": "pomorskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltic-tennis-club-kolobrzeg-2026-kwalifikacje-do-krajowych-mistrzostw-5587": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltic-tennis-club-kolobrzeg-2026-kwalifikacje-do-krajowych-mistrzostw-5587",
+      "zrodlo": "PLT",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu BTC Kołobrzeg 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "kategoria_zrodla": "1. Liga",
+      "kategorie": "",
+      "miasto": "Kołobrzeg",
+      "miejsce": "Baltic Tennis Club Kołobrzeg",
+      "wojewodztwo": "pomorskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03"
     }
   },
   "attempts": {
@@ -13259,7 +13419,7 @@
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-finaly-letnich-mistrzostw-polski-plt-2026-5466/wyniki": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-finaly-letnich-mistrzostw-polski-plt-2026-5469/wyniki": {
@@ -13271,7 +13431,7 @@
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-finaly-letnich-mistrzostw-polski-plt-2026-5468/wyniki": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-rzeszowa-2026-5087/wyniki": {
@@ -13283,27 +13443,27 @@
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-finaly-letnich-mistrzostw-polski-plt-2026-5467/wyniki": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-lezajska-2026-5517/wyniki": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5531/wyniki": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-otwarte-jesienne-mistrzostwa-rzeszowa-2026-5089/wyniki": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": true
     },
     "https://cuply.pl/turnieje/cuply-challenger-gryfino-i": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": true
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=2BCA8E74-98D8-4955-B399-5D11E07F9A2C": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=8972355D-3B5C-40CF-BD8F-6201F8F881EA": {
@@ -13319,11 +13479,11 @@
       "ready": false
     },
     "https://kluby.org/turnieje/12123": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://kluby.org/turnieje/12122": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://kluby.org/turnieje/12034": {
@@ -13355,55 +13515,87 @@
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=16C74C18-66AF-4867-932F-94E808EFE8EA": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9D98A8E3-B1BB-476B-8CD7-33E3ABF612CD": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://kluby.org/turnieje/12075": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": true
     },
     "https://kluby.org/turnieje/12058": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": true
     },
     "https://kluby.org/turnieje/11394": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": true
     },
     "https://kluby.org/turnieje/12164": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://kluby.org/turnieje/12128": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=43ADA3A1-0902-4533-8B93-6E46E43F27A9": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=18B8F410-E9A8-4ADE-A093-0CF0023B5949": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://kluby.org/turnieje/12168": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://kluby.org/turnieje/12166": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://kluby.org/turnieje/12181": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "ready": false
     },
     "https://kluby.org/turnieje/12187": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
+      "ready": true
+    },
+    "https://kluby.org/turnieje/12196": {
+      "date": "2026-09-13",
+      "ready": false
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-letnie-mistrzostwa-pomorza-2026-5183": {
+      "date": "2026-09-13",
+      "ready": false
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-tennis-cup-ii-2026-5591": {
+      "date": "2026-09-13",
+      "ready": false
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-kwalifikacje-do-krajowych-mistrzostw-5590": {
+      "date": "2026-09-13",
+      "ready": false
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-letnie-mistrzostwa-szczecina-2026-5216": {
+      "date": "2026-09-13",
+      "ready": false
+    },
+    "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-letnie-mistrzostwa-szczecina-2026-5215": {
+      "date": "2026-09-13",
+      "ready": false
+    },
+    "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=A940B588-FF38-4707-B1C0-07A2ECEE20A5": {
+      "date": "2026-09-13",
+      "ready": false
+    },
+    "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=56E632DF-5D31-4F75-B856-219905D2F828": {
+      "date": "2026-09-13",
       "ready": false
     }
   },
@@ -160785,7 +160977,7 @@
           "kategoria_zrodlowa": "OPEN"
         },
         {
-          "id": "kluby-mecz:a5a373ced4d6aeeb86b1",
+          "id": "kluby-mecz:294d12193e089370c43d",
           "grupa_id": "kluby:12187:15663:grupa a",
           "faza": "Grupa A",
           "runda": "Kolejka 2",
@@ -160812,11 +161004,24 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 6,
+              "b": 4
+            },
+            {
+              "a": 4,
+              "b": 6
+            },
+            {
+              "a": 9,
+              "b": 11
+            }
+          ],
+          "wynik": "6/4 4/6 9:11",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "OPEN"
         },
@@ -160960,7 +161165,7 @@
           "kategoria_zrodlowa": "OPEN"
         },
         {
-          "id": "kluby-mecz:6d811f4a2a896ecac50d",
+          "id": "kluby-mecz:79652a5c333bb1069d9d",
           "grupa_id": "kluby:12187:15663:grupa b",
           "faza": "Grupa B",
           "runda": "Kolejka 3",
@@ -160987,16 +161192,29 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 2,
+              "b": 6
+            },
+            {
+              "a": 6,
+              "b": 5
+            },
+            {
+              "a": 10,
+              "b": 7
+            }
+          ],
+          "wynik": "2/6 6/5 10:7",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "OPEN"
         },
         {
-          "id": "kluby-mecz:d7f48bf117bdadb3a2c1",
+          "id": "kluby-mecz:631c38384985cf05596a",
           "grupa_id": "kluby:12187:15663:grupa c",
           "faza": "Grupa C",
           "runda": "Kolejka 1",
@@ -161023,16 +161241,25 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 4,
+              "b": 6
+            },
+            {
+              "a": 4,
+              "b": 6
+            }
+          ],
+          "wynik": "4/6 4/6",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "OPEN"
         },
         {
-          "id": "kluby-mecz:35bdad3f57a590475288",
+          "id": "kluby-mecz:afbe91127a6b5ffa5a6e",
           "grupa_id": "kluby:12187:15663:grupa c",
           "faza": "Grupa C",
           "runda": "Kolejka 2",
@@ -161059,11 +161286,20 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 2,
+              "b": 6
+            },
+            {
+              "a": 5,
+              "b": 6
+            }
+          ],
+          "wynik": "2/6 5/6",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "OPEN"
         },
@@ -161203,7 +161439,7 @@
           "kategoria_zrodlowa": "OPEN"
         },
         {
-          "id": "kluby-mecz:6631a7d51b2545230338",
+          "id": "kluby-mecz:36480e4fdf67e204c6c8",
           "grupa_id": "kluby:12187:15663:grupa d",
           "faza": "Grupa D",
           "runda": "Kolejka 3",
@@ -161230,6 +161466,1573 @@
               }
             ]
           },
+          "sety": [
+            {
+              "a": 6,
+              "b": 5
+            },
+            {
+              "a": 6,
+              "b": 5
+            }
+          ],
+          "wynik": "6/5 6/5",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:f30fb26ccef047acc292",
+          "grupa_id": "kluby:12187:15663:1/4 finalu",
+          "faza": "1/4 finału",
+          "runda": "1/4 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/9433",
+            "id_zrodlowe": "/gracze/9433",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/9433",
+                "nazwa": "Dziedzic Kamil"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/3855",
+            "id_zrodlowe": "/gracze/3855",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/3855",
+                "nazwa": "Mikietyński Michał"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "6/3 6/3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:a9a058f128e89793933b",
+          "grupa_id": "kluby:12187:15663:1/4 finalu",
+          "faza": "1/4 finału",
+          "runda": "1/4 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/10756",
+            "id_zrodlowe": "/gracze/10756",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/10756",
+                "nazwa": "Janowski Rafał"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/3845",
+            "id_zrodlowe": "/gracze/3845",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/3845",
+                "nazwa": "Małolepszy Paweł"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 5
+            },
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "6/5 6/3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:303c45b2f7c652364b59",
+          "grupa_id": "kluby:12187:15663:1/4 finalu",
+          "faza": "1/4 finału",
+          "runda": "1/4 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/19535",
+            "id_zrodlowe": "/gracze/19535",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/19535",
+                "nazwa": "Orłowski Piotr"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/35424",
+            "id_zrodlowe": "/gracze/35424",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/35424",
+                "nazwa": "Łakomy Krzysztof"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 3,
+              "b": 6
+            },
+            {
+              "a": 5,
+              "b": 6
+            }
+          ],
+          "wynik": "3/6 5/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:7f59607c00528f3bff3a",
+          "grupa_id": "kluby:12187:15663:1/4 finalu",
+          "faza": "1/4 finału",
+          "runda": "1/4 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/4716",
+            "id_zrodlowe": "/gracze/4716",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/4716",
+                "nazwa": "Majchrowicz Maciej"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/3847",
+            "id_zrodlowe": "/gracze/3847",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/3847",
+                "nazwa": "Radziejewski Michał"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 5
+            }
+          ],
+          "wynik": "6/3 6/5",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:8b3db07a40e0dd8a1a97",
+          "grupa_id": "kluby:12187:15663:1/2 finalu",
+          "faza": "1/2 finału",
+          "runda": "1/2 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/9433",
+            "id_zrodlowe": "/gracze/9433",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/9433",
+                "nazwa": "Dziedzic Kamil"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/10756",
+            "id_zrodlowe": "/gracze/10756",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/10756",
+                "nazwa": "Janowski Rafał"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 2
+            },
+            {
+              "a": 6,
+              "b": 5
+            }
+          ],
+          "wynik": "6/2 6/5",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:40619088356df507f41b",
+          "grupa_id": "kluby:12187:15663:1/2 finalu",
+          "faza": "1/2 finału",
+          "runda": "1/2 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/35424",
+            "id_zrodlowe": "/gracze/35424",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/35424",
+                "nazwa": "Łakomy Krzysztof"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/4716",
+            "id_zrodlowe": "/gracze/4716",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/4716",
+                "nazwa": "Majchrowicz Maciej"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 3,
+              "b": 6
+            },
+            {
+              "a": 4,
+              "b": 6
+            }
+          ],
+          "wynik": "3/6 4/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:fca4c530fb35c7fa7482",
+          "grupa_id": "kluby:12187:15663:final",
+          "faza": "finał",
+          "runda": "finał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/9433",
+            "id_zrodlowe": "/gracze/9433",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/9433",
+                "nazwa": "Dziedzic Kamil"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/4716",
+            "id_zrodlowe": "/gracze/4716",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/4716",
+                "nazwa": "Majchrowicz Maciej"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 5
+            },
+            {
+              "a": 6,
+              "b": 4
+            }
+          ],
+          "wynik": "6/5 6/4",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        }
+      ],
+      "final_id": "kluby-mecz:fca4c530fb35c7fa7482",
+      "gotowy": true,
+      "uwagi": []
+    },
+    "kluby:12196": {
+      "id": "kluby:12196",
+      "zrodlo": "Kluby.org",
+      "url": "https://kluby.org/turnieje/12196",
+      "nazwa": "Zielonka Masters Singlowy 2026",
+      "kategoria": "OPEN",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "Warszawa",
+      "mecze": [
+        {
+          "id": "kluby-mecz:c61422918707c952a0af",
+          "grupa_id": "kluby:12196:15675:grupa a",
+          "faza": "Grupa A",
+          "runda": "Kolejka 1",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12732",
+            "id_zrodlowe": "/gracze/12732",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12732",
+                "nazwa": "Kutyłowski Karol"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/535",
+            "id_zrodlowe": "/gracze/535",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/535",
+                "nazwa": "Łuczyniec Michał"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "6/3 6/2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:1d2f7636c3d63763a669",
+          "grupa_id": "kluby:12196:15675:grupa a",
+          "faza": "Grupa A",
+          "runda": "Kolejka 1",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/30981",
+            "id_zrodlowe": "/gracze/30981",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/30981",
+                "nazwa": "Banachowicz Aleksander"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/12808",
+            "id_zrodlowe": "/gracze/12808",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12808",
+                "nazwa": "Klamczyński Marek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 6
+            },
+            {
+              "a": 3,
+              "b": 6
+            }
+          ],
+          "wynik": "4/6 3/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:90cd9c696f4b1881828d",
+          "grupa_id": "kluby:12196:15675:grupa a",
+          "faza": "Grupa A",
+          "runda": "Kolejka 2",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12732",
+            "id_zrodlowe": "/gracze/12732",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12732",
+                "nazwa": "Kutyłowski Karol"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/12808",
+            "id_zrodlowe": "/gracze/12808",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12808",
+                "nazwa": "Klamczyński Marek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 2
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "6/2 6/2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:296ca276f7174c6df3d7",
+          "grupa_id": "kluby:12196:15675:grupa a",
+          "faza": "Grupa A",
+          "runda": "Kolejka 2",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/30981",
+            "id_zrodlowe": "/gracze/30981",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/30981",
+                "nazwa": "Banachowicz Aleksander"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/535",
+            "id_zrodlowe": "/gracze/535",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/535",
+                "nazwa": "Łuczyniec Michał"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 3,
+              "b": 6
+            },
+            {
+              "a": 4,
+              "b": 6
+            }
+          ],
+          "wynik": "3/6 4/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:92b1e3df8556d044f0b8",
+          "grupa_id": "kluby:12196:15675:grupa a",
+          "faza": "Grupa A",
+          "runda": "Kolejka 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12732",
+            "id_zrodlowe": "/gracze/12732",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12732",
+                "nazwa": "Kutyłowski Karol"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/30981",
+            "id_zrodlowe": "/gracze/30981",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/30981",
+                "nazwa": "Banachowicz Aleksander"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 7,
+              "b": 5
+            }
+          ],
+          "wynik": "6/3 7/5",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:98f58cd2f451901c33fc",
+          "grupa_id": "kluby:12196:15675:grupa a",
+          "faza": "Grupa A",
+          "runda": "Kolejka 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12808",
+            "id_zrodlowe": "/gracze/12808",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12808",
+                "nazwa": "Klamczyński Marek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/535",
+            "id_zrodlowe": "/gracze/535",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/535",
+                "nazwa": "Łuczyniec Michał"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 5,
+              "b": 7
+            },
+            {
+              "a": 6,
+              "b": 2
+            },
+            {
+              "a": 6,
+              "b": 10
+            }
+          ],
+          "wynik": "5/7 6/2 6:10",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:e9ae34ea8752897bfb25",
+          "grupa_id": "kluby:12196:15675:grupa b",
+          "faza": "Grupa B",
+          "runda": "Kolejka 1",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12730",
+            "id_zrodlowe": "/gracze/12730",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12730",
+                "nazwa": "Gojło Daniel"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/12809",
+            "id_zrodlowe": "/gracze/12809",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12809",
+                "nazwa": "Szmurło Jacek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 2
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "6/2 6/2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:bc548b0df840bce01660",
+          "grupa_id": "kluby:12196:15675:grupa b",
+          "faza": "Grupa B",
+          "runda": "Kolejka 1",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12829",
+            "id_zrodlowe": "/gracze/12829",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12829",
+                "nazwa": "Maciejewski Jacek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/53670",
+            "id_zrodlowe": "/gracze/53670",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/53670",
+                "nazwa": "Warchoł Piotr"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 5,
+              "b": 7
+            },
+            {
+              "a": 3,
+              "b": 6
+            }
+          ],
+          "wynik": "5/7 3/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:5d1e60b44b7faf1b1ad7",
+          "grupa_id": "kluby:12196:15675:grupa b",
+          "faza": "Grupa B",
+          "runda": "Kolejka 2",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12730",
+            "id_zrodlowe": "/gracze/12730",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12730",
+                "nazwa": "Gojło Daniel"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/53670",
+            "id_zrodlowe": "/gracze/53670",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/53670",
+                "nazwa": "Warchoł Piotr"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 2
+            },
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "6/2 6/3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:05eb4c9c55138270d459",
+          "grupa_id": "kluby:12196:15675:grupa b",
+          "faza": "Grupa B",
+          "runda": "Kolejka 2",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12829",
+            "id_zrodlowe": "/gracze/12829",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12829",
+                "nazwa": "Maciejewski Jacek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/12809",
+            "id_zrodlowe": "/gracze/12809",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12809",
+                "nazwa": "Szmurło Jacek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 4
+            },
+            {
+              "a": 6,
+              "b": 4
+            }
+          ],
+          "wynik": "6/4 6/4",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:a9d0c2f83b4edafbfdbc",
+          "grupa_id": "kluby:12196:15675:grupa b",
+          "faza": "Grupa B",
+          "runda": "Kolejka 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12730",
+            "id_zrodlowe": "/gracze/12730",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12730",
+                "nazwa": "Gojło Daniel"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/12829",
+            "id_zrodlowe": "/gracze/12829",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12829",
+                "nazwa": "Maciejewski Jacek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 7,
+              "b": 5
+            }
+          ],
+          "wynik": "6/3 7/5",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:2b31474ecf26db2f580a",
+          "grupa_id": "kluby:12196:15675:grupa b",
+          "faza": "Grupa B",
+          "runda": "Kolejka 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/53670",
+            "id_zrodlowe": "/gracze/53670",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/53670",
+                "nazwa": "Warchoł Piotr"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/12809",
+            "id_zrodlowe": "/gracze/12809",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12809",
+                "nazwa": "Szmurło Jacek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 7,
+              "b": 6
+            },
+            {
+              "a": 6,
+              "b": 4
+            }
+          ],
+          "wynik": "7/6(1) 6/4",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:2cb2030900fd441cd736",
+          "grupa_id": "kluby:12196:15675:grupa c",
+          "faza": "Grupa C",
+          "runda": "Kolejka 1",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/641",
+            "id_zrodlowe": "/gracze/641",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/641",
+                "nazwa": "Chojecki Rafał"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/46050",
+            "id_zrodlowe": "/gracze/46050",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/46050",
+                "nazwa": "Ryński Kamil"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 4
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "6/4 6/2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:aaecce27b00948944650",
+          "grupa_id": "kluby:12196:15675:grupa c",
+          "faza": "Grupa C",
+          "runda": "Kolejka 1",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/54044",
+            "id_zrodlowe": "/gracze/54044",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/54044",
+                "nazwa": "Ezzat Mikołaj"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/12823",
+            "id_zrodlowe": "/gracze/12823",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12823",
+                "nazwa": "Radochoński Mariusz"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 2,
+              "b": 6
+            },
+            {
+              "a": 3,
+              "b": 6
+            }
+          ],
+          "wynik": "2/6 3/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:798050f1fbd93289c956",
+          "grupa_id": "kluby:12196:15675:grupa c",
+          "faza": "Grupa C",
+          "runda": "Kolejka 2",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/641",
+            "id_zrodlowe": "/gracze/641",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/641",
+                "nazwa": "Chojecki Rafał"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/12823",
+            "id_zrodlowe": "/gracze/12823",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12823",
+                "nazwa": "Radochoński Mariusz"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "6/3 6/3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:685ed8dad2ec1db716b2",
+          "grupa_id": "kluby:12196:15675:grupa c",
+          "faza": "Grupa C",
+          "runda": "Kolejka 2",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/54044",
+            "id_zrodlowe": "/gracze/54044",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/54044",
+                "nazwa": "Ezzat Mikołaj"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/46050",
+            "id_zrodlowe": "/gracze/46050",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/46050",
+                "nazwa": "Ryński Kamil"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "6/3 6/3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:033ff8b35368776f2864",
+          "grupa_id": "kluby:12196:15675:grupa c",
+          "faza": "Grupa C",
+          "runda": "Kolejka 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/641",
+            "id_zrodlowe": "/gracze/641",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/641",
+                "nazwa": "Chojecki Rafał"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/54044",
+            "id_zrodlowe": "/gracze/54044",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/54044",
+                "nazwa": "Ezzat Mikołaj"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 7,
+              "b": 6
+            },
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "7/6(5) 6/3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:e44cb4123b3e7b3b8690",
+          "grupa_id": "kluby:12196:15675:grupa c",
+          "faza": "Grupa C",
+          "runda": "Kolejka 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12823",
+            "id_zrodlowe": "/gracze/12823",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12823",
+                "nazwa": "Radochoński Mariusz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/46050",
+            "id_zrodlowe": "/gracze/46050",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/46050",
+                "nazwa": "Ryński Kamil"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "6/3 6/2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:fa1275ac0a459e9cc005",
+          "grupa_id": "kluby:12196:15675:grupa d",
+          "faza": "Grupa D",
+          "runda": "Kolejka 1",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/16370",
+            "id_zrodlowe": "/gracze/16370",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/16370",
+                "nazwa": "Dąbrowski Mateusz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/39734",
+            "id_zrodlowe": "/gracze/39734",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/39734",
+                "nazwa": "Ezzat Wojciech"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 7,
+              "b": 6
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "7/6(7) 6/2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:1e4417c130981c7ab70d",
+          "grupa_id": "kluby:12196:15675:grupa d",
+          "faza": "Grupa D",
+          "runda": "Kolejka 1",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12805",
+            "id_zrodlowe": "/gracze/12805",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12805",
+                "nazwa": "Różycki Rafał"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/19610",
+            "id_zrodlowe": "/gracze/19610",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/19610",
+                "nazwa": "Półtorak Albert"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 4
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "6/4 6/2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:942dbce48aa7f00cfcdd",
+          "grupa_id": "kluby:12196:15675:grupa d",
+          "faza": "Grupa D",
+          "runda": "Kolejka 2",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/16370",
+            "id_zrodlowe": "/gracze/16370",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/16370",
+                "nazwa": "Dąbrowski Mateusz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/19610",
+            "id_zrodlowe": "/gracze/19610",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/19610",
+                "nazwa": "Półtorak Albert"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 2
+            },
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "6/2 6/3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:4468d98fb2e8ef040f0c",
+          "grupa_id": "kluby:12196:15675:grupa d",
+          "faza": "Grupa D",
+          "runda": "Kolejka 2",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/12805",
+            "id_zrodlowe": "/gracze/12805",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12805",
+                "nazwa": "Różycki Rafał"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/39734",
+            "id_zrodlowe": "/gracze/39734",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/39734",
+                "nazwa": "Ezzat Wojciech"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 4
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "6/4 6/2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:a6c7cc43ead3bebe7d4d",
+          "grupa_id": "kluby:12196:15675:grupa d",
+          "faza": "Grupa D",
+          "runda": "Kolejka 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/16370",
+            "id_zrodlowe": "/gracze/16370",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/16370",
+                "nazwa": "Dąbrowski Mateusz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/12805",
+            "id_zrodlowe": "/gracze/12805",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12805",
+                "nazwa": "Różycki Rafał"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "6/3 6/2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:65a8cd68f9da86e9cd5a",
+          "grupa_id": "kluby:12196:15675:grupa d",
+          "faza": "Grupa D",
+          "runda": "Kolejka 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:/gracze/19610",
+            "id_zrodlowe": "/gracze/19610",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/19610",
+                "nazwa": "Półtorak Albert"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/39734",
+            "id_zrodlowe": "/gracze/39734",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/39734",
+                "nazwa": "Ezzat Wojciech"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 5,
+              "b": 7
+            },
+            {
+              "a": 4,
+              "b": 6
+            }
+          ],
+          "wynik": "5/7 4/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:9412751501229ba4edb9",
+          "grupa_id": "kluby:12196:15675:1/4 finalu",
+          "faza": "1/4 finału",
+          "runda": "1/4 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/12823",
+            "id_zrodlowe": "/gracze/12823",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12823",
+                "nazwa": "Radochoński Mariusz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/12805",
+            "id_zrodlowe": "/gracze/12805",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12805",
+                "nazwa": "Różycki Rafał"
+              }
+            ]
+          },
+          "sety": [],
+          "wynik": "",
+          "walkower": false,
+          "zwyciezca": null,
+          "zakonczony": false,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:7e59ab59060524545ea9",
+          "grupa_id": "kluby:12196:15675:1/4 finalu",
+          "faza": "1/4 finału",
+          "runda": "1/4 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/12732",
+            "id_zrodlowe": "/gracze/12732",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12732",
+                "nazwa": "Kutyłowski Karol"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/53670",
+            "id_zrodlowe": "/gracze/53670",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/53670",
+                "nazwa": "Warchoł Piotr"
+              }
+            ]
+          },
+          "sety": [],
+          "wynik": "",
+          "walkower": false,
+          "zwyciezca": null,
+          "zakonczony": false,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:ccdc07906adb9d0d3601",
+          "grupa_id": "kluby:12196:15675:1/4 finalu",
+          "faza": "1/4 finału",
+          "runda": "1/4 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/12730",
+            "id_zrodlowe": "/gracze/12730",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/12730",
+                "nazwa": "Gojło Daniel"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/535",
+            "id_zrodlowe": "/gracze/535",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/535",
+                "nazwa": "Łuczyniec Michał"
+              }
+            ]
+          },
+          "sety": [],
+          "wynik": "",
+          "walkower": false,
+          "zwyciezca": null,
+          "zakonczony": false,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "OPEN"
+        },
+        {
+          "id": "kluby-mecz:d74992242f5968fcfca5",
+          "grupa_id": "kluby:12196:15675:1/4 finalu",
+          "faza": "1/4 finału",
+          "runda": "1/4 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/54044",
+            "id_zrodlowe": "/gracze/54044",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/54044",
+                "nazwa": "Ezzat Mikołaj"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/16370",
+            "id_zrodlowe": "/gracze/16370",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/16370",
+                "nazwa": "Dąbrowski Mateusz"
+              }
+            ]
+          },
           "sety": [],
           "wynik": "",
           "walkower": false,
@@ -161242,7 +163045,1410 @@
       "final_id": null,
       "gotowy": false,
       "uwagi": [
+        "Brak potwierdzonego finału",
         "OPEN: Brak części rozegranych meczów lub wyników"
+      ]
+    },
+    "pzt:56E632DF-5D31-4F75-B856-219905D2F828": {
+      "id": "pzt:56E632DF-5D31-4F75-B856-219905D2F828",
+      "zrodlo": "PZT TOP",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=56E632DF-5D31-4F75-B856-219905D2F828",
+      "nazwa": "Klubowy MIXT WRZESIEŃ - ArKademia OLESNO",
+      "kategoria": "Open Amator. Gra podwójna. Mieszany",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-12",
+      "miasto": "Olesno",
+      "mecze": [
+        {
+          "id": "pzt-mecz:2647be5657429938634a",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:0e5232937a2773cf9f|pzt-nazwa:9da0f406e1effbde73",
+            "id_zrodlowe": "pzt-nazwa:0e5232937a2773cf9f|pzt-nazwa:9da0f406e1effbde73",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0e5232937a2773cf9f",
+                "nazwa": "Spałka Marlena"
+              },
+              {
+                "id": "pzt-nazwa:9da0f406e1effbde73",
+                "nazwa": "Spałka Artur"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:b7333745dc6fc9fbd8|pzt-nazwa:190b53a9cd2256adbd",
+            "id_zrodlowe": "pzt-nazwa:b7333745dc6fc9fbd8|pzt-nazwa:190b53a9cd2256adbd",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:b7333745dc6fc9fbd8",
+                "nazwa": "Brodny Zbigniew"
+              },
+              {
+                "id": "pzt-nazwa:190b53a9cd2256adbd",
+                "nazwa": "Iwanowska Danuta"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 1
+            }
+          ],
+          "wynik": "4:0 4:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:2f01589c576a64c4baf4",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:2abd2d09399da6e48a|pzt-nazwa:1dd3b494e76ef0a879",
+            "id_zrodlowe": "pzt-nazwa:2abd2d09399da6e48a|pzt-nazwa:1dd3b494e76ef0a879",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:2abd2d09399da6e48a",
+                "nazwa": "Michalczyk Mirosław"
+              },
+              {
+                "id": "pzt-nazwa:1dd3b494e76ef0a879",
+                "nazwa": "Lembke-Rarok Justyna"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:0e5232937a2773cf9f|pzt-nazwa:9da0f406e1effbde73",
+            "id_zrodlowe": "pzt-nazwa:0e5232937a2773cf9f|pzt-nazwa:9da0f406e1effbde73",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0e5232937a2773cf9f",
+                "nazwa": "Spałka Marlena"
+              },
+              {
+                "id": "pzt-nazwa:9da0f406e1effbde73",
+                "nazwa": "Spałka Artur"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 4,
+              "b": 2
+            }
+          ],
+          "wynik": "4:1 4:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:d4a0a10fc4a326b5dae6",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:2abd2d09399da6e48a|pzt-nazwa:1dd3b494e76ef0a879",
+            "id_zrodlowe": "pzt-nazwa:2abd2d09399da6e48a|pzt-nazwa:1dd3b494e76ef0a879",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:2abd2d09399da6e48a",
+                "nazwa": "Michalczyk Mirosław"
+              },
+              {
+                "id": "pzt-nazwa:1dd3b494e76ef0a879",
+                "nazwa": "Lembke-Rarok Justyna"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:b7333745dc6fc9fbd8|pzt-nazwa:190b53a9cd2256adbd",
+            "id_zrodlowe": "pzt-nazwa:b7333745dc6fc9fbd8|pzt-nazwa:190b53a9cd2256adbd",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:b7333745dc6fc9fbd8",
+                "nazwa": "Brodny Zbigniew"
+              },
+              {
+                "id": "pzt-nazwa:190b53a9cd2256adbd",
+                "nazwa": "Iwanowska Danuta"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 2
+            },
+            {
+              "a": 4,
+              "b": 1
+            }
+          ],
+          "wynik": "4:2 4:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:985d2316371aaafeb9b0",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:5272b8aa8214332ae5|pzt-nazwa:72bf63661e8f078165",
+            "id_zrodlowe": "pzt-nazwa:5272b8aa8214332ae5|pzt-nazwa:72bf63661e8f078165",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5272b8aa8214332ae5",
+                "nazwa": "Przeniczna Magdalena"
+              },
+              {
+                "id": "pzt-nazwa:72bf63661e8f078165",
+                "nazwa": "Przeniczny Michał"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:7ad38f75aebe92b18b|pzt-nazwa:84d24aa91570f8e492",
+            "id_zrodlowe": "pzt-nazwa:7ad38f75aebe92b18b|pzt-nazwa:84d24aa91570f8e492",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:7ad38f75aebe92b18b",
+                "nazwa": "Wildau Monika"
+              },
+              {
+                "id": "pzt-nazwa:84d24aa91570f8e492",
+                "nazwa": "Wildau Martin"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 0,
+              "b": 4
+            },
+            {
+              "a": 4,
+              "b": 2
+            },
+            {
+              "a": 7,
+              "b": 6
+            }
+          ],
+          "wynik": "0:4 4:2 7:6",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:5d63a8c0daf712d4a908",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:7ad38f75aebe92b18b|pzt-nazwa:84d24aa91570f8e492",
+            "id_zrodlowe": "pzt-nazwa:7ad38f75aebe92b18b|pzt-nazwa:84d24aa91570f8e492",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:7ad38f75aebe92b18b",
+                "nazwa": "Wildau Monika"
+              },
+              {
+                "id": "pzt-nazwa:84d24aa91570f8e492",
+                "nazwa": "Wildau Martin"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:9fadadca2ff52aa0b0|pzt-nazwa:3e691eb9a3b4ef5b47",
+            "id_zrodlowe": "pzt-nazwa:9fadadca2ff52aa0b0|pzt-nazwa:3e691eb9a3b4ef5b47",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:9fadadca2ff52aa0b0",
+                "nazwa": "Matusik Rafał"
+              },
+              {
+                "id": "pzt-nazwa:3e691eb9a3b4ef5b47",
+                "nazwa": "Matusik Ewelina"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 3
+            },
+            {
+              "a": 4,
+              "b": 0
+            }
+          ],
+          "wynik": "4:3 4:0",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:65092c281ca66dfaa425",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:5272b8aa8214332ae5|pzt-nazwa:72bf63661e8f078165",
+            "id_zrodlowe": "pzt-nazwa:5272b8aa8214332ae5|pzt-nazwa:72bf63661e8f078165",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5272b8aa8214332ae5",
+                "nazwa": "Przeniczna Magdalena"
+              },
+              {
+                "id": "pzt-nazwa:72bf63661e8f078165",
+                "nazwa": "Przeniczny Michał"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:9fadadca2ff52aa0b0|pzt-nazwa:3e691eb9a3b4ef5b47",
+            "id_zrodlowe": "pzt-nazwa:9fadadca2ff52aa0b0|pzt-nazwa:3e691eb9a3b4ef5b47",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:9fadadca2ff52aa0b0",
+                "nazwa": "Matusik Rafał"
+              },
+              {
+                "id": "pzt-nazwa:3e691eb9a3b4ef5b47",
+                "nazwa": "Matusik Ewelina"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 2
+            },
+            {
+              "a": 4,
+              "b": 0
+            }
+          ],
+          "wynik": "4:2 4:0",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:8806d35c262c35a31b26",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:7ad38f75aebe92b18b|pzt-nazwa:84d24aa91570f8e492",
+            "id_zrodlowe": "pzt-nazwa:7ad38f75aebe92b18b|pzt-nazwa:84d24aa91570f8e492",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:7ad38f75aebe92b18b",
+                "nazwa": "Wildau Monika"
+              },
+              {
+                "id": "pzt-nazwa:84d24aa91570f8e492",
+                "nazwa": "Wildau Martin"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:dee9cccb23ad44630d|pzt-nazwa:2feff1c000701438f4",
+            "id_zrodlowe": "pzt-nazwa:dee9cccb23ad44630d|pzt-nazwa:2feff1c000701438f4",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:dee9cccb23ad44630d",
+                "nazwa": "Glińska Grażyna"
+              },
+              {
+                "id": "pzt-nazwa:2feff1c000701438f4",
+                "nazwa": "Gliński Radosław"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 2
+            }
+          ],
+          "wynik": "4:0 4:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:21b3da35dde6c28f4dc2",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:dee9cccb23ad44630d|pzt-nazwa:2feff1c000701438f4",
+            "id_zrodlowe": "pzt-nazwa:dee9cccb23ad44630d|pzt-nazwa:2feff1c000701438f4",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:dee9cccb23ad44630d",
+                "nazwa": "Glińska Grażyna"
+              },
+              {
+                "id": "pzt-nazwa:2feff1c000701438f4",
+                "nazwa": "Gliński Radosław"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:5272b8aa8214332ae5|pzt-nazwa:72bf63661e8f078165",
+            "id_zrodlowe": "pzt-nazwa:5272b8aa8214332ae5|pzt-nazwa:72bf63661e8f078165",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5272b8aa8214332ae5",
+                "nazwa": "Przeniczna Magdalena"
+              },
+              {
+                "id": "pzt-nazwa:72bf63661e8f078165",
+                "nazwa": "Przeniczny Michał"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 3
+            },
+            {
+              "a": 3,
+              "b": 4
+            },
+            {
+              "a": 7,
+              "b": 5
+            }
+          ],
+          "wynik": "4:3 3:4 7:5",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:5507b17af412f02ed259",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa b",
+          "faza": "Grupa B",
+          "runda": "Grupa B",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:dee9cccb23ad44630d|pzt-nazwa:2feff1c000701438f4",
+            "id_zrodlowe": "pzt-nazwa:dee9cccb23ad44630d|pzt-nazwa:2feff1c000701438f4",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:dee9cccb23ad44630d",
+                "nazwa": "Glińska Grażyna"
+              },
+              {
+                "id": "pzt-nazwa:2feff1c000701438f4",
+                "nazwa": "Gliński Radosław"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:9fadadca2ff52aa0b0|pzt-nazwa:3e691eb9a3b4ef5b47",
+            "id_zrodlowe": "pzt-nazwa:9fadadca2ff52aa0b0|pzt-nazwa:3e691eb9a3b4ef5b47",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:9fadadca2ff52aa0b0",
+                "nazwa": "Matusik Rafał"
+              },
+              {
+                "id": "pzt-nazwa:3e691eb9a3b4ef5b47",
+                "nazwa": "Matusik Ewelina"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 3
+            },
+            {
+              "a": 4,
+              "b": 0
+            }
+          ],
+          "wynik": "4:3 4:0",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:ae5c73405ec93e4ab11b",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:3487602035f6028d00|pzt-nazwa:0ae97b46f9245a48d0",
+            "id_zrodlowe": "pzt-nazwa:3487602035f6028d00|pzt-nazwa:0ae97b46f9245a48d0",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3487602035f6028d00",
+                "nazwa": "Lempa Paweł"
+              },
+              {
+                "id": "pzt-nazwa:0ae97b46f9245a48d0",
+                "nazwa": "Stellmach Żaneta"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:b0b8bb84c1cec5bd8e|pzt-nazwa:006f15efe07376371c",
+            "id_zrodlowe": "pzt-nazwa:b0b8bb84c1cec5bd8e|pzt-nazwa:006f15efe07376371c",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:b0b8bb84c1cec5bd8e",
+                "nazwa": "Kwiatoń Łukasz"
+              },
+              {
+                "id": "pzt-nazwa:006f15efe07376371c",
+                "nazwa": "Michalak-Famuła Eliza"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 3
+            },
+            {
+              "a": 2,
+              "b": 4
+            },
+            {
+              "a": 7,
+              "b": 1
+            }
+          ],
+          "wynik": "4:3 2:4 7:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:afbd2949910d8e610f36",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:3487602035f6028d00|pzt-nazwa:0ae97b46f9245a48d0",
+            "id_zrodlowe": "pzt-nazwa:3487602035f6028d00|pzt-nazwa:0ae97b46f9245a48d0",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3487602035f6028d00",
+                "nazwa": "Lempa Paweł"
+              },
+              {
+                "id": "pzt-nazwa:0ae97b46f9245a48d0",
+                "nazwa": "Stellmach Żaneta"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:3b0fcef073d302533c|pzt-nazwa:0cb07ee0ecfa14fb2b",
+            "id_zrodlowe": "pzt-nazwa:3b0fcef073d302533c|pzt-nazwa:0cb07ee0ecfa14fb2b",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3b0fcef073d302533c",
+                "nazwa": "Rabiega Irena"
+              },
+              {
+                "id": "pzt-nazwa:0cb07ee0ecfa14fb2b",
+                "nazwa": "Liguda Jan"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 1
+            }
+          ],
+          "wynik": "4:0 4:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:52f6e1910895887e0565",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:3b0fcef073d302533c|pzt-nazwa:0cb07ee0ecfa14fb2b",
+            "id_zrodlowe": "pzt-nazwa:3b0fcef073d302533c|pzt-nazwa:0cb07ee0ecfa14fb2b",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3b0fcef073d302533c",
+                "nazwa": "Rabiega Irena"
+              },
+              {
+                "id": "pzt-nazwa:0cb07ee0ecfa14fb2b",
+                "nazwa": "Liguda Jan"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:b0b8bb84c1cec5bd8e|pzt-nazwa:006f15efe07376371c",
+            "id_zrodlowe": "pzt-nazwa:b0b8bb84c1cec5bd8e|pzt-nazwa:006f15efe07376371c",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:b0b8bb84c1cec5bd8e",
+                "nazwa": "Kwiatoń Łukasz"
+              },
+              {
+                "id": "pzt-nazwa:006f15efe07376371c",
+                "nazwa": "Michalak-Famuła Eliza"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 3
+            },
+            {
+              "a": 1,
+              "b": 4
+            },
+            {
+              "a": 7,
+              "b": 6
+            }
+          ],
+          "wynik": "4:3 1:4 7:6",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:6ea2590438966b5738eb",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:3487602035f6028d00|pzt-nazwa:0ae97b46f9245a48d0",
+            "id_zrodlowe": "pzt-nazwa:3487602035f6028d00|pzt-nazwa:0ae97b46f9245a48d0",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3487602035f6028d00",
+                "nazwa": "Lempa Paweł"
+              },
+              {
+                "id": "pzt-nazwa:0ae97b46f9245a48d0",
+                "nazwa": "Stellmach Żaneta"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:5ca3e97daa1141d1b6|pzt-nazwa:abeaa73c8a850cc08a",
+            "id_zrodlowe": "pzt-nazwa:5ca3e97daa1141d1b6|pzt-nazwa:abeaa73c8a850cc08a",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5ca3e97daa1141d1b6",
+                "nazwa": "Brodny Arkadiusz"
+              },
+              {
+                "id": "pzt-nazwa:abeaa73c8a850cc08a",
+                "nazwa": "Brodny Agnieszka"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 0
+            }
+          ],
+          "wynik": "4:0 4:0",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:678eef8853b376ba776c",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:b0b8bb84c1cec5bd8e|pzt-nazwa:006f15efe07376371c",
+            "id_zrodlowe": "pzt-nazwa:b0b8bb84c1cec5bd8e|pzt-nazwa:006f15efe07376371c",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:b0b8bb84c1cec5bd8e",
+                "nazwa": "Kwiatoń Łukasz"
+              },
+              {
+                "id": "pzt-nazwa:006f15efe07376371c",
+                "nazwa": "Michalak-Famuła Eliza"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:5ca3e97daa1141d1b6|pzt-nazwa:abeaa73c8a850cc08a",
+            "id_zrodlowe": "pzt-nazwa:5ca3e97daa1141d1b6|pzt-nazwa:abeaa73c8a850cc08a",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5ca3e97daa1141d1b6",
+                "nazwa": "Brodny Arkadiusz"
+              },
+              {
+                "id": "pzt-nazwa:abeaa73c8a850cc08a",
+                "nazwa": "Brodny Agnieszka"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 4,
+              "b": 2
+            }
+          ],
+          "wynik": "4:1 4:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:310397bedb0e2b42a636",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa c",
+          "faza": "Grupa C",
+          "runda": "Grupa C",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:3b0fcef073d302533c|pzt-nazwa:0cb07ee0ecfa14fb2b",
+            "id_zrodlowe": "pzt-nazwa:3b0fcef073d302533c|pzt-nazwa:0cb07ee0ecfa14fb2b",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3b0fcef073d302533c",
+                "nazwa": "Rabiega Irena"
+              },
+              {
+                "id": "pzt-nazwa:0cb07ee0ecfa14fb2b",
+                "nazwa": "Liguda Jan"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:5ca3e97daa1141d1b6|pzt-nazwa:abeaa73c8a850cc08a",
+            "id_zrodlowe": "pzt-nazwa:5ca3e97daa1141d1b6|pzt-nazwa:abeaa73c8a850cc08a",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5ca3e97daa1141d1b6",
+                "nazwa": "Brodny Arkadiusz"
+              },
+              {
+                "id": "pzt-nazwa:abeaa73c8a850cc08a",
+                "nazwa": "Brodny Agnieszka"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 4,
+              "b": 3
+            }
+          ],
+          "wynik": "4:1 4:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:3d72f4c80d829b0cd7b1",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa faza finalowa. grupa 1 - 3",
+          "faza": "Grupa Faza finałowa. Grupa 1 - 3",
+          "runda": "Grupa Faza finałowa. Grupa 1 - 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:2abd2d09399da6e48a|pzt-nazwa:1dd3b494e76ef0a879",
+            "id_zrodlowe": "pzt-nazwa:2abd2d09399da6e48a|pzt-nazwa:1dd3b494e76ef0a879",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:2abd2d09399da6e48a",
+                "nazwa": "Michalczyk Mirosław"
+              },
+              {
+                "id": "pzt-nazwa:1dd3b494e76ef0a879",
+                "nazwa": "Lembke-Rarok Justyna"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:7ad38f75aebe92b18b|pzt-nazwa:84d24aa91570f8e492",
+            "id_zrodlowe": "pzt-nazwa:7ad38f75aebe92b18b|pzt-nazwa:84d24aa91570f8e492",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:7ad38f75aebe92b18b",
+                "nazwa": "Wildau Monika"
+              },
+              {
+                "id": "pzt-nazwa:84d24aa91570f8e492",
+                "nazwa": "Wildau Martin"
+              }
+            ]
+          },
+          "sety": [],
+          "wynik": "w.o.",
+          "walkower": true,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:d26d30f096f6099027d6",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa faza finalowa. grupa 1 - 3",
+          "faza": "Grupa Faza finałowa. Grupa 1 - 3",
+          "runda": "Grupa Faza finałowa. Grupa 1 - 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:3487602035f6028d00|pzt-nazwa:0ae97b46f9245a48d0",
+            "id_zrodlowe": "pzt-nazwa:3487602035f6028d00|pzt-nazwa:0ae97b46f9245a48d0",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3487602035f6028d00",
+                "nazwa": "Lempa Paweł"
+              },
+              {
+                "id": "pzt-nazwa:0ae97b46f9245a48d0",
+                "nazwa": "Stellmach Żaneta"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:2abd2d09399da6e48a|pzt-nazwa:1dd3b494e76ef0a879",
+            "id_zrodlowe": "pzt-nazwa:2abd2d09399da6e48a|pzt-nazwa:1dd3b494e76ef0a879",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:2abd2d09399da6e48a",
+                "nazwa": "Michalczyk Mirosław"
+              },
+              {
+                "id": "pzt-nazwa:1dd3b494e76ef0a879",
+                "nazwa": "Lembke-Rarok Justyna"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 2,
+              "b": 4
+            },
+            {
+              "a": 7,
+              "b": 5
+            }
+          ],
+          "wynik": "4:1 2:4 7:5",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:b55900607e7e75fa1f33",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa faza finalowa. grupa 1 - 3",
+          "faza": "Grupa Faza finałowa. Grupa 1 - 3",
+          "runda": "Grupa Faza finałowa. Grupa 1 - 3",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:3487602035f6028d00|pzt-nazwa:0ae97b46f9245a48d0",
+            "id_zrodlowe": "pzt-nazwa:3487602035f6028d00|pzt-nazwa:0ae97b46f9245a48d0",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3487602035f6028d00",
+                "nazwa": "Lempa Paweł"
+              },
+              {
+                "id": "pzt-nazwa:0ae97b46f9245a48d0",
+                "nazwa": "Stellmach Żaneta"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:7ad38f75aebe92b18b|pzt-nazwa:84d24aa91570f8e492",
+            "id_zrodlowe": "pzt-nazwa:7ad38f75aebe92b18b|pzt-nazwa:84d24aa91570f8e492",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:7ad38f75aebe92b18b",
+                "nazwa": "Wildau Monika"
+              },
+              {
+                "id": "pzt-nazwa:84d24aa91570f8e492",
+                "nazwa": "Wildau Martin"
+              }
+            ]
+          },
+          "sety": [],
+          "wynik": "w.o.",
+          "walkower": true,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:e1dcb41330a6a291d88c",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa faza finalowa. grupa 4 - 6",
+          "faza": "Grupa Faza finałowa. Grupa 4 - 6",
+          "runda": "Grupa Faza finałowa. Grupa 4 - 6",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:5272b8aa8214332ae5|pzt-nazwa:72bf63661e8f078165",
+            "id_zrodlowe": "pzt-nazwa:5272b8aa8214332ae5|pzt-nazwa:72bf63661e8f078165",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5272b8aa8214332ae5",
+                "nazwa": "Przeniczna Magdalena"
+              },
+              {
+                "id": "pzt-nazwa:72bf63661e8f078165",
+                "nazwa": "Przeniczny Michał"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:0e5232937a2773cf9f|pzt-nazwa:9da0f406e1effbde73",
+            "id_zrodlowe": "pzt-nazwa:0e5232937a2773cf9f|pzt-nazwa:9da0f406e1effbde73",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0e5232937a2773cf9f",
+                "nazwa": "Spałka Marlena"
+              },
+              {
+                "id": "pzt-nazwa:9da0f406e1effbde73",
+                "nazwa": "Spałka Artur"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 2,
+              "b": 4
+            },
+            {
+              "a": 4,
+              "b": 2
+            },
+            {
+              "a": 7,
+              "b": 5
+            }
+          ],
+          "wynik": "2:4 4:2 7:5",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:306916d19bce09bea79b",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa faza finalowa. grupa 4 - 6",
+          "faza": "Grupa Faza finałowa. Grupa 4 - 6",
+          "runda": "Grupa Faza finałowa. Grupa 4 - 6",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:3b0fcef073d302533c|pzt-nazwa:0cb07ee0ecfa14fb2b",
+            "id_zrodlowe": "pzt-nazwa:3b0fcef073d302533c|pzt-nazwa:0cb07ee0ecfa14fb2b",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3b0fcef073d302533c",
+                "nazwa": "Rabiega Irena"
+              },
+              {
+                "id": "pzt-nazwa:0cb07ee0ecfa14fb2b",
+                "nazwa": "Liguda Jan"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:0e5232937a2773cf9f|pzt-nazwa:9da0f406e1effbde73",
+            "id_zrodlowe": "pzt-nazwa:0e5232937a2773cf9f|pzt-nazwa:9da0f406e1effbde73",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0e5232937a2773cf9f",
+                "nazwa": "Spałka Marlena"
+              },
+              {
+                "id": "pzt-nazwa:9da0f406e1effbde73",
+                "nazwa": "Spałka Artur"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 0
+            }
+          ],
+          "wynik": "4:0 4:0",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:df1cdcad94994105a6ec",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa faza finalowa. grupa 4 - 6",
+          "faza": "Grupa Faza finałowa. Grupa 4 - 6",
+          "runda": "Grupa Faza finałowa. Grupa 4 - 6",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:3b0fcef073d302533c|pzt-nazwa:0cb07ee0ecfa14fb2b",
+            "id_zrodlowe": "pzt-nazwa:3b0fcef073d302533c|pzt-nazwa:0cb07ee0ecfa14fb2b",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3b0fcef073d302533c",
+                "nazwa": "Rabiega Irena"
+              },
+              {
+                "id": "pzt-nazwa:0cb07ee0ecfa14fb2b",
+                "nazwa": "Liguda Jan"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:5272b8aa8214332ae5|pzt-nazwa:72bf63661e8f078165",
+            "id_zrodlowe": "pzt-nazwa:5272b8aa8214332ae5|pzt-nazwa:72bf63661e8f078165",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5272b8aa8214332ae5",
+                "nazwa": "Przeniczna Magdalena"
+              },
+              {
+                "id": "pzt-nazwa:72bf63661e8f078165",
+                "nazwa": "Przeniczny Michał"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 1
+            },
+            {
+              "a": 2,
+              "b": 4
+            },
+            {
+              "a": 7,
+              "b": 1
+            }
+          ],
+          "wynik": "4:1 2:4 7:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:7daf491febd7e1ffafba",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa faza finalowa. grupa 7 - 9",
+          "faza": "Grupa Faza finałowa. Grupa 7 - 9",
+          "runda": "Grupa Faza finałowa. Grupa 7 - 9",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:dee9cccb23ad44630d|pzt-nazwa:2feff1c000701438f4",
+            "id_zrodlowe": "pzt-nazwa:dee9cccb23ad44630d|pzt-nazwa:2feff1c000701438f4",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:dee9cccb23ad44630d",
+                "nazwa": "Glińska Grażyna"
+              },
+              {
+                "id": "pzt-nazwa:2feff1c000701438f4",
+                "nazwa": "Gliński Radosław"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:b7333745dc6fc9fbd8|pzt-nazwa:190b53a9cd2256adbd",
+            "id_zrodlowe": "pzt-nazwa:b7333745dc6fc9fbd8|pzt-nazwa:190b53a9cd2256adbd",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:b7333745dc6fc9fbd8",
+                "nazwa": "Brodny Zbigniew"
+              },
+              {
+                "id": "pzt-nazwa:190b53a9cd2256adbd",
+                "nazwa": "Iwanowska Danuta"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 2
+            }
+          ],
+          "wynik": "4:0 4:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:659fb4c507fee848d10d",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa faza finalowa. grupa 7 - 9",
+          "faza": "Grupa Faza finałowa. Grupa 7 - 9",
+          "runda": "Grupa Faza finałowa. Grupa 7 - 9",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:b0b8bb84c1cec5bd8e|pzt-nazwa:006f15efe07376371c",
+            "id_zrodlowe": "pzt-nazwa:b0b8bb84c1cec5bd8e|pzt-nazwa:006f15efe07376371c",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:b0b8bb84c1cec5bd8e",
+                "nazwa": "Kwiatoń Łukasz"
+              },
+              {
+                "id": "pzt-nazwa:006f15efe07376371c",
+                "nazwa": "Michalak-Famuła Eliza"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:b7333745dc6fc9fbd8|pzt-nazwa:190b53a9cd2256adbd",
+            "id_zrodlowe": "pzt-nazwa:b7333745dc6fc9fbd8|pzt-nazwa:190b53a9cd2256adbd",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:b7333745dc6fc9fbd8",
+                "nazwa": "Brodny Zbigniew"
+              },
+              {
+                "id": "pzt-nazwa:190b53a9cd2256adbd",
+                "nazwa": "Iwanowska Danuta"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 2
+            },
+            {
+              "a": 4,
+              "b": 3
+            }
+          ],
+          "wynik": "4:2 4:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:6411e3ffb403621d2906",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa faza finalowa. grupa 7 - 9",
+          "faza": "Grupa Faza finałowa. Grupa 7 - 9",
+          "runda": "Grupa Faza finałowa. Grupa 7 - 9",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:dee9cccb23ad44630d|pzt-nazwa:2feff1c000701438f4",
+            "id_zrodlowe": "pzt-nazwa:dee9cccb23ad44630d|pzt-nazwa:2feff1c000701438f4",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:dee9cccb23ad44630d",
+                "nazwa": "Glińska Grażyna"
+              },
+              {
+                "id": "pzt-nazwa:2feff1c000701438f4",
+                "nazwa": "Gliński Radosław"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:b0b8bb84c1cec5bd8e|pzt-nazwa:006f15efe07376371c",
+            "id_zrodlowe": "pzt-nazwa:b0b8bb84c1cec5bd8e|pzt-nazwa:006f15efe07376371c",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:b0b8bb84c1cec5bd8e",
+                "nazwa": "Kwiatoń Łukasz"
+              },
+              {
+                "id": "pzt-nazwa:006f15efe07376371c",
+                "nazwa": "Michalak-Famuła Eliza"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 0
+            },
+            {
+              "a": 4,
+              "b": 1
+            }
+          ],
+          "wynik": "4:0 4:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        },
+        {
+          "id": "pzt-mecz:4466828358a9e1250f01",
+          "grupa_id": "pzt:D024A10E-9454-420E-B154-C4F52DC3E8DE:grupa faza finalowa. grupa 10 - 12",
+          "faza": "Grupa Faza finałowa. Grupa 10 - 12",
+          "runda": "Grupa Faza finałowa. Grupa 10 - 12",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "para:pzt-nazwa:9fadadca2ff52aa0b0|pzt-nazwa:3e691eb9a3b4ef5b47",
+            "id_zrodlowe": "pzt-nazwa:9fadadca2ff52aa0b0|pzt-nazwa:3e691eb9a3b4ef5b47",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:9fadadca2ff52aa0b0",
+                "nazwa": "Matusik Rafał"
+              },
+              {
+                "id": "pzt-nazwa:3e691eb9a3b4ef5b47",
+                "nazwa": "Matusik Ewelina"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:pzt-nazwa:5ca3e97daa1141d1b6|pzt-nazwa:abeaa73c8a850cc08a",
+            "id_zrodlowe": "pzt-nazwa:5ca3e97daa1141d1b6|pzt-nazwa:abeaa73c8a850cc08a",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5ca3e97daa1141d1b6",
+                "nazwa": "Brodny Arkadiusz"
+              },
+              {
+                "id": "pzt-nazwa:abeaa73c8a850cc08a",
+                "nazwa": "Brodny Agnieszka"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 4,
+              "b": 3
+            },
+            {
+              "a": 4,
+              "b": 1
+            }
+          ],
+          "wynik": "4:3 4:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open Amator. Gra podwójna. Mieszany",
+          "event_id": "D024A10E-9454-420E-B154-C4F52DC3E8DE",
+          "event_key": "open amator|gra podwojna|mieszany"
+        }
+      ],
+      "final_id": null,
+      "gotowy": false,
+      "uwagi": [
+        "Turniej grupowy bez pojedynczego finału — news wymaga kontroli redakcyjnej"
       ]
     }
   }
