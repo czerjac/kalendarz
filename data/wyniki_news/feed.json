@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T18:04:56.148236+00:00",
+  "generated_at": "2026-09-13T18:14:26.621635+00:00",
   "run_date": "2026-09-13",
   "cutoff_exclusive": "2026-07-01",
   "weekend_start": "2026-09-04",
@@ -22,7 +22,7 @@
       "date_end": "2026-07-04",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -39,7 +39,7 @@
       "date_end": "2026-07-04",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -56,7 +56,7 @@
       "date_end": "2026-07-04",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -73,7 +73,7 @@
       "date_end": "2026-07-04",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -90,7 +90,7 @@
       "date_end": "2026-07-04",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -107,7 +107,7 @@
       "date_end": "2026-07-04",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -124,7 +124,7 @@
       "date_end": "2026-07-04",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -141,7 +141,7 @@
       "date_end": "2026-07-04",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "łódzkie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -158,7 +158,7 @@
       "date_end": "2026-07-04",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "łódzkie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -175,7 +175,7 @@
       "date_end": "2026-07-04",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -192,7 +192,7 @@
       "date_end": "2026-07-05",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -209,7 +209,7 @@
       "date_end": "2026-07-05",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -226,7 +226,7 @@
       "date_end": "2026-07-05",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -246,7 +246,7 @@
         "Brak części rozegranych meczów lub wyników",
         "Brak potwierdzonego pojedynczego finału"
       ],
-      "voivodeship": "",
+      "voivodeship": "świętokrzyskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -263,7 +263,7 @@
       "date_end": "2026-07-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "łódzkie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -280,7 +280,7 @@
       "date_end": "2026-07-11",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -297,7 +297,7 @@
       "date_end": "2026-07-11",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -314,7 +314,7 @@
       "date_end": "2026-07-11",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -331,7 +331,7 @@
       "date_end": "2026-07-11",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -348,7 +348,7 @@
       "date_end": "2026-07-11",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -365,7 +365,7 @@
       "date_end": "2026-07-11",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -382,7 +382,7 @@
       "date_end": "2026-07-11",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -399,7 +399,7 @@
       "date_end": "2026-07-11",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -416,7 +416,7 @@
       "date_end": "2026-07-12",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -433,7 +433,7 @@
       "date_end": "2026-07-12",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -450,7 +450,7 @@
       "date_end": "2026-07-12",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "śląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -467,7 +467,7 @@
       "date_end": "2026-07-12",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "lubelskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -484,7 +484,7 @@
       "date_end": "2026-07-12",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "małopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -501,7 +501,7 @@
       "date_end": "2026-07-12",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -518,7 +518,7 @@
       "date_end": "2026-07-18",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -535,7 +535,7 @@
       "date_end": "2026-07-18",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -552,7 +552,7 @@
       "date_end": "2026-07-18",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -569,7 +569,7 @@
       "date_end": "2026-07-18",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -586,7 +586,7 @@
       "date_end": "2026-07-18",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "małopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -603,7 +603,7 @@
       "date_end": "2026-07-18",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "małopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -620,7 +620,7 @@
       "date_end": "2026-07-18",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -637,7 +637,7 @@
       "date_end": "2026-07-18",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -654,7 +654,7 @@
       "date_end": "2026-07-18",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -671,7 +671,7 @@
       "date_end": "2026-07-18",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -688,7 +688,7 @@
       "date_end": "2026-07-19",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -705,7 +705,7 @@
       "date_end": "2026-07-19",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "lubuskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -722,7 +722,7 @@
       "date_end": "2026-07-19",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -739,7 +739,7 @@
       "date_end": "2026-07-25",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -756,7 +756,7 @@
       "date_end": "2026-07-25",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "świętokrzyskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -773,7 +773,7 @@
       "date_end": "2026-07-25",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "świętokrzyskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -790,7 +790,7 @@
       "date_end": "2026-07-26",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -807,7 +807,7 @@
       "date_end": "2026-07-26",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -824,7 +824,7 @@
       "date_end": "2026-07-26",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "śląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -841,7 +841,7 @@
       "date_end": "2026-07-26",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -858,7 +858,7 @@
       "date_end": "2026-08-01",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -875,7 +875,7 @@
       "date_end": "2026-08-01",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -892,7 +892,7 @@
       "date_end": "2026-08-01",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -909,7 +909,7 @@
       "date_end": "2026-08-01",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "świętokrzyskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -926,7 +926,7 @@
       "date_end": "2026-08-01",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "lubuskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -943,7 +943,7 @@
       "date_end": "2026-08-02",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -960,7 +960,7 @@
       "date_end": "2026-08-02",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -977,7 +977,7 @@
       "date_end": "2026-08-02",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -994,7 +994,7 @@
       "date_end": "2026-08-02",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1011,7 +1011,7 @@
       "date_end": "2026-08-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1028,7 +1028,7 @@
       "date_end": "2026-08-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1045,7 +1045,7 @@
       "date_end": "2026-08-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1062,7 +1062,7 @@
       "date_end": "2026-08-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1079,7 +1079,7 @@
       "date_end": "2026-08-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1096,7 +1096,7 @@
       "date_end": "2026-08-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1113,7 +1113,7 @@
       "date_end": "2026-08-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1130,7 +1130,7 @@
       "date_end": "2026-08-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1147,7 +1147,7 @@
       "date_end": "2026-08-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "małopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1164,7 +1164,7 @@
       "date_end": "2026-08-08",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "małopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1181,7 +1181,7 @@
       "date_end": "2026-08-09",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "łódzkie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1198,7 +1198,7 @@
       "date_end": "2026-08-09",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "małopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1215,7 +1215,7 @@
       "date_end": "2026-08-09",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "małopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1232,7 +1232,7 @@
       "date_end": "2026-08-09",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1249,7 +1249,7 @@
       "date_end": "2026-08-09",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1266,7 +1266,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1283,7 +1283,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1300,7 +1300,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1317,7 +1317,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1334,7 +1334,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1351,7 +1351,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1370,7 +1370,7 @@
       "issues": [
         "Brak potwierdzonego pojedynczego finału"
       ],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1387,7 +1387,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1404,7 +1404,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "łódzkie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1421,7 +1421,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "lubelskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1438,7 +1438,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "kujawsko-pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1455,7 +1455,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1472,7 +1472,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1489,7 +1489,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "małopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1506,7 +1506,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "małopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1523,7 +1523,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "świętokrzyskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1540,7 +1540,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "świętokrzyskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1557,7 +1557,7 @@
       "date_end": "2026-08-15",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1574,7 +1574,7 @@
       "date_end": "2026-08-16",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1591,7 +1591,7 @@
       "date_end": "2026-08-16",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "śląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1608,7 +1608,7 @@
       "date_end": "2026-08-16",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "kujawsko-pomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1625,7 +1625,7 @@
       "date_end": "2026-08-22",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1642,7 +1642,7 @@
       "date_end": "2026-08-22",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1659,7 +1659,7 @@
       "date_end": "2026-08-22",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1676,7 +1676,7 @@
       "date_end": "2026-08-22",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "śląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1693,7 +1693,7 @@
       "date_end": "2026-08-22",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "świętokrzyskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1710,7 +1710,7 @@
       "date_end": "2026-08-22",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1727,7 +1727,7 @@
       "date_end": "2026-08-23",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1744,7 +1744,7 @@
       "date_end": "2026-08-23",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1761,7 +1761,7 @@
       "date_end": "2026-08-23",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1778,7 +1778,7 @@
       "date_end": "2026-08-23",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1795,7 +1795,7 @@
       "date_end": "2026-08-23",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1812,7 +1812,7 @@
       "date_end": "2026-08-23",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1829,7 +1829,7 @@
       "date_end": "2026-08-23",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1846,7 +1846,7 @@
       "date_end": "2026-08-23",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "łódzkie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1863,7 +1863,7 @@
       "date_end": "2026-08-23",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1880,7 +1880,7 @@
       "date_end": "2026-08-29",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1897,7 +1897,7 @@
       "date_end": "2026-08-29",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1914,7 +1914,7 @@
       "date_end": "2026-08-29",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1931,7 +1931,7 @@
       "date_end": "2026-08-29",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "małopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1948,7 +1948,7 @@
       "date_end": "2026-08-29",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1965,7 +1965,7 @@
       "date_end": "2026-08-30",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1982,7 +1982,7 @@
       "date_end": "2026-08-30",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -1999,7 +1999,7 @@
       "date_end": "2026-08-30",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2016,7 +2016,7 @@
       "date_end": "2026-08-30",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "dolnośląskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2033,7 +2033,7 @@
       "date_end": "2026-08-30",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2050,7 +2050,7 @@
       "date_end": "2026-08-30",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2067,7 +2067,7 @@
       "date_end": "2026-08-30",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "wielkopolskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2243,7 +2243,7 @@
       "date_end": "2026-09-05",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2260,7 +2260,7 @@
       "date_end": "2026-09-05",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2277,7 +2277,7 @@
       "date_end": "2026-09-05",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2294,7 +2294,7 @@
       "date_end": "2026-09-05",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2465,7 +2465,7 @@
       "date_end": "2026-09-06",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2482,7 +2482,7 @@
       "date_end": "2026-09-06",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2499,7 +2499,7 @@
       "date_end": "2026-09-06",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2516,7 +2516,7 @@
       "date_end": "2026-09-06",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "zachodniopomorskie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2533,7 +2533,7 @@
       "date_end": "2026-09-06",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "podkarpackie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
@@ -2550,7 +2550,7 @@
       "date_end": "2026-09-06",
       "ready": true,
       "issues": [],
-      "voivodeship": "",
+      "voivodeship": "mazowieckie",
       "cycle": "PLT",
       "tags": [
         "Polska Liga Tenisa"
