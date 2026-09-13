@@ -27,6 +27,46 @@ MONTHS_PL = {
     7: 'lipca', 8: 'sierpnia', 9: 'września', 10: 'października', 11: 'listopada', 12: 'grudnia',
 }
 
+# Static fallback for historical PLT records, which store a city but no voivodeship.
+# The list covers every distinct PLT city present after 2026-07-01 in the 2026 archive.
+PLT_CITY_VOIVODESHIP = {
+    'barlinek': 'zachodniopomorskie',
+    'chelmek k oswiecimia': 'małopolskie',
+    'gdansk': 'pomorskie',
+    'gorzow wielkopolski': 'lubuskie',
+    'kamien': 'wielkopolskie',
+    'kielce': 'świętokrzyskie',
+    'koszalin': 'zachodniopomorskie',
+    'kolobrzeg': 'zachodniopomorskie',
+    'krakow': 'małopolskie',
+    'legnica': 'dolnośląskie',
+    'leszno': 'wielkopolskie',
+    'lezajsk': 'podkarpackie',
+    'lublin': 'lubelskie',
+    'myslenice': 'małopolskie',
+    'oborniki': 'wielkopolskie',
+    'olesnica': 'dolnośląskie',
+    'otwock': 'mazowieckie',
+    'olawa': 'dolnośląskie',
+    'piaseczno': 'mazowieckie',
+    'piekary slaskie': 'śląskie',
+    'poznan': 'wielkopolskie',
+    'rzeszow': 'podkarpackie',
+    'sanok': 'podkarpackie',
+    'sieradz': 'łódzkie',
+    'sobota k poznania': 'wielkopolskie',
+    'szamotuly': 'wielkopolskie',
+    'szczecin': 'zachodniopomorskie',
+    'sztum': 'pomorskie',
+    'slupsk': 'pomorskie',
+    'tarnow': 'małopolskie',
+    'trzcianka': 'wielkopolskie',
+    'warszawa': 'mazowieckie',
+    'wloclawek': 'kujawsko-pomorskie',
+    'lodz': 'łódzkie',
+    'swidnica': 'dolnośląskie',
+}
+
 
 def load(path, default):
     return json.loads(path.read_text('utf-8')) if path.exists() else default
@@ -54,6 +94,20 @@ def label(side, separator=', '):
 def fold_text(value):
     text = str(value or '').casefold().replace('ł', 'l')
     return unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
+
+
+def city_key(value):
+    return ' '.join(fold_text(value).replace('.', ' ').split())
+
+
+def voivodeship_for(t, meta):
+    direct = str(meta.get('wojewodztwo') or '').strip()
+    if direct:
+        return direct
+    if t.get('zrodlo') == 'PLT':
+        city = meta.get('miasto') or t.get('miasto') or ''
+        return PLT_CITY_VOIVODESHIP.get(city_key(city), '')
+    return ''
 
 
 def date_phrase(start, end):
@@ -111,6 +165,7 @@ def article(t, meta=None):
     cycle = str(meta.get('cykl') or '')
     venue = str(meta.get('miejsce') or '')
     city = str(meta.get('miasto') or t.get('miasto') or '')
+    voivodeship = voivodeship_for(t, meta)
     date_text, date_intro = date_phrase(t['data_od'], t['data_do'])
 
     if venue and city:
@@ -183,7 +238,7 @@ def article(t, meta=None):
         'date_end': t['data_do'],
         'ready': t['gotowy'],
         'issues': t['uwagi'],
-        'voivodeship': str(meta.get('wojewodztwo') or ''),
+        'voivodeship': voivodeship,
         'cycle': cycle,
         'tags': suggested_tags(t, meta),
         'fingerprint': hashlib.sha256((title + '\n' + body).encode()).hexdigest(),
