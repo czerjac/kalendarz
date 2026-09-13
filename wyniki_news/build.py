@@ -129,31 +129,14 @@ def article(t, meta=None):
     if cycle and fold_text(cycle) not in {'brak', 'none'}:
         intro += f' Zawody były częścią cyklu {esc(cycle)}.'
 
-    winner = loser = None
+    winner = None
     if final and final.get('zwyciezca') in {'a', 'b'}:
-        winner_key = final['zwyciezca']
-        loser_key = 'b' if winner_key == 'a' else 'a'
-        winner = final['strona_' + winner_key]
-        loser = final['strona_' + loser_key]
-        result = esc(final.get('wynik') or '')
+        winner = final['strona_' + final['zwyciezca']]
         winner_label = esc(label(winner))
-        loser_label = esc(label(loser))
-        if len(winner.get('zawodnicy', [])) == 2 and len(loser.get('zawodnicy', [])) == 2:
-            intro += f' Zwyciężyła para {winner_label}, która w finale okazała się lepsza od pary {loser_label}'
-            if result:
-                intro += f' {result}'
-            intro += '.'
+        if len(winner.get('zawodnicy', [])) == 2:
+            intro += f' W turnieju triumfuje para {winner_label}.'
         else:
-            gender = singles_gender(category or t.get('kategoria', ''))
-            if gender == 'female':
-                intro += f' W finale {winner_label} pokonała {loser_label}'
-            elif gender == 'male':
-                intro += f' W finale {winner_label} pokonał {loser_label}'
-            else:
-                intro += f' Finał: {winner_label} – {loser_label}'
-            if result:
-                intro += f' {result}'
-            intro += '.'
+            intro += f' W turnieju triumfuje {winner_label}.'
     intro += ' Poniżej szczegółowe wyniki.'
 
     parts = ['<p>' + intro + '</p>']
@@ -225,6 +208,47 @@ def discover():
     return merged
 
 
+def metadata_for_result(t, known):
+    """Find calendar metadata even when a results URL differs from the calendar URL."""
+    url = str(t.get('url') or '')
+    trimmed = url.rstrip('/')
+    variants = [url, trimmed]
+    if trimmed.endswith('/wyniki'):
+        base = trimmed[:-len('/wyniki')]
+        variants.extend([base, base + '/'])
+    for candidate in variants:
+        if candidate in known:
+            return known[candidate]
+
+    source = t.get('zrodlo')
+    result_id = str(t.get('id') or '')
+    suffix = result_id.split(':', 1)[1] if ':' in result_id else ''
+    matches = []
+    for meta in known.values():
+        if meta.get('zrodlo') != source:
+            continue
+        meta_url = str(meta.get('url') or '')
+        last_segment = meta_url.rstrip('/').split('/')[-1]
+        if source == 'PLT' and suffix and last_segment.endswith('-' + suffix):
+            matches.append(meta)
+        elif source == 'Kluby.org' and suffix and f'/turnieje/{suffix}' in meta_url:
+            matches.append(meta)
+        elif source == 'PZT TOP' and suffix and suffix.casefold() in meta_url.casefold():
+            matches.append(meta)
+    if len(matches) == 1:
+        return matches[0]
+
+    target_name = fold_text(t.get('nazwa') or '')
+    target_date = str(t.get('data_od') or '')
+    fallback = [
+        meta for meta in known.values()
+        if meta.get('zrodlo') == source
+        and str(meta.get('data_od') or '') == target_date
+        and fold_text(meta.get('nazwa') or '') == target_name
+    ]
+    return fallback[0] if len(fallback) == 1 else {}
+
+
 def main():
     import requests
     ap = argparse.ArgumentParser()
@@ -270,7 +294,7 @@ def main():
             save(OUT / 'stan.json', state)
             time.sleep(0.25)
 
-    posts = [article(t, state['known'].get(t.get('url', ''), {})) for t in state['results'].values()]
+    posts = [article(t, metadata_for_result(t, state['known'])) for t in state['results'].values()]
     posts.sort(key=lambda x: (x['date_end'], x['id']))
     # Weekly window is Friday–Monday; delayed results use backfill/manual import or retry queue.
     monday = today - timedelta(days=(today.weekday() - 0) % 7)
