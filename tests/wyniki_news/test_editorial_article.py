@@ -1,6 +1,6 @@
 import unittest
 
-from wyniki_news.build import article
+from wyniki_news.build import article, metadata_for_result
 
 
 class EditorialArticleTest(unittest.TestCase):
@@ -45,7 +45,10 @@ class EditorialArticleTest(unittest.TestCase):
         self.assertNotIn('<table', post['content'])
         self.assertNotIn('Zawodnik / para A', post['content'])
         self.assertIn('W dniu 12 września 2026', post['content'])
-        self.assertIn('Zwyciężyła para Mariusz Osiak, Włodek Brzusek', post['content'])
+        self.assertIn('W turnieju triumfuje para Mariusz Osiak, Włodek Brzusek.', post['content'])
+        lead = post['content'].split('</p>', 1)[0]
+        self.assertNotIn('7:5', lead)
+        self.assertNotIn('Jan Kowalski', lead)
         self.assertIn(
             'Mariusz Osiak, Włodek Brzusek – Jan Kowalski, Sebastian Nowak <strong>7:5</strong>',
             post['content'],
@@ -53,6 +56,25 @@ class EditorialArticleTest(unittest.TestCase):
         self.assertNotIn('Sebastian Nowak — <strong>7:5</strong>', post['content'])
         self.assertEqual(post['voivodeship'], 'mazowieckie')
         self.assertEqual(post['tags'], ['Grand Prix Mazowsza'])
+
+    def test_plt_results_url_recovers_calendar_metadata(self):
+        known = {
+            'https://polskaligatenisa.pl/turnieje/puchar-plt/test-5143': {
+                'url': 'https://polskaligatenisa.pl/turnieje/puchar-plt/test-5143',
+                'zrodlo': 'PLT',
+                'nazwa': 'Test',
+                'data_od': '2026-07-04',
+                'wojewodztwo': 'wielkopolskie',
+            }
+        }
+        result = {
+            'id': 'plt:5143',
+            'zrodlo': 'PLT',
+            'url': 'https://polskaligatenisa.pl/turnieje/puchar-plt/test-5143/wyniki',
+            'nazwa': 'Test',
+            'data_od': '2026-07-04',
+        }
+        self.assertEqual(metadata_for_result(result, known)['wojewodztwo'], 'wielkopolskie')
 
     def test_source_tags_are_controlled(self):
         base = {
