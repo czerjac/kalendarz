@@ -1,34 +1,34 @@
 {
   "rok": 2026,
-  "aktualizacja_utc": "2026-09-08T18:22:01+00:00",
+  "aktualizacja_utc": "2026-09-14T11:01:31+00:00",
   "bledy_zrodel": [],
   "liczba_rekordow_zrodlowych": {
-    "PZT TOP": 135,
-    "TKKF Skanda": 21,
-    "Cuply": 23,
-    "PLT": 401,
-    "Kluby.org": 415
+    "PZT TOP": 141,
+    "TKKF Skanda": 22,
+    "Cuply": 24,
+    "PLT": 411,
+    "Kluby.org": 424
   },
-  "liczba_po_filtrze_dat_i_roku": 995,
+  "liczba_po_filtrze_dat_i_roku": 1022,
   "liczba_odrzuconych_jakosc": 0,
   "odrzucone_jakosc": [],
-  "liczba_po_kontroli_jakosci": 995,
+  "liczba_po_kontroli_jakosci": 1022,
   "liczba_potencjalnych_par_duplikatow": 0,
-  "liczba_niezweryfikowanych": 420,
+  "liczba_niezweryfikowanych": 430,
+  "liczba_wg_statusu_archiwum": {
+    "niezweryfikowany": 430,
+    "rozegrany": 134,
+    "zakonczony_wg_zrodla": 458
+  },
   "audyt": {
-    "aktualizacja_utc": "2026-09-08T18:42:52+00:00",
-    "pzt_liczba": 135,
-    "pzt_szczegoly_pobrane_w_tym_przebiegu": 135,
+    "aktualizacja_utc": "2026-09-14T11:01:37+00:00",
+    "pzt_liczba": 141,
+    "pzt_szczegoly_pobrane_w_tym_przebiegu": 9,
     "pzt_bledy_szczegolow": 0,
-    "pzt_z_miastem": 135,
-    "pzt_z_potwierdzonymi_wynikami": 129,
-    "pzt_bez_potwierdzonych_wynikow": 6,
+    "pzt_z_miastem": 141,
+    "pzt_z_potwierdzonymi_wynikami": 134,
+    "pzt_bez_potwierdzonych_wynikow": 7,
     "liczba_kandydatow_duplikatow": 0,
     "kandydaci_wg_pewnosci": {}
-  },
-  "liczba_wg_statusu_archiwum": {
-    "niezweryfikowany": 420,
-    "rozegrany": 129,
-    "zakonczony_wg_zrodla": 446
   }
 }

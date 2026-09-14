@@ -1,9 +1,9 @@
 {
   "zrodlo": "Cuply",
   "rok": 2026,
-  "aktualizacja_utc": "2026-09-08T18:20:28+00:00",
-  "liczba_rekordow": 23,
-  "liczba_widzianych_w_tym_odczycie": 23,
+  "aktualizacja_utc": "2026-09-14T10:59:53+00:00",
+  "liczba_rekordow": 24,
+  "liczba_widzianych_w_tym_odczycie": 24,
   "turnieje": [
     {
       "zrodlo": "Cuply",
@@ -17,7 +17,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "27393b684d8e15c35a",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -32,7 +32,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "b654e498a12b076983",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -47,7 +47,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "b1bf484f8919819441",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -62,7 +62,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "9d7ee4056b754c1472",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -77,7 +77,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "b9cba6592f3207882b",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -92,7 +92,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "84d900e33c19e26f6c",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -107,7 +107,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "4800785c049cb58f74",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -122,7 +122,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "d7d202a327f29c2cab",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -137,7 +137,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "fb54f8b55de7dc0262",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -152,7 +152,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "937b189f38f31dafd7",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -167,7 +167,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "3c3458440335b67812",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -182,7 +182,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "3d1d850a99cb3b362a",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -197,7 +197,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "4e09a89fee3eeab68e",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -213,7 +213,7 @@
       "uwaga_zrodla": "niespojny_zakres_dat_w_zrodle",
       "klucz_zrodla": "f98088f6f7572ea803",
       "pierwsze_wykrycie_utc": "2026-09-08T18:20:28+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -228,7 +228,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "bef2c608b2d88f0f9a",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -243,7 +243,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "473cc6cedb9c2026b4",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -258,7 +258,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "d0bf609cbbb4a52021",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -273,7 +273,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "7d77744f4197a62d24",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -288,7 +288,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "b438b3dde0aad81abe",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -303,7 +303,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "74daa7c6449efcea89",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -318,7 +318,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "7545c998d566c88057",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -333,7 +333,7 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "068335588b0a0961bd",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     },
     {
@@ -348,7 +348,22 @@
       "status_zrodla": "Zakończone",
       "klucz_zrodla": "67a6dbf44abf30ccf6",
       "pierwsze_wykrycie_utc": "2026-09-08T18:10:26+00:00",
-      "ostatnio_widziany_utc": "2026-09-08T18:20:28+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
+      "aktywny_w_zrodle_przy_ostatnim_odczycie": true
+    },
+    {
+      "zrodlo": "Cuply",
+      "cykl_szczegolowy": "Cuply",
+      "nazwa": "Grand Prix Łobza - Turniej Charytatywny - Gramy dla Dominika",
+      "data_od": "2026-09-13",
+      "data_do": "2026-09-13",
+      "miasto": "Łobez",
+      "miejsce": "Korty Miejskie w Łobzie, Łobez",
+      "url": "https://cuply.pl/turnieje/grand-prix-lobza-turniej-charytatywny-gramy-dla-dominika",
+      "status_zrodla": "Zakończone",
+      "klucz_zrodla": "3893adfd69341316b1",
+      "pierwsze_wykrycie_utc": "2026-09-14T10:59:53+00:00",
+      "ostatnio_widziany_utc": "2026-09-14T10:59:53+00:00",
       "aktywny_w_zrodle_przy_ostatnim_odczycie": true
     }
   ],
@@ -366,7 +381,7 @@
     {
       "strona": 3,
       "url": "https://cuply.pl/turnieje?sortuj=zakonczone&page=3",
-      "liczba": 3
+      "liczba": 4
     },
     {
       "strona": 4,
