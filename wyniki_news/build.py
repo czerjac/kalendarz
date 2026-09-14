@@ -323,18 +323,38 @@ def metadata_for_result(t, known):
     return fallback[0] if len(fallback) == 1 else {}
 
 
+def overlaps_date_range(item, start, end):
+    if start is None or end is None:
+        return True
+    try:
+        item_start = date.fromisoformat(item.get('data_od') or item.get('data_do'))
+        item_end = date.fromisoformat(item.get('data_do') or item.get('data_od'))
+    except (TypeError, ValueError):
+        return False
+    return item_end >= start and item_start <= end
+
+
 def main():
     import requests
     ap = argparse.ArgumentParser()
     ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--today', type=date.fromisoformat)
     ap.add_argument('--backfill', action='store_true', help='Ręcznie odśwież całe archiwum po 1 lipca; domyślnie tylko ostatnie 7 dni')
+    ap.add_argument('--date-from', dest='date_from', type=date.fromisoformat, help='Początek celowanego zakresu YYYY-MM-DD')
+    ap.add_argument('--date-to', dest='date_to', type=date.fromisoformat, help='Koniec celowanego zakresu YYYY-MM-DD')
     args = ap.parse_args()
+    if (args.date_from is None) != (args.date_to is None):
+        ap.error('--date-from i --date-to muszą być podane razem')
+    if args.date_from and args.date_from > args.date_to:
+        ap.error('--date-from nie może być późniejsza niż --date-to')
     now = datetime.now(timezone.utc)
     today = args.today or datetime.now(ZoneInfo('Europe/Warsaw')).date()
     state = load(OUT / 'stan.json', {'known': {}, 'attempts': {}, 'results': {}})
     state['known'].update(discover())
-    candidates = [x for x in state['known'].values() if eligible(x, today)]
+    candidates = [
+        x for x in state['known'].values()
+        if eligible(x, today) and overlaps_date_range(x, args.date_from, args.date_to)
+    ]
     pending = [x for x in candidates if x.get('zrodlo') not in ADAPTERS]
     jobs = []
     for x in candidates:
@@ -342,7 +362,7 @@ def main():
             continue
         # Weekly snapshot only; older events require an explicit manual backfill.
         age = (today - date.fromisoformat(x.get('data_do') or x['data_od'])).days
-        if args.backfill or age <= 7:
+        if args.backfill or args.date_from is not None or age <= 7:
             jobs.append(x)
     jobs.sort(key=lambda x: (state['attempts'].get(x['url'], {}).get('date', ''), x['data_od'], x.get('zrodlo', '')))
     if args.limit:

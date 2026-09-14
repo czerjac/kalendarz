@@ -42,7 +42,7 @@ function get_post($id) { global $posts; return clone $posts[$id]; }
 function check($condition,$message) { if(!$condition)throw new Exception($message); echo 'OK '.$message.PHP_EOL; }
 function entry($id,$ready=true,$body='wyniki',$source='plt') {
     $title='Turniej '.$source.':'.$id;
-    return array('id'=>$source.':'.$id,'title'=>$title,'content'=>$body,'fingerprint'=>hash('sha256',$title."\n".$body),'date_end'=>'2026-07-04','ready'=>$ready,'issues'=>array());
+    return array('id'=>$source.':'.$id,'title'=>$title,'content'=>$body,'fingerprint'=>hash('sha256',$title."\n".$body),'date_start'=>'2026-07-04','date_end'=>'2026-07-04','ready'=>$ready,'issues'=>array());
 }
 require __DIR__.'/../../wordpress/tenis-net-wyniki/tenis-net-wyniki.php';
 $feed['posts']=array(entry(1)); Tenis_NET_Wyniki::import(true);
@@ -105,3 +105,13 @@ $entry['fingerprint']=hash('sha256',$entry['title']."\n".$entry['content']);
 $feed['posts']=array($entry); Tenis_NET_Wyniki::import(true);
 check($posts[1]->post_category===array(7),'existing regional category still applies when tag is unsupported');
 check(($post_terms[1]['post_tag']??array())===array(),'unsupported tag is never created or assigned');
+
+
+$posts=array(); $meta=array(); $post_terms=array();
+$a=entry(700,true,'weekend a','kluby'); $a['date_start']='2026-08-28'; $a['date_end']='2026-08-29';
+$b=entry(701,true,'weekend b','cuply'); $b['date_start']='2026-08-30'; $b['date_end']='2026-08-30';
+$c=entry(702,true,'outside','plt'); $c['date_start']='2026-09-05'; $c['date_end']='2026-09-05';
+$feed['posts']=array($a,$b,$c);
+Tenis_NET_Wyniki::import(true,'2026-08-29','2026-08-30');
+check(count($posts)===2,'manual date range imports only overlapping tournaments');
+check(isset($posts[1]) && isset($posts[2]),'date range includes tournament spanning into selected weekend');

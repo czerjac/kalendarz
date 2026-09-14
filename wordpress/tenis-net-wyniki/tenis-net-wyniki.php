@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Tenis NET – Wyniki i newsy
  * Description: Importuje osobny plik wyników z GitHuba do zwykłych wpisów. Nie zmienia kalendarza.
- * Version: 0.3.1
+ * Version: 0.4.0
  * Requires PHP: 7.4
  * Author: Tenis NET
  */

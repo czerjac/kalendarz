@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Tenis NET – Wyniki i newsy
  * Description: Importuje osobny plik wyników z GitHuba do zwykłych wpisów. Nie zmienia kalendarza.
- * Version: 0.3.0
+ * Version: 0.4.0
  * Requires PHP: 7.4
  * Author: Tenis NET
  */
@@ -18,6 +18,7 @@ final class Tenis_NET_Wyniki {
         add_action('admin_menu', array(__CLASS__, 'menu'));
         add_action('admin_post_tnw_save', array(__CLASS__, 'save'));
         add_action('admin_post_tnw_import', array(__CLASS__, 'manual'));
+        add_action('admin_post_tnw_import_range', array(__CLASS__, 'manual_range'));
         add_action(self::HOOK, array(__CLASS__, 'scheduled'));
         add_action('add_meta_boxes', function() {
             add_meta_box('tnw_source', 'Wyniki Tenis NET — aktualizacja źródła', array(__CLASS__, 'metabox'), 'post', 'normal');
@@ -66,6 +67,10 @@ final class Tenis_NET_Wyniki {
         submit_button('Zapisz ustawienia'); echo '</form><hr>';
         echo '<h2>Archiwalne newsy</h2><p>Każde kliknięcie obsłuży do 10 nowych lub zmienionych turniejów. Ponowne uruchomienie nie tworzy kopii. Archiwalne artykuły otrzymują bieżącą datę publikacji; data turnieju jest w treści. Niepełne wyniki zawsze trafiają do szkiców.</p>';
         echo '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="tnw_import">'; wp_nonce_field('tnw_import'); submit_button('Importuj kolejne 10 turniejów od lipca', 'secondary'); echo '</form>';
+        echo '<h3>Import z wybranego zakresu dat</h3><p>Wybierz maksymalnie 14 kolejnych dni. Import obejmie wyłącznie turnieje, których termin choć częściowo pokrywa się z zakresem. Jedno kliknięcie obsłuży do 50 nowych lub zmienionych wpisów; ponowienie nie tworzy duplikatów.</p>';
+        echo '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="tnw_import_range">'; wp_nonce_field('tnw_import_range');
+        echo '<p><label>Od: <input type="date" name="date_from" required></label> &nbsp; <label>Do: <input type="date" name="date_to" required></label></p>';
+        submit_button('Importuj turnieje z zakresu', 'secondary'); echo '</form>';
         echo '<h2>Ostatni przebieg</h2><pre>' . esc_html(get_option('tnw_last_report', 'Jeszcze nie uruchomiono.')) . '</pre></div>';
     }
 
@@ -82,6 +87,22 @@ final class Tenis_NET_Wyniki {
 
     public static function manual() {
         self::guard(); check_admin_referer('tnw_import'); self::import(true);
+        wp_safe_redirect(admin_url('tools.php?page=tnw')); exit;
+    }
+
+    public static function manual_range() {
+        self::guard(); check_admin_referer('tnw_import_range');
+        $from = sanitize_text_field($_POST['date_from'] ?? '');
+        $to = sanitize_text_field($_POST['date_to'] ?? '');
+        $tz = new DateTimeZone('Europe/Warsaw');
+        $from_dt = DateTimeImmutable::createFromFormat('!Y-m-d', $from, $tz);
+        $to_dt = DateTimeImmutable::createFromFormat('!Y-m-d', $to, $tz);
+        if (!$from_dt || !$to_dt || $from_dt->format('Y-m-d') !== $from || $to_dt->format('Y-m-d') !== $to) {
+            wp_die('Podaj poprawny zakres dat.');
+        }
+        if ($from_dt > $to_dt) { wp_die('Data początkowa nie może być późniejsza niż końcowa.'); }
+        if (($to_dt->getTimestamp() - $from_dt->getTimestamp()) > 13 * 86400) { wp_die('Zakres może obejmować maksymalnie 14 dni.'); }
+        self::import(true, $from, $to);
         wp_safe_redirect(admin_url('tools.php?page=tnw')); exit;
     }
 
@@ -140,7 +161,7 @@ final class Tenis_NET_Wyniki {
         return array_values(array_unique($ids));
     }
 
-    public static function import($manual) {
+    public static function import($manual, $range_from = null, $range_to = null) {
         $s = self::settings();
         if (!$s['category'] || !user_can($s['author'], 'publish_posts')) { update_option('tnw_last_report', 'Najpierw wybierz kategorię awaryjną i autora.', false); return; }
         // Atomic lock; stale lock recovery after a crashed PHP request.
@@ -166,13 +187,19 @@ final class Tenis_NET_Wyniki {
                     // Exactly the previous seven calendar days, Tuesday through Monday.
                     if ($end < $tuesday->modify('-7 days')->format('Y-m-d') || $end >= $tuesday->format('Y-m-d')) { continue; }
                 }
+                if ($manual && $range_from !== null && $range_to !== null) {
+                    $start = $entry['date_start'] ?? $entry['date_end'];
+                    $end = $entry['date_end'] ?? $entry['date_start'];
+                    if ($end < $range_from || $start > $range_to) { continue; }
+                }
                 $slug = 'tnw-' . str_replace(':', '-', $entry['id']);
                 $existing = get_posts(array('name' => $slug, 'post_type' => 'post', 'post_status' => array('publish', 'draft', 'pending', 'future', 'private', 'trash'), 'numberposts' => 1));
                 if (!$existing) { $existing = get_posts(array('meta_key' => '_tnw_id', 'meta_value' => $entry['id'], 'post_type' => 'post', 'post_status' => array('publish', 'draft', 'pending', 'future', 'private', 'trash'), 'numberposts' => 1)); }
                 $post = $existing ? $existing[0] : null;
                 if ($post && get_post_meta($post->ID, '_tnw_id', true) !== $entry['id']) { throw new Exception('Konflikt adresu wpisu — wymagana ręczna kontrola: ' . $slug); }
                 if ($post && (get_post_meta($post->ID, '_tnw_fingerprint', true) === $entry['fingerprint'] || get_post_meta($post->ID, '_tnw_pending_fingerprint', true) === $entry['fingerprint'] || $post->post_status === 'trash')) { $unchanged++; continue; }
-                if ($manual && $done >= 10) { $remaining++; continue; }
+                $manual_limit = ($range_from !== null && $range_to !== null) ? 50 : 10;
+                if ($manual && $done >= $manual_limit) { $remaining++; continue; }
                 if ($post) {
                     // Keep published and manually edited posts intact; expose a proposed correction.
                     $last = get_post_meta($post->ID, '_tnw_generated_hash', true);
