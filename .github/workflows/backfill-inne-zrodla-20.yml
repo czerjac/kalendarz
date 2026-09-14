@@ -1,0 +1,37 @@
+name: Backfill 20 wyników z innych źródeł
+
+on:
+  push:
+    branches: [backfill/inne-zrodla-20]
+    paths:
+      - '.github/workflows/backfill-inne-zrodla-20.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Zainstaluj zależności
+        run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+      - name: Testy generatora
+        run: python -m unittest discover -s tests/wyniki_news -v
+      - name: Pobierz 20 historycznych turniejów
+        run: python -m wyniki_news.build --backfill --limit 20
+      - name: Zapisz wyniki na gałęzi
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/wyniki_news/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Backfill 20 historycznych wyników spoza PLT'
+            git push origin HEAD:backfill/inne-zrodla-20
+          fi
+      - name: Raport
+        run: cat data/wyniki_news/raport.json >> "$GITHUB_STEP_SUMMARY"
