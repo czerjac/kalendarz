@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T14:30:54.630000+00:00",
+  "generated_at": "2026-09-14T14:34:24.196851+00:00",
   "run_date": "2026-09-14",
   "cutoff_exclusive": "2026-07-01",
   "weekend_start": "2026-09-11",
@@ -658,6 +658,70 @@
       "fingerprint": "5db256b2d89930e61dbb117b7d5394039d3d67e763a9f05e09fcb499cd6b586f"
     },
     {
+      "id": "pzt:CCF6BE05-9567-4714-B4EF-7E5BAC8AE882",
+      "title": "„Grand Prix Gryfina 2026”, Klub Sportowy \"Energetyk\" Gryfino, Amatorska Sekcja Tenisa Ziemnego w Gryfinie — wyniki (2026-07-11)",
+      "content": "<p>W dniu 11 lipca 2026 w miejscowości Gryfino rozegrano turniej <em>„„Grand Prix Gryfina 2026”, Klub Sportowy &quot;Energetyk&quot; Gryfino, Amatorska Sekcja Tenisa Ziemnego w Gryfinie”</em> w kategorii 45+, 60+, Open. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>45+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Grupa A</h3>\n<p><strong>Chanko Adam</strong> – Szymański Krzysztof 7:6 6:4<br>\n<strong>Szymański Krzysztof</strong> – Kmieciński Dariusz 6:0 6:0 w.o.<br>\n<strong>Chanko Adam</strong> – Kmieciński Dariusz 6:2 6:3<br>\n<strong>Szymański Krzysztof</strong> – Giętkowski Tomasz 3:6 6:5 10:8<br>\n<strong>Giętkowski Tomasz</strong> – Chanko Adam 6:2 7:6<br>\n<strong>Giętkowski Tomasz</strong> – Kmieciński Dariusz 6:3 6:3</p>\n<h2>60+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Grupa A</h3>\n<p><strong>Kużdrzał Krzysztof</strong> – Kropaczewski Marek 6:4 6:2<br>\n<strong>Kużdrzał Krzysztof</strong> – Klonowski Henryk 6:4 6:3<br>\n<strong>Kropaczewski Marek</strong> – Klonowski Henryk 3:6 7:6 11:9<br>\n<strong>Gębarowski Mariusz</strong> – Kużdrzał Krzysztof 6:4 2:6 10:4<br>\n<strong>Gębarowski Mariusz</strong> – Kropaczewski Marek 6:2 6:4<br>\n<strong>Gębarowski Mariusz</strong> – Klonowski Henryk 6:2 6:2</p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=CCF6BE05-9567-4714-B4EF-7E5BAC8AE882\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=CCF6BE05-9567-4714-B4EF-7E5BAC8AE882",
+      "source": "PZT TOP",
+      "date_start": "2026-07-11",
+      "date_end": "2026-07-11",
+      "ready": false,
+      "issues": [
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "2ef3980ddda6ff9b7dfe1e01ab7f342094a90f640e6e12e83f60e2909743d728"
+    },
+    {
+      "id": "kluby:11392",
+      "title": "Warszawa: Barwikowski Marcin, Sitarz Rafał triumfują w turnieju Debel 35+\"Lato z WARS-em 2026\"",
+      "content": "<p>W dniu 12 lipca 2026 na obiekcie TKKF Wars, Warszawa (Warszawa) rozegrano turniej <em>„Debel 35+&quot;Lato z WARS-em 2026&quot;”</em> w kategorii DEBEL. W turnieju triumfuje para <strong>Barwikowski Marcin, Sitarz Rafał</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Rudnicki Mariusz, Fedorowski Przemysław</strong> – Łukaszewicz Marcin, Sikorski Waldemar 6/2<br>\n<strong>Wojciechowski Filip, Chłopik Jakub</strong> – Pytel Cezary, Sośnicki Maciej 6/4<br>\n<strong>Rudnicki Mariusz, Fedorowski Przemysław</strong> – Pytel Cezary, Sośnicki Maciej 6/4<br>\n<strong>Wojciechowski Filip, Chłopik Jakub</strong> – Łukaszewicz Marcin, Sikorski Waldemar 6/1<br>\n<strong>Rudnicki Mariusz, Fedorowski Przemysław</strong> – Wojciechowski Filip, Chłopik Jakub 6/2<br>\n<strong>Pytel Cezary, Sośnicki Maciej</strong> – Łukaszewicz Marcin, Sikorski Waldemar 7/5</p>\n<h2>Grupa B</h2>\n<p><strong>Osiak Mariusz, Osiak Dariusz</strong> – Fabisiak Adam, Gomułka Marceli 6/1<br>\nBarwikowski Marcin, Sitarz Rafał – <strong>Fabisiak Adam, Gomułka Marceli</strong> 5/7<br>\nOsiak Mariusz, Osiak Dariusz – <strong>Barwikowski Marcin, Sitarz Rafał</strong> 3/6</p>\n<h2>1/4 finału</h2>\n<p>Pytel Cezary, Sośnicki Maciej – <strong>Barwikowski Marcin, Sitarz Rafał</strong> 3/6<br>\n<strong>Wojciechowski Filip, Chłopik Jakub</strong> – Fabisiak Adam, Gomułka Marceli 7/5<br>\nŁukaszewicz Marcin, Sikorski Waldemar – <strong>Osiak Mariusz, Osiak Dariusz</strong> 3/6</p>\n<h2>1/2 finału</h2>\n<p>Rudnicki Mariusz, Fedorowski Przemysław – <strong>Barwikowski Marcin, Sitarz Rafał</strong> 1/6<br>\nWojciechowski Filip, Chłopik Jakub – <strong>Osiak Mariusz, Osiak Dariusz</strong> 2/6</p>\n<h2>finał</h2>\n<p><strong>Barwikowski Marcin, Sitarz Rafał</strong> – Osiak Mariusz, Osiak Dariusz 7/5</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11392\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11392",
+      "source": "Kluby.org",
+      "date_start": "2026-07-12",
+      "date_end": "2026-07-12",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "805aff64d3bebc96b87b7406d2b45fd1e7ce9468801f3208cbb42d6beb0b4948"
+    },
+    {
+      "id": "kluby:11812",
+      "title": "Inowrocław: Dudziak Sławek triumfuje w turnieju Turniej singlowy Ino-Cup 2026 pod honorowym patronatem Prezydenta Miasta Inowrocławia",
+      "content": "<p>W dniu 12 lipca 2026 na obiekcie OSIR Inowrocław, Inowrocław (Inowrocław) rozegrano turniej <em>„Turniej singlowy Ino-Cup 2026 pod honorowym patronatem Prezydenta Miasta Inowrocławia”</em> w kategorii OPEN. W turnieju triumfuje <strong>Dudziak Sławek</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Dudziak Sławek</strong> – Kurach Dawid 6/2 6/2<br>\n<strong>Strzeboński Bartosz</strong> – Kurach Dawid 7/5 3/6 10/6<br>\n<strong>Dudziak Sławek</strong> – Strzeboński Bartosz 6/2 6/2</p>\n<h2>Grupa B</h2>\n<p><strong>Michalski Adam</strong> – Cieślik Piotr 6/2 6/2<br>\n<strong>Kuśmirek Aneta</strong> – Cieślik Piotr 6/2 6/2<br>\n<strong>Michalski Adam</strong> – Kuśmirek Aneta 6/3 6/2</p>\n<h2>Grupa C</h2>\n<p><strong>Kapeliński Krzysztof</strong> – Kissielevsky Mikael 6/3 6/3<br>\nNowicki Rafał – <strong>Kissielevsky Mikael</strong> 2/6 5/7<br>\n<strong>Kapeliński Krzysztof</strong> – Nowicki Rafał 6/2 6/2</p>\n<h2>Grupa D</h2>\n<p><strong>Bąk Szymon</strong> – Kurtysiak #1 Mateusz 6/2 6/2<br>\n<strong>Nosek Marcin</strong> – Kurtysiak #1 Mateusz 7/6 6/3<br>\n<strong>Bąk Szymon</strong> – Nosek Marcin 6/3 6/4</p>\n<h2>Grupa E</h2>\n<p><strong>Klejnowski Piotr</strong> – Krusiński Michał 7/6 5/7 10/8<br>\n<strong>Buzalski Tomasz</strong> – Krusiński Michał 6/2 6/2<br>\n<strong>Klejnowski Piotr</strong> – Buzalski Tomasz 4/6 6/2 10/1</p>\n<h2>Grupa F</h2>\n<p><strong>Mierzwicki Michał</strong> – Wiśniewski Artur 7/5 6/4<br>\n<strong>Kmita Kamil</strong> – Wiśniewski Artur 6/2 6/4<br>\n<strong>Mierzwicki Michał</strong> – Kmita Kamil 6/4 6/4</p>\n<h2>Grupa G</h2>\n<p><strong>Krzywiński Krzysztof</strong> – Mierzwicki Wiktor 6/2 6/3<br>\n<strong>Rosiński Kamil</strong> – Mierzwicki Wiktor 6/2 6/4<br>\n<strong>Krzywiński Krzysztof</strong> – Rosiński Kamil 6/4 6/2</p>\n<h2>Grupa H</h2>\n<p><strong>Grodziski Rafał</strong> – Błaszkiewicz Mateusz 6/2 6/2<br>\n<strong>Halak Janusz</strong> – Błaszkiewicz Mateusz 6/4 6/2<br>\n<strong>Grodziski Rafał</strong> – Halak Janusz 7/6 4/6 13/11</p>\n<h2>1/4 finału</h2>\n<p>Grodziski Rafał – <strong>Michalski Adam</strong> 2/2 krecz<br>\nKlejnowski Piotr – <strong>Krzywiński Krzysztof</strong> 2/6 6/4 9/11<br>\n<strong>Dudziak Sławek</strong> – Kapeliński Krzysztof 6/4 6/2<br>\n<strong>Bąk Szymon</strong> – Mierzwicki Michał 6/3 6/3<br>\n<strong>Mierzwicki Wiktor</strong> – Kuśmirek Aneta 10/7<br>\n<strong>Buzalski Tomasz</strong> – Rosiński Kamil 10/6<br>\n<strong>Kissielevsky Mikael</strong> – Strzeboński Bartosz 10/5<br>\n<strong>Nosek Marcin</strong> – Kmita Kamil 10/8</p>\n<h2>1/2 finału</h2>\n<p><strong>Michalski Adam</strong> – Krzywiński Krzysztof 6/3 6/3<br>\n<strong>Dudziak Sławek</strong> – Bąk Szymon 7/6 6/3<br>\n<strong>Mierzwicki Wiktor</strong> – Buzalski Tomasz 10/8<br>\nKissielevsky Mikael – <strong>Nosek Marcin</strong> 5/10</p>\n<h2>finał</h2>\n<p>Michalski Adam – <strong>Dudziak Sławek</strong> 5/7 4/6<br>\n<strong>Bąk Szymon</strong> – Krzywiński Krzysztof 6/4 7/6<br>\nMierzwicki Wiktor – <strong>Nosek Marcin</strong> 5/10</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11812\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11812",
+      "source": "Kluby.org",
+      "date_start": "2026-07-12",
+      "date_end": "2026-07-12",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "eff2ffeb8ca740c8d56e2b5f303ed8c87abb955804970b0a0cd5e272c83c393a"
+    },
+    {
+      "id": "kluby:11813",
+      "title": "Inowrocław: Waliszewska Katarzyna, Dudziak Sławek triumfują w turnieju Turniej mikstowy Ino-Cup 2026 pod honorowym patronatem Prezydenta Miasta Inowrocławia",
+      "content": "<p>W dniu 12 lipca 2026 na obiekcie OSIR Inowrocław, Inowrocław (Inowrocław) rozegrano turniej <em>„Turniej mikstowy Ino-Cup 2026 pod honorowym patronatem Prezydenta Miasta Inowrocławia”</em> w kategorii DEBEL MIKST. W turnieju triumfuje para <strong>Waliszewska Katarzyna, Dudziak Sławek</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Gorzelańczyk Jolanta, Drygalski Zenon</strong> – Kusmirek Violetta, Muszalski Damian 6/2 6/4<br>\n<strong>Armknecht Iwona, Armknecht Andrzej</strong> – Kusmirek Violetta, Muszalski Damian 6/3 6/3<br>\n<strong>Gorzelańczyk Jolanta, Drygalski Zenon</strong> – Armknecht Iwona, Armknecht Andrzej 6/2 4/6 10/1</p>\n<h2>Grupa B</h2>\n<p><strong>Adrianna Działak-Patrzek, Patrzek Sebastian</strong> – Izabella Czyżak-Knychała, Knychała Jacek 6/2 6/4<br>\n<strong>Hania Malicka, Michał Malicki</strong> – Izabella Czyżak-Knychała, Knychała Jacek 6/3 6/3<br>\n<strong>Adrianna Działak-Patrzek, Patrzek Sebastian</strong> – Hania Malicka, Michał Malicki 4/6 6/3 10/2</p>\n<h2>Grupa C</h2>\n<p><strong>Skoliniec Oliwia, Grupa Hubert</strong> – Agnieszka Owedyk, Marcin Owedyk 6/2 6/3<br>\n<strong>Marta Szajda, Krzysztof Przybylski</strong> – Agnieszka Owedyk, Marcin Owedyk 6/3 7/5<br>\n<strong>Skoliniec Oliwia, Grupa Hubert</strong> – Marta Szajda, Krzysztof Przybylski 6/2 6/2</p>\n<h2>Grupa D</h2>\n<p><strong>Waliszewska Katarzyna, Dudziak Sławek</strong> – Przybylska Laura, Batog Marcel 6/4 6/3<br>\n<strong>Beata Kozińska, Bąk Szymon</strong> – Przybylska Laura, Batog Marcel 6/3 6/3<br>\n<strong>Waliszewska Katarzyna, Dudziak Sławek</strong> – Beata Kozińska, Bąk Szymon 6/3 6/7 11/9</p>\n<h2>Grupa E</h2>\n<p><strong>Kuśmirek Aneta, Rosiński Daniel</strong> – Łada-Buczkowska Karolina, Buczkowski Grzegorz 6/4 6/2<br>\n<strong>Weronika Janowska, Janowski Tomasz</strong> – Łada-Buczkowska Karolina, Buczkowski Grzegorz 4/6 6/3 10/7<br>\n<strong>Kuśmirek Aneta, Rosiński Daniel</strong> – Weronika Janowska, Janowski Tomasz 6/4 6/3</p>\n<h2>Grupa F</h2>\n<p><strong>Warakomska Anna, Uławski Rafał</strong> – Jaskulska Oliwia, Losik Jarosław 6/2 6/3<br>\n<strong>Kinga Marciniak, Kroczyk Paweł</strong> – Jaskulska Oliwia, Losik Jarosław 6/2 6/4<br>\n<strong>Warakomska Anna, Uławski Rafał</strong> – Kinga Marciniak, Kroczyk Paweł 4/6 6/2 10/5</p>\n<h2>1/4 finału</h2>\n<p><strong>Skoliniec Oliwia, Grupa Hubert</strong> – Armknecht Iwona, Armknecht Andrzej 6/2 6/3<br>\nGorzelańczyk Jolanta, Drygalski Zenon – <strong>Warakomska Anna, Uławski Rafał</strong> 4/6 6/3 5/10<br>\n<strong>Adrianna Działak-Patrzek, Patrzek Sebastian</strong> – Kuśmirek Aneta, Rosiński Daniel 6/2 7/6<br>\n<strong>Waliszewska Katarzyna, Dudziak Sławek</strong> – Marta Szajda, Krzysztof Przybylski 6/3 6/3</p>\n<h2>1/2 finału</h2>\n<p><strong>Skoliniec Oliwia, Grupa Hubert</strong> – Warakomska Anna, Uławski Rafał 6/4 6/2<br>\nAdrianna Działak-Patrzek, Patrzek Sebastian – <strong>Waliszewska Katarzyna, Dudziak Sławek</strong> 3/6 4/6</p>\n<h2>finał</h2>\n<p>Skoliniec Oliwia, Grupa Hubert – <strong>Waliszewska Katarzyna, Dudziak Sławek</strong> 3/6 4/6<br>\n<strong>Warakomska Anna, Uławski Rafał</strong> – Adrianna Działak-Patrzek, Patrzek Sebastian 7/6 6/4</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11813\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11813",
+      "source": "Kluby.org",
+      "date_start": "2026-07-12",
+      "date_end": "2026-07-12",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "41ce417b28d480efecac8915792b653602c3faa1470086f5853df86ca9134695"
+    },
+    {
       "id": "kluby:11836",
       "title": "OPWiK OPEN Ostrołęka ( pula nagród 17.600 zł ) — wyniki (2026-07-10)",
       "content": "<p>W dniach 10–12 lipca 2026 na obiekcie Ostrołęckie Stowarzyszenie Tenisowe, Ostrołęka (Ostrołęka) rozegrano turniej <em>„OPWiK OPEN Ostrołęka ( pula nagród 17.600 zł )”</em> w kategorii OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11836\">Kluby.org — wyniki turnieju</a>.</p>",
@@ -674,6 +738,25 @@
       "cycle": "",
       "tags": [],
       "fingerprint": "81c4c9d1d4809ac98e54c01bde19aff7ca48507eace8fd89f0a1113e48c76951"
+    },
+    {
+      "id": "kluby:11859",
+      "title": "Indywidualny turniej dla początkujących — wyniki (2026-07-12)",
+      "content": "<p>W dniu 12 lipca 2026 na obiekcie Klub Sportowy Masters, Mińsk Mazowiecki (Mińsk Mazowiecki) rozegrano turniej <em>„Indywidualny turniej dla początkujących”</em> w kategorii OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p><strong>Całka Dawid</strong> – Komoda Jakub 7/5<br>\nTalma Bartosz – <strong>Kulma Arkadiusz</strong> 2/6<br>\nCałka Dawid – <strong>Kulma Arkadiusz</strong> 3/6<br>\nTalma Bartosz – <strong>Komoda Jakub</strong> 2/6<br>\n<strong>Całka Dawid</strong> – Talma Bartosz 7/6<br>\n<strong>Kulma Arkadiusz</strong> – Komoda Jakub 6/1</p>\n<h2>Grupa B</h2>\n<p><strong>Jurkowski Tomasz</strong> – Ciołek Arkadiusz 6/2<br>\nJanuszek Dawid – <strong>Wróbel Sebastian</strong> 1/6<br>\n<strong>Jurkowski Tomasz</strong> – Wróbel Sebastian 6/4<br>\nJanuszek Dawid – <strong>Ciołek Arkadiusz</strong> 4/6<br>\n<strong>Jurkowski Tomasz</strong> – Januszek Dawid 6/3<br>\n<strong>Wróbel Sebastian</strong> – Ciołek Arkadiusz 6/4</p>\n<h2>Grupa C</h2>\n<p>Jurkowski Krzysztof – <strong>Celiński Michał</strong> 3/6<br>\nFilip Kopytek – <strong>Replin Dariusz</strong> 0/6<br>\n<strong>Jurkowski Krzysztof</strong> – Replin Dariusz 6/2<br>\nFilip Kopytek – <strong>Celiński Michał</strong> 2/6<br>\n<strong>Jurkowski Krzysztof</strong> – Filip Kopytek 6/3<br>\n<strong>Replin Dariusz</strong> – Celiński Michał 6/2</p>\n<h2>Grupa D</h2>\n<p><strong>Pańkowski Staś</strong> – Kacperski Wojciech 6/3<br>\n<strong>Pluta Hubert</strong> – Marcin Suliga 6/1<br>\n<strong>Pańkowski Staś</strong> – Marcin Suliga 6/0<br>\n<strong>Pluta Hubert</strong> – Kacperski Wojciech 6/0<br>\n<strong>Pańkowski Staś</strong> – Pluta Hubert 7/6<br>\nMarcin Suliga – <strong>Kacperski Wojciech</strong> 3/6</p>\n<h2>Grupa E</h2>\n<p><strong>Woźniak Igor</strong> – Biernat Jakub 6/1<br>\nGajewski Mateusz – <strong>Zięcina Tymon</strong> 1/6<br>\nWoźniak Igor – <strong>Zięcina Tymon</strong> 6/7<br>\n<strong>Gajewski Mateusz</strong> – Biernat Jakub 6/3<br>\n<strong>Woźniak Igor</strong> – Gajewski Mateusz 6/3<br>\n<strong>Zięcina Tymon</strong> – Biernat Jakub 6/0</p>\n<h2>1/4 finału</h2>\n<p>Jurkowski Krzysztof – <strong>Kulma Arkadiusz</strong> 4/6<br>\n<strong>Replin Dariusz</strong> – Pańkowski Staś 6/2<br>\n<strong>Zięcina Tymon</strong> – Pluta Hubert 7/6<br>\n<strong>Woźniak Igor</strong> – Jurkowski Tomasz 6/0</p>\n<h2>1/2 finału</h2>\n<p>Kulma Arkadiusz – <strong>Replin Dariusz</strong> 0/6<br>\n<strong>Zięcina Tymon</strong> – Woźniak Igor 6/3</p>\n<h2>finał</h2>\n<p>Replin Dariusz – <strong>Zięcina Tymon</strong> Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11859\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11859",
+      "source": "Kluby.org",
+      "date_start": "2026-07-12",
+      "date_end": "2026-07-12",
+      "ready": false,
+      "issues": [
+        "Brak potwierdzonego finału",
+        "Brak zakończonego finału",
+        "OPEN: Brak części rozegranych meczów lub wyników"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "2ca0cdef00ac73628f8a235b94e716012fb3f71b3602e6d671d29fa544c2b5e2"
     },
     {
       "id": "kluby:11887",
@@ -848,6 +931,147 @@
       "fingerprint": "d97e0bfc2c6ed721b53ac0c6ec3bc1ac8ebc87c3a7d4fcbf318080adc0efcc47"
     },
     {
+      "id": "pzt:B19E7367-15A4-4931-8D81-CD279211AF5E",
+      "title": "Klubowy MIXT LIPIEC - ArKademia Olesno, Fundacja ArKademia — wyniki (2026-07-11)",
+      "content": "<p>W dniach 11–12 lipca 2026 w miejscowości Olesno rozegrano turniej <em>„Klubowy MIXT LIPIEC - ArKademia Olesno, Fundacja ArKademia”</em> w kategorii Open Amator. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=B19E7367-15A4-4931-8D81-CD279211AF5E\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=B19E7367-15A4-4931-8D81-CD279211AF5E",
+      "source": "PZT TOP",
+      "date_start": "2026-07-11",
+      "date_end": "2026-07-12",
+      "ready": false,
+      "issues": [
+        "6F2AB46B-14D7-4C9F-B911-B501BB345CE2: Nie znaleziono tabeli meczów",
+        "Brak wyników meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "4abf9eb9dff49a81463a7b8d04a1472c91907087982ab6e479a85bdd7e2e861e"
+    },
+    {
+      "id": "pzt:FA909E1A-AFD8-4FB9-A2AA-4446727E2492",
+      "title": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/ — wyniki (2026-07-12)",
+      "content": "<p>W dniu 12 lipca 2026 w miejscowości PIASECZNO rozegrano turniej <em>„SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/”</em> w kategorii 60+, 70+, 80+. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>60+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Grupa A</h3>\n<p><strong>Batorski Stanisław</strong> – Dziubiński Dariusz 6:3<br>\n<strong>Saczuk Piotr</strong> – Batorski Stanisław 6:1<br>\n<strong>Saczuk Piotr</strong> – Dziubiński Dariusz 6:4<br>\n<strong>Batorski Stanisław</strong> – Benowski Andrzej 6:0<br>\n<strong>Dziubiński Dariusz</strong> – Benowski Andrzej 6:3<br>\n<strong>Saczuk Piotr</strong> – Benowski Andrzej 6:4</p>\n<h3>Grupa B</h3>\n<p><strong>Szymaniuk Jarosław</strong> – Papierz Jan 6:3<br>\n<strong>Naskręcki Piotr Leszek</strong> – Szymaniuk Jarosław 6:4<br>\n<strong>Naskręcki Piotr Leszek</strong> – Papierz Jan 6:1<br>\n<strong>Szymaniuk Jarosław</strong> – Stoczyński Dariusz 6:0<br>\n<strong>Papierz Jan</strong> – Stoczyński Dariusz 6:1<br>\n<strong>Naskręcki Piotr Leszek</strong> – Stoczyński Dariusz 6:1</p>\n<h3>Grupa Faza finałowa. Grupa 1 - 2</h3>\n<p><strong>Naskręcki Piotr Leszek</strong> – Saczuk Piotr 7:6<br>\n<strong>Batorski Stanisław</strong> – Saczuk Piotr 6:4<br>\n<strong>Naskręcki Piotr Leszek</strong> – Batorski Stanisław 6:4<br>\n<strong>Szymaniuk Jarosław</strong> – Saczuk Piotr 6:4<br>\n<strong>Szymaniuk Jarosław</strong> – Naskręcki Piotr Leszek 7:6<br>\n<strong>Szymaniuk Jarosław</strong> – Batorski Stanisław 6:4</p>\n<h3>Grupa Faza finałowa. Grupa 3 - 4</h3>\n<p><strong>Dziubiński Dariusz</strong> – Papierz Jan 6:3<br>\n<strong>Dziubiński Dariusz</strong> – Benowski Andrzej 6:3<br>\n<strong>Papierz Jan</strong> – Benowski Andrzej 6:0<br>\n<strong>Dziubiński Dariusz</strong> – Stoczyński Dariusz 6:2<br>\n<strong>Papierz Jan</strong> – Stoczyński Dariusz 6:1<br>\n<strong>Stoczyński Dariusz</strong> – Benowski Andrzej 6:0</p>\n<h2>70+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Grupa A</h3>\n<p><strong>Kopczyński Andrzej</strong> – Mocoń Marian 6:2<br>\n<strong>Ignaczak Jerzy</strong> – Mocoń Marian 6:3<br>\n<strong>Ignaczak Jerzy</strong> – Kopczyński Andrzej 6:2</p>\n<h3>Grupa B</h3>\n<p><strong>Jellinek Tomasz</strong> – Wetesko Andrzej 7:5<br>\n<strong>Jellinek Tomasz</strong> – Maranda Piotr 6:2<br>\n<strong>Maranda Piotr</strong> – Wetesko Andrzej 6:3</p>\n<h3>Grupa C</h3>\n<p><strong>Szczepkowski Tadeusz</strong> – Witkowski Waldemar 7:5<br>\n<strong>Urbankowski Jerzy</strong> – Szczepkowski Tadeusz 6:2<br>\n<strong>Urbankowski Jerzy</strong> – Witkowski Waldemar 7:6</p>\n<h3>Grupa Faza finałowa. Grupa 1 - 3</h3>\n<p><strong>Jellinek Tomasz</strong> – Ignaczak Jerzy 6:2<br>\n<strong>Ignaczak Jerzy</strong> – Urbankowski Jerzy 6:2<br>\n<strong>Jellinek Tomasz</strong> – Urbankowski Jerzy 6:2</p>\n<h3>Grupa Faza finałowa. Grupa 4 - 6</h3>\n<p><strong>Maranda Piotr</strong> – Kopczyński Andrzej 7:5<br>\n<strong>Szczepkowski Tadeusz</strong> – Kopczyński Andrzej 6:2<br>\n<strong>Szczepkowski Tadeusz</strong> – Maranda Piotr 6:2</p>\n<h3>Grupa Faza finałowa. Grupa 7 - 9</h3>\n<p><strong>Wetesko Andrzej</strong> – Mocoń Marian 6:2<br>\n<strong>Witkowski Waldemar</strong> – Mocoń Marian 7:6<br>\n<strong>Wetesko Andrzej</strong> – Witkowski Waldemar 6:4</p>\n<h2>80+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Grupa A</h3>\n<p><strong>Jesionek Henryk</strong> – Podobas Jan 6:2<br>\n<strong>Szafrański Zygmunt</strong> – Podobas Jan 6:2<br>\n<strong>Jesionek Henryk</strong> – Szafrański Zygmunt 6:3<br>\n<strong>Olszewski Aleksander</strong> – Podobas Jan 7:5<br>\n<strong>Olszewski Aleksander</strong> – Jesionek Henryk 6:3<br>\n<strong>Szafrański Zygmunt</strong> – Olszewski Aleksander 6:3</p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=FA909E1A-AFD8-4FB9-A2AA-4446727E2492\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=FA909E1A-AFD8-4FB9-A2AA-4446727E2492",
+      "source": "PZT TOP",
+      "date_start": "2026-07-12",
+      "date_end": "2026-07-12",
+      "ready": false,
+      "issues": [
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "3628a485fb955bea5dade74ad3884eefc4cab2d4edd11d2b5172a5f91fd072b0"
+    },
+    {
+      "id": "pzt:38ACEA72-C9F8-4673-B860-189F288D2B86",
+      "title": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/ — wyniki (2026-07-17)",
+      "content": "<p>W dniu 17 lipca 2026 w miejscowości PIASECZNO rozegrano turniej <em>„SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/”</em> w kategorii 70+. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p><strong>Dąbrowski Mirosław, Wetesko Andrzej</strong> – Szczepkowski Tadeusz, Hubl Andrzej 6:1<br>\n<strong>Dąbrowski Mirosław, Wetesko Andrzej</strong> – Stawierej Zbigniew, Krakowiak Jan Kazimierz 7:6<br>\n<strong>Szczepkowski Tadeusz, Hubl Andrzej</strong> – Stawierej Zbigniew, Krakowiak Jan Kazimierz 6:4<br>\n<strong>Dąbrowski Mirosław, Wetesko Andrzej</strong> – Urbankowski Jerzy, Han Tadeusz 6:1<br>\n<strong>Szczepkowski Tadeusz, Hubl Andrzej</strong> – Urbankowski Jerzy, Han Tadeusz 6:4<br>\n<strong>Urbankowski Jerzy, Han Tadeusz</strong> – Stawierej Zbigniew, Krakowiak Jan Kazimierz 6:3<br>\n<strong>Dąbrowski Mirosław, Wetesko Andrzej</strong> – Jesionek Henryk, Zieliński Witold 6:2<br>\n<strong>Szczepkowski Tadeusz, Hubl Andrzej</strong> – Jesionek Henryk, Zieliński Witold 6:2<br>\n<strong>Stawierej Zbigniew, Krakowiak Jan Kazimierz</strong> – Jesionek Henryk, Zieliński Witold 7:6<br>\n<strong>Jesionek Henryk, Zieliński Witold</strong> – Urbankowski Jerzy, Han Tadeusz 6:3</p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=38ACEA72-C9F8-4673-B860-189F288D2B86\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=38ACEA72-C9F8-4673-B860-189F288D2B86",
+      "source": "PZT TOP",
+      "date_start": "2026-07-17",
+      "date_end": "2026-07-17",
+      "ready": false,
+      "issues": [
+        "Turniej grupowy bez pojedynczego finału — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "472365d3998ac7e055267bfad43021efeb52a4a8d2d7c6b0bed970d12f6966e7"
+    },
+    {
+      "id": "kluby:11721",
+      "title": "II GP Barlinka (PLT) — wyniki (2026-07-18)",
+      "content": "<p>W dniu 18 lipca 2026 na obiekcie Barlinecki Klub Tenisowy, Barlinek (Barlinek) rozegrano turniej <em>„II GP Barlinka (PLT)”</em> w kategorii OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11721\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11721",
+      "source": "Kluby.org",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-18",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "OPEN: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "40d42a9ce722f82ddd74a5a08e6afa4ae426533ced708ad6774e75ba23d6b474"
+    },
+    {
+      "id": "kluby:11794",
+      "title": "Perun One Point Slam - turniej z okazji 10 lecia — wyniki (2026-07-18)",
+      "content": "<p>W dniu 18 lipca 2026 na obiekcie Perun Wesoła, Warszawa (Warszawa) rozegrano turniej <em>„Perun One Point Slam - turniej z okazji 10 lecia”</em> w kategorii OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11794\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11794",
+      "source": "Kluby.org",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-18",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "OPEN: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "fea20c8f7fc1bc4405ae90ac723c582a4867b4d9107deabed57afb00caf70d3e"
+    },
+    {
+      "id": "kluby:11811",
+      "title": "TENES Single Cup kat. CLUB/CLUB+ - wewnętrzny turniej dla Klubowiczów — wyniki (2026-07-18)",
+      "content": "<p>W dniu 18 lipca 2026 na obiekcie TENES Klub Sportowy, Warszawa (Warszawa) rozegrano turniej <em>„TENES Single Cup kat. CLUB/CLUB+ - wewnętrzny turniej dla Klubowiczów”</em> w kategorii OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p>Krakowiak Marcin – <strong>Ogonowski Maciej</strong> 1/6<br>\nBudzyński Wiktor – Ogonowski Maciej Brak potwierdzonego wyniku<br>\nKrakowiak Marcin – Budzyński Wiktor Brak potwierdzonego wyniku</p>\n<h2>Grupa B</h2>\n<p><strong>Jaroszewski Piotr</strong> – Yakymets Bogdan 6/0 walkower<br>\nŁukasik Grzegorz – Omelian Dmytro Brak potwierdzonego wyniku<br>\n<strong>Jaroszewski Piotr</strong> – Omelian Dmytro 6/0<br>\nŁukasik Grzegorz – Yakymets Bogdan Brak potwierdzonego wyniku<br>\n<strong>Jaroszewski Piotr</strong> – Łukasik Grzegorz 6/0<br>\nOmelian Dmytro – Yakymets Bogdan Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11811\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11811",
+      "source": "Kluby.org",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-18",
+      "ready": false,
+      "issues": [
+        "OPEN: Brak części rozegranych meczów lub wyników"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "b599946ebbeaf69e38859b7c4ac7d49c710e90a0969cfb10a01295487c001443"
+    },
+    {
+      "id": "kluby:11845",
+      "title": "Warszawa: Krasowski Artur triumfuje w turnieju Olszynka Silvers Cup - Singiel M +45",
+      "content": "<p>W dniu 18 lipca 2026 na obiekcie TKKF Olszynka, Warszawa (Warszawa) rozegrano turniej <em>„Olszynka Silvers Cup - Singiel M +45”</em> w kategorii SENIORZY +45. W turnieju triumfuje <strong>Krasowski Artur</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p>Chojecki Rafał – <strong>Sałaga Tomasz</strong> 3/6<br>\n<strong>Węglarz Jacek</strong> – Krym Jacek 6/1<br>\n<strong>Chojecki Rafał</strong> – Krym Jacek 6/2<br>\nWęglarz Jacek – <strong>Sałaga Tomasz</strong> 2/6<br>\n<strong>Chojecki Rafał</strong> – Węglarz Jacek 6/1<br>\nKrym Jacek – <strong>Sałaga Tomasz</strong> 1/6</p>\n<h2>Grupa B</h2>\n<p><strong>Niewęgłowski Adam</strong> – Kwiatkowski Jan 6/2<br>\n<strong>Wiśniewski Rafał</strong> – Kwiatkowski Jan 6/0<br>\n<strong>Niewęgłowski Adam</strong> – Wiśniewski Rafał 6/2</p>\n<h2>Grupa C</h2>\n<p>Tarnopolskyy Kostyantyn – <strong>Kielan Krystian</strong> 2/6<br>\nPrzemek Pawluk – <strong>Kielan Krystian</strong> 1/6<br>\nTarnopolskyy Kostyantyn – <strong>Przemek Pawluk</strong> 1/6</p>\n<h2>Grupa D</h2>\n<p>Gajewicz Paweł – <strong>Krasowski Artur</strong> 2/6<br>\n<strong>Grotowski Tadeusz</strong> – Krasowski Artur 6/3<br>\nGajewicz Paweł – <strong>Grotowski Tadeusz</strong> 4/6</p>\n<h2>1/4 finału</h2>\n<p>Sałaga Tomasz – <strong>Przemek Pawluk</strong> 1/6<br>\nNiewęgłowski Adam – <strong>Krasowski Artur</strong> 4/6<br>\nKielan Krystian – <strong>Chojecki Rafał</strong> 4/6<br>\n<strong>Grotowski Tadeusz</strong> – Wiśniewski Rafał 7/6(4)</p>\n<h2>1/2 finału</h2>\n<p>Przemek Pawluk – <strong>Krasowski Artur</strong> 6/7(4)<br>\n<strong>Chojecki Rafał</strong> – Grotowski Tadeusz 6/2</p>\n<h2>finał</h2>\n<p><strong>Krasowski Artur</strong> – Chojecki Rafał 6/3</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11845\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11845",
+      "source": "Kluby.org",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-18",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "338f21caff783773cdd597ea3fc04efaba3aa92c906e9546673dbd7c65211fd1"
+    },
+    {
+      "id": "kluby:11937",
+      "title": "Warszawa: Kapuściński Igor triumfuje w turnieju Turniej TRENERÓW TENES!",
+      "content": "<p>W dniu 18 lipca 2026 na obiekcie TENES Klub Sportowy, Warszawa (Warszawa) rozegrano turniej <em>„Turniej TRENERÓW TENES!”</em> w kategorii OPEN. W turnieju triumfuje <strong>Kapuściński Igor</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Cichacki Bartosz</strong> – Żelazek Marianna 6/0<br>\nBabecki Jan – <strong>Adamczak Robert</strong> 3/6<br>\n<strong>Cichacki Bartosz</strong> – Adamczak Robert 6/0<br>\n<strong>Babecki Jan</strong> – Żelazek Marianna 6/1<br>\n<strong>Cichacki Bartosz</strong> – Babecki Jan 6/0<br>\n<strong>Adamczak Robert</strong> – Żelazek Marianna 6/0</p>\n<h2>Grupa B</h2>\n<p><strong>Kapuściński Igor</strong> – Sobiech Maja 6/0<br>\nKratiuk Kamila – <strong>Marzec #1 Maciej</strong> 4/6<br>\n<strong>Kapuściński Igor</strong> – Marzec #1 Maciej 6/0<br>\n<strong>Kratiuk Kamila</strong> – Sobiech Maja 6/1<br>\n<strong>Kapuściński Igor</strong> – Kratiuk Kamila 6/1<br>\n<strong>Marzec #1 Maciej</strong> – Sobiech Maja 6/2</p>\n<h2>Grupa C</h2>\n<p><strong>Duchnowski Jan</strong> – Gójski Kacper 6/0<br>\n<strong>Kosowicz Łukasz</strong> – Kaczor Jakub 6/0<br>\n<strong>Duchnowski Jan</strong> – Kaczor Jakub 6/0<br>\n<strong>Kosowicz Łukasz</strong> – Gójski Kacper 6/0<br>\n<strong>Duchnowski Jan</strong> – Kosowicz Łukasz 6/2<br>\n<strong>Kaczor Jakub</strong> – Gójski Kacper 6/4</p>\n<h2>Grupa D</h2>\n<p>Ciecierski Mateusz – <strong>Magoś Krystian</strong> 3/6<br>\nSobiech Gabriela – <strong>Patyk Marceli</strong> 6/7<br>\n<strong>Ciecierski Mateusz</strong> – Patyk Marceli 6/0<br>\nSobiech Gabriela – <strong>Magoś Krystian</strong> 0/6<br>\n<strong>Ciecierski Mateusz</strong> – Sobiech Gabriela 6/1<br>\nPatyk Marceli – <strong>Magoś Krystian</strong> 0/6</p>\n<h2>1/4 finału</h2>\n<p><strong>Cichacki Bartosz</strong> – Kosowicz Łukasz 6/2 6/2<br>\nMarzec #1 Maciej – <strong>Magoś Krystian</strong> 2/6 2/6<br>\n<strong>Duchnowski Jan</strong> – Adamczak Robert 6/3 6/2<br>\nCiecierski Mateusz – <strong>Kapuściński Igor</strong> 4/6 4/6</p>\n<h2>1/2 finału</h2>\n<p><strong>Cichacki Bartosz</strong> – Magoś Krystian 6/2 6/3<br>\nDuchnowski Jan – <strong>Kapuściński Igor</strong> 4/6 3/6</p>\n<h2>finał</h2>\n<p>Cichacki Bartosz – <strong>Kapuściński Igor</strong> 3/6 4/6</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11937\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11937",
+      "source": "Kluby.org",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-18",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "c3402df3a8faff32a6f93422e4d75e356c1b60817a4179873dd6a38e0e979c0e"
+    },
+    {
       "id": "plt:5152",
       "title": "Sobota k. Poznania: Wiktor Jodko triumfuje w turnieju Otwarte Letnie Mistrzostwa Szamotuł 2026",
       "content": "<p>W dniu 18 lipca 2026 w miejscowości Sobota k. Poznania rozegrano turniej <em>„Otwarte Letnie Mistrzostwa Szamotuł 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Wiktor Jodko</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Wiktor Jodko</strong> – Michał Plis 4:0, 4:2<br>\nDamian Filipiak – <strong>Bartosz Dziubański</strong> 1:4, 1:4<br>\n<strong>Wiktor Jodko</strong> – Damian Filipiak 4:2, 4:0<br>\nMichał Plis – <strong>Bartosz Dziubański</strong> 1:4, 1:4<br>\n<strong>Wiktor Jodko</strong> – Bartosz Dziubański 4:2, 4:2<br>\n<strong>Michał Plis</strong> – Damian Filipiak 4:1, 1:4, 10:5</p>\n<h2>Grupa B</h2>\n<p><strong>Maciej Troszczyński</strong> – Dawid Oszmałek 4:0, 4:0<br>\nDariusz Cierzniak – <strong>Marcin Michalak</strong> 2:4, 0:4<br>\n<strong>Maciej Troszczyński</strong> – Dariusz Cierzniak 4:0, 4:0 (walkower)<br>\nDawid Oszmałek – <strong>Marcin Michalak</strong> 1:4, 0:4<br>\n<strong>Maciej Troszczyński</strong> – Marcin Michalak 4:2, 4:1<br>\n<strong>Dawid Oszmałek</strong> – Dariusz Cierzniak 4:3, 4:3</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Wiktor Jodko</strong> – Marcin Michalak 4:1, 4:0<br>\n<strong>Maciej Troszczyński</strong> – Bartosz Dziubański 4:1, 4:3</p>\n<h2>FINAŁ</h2>\n<p><strong>Wiktor Jodko</strong> – Maciej Troszczyński 2:4, 4:0, 10:5</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-szamotul-2026-5152/wyniki\">PLT — wyniki turnieju</a>.</p>",
@@ -1018,6 +1242,87 @@
       "fingerprint": "808f243c0a9c5273c170d0eb52151a789547543942aa3c0282be2b34fcff0b31"
     },
     {
+      "id": "cuply:74",
+      "title": "Szczecin: Aleksander Krasiński triumfuje w turnieju Turniej o Puchar SLT Acapulco 2026 (I i II liga OPEN)",
+      "content": "<p>W dniu 19 lipca 2026 na obiekcie Tennis Arena (tor kolarski) , Szczecin (Szczecin) rozegrano turniej <em>„Turniej o Puchar SLT Acapulco 2026 (I i II liga OPEN)”</em> w kategorii Singiel. Zawody były częścią cyklu Cuply. W turnieju triumfuje <strong>Aleksander Krasiński</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Paweł Szlarb</strong> – Florian Szarek 4:1, 4:2<br>\n<strong>Paweł Szlarb</strong> – Dariusz Czajka 4:1, 4:1<br>\nFlorian Szarek – <strong>Aleksander Krasiński</strong> 4:1, 2:4, 8:10<br>\n<strong>Paweł Szlarb</strong> – Aleksander Krasiński 4:3, 4:3<br>\n<strong>Florian Szarek</strong> – Dariusz Czajka 4:2, 4:0<br>\n<strong>Aleksander Krasiński</strong> – Dariusz Czajka 4:0, 4:0</p>\n<h2>Grupa B</h2>\n<p>Jacek Turczyński – <strong>Jakub Rucinski</strong> 2:4, 4:2, 7:10<br>\n<strong>Jacek Turczyński</strong> – Sebastian Andrzejkowicz 4:3, 4:2<br>\n<strong>Jakub Rucinski</strong> – Sebastian Andrzejkowicz 4:2, 4:3<br>\n<strong>Jacek Turczyński</strong> – Piotr Filus 4:2, 4:0<br>\n<strong>Jakub Rucinski</strong> – Piotr Filus 4:2, 4:2<br>\n<strong>Sebastian Andrzejkowicz</strong> – Piotr Filus 4:2, 4:2</p>\n<h2>Grupa C</h2>\n<p><strong>Julia Ankudowicz</strong> – Bartosz Ludwinek 1:4, 4:2, 11:9<br>\n<strong>Julia Ankudowicz</strong> – Bartosz Wilczyński 4:2, 4:0<br>\n<strong>Filip Szarek</strong> – Bartosz Wilczyński 4:2, 1:4, 10:4<br>\n<strong>Julia Ankudowicz</strong> – Filip Szarek 2:4, 4:3, 10:7<br>\n<strong>Bartosz Ludwinek</strong> – Bartosz Wilczyński 4:0, 4:1<br>\nBartosz Ludwinek – <strong>Filip Szarek</strong> 4:3, 3:4, 3:10</p>\n<h2>Grupa D</h2>\n<p>Jerzy Trybiński – <strong>Marcin Grześkiewicz</strong> 4:3, 2:4, 9:11<br>\n<strong>Jerzy Trybiński</strong> – Tomasz Wierzbowski 4:3, 4:1<br>\n<strong>Marcin Grześkiewicz</strong> – Mateusz Stępień 4:0, 4:2<br>\nJerzy Trybiński – <strong>Mateusz Stępień</strong> 4:1, 3:4, 8:10<br>\n<strong>Marcin Grześkiewicz</strong> – Tomasz Wierzbowski 4:0, 2:4, 10:8<br>\n<strong>Mateusz Stępień</strong> – Tomasz Wierzbowski 4:1, 4:0</p>\n<h2>Ćwierćfinały</h2>\n<p>Julia Ankudowicz – <strong>Mateusz Stępień</strong> 4:1, 2:4, 4:10<br>\n<strong>Paweł Szlarb</strong> – Jacek Turczyński 1:4, 4:3, 10:8<br>\nJakub Rucinski – <strong>Aleksander Krasiński</strong> 3:4, 3:4<br>\nMarcin Grześkiewicz – <strong>Filip Szarek</strong> 1:4, 2:4</p>\n<h2>Półfinały</h2>\n<p><strong>Paweł Szlarb</strong> – Mateusz Stępień 4:1, 4:3<br>\n<strong>Aleksander Krasiński</strong> – Filip Szarek 4:2, 4:2</p>\n<h2>Finał</h2>\n<p>Paweł Szlarb – <strong>Aleksander Krasiński</strong> 1:4, 4:1, 5:10</p>\n<p>Źródło: <a href=\"https://cuply.pl/turnieje/turniej-o-puchar-slt-acapulco-2026-i-ii-liga-open\">Cuply — wyniki turnieju</a>.</p>",
+      "source_url": "https://cuply.pl/turnieje/turniej-o-puchar-slt-acapulco-2026-i-ii-liga-open",
+      "source": "Cuply",
+      "date_start": "2026-07-19",
+      "date_end": "2026-07-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "Cuply",
+      "tags": [
+        "Cuply"
+      ],
+      "fingerprint": "0971a62fcd136f1ede0cbf15e94e4b5b079f89d92100a4c8c4b4a7a34ce6c401"
+    },
+    {
+      "id": "kluby:11397",
+      "title": "Debel Kobiet 35+\"Lato z WARS-em 2026\" — wyniki (2026-07-19)",
+      "content": "<p>W dniu 19 lipca 2026 na obiekcie TKKF Wars, Warszawa (Warszawa) rozegrano turniej <em>„Debel Kobiet 35+&quot;Lato z WARS-em 2026&quot;”</em> w kategorii DEBEL KOBIETY. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p>Borowy Beata, Liepelt Agnieszka – <strong>Maj Ada, Anna Korczyńska</strong> 5/7<br>\n<strong>Jabłońska Joanna, Bąkała Anna</strong> – Pierwsza Małgorzata, Kłos Izabela 6/2<br>\nBorowy Beata, Liepelt Agnieszka – <strong>Pierwsza Małgorzata, Kłos Izabela</strong> 6/7<br>\nJabłońska Joanna, Bąkała Anna – <strong>Magdalena Gajda, Fabjaniak Katarzyna</strong> 5/7<br>\nBorowy Beata, Liepelt Agnieszka – <strong>Magdalena Gajda, Fabjaniak Katarzyna</strong> 2/6<br>\nPierwsza Małgorzata, Kłos Izabela – <strong>Maj Ada, Anna Korczyńska</strong> 3/6<br>\n<strong>Jabłońska Joanna, Bąkała Anna</strong> – Maj Ada, Anna Korczyńska 6/3<br>\n<strong>Magdalena Gajda, Fabjaniak Katarzyna</strong> – Pierwsza Małgorzata, Kłos Izabela 6/1<br>\nBorowy Beata, Liepelt Agnieszka – <strong>Jabłońska Joanna, Bąkała Anna</strong> 2/6<br>\nMagdalena Gajda, Fabjaniak Katarzyna – <strong>Maj Ada, Anna Korczyńska</strong> 3/6</p>\n<h2>Grupa B</h2>\n<p>Kot Agnieszka, Katarzyna Wardyńska – <strong>Karsz Justyna, Kozłowska Anna</strong> 6/7<br>\n<strong>Naumnik-Jaschik Katarzyna, Błażko Monika</strong> – Anna Jatsenko, Tarnopolska Olena 6/0<br>\n<strong>Kot Agnieszka, Katarzyna Wardyńska</strong> – Anna Jatsenko, Tarnopolska Olena 6/0<br>\nNaumnik-Jaschik Katarzyna, Błażko Monika – <strong>Karsz Justyna, Kozłowska Anna</strong> 2/6<br>\nKot Agnieszka, Katarzyna Wardyńska – <strong>Naumnik-Jaschik Katarzyna, Błażko Monika</strong> 4/6<br>\nAnna Jatsenko, Tarnopolska Olena – <strong>Karsz Justyna, Kozłowska Anna</strong> 0/6</p>\n<h2>1/2 finału</h2>\n<p><strong>Magdalena Gajda, Fabjaniak Katarzyna</strong> – Karsz Justyna, Kozłowska Anna 6/2<br>\n<strong>Jabłońska Joanna, Bąkała Anna</strong> – Naumnik-Jaschik Katarzyna, Błażko Monika 6/4</p>\n<h2>finał</h2>\n<p>Magdalena Gajda, Fabjaniak Katarzyna – Jabłońska Joanna, Bąkała Anna Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11397\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11397",
+      "source": "Kluby.org",
+      "date_start": "2026-07-19",
+      "date_end": "2026-07-19",
+      "ready": false,
+      "issues": [
+        "Brak potwierdzonego finału",
+        "Brak zakończonego finału",
+        "DEBEL KOBIETY: Brak części rozegranych meczów lub wyników"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "e35d90235ca532596310fc7a380b53db2a9ca1c8e76a1244fe76e0ecbd17a0b1"
+    },
+    {
+      "id": "kluby:11860",
+      "title": "Mińsk Mazowiecki: Góral Agnieszka triumfuje w turnieju Indywidualny Turniej Kobiet",
+      "content": "<p>W dniu 19 lipca 2026 na obiekcie Klub Sportowy Masters, Mińsk Mazowiecki (Mińsk Mazowiecki) rozegrano turniej <em>„Indywidualny Turniej Kobiet”</em> w kategorii KOBIETY OPEN. W turnieju triumfuje <strong>Góral Agnieszka</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p>Wolska Dominika – <strong>Krupa Iza</strong> 2/6<br>\nJastrzębska Joanna – <strong>Szatan Agnieszka</strong> 1/6<br>\nWolska Dominika – <strong>Szatan Agnieszka</strong> 1/6<br>\nJastrzębska Joanna – <strong>Krupa Iza</strong> 0/6<br>\n<strong>Wolska Dominika</strong> – Jastrzębska Joanna 3/0 krecz<br>\n<strong>Szatan Agnieszka</strong> – Krupa Iza 6/0</p>\n<h2>Grupa B</h2>\n<p>Pardała-Dybał Anna – <strong>Wójcik Anna</strong> 5/9<br>\nWęgrzynowska Magda – <strong>Wójcik Anna</strong> 3/9<br>\nPardała-Dybał Anna – <strong>Węgrzynowska Magda</strong> 4/9</p>\n<h2>Grupa C</h2>\n<p><strong>Guba-Żukowska Katarzyna</strong> – Krupińska Zofia 9/2<br>\n<strong>Świętochowska Magdalena</strong> – Krupińska Zofia 9/4<br>\n<strong>Guba-Żukowska Katarzyna</strong> – Świętochowska Magdalena 9/2</p>\n<h2>Grupa D</h2>\n<p><strong>Góral Agnieszka</strong> – Helińska Marlena 9/3<br>\nSzcześniul Patrycja – <strong>Helińska Marlena</strong> 2/9<br>\n<strong>Góral Agnieszka</strong> – Szcześniul Patrycja 9/1</p>\n<h2>1/2 finału</h2>\n<p>Szatan Agnieszka – <strong>Guba-Żukowska Katarzyna</strong> 3/6<br>\nWójcik Anna – <strong>Góral Agnieszka</strong> 0/6</p>\n<h2>finał</h2>\n<p>Guba-Żukowska Katarzyna – <strong>Góral Agnieszka</strong> 1/6</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11860\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11860",
+      "source": "Kluby.org",
+      "date_start": "2026-07-19",
+      "date_end": "2026-07-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "169765c6629bff101b0542a377370df38890f3586ffecd02eed99a561926988b"
+    },
+    {
+      "id": "kluby:11917",
+      "title": "Rumia: Lipka Paweł triumfuje w turnieju ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Rumia",
+      "content": "<p>W dniach 18–19 lipca 2026 na obiekcie TKKF Orzeł Rumia, Rumia (Rumia) rozegrano turniej <em>„ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Rumia”</em> w kategorii OPEN. W turnieju triumfuje <strong>Lipka Paweł</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>1/16 finału</h2>\n<p><strong>Lipka Paweł</strong> – Miotk Marcin 6/0 6/0<br>\n<strong>Orzęcki Radosław</strong> – Lautenbach Piotr walkower<br>\n<strong>Orłowski Piotr</strong> – Zarzycki Piotr walkower<br>\n<strong>Konkel Krzysztof</strong> – Prusak Oskar 6/0 6/0</p>\n<h2>1/8 finału</h2>\n<p>Sulewski Tomasz – <strong>Lipka Paweł</strong> 2/6 1/6<br>\nWiełłowicz Maksymilian – <strong>Michałkiewicz Andrzej</strong> 0/6 0/6<br>\n<strong>Wilamowski Michał</strong> – Orzęcki Radosław 6/1 6/0<br>\nWiełłowicz Dawid – <strong>Portilla Victor</strong> 6/7 6/7<br>\n<strong>Marszałek Robert</strong> – Gajewski Patryk 6/0 6/0<br>\nOrłowski Piotr – <strong>Poppel Stanisław</strong> 1/6 1/6<br>\n<strong>Kazubek Bartosz</strong> – Konkel Krzysztof 6/3 6/1<br>\nNiedlich Konrad – <strong>Gajewski Dariusz</strong> 0/6 0/6</p>\n<h2>1/4 finału</h2>\n<p><strong>Lipka Paweł</strong> – Michałkiewicz Andrzej 6/4 6/4<br>\n<strong>Wilamowski Michał</strong> – Portilla Victor 4/6 6/3 10/8<br>\nMarszałek Robert – <strong>Poppel Stanisław</strong> 6/4 1/6 6/10<br>\nKazubek Bartosz – <strong>Gajewski Dariusz</strong> 6/7 6/1 6/10</p>\n<h2>1/2 finału</h2>\n<p><strong>Lipka Paweł</strong> – Wilamowski Michał 6/4 6/4<br>\n<strong>Poppel Stanisław</strong> – Gajewski Dariusz 7/6 0/6 6/3</p>\n<h2>finał</h2>\n<p><strong>Lipka Paweł</strong> – Poppel Stanisław 6/2 6/3</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11917\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11917",
+      "source": "Kluby.org",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "6f8592c894091bc06f9604ec07a37c79e0ae2479b9a8138b0ec349ca392582c6"
+    },
+    {
+      "id": "kluby:11918",
+      "title": "Sopot: Wrona Tomasz triumfuje w turnieju Ziaja Grand Prix Wybrzeża +50",
+      "content": "<p>W dniach 18–19 lipca 2026 na obiekcie Sopot Tenis Klub, Sopot (Sopot) rozegrano turniej <em>„Ziaja Grand Prix Wybrzeża +50”</em> w kategorii SENIORZY +50. W turnieju triumfuje <strong>Wrona Tomasz</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>1/16 finału</h2>\n<p>Gochowski Marek – <strong>Aszyk Arkadiusz</strong> 6/3 0/6 7/10<br>\n<strong>Bocian Marek</strong> – Gąsior Stanisław 6/4 6/3<br>\n<strong>Żaboklicki Piotr</strong> – Boraczyńska Sandrine 6/3 6/3</p>\n<h2>1/8 finału</h2>\n<p><strong>Gajewski Dariusz</strong> – Aszyk Arkadiusz 6/1 6/1<br>\nBocian Marek – <strong>Żaboklicki Piotr</strong> 6/4 2/6 8/10<br>\nPedrycz Wiesław – <strong>Łuczak Wojciech</strong> 0/6 3/6<br>\n<strong>Pić Tomasz</strong> – Smętek Mariusz walkower<br>\n<strong>Wrona Tomasz</strong> – Piętka Jacek walkower<br>\n<strong>Pietras Artur</strong> – Dąbrowski Piotr 6/2 6/0<br>\nKiwit Jacek – <strong>Gonet Sebastian</strong> 1/6 4/6<br>\nOlkowska Barbara – <strong>Kowalski Robert</strong> 0/6 0/6</p>\n<h2>1/4 finału</h2>\n<p><strong>Gajewski Dariusz</strong> – Żaboklicki Piotr 6/3 6/3<br>\nŁuczak Wojciech – <strong>Pić Tomasz</strong> 1/6 0/6<br>\n<strong>Wrona Tomasz</strong> – Pietras Artur 6/4 6/4<br>\nGonet Sebastian – <strong>Kowalski Robert</strong> 1/6 1/6</p>\n<h2>1/2 finału</h2>\n<p><strong>Gajewski Dariusz</strong> – Pić Tomasz 6/1 6/1<br>\n<strong>Wrona Tomasz</strong> – Kowalski Robert 6/2 6/3</p>\n<h2>finał</h2>\n<p>Gajewski Dariusz – <strong>Wrona Tomasz</strong> 6/7 7/6 8/10</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11918\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11918",
+      "source": "Kluby.org",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "699bbbfc4aa9abfbd3a12412019378eb53ae89d4a05fe9f9f8b8c786940ffeb4"
+    },
+    {
       "id": "plt:5455",
       "title": "Koszalin: Michał Woźniak triumfuje w turnieju Otwarte Letnie Mistrzostwa Koszalina 2026",
       "content": "<p>W dniu 19 lipca 2026 w miejscowości Koszalin rozegrano turniej <em>„Otwarte Letnie Mistrzostwa Koszalina 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Michał Woźniak</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Michał Woźniak</strong> – Piotr Marciniak 4:0, 4:1<br>\n<strong>Paweł Gałaguz</strong> – Witold Czapiewski 4:1, 4:0<br>\nMichał Woźniak – <strong>Paweł Gałaguz</strong> 3:4, 4:3, 6:10<br>\nPiotr Marciniak – <strong>Witold Czapiewski</strong> 2:4, 0:4<br>\n<strong>Michał Woźniak</strong> – Witold Czapiewski 4:1, 4:2<br>\nPiotr Marciniak – <strong>Paweł Gałaguz</strong> 0:4, 0:4</p>\n<h2>Grupa B</h2>\n<p>Paweł Majewski – <strong>Grzegorz Mularczyk</strong> 0:4, 0:4 (walkower)<br>\n<strong>Chrystian Rokicki</strong> – Patryk Bojarski 4:0, 0:4, 10:7<br>\nPaweł Majewski – <strong>Chrystian Rokicki</strong> 0:4, 0:4 (walkower)<br>\n<strong>Grzegorz Mularczyk</strong> – Patryk Bojarski 2:4, 4:1, 10:7<br>\nPaweł Majewski – <strong>Patryk Bojarski</strong> 0:4, 0:4 (walkower)<br>\n<strong>Grzegorz Mularczyk</strong> – Chrystian Rokicki 4:3, 1:4, 10:3</p>\n<h2>Grupa C</h2>\n<p>Michal Maciejewski – <strong>Bartłomiej Turek</strong> 4:3, 1:4, 9:11<br>\nFranciszek Sowa – <strong>Stasiu Fibich</strong> 2:4, 2:4<br>\n<strong>Michal Maciejewski</strong> – Franciszek Sowa 4:0, 4:2<br>\nBartłomiej Turek – <strong>Stasiu Fibich</strong> 0:4, 4:3, 9:11<br>\nMichal Maciejewski – <strong>Stasiu Fibich</strong> 4:2, 3:4, 6:10<br>\n<strong>Bartłomiej Turek</strong> – Franciszek Sowa 4:1, 2:4, 16:14</p>\n<h2>Grupa D</h2>\n<p>Rafał Zawrotniak – <strong>Sebastian Kudźba</strong> 0:4, 0:4 (walkower)<br>\nRafał Zawrotniak – <strong>Grzegorz Kosiński</strong> 0:4, 0:4 (walkower)<br>\nSebastian Kudźba – <strong>Grzegorz Kosiński</strong> 0:4, 4:2, 8:10<br>\nGrzegorz Kosiński – <strong>Maciej Kiński</strong> 1:4, 1:4<br>\nRafał Zawrotniak – <strong>Maciej Kiński</strong> 0:4, 0:4 (walkower)<br>\n<strong>Sebastian Kudźba</strong> – Maciej Kiński 4:1, 4:0</p>\n<h2>1/4 FINAŁU</h2>\n<p><strong>Paweł Gałaguz</strong> – Chrystian Rokicki 4:2, 4:2<br>\nStasiu Fibich – <strong>Maciej Kiński</strong> 2:4, 1:4<br>\nGrzegorz Mularczyk – <strong>Michał Woźniak</strong> 1:4, 3:4<br>\nSebastian Kudźba – <strong>Bartłomiej Turek</strong> 3:4, 3:4</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Paweł Gałaguz</strong> – Maciej Kiński 4:0, 4:0<br>\n<strong>Michał Woźniak</strong> – Bartłomiej Turek 4:0, 4:3</p>\n<h2>FINAŁ</h2>\n<p>Paweł Gałaguz – <strong>Michał Woźniak</strong> 1:4, 1:4</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-koszalina-2026-5455/wyniki\">PLT — wyniki turnieju</a>.</p>",
@@ -1067,6 +1372,45 @@
         "Polska Liga Tenisa"
       ],
       "fingerprint": "b780295fb7ffc75943931e316ec005285cdfba9b908a1df6c357879762896d92"
+    },
+    {
+      "id": "pzt:839E7A34-725F-4536-AB73-CA6974E27B39",
+      "title": "TENIS CLUB KK \"LATO 2026\", Kędzierzyński Klub Tenisowy — wyniki (2026-07-18)",
+      "content": "<p>W dniach 18–19 lipca 2026 w miejscowości KEDZIERZYN-KOZLE rozegrano turniej <em>„TENIS CLUB KK &quot;LATO 2026&quot;, Kędzierzyński Klub Tenisowy”</em> w kategorii Open. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Runda: 1</h2>\n<p><strong>Stochaj Marek</strong> – Grzywocz Jerzy 6:3 6:2</p>\n<h2>Ćwierćfinał</h2>\n<p><strong>Krueger Grzegorz</strong> – Paszek Jakub 6:7 6:3 10:4<br>\n<strong>Zajączkowski Jakub</strong> – Mazurkiewicz Piotr 6:3 6:3<br>\n<strong>Miraszewski Bartosz</strong> – Kozielski Jakub 6:2 6:3<br>\n<strong>Stochaj Marek</strong> – Paszek Bartosz 6:3 6:2<br>\n<strong>Paszek Bartosz</strong> – Grzywocz Jerzy 6:3 6:4</p>\n<h2>Półfinał</h2>\n<p><strong>Krueger Grzegorz</strong> – Zajączkowski Jakub 4:6 6:3 10:4<br>\n<strong>Stochaj Marek</strong> – Miraszewski Bartosz 6:4 6:2<br>\n<strong>Paszek Jakub</strong> – Mazurkiewicz Piotr 6:4 7:5<br>\n<strong>Paszek Bartosz</strong> – Kozielski Jakub 6:3 6:3</p>\n<h2>Finał</h2>\n<p><strong>Krueger Grzegorz</strong> – Stochaj Marek 6:3 6:3<br>\n<strong>Paszek Jakub</strong> – Paszek Bartosz 2:6 7:5 10:8</p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=839E7A34-725F-4536-AB73-CA6974E27B39\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=839E7A34-725F-4536-AB73-CA6974E27B39",
+      "source": "PZT TOP",
+      "date_start": "2026-07-18",
+      "date_end": "2026-07-19",
+      "ready": false,
+      "issues": [
+        "Brak potwierdzonego pojedynczego finału",
+        "Więcej niż jeden zakończony finał w jednej konkurencji"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "852f994f5c9a086cbb095533cc1c3f892e352d1ef4e8009423bc79d330d36a6e"
+    },
+    {
+      "id": "pzt:F17E66BC-B0C4-404C-8106-552DE21A907E",
+      "title": "SMECZ OPEN 2026 Skarżysko-Kamienna, STT SMECZ SKARŻYSKO-KAMIENNA — wyniki (2026-07-17)",
+      "content": "<p>W dniach 17–19 lipca 2026 w miejscowości Skarżysko-Kamienna rozegrano turniej <em>„SMECZ OPEN 2026 Skarżysko-Kamienna, STT SMECZ SKARŻYSKO-KAMIENNA”</em> w kategorii 40+, 50+, 60+, Open Amator, Open. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>40+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Runda: 1</h3>\n<p><strong>Korzenioski Paweł</strong> – Paździsz Marcin 6:1 6:0<br>\n<strong>Hlubiński Radosław</strong> – Sperczyński Mariusz 6:2 6:1<br>\n<strong>Prędotka Tomasz</strong> – Struski Marcin 6:1 6:2<br>\n<strong>Chabrowski Damian</strong> – Ziółkowski Piotr 6:0 6:0<br>\n<strong>Paliński Rafał</strong> – Nowosad Jarosław 6:1 5:7 10:7</p>\n<h3>Ćwierćfinał</h3>\n<p><strong>Piegdoń Marcin</strong> – Korzenioski Paweł 6:0 6:2<br>\n<strong>Hlubiński Radosław</strong> – Prędotka Tomasz 6:0 6:0<br>\n<strong>Chabrowski Damian</strong> – Zaczkowski Piotr 6:1 6:1<br>\n<strong>Romanowski Tomasz</strong> – Paliński Rafał w.o.</p>\n<h3>Półfinał</h3>\n<p><strong>Hlubiński Radosław</strong> – Piegdoń Marcin 6:3 6:0<br>\n<strong>Romanowski Tomasz</strong> – Chabrowski Damian 6:2 6:2</p>\n<h3>Finał</h3>\n<p><strong>Hlubiński Radosław</strong> – Romanowski Tomasz 6:1 7:5</p>\n<h2>50+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Runda: 1</h3>\n<p><strong>Szymczyk Artur</strong> – Berus Rafał 6:4 6:3</p>\n<h3>Runda: 2</h3>\n<p><strong>Michałowski Aleksander</strong> – Niewiadomski Michał 7:6(7) 3:6 12:10<br>\n<strong>Szynal Piotr</strong> – Kochański Maurycy w.o.<br>\n<strong>Nowak Maciej</strong> – Tokarczyk Emil 6:1 6:0<br>\n<strong>Takmadżan Artem</strong> – Pela Paweł 6:0 6:2<br>\n<strong>Dąbrowski Zbigniew</strong> – Molenda Marek 6:1 6:3<br>\n<strong>Uciński Rafał</strong> – Jaros Piotr w.o.<br>\n<strong>Pielka Adam</strong> – Berus Artur 6:1 6:4<br>\n<strong>Szczotka Grzegorz</strong> – Szymczyk Artur 6:1 6:3</p>\n<h3>Ćwierćfinał</h3>\n<p><strong>Michałowski Aleksander</strong> – Szynal Piotr 6:1 6:0<br>\n<strong>Nowak Maciej</strong> – Takmadżan Artem 6:3 6:4<br>\n<strong>Dąbrowski Zbigniew</strong> – Uciński Rafał 6:2 6:1<br>\n<strong>Szczotka Grzegorz</strong> – Pielka Adam 6:1 6:0</p>\n<h3>Półfinał</h3>\n<p><strong>Nowak Maciej</strong> – Michałowski Aleksander 6:3 6:3<br>\n<strong>Dąbrowski Zbigniew</strong> – Szczotka Grzegorz 6:3 6:2</p>\n<h3>Finał</h3>\n<p><strong>Nowak Maciej</strong> – Dąbrowski Zbigniew 6:3 6:3</p>\n<h2>60+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Runda: 1</h3>\n<p><strong>Michnicki Ireneusz</strong> – Kalbarczyk Stanisław 4:6 6:0 10:8<br>\n<strong>Grzegorek Stefan</strong> – Kaluga Zbigniew 6:1 6:0<br>\n<strong>Stanek Janusz</strong> – Janiszak Jan 6:3 6:2<br>\n<strong>Poroszewski Marcin</strong> – Słoka Jarosław 6:2 6:2<br>\n<strong>Moczek Andrzej</strong> – Kowalczyk Włodek w.o.</p>\n<h3>Ćwierćfinał</h3>\n<p><strong>Gutjar Marek</strong> – Michnicki Ireneusz 6:1 6:1<br>\n<strong>Hordyjewski Piotr</strong> – Grzegorek Stefan 6:3 6:1<br>\n<strong>Poroszewski Marcin</strong> – Stanek Janusz 7:5 6:4<br>\n<strong>Moczek Andrzej</strong> – Wawrzyniak Tomasz 7:6 6:4</p>\n<h3>Półfinał</h3>\n<p><strong>Gutjar Marek</strong> – Hordyjewski Piotr 6:2 6:3<br>\n<strong>Moczek Andrzej</strong> – Poroszewski Marcin 6:4 3:6 12:10</p>\n<h3>Finał</h3>\n<p><strong>Moczek Andrzej</strong> – Gutjar Marek 6:0 6:1</p>\n<h2>Open. Gra pojedyncza. Kobiety</h2>\n<h3>Grupa A</h3>\n<p><strong>Takmadżan Lena</strong> – Nowak Katarzyna 6:1 6:1<br>\n<strong>Nowak Katarzyna</strong> – Skarżyńska Julia 6:1 5:7 11:9<br>\n<strong>Takmadżan Lena</strong> – Skarżyńska Julia 7:5 7:6<br>\n<strong>Nowak Katarzyna</strong> – Lubomirska Julia 6:1 6:4<br>\n<strong>Takmadżan Lena</strong> – Lubomirska Julia 6:4 6:1<br>\n<strong>Skarżyńska Julia</strong> – Lubomirska Julia 7:5 6:1</p>\n<h2>Open. Gra pojedyncza. Mężczyźni</h2>\n<h3>Runda: 1</h3>\n<p><strong>Koczorowski Gabriel</strong> – Marszałek Bartosz 6:2 7:5<br>\n<strong>Kozica Paweł</strong> – Mierzwa Antoni 6:2 6:2<br>\n<strong>Kopycki Kamil</strong> – Parchomiuk Hubert 6:4 6:3<br>\n<strong>Gniazdowski Franciszek</strong> – Ziętkowski Kacper 7:6 6:4<br>\n<strong>Radoń Julian</strong> – Dzikiewicz Paweł 5:7 6:3 10:7<br>\n<strong>Maroszek Bartłomiej</strong> – Dyna Stanisław 6:2 6:1<br>\n<strong>Paszkowski Hubert</strong> – Dyrda Michał 6:3 6:1</p>\n<h3>Ćwierćfinał</h3>\n<p><strong>Wrzesień Leszek</strong> – Koczorowski Gabriel 6:3 7:6<br>\n<strong>Kozica Paweł</strong> – Kopycki Kamil 6:2 6:0<br>\n<strong>Radoń Julian</strong> – Gniazdowski Franciszek 6:3 6:3<br>\n<strong>Maroszek Bartłomiej</strong> – Paszkowski Hubert 6:3 7:5</p>\n<h3>Półfinał</h3>\n<p><strong>Kozica Paweł</strong> – Wrzesień Leszek 6:4 6:0<br>\n<strong>Maroszek Bartłomiej</strong> – Radoń Julian 6:1 6:1</p>\n<h3>Finał</h3>\n<p><strong>Maroszek Bartłomiej</strong> – Kozica Paweł 6:2 6:4</p>\n<h2>Open Amator. Gra pojedyncza. Mężczyźni</h2>\n<h3>Runda: 1</h3>\n<p><strong>Dyrbuś Zbigniew</strong> – Grzegorek Jakub 6:0 6:0<br>\n<strong>Słoka Jakub</strong> – Sobczak Dominik 6:1 6:0<br>\n<strong>Zapotoczny Dawid</strong> – Zalewski Mateusz 6:1 6:1<br>\n<strong>Turek Szymon</strong> – Nowak Piotr 6:0 6:1<br>\n<strong>Janeczek Grzegorz</strong> – Wąsowski Bernard 6:0 6:1<br>\n<strong>Słoka Michał</strong> – Cegielski Kajetan 6:1 6:1</p>\n<h3>Ćwierćfinał</h3>\n<p><strong>Wicha Piotr</strong> – Dyrbuś Zbigniew 6:1 6:2<br>\n<strong>Zapotoczny Dawid</strong> – Słoka Jakub 6:1 6:4<br>\n<strong>Janeczek Grzegorz</strong> – Turek Szymon 6:2 6:3<br>\n<strong>Słoka Michał</strong> – Lisowski Karol 7:6 6:4</p>\n<h3>Półfinał</h3>\n<p><strong>Wicha Piotr</strong> – Zapotoczny Dawid 6:1 6:1<br>\n<strong>Janeczek Grzegorz</strong> – Słoka Michał 3:6 6:3 10:5</p>\n<h3>Finał</h3>\n<p><strong>Wicha Piotr</strong> – Janeczek Grzegorz 6:0 7:5</p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=F17E66BC-B0C4-404C-8106-552DE21A907E\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=F17E66BC-B0C4-404C-8106-552DE21A907E",
+      "source": "PZT TOP",
+      "date_start": "2026-07-17",
+      "date_end": "2026-07-19",
+      "ready": false,
+      "issues": [
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "5fa70ebab1daa84585be977a4ef15738ccfb0933cafd382aceaa32d3dd1ef1d7"
     },
     {
       "id": "plt:5180",
