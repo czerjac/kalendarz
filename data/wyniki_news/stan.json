@@ -163893,8 +163893,8 @@
     "pzt:56E632DF-5D31-4F75-B856-219905D2F828": {
       "id": "pzt:56E632DF-5D31-4F75-B856-219905D2F828",
       "zrodlo": "PZT TOP",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=56E632DF-5D31-4F75-B856-219905D2F828",
-      "nazwa": "Klubowy MIXT WRZESIEŃ - ArKademia OLESNO",
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=56E632DF-5D31-4F75-B856-219905D2F828",
+      "nazwa": "Klubowy MIXT WRZESIEŃ - ArKademia OLESNO, Fundacja ArKademia",
       "kategoria": "Open Amator. Gra podwójna. Mieszany",
       "data_od": "2026-09-12",
       "data_do": "2026-09-12",
@@ -165960,7 +165960,7 @@
           "kategoria_zrodlowa": "OPEN (Masters II Ligi)"
         },
         {
-          "id": "kluby-mecz:d7d9ea5d8cc2072c6572",
+          "id": "kluby-mecz:9ab9c750c02297a58136",
           "grupa_id": "kluby:12183:15658:grupa b",
           "faza": "Grupa B",
           "runda": "Kolejka 1",
@@ -165987,11 +165987,20 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 7,
+              "b": 5
+            },
+            {
+              "a": 6,
+              "b": 1
+            }
+          ],
+          "wynik": "7/5 6/1",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "OPEN (Masters II Ligi)"
         },
@@ -269520,6 +269529,505 @@
       "gotowy": false,
       "uwagi": [
         "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ]
+    },
+    "pzt:34B357C3-2123-48AD-A548-DA87307DB2AD": {
+      "id": "pzt:34B357C3-2123-48AD-A548-DA87307DB2AD",
+      "zrodlo": "PZT TOP",
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=34B357C3-2123-48AD-A548-DA87307DB2AD",
+      "nazwa": "TEMPO -SPORT Cup, Połczyńskie Towarzystwo Tenisowe i Sportu \"Mecz\"",
+      "kategoria": "55+. Gra pojedyncza. Mężczyźni",
+      "data_od": "2026-09-12",
+      "data_do": "2026-09-13",
+      "miasto": "Połczyn -Zdrój",
+      "mecze": [
+        {
+          "id": "pzt-mecz:a3bd03ca47f8d156f300",
+          "grupa_id": "pzt:29219B93-AAE4-42DD-9A1D-AD0A65D41D82:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:ce26dc5ddba4e83db2",
+            "id_zrodlowe": "pzt-nazwa:ce26dc5ddba4e83db2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:ce26dc5ddba4e83db2",
+                "nazwa": "Chmielewski Marek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:0ae2d534b274ec681d",
+            "id_zrodlowe": "pzt-nazwa:0ae2d534b274ec681d",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0ae2d534b274ec681d",
+                "nazwa": "Margula Arkadiusz"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 4
+            }
+          ],
+          "wynik": "6:3 6:4",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "55+. Gra pojedyncza. Mężczyźni",
+          "event_id": "29219B93-AAE4-42DD-9A1D-AD0A65D41D82",
+          "event_key": "55+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:83e062b4dfaa7d8a1ed3",
+          "grupa_id": "pzt:29219B93-AAE4-42DD-9A1D-AD0A65D41D82:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:5c9c2f45c988d7a05b",
+            "id_zrodlowe": "pzt-nazwa:5c9c2f45c988d7a05b",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5c9c2f45c988d7a05b",
+                "nazwa": "Majewski Paweł"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:ce26dc5ddba4e83db2",
+            "id_zrodlowe": "pzt-nazwa:ce26dc5ddba4e83db2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:ce26dc5ddba4e83db2",
+                "nazwa": "Chmielewski Marek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 2
+            },
+            {
+              "a": 4,
+              "b": 6
+            },
+            {
+              "a": 10,
+              "b": 0
+            }
+          ],
+          "wynik": "6:2 4:6 10:0",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "55+. Gra pojedyncza. Mężczyźni",
+          "event_id": "29219B93-AAE4-42DD-9A1D-AD0A65D41D82",
+          "event_key": "55+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:3a19d5ef30b3710823e3",
+          "grupa_id": "pzt:29219B93-AAE4-42DD-9A1D-AD0A65D41D82:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:5c9c2f45c988d7a05b",
+            "id_zrodlowe": "pzt-nazwa:5c9c2f45c988d7a05b",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5c9c2f45c988d7a05b",
+                "nazwa": "Majewski Paweł"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:0ae2d534b274ec681d",
+            "id_zrodlowe": "pzt-nazwa:0ae2d534b274ec681d",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0ae2d534b274ec681d",
+                "nazwa": "Margula Arkadiusz"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 0
+            }
+          ],
+          "wynik": "6:3 6:0",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "55+. Gra pojedyncza. Mężczyźni",
+          "event_id": "29219B93-AAE4-42DD-9A1D-AD0A65D41D82",
+          "event_key": "55+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:e296547d8fda43f77ad2",
+          "grupa_id": "pzt:29219B93-AAE4-42DD-9A1D-AD0A65D41D82:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:47ba45f027fcf8ebdf",
+            "id_zrodlowe": "pzt-nazwa:47ba45f027fcf8ebdf",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:47ba45f027fcf8ebdf",
+                "nazwa": "Osicki Dariusz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:ce26dc5ddba4e83db2",
+            "id_zrodlowe": "pzt-nazwa:ce26dc5ddba4e83db2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:ce26dc5ddba4e83db2",
+                "nazwa": "Chmielewski Marek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 4
+            },
+            {
+              "a": 3,
+              "b": 6
+            },
+            {
+              "a": 10,
+              "b": 6
+            }
+          ],
+          "wynik": "6:4 3:6 10:6",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "55+. Gra pojedyncza. Mężczyźni",
+          "event_id": "29219B93-AAE4-42DD-9A1D-AD0A65D41D82",
+          "event_key": "55+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:df67ab532d840766bad3",
+          "grupa_id": "pzt:29219B93-AAE4-42DD-9A1D-AD0A65D41D82:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:47ba45f027fcf8ebdf",
+            "id_zrodlowe": "pzt-nazwa:47ba45f027fcf8ebdf",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:47ba45f027fcf8ebdf",
+                "nazwa": "Osicki Dariusz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:0ae2d534b274ec681d",
+            "id_zrodlowe": "pzt-nazwa:0ae2d534b274ec681d",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0ae2d534b274ec681d",
+                "nazwa": "Margula Arkadiusz"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 1
+            },
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "6:1 6:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "55+. Gra pojedyncza. Mężczyźni",
+          "event_id": "29219B93-AAE4-42DD-9A1D-AD0A65D41D82",
+          "event_key": "55+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:06e1b5cce2da2af988cd",
+          "grupa_id": "pzt:29219B93-AAE4-42DD-9A1D-AD0A65D41D82:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:47ba45f027fcf8ebdf",
+            "id_zrodlowe": "pzt-nazwa:47ba45f027fcf8ebdf",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:47ba45f027fcf8ebdf",
+                "nazwa": "Osicki Dariusz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:5c9c2f45c988d7a05b",
+            "id_zrodlowe": "pzt-nazwa:5c9c2f45c988d7a05b",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5c9c2f45c988d7a05b",
+                "nazwa": "Majewski Paweł"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 7,
+              "b": 6
+            },
+            {
+              "a": 6,
+              "b": 4
+            }
+          ],
+          "wynik": "7:6 6:4",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "55+. Gra pojedyncza. Mężczyźni",
+          "event_id": "29219B93-AAE4-42DD-9A1D-AD0A65D41D82",
+          "event_key": "55+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:a1722f4c03ee02ad273a",
+          "grupa_id": "pzt:29219B93-AAE4-42DD-9A1D-AD0A65D41D82:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:ce26dc5ddba4e83db2",
+            "id_zrodlowe": "pzt-nazwa:ce26dc5ddba4e83db2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:ce26dc5ddba4e83db2",
+                "nazwa": "Chmielewski Marek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:0b4a9572b1c6a9bc37",
+            "id_zrodlowe": "pzt-nazwa:0b4a9572b1c6a9bc37",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0b4a9572b1c6a9bc37",
+                "nazwa": "Kropaczewski Marek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 1
+            },
+            {
+              "a": 6,
+              "b": 1
+            }
+          ],
+          "wynik": "6:1 6:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "55+. Gra pojedyncza. Mężczyźni",
+          "event_id": "29219B93-AAE4-42DD-9A1D-AD0A65D41D82",
+          "event_key": "55+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:c6e85e4670ae64002137",
+          "grupa_id": "pzt:29219B93-AAE4-42DD-9A1D-AD0A65D41D82:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:0ae2d534b274ec681d",
+            "id_zrodlowe": "pzt-nazwa:0ae2d534b274ec681d",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0ae2d534b274ec681d",
+                "nazwa": "Margula Arkadiusz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:0b4a9572b1c6a9bc37",
+            "id_zrodlowe": "pzt-nazwa:0b4a9572b1c6a9bc37",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0b4a9572b1c6a9bc37",
+                "nazwa": "Kropaczewski Marek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 2,
+              "b": 6
+            },
+            {
+              "a": 7,
+              "b": 5
+            },
+            {
+              "a": 12,
+              "b": 10
+            }
+          ],
+          "wynik": "2:6 7:5 12:10",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "55+. Gra pojedyncza. Mężczyźni",
+          "event_id": "29219B93-AAE4-42DD-9A1D-AD0A65D41D82",
+          "event_key": "55+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:2b9b71a45aa7fee741e2",
+          "grupa_id": "pzt:29219B93-AAE4-42DD-9A1D-AD0A65D41D82:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:5c9c2f45c988d7a05b",
+            "id_zrodlowe": "pzt-nazwa:5c9c2f45c988d7a05b",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:5c9c2f45c988d7a05b",
+                "nazwa": "Majewski Paweł"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:0b4a9572b1c6a9bc37",
+            "id_zrodlowe": "pzt-nazwa:0b4a9572b1c6a9bc37",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0b4a9572b1c6a9bc37",
+                "nazwa": "Kropaczewski Marek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 1
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "6:1 6:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "55+. Gra pojedyncza. Mężczyźni",
+          "event_id": "29219B93-AAE4-42DD-9A1D-AD0A65D41D82",
+          "event_key": "55+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:5e7eef625230de6d358f",
+          "grupa_id": "pzt:29219B93-AAE4-42DD-9A1D-AD0A65D41D82:grupa a",
+          "faza": "Grupa A",
+          "runda": "Grupa A",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:47ba45f027fcf8ebdf",
+            "id_zrodlowe": "pzt-nazwa:47ba45f027fcf8ebdf",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:47ba45f027fcf8ebdf",
+                "nazwa": "Osicki Dariusz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:0b4a9572b1c6a9bc37",
+            "id_zrodlowe": "pzt-nazwa:0b4a9572b1c6a9bc37",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:0b4a9572b1c6a9bc37",
+                "nazwa": "Kropaczewski Marek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 2
+            },
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "6:2 6:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "55+. Gra pojedyncza. Mężczyźni",
+          "event_id": "29219B93-AAE4-42DD-9A1D-AD0A65D41D82",
+          "event_key": "55+|gra pojedyncza|mezczyzni"
+        }
+      ],
+      "final_id": null,
+      "gotowy": false,
+      "uwagi": [
+        "Turniej grupowy bez pojedynczego finału — news wymaga kontroli redakcyjnej"
       ]
     }
   }
