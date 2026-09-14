@@ -1,0 +1,19 @@
+name: Test korekty redakcyjnej
+on:
+  push:
+    branches: [feature/editorial-polish-plt]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+      - run: python -m unittest discover -s tests/wyniki_news -v
+      - run: php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
+      - run: php -l wordpress/tenis-net-wyniki/tenis-net-wyniki-core.inc
+      - run: php tests/wyniki_news/wordpress_import_test.php
