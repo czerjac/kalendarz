@@ -20,6 +20,8 @@ jobs:
           python-version: '3.12'
       - name: Zainstaluj zależności
         run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+      - name: Popraw techniczny skrypt patchujący
+        run: python tools/fix_patch_range_import.py
       - name: Zastosuj poprawkę
         run: python tools/patch_range_import.py
       - name: Testy Python
