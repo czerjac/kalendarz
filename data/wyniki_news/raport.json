@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-14T14:34:24.196851+00:00",
-  "attempted": 20,
+  "generated_at": "2026-09-14T20:51:32.794931+00:00",
+  "attempted": 32,
   "errors": [],
-  "ready": 167,
-  "needs_review": 54,
+  "ready": 175,
+  "needs_review": 69,
   "awaiting_adapter": {},
   "remaining_unfetched_plt": 0,
-  "remaining_unfetched_cuply": 13,
-  "remaining_unfetched_kluby": 68,
-  "remaining_unfetched_pzt": 32
+  "remaining_unfetched_cuply": 0,
+  "remaining_unfetched_kluby": 0,
+  "remaining_unfetched_pzt": 0
 }
