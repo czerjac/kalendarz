@@ -1,7 +1,82 @@
 {
-  "generated_at": "2026-09-13T18:14:26.621635+00:00",
-  "attempted": 31,
+  "generated_at": "2026-09-14T13:55:03.262182+00:00",
+  "attempted": 52,
   "errors": [
+    {
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=34B357C3-2123-48AD-A548-DA87307DB2AD",
+      "source": "PZT TOP",
+      "error": "RuntimeError"
+    },
+    {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A940B588-FF38-4707-B1C0-07A2ECEE20A5",
+      "source": "PZT TOP",
+      "error": "RuntimeError"
+    },
+    {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=34B357C3-2123-48AD-A548-DA87307DB2AD",
+      "source": "PZT TOP",
+      "error": "RuntimeError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-aktywniaki-tennis-cup-ii-2026-5592",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-nowej-soli-2026-5515",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-obornik-2026-5547",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-olawy-2026-5512",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-olawy-2026-5513",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-olawy-2026-5514",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5542",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5543",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-50-otwarte-mistrzostwa-wejherowa-2026-5550",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-tenis-zone-tour-iv-2026-5344",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-tenis-zone-tour-iv-2026-5343",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-olawy-2026-5602",
+      "source": "PLT",
+      "error": "ValueError"
+    },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-letnie-mistrzostwa-pomorza-2026-5183",
       "source": "PLT",
@@ -33,8 +108,8 @@
       "error": "RuntimeError"
     }
   ],
-  "ready": 135,
-  "needs_review": 25,
+  "ready": 149,
+  "needs_review": 32,
   "awaiting_adapter": {},
   "remaining_unfetched_plt": 0,
   "remaining_unfetched_cuply": 14,
