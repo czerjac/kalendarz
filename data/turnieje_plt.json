@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-13T09:34:53+00:00",
-  "liczba_turniejow": 51,
+  "pobrano_utc": "2026-09-14T09:54:57+00:00",
+  "liczba_turniejow": 50,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -32,23 +32,12 @@
     {
       "kategoria": "Kategorie wiekowe",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/lista-rund?incoming=true",
-      "liczba": 1
+      "liczba": 0
     }
   ],
-  "ostrzezenia": [
-    "Kategorie wiekowe: pusty odczyt po ponowieniu; zachowano 1 poprzednich przyszłych rekordów"
-  ],
+  "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "Kategorie wiekowe",
-      "nazwa": "PLT 50+. Otwarte Mistrzostwa Wejherowa 2026",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Wejherowo",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-50-otwarte-mistrzostwa-wejherowa-2026-5550"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",

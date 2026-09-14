@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-13T09:34:35+00:00",
-  "liczba_turniejow": 17,
+  "pobrano_utc": "2026-09-14T09:54:38+00:00",
+  "liczba_turniejow": 14,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -36,46 +36,6 @@
     },
     {
       "zrodlo": "PZT TOP",
-      "nazwa": "TEMPO -SPORT Cup",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "Połczyn -Zdrój",
-      "ranga": "3",
-      "kategorie": "55+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=34B357C3-2123-48AD-A548-DA87307DB2AD"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "MISTRZOSTWA RZESZOWA",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "RZESZÓW",
-      "ranga": "3",
-      "kategorie": "40+, Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=AAC7C0C0-F48A-4F5A-B2D8-2AF775FFF636"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "Turniej Tenisowy o Puchar ABEL",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "Sieradz",
-      "ranga": "3",
-      "kategorie": "50+, 60+, Open Amator, Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=EE394AF9-008B-48A3-8C22-E013D672A5E4"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "60+, 70+, 80+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=5F698FAF-974D-4548-9D37-EAEC2EC8CE8C"
-    },
-    {
-      "zrodlo": "PZT TOP",
       "nazwa": "SMECZ PIASECZNO",
       "data_od": "2026-09-18",
       "data_do": "2026-09-18",
@@ -93,6 +53,16 @@
       "ranga": "3",
       "kategorie": "50+, Open Amator",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=80B4625B-3B00-4F14-B52A-FA27F56720A0"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Turniej o Puchar Wójta Gminy Białe Błota Mikst",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-19",
+      "miasto": "Bydgoszcz",
+      "ranga": "5",
+      "kategorie": "Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9995A0E4-BAD0-4ED6-BB0A-CA55A60C673E"
     },
     {
       "zrodlo": "PZT TOP",

@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-13T09:35:04+00:00",
-  "liczba_turniejow": 55,
+  "pobrano_utc": "2026-09-14T09:55:08+00:00",
+  "liczba_turniejow": 53,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 52
+      "liczba": 56
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -13,7 +13,7 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 4
+      "liczba": 5
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -35,46 +35,6 @@
   "turnieje": [
     {
       "zrodlo": "Kluby.org",
-      "nazwa": ",,JESIEŃ 2026’’",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "Białystok",
-      "miejsce": "Korty Gdańska, Białystok",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12050"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Slow Flow Ladies Cup",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "Białystok",
-      "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
-      "kategorie": "OPEN (FUN) KOBIETY OPEN",
-      "url": "https://kluby.org/turnieje/11925"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Mistrzostwa Rumi i Powiatu Wejherowskiego Amatorów w Tenisie Ziemnym w Grze podwójnej",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "Rumia",
-      "miejsce": "TKKF Orzeł Rumia, Rumia",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12148"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "ZIAJA Grand Prix Wybrzeża +60",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-13",
-      "miasto": "Sopot",
-      "miejsce": "Sopot Tenis Klub, Sopot",
-      "kategorie": "SENIORZY +60",
-      "url": "https://kluby.org/turnieje/12165"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "Mistrzostwa Warszawy U12 by WKT Mera",
       "data_od": "2026-09-12",
       "data_do": "2026-09-14",
@@ -85,36 +45,6 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Indywidualny turniej dla początkujących",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Mińsk Mazowiecki",
-      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12059"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Debel Kobiet 35+ \"Lato z WARS-em 2026\"",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Warszawa",
-      "miejsce": "TKKF Wars, Warszawa",
-      "kategorie": "DEBEL KOBIETY",
-      "url": "https://kluby.org/turnieje/11399"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Grand Prix Mazowsza Juniorów",
-      "data_od": "2026-09-13",
-      "data_do": "2026-09-13",
-      "miasto": "Warszawa",
-      "miejsce": "Jazda Tennis Academy, Warszawa",
-      "kategorie": "JUNIORZY U12 JUNIORZY U14 JUNIORZY U16 JUNIORZY U18",
-      "url": "https://kluby.org/turnieje/12155"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "Tenis",
       "data_od": "2026-09-14",
       "data_do": "2026-09-14",
@@ -122,6 +52,16 @@
       "miejsce": "",
       "kategorie": "OPEN (Klasy 4-5) OPEN (Klasy 6-8)",
       "url": "https://kluby.org/turnieje/12197"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Masters MERA & ST NET Chalenge",
+      "data_od": "2026-09-14",
+      "data_do": "2026-09-14",
+      "miasto": "Warszawa",
+      "miejsce": "WKT Mera, Warszawa",
+      "kategorie": "OPEN OPEN (Senior +35) OPEN (Amatorzy)",
+      "url": "https://kluby.org/turnieje/12206"
     },
     {
       "zrodlo": "Kluby.org",
@@ -152,6 +92,16 @@
       "miejsce": "Klub Tenisowy Pisz-Point, Pisz",
       "kategorie": "OPEN KOBIETY OPEN SENIORZY +50 DEBEL DEBEL KOBIETY DEBEL MIKST",
       "url": "https://kluby.org/turnieje/11994"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Reda",
+      "data_od": "2026-09-19",
+      "data_do": "2026-09-20",
+      "miasto": "Reda",
+      "miejsce": "MOSiR w Redzie, Reda",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12208"
     },
     {
       "zrodlo": "Kluby.org",
@@ -225,6 +175,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "DEBEL CHALLENGER PIOTRKÓW TRYB.",
+      "data_od": "2026-09-20",
+      "data_do": "2026-09-20",
+      "miasto": "Piotrków Trybunalski",
+      "miejsce": "OSiR Belzacka, Piotrków Trybunalski",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12207"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "III Liga ŁLT Grupa Barażowa 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -272,6 +232,16 @@
       "miejsce": "Szkoła Tenisa Break, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/11955"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mistrzostwa o tytuł Areny Tenisa",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Warszawa",
+      "miejsce": "Arena Tenisa, Warszawa",
+      "kategorie": "TENIS10 ZIELONA",
+      "url": "https://kluby.org/turnieje/12205"
     },
     {
       "zrodlo": "Kluby.org",
@@ -422,6 +392,16 @@
       "miejsce": "Matchpoint Żyrardów, Żyrardów",
       "kategorie": "DEBEL MIKST",
       "url": "https://kluby.org/turnieje/11825"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Masters MIXT (zakończenie sezonu letniego)",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-07",
+      "miasto": "Żyrardów",
+      "miejsce": "Matchpoint Żyrardów, Żyrardów",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12204"
     },
     {
       "zrodlo": "Kluby.org",
