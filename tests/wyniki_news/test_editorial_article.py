@@ -45,17 +45,48 @@ class EditorialArticleTest(unittest.TestCase):
         self.assertNotIn('<table', post['content'])
         self.assertNotIn('Zawodnik / para A', post['content'])
         self.assertIn('W dniu 12 września 2026', post['content'])
-        self.assertIn('W turnieju triumfuje para Mariusz Osiak, Włodek Brzusek.', post['content'])
+        self.assertIn('turniej <em>„Deblowy Masters Zima”</em>', post['content'])
+        self.assertIn('W turnieju triumfuje para <strong>Mariusz Osiak, Włodek Brzusek</strong>.', post['content'])
         lead = post['content'].split('</p>', 1)[0]
         self.assertNotIn('7:5', lead)
         self.assertNotIn('Jan Kowalski', lead)
         self.assertIn(
-            'Mariusz Osiak, Włodek Brzusek – Jan Kowalski, Sebastian Nowak <strong>7:5</strong>',
+            '<strong>Mariusz Osiak, Włodek Brzusek</strong> – Jan Kowalski, Sebastian Nowak 7:5',
             post['content'],
         )
-        self.assertNotIn('Sebastian Nowak — <strong>7:5</strong>', post['content'])
+        self.assertNotIn('<strong>7:5</strong>', post['content'])
         self.assertEqual(post['voivodeship'], 'mazowieckie')
         self.assertEqual(post['tags'], ['Grand Prix Mazowsza'])
+
+    def test_plt_lead_uses_clean_name_and_full_cycle_name(self):
+        tournament = {
+            'id': 'plt:5143',
+            'zrodlo': 'PLT',
+            'url': 'https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/test-5143/wyniki',
+            'nazwa': '1. LIGA. Otwarte Letnie Mistrzostwa Szamotuł 2026',
+            'kategoria': '1. Liga',
+            'data_od': '2026-07-04',
+            'data_do': '2026-07-04',
+            'miasto': 'Szamotuły',
+            'final_id': 'f1',
+            'gotowy': True,
+            'uwagi': [],
+            'mecze': [{
+                'id': 'f1', 'grupa_id': 'final', 'faza': 'FINAŁ', 'typ_fazy': 'puchar',
+                'strona_a': {'typ': 'osoba', 'zawodnicy': [{'nazwa': 'Kuba Wawrzyniak'}]},
+                'strona_b': {'typ': 'osoba', 'zawodnicy': [{'nazwa': 'Adam Dąbrowski'}]},
+                'wynik': '3:4, 1:4', 'zwyciezca': 'b', 'zakonczony': True,
+            }],
+        }
+        meta = {'miasto': 'Szamotuły', 'kategoria_zrodla': '1. Liga', 'cykl': 'PLT'}
+        post = article(tournament, meta)
+        lead = post['content'].split('</p>', 1)[0]
+        self.assertIn('turniej <em>„Otwarte Letnie Mistrzostwa Szamotuł 2026”</em> w kategorii 1. Liga', lead)
+        self.assertIn('Zawody były częścią cyklu Polska Liga Tenisa.', lead)
+        self.assertIn('W turnieju triumfuje <strong>Adam Dąbrowski</strong>.', lead)
+        self.assertNotIn('1. LIGA. Otwarte', lead)
+        self.assertEqual(post['title'], 'Szamotuły: Adam Dąbrowski triumfuje w turnieju Otwarte Letnie Mistrzostwa Szamotuł 2026')
+        self.assertIn('Kuba Wawrzyniak – <strong>Adam Dąbrowski</strong> 3:4, 1:4', post['content'])
 
     def test_plt_results_url_recovers_calendar_metadata(self):
         known = {

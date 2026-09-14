@@ -4,6 +4,7 @@ import hashlib
 import html
 import json
 import os
+import re
 import time
 import unicodedata
 from collections import Counter
@@ -100,6 +101,19 @@ def city_key(value):
     return ' '.join(fold_text(value).replace('.', ' ').split())
 
 
+def display_tournament_name(t):
+    name = str(t.get('nazwa') or '').strip()
+    if t.get('zrodlo') == 'PLT':
+        name = re.sub(r'^\s*(?:1\.?\s*LIGA|2\.?\s*LIGA)\.?\s*', '', name, flags=re.I)
+    return name.strip()
+
+
+def display_cycle(t, cycle):
+    if t.get('zrodlo') == 'PLT' and fold_text(cycle) == 'plt':
+        return 'Polska Liga Tenisa'
+    return cycle
+
+
 def voivodeship_for(t, meta):
     direct = str(meta.get('wojewodztwo') or '').strip()
     if direct:
@@ -163,6 +177,8 @@ def article(t, meta=None):
 
     category = str(meta.get('kategorie') or meta.get('kategoria_zrodla') or t.get('kategoria') or '')
     cycle = str(meta.get('cykl') or '')
+    cycle_name = display_cycle(t, cycle)
+    display_name = display_tournament_name(t)
     venue = str(meta.get('miejsce') or '')
     city = str(meta.get('miasto') or t.get('miasto') or '')
     voivodeship = voivodeship_for(t, meta)
@@ -177,17 +193,17 @@ def article(t, meta=None):
     else:
         location = ''
 
-    intro = f'{date_intro} {esc(date_text)}{location} rozegrano turniej {esc(t["nazwa"])}'
+    intro = f'{date_intro} {esc(date_text)}{location} rozegrano turniej <em>„{esc(display_name)}”</em>'
     if category:
         intro += f' w kategorii {esc(category)}'
     intro += '.'
-    if cycle and fold_text(cycle) not in {'brak', 'none'}:
-        intro += f' Zawody były częścią cyklu {esc(cycle)}.'
+    if cycle_name and fold_text(cycle_name) not in {'brak', 'none'}:
+        intro += f' Zawody były częścią cyklu {esc(cycle_name)}.'
 
     winner = None
     if final and final.get('zwyciezca') in {'a', 'b'}:
         winner = final['strona_' + final['zwyciezca']]
-        winner_label = esc(label(winner))
+        winner_label = '<strong>' + esc(label(winner)) + '</strong>'
         if len(winner.get('zawodnicy', [])) == 2:
             intro += f' W turnieju triumfuje para {winner_label}.'
         else:
@@ -212,10 +228,13 @@ def article(t, meta=None):
         lines = []
         for match in group:
             result = match['wynik'] if match['zakonczony'] else 'Brak potwierdzonego wyniku'
-            lines.append(
-                esc(label(match['strona_a'])) + ' – ' + esc(label(match['strona_b'])) +
-                ' <strong>' + esc(result) + '</strong>'
-            )
+            left = esc(label(match['strona_a']))
+            right = esc(label(match['strona_b']))
+            if match.get('zwyciezca') == 'a':
+                left = '<strong>' + left + '</strong>'
+            elif match.get('zwyciezca') == 'b':
+                right = '<strong>' + right + '</strong>'
+            lines.append(left + ' – ' + right + ' ' + esc(result))
         parts.append('<p>' + '<br>\n'.join(lines) + '</p>')
 
     parts.append('<p>Źródło: <a href="' + esc(t['url']) + '">' + esc(t['zrodlo']) + ' — wyniki turnieju</a>.</p>')
@@ -223,9 +242,9 @@ def article(t, meta=None):
     if final and winner:
         prefix = (city + ': ') if city else ''
         verb = 'triumfują' if len(winner.get('zawodnicy', [])) == 2 else 'triumfuje'
-        title = prefix + label(winner) + f' {verb} w turnieju ' + t['nazwa']
+        title = prefix + label(winner) + f' {verb} w turnieju ' + display_name
     else:
-        title = t['nazwa'] + ' — wyniki (' + t['data_od'] + ')'
+        title = display_name + ' — wyniki (' + t['data_od'] + ')'
 
     body = '\n'.join(parts)
     return {
