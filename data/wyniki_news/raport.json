@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T20:55:47.491281+00:00",
-  "attempted": 52,
+  "generated_at": "2026-09-15T07:07:17.490922+00:00",
+  "attempted": 53,
   "errors": [
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-letnie-mistrzostwa-pomorza-2026-5183",
@@ -99,7 +99,7 @@
     }
   ],
   "ready": 175,
-  "needs_review": 70,
+  "needs_review": 73,
   "awaiting_adapter": {},
   "remaining_unfetched_plt": 0,
   "remaining_unfetched_cuply": 9,
