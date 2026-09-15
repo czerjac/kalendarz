@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-09-14T09:54:39+00:00",
+  "pobrano_utc": "2026-09-15T09:28:48+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -42,19 +42,6 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-masters-szczecin-doluje-dla-zaawansowanych"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Gorzów I",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Gorzów Wielkopolski",
-      "miejsce": "Gorzów Wielkopolski",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
     },
     {
       "zrodlo": "Cuply",
@@ -107,6 +94,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Gorzów I",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Gorzów Wielkopolski",
+      "miejsce": "Gorzów Wielkopolski",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
     },
     {
       "zrodlo": "Cuply",

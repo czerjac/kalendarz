@@ -1,7 +1,7 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-14T09:55:08+00:00",
-  "liczba_turniejow": 53,
+  "pobrano_utc": "2026-09-15T09:29:14+00:00",
+  "liczba_turniejow": 50,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
@@ -33,36 +33,6 @@
     }
   ],
   "turnieje": [
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Mistrzostwa Warszawy U12 by WKT Mera",
-      "data_od": "2026-09-12",
-      "data_do": "2026-09-14",
-      "miasto": "Warszawa",
-      "miejsce": "WKT Mera, Warszawa",
-      "kategorie": "JUNIORZY U12 (BS U12 (singlowy)) JUNIORKI U12 (GS U12 (singlowy))",
-      "url": "https://kluby.org/turnieje/12176"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Tenis",
-      "data_od": "2026-09-14",
-      "data_do": "2026-09-14",
-      "miasto": "",
-      "miejsce": "",
-      "kategorie": "OPEN (Klasy 4-5) OPEN (Klasy 6-8)",
-      "url": "https://kluby.org/turnieje/12197"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Masters MERA & ST NET Chalenge",
-      "data_od": "2026-09-14",
-      "data_do": "2026-09-14",
-      "miasto": "Warszawa",
-      "miejsce": "WKT Mera, Warszawa",
-      "kategorie": "OPEN OPEN (Senior +35) OPEN (Amatorzy)",
-      "url": "https://kluby.org/turnieje/12206"
-    },
     {
       "zrodlo": "Kluby.org",
       "nazwa": "Turniej o Puchar 3. Ligi",
