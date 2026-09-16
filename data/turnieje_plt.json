@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-15T09:29:03+00:00",
-  "liczba_turniejow": 50,
+  "pobrano_utc": "2026-09-16T09:20:19+00:00",
+  "liczba_turniejow": 51,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -22,7 +22,7 @@
     {
       "kategoria": "PLT Kobiet",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/lista-rund?incoming=true",
-      "liczba": 5
+      "liczba": 6
     },
     {
       "kategoria": "Deble i Miksty",
@@ -176,15 +176,6 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Sportowego Czarni 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Rzeszów",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5568"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Turniej o Puchar Klubu Tenisowego Antuka 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
@@ -199,6 +190,15 @@
       "data_do": "2026-09-20",
       "miasto": "Częstochowa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-puchar-klubu-tenisowego-antuka-2026-5567"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "PLT Kobiet",
+      "nazwa": "PLT KOBIET. Turniej o Puchar Klubu Tenisowego Antuka 2026",
+      "data_od": "2026-09-20",
+      "data_do": "2026-09-20",
+      "miasto": "Częstochowa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-turniej-o-puchar-klubu-tenisowego-antuka-2026-5612"
     },
     {
       "zrodlo": "PLT",
@@ -217,6 +217,15 @@
       "data_do": "2026-09-20",
       "miasto": "Myślenice",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sport-myslenice-2026-5579"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Sportowego Czarni 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-09-20",
+      "data_do": "2026-09-20",
+      "miasto": "Rzeszów",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5568"
     },
     {
       "zrodlo": "PLT",
