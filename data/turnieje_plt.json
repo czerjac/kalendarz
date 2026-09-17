@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-16T09:20:19+00:00",
+  "pobrano_utc": "2026-09-17T09:28:39+00:00",
   "liczba_turniejow": 51,
   "kategorie_sprawdzone": [
     {
@@ -167,7 +167,7 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Mistrzostwa Radomia 2026",
+      "nazwa": "1. LIGA. Otwarte Mistrzostwa Radomia 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "miasto": "Radom",
