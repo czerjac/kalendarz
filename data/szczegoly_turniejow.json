@@ -21,12 +21,12 @@
         "opis": "42-300 Myszków, Szczygla 4 www https://www.facebook.com/LUKA.AKADEMIA.TENISOWA/"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "V Myszkowska Liga Tenisowa Kobiet",
       "data_od": "2026-05-11",
       "data_do": "2026-10-31",
-      "ostatnia_proba_utc": "2026-09-17T09:28:56+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:28:57+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:32+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:33+00:00",
       "wersja_parsera": 2
     },
     "78fe41beede583": {
@@ -50,12 +50,12 @@
         "opis": "42-300 Myszków, Szczygla 4 www https://www.facebook.com/LUKA.AKADEMIA.TENISOWA/"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "V Myszkowska Liga Tenisowa Mężczyzn",
       "data_od": "2026-05-11",
       "data_do": "2026-10-31",
-      "ostatnia_proba_utc": "2026-09-17T09:28:58+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:28:58+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:34+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:34+00:00",
       "wersja_parsera": 2
     },
     "4703bfcb62e5ee": {
@@ -391,14 +391,15 @@
         "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5593%2Finformacje",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5593/informacje"
       },
-      "aktywny_w_kalendarzu": true,
+      "aktywny_w_kalendarzu": false,
       "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Krakowa 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "ostatnia_proba_utc": "2026-09-17T09:29:33+00:00",
       "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:34+00:00",
-      "wersja_parsera": 2
+      "wersja_parsera": 2,
+      "usuniety_z_kalendarza_utc": "2026-09-18T09:02:32+00:00"
     },
     "162a213c5650ef": {
       "id": "162a213c5650ef",
@@ -746,7 +747,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-sedziszowa-malopolskiego-2026-5544/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Sędziszowa Małopolskiego 2026",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -1244,12 +1245,12 @@
         "opis": "05-500 Siedliska, Mostowa 4"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "SMECZ PIASECZNO",
       "data_od": "2026-09-18",
       "data_do": "2026-09-18",
-      "ostatnia_proba_utc": "2026-09-17T09:28:58+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:28:59+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:34+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:34+00:00",
       "wersja_parsera": 2
     },
     "ec9c90ab27885c": {
@@ -1269,16 +1270,16 @@
         "zapisy_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=80B4625B-3B00-4F14-B52A-FA27F56720A0",
         "kontakt": "tel.: 505037997 | email: jaczarus@o2pl",
         "wpisowe": "Zawodnik zrzeszony: 150,00 zł | Zawodnik NST: 190,00 zł",
-        "typ_gry": "Gra pojedyncza; Mężczyźni; Grupowo-pucharowy 12",
+        "typ_gry": "Gra pojedyncza; Mężczyźni; Grupowo-pucharowy 6",
         "opis": "21-010 Łęczna, Osiedle Kolonia Trębaczów 62 www Brakuje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Plusssz OPEN 2026",
       "data_od": "2026-09-18",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:28:59+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:28:59+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:35+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:35+00:00",
       "wersja_parsera": 2
     },
     "d5c3f82b201e67": {
@@ -1302,12 +1303,12 @@
         "limit_uczestnikow": "24"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Turniej o Puchar 3. Ligi",
       "data_od": "2026-09-19",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:10+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:12+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:43+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:44+00:00",
       "wersja_parsera": 2
     },
     "d04eddf2d2584f": {
@@ -1330,12 +1331,12 @@
         "kontakt": "32 2417 050 (wew. 34, 43) | zgloszenia@moris.chorzow.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Amatorski Turniej Tenisa Ziemnego",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:13+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:14+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:45+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:46+00:00",
       "wersja_parsera": 2
     },
     "842de8a0265f81": {
@@ -1358,12 +1359,12 @@
         "adres": "Family Garden, Szczecin, ul. Daniela 19, Szczecin, Dołuje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Cuply Challenger Szczecin Dołuje II (do 4.0 NTRP)",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:00+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:02+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:36+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:37+00:00",
       "wersja_parsera": 2
     },
     "eb64d393f2e7fc": {
@@ -1372,16 +1373,16 @@
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5175",
       "pierwsze_wykrycie_utc": "2026-09-07T18:29:49+00:00",
       "dane": {
-        "zapisy_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5175",
-        "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5175"
+        "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
+        "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5175/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. III Coroczny Turniej o Puchar Podleśnej 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:14+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:17+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:47+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:49+00:00",
       "wersja_parsera": 2
     },
     "5e1f52385a4a06": {
@@ -1398,18 +1399,18 @@
         "kontakt": "607510310",
         "wpisowe": "140.00 zł",
         "system_gier": "Faza grupowa + pucharowa",
-        "limit_uczestnikow": "20",
+        "limit_uczestnikow": "16",
         "nawierzchnia": "Ziemna",
-        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5176%2Finformacje",
+        "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5176/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. III Coroczny Turniej o Puchar Podleśnej 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:18+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:19+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:50+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:51+00:00",
       "wersja_parsera": 2
     },
     "df64f3ba14da0e": {
@@ -1426,18 +1427,18 @@
         "kontakt": "697868838",
         "wpisowe": "120.00 zł",
         "system_gier": "Faza grupowa + pucharowa",
-        "limit_uczestnikow": "12",
+        "limit_uczestnikow": "9",
         "nawierzchnia": "Ziemna",
-        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-otwarte-jesienne-mistrzostwa-kielc-2026-5554%2Finformacje",
+        "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-kielc-2026-5554/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Kielc 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:20+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:21+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:51+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:52+00:00",
       "wersja_parsera": 2
     },
     "f5b0734e52b22c": {
@@ -1459,14 +1460,15 @@
         "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-otwarte-jesienne-mistrzostwa-kielc-2026-5555%2Finformacje",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-kielc-2026-5555/informacje"
       },
-      "aktywny_w_kalendarzu": true,
+      "aktywny_w_kalendarzu": false,
       "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Kielc 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "ostatnia_proba_utc": "2026-09-17T09:29:21+00:00",
       "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:22+00:00",
-      "wersja_parsera": 2
+      "wersja_parsera": 2,
+      "usuniety_z_kalendarza_utc": "2026-09-18T09:02:32+00:00"
     },
     "381ffdbf967e64": {
       "id": "381ffdbf967e64",
@@ -1477,23 +1479,23 @@
         "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
         "miejsce": "TKKF Korty Konin",
         "adres": "TKKF Korty Konin, Konin, ul. Sosnowa 10A",
-        "wojewodztwo": "opolskie",
+        "wojewodztwo": "wielkopolskie",
         "organizator": "Marcin Dołowiec",
         "kontakt": "783774321",
         "wpisowe": "120.00 zł",
         "system_gier": "Faza grupowa + pucharowa",
-        "limit_uczestnikow": "12",
+        "limit_uczestnikow": "6",
         "nawierzchnia": "Ziemna",
-        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-otwarte-jesienne-mistrzostwa-konina-2026-5533%2Finformacje",
+        "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-konina-2026-5533/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Konina 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:23+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:24+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:53+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:54+00:00",
       "wersja_parsera": 2
     },
     "cef813d92d73b7": {
@@ -1515,14 +1517,15 @@
         "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-liga-tenisa-kobiet%2Fplt-kobiet-otwarte-jesienne-mistrzostwa-konina-2026-5534%2Finformacje",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-konina-2026-5534/informacje"
       },
-      "aktywny_w_kalendarzu": true,
+      "aktywny_w_kalendarzu": false,
       "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
       "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Konina 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "ostatnia_proba_utc": "2026-09-17T09:29:25+00:00",
       "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:26+00:00",
-      "wersja_parsera": 2
+      "wersja_parsera": 2,
+      "usuniety_z_kalendarza_utc": "2026-09-18T09:02:32+00:00"
     },
     "b0ce91c7b3d044": {
       "id": "b0ce91c7b3d044",
@@ -1533,23 +1536,23 @@
         "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
         "miejsce": "TKKF Korty Konin",
         "adres": "TKKF Korty Konin, Konin, ul. Sosnowa 10A",
-        "wojewodztwo": "opolskie",
+        "wojewodztwo": "wielkopolskie",
         "organizator": "Marcin Dołowiec",
         "kontakt": "783774321",
         "wpisowe": "129.00 zł",
         "system_gier": "Faza grupowa + pucharowa",
-        "limit_uczestnikow": "12",
+        "limit_uczestnikow": "2",
         "nawierzchnia": "Ziemna",
-        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpuchar-plt%2Fpuchar-plt-otwarte-jesienne-mistrzostwa-konina-2026-5532%2Finformacje",
+        "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-jesienne-mistrzostwa-konina-2026-5532/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "PUCHAR PLT. Otwarte Jesienne Mistrzostwa Konina 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:26+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:27+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:55+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:56+00:00",
       "wersja_parsera": 2
     },
     "a593cfae89b747": {
@@ -1571,14 +1574,15 @@
         "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-5558%2Finformacje",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-5558/informacje"
       },
-      "aktywny_w_kalendarzu": true,
+      "aktywny_w_kalendarzu": false,
       "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Bałtyk Koszalin 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "ostatnia_proba_utc": "2026-09-17T09:29:28+00:00",
       "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:29+00:00",
-      "wersja_parsera": 2
+      "wersja_parsera": 2,
+      "usuniety_z_kalendarza_utc": "2026-09-18T09:02:32+00:00"
     },
     "f6b61e54191134": {
       "id": "f6b61e54191134",
@@ -1599,14 +1603,15 @@
         "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-5559%2Finformacje",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-5559/informacje"
       },
-      "aktywny_w_kalendarzu": true,
+      "aktywny_w_kalendarzu": false,
       "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Bałtyk Koszalin 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "ostatnia_proba_utc": "2026-09-17T09:29:30+00:00",
       "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:31+00:00",
-      "wersja_parsera": 2
+      "wersja_parsera": 2,
+      "usuniety_z_kalendarza_utc": "2026-09-18T09:02:32+00:00"
     },
     "fa476fab2bf3ba": {
       "id": "fa476fab2bf3ba",
@@ -1622,18 +1627,18 @@
         "kontakt": "660516017",
         "wpisowe": "130.00 zł",
         "system_gier": "Faza grupowa + pucharowa",
-        "limit_uczestnikow": "12",
+        "limit_uczestnikow": "10",
         "nawierzchnia": "Ziemna",
-        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-otwarte-jesienne-mistrzostwa-krosna-2026-5574%2Finformacje",
+        "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krosna-2026-5574/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Krosna 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:34+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:36+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:56+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:57+00:00",
       "wersja_parsera": 2
     },
     "3254b241fb8810": {
@@ -1645,23 +1650,21 @@
         "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
         "miejsce": "Oleśnicki Klub Tenisowy",
         "adres": "Oleśnicki Klub Tenisowy, Oleśnica, Rabarbarowa 7",
-        "wojewodztwo": "śląskie",
-        "organizator": "Paweł Chałupa",
-        "kontakt": "781281227",
+        "wojewodztwo": "dolnośląskie",
         "wpisowe": "159.00 zł",
         "system_gier": "Faza grupowa + pucharowa",
-        "limit_uczestnikow": "12",
+        "limit_uczestnikow": "9",
         "nawierzchnia": "Ziemna",
-        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-olesnica-closing-season-cup-2026-5556%2Finformacje",
+        "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-olesnica-closing-season-cup-2026-5556/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu OKT Oleśnica 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:36+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:37+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:58+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:59+00:00",
       "wersja_parsera": 2
     },
     "6cbeb338f734c0": {
@@ -1673,23 +1676,21 @@
         "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
         "miejsce": "Oleśnicki Klub Tenisowy",
         "adres": "Oleśnicki Klub Tenisowy, Oleśnica, Rabarbarowa 7",
-        "wojewodztwo": "śląskie",
-        "organizator": "Paweł Chałupa",
-        "kontakt": "781281227",
+        "wojewodztwo": "dolnośląskie",
         "wpisowe": "159.00 zł",
         "system_gier": "Faza grupowa + pucharowa",
-        "limit_uczestnikow": "12",
+        "limit_uczestnikow": "9",
         "nawierzchnia": "Ziemna",
-        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-olesnica-closing-season-cup-2026-5557%2Finformacje",
+        "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-olesnica-closing-season-cup-2026-5557/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu OKT Oleśnica 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:38+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:39+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:59+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:00+00:00",
       "wersja_parsera": 2
     },
     "f2f572572f25cc": {
@@ -1711,16 +1712,16 @@
         "cykl_szczegolowy": "GRAND PRIX PODLASIA I MAZUR",
         "zapisy_url": "https://kluby.org/turnieje/11994/zapisy",
         "szczegoly_url": "https://kluby.org/turnieje/11994",
-        "opis": "Zapraszamy na kolejną edycję kultowego turnieju Jabłoń Cup\nW tym roku gramy kategorie:\n- Open ( limit 24 os. )\n- Kobiety ( limit 16 os.)\n- +50 ( limit 12 os. )\n- Debel ( limit 16 par)\n-Debel Kobiet (limit 12 par)\n- Mikst ( limit 16 par)\nSystem zależny od ilości zgłoszeń ( w singlach min 2 mecze gwarantowane)\nWpisowe - 150 zł /1 kategoria , 250 zł -2 kategorie\nUwag limit: udział w maksymalnie 2 kategoriach!\nW przypadku niekorzystnych warunków meteorologicznych rozegrane zostaną tylko kategorie deblowe ( Debel Open, Debel Kobiet, oraz Mixt).\nWięcej informacji wkrótce na profilach klubowych i panelu turnieju.",
+        "opis": "Zapraszamy na kolejną edycję kultowego turnieju Jabłoń Cup\nW tym roku gramy kategorie:\n- Open ( limit 24 os. )\n- Kobiety ( limit 16 os.)\n- +50 ( limit 12 os. )\n- Debel ( limit 16 par)\n-Debel Kobiet (limit 12 par)\n- Mikst ( limit 16 par)\nSystem zależny od ilości zgłoszeń ( w singlach min 2 mecze gwarantowane)\nWpisowe - 150 zł /1 kategoria , 250 zł -2 kategorie\nUwag limit: udział w maksymalnie 2 kategoriach!\nW przypadku niekorzystnych warunków meteorologicznych rozegrane zostaną tylko kategorie deblowe ( Debel Open, Debel Kobiet, oraz Mixt).\nWięcej informacji wkrótce na profilach klubowych i panelu turnieju.\n------------------------------------------------------------------\nKomunikat Organizacyjny #1 z dnia 17.09.2026\n1. Turniej Jabłoń Cup 2025 zostanie rozegrany we wszystkich zaplanowanych kategoriach. Orientacyjny Plan gier, podział grup i drabinki turniejowe dostępne są w panelu turnieju na portalu www.kluby.org .\n2. W związku z możliwymi opadami deszczu, sędzie główny turnieju może podjąć decyzję o:\n- zmianach godzin poszczególnych meczów\n- skróceniu meczów\n- przeniesieniu meczów na kolejny dzień\n- konieczności rozgrywania meczów w innej lokalizacji lub na hali tenisowej o nawierzchni ze sztucznej trawy\n- odwołaniu kategorii i uznaniu turnieju za nieodbyty ( w tej sytuacji zawodnikom przysługuje zwrot wpisowego w całości jeśli nie rozegrali żadnego spotkania, 50% jeśli rozegrali jedno spotkanie , 0% jeśli rozegrali dwa spotkania i więcej)\n3. W związku z ryzykiem czasowym, niestawienie się na mecz o wyznaczonej godzinie skutkować będzie walkowerem. ( 15 min karencji)\nPrzebieg gier\n4. System gier dla poszczególnych kategorii:\n- Singiel Open\nMecze: do dwóch wygranych setów od stanu 2:2 + ew. ST\nSystem: Grupowo pucharowy ( awans 1 osoba z grupy)\nTurniej pocieszenia dla chętnych rozgrywany na kortach w Piszu\n( System : Drabinka, Mecze: 1 set do 6 gemów)\n- Singiel Kobiet\nMecze: Grupy: 1 set do 6 gemów\nFaza pucharowa: do dwóch wygranych setów od stanu 2:2 + ew. ST\nSystem: Grupowo-pucharowy ( awans 1 osoba z grupy)\nSingiel +50\nMecze: Grupy: 1 Set do 6; faza pucharowa do dwóch wygranych setów od stanu 2:2 + ew. ST\nSystem: Grupowo-pucharowy ( awans 1 osoba z grupy)\nDebel i Mixt\nMecze: Pełne system NoAd + ew. ST",
         "kontakt": "511164798 | tenis.pisz@gmail.com"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "JABŁOŃ CUP 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:39+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:41+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:01+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:02+00:00",
       "wersja_parsera": 2
     },
     "7156755922016e": {
@@ -1742,14 +1743,15 @@
         "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-otwarte-wiosenne-mistrzostwa-radomia-2026-5276%2Finformacje",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-wiosenne-mistrzostwa-radomia-2026-5276/informacje"
       },
-      "aktywny_w_kalendarzu": true,
+      "aktywny_w_kalendarzu": false,
       "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
       "nazwa": "1. LIGA. Otwarte Mistrzostwa Radomia 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "ostatnia_proba_utc": "2026-09-17T09:29:41+00:00",
       "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:43+00:00",
-      "wersja_parsera": 2
+      "wersja_parsera": 2,
+      "usuniety_z_kalendarza_utc": "2026-09-18T09:02:32+00:00"
     },
     "495da930e368a7": {
       "id": "495da930e368a7",
@@ -1771,12 +1773,12 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5568/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Sportowego Czarni 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:30:06+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:30:08+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:23+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:24+00:00",
       "wersja_parsera": 2
     },
     "1accb6d1f5e168": {
@@ -1827,12 +1829,12 @@
         "kontakt": "605680154 | m_frydrych@op.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Mixt Open",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:46+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:47+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:06+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:07+00:00",
       "wersja_parsera": 2
     },
     "75ea6ee9017a70": {
@@ -1857,12 +1859,12 @@
         "kontakt": "570925927"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Park Tennis Academy Open",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:48+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:49+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:07+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:08+00:00",
       "wersja_parsera": 2
     },
     "f2965108a38a25": {
@@ -1884,14 +1886,15 @@
         "opis": "Weź udział w turnieju kwalifikacyjnym do naszej klubowej ligi wyłącznie dla kobiet! To wydarzenie przygotowane z myślą zarówno o zawodniczkach, które nie grały wcześniej w naszej lidze jak i tych, które miały już ku temu okazję.\nUdział nie jest obowiązkowy, ale daje Ci kilka konkretnych korzyści:\n- masz szansę na wywalczenie startu z lepszej pozycji w nowym sezonie!\n- sprawdzisz poziom innych uczestniczek ligi\n- spędzisz aktywne popołudnie w gronie tenisowych entuzjastek\nNowy sezon TENES Challenge Ladies startuje od 1. października!\nPamiętaj! Brak udziału w turnieju kwalifikacyjnym nie wyklucza z gry – zapisy do rozgrywek trwają przez cały sezon, ale teraz jest na to najlepszy moment!\nStruktura turnieju\nFaza grupowa + faza pucharowa\nPrzy dużej liczbie uczestników: skrócone mecze super tiebreak do 10 pkt\nLIMIT UCZESTNIKÓW - 8 osób\n- KAŻDE ZGŁOSZENIE WYMAGA Z NASZEJ STRONY DODATKOWEGO ZATWIERDZENIA\n- w turnieju wezmą udział wyłącznie osoby z listy \"ZGŁOSZENIA POTWIERDZONE\"\n- zgłoszenia zatwierdzamy zgodnie z ich kolejnością\nJeżeli zgłosiłaś się, ale jednak nie możesz wziąć udziału - koniecznie daj nam znać, dzięki temu w rozgrywkach weźmie udział ktoś inny - dzięki!\nW przypadku pełnej listy - zachęcamy do zapisywania się. Jeżeli zwolni się miejsce - będziemy kontaktować się z kolejnymi osobami z pozycji 9., 10., 11., itd :)\nJakie miejsce można zająć w Sezonie Zima 2026/2027 dzięki grze w Turnieju Kwalifikacyjnym?\nI miejsce w turnieju kwalifikacyjnym - 8. miejsce na liście rankingowej sezonu Zima 2026/2027\nII miejsce w turnieju kwalifikacyjnym - 12. miejsce na liście rankingowej sezonu Zima 2026/2027\nIII i IV miejsce w turnieju kwalifikacyjnym - 17. i 19. miejsce na liście rankingowej sezonu Zima 2026/2027\nPozostałe pozycje z turnieju kwalifikacyjnego - miejsca w ostatniej części rankingu Zima 2026/2027 zgodnie z zajętymi miejscami.\nZawodniczki nie biorące udziału w turnieju kwalifikacyjnym zajmują pozycje w rankingu Zima 2026/2027 zgodnie z miejscami z rankingu Lato 2026 z uwzględnieniem zasad zajmowania miejsc z turnieju kwalifikacyjnego (ewentualne spadki zależne od wyników turnieju kwalifikacyjnego).",
         "kontakt": "600333398"
       },
-      "aktywny_w_kalendarzu": true,
+      "aktywny_w_kalendarzu": false,
       "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
       "nazwa": "Turniej kwalifikacyjny TENES Challenge Ladies Zima 2026/2027",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "ostatnia_proba_utc": "2026-09-17T09:29:49+00:00",
       "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:51+00:00",
-      "wersja_parsera": 2
+      "wersja_parsera": 2,
+      "usuniety_z_kalendarza_utc": "2026-09-18T09:02:32+00:00"
     },
     "560fa9f143e3a2": {
       "id": "560fa9f143e3a2",
@@ -1913,12 +1916,12 @@
         "kontakt": "669 378 453 ( najlepiej SMS )"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Turniej kwalifikacyjny TENES Challenge Open Zima 2026/2027",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:51+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:52+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:09+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:10+00:00",
       "wersja_parsera": 2
     },
     "6c9c2ed8d82b8a": {
@@ -1931,7 +1934,7 @@
         "adres": "22-400 Zamość, ul. Studzienna 2",
         "kategorie": "45+, 55+, 65+, 75+, Open Amator, Open",
         "termin_zgloszen": "2026-09-16 23:59",
-        "termin_odwolan": "2026-09-17 23:59",
+        "termin_odwolan": "2026-09-16 17:00",
         "dyrektor_turnieju": "Stańczyk Stanisław Adam",
         "sedzia_naczelny": "Romański Jerzy",
         "pilka": "Tretorn Serie+ Control",
@@ -1939,15 +1942,15 @@
         "zapisy_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=76B12D48-991B-4098-B048-65D339E3E686",
         "kontakt": "tel.: 665684744 | email: m4107@wp.pl",
         "wpisowe": "Zawodnik z licencją TOP: 200,00 zł | Zawodnik bez licencji TOP: 250,00 zł | Zawodnik 70+ z licencją TOP: 150,00 zł | Zawodnicy grający tylko w grze podwójnej: 120,00 zł | wpisowe do gier pojedynczych obowiązkowo płatne na rachunek: | ZTT KT Return Zamość | 30 1240 2005 1111 0000 1764 8059 | Potwierdzenie przelewu należy przesłać na adres: jerzyromanski@wp.pl najpóźniej do końca terminu zapisów.",
-        "typ_gry": "Gra pojedyncza; Mężczyźni; Drabinka 16"
+        "typ_gry": "Gra pojedyncza; Mężczyźni; Grupy + Grupy 6"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "TOP PZT Tour - VIII Memoriał Jurka Osoby",
       "data_od": "2026-09-19",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:03+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:03+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:38+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:38+00:00",
       "wersja_parsera": 2
     },
     "aa6e4c54819c1d": {
@@ -1970,12 +1973,12 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-puchar-klubu-tenisowego-antuka-2026-5566/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Puchar Klubu Tenisowego Antuka 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:54+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:55+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:12+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:13+00:00",
       "wersja_parsera": 2
     },
     "d14887ac3316e9": {
@@ -1998,12 +2001,12 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-puchar-klubu-tenisowego-antuka-2026-5567/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Puchar Klubu Tenisowego Antuka 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:56+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:57+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:13+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:14+00:00",
       "wersja_parsera": 2
     },
     "c5d2401d7caeaa": {
@@ -2055,12 +2058,12 @@
         "adres": "Family Garden, Szczecin, ul. Daniela 19, Szczecin, Dołuje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Cuply Masters Szczecin Dołuje - dla zaawansowanych",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:03+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:04+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:39+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:39+00:00",
       "wersja_parsera": 2
     },
     "e2de0997609f9f": {
@@ -2083,12 +2086,12 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-indywidualne-mistrzostwa-wojewodztwa-lubuskiego-2026-5475/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Otwarte Letnie Mistrzostwa Województwa Lubuskiego 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:59+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:30:00+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:17+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:18+00:00",
       "wersja_parsera": 2
     },
     "c3aaf369d6112c": {
@@ -2113,12 +2116,12 @@
         "kontakt": "508372995"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Turniej Mikstowy",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:30:01+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:30:02+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:18+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:19+00:00",
       "wersja_parsera": 2
     },
     "a854ef46d1ce2f": {
@@ -2128,16 +2131,25 @@
       "pierwsze_wykrycie_utc": "2026-09-07T18:29:49+00:00",
       "dane": {
         "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+        "miejsce": "Korty Tenisowe Sport Myślenice",
+        "adres": "Korty Tenisowe Sport Myślenice, Myślenice, Mostowa",
+        "wojewodztwo": "opolskie",
+        "organizator": "Piotr Zięba",
+        "kontakt": "501203355",
+        "wpisowe": "130.00 zł",
+        "system_gier": "Faza grupowa + pucharowa",
+        "limit_uczestnikow": "12",
+        "nawierzchnia": "Trawiasta",
         "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-turniej-o-mistrzostwo-klubu-sport-myslenice-2026-5579%2Finformacje",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sport-myslenice-2026-5579/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Sport Myślenice 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:30:03+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:30:04+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:20+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:21+00:00",
       "wersja_parsera": 2
     },
     "4d4d4fad918afc": {
@@ -2162,12 +2174,12 @@
         "opis": "05-500 Siedliska, Mostowa 4"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "SMECZ PIASECZNO",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:05+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:05+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:40+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:40+00:00",
       "wersja_parsera": 2
     },
     "d1ec1d69c00966": {
@@ -2190,12 +2202,12 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5569/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Sportowego Czarni 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:30:08+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:30:09+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:25+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:26+00:00",
       "wersja_parsera": 2
     },
     "f4ac8c2024d216": {
@@ -2214,16 +2226,16 @@
         "system_gier": "Faza grupowa + pucharowa",
         "limit_uczestnikow": "12",
         "nawierzchnia": "Ziemna",
-        "zapisy_url": "https://polskaligatenisa.pl/rejestracja",
+        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5560%2Finformacje",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5560/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Olszynka Grochowska 2026- Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:30:12+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:30:13+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:28+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:29+00:00",
       "wersja_parsera": 2
     },
     "236db0d743a220": {
@@ -2246,12 +2258,12 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5561/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Olszynka Grochowska 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:30:13+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:30:14+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:30+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:31+00:00",
       "wersja_parsera": 2
     },
     "843bd354793b39": {
@@ -2267,12 +2279,12 @@
         "szczegoly_url": "https://kluby.org/turnieje/12145"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "III Liga ŁLT Grupa Barażowa 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:30:15+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:30:16+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:31+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:32+00:00",
       "wersja_parsera": 2
     },
     "b4044544732ccc": {
@@ -2296,7 +2308,7 @@
         "kontakt": "508 285 414 | biuro@barlineckiklubtenisowy.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "V GP Barlinka",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -2316,7 +2328,7 @@
         "szczegoly_url": "https://kluby.org/turnieje/11780"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Masters Ligi Letniej",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -2344,10 +2356,10 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-moksir-chelmek-2026-5570/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu MOKSiR Chełmek 2026- Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
       "ostatnia_proba_utc": "2026-09-16T09:22:02+00:00",
       "ostatnie_poprawne_pobranie_utc": "2026-09-16T09:22:03+00:00",
       "wersja_parsera": 2
@@ -2368,7 +2380,7 @@
         "adres": "Gorzów Wielkopolski"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Cuply Challenger Gorzów I",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
@@ -2398,7 +2410,7 @@
         "opis": "47-232 Kędzierzyn-Koźle, Bol.Śmiałego 2"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "TENIS CLUB KK \"LATO 2026\"",
       "data_od": "2026-09-26",
       "data_do": "2026-09-27",
@@ -2427,7 +2439,7 @@
         "typ_gry": "Gra pojedyncza; Mężczyźni; Grupowo-pucharowy 16"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Klubowy Singiel Panów WRZESIEŃ - ArKademia",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -2455,7 +2467,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-szamotul-2026-5162/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu CS Szamotuły 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -2479,7 +2491,7 @@
         "adres": "Zoom Tennis Academy, Lubieszyńska 10A, Szczecin / Mierzyn"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "DUO ZOOM & BREJK Open IV - turniej deblowy OPEN",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -2507,7 +2519,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-jesienne-mistrzostwa-sztumu-2026-5577/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "PUCHAR PLT. Otwarte Jesienne Mistrzostwa Sztumu 2026",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -2535,7 +2547,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-zawiercia-2026-5595/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Zawiercia 2026",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -2564,7 +2576,7 @@
         "typ_gry": "Gra pojedyncza; Kobiety; Grupowo-pucharowy 12"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Klubowy Singiel Pań WRZESIEŃ - ArKademia OLESNO",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -2594,7 +2606,7 @@
         "opis": "05-500 Siedliska, Mostowa 4"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "SMECZ PIASECZNO",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -2619,7 +2631,7 @@
         "adres": "SOT Stargardzki Ośrodek Tenisowy, Władysława Broniewskiego 19, Stargard"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Cuply Futures Stargard II dla początkujących (do 2.5 NTRP)",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -2643,7 +2655,7 @@
         "adres": "SOT Stargardzki Ośrodek Tenisowy, Władysława Broniewskiego 19, Stargard"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Cuply Stargard Masters II (zaawansowani amatorzy)",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -2671,7 +2683,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-kgmiar-cup-v-2026-5161/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "MIKST. Grand Prix KGmiar Cup V 2026",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -2702,7 +2714,7 @@
         "kontakt": "501 382 983 | magdaszmyd@tlen.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Michałufka singiel OPEN",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -2730,7 +2742,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-kolobrzegu-2026-5589/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Kołobrzegu 2026",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
@@ -2758,7 +2770,7 @@
         "kontakt": "514 827 552"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Gentlemans Club - Turniej Debel - Americano & Event dla Panów ( wewnętrzny dla klubowiczów )",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
@@ -2776,7 +2788,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-jesienne-mistrzostwa-gdanska-2026-5186/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "PLT KOBIET. Jesienne Mistrzostwa Gdańska 2026",
       "data_od": "2026-10-04",
       "data_do": "2026-10-04",
@@ -2804,7 +2816,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Mikst 35+ Masters",
       "data_od": "2026-10-04",
       "data_do": "2026-10-04",
@@ -2834,7 +2846,7 @@
         "kontakt": "669 378 453 ( najlepiej SMS )"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "TENES GPM Debel Open",
       "data_od": "2026-10-10",
       "data_do": "2026-10-10",
@@ -2862,7 +2874,7 @@
         "kontakt": "669 378 453 ( najlepiej SMS )"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "TENES Single Cup kat. CLUB+ - wewnętrzny turniej dla Klubowiczów",
       "data_od": "2026-10-10",
       "data_do": "2026-10-10",
@@ -2890,7 +2902,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel 35+ Masters",
       "data_od": "2026-10-11",
       "data_do": "2026-10-11",
@@ -2920,7 +2932,7 @@
         "opis": "26-600 Radom, Chorzowska 11A www www.agtenis.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "IX Mem. Popielucha i Wesołowskiego",
       "data_od": "2026-10-16",
       "data_do": "2026-10-18",
@@ -2950,7 +2962,7 @@
         "kontakt": "600 333 398"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "TENES GPM Mikst Cup",
       "data_od": "2026-10-17",
       "data_do": "2026-10-17",
@@ -2978,7 +2990,7 @@
         "kontakt": "600 333 398"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "TENES Single Cup kat. BASIC+ - wewnętrzny turniej dla Klubowiczów",
       "data_od": "2026-10-17",
       "data_do": "2026-10-17",
@@ -3006,12 +3018,12 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Kobiet 35+ Masters",
       "data_od": "2026-10-18",
       "data_do": "2026-10-18",
-      "ostatnia_proba_utc": "2026-09-14T09:56:45+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-14T09:56:46+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:52+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:53+00:00",
       "wersja_parsera": 2
     },
     "89d58d15f7e9aa": {
@@ -3034,12 +3046,12 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-perun-wesola-open-2026-5581/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "PUCHAR PLT. Perun Wesoła Open 2026",
       "data_od": "2026-10-18",
       "data_do": "2026-10-18",
-      "ostatnia_proba_utc": "2026-09-14T09:56:46+00:00",
-      "ostatnie_poprawne_pobranie_utc": "2026-09-14T09:56:48+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:54+00:00",
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:55+00:00",
       "wersja_parsera": 2
     },
     "345f442085e5b1": {
@@ -3063,7 +3075,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
@@ -3094,7 +3106,7 @@
         "kontakt": "501 382 983 | magdaszmyd@o2.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Singiel kobiet AQUARIUS Medical Cup",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
@@ -3122,7 +3134,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-mistrzostwa-polski-plt-2026-5520/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "PLT KOBIET. Indywidualne Krajowe Mistrzostwa PLT 2026",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
@@ -3148,7 +3160,7 @@
         "kontakt": "530338024"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Turniej Mikstowy (halloween)",
       "data_od": "2026-10-31",
       "data_do": "2026-10-31",
@@ -3177,7 +3189,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
       "data_od": "2026-11-08",
       "data_do": "2026-11-08",
@@ -3206,7 +3218,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Kobiet 35+ Zima z WARS-em 2026/27",
       "data_od": "2026-11-22",
       "data_do": "2026-11-22",
@@ -3235,7 +3247,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
       "data_od": "2026-11-29",
       "data_do": "2026-11-29",
@@ -3264,7 +3276,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
       "data_od": "2026-12-06",
       "data_do": "2026-12-06",
@@ -3293,7 +3305,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Kobiet 35+ Zima z WARS-em 2026/27",
       "data_od": "2026-12-13",
       "data_do": "2026-12-13",
@@ -3322,7 +3334,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
       "data_od": "2026-12-20",
       "data_do": "2026-12-20",
@@ -3351,7 +3363,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
       "data_od": "2027-01-10",
       "data_do": "2027-01-10",
@@ -3380,7 +3392,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Kobiet 35+ Zima z WARS-em 2026/27",
       "data_od": "2027-01-17",
       "data_do": "2027-01-17",
@@ -3409,7 +3421,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
       "data_od": "2027-01-24",
       "data_do": "2027-01-24",
@@ -3438,7 +3450,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
       "data_od": "2027-02-14",
       "data_do": "2027-02-14",
@@ -3467,7 +3479,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Kobiet 35+ Zima z WARS-em 2026/27",
       "data_od": "2027-02-21",
       "data_do": "2027-02-21",
@@ -3496,7 +3508,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
       "data_od": "2027-02-28",
       "data_do": "2027-02-28",
@@ -3525,7 +3537,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
       "data_od": "2027-03-07",
       "data_do": "2027-03-07",
@@ -3554,7 +3566,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Kobiet 35+ Zima z WARS-em 2026/27",
       "data_od": "2027-03-14",
       "data_do": "2027-03-14",
@@ -3582,7 +3594,7 @@
         "kontakt": "602 605 845 | aup@wp.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Masters Debel Mikst 35+ Zima z WARS-em 2026/27 (na zaproszenie)",
       "data_od": "2027-03-21",
       "data_do": "2027-03-21",
@@ -3609,14 +3621,15 @@
         "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5598%2Finformacje",
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5598/informacje"
       },
-      "aktywny_w_kalendarzu": true,
+      "aktywny_w_kalendarzu": false,
       "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Krakowa 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
       "ostatnia_proba_utc": "2026-09-17T09:29:31+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:32+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:32+00:00",
+      "usuniety_z_kalendarza_utc": "2026-09-18T09:02:32+00:00"
     },
     "ec524c6d74facd": {
       "id": "ec524c6d74facd",
@@ -3641,13 +3654,13 @@
       "pierwsze_wykrycie_utc": "2026-09-08T15:52:32+00:00",
       "dane": {},
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "V turniej Seniorów Olsztyna w grze pojedynczej",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:02+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:38+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:02+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:38+00:00"
     },
     "48171d86e20eef": {
       "id": "48171d86e20eef",
@@ -3656,13 +3669,13 @@
       "pierwsze_wykrycie_utc": "2026-09-08T15:52:32+00:00",
       "dane": {},
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "V turniej Seniorów Olsztyna w grze pojedynczej",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:04+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:40+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:04+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:40+00:00"
     },
     "0a571b04190d45": {
       "id": "0a571b04190d45",
@@ -3671,7 +3684,7 @@
       "pierwsze_wykrycie_utc": "2026-09-08T15:52:32+00:00",
       "dane": {},
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Olsztyn Masters Mikst - mistrzostwa Olsztyna w grze mieszanej (edycja czternasta)",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -3686,7 +3699,7 @@
       "pierwsze_wykrycie_utc": "2026-09-08T15:52:32+00:00",
       "dane": {},
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "V Grand Prix Skandy w grze podwójnej",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
@@ -3701,7 +3714,7 @@
       "pierwsze_wykrycie_utc": "2026-09-08T15:52:32+00:00",
       "dane": {},
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "V turniej Debel Pań",
       "data_od": "2026-10-04",
       "data_do": "2026-10-04",
@@ -3716,7 +3729,7 @@
       "pierwsze_wykrycie_utc": "2026-09-08T15:52:32+00:00",
       "dane": {},
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "V turniej Seniorski Debel",
       "data_od": "2026-10-04",
       "data_do": "2026-10-04",
@@ -3731,7 +3744,7 @@
       "pierwsze_wykrycie_utc": "2026-09-08T15:52:32+00:00",
       "dane": {},
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Rosyjska Ruletka",
       "data_od": "2026-10-10",
       "data_do": "2026-10-10",
@@ -3746,13 +3759,13 @@
       "pierwsze_wykrycie_utc": "2026-09-08T15:52:32+00:00",
       "dane": {},
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Towarzyski debel losowany",
       "data_od": "2026-10-17",
       "data_do": "2026-10-17",
-      "ostatnia_proba_utc": "2026-09-15T09:29:30+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:42+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-15T09:29:30+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:42+00:00"
     },
     "8370ceb83ff007": {
       "id": "8370ceb83ff007",
@@ -3768,8 +3781,8 @@
         "dyrektor_turnieju": "Krzysztof Kluczkowski",
         "telefon_organizatora": "+48 506 912 025",
         "email_organizatora": "krzysztof@teniswrybienku.pl",
-        "start_turnieju": "godz 10:00",
-        "termin_zgloszen": "2026-09-17",
+        "start_turnieju": "godz 11:00",
+        "termin_zgloszen": "2026-09-18",
         "cykl_szczegolowy": "RYBIENKO OPEN SERIES",
         "zapisy_url": "https://kluby.org/turnieje/12173/zapisy",
         "szczegoly_url": "https://kluby.org/turnieje/12173",
@@ -3777,13 +3790,13 @@
         "kontakt": "+48 506 912 025 | krzysztof@teniswrybienku.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Rybienko Open Series MASTERS 2026 - SINGIEL Vol.5",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:53+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:10+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:54+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:11+00:00"
     },
     "4becd356ff0d6d": {
       "id": "4becd356ff0d6d",
@@ -3805,13 +3818,13 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-rakietmania-2026-kwalifikacje-do-krajowych-mistrzostw-5584/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Rakietmania 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
-      "ostatnia_proba_utc": "2026-09-15T09:30:31+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:36+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-15T09:30:33+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:37+00:00"
     },
     "de43d3f78f2013": {
       "id": "de43d3f78f2013",
@@ -3830,13 +3843,13 @@
         "adres": "SOT Stargardzki Ośrodek Tenisowy, Władysława Broniewskiego 19, Stargard"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Cuply Challenger Stargard IV dla średniozaawansowanych (do 4.0 NTRP)",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
-      "ostatnia_proba_utc": "2026-09-15T09:29:29+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:41+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-15T09:29:29+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:41+00:00"
     },
     "cd7747a69a1275": {
       "id": "cd7747a69a1275",
@@ -3852,13 +3865,13 @@
         "szczegoly_url": "https://kluby.org/turnieje/12174"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Turniej Singlowy",
       "data_od": "2026-10-04",
       "data_do": "2026-10-04",
-      "ostatnia_proba_utc": "2026-09-15T09:30:38+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:51+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-15T09:30:39+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:52+00:00"
     },
     "1388a7f22eed72": {
       "id": "1388a7f22eed72",
@@ -3882,7 +3895,7 @@
         "kontakt": "692329071"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "TENES GMP Single Cup OPEN",
       "data_od": "2026-10-31",
       "data_do": "2026-10-31",
@@ -3911,7 +3924,7 @@
         "typ_gry": "Gra pojedyncza; Mężczyźni"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "XXVII Halowe Mistrzostwa Polski Lekarzy w Tenisie",
       "data_od": "2026-11-12",
       "data_do": "2026-11-15",
@@ -3985,13 +3998,13 @@
         "kontakt": "514646853 | zgluchowski@gmail.com"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Memoriał Bogusława Pawłowskiego 2026",
       "data_od": "2026-09-19",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:45+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:04+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:46+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:05+00:00"
     },
     "c8cb93a9aa21e2": {
       "id": "c8cb93a9aa21e2",
@@ -4013,10 +4026,10 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-moksir-chelmek-2026-5571/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu MOKSiR Chełmek 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
       "ostatnia_proba_utc": "2026-09-16T09:22:04+00:00",
       "wersja_parsera": 2,
       "ostatnie_poprawne_pobranie_utc": "2026-09-16T09:22:05+00:00"
@@ -4041,7 +4054,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-tp-ogrodowa-2026-kwalifikacje-do-krajowych-mistrzostw-5599/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu TP Ogrodowa 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -4069,7 +4082,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-szamotul-2026-5163/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu CS Szamotuły 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -4093,7 +4106,7 @@
         "adres": "Zoom Tennis Academy, Szczecin"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "MAJERAN - ZOOM Tenis CUP IX - dla początkujących",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
@@ -4122,7 +4135,7 @@
         "kontakt": "605680154 | m_frydrych@op.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Debel Kobiet - Open",
       "data_od": "2026-10-24",
       "data_do": "2026-10-24",
@@ -4153,7 +4166,7 @@
         "kontakt": "605680154 | m_frydrych@op.pl"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Mixt Open",
       "data_od": "2026-11-21",
       "data_do": "2026-11-21",
@@ -4232,13 +4245,13 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-grand-prix-spin-u-2026-5603/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "DEBEL. Grand Prix SPIN-u 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:30:10+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:26+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:30:11+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:27+00:00"
     },
     "0a454a97a30d17": {
       "id": "0a454a97a30d17",
@@ -4260,7 +4273,7 @@
         "kontakt": "883 067 542"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "NEW YORK GAMES - Turniej Drużynowy",
       "data_od": "2026-09-26",
       "data_do": "2026-09-26",
@@ -4288,7 +4301,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-grand-prix-spin-u-2026-kwalifikacje-do-krajowych-mistrzostw-5605/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Grand Prix SPIN-u 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -4338,13 +4351,13 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-grand-prix-spin-u-2026-kwalifikacje-do-krajowych-mistrzostw-5604/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Grand Prix SPIN-u 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
-      "ostatnia_proba_utc": "2026-09-15T09:30:33+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:39+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-15T09:30:34+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:40+00:00"
     },
     "89c536980b6382": {
       "id": "89c536980b6382",
@@ -4355,7 +4368,7 @@
         "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
         "miejsce": "Korty Tenisowe CSiR Sępólno Krajeńskie",
         "adres": "Korty Tenisowe CSiR Sępólno Krajeńskie, Sępólno Krajeńskie, Chojnicka 19",
-        "wojewodztwo": "pomorskie",
+        "wojewodztwo": "kujawsko-pomorskie",
         "organizator": "Sławomir Gołąbek",
         "kontakt": "887-817-168",
         "wpisowe": "110.00 zł",
@@ -4366,13 +4379,13 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-sepolna-krajenskiego-2026-5553/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Sępólna Krajeńskiego 2026",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
-      "ostatnia_proba_utc": "2026-09-15T09:30:35+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:41+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-15T09:30:36+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:42+00:00"
     },
     "ac8fad5a01e2d6": {
       "id": "ac8fad5a01e2d6",
@@ -4394,13 +4407,13 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-perun-wesola-2026-5563/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Perun Wesoła 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
-      "ostatnia_proba_utc": "2026-09-15T09:30:36+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:42+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-15T09:30:37+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:44+00:00"
     },
     "503cc9a23150b6": {
       "id": "503cc9a23150b6",
@@ -4444,7 +4457,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-tp-ogrodowa-2026-kwalifikacje-do-krajowych-mistrzostw-5600/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu TP Ogrodowa 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -4472,7 +4485,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-sport-myslenice-2026-5580/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Sport Myślenice 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -4500,7 +4513,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-skt-sanok-2026-kwalifikacje-do-krajowych-mistrzostw-5601/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu SKT Sanok 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -4528,7 +4541,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-skt-break-point-2026-5578/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu SKT Break Point 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -4556,7 +4569,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-perun-wesola-2026-5562/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Perun Wesoła 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -4584,7 +4597,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-uks-jura-zawiercie-2026-kwalifikacje-do-krajowych-mistrzostw-5594/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu UKS Jura Zawiercie 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -4608,7 +4621,7 @@
         "kontakt": "663085648"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "2 Turniej Łódzkiej Ligi Tenisa",
       "data_od": "2026-10-01",
       "data_do": "2027-01-10",
@@ -4636,7 +4649,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-brodnicy-2026-5524/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Otwarte Letnie Mistrzostwa Brodnicy 2026",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
@@ -4664,7 +4677,7 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltic-tennis-club-kolobrzeg-2026-kwalifikacje-do-krajowych-mistrzostw-5587/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu BTC Kołobrzeg 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
@@ -4716,13 +4729,13 @@
         "typ_gry": "Gra podwójna; Mieszany"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Turniej o Puchar Wójta Gminy Białe Błota Mikst",
       "data_od": "2026-09-19",
       "data_do": "2026-09-19",
-      "ostatnia_proba_utc": "2026-09-17T09:29:00+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:02:36+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:00+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:02:36+00:00"
     },
     "a559aa19041350": {
       "id": "a559aa19041350",
@@ -4745,13 +4758,13 @@
         "kontakt": "501862799"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Reda",
       "data_od": "2026-09-19",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:43+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:03+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:44+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:04+00:00"
     },
     "8267df3e5cbbdc": {
       "id": "8267df3e5cbbdc",
@@ -4772,13 +4785,13 @@
         "kontakt": "502-131-622"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "DEBEL CHALLENGER PIOTRKÓW TRYB.",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:30:05+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:21+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:30:06+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:23+00:00"
     },
     "4f411042a5e6d6": {
       "id": "4f411042a5e6d6",
@@ -4796,7 +4809,7 @@
         "adres": "Zoom Tennis Academy, Szczecin"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Super Masters ZOOM 1000$ eliminacje 2/3",
       "data_od": "2026-10-17",
       "data_do": "2026-10-17",
@@ -4817,7 +4830,7 @@
         "szczegoly_url": "https://kluby.org/turnieje/12204"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "Masters MIXT (zakończenie sezonu letniego)",
       "data_od": "2026-11-07",
       "data_do": "2026-11-07",
@@ -4845,13 +4858,13 @@
         "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-turniej-o-puchar-klubu-tenisowego-antuka-2026-5612/informacje"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "PLT KOBIET. Turniej o Puchar Klubu Tenisowego Antuka 2026",
       "data_od": "2026-09-20",
       "data_do": "2026-09-20",
-      "ostatnia_proba_utc": "2026-09-17T09:29:58+00:00",
+      "ostatnia_proba_utc": "2026-09-18T09:03:15+00:00",
       "wersja_parsera": 2,
-      "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:59+00:00"
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:16+00:00"
     },
     "ff3ef1c7a449f8": {
       "id": "ff3ef1c7a449f8",
@@ -4868,17 +4881,213 @@
         "adres": "Zoom Tenis Academy, Szczecin"
       },
       "aktywny_w_kalendarzu": true,
-      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-17T09:28:56+00:00",
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
       "nazwa": "GARDENIA - DUO ZOOM Tenis CUP VIII - turniej deblowy dla początkujących",
       "data_od": "2026-10-24",
       "data_do": "2026-10-24",
       "ostatnia_proba_utc": "2026-09-17T09:29:09+00:00",
       "wersja_parsera": 2,
       "ostatnie_poprawne_pobranie_utc": "2026-09-17T09:29:09+00:00"
+    },
+    "96c58435f77870": {
+      "id": "96c58435f77870",
+      "zrodlo": "PLT",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienne-mistrzostwa-krakowa-2026-5608",
+      "pierwsze_wykrycie_utc": "2026-09-18T09:02:32+00:00",
+      "dane": {
+        "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+        "miejsce": "Korty Politechniki Krakowskiej",
+        "adres": "Korty Politechniki Krakowskiej, Kraków, Florera 1",
+        "wojewodztwo": "opolskie",
+        "organizator": "Robert Tomaszewski",
+        "kontakt": "694995486",
+        "wpisowe": "160.00 zł",
+        "system_gier": "Faza grupowa + pucharowa",
+        "limit_uczestnikow": "12",
+        "nawierzchnia": "Ziemna",
+        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-jesienne-mistrzostwa-krakowa-2026-5608%2Finformacje",
+        "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienne-mistrzostwa-krakowa-2026-5608/informacje"
+      },
+      "aktywny_w_kalendarzu": true,
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
+      "nazwa": "1. LIGA. Jesienne Mistrzostwa Krakowa 2026",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "ostatnia_proba_utc": "2026-09-18T09:03:33+00:00",
+      "wersja_parsera": 2,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:34+00:00"
+    },
+    "867d9c77f35e0b": {
+      "id": "867d9c77f35e0b",
+      "zrodlo": "PLT",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-krakowa-2026-5609",
+      "pierwsze_wykrycie_utc": "2026-09-18T09:02:32+00:00",
+      "dane": {
+        "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+        "miejsce": "Korty Politechniki Krakowskiej",
+        "adres": "Korty Politechniki Krakowskiej, Kraków, Florera 1",
+        "wojewodztwo": "opolskie",
+        "organizator": "Robert Tomaszewski",
+        "kontakt": "694995486",
+        "wpisowe": "160.00 zł",
+        "system_gier": "Faza grupowa + pucharowa",
+        "limit_uczestnikow": "12",
+        "nawierzchnia": "Ziemna",
+        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-jesienne-mistrzostwa-krakowa-2026-5609%2Finformacje",
+        "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-krakowa-2026-5609/informacje"
+      },
+      "aktywny_w_kalendarzu": true,
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
+      "nazwa": "2. LIGA. Jesienne Mistrzostwa Krakowa 2026",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "ostatnia_proba_utc": "2026-09-18T09:03:34+00:00",
+      "wersja_parsera": 2,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:36+00:00"
+    },
+    "0f7136bf46b090": {
+      "id": "0f7136bf46b090",
+      "zrodlo": "PLT",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-kolobrzegu-2026-5617",
+      "pierwsze_wykrycie_utc": "2026-09-18T09:02:32+00:00",
+      "dane": {
+        "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+        "miejsce": "Baltic Tennis Club Kołobrzeg",
+        "adres": "Baltic Tennis Club Kołobrzeg, Kołobrzeg, Sikorskiego 1",
+        "wojewodztwo": "pomorskie",
+        "organizator": "Marcin Olesiński",
+        "kontakt": "669832198",
+        "wpisowe": "180.00 zł",
+        "system_gier": "Faza grupowa + pucharowa",
+        "limit_uczestnikow": "12",
+        "nawierzchnia": "Ziemna",
+        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-otwarte-jesienne-mistrzostwa-kolobrzegu-2026-5617%2Finformacje",
+        "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-kolobrzegu-2026-5617/informacje"
+      },
+      "aktywny_w_kalendarzu": true,
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Kołobrzegu 2026",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "ostatnia_proba_utc": "2026-09-18T09:03:38+00:00",
+      "wersja_parsera": 2,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:39+00:00"
+    },
+    "b5889cd60f7d42": {
+      "id": "b5889cd60f7d42",
+      "zrodlo": "PLT",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-letnie-mistrzostwa-brodnicy-2026-5525",
+      "pierwsze_wykrycie_utc": "2026-09-18T09:02:32+00:00",
+      "dane": {
+        "cykl_szczegolowy": "Letnie Mistrzostwa PLT",
+        "miejsce": "OSiR Brodnica",
+        "adres": "OSiR Brodnica, Brodnica, Królowej Jadwigi 1",
+        "wojewodztwo": "kujawsko-pomorskie",
+        "organizator": "Polska Liga Tenisa",
+        "kontakt": "660516017",
+        "wpisowe": "120.00 zł",
+        "system_gier": "Faza grupowa + pucharowa",
+        "limit_uczestnikow": "12",
+        "nawierzchnia": "Ziemna",
+        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-otwarte-letnie-mistrzostwa-brodnicy-2026-5525%2Finformacje",
+        "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-letnie-mistrzostwa-brodnicy-2026-5525/informacje"
+      },
+      "aktywny_w_kalendarzu": true,
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
+      "nazwa": "2. LIGA. Otwarte Letnie Mistrzostwa Brodnicy 2026",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "ostatnia_proba_utc": "2026-09-18T09:03:44+00:00",
+      "wersja_parsera": 2,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:45+00:00"
+    },
+    "f527cd4ca01a9a": {
+      "id": "f527cd4ca01a9a",
+      "zrodlo": "PLT",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-ks-tecza-2026-5585",
+      "pierwsze_wykrycie_utc": "2026-09-18T09:02:32+00:00",
+      "dane": {
+        "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+        "miejsce": "Korty Tenisowe KS Tęcza",
+        "adres": "Korty Tenisowe KS Tęcza, Kielce, ul. Zagnańska 110",
+        "wojewodztwo": "świętokrzyskie",
+        "organizator": "Piotr Klima",
+        "kontakt": "697868838",
+        "wpisowe": "130.00 zł",
+        "system_gier": "Faza grupowa + pucharowa",
+        "limit_uczestnikow": "12",
+        "nawierzchnia": "Ziemna",
+        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-i-liga-tenisa%2F1-liga-jesienny-turniej-o-puchar-ks-tecza-2026-5585%2Finformacje",
+        "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-ks-tecza-2026-5585/informacje"
+      },
+      "aktywny_w_kalendarzu": true,
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu KS Tęcza 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "ostatnia_proba_utc": "2026-09-18T09:03:46+00:00",
+      "wersja_parsera": 2,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:47+00:00"
+    },
+    "9231e26ea83b61": {
+      "id": "9231e26ea83b61",
+      "zrodlo": "PLT",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-btc-kolobrzeg-2026-kwalifikacje-do-krajowych-mistrzostw-5588",
+      "pierwsze_wykrycie_utc": "2026-09-18T09:02:32+00:00",
+      "dane": {
+        "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+        "miejsce": "Baltic Tennis Club Kołobrzeg",
+        "adres": "Baltic Tennis Club Kołobrzeg, Kołobrzeg, Sikorskiego 1",
+        "wojewodztwo": "pomorskie",
+        "organizator": "Marcin Olesiński",
+        "kontakt": "669832198",
+        "wpisowe": "180.00 zł",
+        "system_gier": "Faza grupowa + pucharowa",
+        "limit_uczestnikow": "12",
+        "nawierzchnia": "Ziemna",
+        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpolska-ii-liga-tenisa%2F2-liga-turniej-o-mistrzostwo-klubu-btc-kolobrzeg-2026-kwalifikacje-do-krajowych-mistrzostw-5588%2Finformacje",
+        "szczegoly_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-btc-kolobrzeg-2026-kwalifikacje-do-krajowych-mistrzostw-5588/informacje"
+      },
+      "aktywny_w_kalendarzu": true,
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
+      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu BTC Kołobrzeg 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "ostatnia_proba_utc": "2026-09-18T09:03:47+00:00",
+      "wersja_parsera": 2,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:48+00:00"
+    },
+    "4a60bfedd028f1": {
+      "id": "4a60bfedd028f1",
+      "zrodlo": "PLT",
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-warsaw-west-open-2026-5613",
+      "pierwsze_wykrycie_utc": "2026-09-18T09:02:32+00:00",
+      "dane": {
+        "cykl_szczegolowy": "Jesienne Mistrzostwa PLT",
+        "miejsce": "Warsaw West Tennis Club",
+        "adres": "Warsaw West Tennis Club, Ożarów Mazowiecki, ul. Strzykulska 6A",
+        "wojewodztwo": "mazowieckie",
+        "organizator": "Warsaw West Tennis Club Wwtc",
+        "kontakt": "+48 728 945 636",
+        "wpisowe": "180.00 zł",
+        "system_gier": "Faza grupowa + pucharowa",
+        "limit_uczestnikow": "12",
+        "nawierzchnia": "Twarda",
+        "zapisy_url": "https://polskaligatenisa.pl/logowanie?returnUrl=%2Fturnieje%2Fpuchar-plt%2Fpuchar-plt-warsaw-west-open-2026-5613%2Finformacje",
+        "szczegoly_url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-warsaw-west-open-2026-5613/informacje"
+      },
+      "aktywny_w_kalendarzu": true,
+      "ostatnio_widziany_w_kalendarzu_utc": "2026-09-18T09:02:32+00:00",
+      "nazwa": "PUCHAR PLT. Warsaw West Open 2026",
+      "data_od": "2026-10-04",
+      "data_do": "2026-10-04",
+      "ostatnia_proba_utc": "2026-09-18T09:03:49+00:00",
+      "wersja_parsera": 2,
+      "ostatnie_poprawne_pobranie_utc": "2026-09-18T09:03:50+00:00"
     }
   },
-  "aktualizacja_utc": "2026-09-17T09:30:29+00:00",
-  "liczba_rekordow": 181,
-  "liczba_aktywnych": 131,
+  "aktualizacja_utc": "2026-09-18T09:03:56+00:00",
+  "liczba_rekordow": 188,
+  "liczba_aktywnych": 130,
   "wersja_parsera": 2
 }

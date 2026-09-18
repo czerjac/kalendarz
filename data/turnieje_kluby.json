@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-17T09:28:51+00:00",
-  "liczba_turniejow": 50,
+  "pobrano_utc": "2026-09-18T09:02:25+00:00",
+  "liczba_turniejow": 49,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 56
+      "liczba": 55
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -102,16 +102,6 @@
       "miejsce": "Park Tennis Academy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12156"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej kwalifikacyjny TENES Challenge Ladies Zima 2026/2027",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Warszawa",
-      "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "KOBIETY OPEN",
-      "url": "https://kluby.org/turnieje/12006"
     },
     {
       "zrodlo": "Kluby.org",

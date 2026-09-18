@@ -1,5 +1,5 @@
 {
-  "aktualizacja_utc": "2026-09-17T09:30:29+00:00",
+  "aktualizacja_utc": "2026-09-18T09:03:56+00:00",
   "liczba_nierozpoznanych_miast": 2,
   "miasta": [
     {
@@ -23,8 +23,8 @@
           "wojewodztwo": "pomorskie"
         },
         {
-          "display_name": "Leszno, gmina Grabów, powiat łęczycki, województwo łódzkie, 99-150, Polska",
-          "wojewodztwo": "łódzkie"
+          "display_name": "Leszno, gmina Barczewo, powiat olsztyński, województwo warmińsko-mazurskie, 11-010, Polska",
+          "wojewodztwo": "warmińsko-mazurskie"
         }
       ]
     },
