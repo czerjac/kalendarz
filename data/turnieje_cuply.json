@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-09-18T09:01:59+00:00",
+  "pobrano_utc": "2026-09-19T08:49:24+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -16,19 +16,6 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-doluje-ii-do-40-ntrp"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Masters Szczecin Dołuje - dla zaawansowanych",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "Dołuje",
-      "miejsce": "Family Garden, Szczecin, Dołuje",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-masters-szczecin-doluje-dla-zaawansowanych"
     },
     {
       "zrodlo": "Cuply",
@@ -81,6 +68,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Masters Szczecin Dołuje - dla zaawansowanych",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Dołuje",
+      "miejsce": "Family Garden, Szczecin, Dołuje",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-masters-szczecin-doluje-dla-zaawansowanych"
     },
     {
       "zrodlo": "Cuply",
