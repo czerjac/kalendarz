@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-19T08:49:23+00:00",
-  "liczba_turniejow": 12,
+  "pobrano_utc": "2026-09-20T09:18:44+00:00",
+  "liczba_turniejow": 11,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -33,16 +33,6 @@
       "ranga": "3",
       "kategorie": "50+, Open Amator",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=80B4625B-3B00-4F14-B52A-FA27F56720A0"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "Turniej o Puchar Wójta Gminy Białe Błota Mikst",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Bydgoszcz",
-      "ranga": "5",
-      "kategorie": "Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9995A0E4-BAD0-4ED6-BB0A-CA55A60C673E"
     },
     {
       "zrodlo": "PZT TOP",

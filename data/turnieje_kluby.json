@@ -1,7 +1,7 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-19T08:49:54+00:00",
-  "liczba_turniejow": 58,
+  "pobrano_utc": "2026-09-20T09:19:12+00:00",
+  "liczba_turniejow": 47,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
@@ -35,16 +35,6 @@
   "turnieje": [
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Liga Letnia Masters",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Barlinek",
-      "miejsce": "Akademia Tenisa Barlinek, Barlinek",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12223"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "Turniej o Puchar 3. Ligi",
       "data_od": "2026-09-19",
       "data_do": "2026-09-20",
@@ -52,36 +42,6 @@
       "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12107"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Amatorski Turniej Tenisa Ziemnego",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Chorzów",
-      "miejsce": "MORIS Chorzów Filarowa, Chorzów",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12082"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Baltic Tennis Kids Cup",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Kołobrzeg",
-      "miejsce": "Baltic Tennis Club, Kołobrzeg",
-      "kategorie": "OPEN (RED) OPEN (ORANGE) OPEN (GREEN BOYS) OPEN (GREEN GIRLS)",
-      "url": "https://kluby.org/turnieje/12233"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "JABŁOŃ CUP 2026",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Pisz",
-      "miejsce": "Klub Tenisowy Pisz-Point, Pisz",
-      "kategorie": "OPEN KOBIETY OPEN SENIORZY +50 DEBEL DEBEL KOBIETY DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/11994"
     },
     {
       "zrodlo": "Kluby.org",
@@ -102,76 +62,6 @@
       "miejsce": "Korty Macieja, Warszawa",
       "kategorie": "OPEN KOBIETY OPEN",
       "url": "https://kluby.org/turnieje/12179"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Mixt Open",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Warszawa",
-      "miejsce": "Spójnia Górna, Warszawa",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/11901"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Park Tennis Academy Open",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Warszawa",
-      "miejsce": "Park Tennis Academy, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12156"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Perun Kids Cup Chłopaki",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Warszawa",
-      "miejsce": "Perun Wesoła, Warszawa",
-      "kategorie": "TENIS10 ZIELONA",
-      "url": "https://kluby.org/turnieje/12228"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Perun Kids Cup Czerwona",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Warszawa",
-      "miejsce": "Perun Wesoła, Warszawa",
-      "kategorie": "TENIS10 CZERWONA",
-      "url": "https://kluby.org/turnieje/12229"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Perun Kids Cup Dziewczynki",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Warszawa",
-      "miejsce": "Perun Wesoła, Warszawa",
-      "kategorie": "TENIS10 ZIELONA",
-      "url": "https://kluby.org/turnieje/12227"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej kwalifikacyjny TENES Challenge Open Zima 2026/2027",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Warszawa",
-      "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12005"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Rybienko Open Series MASTERS 2026 - SINGIEL Vol.5",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-19",
-      "miasto": "Wyszków",
-      "miejsce": "Tenis w Rybienku Leśnym, Wyszków",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12173"
     },
     {
       "zrodlo": "Kluby.org",

@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-19T08:49:42+00:00",
+  "pobrano_utc": "2026-09-20T09:19:01+00:00",
   "liczba_turniejow": 50,
   "kategorie_sprawdzone": [
     {
@@ -38,33 +38,6 @@
   "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Sportowego Czarni 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "Rzeszów",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5568"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Olszynka Grochowska 2026- Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "Warszawa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5560"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Olszynka Grochowska 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "Warszawa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5561"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
@@ -136,6 +109,15 @@
       "data_do": "2026-09-26",
       "miasto": "Sędziszów Małopolski",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-sedziszowa-malopolskiego-2026-5544"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Aceart Wroclaw Open 2026",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Wrocław",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-aceart-wroclaw-open-2026-5620"
     },
     {
       "zrodlo": "PLT",
@@ -445,12 +427,30 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu RTT Rzeszów 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
+      "miasto": "Rzeszów",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-rtt-rzeszow-2026-kwalifikacje-do-krajowych-mistrzostw-5606"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu RTT Rzeszów 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-10-10",
       "data_do": "2026-10-10",
       "miasto": "Rzeszów",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-rtt-rzeszow-2026-kwalifikacje-do-krajowych-mistrzostw-5607"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Podleśna Cup - Zakończenie Sezonu 2026",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-17",
+      "miasto": "Gdańsk",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-podlesna-cup-zakonczenie-sezonu-2026-5187"
     },
     {
       "zrodlo": "PLT",
