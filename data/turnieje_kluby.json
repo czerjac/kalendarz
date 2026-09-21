@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-20T09:19:12+00:00",
-  "liczba_turniejow": 47,
+  "pobrano_utc": "2026-09-21T09:58:50+00:00",
+  "liczba_turniejow": 42,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 64
+      "liczba": 66
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 15
+      "liczba": 16
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -33,86 +33,6 @@
     }
   ],
   "turnieje": [
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej o Puchar 3. Ligi",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-20",
-      "miasto": "Białystok",
-      "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12107"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Reda",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-20",
-      "miasto": "Reda",
-      "miejsce": "MOSiR w Redzie, Reda",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12208"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Memoriał Bogusława Pawłowskiego 2026",
-      "data_od": "2026-09-19",
-      "data_do": "2026-09-20",
-      "miasto": "Warszawa",
-      "miejsce": "Korty Macieja, Warszawa",
-      "kategorie": "OPEN KOBIETY OPEN",
-      "url": "https://kluby.org/turnieje/12179"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej Mikstowy",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "Mińsk Mazowiecki",
-      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12060"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "DEBEL CHALLENGER PIOTRKÓW TRYB.",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "Piotrków Trybunalski",
-      "miejsce": "OSiR Belzacka, Piotrków Trybunalski",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12207"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Perun Kids Cup Pomarańczowa Chłopcy",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "Warszawa",
-      "miejsce": "Perun Wesoła, Warszawa",
-      "kategorie": "TENIS10 POMARAŃCZOWA",
-      "url": "https://kluby.org/turnieje/12231"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Perun Kids Cup Pomarańczowa Dziewczyny",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "Warszawa",
-      "miejsce": "Perun Wesoła, Warszawa",
-      "kategorie": "TENIS10 POMARAŃCZOWA",
-      "url": "https://kluby.org/turnieje/12230"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "III Liga ŁLT Grupa Barażowa 2026",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "Łomża",
-      "miejsce": "Skate Park Łomża, Łomża",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12145"
-    },
     {
       "zrodlo": "Kluby.org",
       "nazwa": "V GP Barlinka",
@@ -155,6 +75,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Turniej młodzieżowy",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Góra Kalwaria",
+      "miejsce": "Strefa Aktywności Góra Kalwaria, Góra Kalwaria",
+      "kategorie": "JUNIORZY",
+      "url": "https://kluby.org/turnieje/12234"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Turniej deblowy Open",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -162,6 +92,16 @@
       "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
       "kategorie": "DEBEL",
       "url": "https://kluby.org/turnieje/12226"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turnieje dla dzieci i młodzieży kat. do lat 10,12 i 16",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Ostrołęka",
+      "miejsce": "Ostrołęckie Stowarzyszenie Tenisowe, Ostrołęka",
+      "kategorie": "JUNIORZY",
+      "url": "https://kluby.org/turnieje/12236"
     },
     {
       "zrodlo": "Kluby.org",
@@ -192,6 +132,16 @@
       "miejsce": "",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12200"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej Deblowy",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Góra Kalwaria",
+      "miejsce": "Strefa Aktywności Góra Kalwaria, Góra Kalwaria",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12235"
     },
     {
       "zrodlo": "Kluby.org",

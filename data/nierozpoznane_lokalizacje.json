@@ -1,7 +1,25 @@
 {
-  "aktualizacja_utc": "2026-09-20T09:20:43+00:00",
-  "liczba_nierozpoznanych_miast": 1,
+  "aktualizacja_utc": "2026-09-21T10:00:46+00:00",
+  "liczba_nierozpoznanych_miast": 2,
   "miasta": [
+    {
+      "miasto": "Góra Kalwaria",
+      "powod": "brak_jednoznacznego_wojewodztwa",
+      "dowody": [
+        {
+          "display_name": "Góra Kalwaria, gmina Góra Kalwaria, powiat piaseczyński, województwo mazowieckie, Polska",
+          "wojewodztwo": "mazowieckie"
+        },
+        {
+          "display_name": "Góra Kalwaria, Wejherowo, powiat wejherowski, województwo pomorskie, 84-200, Polska",
+          "wojewodztwo": "pomorskie"
+        },
+        {
+          "display_name": "Góra Kalwaria, Chojno-Młyn, gmina Wronki, powiat szamotulski, województwo wielkopolskie, 64-513, Polska",
+          "wojewodztwo": "wielkopolskie"
+        }
+      ]
+    },
     {
       "miasto": "Leszno",
       "powod": "brak_jednoznacznego_wojewodztwa",

@@ -1,29 +1,9 @@
 {
   "zrodlo": "TKKF Skanda",
-  "pobrano_utc": "2026-09-20T09:19:13+00:00",
-  "liczba_turniejow": 7,
+  "pobrano_utc": "2026-09-21T09:58:50+00:00",
+  "liczba_turniejow": 6,
   "odrzucono_odwolane": 10,
   "turnieje": [
-    {
-      "zrodlo": "TKKF Skanda",
-      "nazwa": "V turniej Seniorów Olsztyna w grze pojedynczej",
-      "data_od": "2026-09-20",
-      "data_do": "2026-09-20",
-      "miasto": "Olsztyn",
-      "miejsce": "TKKF Skanda",
-      "wojewodztwo": "warmińsko-mazurskie",
-      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
-      "organizator": "TKKF \"Skanda\"",
-      "telefon_organizatora": "500 036 039",
-      "email_organizatora": "kortyskanda@gmail.com",
-      "kontakt": "500 036 039 | kortyskanda@gmail.com",
-      "typ_gry": "gra pojedyncza mężczyzn pow. 50 lat",
-      "kategorie": "Mężczyźni 50+",
-      "cykl_szczegolowy": "Seniorzy Olsztyna",
-      "url": "http://kortyskanda.pl/turnieje.html",
-      "start_turnieju": "10:00",
-      "opis": "Start: 10:00. Informacje i zapisy u organizatora."
-    },
     {
       "zrodlo": "TKKF Skanda",
       "nazwa": "Olsztyn Masters Mikst - mistrzostwa Olsztyna w grze mieszanej (edycja czternasta)",
