@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T07:07:17.490922+00:00",
-  "run_date": "2026-09-15",
+  "generated_at": "2026-09-22T07:13:56.789085+00:00",
+  "run_date": "2026-09-22",
   "cutoff_exclusive": "2026-07-01",
-  "weekend_start": "2026-09-11",
-  "weekend_end": "2026-09-14",
+  "weekend_start": "2026-09-18",
+  "weekend_end": "2026-09-21",
   "supported_sources": [
     "PLT",
     "Cuply",
@@ -4277,7 +4277,7 @@
     {
       "id": "kluby:12206",
       "title": "Masters MERA & ST NET Chalenge — wyniki (2026-09-14)",
-      "content": "<p>W dniu 14 września 2026 na obiekcie WKT MERA (Warszawa) rozegrano turniej <em>„Masters MERA &amp; ST NET Chalenge”</em> w kategorii OPEN OPEN (Senior +35) OPEN (Amatorzy). Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>OPEN</h2>\n<h3>Grupa A</h3>\n<p>Laskowski Piotr – Kijak Daniel Brak potwierdzonego wyniku<br>\nVu Piotr – Bartosik Wojciech Brak potwierdzonego wyniku<br>\nLaskowski Piotr – Bartosik Wojciech Brak potwierdzonego wyniku<br>\nVu Piotr – Kijak Daniel Brak potwierdzonego wyniku<br>\nLaskowski Piotr – Vu Piotr Brak potwierdzonego wyniku<br>\nBartosik Wojciech – Kijak Daniel Brak potwierdzonego wyniku</p>\n<h3>Grupa B</h3>\n<p>Stempień Krzysztof – Lewandowski Dariusz Brak potwierdzonego wyniku<br>\nSiekierka Albert – Marciniak Łukasz Brak potwierdzonego wyniku<br>\nStempień Krzysztof – Marciniak Łukasz Brak potwierdzonego wyniku<br>\nSiekierka Albert – Lewandowski Dariusz Brak potwierdzonego wyniku<br>\nStempień Krzysztof – Siekierka Albert Brak potwierdzonego wyniku<br>\nMarciniak Łukasz – Lewandowski Dariusz Brak potwierdzonego wyniku</p>\n<h2>OPEN (Senior +35)</h2>\n<h3>1/4 finału</h3>\n<p>Klimkowski Rafal – Woźniak Tomasz Brak potwierdzonego wyniku<br>\nWójcik Anna – Tyniec Paweł Brak potwierdzonego wyniku<br>\nTylicki Marek – Praszałek Jacek Brak potwierdzonego wyniku<br>\nGembarowski Piotr – Zbyrasz Krzysztof Brak potwierdzonego wyniku</p>\n<h2>OPEN (Amatorzy)</h2>\n<h3>1/4 finału</h3>\n<p>Popławski Piotr – Kwiatkowski Dominik Brak potwierdzonego wyniku<br>\nWróbel Filip – Bauć Janusz Brak potwierdzonego wyniku<br>\nMichalik #1 Stefan – Kołkowski Rafał Brak potwierdzonego wyniku<br>\nStawiarski Miłosz – Kłopocki Jakub Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12206\">Kluby.org — wyniki turnieju</a>.</p>",
+      "content": "<p>W dniu 14 września 2026 na obiekcie WKT Mera, Warszawa (Warszawa) rozegrano turniej <em>„Masters MERA &amp; ST NET Chalenge”</em> w kategorii OPEN OPEN (Senior +35) OPEN (Amatorzy). Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>OPEN</h2>\n<h3>Grupa A</h3>\n<p>Laskowski Piotr – Kijak Daniel Brak potwierdzonego wyniku<br>\nVu Piotr – Bartosik Wojciech Brak potwierdzonego wyniku<br>\nLaskowski Piotr – Bartosik Wojciech Brak potwierdzonego wyniku<br>\nVu Piotr – Kijak Daniel Brak potwierdzonego wyniku<br>\nLaskowski Piotr – Vu Piotr Brak potwierdzonego wyniku<br>\nBartosik Wojciech – Kijak Daniel Brak potwierdzonego wyniku</p>\n<h3>Grupa B</h3>\n<p>Stempień Krzysztof – Lewandowski Dariusz Brak potwierdzonego wyniku<br>\nSiekierka Albert – Marciniak Łukasz Brak potwierdzonego wyniku<br>\nStempień Krzysztof – Marciniak Łukasz Brak potwierdzonego wyniku<br>\nSiekierka Albert – Lewandowski Dariusz Brak potwierdzonego wyniku<br>\nStempień Krzysztof – Siekierka Albert Brak potwierdzonego wyniku<br>\nMarciniak Łukasz – Lewandowski Dariusz Brak potwierdzonego wyniku</p>\n<h2>OPEN (Senior +35)</h2>\n<h3>1/4 finału</h3>\n<p>Klimkowski Rafal – Woźniak Tomasz Brak potwierdzonego wyniku<br>\nWójcik Anna – Tyniec Paweł Brak potwierdzonego wyniku<br>\nTylicki Marek – Praszałek Jacek Brak potwierdzonego wyniku<br>\nGembarowski Piotr – Zbyrasz Krzysztof Brak potwierdzonego wyniku</p>\n<h2>OPEN (Amatorzy)</h2>\n<h3>1/4 finału</h3>\n<p>Popławski Piotr – Kwiatkowski Dominik Brak potwierdzonego wyniku<br>\nWróbel Filip – Bauć Janusz Brak potwierdzonego wyniku<br>\nMichalik #1 Stefan – Kołkowski Rafał Brak potwierdzonego wyniku<br>\nStawiarski Miłosz – Kłopocki Jakub Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12206\">Kluby.org — wyniki turnieju</a>.</p>",
       "source_url": "https://kluby.org/turnieje/12206",
       "source": "Kluby.org",
       "date_start": "2026-09-14",
@@ -4289,10 +4289,10 @@
         "OPEN: Brak części rozegranych meczów lub wyników",
         "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
       ],
-      "voivodeship": "mazowieckie",
+      "voivodeship": "",
       "cycle": "",
       "tags": [],
-      "fingerprint": "3f1a619f956887c994ab89bb8fc5c207489055b6e81651f6f5906c3bb6d27cf5"
+      "fingerprint": "3f020dcc973a777258532badcc96a82fe44050ef33e20494b8858f9c072c7943"
     },
     {
       "id": "pzt:F686A07C-5544-4ECF-AB6A-380A742F1796",
@@ -4323,6 +4323,610 @@
         "Tenis Open Polska PZT"
       ],
       "fingerprint": "b94ef0c9f47d9cea9b5e4521170b511e3a5a4932dd030d38a4f17f05815f7298"
+    },
+    {
+      "id": "pzt:D703BD36-8AE0-451E-81B3-AEBF438E7497",
+      "title": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/ — wyniki (2026-09-18)",
+      "content": "<p>W dniu 18 września 2026 w miejscowości PIASECZNO rozegrano turniej <em>„SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/”</em> w kategorii 70+. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=D703BD36-8AE0-451E-81B3-AEBF438E7497\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=D703BD36-8AE0-451E-81B3-AEBF438E7497",
+      "source": "PZT TOP",
+      "date_start": "2026-09-18",
+      "date_end": "2026-09-18",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "E5B519F8-4CC9-43FE-99A8-44FC9E692925: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "0bf221c578cfd7478fcaa53302b8ba46b4b2d3d7a6eddebbb9a79d383996a1fb"
+    },
+    {
+      "id": "cuply:84",
+      "title": "Dołuje: Wojciech Kotowski triumfuje w turnieju Cuply Challenger Szczecin Dołuje II (do 4.0 NTRP)",
+      "content": "<p>W dniu 19 września 2026 na obiekcie Family Garden, Szczecin, Dołuje (Dołuje) rozegrano turniej <em>„Cuply Challenger Szczecin Dołuje II (do 4.0 NTRP)”</em> w kategorii Singiel; Cuply Challenger dla średniozaawansowanych (do 3.5 NTRP). Zawody były częścią cyklu Cuply. W turnieju triumfuje <strong>Wojciech Kotowski</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Aleksander Krasiński</strong> – Michał Wróblewski 4:0, 4:1<br>\nBartosz Ludwinek – <strong>Remigiusz Wawryczuk</strong> 1:4, 0:4<br>\n<strong>Aleksander Krasiński</strong> – Remigiusz Wawryczuk 0:4, 4:2, 10:5<br>\n<strong>Bartosz Ludwinek</strong> – Michał Wróblewski 4:0, 4:1<br>\n<strong>Aleksander Krasiński</strong> – Bartosz Ludwinek 4:3, 4:3<br>\n<strong>Remigiusz Wawryczuk</strong> – Michał Wróblewski 4:1, 4:0</p>\n<h2>Grupa B</h2>\n<p><strong>Łukasz Zieliński</strong> – Ewa Borowiecka 4:0, 4:2<br>\n<strong>Jacek Turczyński</strong> – Paweł Choroś 4:1, 4:3<br>\n<strong>Łukasz Zieliński</strong> – Paweł Choroś 4:2, 4:2<br>\nEwa Borowiecka – <strong>Jacek Turczyński</strong> 1:4, 0:4<br>\nEwa Borowiecka – <strong>Paweł Choroś</strong> 0:4, 3:4<br>\nŁukasz Zieliński – <strong>Jacek Turczyński</strong> 4:2, 2:4, 10:12</p>\n<h2>Grupa C</h2>\n<p><strong>Marceli Śniadecki</strong> – Szymon Lach 4:1, 4:1<br>\nJulia Ankudowicz – <strong>Filip Szarek</strong> 2:4, 1:4<br>\nJulia Ankudowicz – <strong>Szymon Lach</strong> 4:2, 1:4, 3:10<br>\n<strong>Marceli Śniadecki</strong> – Filip Szarek 4:2, 4:3<br>\n<strong>Marceli Śniadecki</strong> – Julia Ankudowicz 2:4, 4:1, 10:7<br>\n<strong>Filip Szarek</strong> – Szymon Lach 4:0, 4:1</p>\n<h2>Grupa D</h2>\n<p><strong>Wojciech Kotowski</strong> – Mateusz Stępień 4:1, 4:0<br>\n<strong>Pawel Adamkiewicz</strong> – Arkadiusz Margula 4:2, 4:3<br>\n<strong>Wojciech Kotowski</strong> – Pawel Adamkiewicz 4:3, 4:1<br>\n<strong>Mateusz Stępień</strong> – Arkadiusz Margula 4:1, 2:4, 10:7<br>\n<strong>Wojciech Kotowski</strong> – Arkadiusz Margula 4:1, 4:2<br>\nMateusz Stępień – <strong>Pawel Adamkiewicz</strong> 2:4, 1:4</p>\n<h2>Grupa E</h2>\n<p>Michal Brunka – <strong>Jakub Rucinski</strong> 3:4, 2:4<br>\nJerzy Trybiński – <strong>Florian Szarek</strong> 2:4, 3:4<br>\n<strong>Michal Brunka</strong> – Jerzy Trybiński 4:0, 4:3<br>\nJakub Rucinski – <strong>Florian Szarek</strong> 3:4, 2:4<br>\nMichal Brunka – <strong>Florian Szarek</strong> 2:4, 2:4<br>\n<strong>Jakub Rucinski</strong> – Jerzy Trybiński 4:2, 4:2</p>\n<h2>Ćwierćfinały</h2>\n<p><strong>Wojciech Kotowski</strong> – Filip Szarek 4:1, 4:1<br>\n<strong>Marceli Śniadecki</strong> – Aleksander Krasiński 4:2, 4:2<br>\nJacek Turczyński – <strong>Remigiusz Wawryczuk</strong> 3:4, 3:4<br>\n<strong>Florian Szarek</strong> – Łukasz Zieliński 4:3, 4:0</p>\n<h2>Półfinały</h2>\n<p><strong>Wojciech Kotowski</strong> – Marceli Śniadecki 4:2, 4:3<br>\nRemigiusz Wawryczuk – <strong>Florian Szarek</strong> 1:4, 2:4</p>\n<h2>Finał</h2>\n<p><strong>Wojciech Kotowski</strong> – Florian Szarek 4:3, 4:2</p>\n<h2>Mecz o 3. miejsce</h2>\n<p>Marceli Śniadecki – <strong>Remigiusz Wawryczuk</strong> 1:4, 1:4</p>\n<p>Źródło: <a href=\"https://cuply.pl/turnieje/cuply-challenger-szczecin-doluje-ii-do-40-ntrp\">Cuply — wyniki turnieju</a>.</p>",
+      "source_url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-doluje-ii-do-40-ntrp",
+      "source": "Cuply",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "Cuply",
+      "tags": [
+        "Cuply"
+      ],
+      "fingerprint": "54606be85f427721e1ae107bc0a6a5ca313a489811de22281c6115e1f24c4cc0"
+    },
+    {
+      "id": "kluby:11901",
+      "title": "Mixt Open — wyniki (2026-09-19)",
+      "content": "<p>W dniu 19 września 2026 na obiekcie Spójnia Górna, Warszawa (Warszawa) rozegrano turniej <em>„Mixt Open”</em> w kategorii DEBEL MIKST. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11901\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11901",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "DEBEL MIKST: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "af38d91374e07eac803acef2f273f8e34c110c6140699274603d2f64460b7e1a"
+    },
+    {
+      "id": "kluby:11994",
+      "title": "JABŁOŃ CUP 2026 — wyniki (2026-09-19)",
+      "content": "<p>W dniu 19 września 2026 na obiekcie Klub Tenisowy Pisz-Point, Pisz (Pisz) rozegrano turniej <em>„JABŁOŃ CUP 2026”</em> w kategorii OPEN KOBIETY OPEN SENIORZY +50 DEBEL DEBEL KOBIETY DEBEL MIKST. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>OPEN</h2>\n<h3>Grupa A</h3>\n<p><strong>Dzikiewicz Paweł</strong> – Ilaszczuk Mateusz 6/2 6/2<br>\n<strong>Harvatsevich Tsimur</strong> – Ilaszczuk Mateusz 6/2 6/2<br>\n<strong>Dzikiewicz Paweł</strong> – Harvatsevich Tsimur 7/5 3/6 10/7</p>\n<h3>Grupa B</h3>\n<p><strong>Dzikiewicz Piotr</strong> – Zalewski Sławomir 6/2 6/2<br>\n<strong>Kołakowski Daniel</strong> – Zalewski Sławomir 6/2 6/2<br>\n<strong>Dzikiewicz Piotr</strong> – Kołakowski Daniel 6/2 6/3</p>\n<h3>Grupa C</h3>\n<p><strong>Kosowski Wiktor</strong> – Usarek Robert 7/5 6/2<br>\nNowakowski #1 Sebastian – <strong>Usarek Robert</strong> 2/6 3/6<br>\n<strong>Kosowski Wiktor</strong> – Nowakowski #1 Sebastian 6/3 6/3</p>\n<h3>Grupa D</h3>\n<p>Murach Bartosz – <strong>Hys Bartek</strong> 4/6 6/4 10/12<br>\n<strong>Woźniak Kamil</strong> – Hys Bartek 3/6 6/4 10/7<br>\n<strong>Murach Bartosz</strong> – Woźniak Kamil 6/2 6/4</p>\n<h3>Grupa E</h3>\n<p><strong>Vittek Adrian</strong> – Bikowski Karol 6/3 6/2<br>\nKonopka Grzegorz – <strong>Bikowski Karol</strong> 3/6 2/6<br>\n<strong>Vittek Adrian</strong> – Konopka Grzegorz 6/2 6/2</p>\n<h3>Grupa F</h3>\n<p><strong>Chałko Paweł</strong> – Płatuński Dominik 6/2 6/2<br>\n<strong>Ginter Filip</strong> – Płatuński Dominik 6/2 6/2<br>\nChałko Paweł – <strong>Ginter Filip</strong> 2/6 3/6</p>\n<h3>Grupa G</h3>\n<p><strong>Czernialis Paweł</strong> – Długozima Jakub 6/3 7/5<br>\nLuto Hubert – <strong>Długozima Jakub</strong> 3/6 6/3 5/10<br>\nCzernialis Paweł – <strong>Luto Hubert</strong> 2/6 3/6</p>\n<h3>Grupa H</h3>\n<p><strong>Czembrowski Piotr</strong> – Górski Daniel 6/2 4/6 10/4<br>\nKuklewski Jakub – <strong>Górski Daniel</strong> 5/7 6/3 6/10<br>\n<strong>Czembrowski Piotr</strong> – Kuklewski Jakub 6/3 6/4</p>\n<h3>1/4 finału</h3>\n<p><strong>Dzikiewicz Paweł</strong> – Czembrowski Piotr 6/4 6/2<br>\nVittek Adrian – <strong>Murach Bartosz</strong> 2/6 6/7<br>\n<strong>Kosowski Wiktor</strong> – Ginter Filip 6/3 6/3<br>\nLuto Hubert – <strong>Dzikiewicz Piotr</strong> Brak potwierdzonego wyniku</p>\n<h3>1/2 finału</h3>\n<p><strong>Dzikiewicz Paweł</strong> – Murach Bartosz Brak potwierdzonego wyniku<br>\n<strong>Kosowski Wiktor</strong> – Dzikiewicz Piotr Brak potwierdzonego wyniku</p>\n<h3>finał</h3>\n<p><strong>Dzikiewicz Paweł</strong> – Kosowski Wiktor 6/2 6/4</p>\n<h2>KOBIETY OPEN</h2>\n<h3>Grupa A</h3>\n<p><strong>Kowalczyk Natalia</strong> – Wawrzyniak Aleksandra 6/0<br>\nJacuk Karolina – <strong>Molicka Ewa</strong> 1/6<br>\n<strong>Kowalczyk Natalia</strong> – Molicka Ewa 6/3<br>\n<strong>Jacuk Karolina</strong> – Wawrzyniak Aleksandra 6/3<br>\n<strong>Kowalczyk Natalia</strong> – Jacuk Karolina 6/0<br>\n<strong>Molicka Ewa</strong> – Wawrzyniak Aleksandra 6/0</p>\n<h3>Grupa B</h3>\n<p><strong>Tertel Katarzyna</strong> – Katarzyna Kołakowska 6/0<br>\nWitczak Klaudia – <strong>Kotarska #1 Natalia</strong> 4/6<br>\n<strong>Tertel Katarzyna</strong> – Kotarska #1 Natalia 6/2<br>\n<strong>Witczak Klaudia</strong> – Katarzyna Kołakowska 6/0<br>\n<strong>Tertel Katarzyna</strong> – Witczak Klaudia 6/0<br>\n<strong>Kotarska #1 Natalia</strong> – Katarzyna Kołakowska 6/0</p>\n<h3>Grupa C</h3>\n<p>Dąbrowska Martyna – <strong>Golonka Ewa</strong> 4/6<br>\n<strong>Dąbrowska Martyna</strong> – Wąsiewicz Diana 6/2<br>\n<strong>Golonka Ewa</strong> – Wąsiewicz Diana 6/0</p>\n<h3>Grupa D</h3>\n<p>Peczulis Greta – <strong>Kwiatkowska Laura</strong> 1/6<br>\nZałuska Liliana – <strong>Kwiatkowska Laura</strong> 1/6<br>\n<strong>Załuska Liliana</strong> – Peczulis Greta 6/2</p>\n<h3>1/2 finału</h3>\n<p><strong>Kowalczyk Natalia</strong> – Golonka Ewa Brak potwierdzonego wyniku<br>\nKwiatkowska Laura – <strong>Tertel Katarzyna</strong> Brak potwierdzonego wyniku</p>\n<h3>finał</h3>\n<p><strong>Kowalczyk Natalia</strong> – Tertel Katarzyna Brak potwierdzonego wyniku</p>\n<h2>SENIORZY +50</h2>\n<h3>Grupa A</h3>\n<p><strong>Kraszewski Konrad</strong> – Bogdan Sepko 6/2 6/3<br>\nRobert Popławski – <strong>Bogdan Sepko</strong> 6/4 3/6 4/10<br>\n<strong>Kraszewski Konrad</strong> – Robert Popławski 6/2 7/5</p>\n<h3>Grupa B</h3>\n<p><strong>Lemański Waldemar</strong> – Dowgiallo Daniel 6/4 6/4<br>\nMurach Paweł – <strong>Dowgiallo Daniel</strong> 3/6 3/6<br>\n<strong>Lemański Waldemar</strong> – Murach Paweł 6/2 6/2</p>\n<h3>Grupa C</h3>\n<p><strong>Mazuch Mirosław</strong> – Tomaszuk Eugeniusz 6/4 6/7 13/11<br>\n<strong>Buraczynski Wojciech</strong> – Tomaszuk Eugeniusz 6/3 6/3<br>\nMazuch Mirosław – <strong>Buraczynski Wojciech</strong> 2/6 2/6</p>\n<h3>Grupa D</h3>\n<p>Lisek Wojciech – <strong>Brochacki #1 Marek</strong> 0/6<br>\n<strong>Osowski Andrzej</strong> – Siwik Tadeusz 6/2 7/5<br>\nLisek Wojciech – <strong>Siwik Tadeusz</strong> 0/6<br>\n<strong>Osowski Andrzej</strong> – Brochacki #1 Marek 6/2 6/2<br>\nLisek Wojciech – <strong>Osowski Andrzej</strong> 0/6<br>\nSiwik Tadeusz – <strong>Brochacki #1 Marek</strong> 3/6 3/6</p>\n<h3>1/2 finału</h3>\n<p><strong>Kraszewski Konrad</strong> – Osowski Andrzej Brak potwierdzonego wyniku<br>\n<strong>Buraczynski Wojciech</strong> – Lemański Waldemar Brak potwierdzonego wyniku</p>\n<h3>finał</h3>\n<p>Kraszewski Konrad – <strong>Buraczynski Wojciech</strong> Brak potwierdzonego wyniku</p>\n<h2>DEBEL</h2>\n<h3>1/8 finału</h3>\n<p><strong>Tertel Tomasz, Osowski Andrzej</strong> – Nowakowski #1 Sebastian, Smakosz Kuba Brak potwierdzonego wyniku<br>\nChałko Paweł, Vittek Adrian – <strong>Kuklewski Jakub, Harbatsevich Tsimur</strong> 6/3 3/6 9/11<br>\nMirowski Michał, Wszołek Tymoteusz – <strong>Luto Hubert, Czernialis Paweł</strong> Brak potwierdzonego wyniku<br>\nUsarek Robert, Aleksandrow Patryk – <strong>Czembrowski Piotr, Ginter Filip</strong> 0/6 0/6<br>\nLemański Waldemar, Kraszewski Konrad – <strong>Woźniak Kamil, Murach Bartosz</strong> 3/6 4/6<br>\n<strong>Bikowski Karol, Kołakowski Daniel</strong> – Buksa Kamil, Bernaciak Hubert 6/3 6/4</p>\n<h3>1/4 finału</h3>\n<p><strong>Dzikiewicz Paweł, Dzikiewicz Piotr</strong> – Tertel Tomasz, Osowski Andrzej Brak potwierdzonego wyniku<br>\nKuklewski Jakub, Harbatsevich Tsimur – <strong>Luto Hubert, Czernialis Paweł</strong> 3/6 2/6<br>\n<strong>Czembrowski Piotr, Ginter Filip</strong> – Woźniak Kamil, Murach Bartosz 6/2 6/4<br>\nBikowski Karol, Kołakowski Daniel – <strong>Paliński Rafał, Nowak Wojciech</strong> 0/6 1/6</p>\n<h3>1/2 finału</h3>\n<p><strong>Dzikiewicz Paweł, Dzikiewicz Piotr</strong> – Luto Hubert, Czernialis Paweł 6/0 6/1<br>\nCzembrowski Piotr, Ginter Filip – <strong>Paliński Rafał, Nowak Wojciech</strong> Brak potwierdzonego wyniku</p>\n<h3>finał</h3>\n<p>Dzikiewicz Paweł, Dzikiewicz Piotr – Paliński Rafał, Nowak Wojciech Brak potwierdzonego wyniku</p>\n<h2>DEBEL KOBIETY</h2>\n<h3>Grupa A</h3>\n<p>Wąsiewicz Diana, Witczak Klaudia – Dowgiallo Magdalena, Płatek Joanna Brak potwierdzonego wyniku<br>\nBlażko Monika, Mazuch Natalia – Dowgiallo Magdalena, Płatek Joanna Brak potwierdzonego wyniku<br>\nWąsiewicz Diana, Witczak Klaudia – Blażko Monika, Mazuch Natalia Brak potwierdzonego wyniku</p>\n<h3>Grupa B</h3>\n<p>Tertel Katarzyna, Bogdzio Maria – Załuska Liliana, Jacuk Karolina Brak potwierdzonego wyniku<br>\nSosnowska Agnieszka, Magdalena Motal-Brzosko – Załuska Liliana, Jacuk Karolina Brak potwierdzonego wyniku<br>\nTertel Katarzyna, Bogdzio Maria – Sosnowska Agnieszka, Magdalena Motal-Brzosko Brak potwierdzonego wyniku</p>\n<h3>finał</h3>\n<p><strong>Blażko Monika, Mazuch Natalia</strong> – Sosnowska Agnieszka, Magdalena Motal-Brzosko 3/6 6/4 10/7</p>\n<h2>DEBEL MIKST</h2>\n<h3>1/8 finału</h3>\n<p>Płatek Joanna, Daniel Wójtowicz – <strong>Mirowski Michał, Kwiatkowska Laura</strong> 0/6 0/6<br>\nPłatuński Dominik, Matynia Karolina – <strong>Wawrzyniak Aleksandra, Kosowski Wiktor</strong> 1/6 1/6<br>\n<strong>Golonka Ewa, Hys Bartek</strong> – Buksa Kamil, Bogdzio Maria 6/4 6/3<br>\n<strong>Mazuch Natalia, Mazuch Mirosław</strong> – Ilaszczuk Mateusz, Dąbrowska Martyna Brak potwierdzonego wyniku</p>\n<h3>1/4 finału</h3>\n<p><strong>Paliński Rafał, Palińska Joanna</strong> – Mirowski Michał, Kwiatkowska Laura 6/3 6/3<br>\n<strong>Molicka Ewa, Długozima Jakub</strong> – Dowgiallo Magdalena, Wojciech Buraczyński 6/0 6/3<br>\n<strong>Wawrzyniak Aleksandra, Kosowski Wiktor</strong> – Golonka Ewa, Hys Bartek Brak potwierdzonego wyniku<br>\nMazuch Natalia, Mazuch Mirosław – <strong>Kowalczyk Natalia, Nowak Wojciech</strong> 1/6 1/6</p>\n<h3>1/2 finału</h3>\n<p>Paliński Rafał, Palińska Joanna – Molicka Ewa, Długozima Jakub Brak potwierdzonego wyniku<br>\nWawrzyniak Aleksandra, Kosowski Wiktor – Kowalczyk Natalia, Nowak Wojciech Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11994\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11994",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": false,
+      "issues": [
+        "Brak zakończonego finału",
+        "DEBEL KOBIETY: Brak części rozegranych meczów lub wyników",
+        "DEBEL MIKST: Brak części rozegranych meczów lub wyników",
+        "DEBEL: Brak części rozegranych meczów lub wyników",
+        "KOBIETY OPEN: Brak części rozegranych meczów lub wyników",
+        "OPEN: Brak części rozegranych meczów lub wyników",
+        "SENIORZY +50: Brak części rozegranych meczów lub wyników",
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "e517ce344d366e6f8a84896255cba36c90832bcbc2c852e4dbadd55ae068178c"
+    },
+    {
+      "id": "kluby:12005",
+      "title": "Warszawa: Rozłucki Grzegorz triumfuje w turnieju Turniej kwalifikacyjny TENES Challenge Open Zima 2026/2027",
+      "content": "<p>W dniu 19 września 2026 na obiekcie TENES Klub Sportowy, Warszawa (Warszawa) rozegrano turniej <em>„Turniej kwalifikacyjny TENES Challenge Open Zima 2026/2027”</em> w kategorii OPEN. W turnieju triumfuje <strong>Rozłucki Grzegorz</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Piekarski Paweł</strong> – Staniewski Karol 10/5<br>\n<strong>Rozłucki Grzegorz</strong> – Miszczuk Krystian 10/3<br>\n<strong>Piekarski Paweł</strong> – Miszczuk Krystian 10/1<br>\n<strong>Rozłucki Grzegorz</strong> – Senderowski Bartłomiej 10/5<br>\n<strong>Piekarski Paweł</strong> – Senderowski Bartłomiej 10/7<br>\nMiszczuk Krystian – <strong>Staniewski Karol</strong> 0/10<br>\n<strong>Rozłucki Grzegorz</strong> – Staniewski Karol 10/3<br>\n<strong>Senderowski Bartłomiej</strong> – Miszczuk Krystian 10/1<br>\nPiekarski Paweł – <strong>Rozłucki Grzegorz</strong> 3/10<br>\nSenderowski Bartłomiej – <strong>Staniewski Karol</strong> 8/10</p>\n<h2>Grupa B</h2>\n<p>Omelian Dmytro – <strong>Szczyglowski Piotr</strong> 3/10<br>\n<strong>Jarka Maciej</strong> – Sano Alexander 10/6<br>\n<strong>Omelian Dmytro</strong> – Sano Alexander 10/3<br>\nJarka Maciej – <strong>Borkowski Waldemar</strong> 6/10<br>\nOmelian Dmytro – <strong>Borkowski Waldemar</strong> 6/10<br>\nSano Alexander – <strong>Szczyglowski Piotr</strong> 4/10<br>\nJarka Maciej – <strong>Szczyglowski Piotr</strong> 3/10<br>\n<strong>Borkowski Waldemar</strong> – Sano Alexander 10/3<br>\n<strong>Omelian Dmytro</strong> – Jarka Maciej 10/4<br>\nBorkowski Waldemar – <strong>Szczyglowski Piotr</strong> 6/10</p>\n<h2>Grupa C</h2>\n<p>Grygierczyk Paweł – <strong>Łukasik Grzegorz</strong> 9/11<br>\n<strong>Zietek Zbigniew</strong> – Zarychta Michał 10/5<br>\nGrygierczyk Paweł – <strong>Zarychta Michał</strong> 8/10<br>\n<strong>Zietek Zbigniew</strong> – Zdybel Jakub 10/4<br>\nGrygierczyk Paweł – <strong>Zdybel Jakub</strong> 4/10<br>\n<strong>Zarychta Michał</strong> – Łukasik Grzegorz 11/9<br>\n<strong>Zietek Zbigniew</strong> – Łukasik Grzegorz 10/8<br>\nZdybel Jakub – <strong>Zarychta Michał</strong> 5/10<br>\nGrygierczyk Paweł – <strong>Zietek Zbigniew</strong> 11/13<br>\nZdybel Jakub – <strong>Łukasik Grzegorz</strong> 8/10</p>\n<h2>1/8 finału</h2>\n<p>Zarychta Michał – <strong>Senderowski Bartłomiej</strong> 9/11<br>\nZdybel Jakub – <strong>Staniewski Karol</strong> 6/10<br>\nOmelian Dmytro – <strong>Piekarski Paweł</strong> 2/10<br>\nŁukasik Grzegorz – <strong>Jarka Maciej</strong> 12/14</p>\n<h2>1/4 finału</h2>\n<p>Zietek Zbigniew – <strong>Senderowski Bartłomiej</strong> 5/10<br>\n<strong>Borkowski Waldemar</strong> – Staniewski Karol 10/8<br>\nSzczyglowski Piotr – <strong>Piekarski Paweł</strong> 4/10<br>\n<strong>Rozłucki Grzegorz</strong> – Jarka Maciej 10/3</p>\n<h2>1/2 finału</h2>\n<p><strong>Senderowski Bartłomiej</strong> – Borkowski Waldemar 10/3<br>\nPiekarski Paweł – <strong>Rozłucki Grzegorz</strong> 5/10</p>\n<h2>finał</h2>\n<p>Senderowski Bartłomiej – <strong>Rozłucki Grzegorz</strong> 9/11</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12005\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12005",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "e5c680aad259d83e7e584042a57c29db5b90e724dc7dc8b8d5897874a9dec531"
+    },
+    {
+      "id": "kluby:12006",
+      "title": "Turniej kwalifikacyjny TENES Challenge Ladies Zima 2026/2027 — wyniki (2026-09-19)",
+      "content": "<p>W dniu 19 września 2026 na obiekcie TENES KLUB SPORTOWY (Warszawa) rozegrano turniej <em>„Turniej kwalifikacyjny TENES Challenge Ladies Zima 2026/2027”</em> w kategorii KOBIETY OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12006\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12006",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "KOBIETY OPEN: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "mazowieckie",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "c81bfebbb100c141a245729ff73c0561c09cd2ea894451d1426586cc0e01d3e6"
+    },
+    {
+      "id": "kluby:12082",
+      "title": "Amatorski Turniej Tenisa Ziemnego — wyniki (2026-09-19)",
+      "content": "<p>W dniu 19 września 2026 na obiekcie MORIS Chorzów Filarowa, Chorzów (Chorzów) rozegrano turniej <em>„Amatorski Turniej Tenisa Ziemnego”</em> w kategorii OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12082\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12082",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "OPEN: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "99c6d3fa54cc0c1e478eeed6bdfb1b28201b390aefbbaed65df56005071daf2d"
+    },
+    {
+      "id": "kluby:12124",
+      "title": "DEBEL KOBIET OPEN AMATOR — wyniki (2026-09-19)",
+      "content": "<p>W dniu 19 września 2026 w miejscowości Sopot rozegrano turniej <em>„DEBEL KOBIET OPEN AMATOR”</em> w kategorii Tenis, Padel, Squash, Badminton, Pickleball, Beach Tennis, Tenis stołowy, Golf, Bilard/Snooker, Boiska, Fitness, Sporty walki, Inne. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12124\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12124",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": false,
+      "issues": [
+        "Badminton: Nie znaleziono tabeli meczów",
+        "Beach Tennis: Nie znaleziono tabeli meczów",
+        "Bilard/Snooker: Nie znaleziono tabeli meczów",
+        "Boiska: Nie znaleziono tabeli meczów",
+        "Brak wyników meczów",
+        "Fitness: Nie znaleziono tabeli meczów",
+        "Golf: Nie znaleziono tabeli meczów",
+        "Inne: Nie znaleziono tabeli meczów",
+        "Padel: Nie znaleziono tabeli meczów",
+        "Pickleball: Nie znaleziono tabeli meczów",
+        "Sporty walki: Nie znaleziono tabeli meczów",
+        "Squash: Nie znaleziono tabeli meczów",
+        "Tenis stołowy: Nie znaleziono tabeli meczów",
+        "Tenis: Nie znaleziono tabeli meczów",
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "39902422c3d88e92e8001d9ac82317a3214a835d1fde6f43954f141cc14e0dfa"
+    },
+    {
+      "id": "kluby:12156",
+      "title": "Warszawa: Paczkowski Jakub triumfuje w turnieju Park Tennis Academy Open",
+      "content": "<p>W dniu 19 września 2026 na obiekcie Park Tennis Academy, Warszawa (Warszawa) rozegrano turniej <em>„Park Tennis Academy Open”</em> w kategorii OPEN. W turnieju triumfuje <strong>Paczkowski Jakub</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Paczkowski Jakub</strong> – Kovshun Dmytro 6/0<br>\n<strong>Gardyszewski Jarosław</strong> – Kovshun Dmytro 6/0<br>\n<strong>Paczkowski Jakub</strong> – Gardyszewski Jarosław 9/4</p>\n<h2>Grupa B</h2>\n<p><strong>Tuchynskyi Serhii</strong> – Kossakowski Krzysztof 6/1<br>\n<strong>Grelewicz Mikolaj</strong> – Kossakowski Krzysztof 6/3<br>\n<strong>Tuchynskyi Serhii</strong> – Grelewicz Mikolaj 6/1</p>\n<h2>Grupa C</h2>\n<p><strong>Deptuła Mateusz</strong> – Choroś Michał 6/2<br>\nJachowicz Julek – <strong>Choroś Michał</strong> 4/6<br>\n<strong>Deptuła Mateusz</strong> – Jachowicz Julek 6/0</p>\n<h2>Grupa D</h2>\n<p><strong>Chojecki Karol</strong> – Luczakowski Jan 6/2<br>\n<strong>Kruk Michał</strong> – Luczakowski Jan 6/1<br>\nChojecki Karol – <strong>Kruk Michał</strong> 5/7</p>\n<h2>Grupa E</h2>\n<p><strong>Piątkiewicz Marcin</strong> – Marczuk Oliwier 6/0<br>\nGrzechowiak Michał – <strong>Łabędzki Antoni</strong> 0/6<br>\n<strong>Piątkiewicz Marcin</strong> – Łabędzki Antoni 6/1<br>\nGrzechowiak Michał – <strong>Marczuk Oliwier</strong> 0/6<br>\n<strong>Piątkiewicz Marcin</strong> – Grzechowiak Michał 6/0<br>\n<strong>Łabędzki Antoni</strong> – Marczuk Oliwier 7/6</p>\n<h2>1/4 finału</h2>\n<p><strong>Piątkiewicz Marcin</strong> – Kruk Michał 6/3</p>\n<h2>1/2 finału</h2>\n<p><strong>Paczkowski Jakub</strong> – Piątkiewicz Marcin 6/2<br>\nDeptuła Mateusz – <strong>Tuchynskyi Serhii</strong> 4/6</p>\n<h2>finał</h2>\n<p><strong>Paczkowski Jakub</strong> – Tuchynskyi Serhii 7/6(8)</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12156\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12156",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "342b636166d94908260fd205ff78e2172b357c81f5cba1ff24675f875ab84c29"
+    },
+    {
+      "id": "kluby:12173",
+      "title": "Wyszków: Grzywacz Karol triumfuje w turnieju Rybienko Open Series MASTERS 2026 - SINGIEL Vol.5",
+      "content": "<p>W dniu 19 września 2026 na obiekcie Tenis w Rybienku Leśnym, Wyszków (Wyszków) rozegrano turniej <em>„Rybienko Open Series MASTERS 2026 - SINGIEL Vol.5”</em> w kategorii OPEN. W turnieju triumfuje <strong>Grzywacz Karol</strong>. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p><strong>Grzywacz Mariusz</strong> – Toporek Patryk 6/0<br>\n<strong>Skrzecz Konrad</strong> – Toporek Patryk 6/0<br>\n<strong>Grzywacz Mariusz</strong> – Skrzecz Konrad 6/2</p>\n<h2>Grupa B</h2>\n<p>Grzywacz Adam – <strong>Borkowski Piotr</strong> 3/6<br>\n<strong>Szymański Karol</strong> – Borkowski Piotr 6/1<br>\nGrzywacz Adam – <strong>Szymański Karol</strong> 3/6</p>\n<h2>Grupa C</h2>\n<p><strong>Krych Daniel</strong> – Kapelewski Paweł 6/0<br>\n<strong>Smółkowski Grzegorz</strong> – Kapelewski Paweł 6/1<br>\nKrych Daniel – <strong>Smółkowski Grzegorz</strong> 4/6</p>\n<h2>Grupa D</h2>\n<p><strong>Grzywacz Karol</strong> – Grzywacz Tomasz 6/4<br>\nKapelewski Artur – <strong>Grzywacz Tomasz</strong> 0/6<br>\n<strong>Grzywacz Karol</strong> – Kapelewski Artur 6/0</p>\n<h2>1/4 finału</h2>\n<p><strong>Grzywacz Mariusz</strong> – Krych Daniel 7/5<br>\nBorkowski Piotr – <strong>Grzywacz Karol</strong> 4/6<br>\n<strong>Smółkowski Grzegorz</strong> – Skrzecz Konrad 6/4<br>\nGrzywacz Tomasz – <strong>Szymański Karol</strong> 6/7(8)</p>\n<h2>1/2 finału</h2>\n<p>Grzywacz Mariusz – <strong>Grzywacz Karol</strong> 2/6<br>\nSmółkowski Grzegorz – <strong>Szymański Karol</strong> 2/6</p>\n<h2>finał</h2>\n<p><strong>Grzywacz Karol</strong> – Szymański Karol walkower</p>\n<h2>Grupa A (pocieszenie)</h2>\n<p>Kapelewski Paweł – <strong>Kapelewski Artur</strong> 3/6<br>\n<strong>Grzywacz Adam</strong> – Toporek Patryk 9/0<br>\n<strong>Kapelewski Paweł</strong> – Toporek Patryk 6/3<br>\nGrzywacz Adam – Kapelewski Artur Brak potwierdzonego wyniku<br>\nKapelewski Paweł – <strong>Grzywacz Adam</strong> 0/6<br>\nToporek Patryk – <strong>Kapelewski Artur</strong> 0/9</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12173\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12173",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": false,
+      "issues": [
+        "OPEN: Brak części rozegranych meczów lub wyników"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "1d1b9c5514765639c0101ffbf9626ac2cb436bb1702e4a59fe2f1edf7fa7f327"
+    },
+    {
+      "id": "kluby:12223",
+      "title": "Barlinek: Glapiak Przemysław triumfuje w turnieju Liga Letnia Masters",
+      "content": "<p>W dniu 19 września 2026 na obiekcie Akademia Tenisa Barlinek, Barlinek (Barlinek) rozegrano turniej <em>„Liga Letnia Masters”</em> w kategorii OPEN. W turnieju triumfuje <strong>Glapiak Przemysław</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Glapiak Przemysław</strong> – Retzlaf Damian 4/0 4/1<br>\n<strong>Czosnowski Maciej</strong> – Łuba Artur 4/0 4/1<br>\n<strong>Glapiak Przemysław</strong> – Łuba Artur 4/1 4/0<br>\nCzosnowski Maciej – <strong>Retzlaf Damian</strong> 2/4 2/4<br>\n<strong>Glapiak Przemysław</strong> – Czosnowski Maciej 4/1 4/1<br>\nŁuba Artur – <strong>Retzlaf Damian</strong> 1/4 2/4</p>\n<h2>Grupa B</h2>\n<p><strong>Bunda Roman</strong> – Walaszczyk Łukasz 4/0 4/1<br>\n<strong>Lendzion Daniel</strong> – Leończuk Adam 4/1 4/0<br>\n<strong>Bunda Roman</strong> – Leończuk Adam 4/1 4/3<br>\n<strong>Lendzion Daniel</strong> – Walaszczyk Łukasz 4/0 4/1<br>\nBunda Roman – <strong>Lendzion Daniel</strong> 3/4 3/4<br>\n<strong>Leończuk Adam</strong> – Walaszczyk Łukasz 4/3 4/3</p>\n<h2>Grupa C</h2>\n<p><strong>Wiśniewski Jarosław</strong> – Glapiak Agnieszka 4/2 4/0<br>\n<strong>Kowalewski Igor</strong> – Hyży Damian 4/2 4/2<br>\n<strong>Wiśniewski Jarosław</strong> – Hyży Damian 4/2 4/1<br>\n<strong>Kowalewski Igor</strong> – Glapiak Agnieszka 4/0 4/0<br>\nWiśniewski Jarosław – <strong>Kowalewski Igor</strong> 3/4 0/4<br>\n<strong>Hyży Damian</strong> – Glapiak Agnieszka 4/2 4/0</p>\n<h2>1/4 finału</h2>\n<p><strong>Glapiak Przemysław</strong> – Czosnowski Maciej 4/0 4/1<br>\n<strong>Wiśniewski Jarosław</strong> – Bunda Roman 2/4 4/3 11/9<br>\nKowalewski Igor – <strong>Retzlaf Damian</strong> 1/4 1/4<br>\n<strong>Lendzion Daniel</strong> – Hyży Damian 4/2 4/2</p>\n<h2>1/2 finału</h2>\n<p><strong>Glapiak Przemysław</strong> – Wiśniewski Jarosław 4/1 4/0<br>\n<strong>Retzlaf Damian</strong> – Lendzion Daniel 4/1 4/0</p>\n<h2>finał</h2>\n<p><strong>Glapiak Przemysław</strong> – Retzlaf Damian 4/2 4/1</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12223\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12223",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "d5f06fa5a85d644be9688a8ad10b4576fed59e927496a97d311ea24007e0453e"
+    },
+    {
+      "id": "kluby:12233",
+      "title": "Baltic Tennis Kids Cup — wyniki (2026-09-19)",
+      "content": "<p>W dniu 19 września 2026 na obiekcie Baltic Tennis Club, Kołobrzeg (Kołobrzeg) rozegrano turniej <em>„Baltic Tennis Kids Cup”</em> w kategorii OPEN (RED) OPEN (ORANGE) OPEN (GREEN BOYS) OPEN (GREEN GIRLS). Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>OPEN (RED)</h2>\n<h3>Grupa A</h3>\n<p>Leon Grochowski – Oliwier Balcerzak Brak potwierdzonego wyniku<br>\nIgnacy Dutkiewicz – Gabriel Andrzejczuk Brak potwierdzonego wyniku<br>\nLeon Grochowski – Gabriel Andrzejczuk Brak potwierdzonego wyniku<br>\nIgnacy Dutkiewicz – Victor Andrzejczuk Brak potwierdzonego wyniku<br>\nLeon Grochowski – Victor Andrzejczuk Brak potwierdzonego wyniku<br>\nGabriel Andrzejczuk – Oliwier Balcerzak Brak potwierdzonego wyniku<br>\nIgnacy Dutkiewicz – Oliwier Balcerzak Brak potwierdzonego wyniku<br>\nVictor Andrzejczuk – Gabriel Andrzejczuk Brak potwierdzonego wyniku<br>\nLeon Grochowski – Ignacy Dutkiewicz Brak potwierdzonego wyniku<br>\nVictor Andrzejczuk – Oliwier Balcerzak Brak potwierdzonego wyniku</p>\n<h2>OPEN (ORANGE)</h2>\n<h3>Grupa A</h3>\n<p>Wojciech Niemiec – Karol Wolański Brak potwierdzonego wyniku<br>\nPiotr Ołoszewski – Karol Wolański Brak potwierdzonego wyniku<br>\nWojciech Niemiec – Piotr Ołoszewski Brak potwierdzonego wyniku</p>\n<h3>Grupa B</h3>\n<p>Wojciech Magdziarz – Witold Iwicki Brak potwierdzonego wyniku<br>\nKonstanty Kosiński – Witold Iwicki Brak potwierdzonego wyniku<br>\nKonstanty Kosiński – Wojciech Magdziarz Brak potwierdzonego wyniku</p>\n<h3>Grupa C</h3>\n<p>Michał Sierakowski – Ksawery Ślisiński Brak potwierdzonego wyniku<br>\nZuzanna Grochowska – Ksawery Ślisiński Brak potwierdzonego wyniku<br>\nMichał Sierakowski – Zuzanna Grochowska Brak potwierdzonego wyniku</p>\n<h2>OPEN (GREEN BOYS)</h2>\n<h3>Grupa A</h3>\n<p>Oliwier Koszowski – Jovan Grujić Brak potwierdzonego wyniku<br>\nFeliks Marciniak – Leon Pawluch Brak potwierdzonego wyniku<br>\nOliwier Koszowski – Leon Pawluch Brak potwierdzonego wyniku<br>\nFeliks Marciniak – Jovan Grujić Brak potwierdzonego wyniku<br>\nOliwier Koszowski – Feliks Marciniak Brak potwierdzonego wyniku<br>\nLeon Pawluch – Jovan Grujić Brak potwierdzonego wyniku</p>\n<h3>Grupa B</h3>\n<p>Michał Zieloniecki – Wojciech Szczygieł Brak potwierdzonego wyniku<br>\nStanisław Wawrzyniak – Aleksy Ordon Brak potwierdzonego wyniku<br>\nMichał Zieloniecki – Aleksy Ordon Brak potwierdzonego wyniku<br>\nStanisław Wawrzyniak – Wojciech Szczygieł Brak potwierdzonego wyniku<br>\nMichał Zieloniecki – Stanisław Wawrzyniak Brak potwierdzonego wyniku<br>\nAleksy Ordon – Wojciech Szczygieł Brak potwierdzonego wyniku</p>\n<h2>OPEN (GREEN GIRLS)</h2>\n<h3>Grupa A</h3>\n<p>Aurelia Wieczorek – Maja Kijuć Brak potwierdzonego wyniku<br>\nZuzanna Kosińska – Lena Stachowiak Brak potwierdzonego wyniku<br>\nAurelia Wieczorek – Lena Stachowiak Brak potwierdzonego wyniku<br>\nZuzanna Kosińska – Laura Krokowicz Brak potwierdzonego wyniku<br>\nAurelia Wieczorek – Laura Krokowicz Brak potwierdzonego wyniku<br>\nLena Stachowiak – Maja Kijuć Brak potwierdzonego wyniku<br>\nZuzanna Kosińska – Maja Kijuć Brak potwierdzonego wyniku<br>\nLaura Krokowicz – Lena Stachowiak Brak potwierdzonego wyniku<br>\nAurelia Wieczorek – Zuzanna Kosińska Brak potwierdzonego wyniku<br>\nLaura Krokowicz – Maja Kijuć Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12233\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12233",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": false,
+      "issues": [
+        "OPEN (GREEN BOYS): Brak części rozegranych meczów lub wyników",
+        "OPEN (GREEN GIRLS): Brak części rozegranych meczów lub wyników",
+        "OPEN (ORANGE): Brak części rozegranych meczów lub wyników",
+        "OPEN (RED): Brak części rozegranych meczów lub wyników",
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "d3aae4d5ab67edfd8c4204bd1e604c4622a135aa31fa8bec2603cb5b25a74137"
+    },
+    {
+      "id": "plt:5175",
+      "title": "Gdańsk: Mateusz Koberda triumfuje w turnieju III Coroczny Turniej o Puchar Podleśnej 2026",
+      "content": "<p>W dniu 19 września 2026 w miejscowości Gdańsk rozegrano turniej <em>„III Coroczny Turniej o Puchar Podleśnej 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Mateusz Koberda</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Michał Woźniak</strong> – Adam Malecki 4:1, 4:2<br>\n<strong>Michał Mikietyński</strong> – Adrian Nasarzewski 4:0, 4:0<br>\nMichał Woźniak – <strong>Michał Mikietyński</strong> 1:4, 2:4<br>\nAdam Malecki – <strong>Adrian Nasarzewski</strong> 0:4, 1:4<br>\n<strong>Michał Woźniak</strong> – Adrian Nasarzewski 4:3, 4:1<br>\nAdam Malecki – <strong>Michał Mikietyński</strong> 3:4, 0:4</p>\n<h2>Grupa B</h2>\n<p><strong>Marek Gutjar</strong> – Tomasz Pielaszkiewicz 4:2, 4:3<br>\n<strong>Marek Gutjar</strong> – Artem Gavrilik 4:0, 4:2<br>\nTomasz Pielaszkiewicz – <strong>Artem Gavrilik</strong> 1:4, 3:4</p>\n<h2>Grupa C</h2>\n<p><strong>Mateusz Koberda</strong> – Radosław Kołakowski 4:0, 4:2<br>\n<strong>Mateusz Koberda</strong> – Maciej Roćko 4:1, 4:1<br>\n<strong>Radosław Kołakowski</strong> – Maciej Roćko 4:1, 4:2</p>\n<h2>1/4 FINAŁU</h2>\n<p><strong>Michał Mikietyński</strong> – Maciej Roćko 4:3, 4:0<br>\nMichał Woźniak – <strong>Radosław Kołakowski</strong> 2:4, 3:4<br>\n<strong>Marek Gutjar</strong> – Artem Gavrilik 4:1, 4:1<br>\n<strong>Mateusz Koberda</strong> – Tomasz Pielaszkiewicz 4:0, 4:0</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Michał Mikietyński</strong> – Radosław Kołakowski 4:3, 1:4, 10:8<br>\nMarek Gutjar – <strong>Mateusz Koberda</strong> 3:4, 4:0, 5:10</p>\n<h2>FINAŁ</h2>\n<p>Michał Mikietyński – <strong>Mateusz Koberda</strong> 2:4, 2:4</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5175/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5175/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "pomorskie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "262fdbe6267d649f961fb38ccecaec7ecf4abfc4f33e1b15918552054ea62252"
+    },
+    {
+      "id": "plt:5176",
+      "title": "Gdańsk: Jan Mojsiewicz triumfuje w turnieju III Coroczny Turniej o Puchar Podleśnej 2026",
+      "content": "<p>W dniu 19 września 2026 w miejscowości Gdańsk rozegrano turniej <em>„III Coroczny Turniej o Puchar Podleśnej 2026”</em> w kategorii 2. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Jan Mojsiewicz</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Łukasz Stoltmann</strong> – Piotr Drzewiecki 4:3, 4:1<br>\n<strong>Dariusz Księski</strong> – Łukasz Jaworski 4:0, 4:0<br>\n<strong>Łukasz Stoltmann</strong> – Dariusz Księski 2:4, 4:2, 10:8<br>\nPiotr Drzewiecki – <strong>Łukasz Jaworski</strong> 2:4, 4:3, 4:10<br>\n<strong>Łukasz Stoltmann</strong> – Łukasz Jaworski 4:0, 1:4, 10:7<br>\nPiotr Drzewiecki – <strong>Dariusz Księski</strong> 0:4, 1:4</p>\n<h2>Grupa B</h2>\n<p>Rafał Węglarek – <strong>Marcin Karol</strong> 0:4, 0:4<br>\n<strong>Marek Tymieniecki</strong> – Anita Dykowska 4:2, 4:2<br>\nRafał Węglarek – <strong>Marek Tymieniecki</strong> 2:4, 1:4<br>\n<strong>Marcin Karol</strong> – Anita Dykowska 4:2, 4:1<br>\nRafał Węglarek – <strong>Anita Dykowska</strong> 4:2, 2:4, 7:10<br>\n<strong>Marcin Karol</strong> – Marek Tymieniecki 4:3, 4:2</p>\n<h2>Grupa C</h2>\n<p>Paweł Czarnecki – <strong>Pawel Rozenbajgier</strong> 0:4, 1:4<br>\n<strong>Jan Mojsiewicz</strong> – Paweł Okoń 4:0, 2:4, 10:8<br>\nPaweł Czarnecki – <strong>Jan Mojsiewicz</strong> 0:4, 0:4<br>\n<strong>Pawel Rozenbajgier</strong> – Paweł Okoń 4:0, 4:3<br>\nPaweł Czarnecki – <strong>Paweł Okoń</strong> 1:4, 1:4<br>\nPawel Rozenbajgier – <strong>Jan Mojsiewicz</strong> 0:4, 0:4</p>\n<h2>Grupa D</h2>\n<p>Maciej Roćko – <strong>Wojciech Weronko</strong> 0:4, 0:4 (walkower)<br>\nPaweł Lewandowski – <strong>Łukasz Hyrycz</strong> 0:4, 1:4<br>\nMaciej Roćko – <strong>Paweł Lewandowski</strong> 4:3, 2:4, 6:10<br>\nWojciech Weronko – <strong>Łukasz Hyrycz</strong> 4:1, 1:4, 10:12<br>\nMaciej Roćko – <strong>Łukasz Hyrycz</strong> 2:4, 3:4<br>\n<strong>Wojciech Weronko</strong> – Paweł Lewandowski 4:0, 4:1</p>\n<h2>1/4 FINAŁU</h2>\n<p><strong>Łukasz Stoltmann</strong> – Marek Tymieniecki 4:3, 4:0<br>\n<strong>Jan Mojsiewicz</strong> – Wojciech Weronko 4:1, 4:2<br>\n<strong>Marcin Karol</strong> – Dariusz Księski 2:4, 4:3, 10:7<br>\n<strong>Łukasz Hyrycz</strong> – Pawel Rozenbajgier 4:2, 4:1</p>\n<h2>1/2 FINAŁU</h2>\n<p>Łukasz Stoltmann – <strong>Jan Mojsiewicz</strong> 4:2, 1:4, 7:10<br>\nMarcin Karol – <strong>Łukasz Hyrycz</strong> 3:4, 3:4</p>\n<h2>FINAŁ</h2>\n<p><strong>Jan Mojsiewicz</strong> – Łukasz Hyrycz 4:0, 4:3</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5176/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5176/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "pomorskie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "1c0524a0545a41f088df3caaa39c9c0dc4dcf767b2f3b32a8046c830a89fe74d"
+    },
+    {
+      "id": "plt:5554",
+      "title": "Kielce: Andrzej Folfas triumfuje w turnieju Otwarte Jesienne Mistrzostwa Kielc 2026",
+      "content": "<p>W dniu 19 września 2026 w miejscowości Kielce rozegrano turniej <em>„Otwarte Jesienne Mistrzostwa Kielc 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Andrzej Folfas</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p>Rafał Barcicki – <strong>Dariusz Nowak</strong> 3:4, 4:3, 7:10<br>\nRafał Barcicki – <strong>Artur Zwierzchowski</strong> 2:4, 0:4<br>\nDariusz Nowak – <strong>Artur Zwierzchowski</strong> 1:4, 1:4</p>\n<h2>Grupa B</h2>\n<p><strong>Karol Garnuszek</strong> – Wojciech Kopeć 4:1, 4:0<br>\n<strong>Karol Garnuszek</strong> – Tomasz Szczęsny 4:1, 4:1<br>\nWojciech Kopeć – <strong>Tomasz Szczęsny</strong> 2:4, 4:1, 6:10</p>\n<h2>Grupa C</h2>\n<p>Jakub Tekiel – <strong>Andrzej Folfas</strong> 4:2, 2:4, 4:10<br>\n<strong>Jakub Tekiel</strong> – Nikodem Janus 4:3, 4:1<br>\n<strong>Andrzej Folfas</strong> – Nikodem Janus 4:0, 4:0</p>\n<h2>1/4 FINAŁU</h2>\n<p><strong>Karol Garnuszek</strong> – Wojciech Kopeć 4:1, 4:3<br>\nJakub Tekiel – <strong>Dariusz Nowak</strong> 1:4, 3:4<br>\n<strong>Andrzej Folfas</strong> – Tomasz Szczęsny 4:3, 4:3<br>\n<strong>Artur Zwierzchowski</strong> – Rafał Barcicki 4:2, 4:0</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Karol Garnuszek</strong> – Dariusz Nowak 4:2, 4:0<br>\n<strong>Andrzej Folfas</strong> – Artur Zwierzchowski 2:4, 4:1, 10:6</p>\n<h2>FINAŁ</h2>\n<p>Karol Garnuszek – <strong>Andrzej Folfas</strong> 1:4, 1:4</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-kielc-2026-5554/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-kielc-2026-5554/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "świętokrzyskie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "6c37908b48f3d83e505f7e3f230e2590725d0cb0e3aca37b5acfc79db754beb9"
+    },
+    {
+      "id": "plt:5556",
+      "title": "Oleśnica: Łukasz Walendowski triumfuje w turnieju Turniej o Mistrzostwo Klubu OKT Oleśnica 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "content": "<p>W dniu 19 września 2026 w miejscowości Oleśnica rozegrano turniej <em>„Turniej o Mistrzostwo Klubu OKT Oleśnica 2026 - Kwalifikacje do Krajowych Mistrzostw”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Łukasz Walendowski</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Łukasz Walendowski</strong> – Łukasz Cieśla 4:2, 4:1<br>\n<strong>Łukasz Walendowski</strong> – Marcin Piosik 4:2, 4:0<br>\nŁukasz Cieśla – <strong>Marcin Piosik</strong> 2:4, 0:4</p>\n<h2>Grupa B</h2>\n<p>Łukasz Nolbrzak – <strong>Krzysztof Goldberg</strong> 1:4, 0:4<br>\n<strong>Łukasz Nolbrzak</strong> – Marcin Mozal 4:2, 2:4, 10:6<br>\n<strong>Krzysztof Goldberg</strong> – Marcin Mozal 4:2, 4:2</p>\n<h2>Grupa C</h2>\n<p>Grzegorz Wurm – <strong>Szymon Pawlak</strong> 4:1, 2:4, 7:10<br>\nGrzegorz Wurm – <strong>Łukasz Stachowiak</strong> 0:4, 4:3, 7:10<br>\nSzymon Pawlak – <strong>Łukasz Stachowiak</strong> 4:3, 2:4, 4:10</p>\n<h2>1/4 FINAŁU</h2>\n<p><strong>Krzysztof Goldberg</strong> – Marcin Mozal 4:0, 4:0<br>\n<strong>Marcin Piosik</strong> – Szymon Pawlak 4:2, 4:0<br>\nŁukasz Stachowiak – <strong>Łukasz Nolbrzak</strong> 4:0, 1:4, 4:10<br>\n<strong>Łukasz Walendowski</strong> – Grzegorz Wurm 4:3, 4:0</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Krzysztof Goldberg</strong> – Marcin Piosik 4:2, 4:0<br>\nŁukasz Nolbrzak – <strong>Łukasz Walendowski</strong> 3:4, 0:4</p>\n<h2>FINAŁ</h2>\n<p>Krzysztof Goldberg – <strong>Łukasz Walendowski</strong> 3:4, 3:4</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-olesnica-closing-season-cup-2026-5556/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-olesnica-closing-season-cup-2026-5556/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "dolnośląskie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "55358dd912c459206b598aaa5cb2922b05613dbe9c0037d8dbbb22c3625ca287"
+    },
+    {
+      "id": "plt:5557",
+      "title": "Oleśnica: Roman Gromysh triumfuje w turnieju Turniej o Mistrzostwo Klubu OKT Oleśnica 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "content": "<p>W dniu 19 września 2026 w miejscowości Oleśnica rozegrano turniej <em>„Turniej o Mistrzostwo Klubu OKT Oleśnica 2026 - Kwalifikacje do Krajowych Mistrzostw”</em> w kategorii 2. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Roman Gromysh</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Mateusz Muzalewski</strong> – Igor Słowiński 4:1, 4:0<br>\nMateusz Muzalewski – <strong>Roman Gromysh</strong> 0:4, 1:4<br>\nIgor Słowiński – <strong>Roman Gromysh</strong> 1:4, 2:4</p>\n<h2>Grupa B</h2>\n<p><strong>Michał Tokarski</strong> – Robert Jaśków 4:0, 4:1<br>\n<strong>Michał Tokarski</strong> – Michał Dziobek 4:0, 2:4, 10:7<br>\nRobert Jaśków – <strong>Michał Dziobek</strong> 0:4, 1:4</p>\n<h2>Grupa C</h2>\n<p><strong>Serafin Pęzioł</strong> – Grzegorz Szanduła 4:0, 4:0<br>\n<strong>Serafin Pęzioł</strong> – Łukasz Urbanek 4:0, 4:0 (walkower)<br>\n<strong>Grzegorz Szanduła</strong> – Łukasz Urbanek 4:0, 4:0 (walkower)</p>\n<h2>1/4 FINAŁU</h2>\n<p><strong>Serafin Pęzioł</strong> – Robert Jaśków 4:2, 4:0<br>\n<strong>Michał Dziobek</strong> – Mateusz Muzalewski 4:2, 4:2<br>\n<strong>Michał Tokarski</strong> – Grzegorz Szanduła 4:0, 4:0<br>\n<strong>Roman Gromysh</strong> – Igor Słowiński 4:2, 4:1</p>\n<h2>1/2 FINAŁU</h2>\n<p>Serafin Pęzioł – <strong>Michał Dziobek</strong> 2:4, 2:4<br>\nMichał Tokarski – <strong>Roman Gromysh</strong> 2:4, 4:0, 8:10</p>\n<h2>FINAŁ</h2>\n<p>Michał Dziobek – <strong>Roman Gromysh</strong> 1:4, 4:2, 5:10</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-olesnica-closing-season-cup-2026-5557/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-olesnica-closing-season-cup-2026-5557/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "dolnośląskie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "15896193d269fc3ea4ba9d13da51895c738b0f7fbf8253ebaf9328a9d90b3ab8"
+    },
+    {
+      "id": "plt:5574",
+      "title": "Krosno: Grzegorz Buczyński triumfuje w turnieju Otwarte Jesienne Mistrzostwa Krosna 2026",
+      "content": "<p>W dniu 19 września 2026 w miejscowości Krosno rozegrano turniej <em>„Otwarte Jesienne Mistrzostwa Krosna 2026”</em> w kategorii 2. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Grzegorz Buczyński</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p>Damian Krzanowski – <strong>Wiktor Dębski</strong> 0:4, 3:4<br>\n<strong>Przemysław Kaczka</strong> – Mateusz Różycki 4:2, 4:3<br>\nDamian Krzanowski – <strong>Przemysław Kaczka</strong> 0:4, 1:4<br>\nWiktor Dębski – <strong>Mateusz Różycki</strong> 3:4, 3:4<br>\nDamian Krzanowski – <strong>Mateusz Różycki</strong> 2:4, 3:4<br>\nWiktor Dębski – <strong>Przemysław Kaczka</strong> 2:4, 4:3, 8:10</p>\n<h2>Grupa B</h2>\n<p>Damian Duczyński – <strong>Zbigniew Szurlej</strong> 2:4, 2:4<br>\n<strong>Damian Duczyński</strong> – Marzena Olejarczyk 4:0, 4:1<br>\n<strong>Zbigniew Szurlej</strong> – Marzena Olejarczyk 4:2, 4:3</p>\n<h2>Grupa C</h2>\n<p>Karol Gajewski – <strong>Grzegorz Buczyński</strong> 1:4, 1:4<br>\n<strong>Karol Gajewski</strong> – Łukasz Subik 4:2, 2:4, 10:3<br>\n<strong>Grzegorz Buczyński</strong> – Łukasz Subik 4:0, 4:1</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Grzegorz Buczyński</strong> – Damian Duczyński 4:1, 4:1<br>\nZbigniew Szurlej – <strong>Przemysław Kaczka</strong> 2:4, 0:4</p>\n<h2>FINAŁ</h2>\n<p><strong>Grzegorz Buczyński</strong> – Przemysław Kaczka 4:0, 4:0</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krosna-2026-5574/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krosna-2026-5574/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "5c2df40ec81b59503a397465388a6446a014e65508b3a760d07854adb66114e6"
+    },
+    {
+      "id": "plt:5618",
+      "title": "Konin: Yegor Yefimchyk triumfuje w turnieju Otwarte Jesienne Mistrzostwa Konina 2026",
+      "content": "<p>W dniu 19 września 2026 w miejscowości Konin rozegrano turniej <em>„Otwarte Jesienne Mistrzostwa Konina 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Yegor Yefimchyk</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Yegor Yefimchyk</strong> – Karol Purol 4:0, 4:0 (walkower)<br>\n<strong>Yegor Yefimchyk</strong> – Aleksander Woźniak 4:1, 4:1<br>\nKarol Purol – <strong>Aleksander Woźniak</strong> 0:4, 0:4 (walkower)</p>\n<h2>Grupa B</h2>\n<p><strong>Szymon Lipski</strong> – Krzysztof Wojtkowiak 4:0, 4:0 (walkower)<br>\n<strong>Szymon Lipski</strong> – Magda Drajewska 4:3, 4:0<br>\nKrzysztof Wojtkowiak – <strong>Magda Drajewska</strong> 0:4, 0:4</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Yegor Yefimchyk</strong> – Magda Drajewska 4:0, 4:0<br>\n<strong>Szymon Lipski</strong> – Aleksander Woźniak 3:4, 4:1, 10:6</p>\n<h2>FINAŁ</h2>\n<p><strong>Yegor Yefimchyk</strong> – Szymon Lipski 4:1, 4:0</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-konina-2026-5618/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-konina-2026-5618/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "8ac592fe06506e0e8b728d647a20d30c3e9ce73c29e9528c2c2b2066edf16795"
+    },
+    {
+      "id": "plt:5619",
+      "title": "Aktywniaki Tennis Cup III 2026 — wyniki (2026-09-19)",
+      "content": "<p>W dniu 19 września 2026 w miejscowości Kamień rozegrano turniej <em>„Aktywniaki Tennis Cup III 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p>Michał Holko – <strong>Mateusz Pruchnicki</strong> 4:3, 1:4, 5:10<br>\n<strong>Damian Gumieniak</strong> – Paweł Janik 4:0, 4:0 (walkower)<br>\n<strong>Michał Holko</strong> – Damian Gumieniak 4:2, 4:2<br>\n<strong>Mateusz Pruchnicki</strong> – Paweł Janik 4:0, 4:0 (walkower)<br>\n<strong>Michał Holko</strong> – Paweł Janik 4:0, 4:0 (walkower)<br>\n<strong>Mateusz Pruchnicki</strong> – Damian Gumieniak 4:0, 4:3<br>\nMichał Holko – <strong>Mateusz Łach</strong> 0:4, 1:4<br>\nPaweł Janik – <strong>Mateusz Łach</strong> 0:4, 0:4 (walkower)<br>\nMateusz Pruchnicki – <strong>Mateusz Łach</strong> 0:4, 1:4<br>\nDamian Gumieniak – <strong>Mateusz Łach</strong> 0:4, 1:4</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-tennis-cup-iii-2026-5619/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-tennis-cup-iii-2026-5619/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "wielkopolskie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "e7e8aac06b048f390c7d2061d528c4f1903ebd369f7bb8da4da3e15679d2c64c"
+    },
+    {
+      "id": "kluby:12060",
+      "title": "Mińsk Mazowiecki: Chłopik Jakub, Szczepaniak Justyna triumfują w turnieju Turniej Mikstowy",
+      "content": "<p>W dniu 20 września 2026 na obiekcie Klub Sportowy Masters, Mińsk Mazowiecki (Mińsk Mazowiecki) rozegrano turniej <em>„Turniej Mikstowy”</em> w kategorii DEBEL MIKST. W turnieju triumfuje para <strong>Chłopik Jakub, Szczepaniak Justyna</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p>Szadkowski Mateusz, Szadkowska Aleksandra – <strong>Kakolewska Anna, Chrzanowski Hubert</strong> 1/6<br>\n<strong>Popis #1 Jacek, Maj Ada</strong> – Popis Patryk, Gliwińska Emilia 6/3<br>\nSzadkowski Mateusz, Szadkowska Aleksandra – <strong>Popis Patryk, Gliwińska Emilia</strong> 1/6<br>\n<strong>Popis #1 Jacek, Maj Ada</strong> – Kakolewska Anna, Chrzanowski Hubert 7/5<br>\nSzadkowski Mateusz, Szadkowska Aleksandra – <strong>Popis #1 Jacek, Maj Ada</strong> 4/6<br>\nPopis Patryk, Gliwińska Emilia – <strong>Kakolewska Anna, Chrzanowski Hubert</strong> 3/6</p>\n<h2>Grupa B</h2>\n<p><strong>Ostrowski Robert, Helinska Marlena</strong> – Klich Maciej, Klich Magda 6/1<br>\n<strong>Szuba Marek, Gadaj-Świerżewska Monika</strong> – Całka Dawid, Wolska Dominika 6/1<br>\n<strong>Ostrowski Robert, Helinska Marlena</strong> – Całka Dawid, Wolska Dominika 6/0<br>\n<strong>Szuba Marek, Gadaj-Świerżewska Monika</strong> – Klich Maciej, Klich Magda 6/3<br>\nOstrowski Robert, Helinska Marlena – <strong>Szuba Marek, Gadaj-Świerżewska Monika</strong> 4/6<br>\nCałka Dawid, Wolska Dominika – <strong>Klich Maciej, Klich Magda</strong> 1/6</p>\n<h2>Grupa C</h2>\n<p><strong>Chłopik Jakub, Szczepaniak Justyna</strong> – Kielak Jan, Pawlak Urszula 7/6<br>\nGańczak Piotr, Wojewoda Iwona – <strong>Sułecki Marek, Białek Aleksandra</strong> 1/6<br>\n<strong>Chłopik Jakub, Szczepaniak Justyna</strong> – Sułecki Marek, Białek Aleksandra 6/0<br>\nGańczak Piotr, Wojewoda Iwona – <strong>Kielak Jan, Pawlak Urszula</strong> 1/6<br>\n<strong>Chłopik Jakub, Szczepaniak Justyna</strong> – Gańczak Piotr, Wojewoda Iwona 6/0<br>\nSułecki Marek, Białek Aleksandra – <strong>Kielak Jan, Pawlak Urszula</strong> 1/6</p>\n<h2>1/4 finału</h2>\n<p><strong>Popis #1 Jacek, Maj Ada</strong> – Klich Maciej, Klich Magda 6/3<br>\n<strong>Kakolewska Anna, Chrzanowski Hubert</strong> – Ostrowski Robert, Helinska Marlena 6/2<br>\n<strong>Szuba Marek, Gadaj-Świerżewska Monika</strong> – Kielak Jan, Pawlak Urszula 6/3<br>\nPopis Patryk, Gliwińska Emilia – <strong>Chłopik Jakub, Szczepaniak Justyna</strong> 5/7</p>\n<h2>1/2 finału</h2>\n<p>Popis #1 Jacek, Maj Ada – <strong>Kakolewska Anna, Chrzanowski Hubert</strong> 4/6<br>\nSzuba Marek, Gadaj-Świerżewska Monika – <strong>Chłopik Jakub, Szczepaniak Justyna</strong> 5/7</p>\n<h2>finał</h2>\n<p>Kakolewska Anna, Chrzanowski Hubert – <strong>Chłopik Jakub, Szczepaniak Justyna</strong> 4/6</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12060\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12060",
+      "source": "Kluby.org",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-20",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "fcb9e1ff6ec837ac48175d7f6f9bcd6f315fa7f5be46015a7e0935c5e1ac5f3c"
+    },
+    {
+      "id": "kluby:12107",
+      "title": "Białystok: Omieljanowicz Adam triumfuje w turnieju Turniej o Puchar 3. Ligi",
+      "content": "<p>W dniach 19–20 września 2026 na obiekcie Centrum Tenisowe Zwierzyniec, Białystok (Białystok) rozegrano turniej <em>„Turniej o Puchar 3. Ligi”</em> w kategorii OPEN. W turnieju triumfuje <strong>Omieljanowicz Adam</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p>Trawka Anna – <strong>Orłowski Jakub</strong> 0/6<br>\nBielski #1 Rafał – <strong>Konecko Emil</strong> 0/6<br>\n<strong>Trawka Anna</strong> – Konecko Emil 6/3<br>\nBielski #1 Rafał – <strong>Orłowski Jakub</strong> 2/6<br>\nTrawka Anna – <strong>Bielski #1 Rafał</strong> 4/6<br>\nKonecko Emil – <strong>Orłowski Jakub</strong> 0/6</p>\n<h2>Grupa B</h2>\n<p><strong>Leszczyński Wiktor</strong> – Wielemborek Przemysław 6/0<br>\nStypułkowski Michał – <strong>Giermakowski Maciej</strong> 1/6<br>\n<strong>Leszczyński Wiktor</strong> – Giermakowski Maciej 6/3<br>\n<strong>Stypułkowski Michał</strong> – Wielemborek Przemysław 6/0<br>\n<strong>Leszczyński Wiktor</strong> – Stypułkowski Michał 6/2<br>\n<strong>Giermakowski Maciej</strong> – Wielemborek Przemysław 6/0</p>\n<h2>Grupa C</h2>\n<p><strong>Nelke Marek</strong> – Mieszkowicz Mikołaj 6/0<br>\n<strong>Dzikowska Paula</strong> – Kalinowska Ewa 6/1<br>\n<strong>Nelke Marek</strong> – Kalinowska Ewa 6/0<br>\n<strong>Dzikowska Paula</strong> – Mieszkowicz Mikołaj 6/4<br>\n<strong>Nelke Marek</strong> – Dzikowska Paula 6/0<br>\nKalinowska Ewa – <strong>Mieszkowicz Mikołaj</strong> 4/6</p>\n<h2>Grupa D</h2>\n<p>Krupski Mateusz – <strong>Omieljanowicz Adam</strong> 2/6<br>\nWarpechowski Jan – <strong>Sądel Krystyna</strong> 1/6<br>\n<strong>Krupski Mateusz</strong> – Sądel Krystyna 6/1<br>\nWarpechowski Jan – <strong>Omieljanowicz Adam</strong> 0/6<br>\n<strong>Krupski Mateusz</strong> – Warpechowski Jan 6/0<br>\nSądel Krystyna – <strong>Omieljanowicz Adam</strong> 2/6</p>\n<h2>Grupa E</h2>\n<p><strong>Allsop George</strong> – Groth Dawid 6/1<br>\n<strong>Karpiński Mateusz</strong> – Sosnowski Kacper 6/0<br>\n<strong>Allsop George</strong> – Sosnowski Kacper 6/0<br>\n<strong>Karpiński Mateusz</strong> – Groth Dawid 6/2<br>\n<strong>Allsop George</strong> – Karpiński Mateusz 6/3<br>\n<strong>Sosnowski Kacper</strong> – Groth Dawid 6/2</p>\n<h2>Grupa F</h2>\n<p>Kostrzewa Piotr – <strong>Kowalewicz Gabryś</strong> 6/7<br>\n<strong>Pientkowski Błażej</strong> – Grynasz Lukasz 6/0<br>\n<strong>Kostrzewa Piotr</strong> – Grynasz Lukasz 6/0<br>\nPientkowski Błażej – <strong>Kowalewicz Gabryś</strong> 2/6<br>\n<strong>Kostrzewa Piotr</strong> – Pientkowski Błażej 6/4<br>\nGrynasz Lukasz – <strong>Kowalewicz Gabryś</strong> 0/6</p>\n<h2>1/8 finału</h2>\n<p><strong>Giermakowski Maciej</strong> – Dzikowska Paula 6/4<br>\nAllsop George – <strong>Kostrzewa Piotr</strong> 2/6<br>\n<strong>Kowalewicz Gabryś</strong> – Karpiński Mateusz 6/2<br>\nKonecko Emil – <strong>Krupski Mateusz</strong> 0/6</p>\n<h2>1/4 finału</h2>\n<p><strong>Orłowski Jakub</strong> – Giermakowski Maciej 6/3<br>\nKostrzewa Piotr – <strong>Omieljanowicz Adam</strong> 1/6<br>\n<strong>Nelke Marek</strong> – Kowalewicz Gabryś 6/0<br>\n<strong>Krupski Mateusz</strong> – Leszczyński Wiktor 6/0</p>\n<h2>1/2 finału</h2>\n<p>Orłowski Jakub – <strong>Omieljanowicz Adam</strong> 1/4 2/4<br>\nNelke Marek – <strong>Krupski Mateusz</strong> 1/4 3/4</p>\n<h2>finał</h2>\n<p><strong>Omieljanowicz Adam</strong> – Krupski Mateusz 6/1 6/0</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12107\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12107",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "7abe61d12f8955197a13b7f7ed6981800e8511820fa265f4e6254e303120c525"
+    },
+    {
+      "id": "kluby:12145",
+      "title": "III Liga ŁLT Grupa Barażowa 2026 — wyniki (2026-09-20)",
+      "content": "<p>W dniu 20 września 2026 na obiekcie Skate Park Łomża, Łomża (Łomża) rozegrano turniej <em>„III Liga ŁLT Grupa Barażowa 2026”</em> w kategorii OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p><strong>Sobolewski Marcin</strong> – Popko Piotr 6/4 6/3<br>\nBorkowski #1 Adrian – <strong>Płatuński Dominik</strong> 2/6 1/6<br>\nJemielity Mateusz – <strong>Mocarski Mateusz</strong> 4/6 1/6<br>\n<strong>Mocarski Mateusz</strong> – Popko Piotr 5/7 6/3 6/4<br>\nJemielity Mateusz – <strong>Płatuński Dominik</strong> 0/6 1/6<br>\n<strong>Sobolewski Marcin</strong> – Borkowski #1 Adrian 6/3 6/2<br>\nBorkowski #1 Adrian – Popko Piotr Brak potwierdzonego wyniku<br>\n<strong>Sobolewski Marcin</strong> – Jemielity Mateusz 6/0 6/1<br>\nMocarski Mateusz – <strong>Płatuński Dominik</strong> 2/6 3/6<br>\nPłatuński Dominik – Popko Piotr Brak potwierdzonego wyniku<br>\nSobolewski Marcin – Mocarski Mateusz Brak potwierdzonego wyniku<br>\nBorkowski #1 Adrian – Jemielity Mateusz Brak potwierdzonego wyniku<br>\nJemielity Mateusz – <strong>Popko Piotr</strong> 7/5 6/7 5/7<br>\nBorkowski #1 Adrian – Mocarski Mateusz Brak potwierdzonego wyniku<br>\nSobolewski Marcin – <strong>Płatuński Dominik</strong> 0/6 0/6</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12145\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12145",
+      "source": "Kluby.org",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-20",
+      "ready": false,
+      "issues": [
+        "OPEN: Brak części rozegranych meczów lub wyników"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "ce8bc8bd9f216e255a8237d24afd032e5b73308cdc6164d8669cd2ca44087a72"
+    },
+    {
+      "id": "kluby:12179",
+      "title": "Memoriał Bogusława Pawłowskiego 2026 — wyniki (2026-09-19)",
+      "content": "<p>W dniach 19–20 września 2026 na obiekcie Korty Macieja, Warszawa (Warszawa) rozegrano turniej <em>„Memoriał Bogusława Pawłowskiego 2026”</em> w kategorii OPEN KOBIETY OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12179\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12179",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "KOBIETY OPEN: Nie znaleziono tabeli meczów",
+        "OPEN: Nie znaleziono tabeli meczów",
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "26045d2ce233e0a8909d4585d74cd1a766286a5049535b186a109519970b6a4f"
+    },
+    {
+      "id": "kluby:12207",
+      "title": "DEBEL CHALLENGER PIOTRKÓW TRYB. — wyniki (2026-09-20)",
+      "content": "<p>W dniu 20 września 2026 na obiekcie OSiR Belzacka, Piotrków Trybunalski (Piotrków Trybunalski) rozegrano turniej <em>„DEBEL CHALLENGER PIOTRKÓW TRYB.”</em> w kategorii DEBEL. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12207\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12207",
+      "source": "Kluby.org",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-20",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "DEBEL: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "c6556feadd41867820fc852d401ef9e01714a0e3fa38c519c59107ebc310de1c"
+    },
+    {
+      "id": "kluby:12208",
+      "title": "ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Reda — wyniki (2026-09-19)",
+      "content": "<p>W dniach 19–20 września 2026 na obiekcie MOSiR w Redzie, Reda (Reda) rozegrano turniej <em>„ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - MOSiR Reda”</em> w kategorii OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>1/8 finału</h2>\n<p>Chodubski Tomasz – Zarzycki Piotr Brak potwierdzonego wyniku<br>\nNiedlich Konrad – Siudak Kacper Brak potwierdzonego wyniku<br>\nBiałas Damian – Marszałek Robert Brak potwierdzonego wyniku<br>\nPoppel Stanisław – Niedlich Jan Brak potwierdzonego wyniku<br>\nMichałkiewicz Andrzej – Niedlich Piotr Brak potwierdzonego wyniku<br>\nKazubek Bartosz – Konkel Krzysztof Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12208\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12208",
+      "source": "Kluby.org",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "ready": false,
+      "issues": [
+        "Brak potwierdzonego finału",
+        "OPEN: Brak części rozegranych meczów lub wyników"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "561e8e9d114687887c8df2daca20557f1f864ae54495870c68720254ee77bfb8"
+    },
+    {
+      "id": "plt:5542",
+      "title": "Otwarte Jesienne Mistrzostwa Skarżyska-Kamiennej 2026 — wyniki (2026-09-13)",
+      "content": "<p>W dniach 13–20 września 2026 w miejscowości Skarżysko-Kamienna rozegrano turniej <em>„Otwarte Jesienne Mistrzostwa Skarżyska-Kamiennej 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p><strong>Marcin Struski</strong> – Mariusz Pawlak 4:0, 4:0<br>\n<strong>Marcin Struski</strong> – Jakub Grzegorek 1:4, 4:0, 10:7<br>\nMariusz Pawlak – <strong>Jakub Grzegorek</strong> 3:4, 4:0, 10:12</p>\n<h2>Grupa B</h2>\n<p><strong>Hubert Jarek</strong> – Dominik Sobczak 2:4, 4:0, 10:8<br>\n<strong>Hubert Jarek</strong> – Wiktoria Wąchocka 4:1, 4:3<br>\nDominik Sobczak – <strong>Wiktoria Wąchocka</strong> 3:4, 4:2, 7:10</p>\n<h2>Grupa C</h2>\n<p><strong>Jarosław Ozga</strong> – Emil Tokarczyk 4:0, 4:2<br>\n<strong>Jarosław Ozga</strong> – Filip Borowiec 4:3, 4:2<br>\nEmil Tokarczyk – <strong>Filip Borowiec</strong> 3:4, 2:4</p>\n<h2>Grupa D</h2>\n<p><strong>Pawel Andrzejewski</strong> – Julia Lubomirska 4:0, 4:0<br>\n<strong>Pawel Andrzejewski</strong> – Piotr Ciesielski 4:0, 4:0<br>\n<strong>Julia Lubomirska</strong> – Piotr Ciesielski 4:3, 4:0</p>\n<h2>Grupa E</h2>\n<p>Franciszek Toborek – <strong>Bernard Wąsowski</strong> 4:3, 3:4, 5:10<br>\nFranciszek Toborek – <strong>Kasia Kobylarz</strong> 4:3, 2:4, 1:10<br>\nBernard Wąsowski – <strong>Kasia Kobylarz</strong> 1:4, 0:4</p>\n<h2>Grupa F</h2>\n<p>Łukasz Bakalarczyk – <strong>Andrzej Moczek</strong> 0:4, 1:4<br>\nŁukasz Bakalarczyk – <strong>Piotr Szynal</strong> 1:4, 4:2, 3:10<br>\n<strong>Andrzej Moczek</strong> – Piotr Szynal 4:0, 4:2</p>\n<h2>Grupa G</h2>\n<p><strong>Piotr Wietecha</strong> – Maciej Białkowski 4:2, 4:3<br>\n<strong>Piotr Wietecha</strong> – Artur Szymczyk 4:2, 4:1<br>\nMaciej Białkowski – <strong>Artur Szymczyk</strong> 1:4, 2:4</p>\n<h2>Grupa H</h2>\n<p><strong>Piotr Zaczkowski</strong> – Adrian Siwek 4:0, 4:0 (walkower)<br>\nPiotr Zaczkowski – <strong>Jakub Słoka</strong> 1:4, 1:4<br>\nAdrian Siwek – <strong>Jakub Słoka</strong> 0:4, 0:4 (walkower)</p>\n<h2>1/8 FINAŁU</h2>\n<p><strong>Marcin Struski</strong> – Wiktoria Wąchocka 4:0, 4:0<br>\nJarosław Ozga – <strong>Julia Lubomirska</strong> 3:4, 0:4<br>\n<strong>Kasia Kobylarz</strong> – Piotr Szynal 4:2, 1:4, 10:4<br>\n<strong>Piotr Wietecha</strong> – Piotr Zaczkowski 4:1, 4:2<br>\nHubert Jarek – <strong>Jakub Grzegorek</strong> 4:2, 2:4, 4:10<br>\n<strong>Pawel Andrzejewski</strong> – Filip Borowiec 4:1, 4:0<br>\n<strong>Andrzej Moczek</strong> – Bernard Wąsowski 4:0, 4:2<br>\n<strong>Jakub Słoka</strong> – Artur Szymczyk 4:0, 4:3</p>\n<h2>1/4 FINAŁU</h2>\n<p><strong>Marcin Struski</strong> – Julia Lubomirska 4:2, 4:0<br>\nKasia Kobylarz – <strong>Piotr Wietecha</strong> 1:4, 0:4<br>\nJakub Grzegorek – <strong>Pawel Andrzejewski</strong> 0:4, 0:4<br>\nAndrzej Moczek – <strong>Jakub Słoka</strong> 2:4, 3:4</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Marcin Struski</strong> – Piotr Wietecha 0:4, 4:1, 10:4<br>\nPawel Andrzejewski – Jakub Słoka Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5542/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5542/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-13",
+      "date_end": "2026-09-20",
+      "ready": false,
+      "issues": [
+        "Brak części rozegranych meczów lub wyników",
+        "Brak potwierdzonego pojedynczego finału"
+      ],
+      "voivodeship": "",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "f95e63a85525ce04dc7824a139ad7fbf2263bea4a31558682c6eb4fc261e5557"
+    },
+    {
+      "id": "plt:5560",
+      "title": "Warszawa: Marcin Wojtkowski triumfuje w turnieju Turniej o Mistrzostwo Klubu Olszynka Grochowska 2026- Kwalifikacje do Krajowych Mistrzostw",
+      "content": "<p>W dniu 20 września 2026 w miejscowości Warszawa rozegrano turniej <em>„Turniej o Mistrzostwo Klubu Olszynka Grochowska 2026- Kwalifikacje do Krajowych Mistrzostw”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Marcin Wojtkowski</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Patryk Sadowski</strong> – Kacper Zbierak 4:0, 4:0<br>\n<strong>Patryk Sadowski</strong> – Bartłomiej Gorczycki 4:3, 4:1<br>\nKacper Zbierak – <strong>Bartłomiej Gorczycki</strong> 0:4, 2:4</p>\n<h2>Grupa B</h2>\n<p><strong>Ryszard Nawrocki-Woźniak</strong> – Jan Mydłowski 4:1, 4:1<br>\n<strong>Ryszard Nawrocki-Woźniak</strong> – Mateusz Decewicz 4:0, 4:1<br>\n<strong>Jan Mydłowski</strong> – Mateusz Decewicz 4:2, 4:3</p>\n<h2>Grupa C</h2>\n<p><strong>Marcin Wojtkowski</strong> – Filip Borowiec 4:0, 4:0<br>\n<strong>Marcin Wojtkowski</strong> – Daniil Dubyna 4:0, 4:0 (walkower)<br>\n<strong>Filip Borowiec</strong> – Daniil Dubyna 4:0, 4:0 (walkower)</p>\n<h2>Grupa D</h2>\n<p><strong>Kostyantyn Tarnopolskyy</strong> – Piotr Zaczkowski 4:0, 4:1<br>\nKostyantyn Tarnopolskyy – <strong>Katarzyna Nowak</strong> 0:4, 0:4<br>\nPiotr Zaczkowski – <strong>Katarzyna Nowak</strong> 1:4, 0:4</p>\n<h2>1/4 FINAŁU</h2>\n<p><strong>Patryk Sadowski</strong> – Jan Mydłowski 4:0, 4:0 (walkower)<br>\n<strong>Marcin Wojtkowski</strong> – Kostyantyn Tarnopolskyy 4:0, 4:1<br>\nRyszard Nawrocki-Woźniak – <strong>Bartłomiej Gorczycki</strong> 3:4, 3:4<br>\n<strong>Katarzyna Nowak</strong> – Filip Borowiec 4:2, 3:4, 10:2</p>\n<h2>1/2 FINAŁU</h2>\n<p>Patryk Sadowski – <strong>Marcin Wojtkowski</strong> 1:4, 3:4<br>\nBartłomiej Gorczycki – <strong>Katarzyna Nowak</strong> 2:4, 4:1, 5:10</p>\n<h2>FINAŁ</h2>\n<p><strong>Marcin Wojtkowski</strong> – Katarzyna Nowak 4:0, 4:0 (walkower)</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5560/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5560/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-20",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "mazowieckie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "3f17e1a603b0461e8da18cd2cc1d1484771c3a53472ae5e31256ba16be58aadd"
+    },
+    {
+      "id": "plt:5561",
+      "title": "Turniej o Mistrzostwo Klubu Olszynka Grochowska 2026 - Kwalifikacje do Krajowych Mistrzostw — wyniki (2026-09-20)",
+      "content": "<p>W dniu 20 września 2026 w miejscowości Warszawa rozegrano turniej <em>„Turniej o Mistrzostwo Klubu Olszynka Grochowska 2026 - Kwalifikacje do Krajowych Mistrzostw”</em> w kategorii 2. Liga. Zawody były częścią cyklu Polska Liga Tenisa. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p>Borys Gowin – <strong>Marek Szkolnikowski</strong> 0:4, 3:4<br>\n<strong>Borys Gowin</strong> – Piotr Cegielski 4:3, 4:3<br>\n<strong>Marek Szkolnikowski</strong> – Piotr Cegielski 4:1, 4:1</p>\n<h2>Grupa B</h2>\n<p><strong>Kamil Skroński</strong> – Tymoteusz Kardach 4:0, 4:2<br>\n<strong>Kamil Skroński</strong> – Mariusz Samulak 4:3, 3:4, 12:10<br>\nTymoteusz Kardach – <strong>Mariusz Samulak</strong> 0:4, 2:4</p>\n<h2>Grupa C</h2>\n<p>Jerzy Mieńkowski – <strong>Adrian Parzybut</strong> 4:1, 0:4, 0:10<br>\nJerzy Mieńkowski – <strong>Daniel Zyśk</strong> 4:3, 2:4, 6:10<br>\n<strong>Adrian Parzybut</strong> – Daniel Zyśk 4:1, 4:2</p>\n<h2>Grupa D</h2>\n<p>Dawid Godlewski – <strong>Michał Ałaszkiewicz</strong> 0:4, 0:4 (walkower)<br>\nDawid Godlewski – <strong>Tomasz Woźniak</strong> 0:4, 0:4 (walkower)<br>\nMichał Ałaszkiewicz – <strong>Tomasz Woźniak</strong> 0:4, 0:4</p>\n<h2>1/4 FINAŁU</h2>\n<p>Marek Szkolnikowski – Mariusz Samulak Brak potwierdzonego wyniku<br>\nAdrian Parzybut – Michał Ałaszkiewicz Brak potwierdzonego wyniku<br>\nKamil Skroński – Borys Gowin Brak potwierdzonego wyniku<br>\nTomasz Woźniak – Daniel Zyśk Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5561/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5561/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-20",
+      "ready": false,
+      "issues": [
+        "Brak części rozegranych meczów lub wyników",
+        "Brak potwierdzonego pojedynczego finału"
+      ],
+      "voivodeship": "mazowieckie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "996562b1b0481dd8a4a2dfb037e8ebe5404dff0fbf0c462699687107f5fa167d"
+    },
+    {
+      "id": "plt:5568",
+      "title": "Turniej o Mistrzostwo Klubu Sportowego Czarni 2026 - Kwalifikacje do Krajowych Mistrzostw — wyniki (2026-09-20)",
+      "content": "<p>W dniu 20 września 2026 w miejscowości Rzeszów rozegrano turniej <em>„Turniej o Mistrzostwo Klubu Sportowego Czarni 2026 - Kwalifikacje do Krajowych Mistrzostw”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p>Przemysław Panasiewicz – <strong>Kamil Wasiek</strong> 4:2, 1:4, 8:10<br>\n<strong>Łukasz Cyrnek</strong> – Bartłomiej Semeniuk 4:0, 4:0 (walkower)<br>\n<strong>Przemysław Panasiewicz</strong> – Jakub Miazga 4:1, 4:1<br>\nKamil Wasiek – <strong>Łukasz Cyrnek</strong> 0:4, 2:4<br>\nBartłomiej Semeniuk – <strong>Jakub Miazga</strong> 2:4, 2:4<br>\nPrzemysław Panasiewicz – <strong>Łukasz Cyrnek</strong> 2:4, 0:4<br>\n<strong>Kamil Wasiek</strong> – Jakub Miazga 1:4, 4:3, 10:5<br>\n<strong>Przemysław Panasiewicz</strong> – Bartłomiej Semeniuk 4:1, 4:2<br>\n<strong>Łukasz Cyrnek</strong> – Jakub Miazga 4:0, 4:0<br>\n<strong>Kamil Wasiek</strong> – Bartłomiej Semeniuk 4:1, 4:2</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5568/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5568/wyniki",
+      "source": "PLT",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-20",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "podkarpackie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "ed2ec553281ba6ce6039c65f20c1c8ed0915ea17bde69ec22c44bae1162dda26"
+    },
+    {
+      "id": "pzt:76B12D48-991B-4098-B048-65D339E3E686",
+      "title": "TOP PZT Tour - VIII Memoriał Jurka Osoby, ZTT KT Return Zamość — wyniki (2026-09-19)",
+      "content": "<p>W dniach 19–20 września 2026 w miejscowości Zamość rozegrano turniej <em>„TOP PZT Tour - VIII Memoriał Jurka Osoby, ZTT KT Return Zamość”</em> w kategorii 45+, 55+, 65+, 75+, Open Amator, Open. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>45+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Grupa A</h3>\n<p><strong>Tor Michał</strong> – Maciocha Grzegorz w.o.<br>\n<strong>Tor Michał</strong> – Kiełb Dariusz 6:1 7:5<br>\n<strong>Kiełb Dariusz</strong> – Maciocha Grzegorz w.o.</p>\n<h3>Grupa B</h3>\n<p><strong>Radecki Michał</strong> – Michałowski Aleksander 6:3 6:1<br>\n<strong>Andrzejewski Pawel</strong> – Radecki Michał 6:2 6:2<br>\n<strong>Andrzejewski Pawel</strong> – Michałowski Aleksander 6:1 6:2</p>\n<h3>Grupa Faza finałowa. Grupa 1 - 2</h3>\n<p><strong>Andrzejewski Pawel</strong> – Tor Michał 6:4 6:0</p>\n<h3>Grupa Faza finałowa. Grupa 3 - 4</h3>\n<p><strong>Radecki Michał</strong> – Kiełb Dariusz w.o.</p>\n<h3>Grupa Faza finałowa. Grupa 5 - 6</h3>\n<p><strong>Michałowski Aleksander</strong> – Maciocha Grzegorz w.o.</p>\n<h2>55+. Gra pojedyncza. Kobiety</h2>\n<h3>Grupa A</h3>\n<p><strong>Dziekońska Małgorzata</strong> – Smyk Anna 6:4 6:3<br>\n<strong>Zwolak Urszula</strong> – Smyk Anna 7:5 5:7 10:8<br>\n<strong>Dziekońska Małgorzata</strong> – Zwolak Urszula 3:6 6:2 10:7<br>\n<strong>Smyk Anna</strong> – Urbanik Grażyna 6:2 6:2<br>\n<strong>Dziekońska Małgorzata</strong> – Urbanik Grażyna 6:2 6:4<br>\n<strong>Zwolak Urszula</strong> – Urbanik Grażyna 6:2 6:2</p>\n<h2>55+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Ćwierćfinał</h3>\n<p><strong>Nowosad Wojciech</strong> – Pluta Dariusz 6:1 6:3<br>\n<strong>Marciniewicz Piotr</strong> – Hadała Jerzy w.o.<br>\n<strong>Nowak Sławomir</strong> – Jermaków Andrzej 4:3 ret. :ret.</p>\n<h3>Półfinał</h3>\n<p><strong>Rogalewicz Piotr</strong> – Nowosad Wojciech 6:1 5:7 10:3<br>\n<strong>Nowak Sławomir</strong> – Marciniewicz Piotr 6:1 6:4</p>\n<h3>Finał</h3>\n<p><strong>Rogalewicz Piotr</strong> – Nowak Sławomir 5:7 7:6 10:6</p>\n<h2>55+. Gra podwójna. Mężczyźni</h2>\n<h3>Ćwierćfinał</h3>\n<p><strong>Marciniewicz Piotr, Pluta Dariusz</strong> – Mocoń Marian, Wawrzyniak Tomasz 6:3 2:6 10:8<br>\n<strong>Sobczak Ryszard, Tomin Mladen</strong> – Gałach Artur, Nowak Sławomir w.o.<br>\n<strong>Papierz Jan, Semczuk Andrzej</strong> – Maj Marek, Śmigielski Krzysztof 6:3 4:6 10:7</p>\n<h3>Półfinał</h3>\n<p><strong>Pietrzak Jarosław, Rogalewicz Piotr</strong> – Marciniewicz Piotr, Pluta Dariusz 6:1 6:3<br>\n<strong>Papierz Jan, Semczuk Andrzej</strong> – Sobczak Ryszard, Tomin Mladen 6:3 6:3</p>\n<h3>Finał</h3>\n<p><strong>Papierz Jan, Semczuk Andrzej</strong> – Pietrzak Jarosław, Rogalewicz Piotr 3:6 6:3 10:4</p>\n<h2>65+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Runda: 1</h3>\n<p><strong>Tor Aleksander</strong> – Chwiejczak Tadeusz 6:0 6:1<br>\n<strong>Sobczak Ryszard</strong> – Zieja Andrzej 6:1 6:3<br>\n<strong>Lewicki Jan</strong> – Pietrzak Jarosław 6:0 6:0<br>\n<strong>Mocoń Marian</strong> – Tomin Mladen 6:0 3:6 12:10</p>\n<h3>Ćwierćfinał</h3>\n<p><strong>Wawrzyniak Tomasz</strong> – Tor Aleksander 6:3 6:0<br>\n<strong>Grotowski Tadeusz</strong> – Sobczak Ryszard 6:1 6:1<br>\n<strong>Gałach Artur</strong> – Lewicki Jan 6:1 6:0<br>\n<strong>Papierz Jan</strong> – Mocoń Marian 6:2 6:2</p>\n<h3>Półfinał</h3>\n<p><strong>Wawrzyniak Tomasz</strong> – Grotowski Tadeusz 5:7 6:4 10:6<br>\n<strong>Gałach Artur</strong> – Papierz Jan 7:5 6:4</p>\n<h3>Finał</h3>\n<p><strong>Gałach Artur</strong> – Wawrzyniak Tomasz 6:2 7:5</p>\n<h2>75+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Grupa A</h3>\n<p><strong>Maranda Piotr</strong> – Kozłowski Edward 6:4 6:4<br>\n<strong>Maranda Piotr</strong> – Kołodziejczyk Andrzej 6:2 6:3<br>\n<strong>Kozłowski Edward</strong> – Kołodziejczyk Andrzej 7:6 6:2</p>\n<h2>Open. Gra podwójna. Mieszany</h2>\n<h3>Runda: 1</h3>\n<p><strong>Andrzejewski Pawel, Kobylarz Kasia</strong> – Głowacka Paulina, Głowacki Damian 6:0 6:3<br>\n<strong>Bodio Mateusz, Urbanik Grażyna</strong> – Cis Aleks, Smyk Anna 2:6 6:4 10:8</p>\n<h3>Ćwierćfinał</h3>\n<p><strong>Duszyński Maciej, Michałowska Anna</strong> – Bachta Marcin, Denys Agnieszka 6:0 6:3<br>\n<strong>Andrzejewski Pawel, Kobylarz Kasia</strong> – Michałowski Aleksander, Tomasiak-Jurkiewicz Ewa 6:2 6:3<br>\n<strong>Krupa Monika, Szewc Krzysztof</strong> – Kotlicka Agnieszka, Radecki Michał 4:6 2:5 :ret.<br>\n<strong>Siek Patryk, Tołoczko Grażyna</strong> – Bodio Mateusz, Urbanik Grażyna 6:3 6:4</p>\n<h3>Półfinał</h3>\n<p><strong>Andrzejewski Pawel, Kobylarz Kasia</strong> – Duszyński Maciej, Michałowska Anna 3:6 6:4 10:8<br>\n<strong>Siek Patryk, Tołoczko Grażyna</strong> – Krupa Monika, Szewc Krzysztof 6:4 6:3</p>\n<h3>Finał</h3>\n<p><strong>Andrzejewski Pawel, Kobylarz Kasia</strong> – Siek Patryk, Tołoczko Grażyna 6:3 6:1</p>\n<h2>Open. Gra pojedyncza. Mężczyźni</h2>\n<h3>Ćwierćfinał</h3>\n<p><strong>Cis Aleks</strong> – Tabor Pawel 6:1 6:4<br>\n<strong>Szewc Krzysztof</strong> – Duszyński Maciej 6:1 6:0<br>\n<strong>Mrachkovskyi Mykhailo</strong> – Wysocki Maciej 7:6 6:4</p>\n<h3>Półfinał</h3>\n<p><strong>Wrzesień Leszek</strong> – Cis Aleks 6:1 4:0 ret.:<br>\n<strong>Mrachkovskyi Mykhailo</strong> – Szewc Krzysztof 6:1 6:0</p>\n<h3>Finał</h3>\n<p><strong>Wrzesień Leszek</strong> – Mrachkovskyi Mykhailo 6:4 6:3</p>\n<h2>Open. Gra podwójna. Mężczyźni</h2>\n<h3>Półfinał</h3>\n<p><strong>Jawoszek Mateusz, Żmuda Kacper</strong> – Bachta Marcin, Siek Patryk 6:2 6:3<br>\n<strong>Chabrowski Damian, Szewc Krzysztof</strong> – Cis Aleks, Głowacki Damian 6:1 6:0</p>\n<h3>Finał</h3>\n<p><strong>Chabrowski Damian, Szewc Krzysztof</strong> – Jawoszek Mateusz, Żmuda Kacper 6:4 7:5</p>\n<h2>Open Amator. Gra pojedyncza. Kobiety</h2>\n<h3>Grupa A</h3>\n<p><strong>Kobylarz Kasia</strong> – Tołoczko Grażyna 6:4 6:1<br>\n<strong>Kobylarz Kasia</strong> – Denys Agnieszka 6:0 6:0<br>\n<strong>Denys Agnieszka</strong> – Tołoczko Grażyna 6:4 1:6 12:10</p>\n<h2>Open Amator. Gra pojedyncza. Mężczyźni</h2>\n<h3>Runda: 1</h3>\n<p><strong>Żmuda Kacper</strong> – Bodio Mateusz 6:1 6:3<br>\n<strong>Bucior Grzegorz</strong> – Głowacki Damian 6:3 6:4<br>\n<strong>Jawoszek Mateusz</strong> – Kwiatkowski Mateusz 6:0 6:3<br>\n<strong>Chabrowski Damian</strong> – Dyrda Adam w.o.</p>\n<h3>Ćwierćfinał</h3>\n<p><strong>Łach Mateusz</strong> – Żmuda Kacper 6:2 6:4<br>\n<strong>Siek Patryk</strong> – Bucior Grzegorz 6:4 7:5<br>\n<strong>Jawoszek Mateusz</strong> – Bachta Marcin 7:6 7:5<br>\n<strong>Słoka Michał</strong> – Chabrowski Damian 6:0 6:3</p>\n<h3>Półfinał</h3>\n<p><strong>Łach Mateusz</strong> – Siek Patryk 6:1 6:1<br>\n<strong>Słoka Michał</strong> – Jawoszek Mateusz 6:1 6:2</p>\n<h3>Finał</h3>\n<p><strong>Słoka Michał</strong> – Łach Mateusz 6:0 6:0</p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=76B12D48-991B-4098-B048-65D339E3E686\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=76B12D48-991B-4098-B048-65D339E3E686",
+      "source": "PZT TOP",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "ready": false,
+      "issues": [
+        "Brak niezależnej klasyfikacji końcowej do potwierdzenia finału",
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "a3d7c6345ce0e2b88b0f3fe808b2824ec752e8008c4aadf35efb4d5809978feb"
+    },
+    {
+      "id": "pzt:80B4625B-3B00-4F14-B52A-FA27F56720A0",
+      "title": "Plusssz OPEN 2026, Towarzystwo Miłośników Tenisa Ziemnego w Łęcznej — wyniki (2026-09-18)",
+      "content": "<p>W dniach 18–20 września 2026 w miejscowości Łęczna rozegrano turniej <em>„Plusssz OPEN 2026, Towarzystwo Miłośników Tenisa Ziemnego w Łęcznej”</em> w kategorii 50+, Open Amator. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>50+. Gra pojedyncza. Mężczyźni</h2>\n<h3>Grupa A</h3>\n<p><strong>Konowałek Sebastian</strong> – Bicki Robert 7:5 6:3<br>\n<strong>Konowałek Sebastian</strong> – Jemioł Artur 6:2 6:3<br>\n<strong>Bicki Robert</strong> – Jemioł Artur 6:3 6:3</p>\n<h3>Grupa B</h3>\n<p><strong>Sawczuk Tomasz</strong> – Osipiuk Rafał 6:3 6:3<br>\n<strong>Sawczuk Tomasz</strong> – Jagiełło Andrzej 3:6 6:3 10:3<br>\n<strong>Osipiuk Rafał</strong> – Jagiełło Andrzej 4:6 7:6 11:9</p>\n<h3>Grupa Faza finałowa. Grupa 1 - 2</h3>\n<p><strong>Sawczuk Tomasz</strong> – Konowałek Sebastian 6:4 7:5</p>\n<h3>Grupa Faza finałowa. Grupa 3 - 4</h3>\n<p><strong>Osipiuk Rafał</strong> – Bicki Robert 6:3 7:5</p>\n<h3>Grupa Faza finałowa. Grupa 5 - 6</h3>\n<p><strong>Jagiełło Andrzej</strong> – Jemioł Artur 6:4 6:4</p>\n<h2>Open Amator. Gra pojedyncza. Mężczyźni</h2>\n<h3>Grupa A</h3>\n<p><strong>Pełczyński Robert</strong> – Demczuk Andrzej 7:5 4:6 10:8<br>\n<strong>Demczuk Andrzej</strong> – Kruk Damian 6:3 6:2<br>\n<strong>Pełczyński Robert</strong> – Kruk Damian 6:3 6:4</p>\n<h3>Grupa B</h3>\n<p><strong>Skrzypczak Tomasz</strong> – Jurasik Bartosz 6:2 6:3<br>\n<strong>Jurasik Bartosz</strong> – Trzaskowski Adam 7:5 6:4<br>\n<strong>Skrzypczak Tomasz</strong> – Trzaskowski Adam 7:5 6:2</p>\n<h3>Grupa C</h3>\n<p><strong>Bogusz Bartłomiej</strong> – Wójcik Marcin 6:2 6:2<br>\n<strong>Bogusz Bartłomiej</strong> – Malinowski Franek 6:2 6:2<br>\n<strong>Wójcik Marcin</strong> – Malinowski Franek 7:5 7:5</p>\n<h3>Grupa D</h3>\n<p><strong>Kot Wojciech</strong> – Misiaszek Kacper 6:3 6:4<br>\n<strong>Chojnacki Łukasz</strong> – Kot Wojciech 6:2 6:2<br>\n<strong>Chojnacki Łukasz</strong> – Misiaszek Kacper 6:2 6:2</p>\n<h3>Półfinał</h3>\n<p><strong>Chojnacki Łukasz</strong> – Pełczyński Robert 6:2 6:2<br>\n<strong>Bogusz Bartłomiej</strong> – Skrzypczak Tomasz 6:2 6:4</p>\n<h3>Finał</h3>\n<p><strong>Chojnacki Łukasz</strong> – Bogusz Bartłomiej 6:2 6:2</p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=80B4625B-3B00-4F14-B52A-FA27F56720A0\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=80B4625B-3B00-4F14-B52A-FA27F56720A0",
+      "source": "PZT TOP",
+      "date_start": "2026-09-18",
+      "date_end": "2026-09-20",
+      "ready": false,
+      "issues": [
+        "Brak niezależnej klasyfikacji końcowej do potwierdzenia finału",
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "ba8120d579c0fcb33f2113f046474b92074d7518826b32474259b736105c18d8"
+    },
+    {
+      "id": "pzt:A691A78D-4329-42F0-A8FE-71DFABE41147",
+      "title": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/ — wyniki (2026-09-20)",
+      "content": "<p>W dniu 20 września 2026 w miejscowości PIASECZNO rozegrano turniej <em>„SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/”</em> w kategorii 60+, 70+, 80+. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=A691A78D-4329-42F0-A8FE-71DFABE41147\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A691A78D-4329-42F0-A8FE-71DFABE41147",
+      "source": "PZT TOP",
+      "date_start": "2026-09-20",
+      "date_end": "2026-09-20",
+      "ready": false,
+      "issues": [
+        "8C0BAF1A-1D3C-4F68-967E-8E68753DCCA1: Nie znaleziono tabeli meczów",
+        "ABBF36BC-A3E1-4F20-99F2-A8428333BCF4: Nie znaleziono tabeli meczów",
+        "Brak wyników meczów",
+        "E26F3806-6CFD-4C26-A295-52F9D0529D82: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "04b1b32a4c5b35af9015ca6215f1a163513838d44dddd6139bc21dfe141d3bdd"
     }
   ]
 }

@@ -1,108 +1,128 @@
 {
-  "generated_at": "2026-09-15T07:07:17.490922+00:00",
-  "attempted": 53,
+  "generated_at": "2026-09-22T07:13:56.789085+00:00",
+  "attempted": 60,
   "errors": [
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-letnie-mistrzostwa-pomorza-2026-5183",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5598",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-tennis-cup-ii-2026-5591",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5593",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-kwalifikacje-do-krajowych-mistrzostw-5590",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5175",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-letnie-mistrzostwa-szczecina-2026-5216",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-iii-coroczny-turniej-o-puchar-podlesnej-2026-5176",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-letnie-mistrzostwa-szczecina-2026-5215",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-kielc-2026-5554",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=A940B588-FF38-4707-B1C0-07A2ECEE20A5",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-kielc-2026-5555",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-konina-2026-5533",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-konina-2026-5534",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-jesienne-mistrzostwa-konina-2026-5532",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-5558",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-baltyk-koszalin-2026-5559",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-krosna-2026-5574",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-olesnica-closing-season-cup-2026-5556",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-olesnica-closing-season-cup-2026-5557",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-wiosenne-mistrzostwa-radomia-2026-5276",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5568",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9995A0E4-BAD0-4ED6-BB0A-CA55A60C673E",
       "source": "PZT TOP",
       "error": "RuntimeError"
     },
     {
-      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=A940B588-FF38-4707-B1C0-07A2ECEE20A5",
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9995A0E4-BAD0-4ED6-BB0A-CA55A60C673E",
       "source": "PZT TOP",
       "error": "RuntimeError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-aktywniaki-tennis-cup-ii-2026-5592",
+      "url": "https://cuply.pl/turnieje/cuply-futures-szczecin-doluje-ii-do-25-ntrp",
+      "source": "Cuply",
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-indywidualne-mistrzostwa-wojewodztwa-lubuskiego-2026-5475",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-nowej-soli-2026-5515",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-sportowego-czarni-2026-5569",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-obornik-2026-5547",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5560",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-olawy-2026-5512",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-olawy-2026-5513",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-olawy-2026-5514",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5542",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-skarzyska-kamiennej-2026-5543",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-50-otwarte-mistrzostwa-wejherowa-2026-5550",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-tenis-zone-tour-iv-2026-5344",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-tenis-zone-tour-iv-2026-5343",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-olawy-2026-5602",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-olszynka-grochowska-2026-5561",
       "source": "PLT",
       "error": "ValueError"
     }
   ],
-  "ready": 175,
-  "needs_review": 73,
+  "ready": 191,
+  "needs_review": 90,
   "awaiting_adapter": {},
   "remaining_unfetched_plt": 0,
   "remaining_unfetched_cuply": 9,
   "remaining_unfetched_kluby": 56,
-  "remaining_unfetched_pzt": 25
+  "remaining_unfetched_pzt": 26
 }
