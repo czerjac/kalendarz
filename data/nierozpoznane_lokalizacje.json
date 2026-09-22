@@ -1,6 +1,6 @@
 {
-  "aktualizacja_utc": "2026-09-21T10:00:46+00:00",
-  "liczba_nierozpoznanych_miast": 2,
+  "aktualizacja_utc": "2026-09-22T09:22:38+00:00",
+  "liczba_nierozpoznanych_miast": 3,
   "miasta": [
     {
       "miasto": "Góra Kalwaria",
@@ -41,8 +41,30 @@
           "wojewodztwo": "pomorskie"
         },
         {
-          "display_name": "Leszno, gmina Barczewo, powiat olsztyński, województwo warmińsko-mazurskie, 11-010, Polska",
-          "wojewodztwo": "warmińsko-mazurskie"
+          "display_name": "Leszno, gmina Grabów, powiat łęczycki, województwo łódzkie, 99-150, Polska",
+          "wojewodztwo": "łódzkie"
+        }
+      ]
+    },
+    {
+      "miasto": "Łobez",
+      "powod": "brak_jednoznacznego_wojewodztwa",
+      "dowody": [
+        {
+          "display_name": "Łobez, gmina Łobez, powiat łobeski, województwo zachodniopomorskie, 73-150, Polska",
+          "wojewodztwo": "zachodniopomorskie"
+        },
+        {
+          "display_name": "Łobez, gmina Jaraczewo, powiat jarociński, województwo wielkopolskie, 63-233, Polska",
+          "wojewodztwo": "wielkopolskie"
+        },
+        {
+          "display_name": "Łobez, Biały Bór, gmina Biały Bór, powiat szczecinecki, województwo zachodniopomorskie, Polska",
+          "wojewodztwo": "zachodniopomorskie"
+        },
+        {
+          "display_name": "powiat łobeski, województwo zachodniopomorskie, Polska",
+          "wojewodztwo": "zachodniopomorskie"
         }
       ]
     }

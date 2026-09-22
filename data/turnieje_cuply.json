@@ -1,8 +1,8 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-09-21T09:58:24+00:00",
-  "liczba_turniejow": 9,
+  "pobrano_utc": "2026-09-22T09:19:49+00:00",
+  "liczba_turniejow": 10,
   "turnieje": [
     {
       "zrodlo": "Cuply",
@@ -71,19 +71,6 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Gorzów I",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Gorzów Wielkopolski",
-      "miejsce": "Gorzów Wielkopolski",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
-    },
-    {
-      "zrodlo": "Cuply",
       "nazwa": "MAJERAN - ZOOM Tenis CUP IX - dla początkujących",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
@@ -94,6 +81,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/majeran-zoom-tenis-cup-ix-dla-poczatkujacych"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Grand Prix Łobza II - Turniej Charytatywny - Gramy dla Dominika",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Łobez",
+      "miejsce": "Korty Miejskie w Łobzie, Łobez",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/grand-prix-lobza-ii-turniej-charytatywny-gramy-dla-dominika"
     },
     {
       "zrodlo": "Cuply",
@@ -120,6 +120,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/gardenia-duo-zoom-tenis-cup-viii"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Stargard Masters III (zaawansowani amatorzy)",
+      "data_od": "2026-10-31",
+      "data_do": "2026-10-31",
+      "miasto": "Stargard",
+      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-stargard-masters-iii-zaawansowani-amatorzy"
     }
   ]
 }

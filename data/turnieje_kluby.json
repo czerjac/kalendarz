@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-21T09:58:50+00:00",
-  "liczba_turniejow": 42,
+  "pobrano_utc": "2026-09-22T09:20:47+00:00",
+  "liczba_turniejow": 43,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 66
+      "liczba": 67
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -50,7 +50,7 @@
       "data_do": "2026-09-26",
       "miasto": "Białystok",
       "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
-      "kategorie": "",
+      "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/11780"
     },
     {
@@ -70,8 +70,8 @@
       "data_do": "2026-09-26",
       "miasto": "Warszawa",
       "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12184"
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12240"
     },
     {
       "zrodlo": "Kluby.org",
@@ -102,6 +102,16 @@
       "miejsce": "Ostrołęckie Stowarzyszenie Tenisowe, Ostrołęka",
       "kategorie": "JUNIORZY",
       "url": "https://kluby.org/turnieje/12236"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "ZIAJA Grand Prix Wybrzeża +60",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-28",
+      "miasto": "Sopot",
+      "miejsce": "Sopot Tenis Klub, Sopot",
+      "kategorie": "SENIORZY +60",
+      "url": "https://kluby.org/turnieje/12239"
     },
     {
       "zrodlo": "Kluby.org",

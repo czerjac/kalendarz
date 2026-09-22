@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-21T09:58:22+00:00",
-  "liczba_turniejow": 8,
+  "pobrano_utc": "2026-09-22T09:19:48+00:00",
+  "liczba_turniejow": 9,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -63,6 +63,16 @@
       "ranga": "3",
       "kategorie": "60+, 70+, 80+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=7DD01AB2-8081-4775-B6D6-9DBD9B9225A3"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Puchar Gminy Dobryszyce 2026",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-04",
+      "miasto": "Radomsko",
+      "ranga": "3",
+      "kategorie": "60+, Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=8A746632-EB17-4CC6-BE25-73DEB2E341ED"
     },
     {
       "zrodlo": "PZT TOP",
