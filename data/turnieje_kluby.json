@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-22T09:20:47+00:00",
-  "liczba_turniejow": 43,
+  "pobrano_utc": "2026-09-23T09:20:47+00:00",
+  "liczba_turniejow": 45,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 67
+      "liczba": 68
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 16
+      "liczba": 17
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -115,6 +115,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Grand Prix Mazowsza Juniorów",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Warszawa",
+      "miejsce": "Jazda Tennis Academy, Warszawa",
+      "kategorie": "JUNIORZY U12 JUNIORZY U14 JUNIORZY U16 JUNIORZY U18",
+      "url": "https://kluby.org/turnieje/12249"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Michałufka singiel OPEN",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -162,6 +172,16 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12112"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Rybienko Open - MIKST - Zakończenie sezonu letniego 2026",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Wyszków",
+      "miejsce": "Tenis w Rybienku Leśnym, Wyszków",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12243"
     },
     {
       "zrodlo": "Kluby.org",
