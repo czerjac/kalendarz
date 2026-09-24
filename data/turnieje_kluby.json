@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-23T09:20:47+00:00",
-  "liczba_turniejow": 45,
+  "pobrano_utc": "2026-09-24T09:20:41+00:00",
+  "liczba_turniejow": 46,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 68
+      "liczba": 69
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -62,6 +62,16 @@
       "miejsce": "CT Set Point, Inowrocław",
       "kategorie": "DEBEL MIKST",
       "url": "https://kluby.org/turnieje/12232"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej Challenge",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Płock",
+      "miejsce": "ASAJA SPORT, Płock",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12252"
     },
     {
       "zrodlo": "Kluby.org",

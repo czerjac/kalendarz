@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-23T09:20:15+00:00",
-  "liczba_turniejow": 9,
+  "pobrano_utc": "2026-09-24T09:20:06+00:00",
+  "liczba_turniejow": 15,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -66,6 +66,16 @@
     },
     {
       "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-10-02",
+      "data_do": "2026-10-02",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "70+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9876B7E9-5A9C-419F-A743-3B7B0A5240A8"
+    },
+    {
+      "zrodlo": "PZT TOP",
       "nazwa": "Puchar Gminy Dobryszyce 2026",
       "data_od": "2026-10-03",
       "data_do": "2026-10-04",
@@ -76,6 +86,36 @@
     },
     {
       "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-10-04",
+      "data_do": "2026-10-04",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=E798BCD3-C6C8-44CA-8E9F-647381E98321"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-10-11",
+      "data_do": "2026-10-11",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=C104F56A-D4CC-4991-9436-6A942E024CF8"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-10-16",
+      "data_do": "2026-10-16",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "75+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=B9FBC2D9-DE8B-40FB-B633-4C0E1D4D05B5"
+    },
+    {
+      "zrodlo": "PZT TOP",
       "nazwa": "IX Mem. Popielucha i Wesołowskiego",
       "data_od": "2026-10-16",
       "data_do": "2026-10-18",
@@ -83,6 +123,26 @@
       "ranga": "2",
       "kategorie": "45+, 60+, Open Amator, Open",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=33496672-4633-4B65-B2DD-11343A2FC8B0"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-10-18",
+      "data_do": "2026-10-18",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=B1C3F479-B7DD-4AEC-8CDE-E85F1D6B89E5"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-10-25",
+      "data_do": "2026-10-25",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=0115B9F4-EA2E-4E09-BCCC-505806B8CDAB"
     },
     {
       "zrodlo": "PZT TOP",

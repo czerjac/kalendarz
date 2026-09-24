@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-09-23T09:20:16+00:00",
+  "pobrano_utc": "2026-09-24T09:20:07+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -29,32 +29,6 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iv"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Futures Stargard II dla początkujących (do 2.5 NTRP)",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "Stargard",
-      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-futures-stargard-ii-do-25-ntrp"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Stargard Masters II (zaawansowani amatorzy)",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "Stargard",
-      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy"
     },
     {
       "zrodlo": "Cuply",
@@ -123,7 +97,33 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Stargard Masters III (zaawansowani amatorzy)",
+      "nazwa": "Cuply Futures Stargard II dla początkujących (do 2.5 NTRP)",
+      "data_od": "2026-10-25",
+      "data_do": "2026-10-25",
+      "miasto": "Stargard",
+      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-futures-stargard-ii-do-25-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Stargard Masters II (zaawansowani amatorzy)",
+      "data_od": "2026-10-25",
+      "data_do": "2026-10-25",
+      "miasto": "Stargard",
+      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Stargard V dla średniozaawansowanych (do 4.0 NTRP)",
       "data_od": "2026-10-31",
       "data_do": "2026-10-31",
       "miasto": "Stargard",
@@ -132,7 +132,7 @@
       "poziom": "",
       "plec": "",
       "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-stargard-masters-iii-zaawansowani-amatorzy"
+      "url": "https://cuply.pl/turnieje/cuply-challenger-stargard-v-dla-sredniozaawansowanych-do-40-ntrp"
     }
   ]
 }
