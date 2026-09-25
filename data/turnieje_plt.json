@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-24T09:20:30+00:00",
+  "pobrano_utc": "2026-09-25T09:38:24+00:00",
   "liczba_turniejow": 54,
   "kategorie_sprawdzone": [
     {
@@ -55,15 +55,6 @@
       "data_do": "2026-09-26",
       "miasto": "Lublin",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-rakietmania-2026-kwalifikacje-do-krajowych-mistrzostw-5584"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu CS Szamotuły 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Szamotuły",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-szamotul-2026-5162"
     },
     {
       "zrodlo": "PLT",
@@ -469,6 +460,15 @@
       "data_do": "2026-10-17",
       "miasto": "Gdańsk",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-podlesna-cup-zakonczenie-sezonu-2026-5188"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Leszna 2026",
+      "data_od": "2026-10-18",
+      "data_do": "2026-10-18",
+      "miasto": "Leszno",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-leszna-2026-5615"
     },
     {
       "zrodlo": "PLT",

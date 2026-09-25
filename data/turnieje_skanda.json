@@ -1,6 +1,6 @@
 {
   "zrodlo": "TKKF Skanda",
-  "pobrano_utc": "2026-09-24T09:20:42+00:00",
+  "pobrano_utc": "2026-09-25T09:38:37+00:00",
   "liczba_turniejow": 6,
   "odrzucono_odwolane": 10,
   "turnieje": [
@@ -86,7 +86,7 @@
     },
     {
       "zrodlo": "TKKF Skanda",
-      "nazwa": "Rosyjska Ruletka",
+      "nazwa": "Rosyjska Ruletka o nagrody ABEA.PL Meble Biurowe",
       "data_od": "2026-10-10",
       "data_do": "2026-10-10",
       "miasto": "Olsztyn",

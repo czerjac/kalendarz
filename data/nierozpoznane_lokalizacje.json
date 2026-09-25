@@ -1,6 +1,6 @@
 {
-  "aktualizacja_utc": "2026-09-24T09:22:23+00:00",
-  "liczba_nierozpoznanych_miast": 4,
+  "aktualizacja_utc": "2026-09-25T09:40:25+00:00",
+  "liczba_nierozpoznanych_miast": 3,
   "miasta": [
     {
       "miasto": "Góra Kalwaria",
@@ -17,32 +17,6 @@
         {
           "display_name": "Góra Kalwaria, Chojno-Młyn, gmina Wronki, powiat szamotulski, województwo wielkopolskie, 64-513, Polska",
           "wojewodztwo": "wielkopolskie"
-        }
-      ]
-    },
-    {
-      "miasto": "Leszno",
-      "powod": "brak_jednoznacznego_wojewodztwa",
-      "dowody": [
-        {
-          "display_name": "Leszno, województwo wielkopolskie, Polska",
-          "wojewodztwo": "wielkopolskie"
-        },
-        {
-          "display_name": "Leszno, województwo wielkopolskie, Polska",
-          "wojewodztwo": "wielkopolskie"
-        },
-        {
-          "display_name": "Leszno, gmina Leszno, powiat warszawski zachodni, województwo mazowieckie, 05-084, Polska",
-          "wojewodztwo": "mazowieckie"
-        },
-        {
-          "display_name": "Leszno, Kiełpino, gmina Kartuzy, powiat kartuski, województwo pomorskie, 83-307, Polska",
-          "wojewodztwo": "pomorskie"
-        },
-        {
-          "display_name": "Leszno, gmina Barczewo, powiat olsztyński, województwo warmińsko-mazurskie, 11-010, Polska",
-          "wojewodztwo": "warmińsko-mazurskie"
         }
       ]
     },

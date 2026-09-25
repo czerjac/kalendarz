@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-24T09:20:41+00:00",
-  "liczba_turniejow": 46,
+  "pobrano_utc": "2026-09-25T09:38:36+00:00",
+  "liczba_turniejow": 50,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 69
+      "liczba": 74
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 17
+      "liczba": 21
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -195,6 +195,26 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Turniej Singlowy",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-04",
+      "miasto": "Żyrardów",
+      "miejsce": "Matchpoint Żyrardów, Żyrardów",
+      "kategorie": "OPEN (Męski) KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/12174"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Indywidualny Turniej Kobiet",
+      "data_od": "2026-10-04",
+      "data_do": "2026-10-04",
+      "miasto": "Mińsk Mazowiecki",
+      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
+      "kategorie": "KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/12260"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Debel Mikst 35+ Masters",
       "data_od": "2026-10-04",
       "data_do": "2026-10-04",
@@ -202,16 +222,6 @@
       "miejsce": "TKKF Wars, Warszawa",
       "kategorie": "DEBEL MIKST",
       "url": "https://kluby.org/turnieje/11386"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej Singlowy",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Żyrardów",
-      "miejsce": "Matchpoint Żyrardów, Żyrardów",
-      "kategorie": "OPEN (Męski) KOBIETY OPEN",
-      "url": "https://kluby.org/turnieje/12174"
     },
     {
       "zrodlo": "Kluby.org",
@@ -232,6 +242,16 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12114"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Indywidualny turniej dla początkujących",
+      "data_od": "2026-10-11",
+      "data_do": "2026-10-11",
+      "miasto": "Mińsk Mazowiecki",
+      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12261"
     },
     {
       "zrodlo": "Kluby.org",
@@ -265,6 +285,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Turniej Mikstowy",
+      "data_od": "2026-10-18",
+      "data_do": "2026-10-18",
+      "miasto": "Mińsk Mazowiecki",
+      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12263"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Debel Kobiet 35+ Masters",
       "data_od": "2026-10-18",
       "data_do": "2026-10-18",
@@ -282,6 +312,16 @@
       "miejsce": "Spójnia Górna, Warszawa",
       "kategorie": "DEBEL KOBIETY",
       "url": "https://kluby.org/turnieje/12177"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Indywidualny Turniej Tenisa o Puchar Klubu Masters.",
+      "data_od": "2026-10-25",
+      "data_do": "2026-10-25",
+      "miasto": "Mińsk Mazowiecki",
+      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12264"
     },
     {
       "zrodlo": "Kluby.org",
