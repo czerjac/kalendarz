@@ -1,5 +1,5 @@
 {
-  "aktualizacja_utc": "2026-09-25T09:40:25+00:00",
+  "aktualizacja_utc": "2026-09-26T09:24:47+00:00",
   "liczba_nierozpoznanych_miast": 3,
   "miasta": [
     {
@@ -47,26 +47,9 @@
       ]
     },
     {
-      "miasto": "Łobez",
+      "miasto": "Łobez Polska",
       "powod": "brak_jednoznacznego_wojewodztwa",
-      "dowody": [
-        {
-          "display_name": "Łobez, gmina Łobez, powiat łobeski, województwo zachodniopomorskie, 73-150, Polska",
-          "wojewodztwo": "zachodniopomorskie"
-        },
-        {
-          "display_name": "Łobez, gmina Jaraczewo, powiat jarociński, województwo wielkopolskie, 63-233, Polska",
-          "wojewodztwo": "wielkopolskie"
-        },
-        {
-          "display_name": "Łobez, Biały Bór, gmina Biały Bór, powiat szczecinecki, województwo zachodniopomorskie, Polska",
-          "wojewodztwo": "zachodniopomorskie"
-        },
-        {
-          "display_name": "powiat łobeski, województwo zachodniopomorskie, Polska",
-          "wojewodztwo": "zachodniopomorskie"
-        }
-      ]
+      "dowody": []
     }
   ]
 }

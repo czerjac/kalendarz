@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-25T09:38:36+00:00",
-  "liczba_turniejow": 50,
+  "pobrano_utc": "2026-09-26T09:22:55+00:00",
+  "liczba_turniejow": 51,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 74
+      "liczba": 75
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -85,6 +85,26 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Masters Challenge Open Air 2026",
+      "data_od": "2026-09-26",
+      "data_do": "2026-09-26",
+      "miasto": "Włocławek",
+      "miejsce": "Włocławski Klub Tenisowy, Włocławek",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12271"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Arkadia Ladies Cup",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "",
+      "miejsce": "",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12269"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Turniej młodzieżowy",
       "data_od": "2026-09-27",
       "data_do": "2026-09-27",
@@ -92,16 +112,6 @@
       "miejsce": "Strefa Aktywności Góra Kalwaria, Góra Kalwaria",
       "kategorie": "JUNIORZY",
       "url": "https://kluby.org/turnieje/12234"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej deblowy Open",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "Mińsk Mazowiecki",
-      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12226"
     },
     {
       "zrodlo": "Kluby.org",
@@ -285,13 +295,13 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Turniej Mikstowy",
+      "nazwa": "Indywidualny Turniej Tenisa o Puchar Klubu Masters.",
       "data_od": "2026-10-18",
       "data_do": "2026-10-18",
       "miasto": "Mińsk Mazowiecki",
       "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12263"
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12267"
     },
     {
       "zrodlo": "Kluby.org",
@@ -315,13 +325,13 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Indywidualny Turniej Tenisa o Puchar Klubu Masters.",
+      "nazwa": "Turniej Mikstowy",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
       "miasto": "Mińsk Mazowiecki",
       "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12264"
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12268"
     },
     {
       "zrodlo": "Kluby.org",
