@@ -1,35 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-09-26T09:22:29+00:00",
+  "pobrano_utc": "2026-09-27T10:02:11+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Stargard IV dla średniozaawansowanych (do 4.0 NTRP)",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Stargard",
-      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-challenger-stargard-iv-dla-sredniozaawansowanych-do-40-ntrp"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "DUO ZOOM & BREJK Open IV - turniej deblowy OPEN",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Szczecin / Mierzyn",
-      "miejsce": "Zoom Tennis Academy, Szczecin / Mierzyn",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/duo-zoom-brejk-open-iv"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "Cuply Masters Szczecin Dołuje - dla zaawansowanych",
@@ -133,6 +107,32 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Stargard V dla średniozaawansowanych (do 4.0 NTRP)",
+      "data_od": "2026-10-31",
+      "data_do": "2026-10-31",
+      "miasto": "Stargard",
+      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-stargard-v-dla-sredniozaawansowanych-do-40-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Gorzów I",
+      "data_od": "2026-11-01",
+      "data_do": "2026-11-01",
+      "miasto": "Gorzów Wielkopolski",
+      "miejsce": "Gorzów Wielkopolski",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
     }
   ]
 }

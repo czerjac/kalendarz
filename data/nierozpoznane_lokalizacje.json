@@ -1,7 +1,29 @@
 {
-  "aktualizacja_utc": "2026-09-26T09:24:47+00:00",
-  "liczba_nierozpoznanych_miast": 3,
+  "aktualizacja_utc": "2026-09-27T10:04:16+00:00",
+  "liczba_nierozpoznanych_miast": 4,
   "miasta": [
+    {
+      "miasto": "Brodnica",
+      "powod": "brak_jednoznacznego_wojewodztwa",
+      "dowody": [
+        {
+          "display_name": "Brodnica, powiat brodnicki, województwo kujawsko-pomorskie, Polska",
+          "wojewodztwo": "kujawsko-pomorskie"
+        },
+        {
+          "display_name": "Brodnica, powiat brodnicki, województwo kujawsko-pomorskie, Polska",
+          "wojewodztwo": "kujawsko-pomorskie"
+        },
+        {
+          "display_name": "Brodnica, gmina Brodnica, powiat śremski, województwo wielkopolskie, 63-112, Polska",
+          "wojewodztwo": "wielkopolskie"
+        },
+        {
+          "display_name": "Brodnica, gmina Gniewino, powiat wejherowski, województwo pomorskie, 84-213, Polska",
+          "wojewodztwo": "pomorskie"
+        }
+      ]
+    },
     {
       "miasto": "Góra Kalwaria",
       "powod": "brak_jednoznacznego_wojewodztwa",

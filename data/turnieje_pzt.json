@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-26T09:22:27+00:00",
-  "liczba_turniejow": 15,
+  "pobrano_utc": "2026-09-27T10:02:10+00:00",
+  "liczba_turniejow": 14,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -33,16 +33,6 @@
       "ranga": "3",
       "kategorie": "Open",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=C9A54B2C-3FBB-459A-B564-1EA39BFF8610"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "Klubowy Singiel Panów WRZESIEŃ - ArKademia",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Olesno",
-      "ranga": "5",
-      "kategorie": "Open Amator",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=E35A4909-FB88-47F5-AE80-3B8EB44B9A76"
     },
     {
       "zrodlo": "PZT TOP",

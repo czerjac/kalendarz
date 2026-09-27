@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-26T09:22:55+00:00",
-  "liczba_turniejow": 51,
+  "pobrano_utc": "2026-09-27T10:02:39+00:00",
+  "liczba_turniejow": 49,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 75
+      "liczba": 76
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 21
+      "liczba": 24
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -33,66 +33,6 @@
     }
   ],
   "turnieje": [
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "V GP Barlinka",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Barlinek",
-      "miejsce": "Barlinecki Klub Tenisowy, Barlinek",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/11724"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Masters Ligi Letniej",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Białystok",
-      "miejsce": "Centrum Tenisowe Zwierzyniec, Białystok",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/11780"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Mikstowe Mistrzostwa Inowrocławia Ino-Cup 2026",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Inowrocław",
-      "miejsce": "CT Set Point, Inowrocław",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12232"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej Challenge",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Płock",
-      "miejsce": "ASAJA SPORT, Płock",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12252"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "NEW YORK GAMES - Turniej Drużynowy",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Warszawa",
-      "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12240"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Masters Challenge Open Air 2026",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-26",
-      "miasto": "Włocławek",
-      "miejsce": "Włocławski Klub Tenisowy, Włocławek",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12271"
-    },
     {
       "zrodlo": "Kluby.org",
       "nazwa": "Arkadia Ladies Cup",
@@ -165,6 +105,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Żegnamy LATO w KORTMAX",
+      "data_od": "2026-09-27",
+      "data_do": "2026-09-27",
+      "miasto": "Warszawa",
+      "miejsce": "Kortmax, Warszawa",
+      "kategorie": "DEBEL MIKST (Open)",
+      "url": "https://kluby.org/turnieje/12219"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "2 Turniej Łódzkiej Ligi Tenisa",
       "data_od": "2026-10-01",
       "data_do": "2027-01-10",
@@ -175,6 +125,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - KT Arka",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-04",
+      "miasto": "Gdynia",
+      "miejsce": "KT Arka, Gdynia",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12275"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Turniej Deblowy",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
@@ -182,6 +142,26 @@
       "miejsce": "Strefa Aktywności Góra Kalwaria, Góra Kalwaria",
       "kategorie": "DEBEL",
       "url": "https://kluby.org/turnieje/12235"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "DEBEL KOBIET OPEN AMATOR",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Sopot",
+      "miejsce": "Sopot Tenis Klub, Sopot",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12273"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Ziaja Grand Prix Wybrzeża +50",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-04",
+      "miasto": "Sopot",
+      "miejsce": "Sopot Tenis Klub, Sopot",
+      "kategorie": "SENIORZY +50",
+      "url": "https://kluby.org/turnieje/12274"
     },
     {
       "zrodlo": "Kluby.org",
