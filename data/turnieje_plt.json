@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-27T10:02:28+00:00",
-  "liczba_turniejow": 48,
+  "pobrano_utc": "2026-09-28T10:57:40+00:00",
+  "liczba_turniejow": 46,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -12,12 +12,12 @@
     {
       "kategoria": "1. Liga",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/lista-rund?incoming=true",
-      "liczba": 19
+      "liczba": 18
     },
     {
       "kategoria": "2. Liga",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/lista-rund?incoming=true",
-      "liczba": 18
+      "liczba": 17
     },
     {
       "kategoria": "PLT Kobiet",
@@ -38,24 +38,6 @@
   "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Letnie Mistrzostwa Brodnicy 2026",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Brodnica",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-letnie-mistrzostwa-brodnicy-2026-5524"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Letnie Mistrzostwa Brodnicy 2026",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Brodnica",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-letnie-mistrzostwa-brodnicy-2026-5525"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",

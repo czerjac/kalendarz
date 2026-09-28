@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-27T10:02:39+00:00",
-  "liczba_turniejow": 49,
+  "pobrano_utc": "2026-09-28T10:57:52+00:00",
+  "liczba_turniejow": 42,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 76
+      "liczba": 77
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -35,36 +35,6 @@
   "turnieje": [
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Arkadia Ladies Cup",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "",
-      "miejsce": "",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12269"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej młodzieżowy",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "Góra Kalwaria",
-      "miejsce": "Strefa Aktywności Góra Kalwaria, Góra Kalwaria",
-      "kategorie": "JUNIORZY",
-      "url": "https://kluby.org/turnieje/12234"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turnieje dla dzieci i młodzieży kat. do lat 10,12 i 16",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "Ostrołęka",
-      "miejsce": "Ostrołęckie Stowarzyszenie Tenisowe, Ostrołęka",
-      "kategorie": "JUNIORZY",
-      "url": "https://kluby.org/turnieje/12236"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "ZIAJA Grand Prix Wybrzeża +60",
       "data_od": "2026-09-27",
       "data_do": "2026-09-28",
@@ -72,46 +42,6 @@
       "miejsce": "Sopot Tenis Klub, Sopot",
       "kategorie": "SENIORZY +60",
       "url": "https://kluby.org/turnieje/12239"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Grand Prix Mazowsza Juniorów",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "Warszawa",
-      "miejsce": "Jazda Tennis Academy, Warszawa",
-      "kategorie": "JUNIORZY U12 JUNIORZY U14 JUNIORZY U16 JUNIORZY U18",
-      "url": "https://kluby.org/turnieje/12249"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Michałufka singiel OPEN",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "Warszawa",
-      "miejsce": "Szkoła Tenisa Break, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/11955"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Mistrzostwa o tytuł Areny Tenisa",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "Warszawa",
-      "miejsce": "Arena Tenisa, Warszawa",
-      "kategorie": "TENIS10 ZIELONA",
-      "url": "https://kluby.org/turnieje/12205"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Żegnamy LATO w KORTMAX",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "Warszawa",
-      "miejsce": "Kortmax, Warszawa",
-      "kategorie": "DEBEL MIKST (Open)",
-      "url": "https://kluby.org/turnieje/12219"
     },
     {
       "zrodlo": "Kluby.org",

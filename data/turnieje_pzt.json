@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-27T10:02:10+00:00",
-  "liczba_turniejow": 14,
+  "pobrano_utc": "2026-09-28T10:57:15+00:00",
+  "liczba_turniejow": 11,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -23,36 +23,6 @@
       "ranga": "4",
       "kategorie": "Open Amator",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "TENIS CLUB KK \"LATO 2026\"",
-      "data_od": "2026-09-26",
-      "data_do": "2026-09-27",
-      "miasto": "KEDZIERZYN-KOZLE",
-      "ranga": "3",
-      "kategorie": "Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=C9A54B2C-3FBB-459A-B564-1EA39BFF8610"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "Klubowy Singiel Pań WRZESIEŃ - ArKademia OLESNO",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "Olesno",
-      "ranga": "5",
-      "kategorie": "Open Amator",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=30A8EA48-1D65-4B5A-A408-B07159A7FC4B"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-09-27",
-      "data_do": "2026-09-27",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "60+, 70+, 80+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=7DD01AB2-8081-4775-B6D6-9DBD9B9225A3"
     },
     {
       "zrodlo": "PZT TOP",
