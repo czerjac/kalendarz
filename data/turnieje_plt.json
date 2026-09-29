@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-28T10:57:40+00:00",
-  "liczba_turniejow": 46,
+  "pobrano_utc": "2026-09-29T10:43:29+00:00",
+  "liczba_turniejow": 50,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -12,12 +12,12 @@
     {
       "kategoria": "1. Liga",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/lista-rund?incoming=true",
-      "liczba": 18
+      "liczba": 20
     },
     {
       "kategoria": "2. Liga",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/lista-rund?incoming=true",
-      "liczba": 17
+      "liczba": 19
     },
     {
       "kategoria": "PLT Kobiet",
@@ -82,6 +82,15 @@
       "data_do": "2026-10-03",
       "miasto": "Kołobrzeg",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-kolobrzegu-2026-5589"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Tenisowi Bracia - Mistrzostwa Leżajska 2026",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Leżajsk",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-tenisowi-bracia-mistrzostwa-lezajska-2026-5639"
     },
     {
       "zrodlo": "PLT",
@@ -203,6 +212,24 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Lublina 2026",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
+      "miasto": "Lublin",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-lublina-2026-5640"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Otwocka 2026",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
+      "miasto": "Otwock",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-otwocka-2026-5638"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu RTT Rzeszów 2026 - Kwalifikacje do Krajowych Mistrzostw",
       "data_od": "2026-10-10",
       "data_do": "2026-10-10",
@@ -217,6 +244,24 @@
       "data_do": "2026-10-10",
       "miasto": "Rzeszów",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-rtt-rzeszow-2026-kwalifikacje-do-krajowych-mistrzostw-5607"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Włocławka 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
+      "miasto": "Włocławek",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-wloclawka-2026-kwalifikacje-do-krajowych-mistrzostw-5636"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Włocławka 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
+      "miasto": "Włocławek",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-wloclawka-2026-kwalifikacje-do-krajowych-mistrzostw-5637"
     },
     {
       "zrodlo": "PLT",
@@ -415,15 +460,6 @@
       "data_do": "2026-11-22",
       "miasto": "Warszawa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-peruna-2026-5583"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Grand Prix SPIN-u III 2026",
-      "data_od": "2026-12-06",
-      "data_do": "2026-12-06",
-      "miasto": "Rzeszów",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-grand-prix-spin-u-iii-2026-5634"
     },
     {
       "zrodlo": "PLT",
