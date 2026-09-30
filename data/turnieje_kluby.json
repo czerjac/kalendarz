@@ -1,7 +1,7 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-29T10:43:40+00:00",
-  "liczba_turniejow": 48,
+  "pobrano_utc": "2026-09-30T10:31:52+00:00",
+  "liczba_turniejow": 52,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
@@ -13,7 +13,7 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 7
+      "liczba": 11
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -325,6 +325,26 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Straszny Set! Halloweenowy Turniej Deblowo-Mixtowy - kat. Basic+",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-07",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12301"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Straszny Set! Halloweenowy Turniej Deblowo-Mixtowy - kat. OPEN",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-07",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12302"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Masters MIXT (zakończenie sezonu letniego)",
       "data_od": "2026-11-07",
       "data_do": "2026-11-07",
@@ -365,6 +385,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "LADIES NIGHT - Turniej deblowy dla Pań (wewnętrzny dla klubowiczek)",
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12299"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Mixt Open",
       "data_od": "2026-11-21",
       "data_do": "2026-11-21",
@@ -382,6 +412,16 @@
       "miejsce": "TKKF Wars, Warszawa",
       "kategorie": "DEBEL KOBIETY",
       "url": "https://kluby.org/turnieje/12094"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES GMP Single Cup kat. kobiety OPEN",
+      "data_od": "2026-11-28",
+      "data_do": "2026-11-28",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/12300"
     },
     {
       "zrodlo": "Kluby.org",

@@ -1,22 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-09-29T10:43:12+00:00",
-  "liczba_turniejow": 10,
+  "pobrano_utc": "2026-09-30T10:31:20+00:00",
+  "liczba_turniejow": 9,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Masters Szczecin Dołuje - dla zaawansowanych",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Dołuje",
-      "miejsce": "Family Garden, Szczecin, Dołuje",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-masters-szczecin-doluje-dla-zaawansowanych"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "MAJERAN - ZOOM Tenis CUP IX - dla początkujących",
@@ -46,8 +33,8 @@
     {
       "zrodlo": "Cuply",
       "nazwa": "Cuply Challenger Szczecin Tennis Arena I (dla średniozaawansowanych do 4.0 NTRP)",
-      "data_od": "2026-10-10",
-      "data_do": "2026-10-10",
+      "data_od": "2026-10-11",
+      "data_do": "2026-10-11",
       "miasto": "Szczecin",
       "miejsce": "Tennis Arena, Szczecin",
       "typ_gry": "",
