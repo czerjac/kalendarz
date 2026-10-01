@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-09-30T10:31:15+00:00",
-  "liczba_turniejow": 11,
+  "pobrano_utc": "2026-10-01T10:59:09+00:00",
+  "liczba_turniejow": 12,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -103,6 +103,16 @@
       "ranga": "3",
       "kategorie": "60+, 70+, 80+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=0115B9F4-EA2E-4E09-BCCC-505806B8CDAB"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "OTWARTY TURNIEJ DEBLOWY",
+      "data_od": "2026-11-11",
+      "data_do": "2026-11-11",
+      "miasto": "37-450 Stalowa Wola",
+      "ranga": "3",
+      "kategorie": "Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=1DAF25C5-DD73-4FEE-9A98-4CD07761BDB0"
     },
     {
       "zrodlo": "PZT TOP",

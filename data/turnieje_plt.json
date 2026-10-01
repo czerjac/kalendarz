@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-09-30T10:31:41+00:00",
+  "pobrano_utc": "2026-10-01T10:59:31+00:00",
   "liczba_turniejow": 51,
   "kategorie_sprawdzone": [
     {
@@ -46,15 +46,6 @@
       "data_do": "2026-10-03",
       "miasto": "Kielce",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-ks-tecza-2026-5585"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu KS Tęcza 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Kielce",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-ks-tecza-2026-5586"
     },
     {
       "zrodlo": "PLT",
@@ -145,15 +136,6 @@
       "data_do": "2026-10-04",
       "miasto": "Gdańsk",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-gdanska-2026-5185"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "PLT Kobiet",
-      "nazwa": "PLT KOBIET. Jesienne Mistrzostwa Gdańska 2026",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Gdańsk",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-jesienne-mistrzostwa-gdanska-2026-5186"
     },
     {
       "zrodlo": "PLT",
@@ -316,6 +298,24 @@
       "data_do": "2026-10-17",
       "miasto": "Gdańsk",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-podlesna-cup-zakonczenie-sezonu-2026-5188"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Stargardu 2026",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-17",
+      "miasto": "Stargard",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-stargardu-2026-5646"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "PLT Kobiet",
+      "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Stargardu 2026",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-17",
+      "miasto": "Stargard",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-stargardu-2026-5647"
     },
     {
       "zrodlo": "PLT",

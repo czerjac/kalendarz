@@ -1,15 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-09-30T10:31:52+00:00",
-  "liczba_turniejow": 52,
+  "pobrano_utc": "2026-10-01T10:59:42+00:00",
+  "liczba_turniejow": 56,
   "miesiace_sprawdzone": [
     {
-      "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-09-01&data_do=2026-09-30&zakladka=0",
-      "liczba": 77
-    },
-    {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 29
+      "liczba": 31
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -30,6 +26,10 @@
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-03-01&data_do=2027-03-31&zakladka=0",
       "liczba": 3
+    },
+    {
+      "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-04-01&data_do=2027-04-30&zakladka=0",
+      "liczba": 2
     }
   ],
   "turnieje": [
@@ -42,6 +42,16 @@
       "miejsce": "",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12200"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Playoff Ligi smecz lato 2026",
+      "data_od": "2026-10-01",
+      "data_do": "2026-10-01",
+      "miasto": "Warszawa",
+      "miejsce": "KT Smecz, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12307"
     },
     {
       "zrodlo": "Kluby.org",
@@ -92,6 +102,16 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12112"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Jesień by WKT Mera Kids I",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Warszawa",
+      "miejsce": "WKT Mera, Warszawa",
+      "kategorie": "TENIS10 POMARAŃCZOWA",
+      "url": "https://kluby.org/turnieje/12309"
     },
     {
       "zrodlo": "Kluby.org",
@@ -552,6 +572,26 @@
       "miejsce": "TKKF Wars, Warszawa",
       "kategorie": "DEBEL MIKST",
       "url": "https://kluby.org/turnieje/12100"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Masters Debel 35+ Zima z WARS-em 2026/27 (na zaproszenie)",
+      "data_od": "2027-04-04",
+      "data_do": "2027-04-04",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12101"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Masters Debel Kobiet 35+ Zima z WARS-em 2026/27 (na zaproszenie)",
+      "data_od": "2027-04-11",
+      "data_do": "2027-04-11",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Wars, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12102"
     }
   ]
 }
