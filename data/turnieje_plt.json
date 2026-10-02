@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-01T10:59:31+00:00",
-  "liczba_turniejow": 51,
+  "pobrano_utc": "2026-10-02T10:32:29+00:00",
+  "liczba_turniejow": 52,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -22,7 +22,7 @@
     {
       "kategoria": "PLT Kobiet",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/lista-rund?incoming=true",
-      "liczba": 4
+      "liczba": 5
     },
     {
       "kategoria": "Deble i Miksty",
@@ -55,15 +55,6 @@
       "data_do": "2026-10-03",
       "miasto": "Kołobrzeg",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-baltic-tennis-club-kolobrzeg-2026-kwalifikacje-do-krajowych-mistrzostw-5587"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu BTC Kołobrzeg 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Kołobrzeg",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-btc-kolobrzeg-2026-kwalifikacje-do-krajowych-mistrzostw-5588"
     },
     {
       "zrodlo": "PLT",
@@ -400,15 +391,6 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Singlowe Weekendy w Rudawa Tennis Club V 2026",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Rudawa k. Krakowa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-singlowe-weekendy-w-rudawa-tennis-club-v-2026-5645"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "Deble i Miksty",
       "nazwa": "DEBEL. Grand Prix SPIN-u 2026",
       "data_od": "2026-10-25",
@@ -445,12 +427,30 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Grand Prix SPIN-u II 2026",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Rzeszów",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-grand-prix-spin-u-ii-2026-5632"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Grand Prix SPIN-u II 2026",
       "data_od": "2026-11-08",
       "data_do": "2026-11-08",
       "miasto": "Rzeszów",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-grand-prix-spin-u-ii-2026-5633"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA.. Otwarte Jesienne Mistrzostwa Smolca 2026",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Smolec k. Wrocławia",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-smolca-2026-5650"
     },
     {
       "zrodlo": "PLT",
@@ -478,6 +478,15 @@
       "data_do": "2026-11-22",
       "miasto": "Warszawa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-peruna-2026-5583"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "PLT Kobiet",
+      "nazwa": "PLT KOBIET. Jesienne Mistrzostwa Omega Sport 2026",
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06",
+      "miasto": "Smolec k. Wrocławia",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-jesienne-mistrzostwa-omega-sport-2026-5654"
     },
     {
       "zrodlo": "PLT",
