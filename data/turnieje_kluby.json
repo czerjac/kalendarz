@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-02T10:32:40+00:00",
-  "liczba_turniejow": 59,
+  "pobrano_utc": "2026-10-03T09:56:03+00:00",
+  "liczba_turniejow": 60,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 31
+      "liczba": 32
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -95,13 +95,23 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Gentlemans Club - Turniej Debel - Americano & Event dla Panów ( wewnętrzny dla klubowiczów )",
+      "nazwa": "JESIENNY MARATON DEBLOWY 4 LEJDIS grupa A",
       "data_od": "2026-10-03",
       "data_do": "2026-10-03",
       "miasto": "Warszawa",
-      "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12112"
+      "miejsce": "Spójnia Górna, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12317"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "JESIENNY MARATON DEBLOWY 4 LEJDIS grupa B",
+      "data_od": "2026-10-03",
+      "data_do": "2026-10-03",
+      "miasto": "Warszawa",
+      "miejsce": "Spójnia Górna, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12318"
     },
     {
       "zrodlo": "Kluby.org",
@@ -110,7 +120,7 @@
       "data_do": "2026-10-03",
       "miasto": "Warszawa",
       "miejsce": "WKT Mera, Warszawa",
-      "kategorie": "TENIS10 POMARAŃCZOWA",
+      "kategorie": "TENIS10 POMARAŃCZOWA (GSORANGE)",
       "url": "https://kluby.org/turnieje/12309"
     },
     {

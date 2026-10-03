@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-02T10:32:10+00:00",
-  "liczba_turniejow": 12,
+  "pobrano_utc": "2026-10-03T09:55:36+00:00",
+  "liczba_turniejow": 11,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -23,16 +23,6 @@
       "ranga": "4",
       "kategorie": "Open Amator",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-10-02",
-      "data_do": "2026-10-02",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "70+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9876B7E9-5A9C-419F-A743-3B7B0A5240A8"
     },
     {
       "zrodlo": "PZT TOP",
