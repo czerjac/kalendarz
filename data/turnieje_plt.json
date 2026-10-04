@@ -1,13 +1,13 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-03T09:55:53+00:00",
-  "liczba_turniejow": 52,
+  "pobrano_utc": "2026-10-04T10:36:19+00:00",
+  "liczba_turniejow": 50,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund?incoming=true",
-      "liczba": 2
+      "liczba": 1
     },
     {
       "kategoria": "1. Liga",
@@ -22,7 +22,7 @@
     {
       "kategoria": "PLT Kobiet",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/lista-rund?incoming=true",
-      "liczba": 5
+      "liczba": 4
     },
     {
       "kategoria": "Deble i Miksty",
@@ -41,92 +41,11 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej o Puchar Klubu Tenisowego Antuka 2026",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Częstochowa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-puchar-klubu-tenisowego-antuka-2026-5566"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Turniej o Puchar Klubu Tenisowego Antuka 2026",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Częstochowa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-puchar-klubu-tenisowego-antuka-2026-5567"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "PLT Kobiet",
-      "nazwa": "PLT KOBIET. Turniej o Puchar Klubu Tenisowego Antuka 2026",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Częstochowa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-turniej-o-puchar-klubu-tenisowego-antuka-2026-5612"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Podleśna 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Gdańsk",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-klubowe-mistrzostwa-kortow-tenisowych-podlesna-2026-5548"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu Podleśna 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Gdańsk",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-gdanska-2026-5185"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Aktywniaki Tennis Cup III",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
+      "nazwa": "1. LIGA. Aktywniaki Cup - Zakończenie Sezonu 2026",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
       "miasto": "Kamień",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-aktywniaki-tennis-cup-iii-5624"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Sport Myślenice 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Myślenice",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-sport-myslenice-2026-5579"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Oleśnica Closing Cup 2026",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Oleśnica",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-olesnica-closing-cup-2026-5625"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "Puchar PLT",
-      "nazwa": "PUCHAR PLT. Warsaw West Open 2026",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Ożarów Mazowiecki",
-      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-warsaw-west-open-2026-5613"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu Arena Tenisa 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Piaseczno",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-arena-tenisa-2026-5575"
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-cup-zakonczenie-sezonu-2026-5662"
     },
     {
       "zrodlo": "PLT",
@@ -181,6 +100,15 @@
       "data_do": "2026-10-10",
       "miasto": "Włocławek",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-wloclawka-2026-kwalifikacje-do-krajowych-mistrzostw-5637"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Aktywniaki Cup - Zakończenie Sezonu 2026",
+      "data_od": "2026-10-11",
+      "data_do": "2026-10-11",
+      "miasto": "Kamień",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-aktywniaki-cup-zakonczenie-sezonu-2026-5663"
     },
     {
       "zrodlo": "PLT",
@@ -463,6 +391,15 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Ożarowa Mazowieckiego 2026",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Ożarów Mazowiecki",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5614"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Singlowe Weekendy w Rudawa Tennis Club V 2026",
       "data_od": "2026-11-15",
@@ -481,6 +418,51 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Smolec k. Wrocławia",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5651"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Smolec k. Wrocławia",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5652"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Starogardu Gdańskiego 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Starogard Gdański",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-starogardu-gdanskiego-2026-5648"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Jesienny Turniej o Puchar Peruna 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-peruna-2026-5582"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Jesienny Turniej o Puchar Peruna 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-peruna-2026-5583"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "PLT Kobiet",
       "nazwa": "PLT KOBIET. Jesienne Mistrzostwa Omega Sport 2026",
       "data_od": "2026-12-06",
@@ -491,20 +473,20 @@
     {
       "zrodlo": "PLT",
       "kategoria": "Deble i Miksty",
+      "nazwa": "MIKST. Grand Prix SPIN-u III 2026",
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13",
+      "miasto": "Rzeszów",
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-iii-2026-5631"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "Deble i Miksty",
       "nazwa": "DEBEL. Grand Prix SPIN-u II 2026",
       "data_od": "2026-12-20",
       "data_do": "2026-12-20",
       "miasto": "Rzeszów",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-grand-prix-spin-u-ii-2026-5628"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "Deble i Miksty",
-      "nazwa": "MIKST. Grand Prix SPIN-u III 2026",
-      "data_od": "2026-12-20",
-      "data_do": "2026-12-20",
-      "miasto": "Rzeszów",
-      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-iii-2026-5631"
     }
   ]
 }

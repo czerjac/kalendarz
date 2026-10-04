@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-03T09:56:03+00:00",
-  "liczba_turniejow": 60,
+  "pobrano_utc": "2026-10-04T10:36:30+00:00",
+  "liczba_turniejow": 56,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 32
+      "liczba": 35
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -13,7 +13,7 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
-      "liczba": 3
+      "liczba": 4
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-01-01&data_do=2027-01-31&zakladka=0",
@@ -55,36 +55,6 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Turniej Deblowy",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Góra Kalwaria",
-      "miejsce": "Strefa Aktywności Góra Kalwaria, Góra Kalwaria",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12235"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej o puchar ASAJA Sport w Rogozinie",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Płock",
-      "miejsce": "ASAJA SPORT, Płock",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12315"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "DEBEL KOBIET OPEN AMATOR",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Sopot",
-      "miejsce": "Sopot Tenis Klub, Sopot",
-      "kategorie": "DEBEL KOBIETY",
-      "url": "https://kluby.org/turnieje/12273"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "Ziaja Grand Prix Wybrzeża +50",
       "data_od": "2026-10-03",
       "data_do": "2026-10-04",
@@ -92,46 +62,6 @@
       "miejsce": "Sopot Tenis Klub, Sopot",
       "kategorie": "SENIORZY +50",
       "url": "https://kluby.org/turnieje/12274"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "JESIENNY MARATON DEBLOWY 4 LEJDIS grupa A",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Warszawa",
-      "miejsce": "Spójnia Górna, Warszawa",
-      "kategorie": "DEBEL KOBIETY",
-      "url": "https://kluby.org/turnieje/12317"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "JESIENNY MARATON DEBLOWY 4 LEJDIS grupa B",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Warszawa",
-      "miejsce": "Spójnia Górna, Warszawa",
-      "kategorie": "DEBEL KOBIETY",
-      "url": "https://kluby.org/turnieje/12318"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Jesień by WKT Mera Kids I",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Warszawa",
-      "miejsce": "WKT Mera, Warszawa",
-      "kategorie": "TENIS10 POMARAŃCZOWA (GSORANGE)",
-      "url": "https://kluby.org/turnieje/12309"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Park Tennis Academy Open",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-03",
-      "miasto": "Warszawa",
-      "miejsce": "Park Tennis Academy, Warszawa",
-      "kategorie": "OPEN JUNIORZY U12",
-      "url": "https://kluby.org/turnieje/12282"
     },
     {
       "zrodlo": "Kluby.org",
@@ -165,6 +95,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Turniej zakończenia sezonu",
+      "data_od": "2026-10-04",
+      "data_do": "2026-10-04",
+      "miasto": "Sopot",
+      "miejsce": "Sopot Tenis Klub, Sopot",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12322"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Debel Mikst 35+ Masters",
       "data_od": "2026-10-04",
       "data_do": "2026-10-04",
@@ -172,6 +112,16 @@
       "miejsce": "TKKF Wars, Warszawa",
       "kategorie": "DEBEL MIKST",
       "url": "https://kluby.org/turnieje/11386"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Tenis Kiełpin Masters",
+      "data_od": "2026-10-04",
+      "data_do": "2026-10-04",
+      "miasto": "Łomianki",
+      "miejsce": "Tenis Kiełpin, Łomianki",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12321"
     },
     {
       "zrodlo": "Kluby.org",
@@ -472,6 +422,16 @@
       "miejsce": "Perun Wesoła, Warszawa",
       "kategorie": "TENIS10 POMARAŃCZOWA (Chłopcy) TENIS10 POMARAŃCZOWA (Dziewczynki)",
       "url": "https://kluby.org/turnieje/12312"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Test",
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06",
+      "miasto": "",
+      "miejsce": "",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12325"
     },
     {
       "zrodlo": "Kluby.org",
