@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-04T10:35:59+00:00",
-  "liczba_turniejow": 11,
+  "pobrano_utc": "2026-10-05T11:31:51+00:00",
+  "liczba_turniejow": 17,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -26,23 +26,13 @@
     },
     {
       "zrodlo": "PZT TOP",
-      "nazwa": "Puchar Gminy Dobryszyce 2026",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-04",
-      "miasto": "Radomsko",
+      "nazwa": "\"Quaglia Cup\" TENIS CLUB KK \"ZIMA 2026/27\"",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-11",
+      "miasto": "KEDZIERZYN-KOZLE",
       "ranga": "3",
-      "kategorie": "60+, 70+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=8A746632-EB17-4CC6-BE25-73DEB2E341ED"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "60+, 70+, 80+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=E798BCD3-C6C8-44CA-8E9F-647381E98321"
+      "kategorie": "Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=957A652D-7171-45AB-8847-2952469ED47C"
     },
     {
       "zrodlo": "PZT TOP",
@@ -76,6 +66,16 @@
     },
     {
       "zrodlo": "PZT TOP",
+      "nazwa": "Grand Prix Stalowej Woli Amatorów",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-18",
+      "miasto": "Stalowa Wola",
+      "ranga": "3",
+      "kategorie": "Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=A48FFD5B-C65B-415E-A8D3-954663A7A5DD"
+    },
+    {
+      "zrodlo": "PZT TOP",
       "nazwa": "SMECZ PIASECZNO",
       "data_od": "2026-10-18",
       "data_do": "2026-10-18",
@@ -83,6 +83,16 @@
       "ranga": "3",
       "kategorie": "60+, 70+, 80+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=B1C3F479-B7DD-4AEC-8CDE-E85F1D6B89E5"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "\"Quaglia Cup\" TENIS CLUB KK \"ZIMA 2026/27\"",
+      "data_od": "2026-10-24",
+      "data_do": "2026-10-25",
+      "miasto": "KEDZIERZYN-KOZLE",
+      "ranga": "3",
+      "kategorie": "50+, 60+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=4E0D6223-5429-4E58-B793-09302C66B6E9"
     },
     {
       "zrodlo": "PZT TOP",
@@ -113,6 +123,56 @@
       "ranga": "3",
       "kategorie": "35+, 40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, 80+, 85+, Open",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=174259E0-AC22-4CE7-8DEC-CEADFDD48DBD"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "\"Quaglia Cup\" TENIS CLUB KK \"ZIMA 2026/27\"",
+      "data_od": "2026-11-14",
+      "data_do": "2026-11-15",
+      "miasto": "KEDZIERZYN-KOZLE",
+      "ranga": "3",
+      "kategorie": "Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9A045A61-F311-469F-AD6D-7C00ECCB933C"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "\"Quaglia Cup\" TENIS CLUB KK \"ZIMA 2026/27\"",
+      "data_od": "2026-11-28",
+      "data_do": "2026-11-29",
+      "miasto": "KEDZIERZYN-KOZLE",
+      "ranga": "3",
+      "kategorie": "50+, 60+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=EB0A88D5-D047-49B4-B9C2-6D9830751765"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "\"Quaglia Cup\" TENIS CLUB KK \"ZIMA 2026/27\"",
+      "data_od": "2026-12-05",
+      "data_do": "2026-12-06",
+      "miasto": "KEDZIERZYN-KOZLE",
+      "ranga": "3",
+      "kategorie": "Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=966F0076-E046-4D35-83DC-86FAB7AD4C8B"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "\"Quaglia Cup\" TENIS CLUB KK \"ZIMA 2026/27\"",
+      "data_od": "2026-12-12",
+      "data_do": "2026-12-13",
+      "miasto": "KEDZIERZYN-KOZLE",
+      "ranga": "3",
+      "kategorie": "50+, 60+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=4665E584-85BE-4DD2-87B8-EC4376625AED"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Barbórkowy turniej o puchar prezesa LW Bogdanka",
+      "data_od": "2026-12-12",
+      "data_do": "2026-12-13",
+      "miasto": "Łęczna",
+      "ranga": "3",
+      "kategorie": "50+, Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=ED76549F-1330-42C6-AA6F-0CB08728D738"
     }
   ]
 }

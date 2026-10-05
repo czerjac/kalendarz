@@ -1,19 +1,19 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-04T10:36:30+00:00",
-  "liczba_turniejow": 56,
+  "pobrano_utc": "2026-10-05T11:32:22+00:00",
+  "liczba_turniejow": 50,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 35
+      "liczba": 37
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 13
+      "liczba": 14
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
-      "liczba": 4
+      "liczba": 3
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-01-01&data_do=2027-01-31&zakladka=0",
@@ -45,83 +45,23 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "ZIAJA Grand Prix Wybrzeża OPEN - cykl turniejów organizowanych przez Sopot Tenis Klub - KT Arka",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-04",
-      "miasto": "Gdynia",
-      "miejsce": "KT Arka, Gdynia",
+      "nazwa": "ZIAJA Grand Prix Wybrzeża Open cykl turniejów organizowanych przez Sopot Tenis Klub - GAT Gdańsk",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-11",
+      "miasto": "Gdańsk",
+      "miejsce": "Gdańska Akademia Tenisowa, Gdańsk",
       "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12275"
+      "url": "https://kluby.org/turnieje/12329"
     },
     {
       "zrodlo": "Kluby.org",
       "nazwa": "Ziaja Grand Prix Wybrzeża +50",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-04",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-11",
       "miasto": "Sopot",
       "miejsce": "Sopot Tenis Klub, Sopot",
       "kategorie": "SENIORZY +50",
-      "url": "https://kluby.org/turnieje/12274"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej Singlowy",
-      "data_od": "2026-10-03",
-      "data_do": "2026-10-04",
-      "miasto": "Żyrardów",
-      "miejsce": "Matchpoint Żyrardów, Żyrardów",
-      "kategorie": "OPEN (Męski) KOBIETY OPEN",
-      "url": "https://kluby.org/turnieje/12174"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej testowy",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Lubsko",
-      "miejsce": "PAYMENTS & LIGHTS, Lubsko",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12296"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Indywidualny Turniej Kobiet",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Mińsk Mazowiecki",
-      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
-      "kategorie": "KOBIETY OPEN",
-      "url": "https://kluby.org/turnieje/12260"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej zakończenia sezonu",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Sopot",
-      "miejsce": "Sopot Tenis Klub, Sopot",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12322"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Debel Mikst 35+ Masters",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Warszawa",
-      "miejsce": "TKKF Wars, Warszawa",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/11386"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Tenis Kiełpin Masters",
-      "data_od": "2026-10-04",
-      "data_do": "2026-10-04",
-      "miasto": "Łomianki",
-      "miejsce": "Tenis Kiełpin, Łomianki",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12321"
+      "url": "https://kluby.org/turnieje/12328"
     },
     {
       "zrodlo": "Kluby.org",
@@ -295,6 +235,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Olszynka Silvers Cup - Singiel M +45",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-07",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Olszynka, Warszawa",
+      "kategorie": "SENIORZY +45",
+      "url": "https://kluby.org/turnieje/12330"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Straszny Set! Halloweenowy Turniej Deblowo-Mixtowy - kat. Basic+",
       "data_od": "2026-11-07",
       "data_do": "2026-11-07",
@@ -422,16 +372,6 @@
       "miejsce": "Perun Wesoła, Warszawa",
       "kategorie": "TENIS10 POMARAŃCZOWA (Chłopcy) TENIS10 POMARAŃCZOWA (Dziewczynki)",
       "url": "https://kluby.org/turnieje/12312"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Test",
-      "data_od": "2026-12-06",
-      "data_do": "2026-12-06",
-      "miasto": "",
-      "miejsce": "",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12325"
     },
     {
       "zrodlo": "Kluby.org",
