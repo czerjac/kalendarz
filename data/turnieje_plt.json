@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-05T11:32:12+00:00",
+  "pobrano_utc": "2026-10-06T11:18:38+00:00",
   "liczba_turniejow": 50,
   "kategorie_sprawdzone": [
     {
@@ -163,6 +163,15 @@
       "data_do": "2026-10-17",
       "miasto": "Gdańsk",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-podlesna-cup-zakonczenie-sezonu-2026-5188"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Oleśnica Last Dance Cup 2026",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-17",
+      "miasto": "Oleśnica",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-olesnica-last-dance-cup-2026-5664"
     },
     {
       "zrodlo": "PLT",
@@ -424,15 +433,6 @@
       "data_do": "2026-11-22",
       "miasto": "Smolec k. Wrocławia",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5651"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Smolec k. Wrocławia",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5652"
     },
     {
       "zrodlo": "PLT",

@@ -1,12 +1,25 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-10-05T11:31:53+00:00",
-  "liczba_turniejow": 7,
+  "pobrano_utc": "2026-10-06T11:18:18+00:00",
+  "liczba_turniejow": 10,
   "turnieje": [
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Szczecin Tennis Arena I (dla średniozaawansowanych do 4.0 NTRP)",
+      "nazwa": "Challenger Barlinek - dla średniozaawansowanych do 4.0 NTRP",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
+      "miasto": "Barlinek",
+      "miejsce": "Akademia Tenisa Barlinek, Barlinek",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/challenger-barlinek-i"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Szczecin Tennis Arena - dla średniozaawansowanych do 4.0 NTRP",
       "data_od": "2026-10-11",
       "data_do": "2026-10-11",
       "miasto": "Szczecin",
@@ -16,6 +29,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-tennis-arena-i-dla-sredniozaawansowanych-do-40-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Szczecin - Turniej Deblowy do 4.0 NTRP",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-17",
+      "miasto": "Szczecin",
+      "miejsce": "Tennis Arena Szczecin, Szczecin",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-turniej-deblowy-do-40-ntrp"
     },
     {
       "zrodlo": "Cuply",
@@ -45,7 +71,7 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Futures Stargard II dla początkujących (do 2.5 NTRP)",
+      "nazwa": "Cuply Futures Stargard - dla początkujących do 2.5 NTRP",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
       "miasto": "Stargard",
@@ -58,7 +84,7 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Stargard Masters II (zaawansowani amatorzy)",
+      "nazwa": "Cuply Masters Stargard - dla zaawansowanych",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
       "miasto": "Stargard",
@@ -71,7 +97,7 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Stargard V dla średniozaawansowanych (do 4.0 NTRP)",
+      "nazwa": "Cuply Challenger Stargard - dla średniozaawansowanych do 4.0 NTRP",
       "data_od": "2026-10-31",
       "data_do": "2026-10-31",
       "miasto": "Stargard",
@@ -84,9 +110,9 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Gorzów I",
-      "data_od": "2026-11-01",
-      "data_do": "2026-11-01",
+      "nazwa": "Cuply Challenger Gorzów - dla średniozaawansowanych do 4.0 NTRP",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-07",
       "miasto": "Gorzów Wielkopolski",
       "miejsce": "Gorzów Wielkopolski",
       "typ_gry": "",
@@ -94,6 +120,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Ladies Stargard - dla kobiet",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-07",
+      "miasto": "Stargard",
+      "miejsce": "Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-ladies-stargard-dla-kobiet"
     }
   ]
 }

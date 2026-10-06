@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-05T11:32:22+00:00",
-  "liczba_turniejow": 50,
+  "pobrano_utc": "2026-10-06T11:18:49+00:00",
+  "liczba_turniejow": 51,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 37
+      "liczba": 38
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -52,6 +52,16 @@
       "miejsce": "Gdańska Akademia Tenisowa, Gdańsk",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12329"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej o Puchar ASAJA Sport",
+      "data_od": "2026-10-10",
+      "data_do": "2026-10-10",
+      "miasto": "Płock",
+      "miejsce": "ASAJA SPORT, Płock",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12338"
     },
     {
       "zrodlo": "Kluby.org",
