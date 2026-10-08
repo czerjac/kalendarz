@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-07T11:06:30+00:00",
+  "pobrano_utc": "2026-10-08T11:24:20+00:00",
   "liczba_turniejow": 50,
   "kategorie_sprawdzone": [
     {
@@ -103,39 +103,12 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Aktywniaki Cup - Zakończenie Sezonu 2026",
-      "data_od": "2026-10-11",
-      "data_do": "2026-10-11",
-      "miasto": "Kamień",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-aktywniaki-cup-zakonczenie-sezonu-2026-5663"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Singlowe Weekendy w Rudawa Tennis Club III 2026",
-      "data_od": "2026-10-11",
-      "data_do": "2026-10-11",
-      "miasto": "Rudawa k. Krakowa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-singlowe-weekendy-w-rudawa-tennis-club-iii-2026-5641"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "Deble i Miksty",
       "nazwa": "MIKST. Grand Prix SPIN-u 2026",
       "data_od": "2026-10-11",
       "data_do": "2026-10-11",
       "miasto": "Rzeszów",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-2026-5629"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. AS Tenis Challenge 2026",
-      "data_od": "2026-10-11",
-      "data_do": "2026-10-11",
-      "miasto": "Starachowice",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-as-tenis-challenge-2026-5622"
     },
     {
       "zrodlo": "PLT",
@@ -226,6 +199,15 @@
       "data_do": "2026-10-18",
       "miasto": "Otwock",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-prestige-court-2026-5656"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Singlowe Weekendy w Rudawa Tennis Club III 2026",
+      "data_od": "2026-10-18",
+      "data_do": "2026-10-18",
+      "miasto": "Rudawa k. Krakowa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-singlowe-weekendy-w-rudawa-tennis-club-iii-2026-5641"
     },
     {
       "zrodlo": "PLT",
@@ -433,6 +415,24 @@
       "data_do": "2026-11-22",
       "miasto": "Smolec k. Wrocławia",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5651"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Smolec k. Wrocławia",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5652"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. AS Tenis Challenge 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Starachowice",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-as-tenis-challenge-2026-5622"
     },
     {
       "zrodlo": "PLT",
