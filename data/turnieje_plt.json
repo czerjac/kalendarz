@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-08T11:24:20+00:00",
+  "pobrano_utc": "2026-10-09T11:21:15+00:00",
   "liczba_turniejow": 50,
   "kategorie_sprawdzone": [
     {
@@ -64,51 +64,6 @@
       "data_do": "2026-10-10",
       "miasto": "Otwock",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-otwocka-2026-5638"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej o Mistrzostwo Klubu RTT Rzeszów 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-10-10",
-      "data_do": "2026-10-10",
-      "miasto": "Rzeszów",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-rtt-rzeszow-2026-kwalifikacje-do-krajowych-mistrzostw-5606"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Turniej o Mistrzostwo Klubu RTT Rzeszów 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-10-10",
-      "data_do": "2026-10-10",
-      "miasto": "Rzeszów",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-rtt-rzeszow-2026-kwalifikacje-do-krajowych-mistrzostw-5607"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Włocławka 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-10-10",
-      "data_do": "2026-10-10",
-      "miasto": "Włocławek",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-wloclawka-2026-kwalifikacje-do-krajowych-mistrzostw-5636"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Włocławka 2026 - Kwalifikacje do Krajowych Mistrzostw",
-      "data_od": "2026-10-10",
-      "data_do": "2026-10-10",
-      "miasto": "Włocławek",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-wloclawka-2026-kwalifikacje-do-krajowych-mistrzostw-5637"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "Deble i Miksty",
-      "nazwa": "MIKST. Grand Prix SPIN-u 2026",
-      "data_od": "2026-10-11",
-      "data_do": "2026-10-11",
-      "miasto": "Rzeszów",
-      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-2026-5629"
     },
     {
       "zrodlo": "PLT",
@@ -220,12 +175,30 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "Deble i Miksty",
+      "nazwa": "MIKST. Grand Prix SPIN-u 2026",
+      "data_od": "2026-10-18",
+      "data_do": "2026-10-18",
+      "miasto": "Rzeszów",
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-2026-5629"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "Puchar PLT",
       "nazwa": "PUCHAR PLT. Perun Wesoła Open 2026",
       "data_od": "2026-10-18",
       "data_do": "2026-10-18",
       "miasto": "Warszawa",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-perun-wesola-open-2026-5581"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Włocławka 2026 - Kwalifikacje do Krajowych Mistrzostw",
+      "data_od": "2026-10-18",
+      "data_do": "2026-10-18",
+      "miasto": "Włocławek",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-wloclawka-2026-kwalifikacje-do-krajowych-mistrzostw-5636"
     },
     {
       "zrodlo": "PLT",
@@ -244,6 +217,15 @@
       "data_do": "2026-10-18",
       "miasto": "Łódź",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-lodzi-2026-5661"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Lublina 2026",
+      "data_od": "2026-10-24",
+      "data_do": "2026-10-24",
+      "miasto": "Lublin",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-lublina-2026-5668"
     },
     {
       "zrodlo": "PLT",
@@ -410,6 +392,15 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Singlowe Weekendy w Rudawa Tennis Club V 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Rudawa k. Krakowa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-singlowe-weekendy-w-rudawa-tennis-club-v-2026-5645"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
       "data_od": "2026-11-22",
       "data_do": "2026-11-22",
@@ -460,6 +451,15 @@
       "data_do": "2026-11-22",
       "miasto": "Warszawa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-peruna-2026-5583"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Jesienny Turniej o Puchar Olszynki Grochowskiej 2026",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5667"
     },
     {
       "zrodlo": "PLT",
