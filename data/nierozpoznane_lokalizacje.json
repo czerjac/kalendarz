@@ -1,10 +1,5 @@
 {
-  "aktualizacja_utc": "2026-10-09T11:22:47+00:00",
-  "liczba_nierozpoznanych_miast": 1,
-  "miasta": [
-    {
-      "miasto": "Kamień",
-      "powod": "niejednoznaczna_nazwa_miejscowosci"
-    }
-  ]
+  "aktualizacja_utc": "2026-10-10T10:39:58+00:00",
+  "liczba_nierozpoznanych_miast": 0,
+  "miasta": []
 }

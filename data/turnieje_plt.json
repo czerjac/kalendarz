@@ -1,13 +1,13 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-09T11:21:15+00:00",
-  "liczba_turniejow": 50,
+  "pobrano_utc": "2026-10-10T10:38:39+00:00",
+  "liczba_turniejow": 51,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund?incoming=true",
-      "liczba": 1
+      "liczba": 2
     },
     {
       "kategoria": "1. Liga",
@@ -38,33 +38,6 @@
   "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Aktywniaki Cup - Zakończenie Sezonu 2026",
-      "data_od": "2026-10-10",
-      "data_do": "2026-10-10",
-      "miasto": "Kamień",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-cup-zakonczenie-sezonu-2026-5662"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Lublina 2026",
-      "data_od": "2026-10-10",
-      "data_do": "2026-10-10",
-      "miasto": "Lublin",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-lublina-2026-5640"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Otwocka 2026",
-      "data_od": "2026-10-10",
-      "data_do": "2026-10-10",
-      "miasto": "Otwock",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-otwocka-2026-5638"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
@@ -391,6 +364,24 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Jesienne Mistrzostwa Tarnowa 2026",
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21",
+      "miasto": "Tarnów",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-tarnowa-2026-5670"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "Puchar PLT",
+      "nazwa": "PUCHAR PLT. Jesienne Mistrzostwa Tarnowa 2026",
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21",
+      "miasto": "Tarnów",
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-jesienne-mistrzostwa-tarnowa-2026-5669"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Singlowe Weekendy w Rudawa Tennis Club V 2026",
       "data_od": "2026-11-22",
@@ -454,12 +445,30 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Jesienny Turniej o Puchar Olszynki Grochowskiej 2026",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5666"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Jesienny Turniej o Puchar Olszynki Grochowskiej 2026",
       "data_od": "2026-11-29",
       "data_do": "2026-11-29",
       "miasto": "Warszawa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5667"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Grand Prix SPIN-u III 2026",
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06",
+      "miasto": "Rzeszów",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-grand-prix-spin-u-iii-2026-5634"
     },
     {
       "zrodlo": "PLT",
