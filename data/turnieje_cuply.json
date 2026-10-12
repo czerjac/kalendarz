@@ -1,22 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-10-11T10:50:57+00:00",
+  "pobrano_utc": "2026-10-12T12:02:18+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Szczecin Tennis Arena - dla średniozaawansowanych do 4.0 NTRP",
-      "data_od": "2026-10-11",
-      "data_do": "2026-10-11",
-      "miasto": "Szczecin",
-      "miejsce": "Tennis Arena, Szczecin",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-tennis-arena-i-dla-sredniozaawansowanych-do-40-ntrp"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "Cuply Challenger Szczecin - Turniej Deblowy do 4.0 NTRP",
@@ -133,6 +120,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-tennis-arena-do-40-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Finały - I edycja",
+      "data_od": "2026-11-14",
+      "data_do": "2026-11-21",
+      "miasto": "Szczecin lub Stargard",
+      "miejsce": "Szczecin lub Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-finaly-i-edycja"
     }
   ]
 }

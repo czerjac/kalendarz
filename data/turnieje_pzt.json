@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-11T10:50:55+00:00",
-  "liczba_turniejow": 17,
+  "pobrano_utc": "2026-10-12T12:02:17+00:00",
+  "liczba_turniejow": 15,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -23,26 +23,6 @@
       "ranga": "4",
       "kategorie": "Open Amator",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "\"Quaglia Cup\" TENIS CLUB KK \"ZIMA 2026/27\"",
-      "data_od": "2026-10-10",
-      "data_do": "2026-10-11",
-      "miasto": "KEDZIERZYN-KOZLE",
-      "ranga": "3",
-      "kategorie": "Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=957A652D-7171-45AB-8847-2952469ED47C"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-10-11",
-      "data_do": "2026-10-11",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "60+, 70+, 80+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=C104F56A-D4CC-4991-9436-6A942E024CF8"
     },
     {
       "zrodlo": "PZT TOP",

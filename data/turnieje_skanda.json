@@ -1,29 +1,9 @@
 {
   "zrodlo": "TKKF Skanda",
-  "pobrano_utc": "2026-10-11T10:51:31+00:00",
-  "liczba_turniejow": 2,
+  "pobrano_utc": "2026-10-12T12:02:44+00:00",
+  "liczba_turniejow": 1,
   "odrzucono_odwolane": 11,
   "turnieje": [
-    {
-      "zrodlo": "TKKF Skanda",
-      "nazwa": "Olsztyn Masters Mikst - mistrzostwa Olsztyna w grze mieszanej (edycja czternasta) - PRZENIESIONY Z 26 WRZEŚNIA",
-      "data_od": "2026-10-11",
-      "data_do": "2026-10-11",
-      "miasto": "Olsztyn",
-      "miejsce": "TKKF Skanda",
-      "wojewodztwo": "warmińsko-mazurskie",
-      "adres": "ul. Wyszyńskiego 12a, 10-457 Olsztyn",
-      "organizator": "TKKF \"Skanda\"",
-      "telefon_organizatora": "500 036 039",
-      "email_organizatora": "kortyskanda@gmail.com",
-      "kontakt": "500 036 039 | kortyskanda@gmail.com",
-      "typ_gry": "gra mieszana",
-      "kategorie": "",
-      "cykl_szczegolowy": "",
-      "url": "http://kortyskanda.pl/turnieje.html",
-      "start_turnieju": "10:00",
-      "opis": "Start: 10:00. Informacje i zapisy u organizatora."
-    },
     {
       "zrodlo": "TKKF Skanda",
       "nazwa": "Towarzyski debel losowany",

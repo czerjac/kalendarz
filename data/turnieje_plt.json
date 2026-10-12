@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-11T10:51:19+00:00",
+  "pobrano_utc": "2026-10-12T12:02:34+00:00",
   "liczba_turniejow": 51,
   "kategorie_sprawdzone": [
     {
@@ -38,6 +38,15 @@
   "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Nowej Sarzyny 2026",
+      "data_od": "2026-10-16",
+      "data_do": "2026-10-17",
+      "miasto": "Nowa Sarzyna",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-nowej-sarzyny-2026-5671"
+    },
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
@@ -293,6 +302,15 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Krakowa 2026",
+      "data_od": "2026-10-31",
+      "data_do": "2026-10-31",
+      "miasto": "Kraków",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5672"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Grand Prix SPIN-u II 2026",
       "data_od": "2026-11-08",
       "data_do": "2026-11-08",
@@ -436,30 +454,12 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Jesienny Turniej o Puchar Olszynki Grochowskiej 2026",
-      "data_od": "2026-11-29",
-      "data_do": "2026-11-29",
-      "miasto": "Warszawa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5666"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Jesienny Turniej o Puchar Olszynki Grochowskiej 2026",
       "data_od": "2026-11-29",
       "data_do": "2026-11-29",
       "miasto": "Warszawa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5667"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Grand Prix SPIN-u III 2026",
-      "data_od": "2026-12-06",
-      "data_do": "2026-12-06",
-      "miasto": "Rzeszów",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-grand-prix-spin-u-iii-2026-5634"
     },
     {
       "zrodlo": "PLT",
