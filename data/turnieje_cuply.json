@@ -1,22 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-10-12T12:02:18+00:00",
+  "pobrano_utc": "2026-10-13T11:50:34+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Szczecin - Turniej Deblowy do 4.0 NTRP",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-17",
-      "miasto": "Szczecin",
-      "miejsce": "Tennis Arena Szczecin, Szczecin",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-turniej-deblowy-do-40-ntrp"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "Super Masters ZOOM 1000$ eliminacje 2/3",
@@ -84,20 +71,7 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Gorzów - dla średniozaawansowanych do 4.0 NTRP",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Gorzów Wielkopolski",
-      "miejsce": "Gorzów Wielkopolski",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Ladies Stargard - dla kobiet",
+      "nazwa": "Cuply Ladies Stargard - turniej dla kobiet",
       "data_od": "2026-11-07",
       "data_do": "2026-11-07",
       "miasto": "Stargard",
@@ -110,7 +84,33 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Szczecin Tennis Arena - do 4.0 NTRP",
+      "nazwa": "Otwarte Mistrzostwa Lubuskiego dla średniozaawansowanych do 4.0 NTRP",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-07",
+      "miasto": "—",
+      "miejsce": "—",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-lubuskiego-dla-sredniozaawansowanych-do-40-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Szczecin - Turniej Deblowy do 4.0 NTRP",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Szczecin",
+      "miejsce": "Tennis Arena Szczecin, Szczecin",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-turniej-deblowy-do-40-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Szczecin 11.11 - do 4.0 NTRP",
       "data_od": "2026-11-11",
       "data_do": "2026-11-11",
       "miasto": "Szczecin",

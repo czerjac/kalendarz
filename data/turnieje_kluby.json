@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-12T12:02:44+00:00",
-  "liczba_turniejow": 47,
+  "pobrano_utc": "2026-10-13T11:51:00+00:00",
+  "liczba_turniejow": 49,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 43
+      "liczba": 45
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -42,6 +42,26 @@
       "miejsce": "",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12200"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Ziaja Grand Prix Wybrzeża +50",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-18",
+      "miasto": "Sopot",
+      "miejsce": "Sopot Tenis Klub, Sopot",
+      "kategorie": "SENIORZY +50",
+      "url": "https://kluby.org/turnieje/12359"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Grand Prix Mazowsza Juniorzy",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-17",
+      "miasto": "Warszawa",
+      "miejsce": "ST NET, Warszawa",
+      "kategorie": "JUNIORZY U12 JUNIORZY U14 JUNIORZY U16 JUNIORZY U18",
+      "url": "https://kluby.org/turnieje/12360"
     },
     {
       "zrodlo": "Kluby.org",
