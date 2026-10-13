@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T08:29:51.504666+00:00",
-  "run_date": "2026-10-06",
+  "generated_at": "2026-10-13T08:52:53.740183+00:00",
+  "run_date": "2026-10-13",
   "cutoff_exclusive": "2026-07-01",
-  "weekend_start": "2026-10-02",
-  "weekend_end": "2026-10-05",
+  "weekend_start": "2026-10-09",
+  "weekend_end": "2026-10-12",
   "supported_sources": [
     "PLT",
     "Cuply",
@@ -6219,6 +6219,281 @@
         "Tenis Open Polska PZT"
       ],
       "fingerprint": "93d450cd6668825622fd0f6eaa2083574e6532ad6e4449a9e4d00a6433316b08"
+    },
+    {
+      "id": "cuply:105",
+      "title": "Barlinek: Damian Retzlaf triumfuje w turnieju Challenger Barlinek - dla średniozaawansowanych do 4.0 NTRP",
+      "content": "<p>W dniu 10 października 2026 na obiekcie Akademia Tenisa Barlinek, Barlinek (Barlinek) rozegrano turniej <em>„Challenger Barlinek - dla średniozaawansowanych do 4.0 NTRP”</em> w kategorii Singiel; Cuply Challenger dla średniozaawansowanych (do 4.0 NTRP). Zawody były częścią cyklu Cuply. W turnieju triumfuje <strong>Damian Retzlaf</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Julian Fabisiak</strong> – Daniel Lendzion 4:0, 3:4, 13:11<br>\n<strong>Roman Raczyński</strong> – Bogdan Szkodziński 4:2, 4:0<br>\n<strong>Roman Raczyński</strong> – Julian Fabisiak 4:2, 4:1<br>\nBogdan Szkodziński – <strong>Daniel Lendzion</strong> 2:4, 0:4<br>\nBogdan Szkodziński – <strong>Julian Fabisiak</strong> 0:4, 4:0, 8:10<br>\nRoman Raczyński – <strong>Daniel Lendzion</strong> 4:3, 3:4, 5:10</p>\n<h2>Grupa B</h2>\n<p>Jarek Wisniewski – <strong>Damian Retzlaf</strong> 0:4, 2:4<br>\n<strong>Damian Hyży</strong> – Michal Brunka 4:2, 4:1<br>\nDamian Retzlaf – <strong>Damian Hyży</strong> 3:4, 1:4<br>\n<strong>Jarek Wisniewski</strong> – Michal Brunka 4:0, 4:1<br>\n<strong>Damian Retzlaf</strong> – Michal Brunka 4:2, 4:3<br>\n<strong>Jarek Wisniewski</strong> – Damian Hyży 4:1, 1:4, 10:4</p>\n<h2>Półfinały</h2>\n<p>Roman Raczyński – <strong>Damian Retzlaf</strong> 0:4, 3:4<br>\n<strong>Damian Hyży</strong> – Daniel Lendzion 4:3, 4:3</p>\n<h2>Finał</h2>\n<p>Damian Hyży – <strong>Damian Retzlaf</strong> 0:4, 0:4</p>\n<p>Źródło: <a href=\"https://cuply.pl/turnieje/challenger-barlinek-i\">Cuply — wyniki turnieju</a>.</p>",
+      "source_url": "https://cuply.pl/turnieje/challenger-barlinek-i",
+      "source": "Cuply",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "Cuply",
+      "tags": [
+        "Cuply"
+      ],
+      "fingerprint": "c29b7df64af6fcf7d0e1cf433fdee8bdf466c08e35eb1a4af76b4dc30ef28a58"
+    },
+    {
+      "id": "kluby:12113",
+      "title": "Warszawa: Gromelski Paweł, Mielechow Piotr triumfują w turnieju TENES GPM Debel Open",
+      "content": "<p>W dniu 10 października 2026 na obiekcie TENES Klub Sportowy, Warszawa (Warszawa) rozegrano turniej <em>„TENES GPM Debel Open”</em> w kategorii DEBEL. W turnieju triumfuje para <strong>Gromelski Paweł, Mielechow Piotr</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Mężykowski Mateusz, Mokrzycki Piotr</strong> – Łasak Kuba, Lech Krystian 6/3<br>\nŁomicz Krzysztof, Kakietek Dominik – <strong>Łasak Kuba, Lech Krystian</strong> 2/6<br>\n<strong>Mężykowski Mateusz, Mokrzycki Piotr</strong> – Łomicz Krzysztof, Kakietek Dominik 6/0</p>\n<h2>Grupa B</h2>\n<p><strong>Gwiaździński Ignacy, Siwecki Borys</strong> – Yargiic Daniel, Ciurzynski Jakub 7/6<br>\n<strong>Barwikowski Marcin, Sitarz Rafał</strong> – Yargiic Daniel, Ciurzynski Jakub 6/0<br>\nGwiaździński Ignacy, Siwecki Borys – <strong>Barwikowski Marcin, Sitarz Rafał</strong> 0/6</p>\n<h2>Grupa C</h2>\n<p><strong>Gromelski Paweł, Mielechow Piotr</strong> – Bachański Mateusz, Brzozowski Ksawery 6/1<br>\n<strong>Karcz Krzysztof, Bytniewski Kacper</strong> – Bachański Mateusz, Brzozowski Ksawery 6/1<br>\n<strong>Gromelski Paweł, Mielechow Piotr</strong> – Karcz Krzysztof, Bytniewski Kacper 7/5</p>\n<h2>1/2 finału</h2>\n<p>Barwikowski Marcin, Sitarz Rafał – <strong>Gromelski Paweł, Mielechow Piotr</strong> 6/7<br>\n<strong>Karcz Krzysztof, Bytniewski Kacper</strong> – Mężykowski Mateusz, Mokrzycki Piotr 6/3</p>\n<h2>finał</h2>\n<p><strong>Gromelski Paweł, Mielechow Piotr</strong> – Karcz Krzysztof, Bytniewski Kacper 6/0</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12113\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12113",
+      "source": "Kluby.org",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "d2acf20c00e01e158cddd1ac3854e5dcb13e377bcdfb939539c4181ebee0a889"
+    },
+    {
+      "id": "kluby:12114",
+      "title": "Warszawa: Kłosek Łukasz triumfuje w turnieju TENES Single Cup kat. CLUB+ - wewnętrzny turniej dla Klubowiczów",
+      "content": "<p>W dniu 10 października 2026 na obiekcie TENES Klub Sportowy, Warszawa (Warszawa) rozegrano turniej <em>„TENES Single Cup kat. CLUB+ - wewnętrzny turniej dla Klubowiczów”</em> w kategorii OPEN. W turnieju triumfuje <strong>Kłosek Łukasz</strong>. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p>Kłosek Łukasz – Jarka Maciej Brak potwierdzonego wyniku</p>\n<h2>Grupa B</h2>\n<p><strong>Kijewska Karolina</strong> – Szczypek Mateusz 7/5<br>\n<strong>Kluska Marcin</strong> – Szczypek Mateusz 6/3<br>\n<strong>Kijewska Karolina</strong> – Kluska Marcin 6/1</p>\n<h2>Grupa C</h2>\n<p><strong>Mazik Emil</strong> – Fiłaciński #1 Marcin 6/3 6/3</p>\n<h2>1/2 finału</h2>\n<p>Kijewska Karolina – <strong>Jarka Maciej</strong> 4/6<br>\n<strong>Kłosek Łukasz</strong> – Mazik Emil 6/3</p>\n<h2>finał</h2>\n<p>Jarka Maciej – <strong>Kłosek Łukasz</strong> 5/7</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12114\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12114",
+      "source": "Kluby.org",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "ready": false,
+      "issues": [
+        "OPEN: Brak części rozegranych meczów lub wyników"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "f76f407f180998f9b90cc293b7e3c4ae6661edcf7f9b405cdf3fb2c8d4d95512"
+    },
+    {
+      "id": "kluby:12338",
+      "title": "Płock: Laskowski Dominik triumfuje w turnieju Turniej o Puchar ASAJA Sport",
+      "content": "<p>W dniu 10 października 2026 na obiekcie ASAJA SPORT, Płock (Płock) rozegrano turniej <em>„Turniej o Puchar ASAJA Sport”</em> w kategorii OPEN. W turnieju triumfuje <strong>Laskowski Dominik</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Laskowski Dominik</strong> – Lipiński Wiktor 6/2 6/2<br>\n<strong>Olęcki Bartosz</strong> – Lipiński Wiktor 7/5 6/3<br>\n<strong>Laskowski Dominik</strong> – Olęcki Bartosz 6/2 6/3</p>\n<h2>Grupa B</h2>\n<p><strong>Petera Radosław</strong> – Chmielewski Gabriel 6/2 6/2<br>\n<strong>Antoszkiewicz Witold</strong> – Chmielewski Gabriel 6/4 6/2<br>\n<strong>Petera Radosław</strong> – Antoszkiewicz Witold 6/2 6/3</p>\n<h2>Grupa C</h2>\n<p><strong>Flakiewicz Marek</strong> – Krysztofik Antoni 6/2 6/2<br>\n<strong>Dąbrówka Gabriel</strong> – Krysztofik Antoni 3/6 6/2 10/7<br>\n<strong>Flakiewicz Marek</strong> – Dąbrówka Gabriel 6/2 6/2</p>\n<h2>Grupa D</h2>\n<p><strong>Dul Piotr</strong> – Chmielewski Piotr 6/2 6/2<br>\n<strong>Nowak Bartosz</strong> – Chmielewski Piotr 6/2 6/2<br>\n<strong>Dul Piotr</strong> – Nowak Bartosz 6/3 6/4</p>\n<h2>Grupa E</h2>\n<p>Rutkowski Jakub – <strong>Chmielewski Marcel</strong> 6/4 3/6 9/11<br>\nCiski Andrzej – <strong>Chmielewski Marcel</strong> 4/6 6/4 8/10<br>\n<strong>Rutkowski Jakub</strong> – Ciski Andrzej 3/6 7/6 10/8</p>\n<h2>Grupa F</h2>\n<p><strong>Dombrowski Piotr</strong> – Błaszczak Michał 6/3 6/3<br>\n<strong>Michalak Łukasz</strong> – Błaszczak Michał 6/3 6/3<br>\n<strong>Dombrowski Piotr</strong> – Michalak Łukasz 6/4 6/4</p>\n<h2>Grupa G</h2>\n<p><strong>Pośpieszyński Piotr</strong> – Chyczewski Maciej 7/5 3/6 10/8<br>\nFabiszak Mikołaj – <strong>Chyczewski Maciej</strong> 2/6 2/6<br>\n<strong>Pośpieszyński Piotr</strong> – Fabiszak Mikołaj 6/2 6/2</p>\n<h2>1/4 finału</h2>\n<p>Chmielewski Marcel – <strong>Dul Piotr</strong> 3/6 2/6<br>\nFlakiewicz Marek – <strong>Dombrowski Piotr</strong> 2/6 3/6<br>\nPośpieszyński Piotr – <strong>Petera Radosław</strong> 4/6 7/6 8/10</p>\n<h2>1/2 finału</h2>\n<p><strong>Laskowski Dominik</strong> – Dul Piotr 7/5 6/3<br>\n<strong>Dombrowski Piotr</strong> – Petera Radosław 6/2 3/6 12/10</p>\n<h2>finał</h2>\n<p><strong>Laskowski Dominik</strong> – Dombrowski Piotr 6/2 7/5</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12338\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12338",
+      "source": "Kluby.org",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "e6e155f77124dcb0155733aa923240b6eecb04301fe91e9006f149d73c4ed870"
+    },
+    {
+      "id": "kluby:12346",
+      "title": "BRUKOVA Suwalszczyzna Challenge - Masters — wyniki (2026-10-10)",
+      "content": "<p>W dniu 10 października 2026 rozegrano turniej <em>„BRUKOVA Suwalszczyzna Challenge - Masters”</em> w kategorii OPEN SENIORZY +45. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>OPEN</h2>\n<h3>1/4 finału</h3>\n<p><strong>Czernialis Paweł</strong> – Nartowicz Konrad 9/1<br>\nPoplawski Sebastian – <strong>Szymański Karol</strong> 2/9<br>\n<strong>Nartowicz Lukasz</strong> – Czarniewski Damian 8/5 krecz<br>\nStaszkiewicz Rafał – <strong>Chałko Paweł</strong> 0/9</p>\n<h3>1/2 finału</h3>\n<p><strong>Czernialis Paweł</strong> – Szymański Karol 9/0<br>\nNartowicz Lukasz – <strong>Chałko Paweł</strong> 3/9</p>\n<h3>finał</h3>\n<p><strong>Czernialis Paweł</strong> – Chałko Paweł 9/4<br>\n<strong>Nartowicz Lukasz</strong> – Szymański Karol 7/0</p>\n<h2>SENIORZY +45</h2>\n<h3>1/4 finału</h3>\n<p><strong>Milewski Marcin</strong> – Hrynaszkiewicz Tadeusz walkower<br>\nLewandowski Tomasz – <strong>Butkiewicz Cezary</strong> 7/9<br>\nStaranowicz Janusz – <strong>Cąkała Adam</strong> 4/9</p>\n<h3>1/2 finału</h3>\n<p><strong>Haidamovich Andrei</strong> – Milewski Marcin 9/1<br>\nButkiewicz Cezary – <strong>Cąkała Adam</strong> 2/9</p>\n<h3>finał</h3>\n<p><strong>Haidamovich Andrei</strong> – Cąkała Adam 9/1<br>\n<strong>Butkiewicz Cezary</strong> – Milewski Marcin 7/5</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12346\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12346",
+      "source": "Kluby.org",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "ready": false,
+      "issues": [
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "397e5d50c7e4ac3e1a1933ad17cf3e34eb80deabcaf56cde2ea042ceb8564345"
+    },
+    {
+      "id": "plt:5638",
+      "title": "Otwock: Mateusz Decewicz triumfuje w turnieju Otwarte Jesienne Mistrzostwa Otwocka 2026",
+      "content": "<p>W dniu 10 października 2026 w miejscowości Otwock rozegrano turniej <em>„Otwarte Jesienne Mistrzostwa Otwocka 2026”</em> w kategorii 2. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Mateusz Decewicz</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Patryk Flisek</strong> – Mariusz Samulak 4:0, 4:2<br>\n<strong>Kamil Kowalski</strong> – Mateusz Bondarowski 4:0, 4:2<br>\n<strong>Patryk Flisek</strong> – Kamil Kowalski 4:1, 4:0<br>\nMariusz Samulak – <strong>Mateusz Bondarowski</strong> 2:4, 1:4<br>\nPatryk Flisek – <strong>Mateusz Bondarowski</strong> 0:4, 0:4 (walkower)<br>\nMariusz Samulak – <strong>Kamil Kowalski</strong> 2:4, 3:4</p>\n<h2>Grupa B</h2>\n<p>Beata Strawińska – <strong>Remigiusz Półtorak</strong> 1:4, 2:4<br>\nŁukasz Jaworski – <strong>Janusz Linowski</strong> 1:4, 3:4<br>\nBeata Strawińska – <strong>Łukasz Jaworski</strong> 3:4, 2:4<br>\nRemigiusz Półtorak – <strong>Janusz Linowski</strong> 4:2, 0:4, 4:10<br>\n<strong>Beata Strawińska</strong> – Janusz Linowski 4:0, 4:0 (walkower)<br>\nRemigiusz Półtorak – <strong>Łukasz Jaworski</strong> 3:4, 4:0, 11:13</p>\n<h2>Grupa C</h2>\n<p><strong>Mateusz Decewicz</strong> – Kamil Nowak 4:0, 4:1<br>\n<strong>Marcin Sołdek</strong> – Adrian Bzdoń 4:1, 4:0<br>\nMateusz Decewicz – <strong>Marcin Sołdek</strong> 1:4, 3:4<br>\n<strong>Kamil Nowak</strong> – Adrian Bzdoń 4:1, 4:1<br>\n<strong>Mateusz Decewicz</strong> – Adrian Bzdoń 4:1, 4:2<br>\n<strong>Kamil Nowak</strong> – Marcin Sołdek 4:0, 0:4, 10:8</p>\n<h2>1/4 FINAŁU</h2>\n<p>Marcin Sołdek – <strong>Remigiusz Półtorak</strong> 4:1, 2:4, 6:10<br>\nKamil Kowalski – <strong>Patryk Flisek</strong> 0:4, 2:4<br>\nMateusz Bondarowski – <strong>Kamil Nowak</strong> 0:4, 0:4 (walkower)<br>\n<strong>Mateusz Decewicz</strong> – Łukasz Jaworski 4:2, 4:1</p>\n<h2>1/2 FINAŁU</h2>\n<p>Remigiusz Półtorak – <strong>Patryk Flisek</strong> 2:4, 1:4<br>\nKamil Nowak – <strong>Mateusz Decewicz</strong> 3:4, 4:3, 9:11</p>\n<h2>FINAŁ</h2>\n<p>Patryk Flisek – <strong>Mateusz Decewicz</strong> 3:4, 4:2, 8:10</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-otwocka-2026-5638/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-otwocka-2026-5638/wyniki",
+      "source": "PLT",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "mazowieckie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "44767f1d608cc7f987c1168dddee323e7d9cb546193b3f5f7673884d4f666636"
+    },
+    {
+      "id": "plt:5640",
+      "title": "Lublin: Bartłomiej Bogusz triumfuje w turnieju Otwarte Jesienne Mistrzostwa Lublina 2026",
+      "content": "<p>W dniu 10 października 2026 w miejscowości Lublin rozegrano turniej <em>„Otwarte Jesienne Mistrzostwa Lublina 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Bartłomiej Bogusz</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Bartłomiej Bogusz</strong> – Grzegorz Bucior 4:0, 4:1<br>\nFranek Malinowski – <strong>Damian Głowacki</strong> 0:6, 0:6 (walkower)<br>\n<strong>Bartłomiej Bogusz</strong> – Franek Malinowski 4:1, 4:1<br>\n<strong>Grzegorz Bucior</strong> – Damian Głowacki 4:3, 4:0<br>\n<strong>Bartłomiej Bogusz</strong> – Damian Głowacki 4:0, 4:1<br>\n<strong>Grzegorz Bucior</strong> – Franek Malinowski 4:2, 4:0</p>\n<h2>Grupa B</h2>\n<p><strong>Jarosław Gardyszewski</strong> – Michał Jędrejek 4:1, 4:0<br>\n<strong>Jarosław Gardyszewski</strong> – Patryk Siek 4:3, 4:1<br>\nMichał Jędrejek – <strong>Patryk Siek</strong> 2:4, 2:4</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Bartłomiej Bogusz</strong> – Patryk Siek 4:1, 4:1<br>\n<strong>Jarosław Gardyszewski</strong> – Grzegorz Bucior 4:1, 4:2</p>\n<h2>FINAŁ</h2>\n<p><strong>Bartłomiej Bogusz</strong> – Jarosław Gardyszewski 4:1, 0:4, 10:7</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-lublina-2026-5640/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-lublina-2026-5640/wyniki",
+      "source": "PLT",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "lubelskie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "7bd28b304c540ce31fcbdf924cc05843d489f154840b49e0fe3c39f819568284"
+    },
+    {
+      "id": "plt:5662",
+      "title": "Kamień: Mateusz Łach triumfuje w turnieju Aktywniaki Cup - Zakończenie Sezonu 2026",
+      "content": "<p>W dniu 10 października 2026 w miejscowości Kamień rozegrano turniej <em>„Aktywniaki Cup - Zakończenie Sezonu 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Mateusz Łach</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Mateusz Łach</strong> – Dominik Woźniak 4:0, 4:0<br>\n<strong>Mateusz Łach</strong> – Damian Gumieniak 4:0, 4:2<br>\nDominik Woźniak – <strong>Damian Gumieniak</strong> 4:2, 3:4, 12:14</p>\n<h2>Grupa B</h2>\n<p><strong>Michał Holko</strong> – Mateusz Żak 4:1, 4:0<br>\nMichał Holko – <strong>Mateusz Jagoda</strong> 1:4, 2:4<br>\nMateusz Żak – <strong>Mateusz Jagoda</strong> 3:4, 0:4</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Mateusz Łach</strong> – Michał Holko 4:1, 4:0<br>\n<strong>Mateusz Jagoda</strong> – Damian Gumieniak 4:3, 4:2</p>\n<h2>FINAŁ</h2>\n<p><strong>Mateusz Łach</strong> – Mateusz Jagoda 4:0, 4:0</p>\n<h2>Mecz o 3. miejsce</h2>\n<p><strong>Michał Holko</strong> – Damian Gumieniak 4:3, 4:0</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-cup-zakonczenie-sezonu-2026-5662/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-cup-zakonczenie-sezonu-2026-5662/wyniki",
+      "source": "PLT",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-10",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "wielkopolskie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "9bc72ecb8b2dbba1b3ebc47632a41af03c23dda58d3bc4638ec1787db86ad830"
+    },
+    {
+      "id": "cuply:104",
+      "title": "Szczecin: Karol Gajo triumfuje w turnieju Cuply Challenger Szczecin Tennis Arena - dla średniozaawansowanych do 4.0 NTRP",
+      "content": "<p>W dniu 11 października 2026 na obiekcie Tennis Arena, Szczecin (Szczecin) rozegrano turniej <em>„Cuply Challenger Szczecin Tennis Arena - dla średniozaawansowanych do 4.0 NTRP”</em> w kategorii Singiel; Cuply Challenger dla średniozaawansowanych (do 4.0 NTRP). Zawody były częścią cyklu Cuply. W turnieju triumfuje <strong>Karol Gajo</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Karol Gajo</strong> – Kacper Hemperek 4:2, 4:3<br>\nSebastian Padula – <strong>Arkadiusz Margula</strong> 3:4, 4:3, 4:10<br>\n<strong>Arkadiusz Margula</strong> – Kacper Hemperek 4:1, 0:4, 11:9<br>\nSebastian Padula – <strong>Karol Gajo</strong> 1:4, 1:4<br>\n<strong>Arkadiusz Margula</strong> – Karol Gajo 4:1, 1:4, 10:8<br>\n<strong>Sebastian Padula</strong> – Kacper Hemperek 4:2, 4:2</p>\n<h2>Grupa B</h2>\n<p><strong>Aleksander Krasiński</strong> – Maciej Konieczny 4:3, 4:3<br>\n<strong>Edgar Koniecki</strong> – Jacek Turczyński 3:4, 4:2, 10:4<br>\nMaciej Konieczny – <strong>Jacek Turczyński</strong> 0:4, 1:4<br>\nAleksander Krasiński – <strong>Edgar Koniecki</strong> 4:0, 3:4, 7:10<br>\nMaciej Konieczny – <strong>Edgar Koniecki</strong> 0:4, 2:4<br>\nAleksander Krasiński – <strong>Jacek Turczyński</strong> 4:3, 0:4, 10:12</p>\n<h2>Grupa C</h2>\n<p><strong>Wojciech Kotowski</strong> – Tomasz Burkowski 1:4, 4:1, 10:7<br>\nJulia Ankudowicz – <strong>Rafal Maleńczyk</strong> 1:4, 0:4<br>\n<strong>Wojciech Kotowski</strong> – Rafal Maleńczyk 4:2, 4:2<br>\n<strong>Julia Ankudowicz</strong> – Tomasz Burkowski 4:0, 4:2<br>\n<strong>Wojciech Kotowski</strong> – Julia Ankudowicz 4:2, 4:2<br>\n<strong>Rafal Maleńczyk</strong> – Tomasz Burkowski 4:2, 1:4, 10:8</p>\n<h2>Grupa D</h2>\n<p>Marceli Śniadecki – <strong>Martyna Feherpataky</strong> 3:4, 3:4<br>\n<strong>Mateusz Stępień</strong> – Bartosz Ludwinek 4:3, 4:2<br>\nMarceli Śniadecki – <strong>Mateusz Stępień</strong> 4:3, 3:4, 7:10<br>\n<strong>Bartosz Ludwinek</strong> – Martyna Feherpataky 4:3, 4:1<br>\n<strong>Mateusz Stępień</strong> – Martyna Feherpataky 4:0, 4:3<br>\n<strong>Marceli Śniadecki</strong> – Bartosz Ludwinek 4:3, 2:4, 10:7</p>\n<h2>Ćwierćfinały</h2>\n<p><strong>Karol Gajo</strong> – Jacek Turczyński 4:1, 4:3<br>\n<strong>Wojciech Kotowski</strong> – Bartosz Ludwinek 4:1, 4:3<br>\n<strong>Edgar Koniecki</strong> – Arkadiusz Margula 4:1, 1:4, 10:7<br>\n<strong>Mateusz Stępień</strong> – Rafal Maleńczyk 4:1, 4:0</p>\n<h2>Półfinały</h2>\n<p><strong>Karol Gajo</strong> – Wojciech Kotowski 4:2, 4:2<br>\nEdgar Koniecki – <strong>Mateusz Stępień</strong> 4:1, 3:4, 8:10</p>\n<h2>Finał</h2>\n<p><strong>Karol Gajo</strong> – Mateusz Stępień 4:1, 1:4, 10:7</p>\n<p>Źródło: <a href=\"https://cuply.pl/turnieje/cuply-challenger-szczecin-tennis-arena-i-dla-sredniozaawansowanych-do-40-ntrp\">Cuply — wyniki turnieju</a>.</p>",
+      "source_url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-tennis-arena-i-dla-sredniozaawansowanych-do-40-ntrp",
+      "source": "Cuply",
+      "date_start": "2026-10-11",
+      "date_end": "2026-10-11",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "Cuply",
+      "tags": [
+        "Cuply"
+      ],
+      "fingerprint": "ca7aaae79edc8b8639775f196f28f7362a9ad32789c77caaaff5644586ae82fa"
+    },
+    {
+      "id": "kluby:11389",
+      "title": "Warszawa: Godlewski Piotr, Rudnicki Mariusz triumfują w turnieju Debel 35+ Masters",
+      "content": "<p>W dniu 11 października 2026 na obiekcie TKKF Wars, Warszawa (Warszawa) rozegrano turniej <em>„Debel 35+ Masters”</em> w kategorii DEBEL. W turnieju triumfuje para <strong>Godlewski Piotr, Rudnicki Mariusz</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Osiak Mariusz, Osiak Dariusz</strong> – Obuchowicz Tomasz, Wróbel Michał 6/1<br>\n<strong>Chłopik Jakub, Wojciechowski Filip</strong> – Piorun Mariusz, Gomułka Marceli 6/3<br>\n<strong>Osiak Mariusz, Osiak Dariusz</strong> – Piorun Mariusz, Gomułka Marceli 6/3<br>\n<strong>Chłopik Jakub, Wojciechowski Filip</strong> – Obuchowicz Tomasz, Wróbel Michał 6/1<br>\nOsiak Mariusz, Osiak Dariusz – <strong>Chłopik Jakub, Wojciechowski Filip</strong> 3/6<br>\nPiorun Mariusz, Gomułka Marceli – <strong>Obuchowicz Tomasz, Wróbel Michał</strong> 5/7</p>\n<h2>Grupa B</h2>\n<p><strong>Godlewski Piotr, Rudnicki Mariusz</strong> – Niewiadomski Michał, Barlik Artur 6/0<br>\n<strong>Barwikowski Marcin, Sitarz Rafał</strong> – Sośnicki Maciej, Poroszewski Marcin 7/5<br>\n<strong>Godlewski Piotr, Rudnicki Mariusz</strong> – Sośnicki Maciej, Poroszewski Marcin 6/2<br>\n<strong>Barwikowski Marcin, Sitarz Rafał</strong> – Niewiadomski Michał, Barlik Artur 6/2<br>\nGodlewski Piotr, Rudnicki Mariusz – <strong>Barwikowski Marcin, Sitarz Rafał</strong> 2/6<br>\n<strong>Sośnicki Maciej, Poroszewski Marcin</strong> – Niewiadomski Michał, Barlik Artur 6/3</p>\n<h2>1/2 finału</h2>\n<p>Chłopik Jakub, Wojciechowski Filip – <strong>Godlewski Piotr, Rudnicki Mariusz</strong> 2/6<br>\n<strong>Osiak Mariusz, Osiak Dariusz</strong> – Barwikowski Marcin, Sitarz Rafał 6/2</p>\n<h2>finał</h2>\n<p><strong>Godlewski Piotr, Rudnicki Mariusz</strong> – Osiak Mariusz, Osiak Dariusz 7/5</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11389\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11389",
+      "source": "Kluby.org",
+      "date_start": "2026-10-11",
+      "date_end": "2026-10-11",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "32c5b60582e0048ec21466948c93505a58ee7c6379ce8de7d02e89f28a8bc30e"
+    },
+    {
+      "id": "kluby:12261",
+      "title": "Indywidualny turniej dla początkujących — wyniki (2026-10-11)",
+      "content": "<p>W dniu 11 października 2026 na obiekcie Klub Sportowy Masters, Mińsk Mazowiecki (Mińsk Mazowiecki) rozegrano turniej <em>„Indywidualny turniej dla początkujących”</em> w kategorii OPEN. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12261\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12261",
+      "source": "Kluby.org",
+      "date_start": "2026-10-11",
+      "date_end": "2026-10-11",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "OPEN: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "4bbb36876445e8c858d7c5403ccf43dc33da19f3725d5289f6e42fb2837acc87"
+    },
+    {
+      "id": "kluby:12328",
+      "title": "Sopot: Kowalski Robert triumfuje w turnieju Ziaja Grand Prix Wybrzeża +50",
+      "content": "<p>W dniach 10–11 października 2026 na obiekcie Sopot Tenis Klub, Sopot (Sopot) rozegrano turniej <em>„Ziaja Grand Prix Wybrzeża +50”</em> w kategorii SENIORZY +50. W turnieju triumfuje <strong>Kowalski Robert</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>1/8 finału</h2>\n<p>Pedrycz Wiesław – <strong>Piętka Jacek</strong> 3/6 0/6<br>\nPietras Artur – <strong>Smętek Mariusz</strong> 2/6 3/6</p>\n<h2>1/4 finału</h2>\n<p><strong>Kowalski Robert</strong> – Błaszczyk Piotr 6/0 6/0<br>\nZając Jan – <strong>Piętka Jacek</strong> 4/6 1/6<br>\n<strong>Smętek Mariusz</strong> – Tymieniecki Marek 6/3 6/4<br>\nFrąckiewicz Sylwester – <strong>Wrona Tomasz</strong> 0/6 2/6</p>\n<h2>1/2 finału</h2>\n<p><strong>Kowalski Robert</strong> – Piętka Jacek 6/3 6/3<br>\nSmętek Mariusz – <strong>Wrona Tomasz</strong> 3/6 3/6</p>\n<h2>finał</h2>\n<p><strong>Kowalski Robert</strong> – Wrona Tomasz walkower</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12328\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12328",
+      "source": "Kluby.org",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "6f4ebdc4cf21d20409deae0926d72426daa15bd918138a75cafaa08b02ee80e0"
+    },
+    {
+      "id": "kluby:12329",
+      "title": "ZIAJA Grand Prix Wybrzeża Open cykl turniejów organizowanych przez Sopot Tenis Klub - GAT Gdańsk — wyniki (2026-10-10)",
+      "content": "<p>W dniach 10–11 października 2026 na obiekcie GDAŃSKA AKADEMIA TENISOWA (Gdańsk) rozegrano turniej <em>„ZIAJA Grand Prix Wybrzeża Open cykl turniejów organizowanych przez Sopot Tenis Klub - GAT Gdańsk”</em> w kategorii OPEN. Zawody były częścią cyklu Ziaja Grand Prix Wybrzeża. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12329\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12329",
+      "source": "Kluby.org",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "OPEN: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "pomorskie",
+      "cycle": "Ziaja Grand Prix Wybrzeża",
+      "tags": [
+        "Grand Prix Wybrzeża"
+      ],
+      "fingerprint": "ee9fd4245384629363a151033bd2bd48eadd074eb72a2e56cc7915929d4140fd"
+    },
+    {
+      "id": "plt:5623",
+      "title": "Starachowice: Kacper Faliszewski triumfuje w turnieju AS Tenis Challenge 2026",
+      "content": "<p>W dniu 11 października 2026 w miejscowości Starachowice rozegrano turniej <em>„AS Tenis Challenge 2026”</em> w kategorii 2. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Kacper Faliszewski</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Dawid Półtorak</strong> – Filip Borowiec 4:2, 4:1<br>\n<strong>Wiktoria Wąchocka</strong> – Maciej Dziubiński 4:3, 0:4, 10:8<br>\n<strong>Dawid Półtorak</strong> – Wiktoria Wąchocka 4:1, 4:1<br>\n<strong>Filip Borowiec</strong> – Maciej Dziubiński 4:1, 4:0<br>\n<strong>Dawid Półtorak</strong> – Maciej Dziubiński 4:1, 2:4, 10:7<br>\n<strong>Filip Borowiec</strong> – Wiktoria Wąchocka 4:3, 4:0</p>\n<h2>Grupa B</h2>\n<p>Ryszard Iwan – <strong>Konrad Kuziak</strong> 0:4, 0:4 (walkower)<br>\nRyszard Iwan – <strong>Roman Kowalski</strong> 0:4, 0:4 (walkower)<br>\nKonrad Kuziak – <strong>Roman Kowalski</strong> 0:4, 2:4</p>\n<h2>Grupa C</h2>\n<p>Łukasz Bakalarczyk – <strong>Kacper Faliszewski</strong> 2:4, 2:4<br>\n<strong>Łukasz Bakalarczyk</strong> – Piotr Mirkowski 4:0, 4:0<br>\n<strong>Kacper Faliszewski</strong> – Piotr Mirkowski 4:3, 4:0</p>\n<h2>1/4 FINAŁU</h2>\n<p><strong>Roman Kowalski</strong> – Piotr Mirkowski 4:0, 4:0 (walkower)<br>\n<strong>Łukasz Bakalarczyk</strong> – Konrad Kuziak 4:1, 4:1<br>\n<strong>Kacper Faliszewski</strong> – Filip Borowiec 4:2, 4:2<br>\n<strong>Dawid Półtorak</strong> – Wiktoria Wąchocka 3:4, 4:2, 12:10</p>\n<h2>1/2 FINAŁU</h2>\n<p>Roman Kowalski – <strong>Łukasz Bakalarczyk</strong> 3:4, 1:4<br>\n<strong>Kacper Faliszewski</strong> – Dawid Półtorak 4:0, 4:1</p>\n<h2>FINAŁ</h2>\n<p>Łukasz Bakalarczyk – <strong>Kacper Faliszewski</strong> 1:4, 1:4</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-as-tenis-challenge-2026-5623/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-as-tenis-challenge-2026-5623/wyniki",
+      "source": "PLT",
+      "date_start": "2026-10-11",
+      "date_end": "2026-10-11",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "3b72510a15781c48cd57f7849f0b94184adfe09c89de313fc40b689e51082e26"
+    },
+    {
+      "id": "pzt:957A652D-7171-45AB-8847-2952469ED47C",
+      "title": "\"Quaglia Cup\" TENIS CLUB KK \"ZIMA 2026/27\", Kędzierzyński Klub Tenisowy — wyniki (2026-10-10)",
+      "content": "<p>W dniach 10–11 października 2026 w miejscowości KEDZIERZYN-KOZLE rozegrano turniej <em>„&quot;Quaglia Cup&quot; TENIS CLUB KK &quot;ZIMA 2026/27&quot;, Kędzierzyński Klub Tenisowy”</em> w kategorii Open. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p><strong>Rybiński Grzegorz</strong> – Kerner Adam 3:6 6:4 10:8<br>\n<strong>Antosiak Tomasz</strong> – Rybiński Grzegorz 6:2 6:4<br>\n<strong>Antosiak Tomasz</strong> – Kerner Adam 6:4 6:3<br>\n<strong>Rybiński Grzegorz</strong> – Kozielski Jakub 6:3 6:4<br>\n<strong>Kerner Adam</strong> – Kozielski Jakub 6:3 6:4<br>\n<strong>Antosiak Tomasz</strong> – Kozielski Jakub 6:2 6:2<br>\n<strong>Stochaj Marek</strong> – Rybiński Grzegorz 6:3 6:2<br>\n<strong>Stochaj Marek</strong> – Kerner Adam 6:3 6:2<br>\n<strong>Antosiak Tomasz</strong> – Stochaj Marek 7:5 6:2<br>\n<strong>Stochaj Marek</strong> – Kozielski Jakub 6:2 6:3</p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=957A652D-7171-45AB-8847-2952469ED47C\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=957A652D-7171-45AB-8847-2952469ED47C",
+      "source": "PZT TOP",
+      "date_start": "2026-10-10",
+      "date_end": "2026-10-11",
+      "ready": false,
+      "issues": [
+        "Turniej grupowy bez pojedynczego finału — news wymaga kontroli redakcyjnej"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "252592e0d643a7cda9f54919697b6dfd2adc456b0830492018cd32ad2617789a"
+    },
+    {
+      "id": "pzt:C104F56A-D4CC-4991-9436-6A942E024CF8",
+      "title": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/ — wyniki (2026-10-11)",
+      "content": "<p>W dniu 11 października 2026 w miejscowości PIASECZNO rozegrano turniej <em>„SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/”</em> w kategorii 60+, 70+, 80+. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;Male=&amp;TournamentID=C104F56A-D4CC-4991-9436-6A942E024CF8\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=C104F56A-D4CC-4991-9436-6A942E024CF8",
+      "source": "PZT TOP",
+      "date_start": "2026-10-11",
+      "date_end": "2026-10-11",
+      "ready": false,
+      "issues": [
+        "805C789F-6280-4C07-A6E2-D8A45595DD2E: Nie znaleziono tabeli meczów",
+        "Brak wyników meczów",
+        "D4C8A53C-C49A-4ADB-A540-21D3A13CDEA3: Nie znaleziono tabeli meczów",
+        "D9D12658-B08F-4C08-9F56-D7F60A0E4EA0: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "76c1367d2d126b8e5f11e3d9f6e2729de4662ba3d67797edb7d937f5edcbde53"
     }
   ]
 }
