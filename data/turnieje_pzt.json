@@ -1,7 +1,7 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-13T11:50:33+00:00",
+  "pobrano_utc": "2026-10-14T09:32:58+00:00",
   "liczba_turniejow": 15,
   "turnieje": [
     {
@@ -31,7 +31,7 @@
       "data_do": "2026-10-16",
       "miasto": "PIASECZNO",
       "ranga": "3",
-      "kategorie": "75+",
+      "kategorie": "70+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=B9FBC2D9-DE8B-40FB-B633-4C0E1D4D05B5"
     },
     {

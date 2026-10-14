@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-10-13T11:50:34+00:00",
+  "pobrano_utc": "2026-10-14T09:32:59+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Ladies Stargard - turniej dla kobiet",
+      "nazwa": "Cuply Ladies Stargard - Otwarte Mistrzostwa Kobiet",
       "data_od": "2026-11-07",
       "data_do": "2026-11-07",
       "miasto": "Stargard",
@@ -87,8 +87,8 @@
       "nazwa": "Otwarte Mistrzostwa Lubuskiego dla średniozaawansowanych do 4.0 NTRP",
       "data_od": "2026-11-07",
       "data_do": "2026-11-07",
-      "miasto": "—",
-      "miejsce": "—",
+      "miasto": "Zielona Góra",
+      "miejsce": "Zielona Góra",
       "typ_gry": "",
       "poziom": "",
       "plec": "",
@@ -123,11 +123,11 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Finały - I edycja",
+      "nazwa": "Cuply Challenger Finały - Lato 2026",
       "data_od": "2026-11-14",
-      "data_do": "2026-11-21",
-      "miasto": "Szczecin lub Stargard",
-      "miejsce": "Szczecin lub Stargard",
+      "data_do": "2026-11-14",
+      "miasto": "Stargard",
+      "miejsce": "Stargardzki Ośrodek Tenisowy SOT, Stargard",
       "typ_gry": "",
       "poziom": "",
       "plec": "",

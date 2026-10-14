@@ -1,15 +1,5 @@
 {
-  "aktualizacja_utc": "2026-10-13T11:52:37+00:00",
-  "liczba_nierozpoznanych_miast": 2,
-  "miasta": [
-    {
-      "miasto": "Szczecin lub Stargard",
-      "powod": "brak_jednoznacznego_wojewodztwa",
-      "dowody": []
-    },
-    {
-      "miasto": "—",
-      "powod": "brak_miasta"
-    }
-  ]
+  "aktualizacja_utc": "2026-10-14T09:35:03+00:00",
+  "liczba_nierozpoznanych_miast": 0,
+  "miasta": []
 }
