@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-14T09:32:58+00:00",
-  "liczba_turniejow": 15,
+  "pobrano_utc": "2026-10-15T09:10:33+00:00",
+  "liczba_turniejow": 16,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -83,6 +83,16 @@
       "ranga": "3",
       "kategorie": "60+, 70+, 80+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=0115B9F4-EA2E-4E09-BCCC-505806B8CDAB"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "Grand Prix Stalowej Woli Amatorów",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-08",
+      "miasto": "Stalowa Wola",
+      "ranga": "3",
+      "kategorie": "Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=D1B7889D-BC88-497D-B1FD-7EE03998D30C"
     },
     {
       "zrodlo": "PZT TOP",

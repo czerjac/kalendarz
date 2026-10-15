@@ -1,13 +1,13 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-14T09:33:16+00:00",
-  "liczba_turniejow": 53,
+  "pobrano_utc": "2026-10-15T09:10:52+00:00",
+  "liczba_turniejow": 55,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund?incoming=true",
-      "liczba": 3
+      "liczba": 4
     },
     {
       "kategoria": "1. Liga",
@@ -22,7 +22,7 @@
     {
       "kategoria": "PLT Kobiet",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/lista-rund?incoming=true",
-      "liczba": 3
+      "liczba": 4
     },
     {
       "kategoria": "Deble i Miksty",
@@ -73,24 +73,6 @@
       "data_do": "2026-10-17",
       "miasto": "Oleśnica",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-olesnica-last-dance-cup-2026-5664"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Stargardu 2026",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-17",
-      "miasto": "Stargard",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-stargardu-2026-5646"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "PLT Kobiet",
-      "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Stargardu 2026",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-17",
-      "miasto": "Stargard",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-stargardu-2026-5647"
     },
     {
       "zrodlo": "PLT",
@@ -181,15 +163,6 @@
       "data_do": "2026-10-18",
       "miasto": "Włocławek",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-wloclawka-2026-kwalifikacje-do-krajowych-mistrzostw-5636"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "PLT Kobiet",
-      "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Łodzi 2026",
-      "data_od": "2026-10-18",
-      "data_do": "2026-10-18",
-      "miasto": "Łódź",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-lodzi-2026-5661"
     },
     {
       "zrodlo": "PLT",
@@ -292,12 +265,12 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Mistrzostwa Soboty 2026",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Mistrzostwa Soboty 2026",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
       "miasto": "Sobota k. Poznania",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-mistrzostwa-soboty-2026-5673"
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-mistrzostwa-soboty-2026-5701"
     },
     {
       "zrodlo": "PLT",
@@ -337,6 +310,15 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "PLT Kobiet",
+      "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Łodzi 2026",
+      "data_od": "2026-10-25",
+      "data_do": "2026-10-25",
+      "miasto": "Łódź",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-lodzi-2026-5661"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Krakowa 2026",
       "data_od": "2026-10-31",
@@ -370,6 +352,51 @@
       "data_do": "2026-11-01",
       "miasto": "Warszawa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-st-tie-break-2026-5689"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Jesienny Turniej w Rakietmanii 2026",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-07",
+      "miasto": "Lublin",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-rakietmanii-2026-5708"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Prestige Court Cup II 2026",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Otwock",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-prestige-court-cup-ii-2026-5704"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Prestige Court Cup II 2026",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Otwock",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-prestige-court-cup-ii-2026-5705"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Piaseczna 2026",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Piaseczno",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5702"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Piaseczna 2026",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Piaseczno",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5703"
     },
     {
       "zrodlo": "PLT",
@@ -436,24 +463,6 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Ożarowa Mazowieckiego 2026",
-      "data_od": "2026-11-15",
-      "data_do": "2026-11-15",
-      "miasto": "Ożarów Mazowiecki",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5614"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Singlowe Weekendy w Rudawa Tennis Club V 2026",
-      "data_od": "2026-11-15",
-      "data_do": "2026-11-15",
-      "miasto": "Rudawa k. Krakowa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-singlowe-weekendy-w-rudawa-tennis-club-v-2026-5644"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "Deble i Miksty",
       "nazwa": "MIKST. Grand Prix SPIN-u II 2026",
       "data_od": "2026-11-15",
@@ -463,12 +472,12 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Jesienne Mistrzostwa Tarnowa 2026",
-      "data_od": "2026-11-21",
-      "data_do": "2026-11-21",
-      "miasto": "Tarnów",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-tarnowa-2026-5670"
+      "kategoria": "PLT Kobiet",
+      "nazwa": "PLT KOBIET. Jesienny Turniej o Puchar Startu 2026",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Łódź",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-jesienny-turniej-o-puchar-startu-2026-5694"
     },
     {
       "zrodlo": "PLT",
@@ -481,12 +490,12 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Jesienny Turniej o Puchar Peruna 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Warszawa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-peruna-2026-5583"
+      "kategoria": "PLT Kobiet",
+      "nazwa": "PLT KOBIET. Start Łódż Cup 2026",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Łódź",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-start-lodz-cup-2026-5697"
     },
     {
       "zrodlo": "PLT",
@@ -505,6 +514,15 @@
       "data_do": "2026-12-13",
       "miasto": "Rzeszów",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-iii-2026-5631"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "Puchar PLT",
+      "nazwa": "PUCHAR PLT. Jesienne Mistrzostwa Łodzi 2026",
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13",
+      "miasto": "Łódź",
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-jesienne-mistrzostwa-lodzi-2026-5698"
     },
     {
       "zrodlo": "PLT",

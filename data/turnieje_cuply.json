@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-10-14T09:32:59+00:00",
+  "pobrano_utc": "2026-10-15T09:10:35+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -84,16 +84,16 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Otwarte Mistrzostwa Lubuskiego dla średniozaawansowanych do 4.0 NTRP",
+      "nazwa": "Otwarte Mistrzostwa Zielonej Góry dla średniozaawansowanych do 4.0 NTRP",
       "data_od": "2026-11-07",
       "data_do": "2026-11-07",
       "miasto": "Zielona Góra",
-      "miejsce": "Zielona Góra",
+      "miejsce": "Przytok Tennis Club, Zielona Góra",
       "typ_gry": "",
       "poziom": "",
       "plec": "",
       "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-lubuskiego-dla-sredniozaawansowanych-do-40-ntrp"
+      "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-zielonej-gory-dla-sredniozaawansowanych-do-40-ntrp"
     },
     {
       "zrodlo": "Cuply",
