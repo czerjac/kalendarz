@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-10-15T09:10:35+00:00",
+  "pobrano_utc": "2026-10-16T09:03:21+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -84,19 +84,6 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "Otwarte Mistrzostwa Zielonej Góry dla średniozaawansowanych do 4.0 NTRP",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Zielona Góra",
-      "miejsce": "Przytok Tennis Club, Zielona Góra",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-zielonej-gory-dla-sredniozaawansowanych-do-40-ntrp"
-    },
-    {
-      "zrodlo": "Cuply",
       "nazwa": "Cuply Challenger Szczecin - Turniej Deblowy do 4.0 NTRP",
       "data_od": "2026-11-08",
       "data_do": "2026-11-08",
@@ -133,6 +120,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-finaly-i-edycja"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Masters Finały - Lato 2026",
+      "data_od": "2026-11-14",
+      "data_do": "2026-11-14",
+      "miasto": "Stargard",
+      "miejsce": "Stargardzki Ośrodek Tenisowy SOT, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-masters-finaly-i-edycja"
     }
   ]
 }

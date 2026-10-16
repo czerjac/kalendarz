@@ -1,19 +1,19 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-15T09:11:03+00:00",
-  "liczba_turniejow": 51,
+  "pobrano_utc": "2026-10-16T09:03:52+00:00",
+  "liczba_turniejow": 59,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 46
+      "liczba": 50
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 15
+      "liczba": 17
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
-      "liczba": 3
+      "liczba": 5
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-01-01&data_do=2027-01-31&zakladka=0",
@@ -60,8 +60,18 @@
       "data_do": "2026-10-17",
       "miasto": "Warszawa",
       "miejsce": "ST NET, Warszawa",
-      "kategorie": "JUNIORZY U12 JUNIORZY U14 JUNIORZY U16 JUNIORZY U18",
+      "kategorie": "JUNIORZY U12 JUNIORZY U14 JUNIORZY U16",
       "url": "https://kluby.org/turnieje/12360"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Jesień by WKT Mera Kids II",
+      "data_od": "2026-10-17",
+      "data_do": "2026-10-17",
+      "miasto": "Warszawa",
+      "miejsce": "WKT Mera, Warszawa",
+      "kategorie": "TENIS10 CZERWONA (XSRED)",
+      "url": "https://kluby.org/turnieje/12374"
     },
     {
       "zrodlo": "Kluby.org",
@@ -82,6 +92,16 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12116"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Rozpoczęcie sezonu zimowego - Turniej Amatorski Halowy",
+      "data_od": "2026-10-18",
+      "data_do": "2026-10-18",
+      "miasto": "Kielce",
+      "miejsce": "KT Wschodnia Kielce, Kielce",
+      "kategorie": "OPEN KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/12375"
     },
     {
       "zrodlo": "Kluby.org",
@@ -162,6 +182,26 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12293"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "IT4 POLSKA Challenge 2026 - Masters",
+      "data_od": "2026-10-24",
+      "data_do": "2026-10-24",
+      "miasto": "Wyszków",
+      "miejsce": "Tenis w Rybienku Leśnym, Wyszków",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12367"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Debelowa Niedziela w Strefie — turniej deblowy",
+      "data_od": "2026-10-25",
+      "data_do": "2026-10-25",
+      "miasto": "Góra Kalwaria",
+      "miejsce": "Strefa Aktywności Góra Kalwaria, Góra Kalwaria",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12366"
     },
     {
       "zrodlo": "Kluby.org",
@@ -345,6 +385,26 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "OLSZYNKA MIKST - 50+",
+      "data_od": "2026-11-28",
+      "data_do": "2026-11-28",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Olszynka, Warszawa",
+      "kategorie": "DEBEL MIKST +50",
+      "url": "https://kluby.org/turnieje/12370"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "OLSZYNKA MIKST - Open",
+      "data_od": "2026-11-28",
+      "data_do": "2026-11-28",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Olszynka, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12369"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Perun Kids Cup",
       "data_od": "2026-11-28",
       "data_do": "2026-11-28",
@@ -392,6 +452,26 @@
       "miejsce": "TKKF Wars, Warszawa",
       "kategorie": "DEBEL",
       "url": "https://kluby.org/turnieje/12090"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES GPM Mikst Cup",
+      "data_od": "2026-12-12",
+      "data_do": "2026-12-12",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12371"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES Single Cup kat. CLUB/ CLUB+ - wewnętrzny turniej dla Klubowiczów",
+      "data_od": "2026-12-12",
+      "data_do": "2026-12-12",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12372"
     },
     {
       "zrodlo": "Kluby.org",
