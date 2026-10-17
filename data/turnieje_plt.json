@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-16T09:03:40+00:00",
+  "pobrano_utc": "2026-10-17T08:35:55+00:00",
   "liczba_turniejow": 56,
   "kategorie_sprawdzone": [
     {
@@ -38,33 +38,6 @@
   "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Podleśna Cup - Zakończenie Sezonu 2026",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-17",
-      "miasto": "Gdańsk",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-podlesna-cup-zakonczenie-sezonu-2026-5187"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Podleśna Cup - Zakończenie Sezonu 2026",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-17",
-      "miasto": "Gdańsk",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-podlesna-cup-zakonczenie-sezonu-2026-5188"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Oleśnica Last Dance Cup 2026",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-17",
-      "miasto": "Oleśnica",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-olesnica-last-dance-cup-2026-5664"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
@@ -121,15 +94,6 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Teho Cup I 2026",
-      "data_od": "2026-10-18",
-      "data_do": "2026-10-18",
-      "miasto": "Trzebownisko",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-i-2026-5675"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "Puchar PLT",
       "nazwa": "PUCHAR PLT. Perun Wesoła Open 2026",
       "data_od": "2026-10-18",
@@ -140,20 +104,11 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Włocławka 2026",
-      "data_od": "2026-10-18",
-      "data_do": "2026-10-18",
-      "miasto": "Włocławek",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-wloclawka-2026-kwalifikacje-do-krajowych-mistrzostw-5636"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Turniej Zakończenia Sezonu na Podleńsnej 2026",
+      "nazwa": "1. LIGA. Zakończenie Sezonu w Kamieniu - Aktywniaki Cup 2026",
       "data_od": "2026-10-24",
       "data_do": "2026-10-24",
-      "miasto": "Gdańsk",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-zakonczenia-sezonu-na-podlensnej-2026-5717"
+      "miasto": "Kamień",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-zakonczenie-sezonu-w-kamieniu-aktywniaki-cup-2026-5718"
     },
     {
       "zrodlo": "PLT",
@@ -320,6 +275,15 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Prestige Court Cup II 2026",
+      "data_od": "2026-10-31",
+      "data_do": "2026-10-31",
+      "miasto": "Otwock",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-prestige-court-cup-ii-2026-5704"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Teho Cup II 2026",
       "data_od": "2026-10-31",
       "data_do": "2026-10-31",
@@ -445,12 +409,30 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Rakietmania - Turniej Niepodlegościowy 2026",
+      "data_od": "2026-11-11",
+      "data_do": "2026-11-11",
+      "miasto": "Lublin",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-rakietmanii-2026-5707"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "Puchar PLT",
       "nazwa": "PUCHAR PLT. Arena Tenisa - Turniej Niepodległościowy 2026",
       "data_od": "2026-11-11",
       "data_do": "2026-11-11",
       "miasto": "Piaseczno",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-arena-tenisa-turniej-niepodleglosciowy-2026-5686"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. S.O.T - Turniej Niepodległościowy 2026",
+      "data_od": "2026-11-11",
+      "data_do": "2026-11-11",
+      "miasto": "Stargard",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-sot-turniej-niepodleglosciowy-2026-5710"
     },
     {
       "zrodlo": "PLT",
@@ -469,6 +451,24 @@
       "data_do": "2026-11-11",
       "miasto": "Stargard",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-sot-turniej-niepodleglosciowy-2026-5712"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Asaja Cup II 2026",
+      "data_od": "2026-11-14",
+      "data_do": "2026-11-14",
+      "miasto": "Rogozino k. Płocka",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-asaja-cup-ii-2026-5716"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Teho Cup II 2026",
+      "data_od": "2026-11-14",
+      "data_do": "2026-11-14",
+      "miasto": "Trzebownisko",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-ii-2026-5681"
     },
     {
       "zrodlo": "PLT",
