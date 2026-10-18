@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-17T08:36:05+00:00",
-  "liczba_turniejow": 58,
+  "pobrano_utc": "2026-10-18T08:52:55+00:00",
+  "liczba_turniejow": 56,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 49
+      "liczba": 50
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -55,33 +55,13 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Grand Prix Mazowsza Juniorzy",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-17",
-      "miasto": "Warszawa",
-      "miejsce": "ST NET, Warszawa",
-      "kategorie": "JUNIORZY U12 JUNIORZY U14 JUNIORZY U16",
-      "url": "https://kluby.org/turnieje/12360"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Jesień by WKT Mera Kids II",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-17",
-      "miasto": "Warszawa",
-      "miejsce": "WKT Mera, Warszawa",
-      "kategorie": "TENIS10 CZERWONA (XSRED)",
-      "url": "https://kluby.org/turnieje/12374"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "TENES GPM Mikst Cup",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-17",
-      "miasto": "Warszawa",
-      "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12115"
+      "nazwa": "TURNIEJ DEBLOWY GAT",
+      "data_od": "2026-10-18",
+      "data_do": "2026-10-18",
+      "miasto": "Garwolin",
+      "miejsce": "Garwolińska Akademia Tenisowa, Garwolin",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12383"
     },
     {
       "zrodlo": "Kluby.org",

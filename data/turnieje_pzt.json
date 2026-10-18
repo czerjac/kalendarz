@@ -1,7 +1,7 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-17T08:35:38+00:00",
+  "pobrano_utc": "2026-10-18T08:52:25+00:00",
   "liczba_turniejow": 15,
   "turnieje": [
     {
@@ -31,7 +31,7 @@
       "data_do": "2026-10-18",
       "miasto": "Radom",
       "ranga": "2",
-      "kategorie": "45+, 60+, Open Amator, Open",
+      "kategorie": "45+, 50+, 60+, Open Amator, Open",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=33496672-4633-4B65-B2DD-11343A2FC8B0"
     },
     {

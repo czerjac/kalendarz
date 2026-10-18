@@ -1,22 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-10-17T08:35:39+00:00",
+  "pobrano_utc": "2026-10-18T08:52:27+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Super Masters ZOOM 1000$ eliminacje 2/3",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-17",
-      "miasto": "Szczecin",
-      "miejsce": "Zoom Tennis Academy, Szczecin",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/super-masters-zoom-1000-eliminacje-23"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "GARDENIA - DUO ZOOM Tenis CUP VIII - turniej deblowy dla początkujących",
@@ -133,6 +120,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-masters-finaly-i-edycja"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Otwarte Mistrzostwa Gorzowa Cuply - dla średniozaawansowanych do 4.0 NTRP",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Gorzów Wielkopolski",
+      "miejsce": "Play To Win Centrum Tenisowe, Gorzów Wielkopolski",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
     }
   ]
 }
