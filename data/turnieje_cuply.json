@@ -1,12 +1,12 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-10-18T08:52:27+00:00",
+  "pobrano_utc": "2026-10-19T09:56:38+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
       "zrodlo": "Cuply",
-      "nazwa": "GARDENIA - DUO ZOOM Tenis CUP VIII - turniej deblowy dla początkujących",
+      "nazwa": "GARDENIA - DUO ZOOM Tenis CUP VIII - turniej deblowy do 4.0 NTRP",
       "data_od": "2026-10-24",
       "data_do": "2026-10-24",
       "miasto": "Szczecin",
@@ -16,19 +16,6 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/gardenia-duo-zoom-tenis-cup-viii"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Futures Stargard - dla początkujących do 2.5 NTRP",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Stargard",
-      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-futures-stargard-ii-do-25-ntrp"
     },
     {
       "zrodlo": "Cuply",
@@ -133,6 +120,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-i"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Stargard 21.11 - dla średniozaawansowanych do 4.0 NTRP",
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-22",
+      "miasto": "Stargard",
+      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-stargard-do-40-ntrp-21-11-2026"
     }
   ]
 }

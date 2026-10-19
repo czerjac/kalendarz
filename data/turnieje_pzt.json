@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-18T08:52:25+00:00",
-  "liczba_turniejow": 15,
+  "pobrano_utc": "2026-10-19T09:56:37+00:00",
+  "liczba_turniejow": 12,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -23,36 +23,6 @@
       "ranga": "4",
       "kategorie": "Open Amator",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "IX Mem. Popielucha i Wesołowskiego",
-      "data_od": "2026-10-16",
-      "data_do": "2026-10-18",
-      "miasto": "Radom",
-      "ranga": "2",
-      "kategorie": "45+, 50+, 60+, Open Amator, Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=33496672-4633-4B65-B2DD-11343A2FC8B0"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "Grand Prix Stalowej Woli Amatorów",
-      "data_od": "2026-10-17",
-      "data_do": "2026-10-18",
-      "miasto": "Stalowa Wola",
-      "ranga": "3",
-      "kategorie": "Open Amator",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=A48FFD5B-C65B-415E-A8D3-954663A7A5DD"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-10-18",
-      "data_do": "2026-10-18",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "60+, 70+, 80+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=B1C3F479-B7DD-4AEC-8CDE-E85F1D6B89E5"
     },
     {
       "zrodlo": "PZT TOP",
