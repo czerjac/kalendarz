@@ -1,53 +1,85 @@
 {
-  "generated_at": "2026-10-13T08:52:53.740183+00:00",
-  "attempted": 26,
+  "generated_at": "2026-10-20T07:04:41.884980+00:00",
+  "attempted": 41,
   "errors": [
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-o-mistrzostwo-klubu-rtt-rzeszow-2026-kwalifikacje-do-krajowych-mistrzostw-5606",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-nowej-sarzyny-2026-5671",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-turniej-o-mistrzostwo-klubu-rtt-rzeszow-2026-kwalifikacje-do-krajowych-mistrzostw-5607",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-podlesna-cup-zakonczenie-sezonu-2026-5187",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-aktywniaki-cup-zakonczenie-sezonu-2026-5662",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-podlesna-cup-zakonczenie-sezonu-2026-5188",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-lublina-2026-5640",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-stargardu-2026-5646",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-otwocka-2026-5638",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-stargardu-2026-5647",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-wloclawka-2026-kwalifikacje-do-krajowych-mistrzostw-5637",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-olesnica-last-dance-cup-2026-5664",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-as-tenis-challenge-2026-5623",
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-perun-wesola-open-2026-5581",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-aktywniaki-cup-zakonczenie-sezonu-2026-5663",
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-2026-5629",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-leszna-2026-5615",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-leszna-2026-5616",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-wloclawka-2026-kwalifikacje-do-krajowych-mistrzostw-5636",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-singlowe-weekendy-w-rudawa-tennis-club-iii-2026-5641",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-prestige-court-2026-5656",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-singlowe-weekendy-w-rudawa-tennis-club-iv-2026-5642",
       "source": "PLT",
       "error": "ValueError"
     }
   ],
-  "ready": 240,
-  "needs_review": 129,
-  "awaiting_adapter": {},
+  "ready": 255,
+  "needs_review": 137,
+  "awaiting_adapter": {
+    "TKKF Skanda": 1
+  },
   "remaining_unfetched_plt": 0,
   "remaining_unfetched_cuply": 9,
-  "remaining_unfetched_kluby": 60,
+  "remaining_unfetched_kluby": 61,
   "remaining_unfetched_pzt": 26
 }
