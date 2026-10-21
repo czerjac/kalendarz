@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-20T09:28:08+00:00",
+  "pobrano_utc": "2026-10-21T09:24:00+00:00",
   "liczba_turniejow": 54,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 52
+      "liczba": 51
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 17
+      "liczba": 18
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -42,16 +42,6 @@
       "miejsce": "",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12200"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Jesienny Turniej Mikstowy Ino-Cup 2026",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Inowrocław",
-      "miejsce": "KCT Masters, Inowrocław",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12353"
     },
     {
       "zrodlo": "Kluby.org",
@@ -302,6 +292,16 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12298"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Liga Juniorów Strefy Sportu Rzeszów",
+      "data_od": "2026-11-16",
+      "data_do": "2026-11-16",
+      "miasto": "Rzeszów",
+      "miejsce": "STREFA SPORTU, Rzeszów",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12389"
     },
     {
       "zrodlo": "Kluby.org",

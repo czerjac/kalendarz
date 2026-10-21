@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-20T09:27:58+00:00",
-  "liczba_turniejow": 54,
+  "pobrano_utc": "2026-10-21T09:23:48+00:00",
+  "liczba_turniejow": 53,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -22,7 +22,7 @@
     {
       "kategoria": "PLT Kobiet",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/lista-rund?incoming=true",
-      "liczba": 5
+      "liczba": 4
     },
     {
       "kategoria": "Deble i Miksty",
@@ -46,6 +46,15 @@
       "data_do": "2026-10-24",
       "miasto": "Lublin",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-lublina-2026-5668"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Turniej Zakończenia Sezonu w Nowej Sarzynie 2026",
+      "data_od": "2026-10-24",
+      "data_do": "2026-10-25",
+      "miasto": "Nowa Sarzyna",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-turniej-zakonczenia-sezonu-w-nowej-sarzynie-2026-5720"
     },
     {
       "zrodlo": "PLT",
@@ -181,15 +190,6 @@
       "data_do": "2026-10-25",
       "miasto": "Łódź",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-lodzi-2026-5660"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "PLT Kobiet",
-      "nazwa": "PLT KOBIET. Otwarte Jesienne Mistrzostwa Łodzi 2026",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Łódź",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-lodzi-2026-5661"
     },
     {
       "zrodlo": "PLT",
@@ -415,15 +415,6 @@
       "data_do": "2026-11-15",
       "miasto": "Otwock",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-prestige-court-2026-5706"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Ożarowa Mazowieckiego 2026",
-      "data_od": "2026-11-15",
-      "data_do": "2026-11-15",
-      "miasto": "Ożarów Mazowiecki",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5614"
     },
     {
       "zrodlo": "PLT",
