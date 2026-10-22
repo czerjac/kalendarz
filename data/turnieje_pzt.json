@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-21T09:23:32+00:00",
-  "liczba_turniejow": 12,
+  "pobrano_utc": "2026-10-22T09:30:07+00:00",
+  "liczba_turniejow": 15,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -56,6 +56,16 @@
     },
     {
       "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9B7BD390-BDD6-4213-85E3-AE8B662D1A72"
+    },
+    {
+      "zrodlo": "PZT TOP",
       "nazwa": "OTWARTY TURNIEJ DEBLOWY",
       "data_od": "2026-11-11",
       "data_do": "2026-11-11",
@@ -86,6 +96,16 @@
     },
     {
       "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9BCCBC4B-7B22-4FF9-A886-CDA244141B72"
+    },
+    {
+      "zrodlo": "PZT TOP",
       "nazwa": "\"Quaglia Cup\" TENIS CLUB KK \"ZIMA 2026/27\"",
       "data_od": "2026-11-28",
       "data_do": "2026-11-29",
@@ -93,6 +113,16 @@
       "ranga": "3",
       "kategorie": "50+, 60+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=EB0A88D5-D047-49B4-B9C2-6D9830751765"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=EDDE49D4-949E-4CCC-AA6B-9B033647BEB5"
     },
     {
       "zrodlo": "PZT TOP",
