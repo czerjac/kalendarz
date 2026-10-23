@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-22T09:30:36+00:00",
-  "liczba_turniejow": 54,
+  "pobrano_utc": "2026-10-23T09:23:01+00:00",
+  "liczba_turniejow": 56,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 51
+      "liczba": 52
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 18
+      "liczba": 19
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -112,6 +112,16 @@
       "miejsce": "Park Tennis Academy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12387"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej wewnętrzny dla klubowiczów WWTC",
+      "data_od": "2026-10-24",
+      "data_do": "2026-10-24",
+      "miasto": "Warszawa",
+      "miejsce": "Warsaw West Tennis Club, Warszawa",
+      "kategorie": "OPEN OPEN OPEN OPEN OPEN",
+      "url": "https://kluby.org/turnieje/12395"
     },
     {
       "zrodlo": "Kluby.org",
@@ -272,6 +282,16 @@
       "miejsce": "TKKF Wars, Warszawa",
       "kategorie": "DEBEL",
       "url": "https://kluby.org/turnieje/12089"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej BGK",
+      "data_od": "2026-11-11",
+      "data_do": "2026-11-11",
+      "miasto": "Warszawa",
+      "miejsce": "WKT Mera, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12394"
     },
     {
       "zrodlo": "Kluby.org",
