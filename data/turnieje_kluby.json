@@ -1,7 +1,7 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-23T09:23:01+00:00",
-  "liczba_turniejow": 56,
+  "pobrano_utc": "2026-10-24T08:54:27+00:00",
+  "liczba_turniejow": 57,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -9,7 +9,7 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 19
+      "liczba": 20
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -125,13 +125,13 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "IT4 POLSKA Challenge 2026 - Masters",
+      "nazwa": "IT4 Polska Challenge 2026 - MASTERS",
       "data_od": "2026-10-24",
       "data_do": "2026-10-24",
       "miasto": "Wyszków",
       "miejsce": "Tenis w Rybienku Leśnym, Wyszków",
       "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12367"
+      "url": "https://kluby.org/turnieje/12397"
     },
     {
       "zrodlo": "Kluby.org",
@@ -312,6 +312,16 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12298"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "♥️AndrUla Cup -drużynówka o puchar Andrzeja i Uli Caruk ♥️",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Warszawa",
+      "miejsce": "Szkoła Tenisa Break, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12398"
     },
     {
       "zrodlo": "Kluby.org",

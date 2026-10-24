@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-23T09:22:44+00:00",
+  "pobrano_utc": "2026-10-24T08:54:16+00:00",
   "liczba_turniejow": 53,
   "kategorie_sprawdzone": [
     {
@@ -40,39 +40,12 @@
   "turnieje": [
     {
       "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Lublina 2026",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Lublin",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-lublina-2026-5668"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Tarnowa 2026",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Tarnów",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-tarnowa-2026-5626"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Jesienne Mistrzostwa Otwocka 2026",
       "data_od": "2026-10-25",
       "data_do": "2026-10-25",
       "miasto": "Otwock",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-otwocka-2026-5658"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Jesienne Mistrzostwa Otwocka 2026",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Otwock",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-otwocka-2026-5685"
     },
     {
       "zrodlo": "PLT",
@@ -145,15 +118,6 @@
       "data_do": "2026-10-25",
       "miasto": "Łódź",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-lodzi-2026-5659"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Łodzi 2026",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Łódź",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-lodzi-2026-5660"
     },
     {
       "zrodlo": "PLT",
@@ -428,6 +392,15 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Teho Cup III 2026",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Trzebownisko",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-iii-2026-5677"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Jesienny Turniej o Puchar Startu 2026",
       "data_od": "2026-11-15",
       "data_do": "2026-11-15",
@@ -469,6 +442,33 @@
       "data_do": "2026-11-21",
       "miasto": "Tarnów",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-jesienne-mistrzostwa-tarnowa-2026-5669"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Smolec k. Wrocławia",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5652"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. AS Tenis Challenge II 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Starachowice",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-as-tenis-challenge-ii-2026-5700"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Jesienny Turniej o Puchar Peruna 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-peruna-2026-5583"
     },
     {
       "zrodlo": "PLT",
