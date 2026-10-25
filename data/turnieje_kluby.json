@@ -1,7 +1,7 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-24T08:54:27+00:00",
-  "liczba_turniejow": 57,
+  "pobrano_utc": "2026-10-25T09:11:13+00:00",
+  "liczba_turniejow": 51,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -9,7 +9,7 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 20
+      "liczba": 22
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -45,16 +45,6 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Turniej o Puchar ASAJA Sport",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Płock",
-      "miejsce": "ASAJA SPORT, Płock",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12364"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "Ziaja Grand Prix Wybrzeża +50",
       "data_od": "2026-10-24",
       "data_do": "2026-10-25",
@@ -62,76 +52,6 @@
       "miejsce": "Sopot Tenis Klub, Sopot",
       "kategorie": "SENIORZY +50",
       "url": "https://kluby.org/turnieje/12379"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "CZTERY PORY ROKU – JESIEŃ 2026",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Warszawa",
-      "miejsce": "Korty Macieja, Warszawa",
-      "kategorie": "OPEN KOBIETY OPEN",
-      "url": "https://kluby.org/turnieje/12350"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Debel Kobiet - Open",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Warszawa",
-      "miejsce": "Spójnia Górna, Warszawa",
-      "kategorie": "DEBEL KOBIETY",
-      "url": "https://kluby.org/turnieje/12177"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "JESIENNY Turniej tenisa Akademii TENES Junior (dla gr. Pomatańczowych, Zielonych, Żółtych)",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Warszawa",
-      "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12292"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Nocowanka w TENES - edycja Halloween",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Warszawa",
-      "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12293"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Park Tennis Academy Open",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Warszawa",
-      "miejsce": "Park Tennis Academy, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12387"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej wewnętrzny dla klubowiczów WWTC",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Warszawa",
-      "miejsce": "Warsaw West Tennis Club, Warszawa",
-      "kategorie": "OPEN OPEN OPEN OPEN OPEN",
-      "url": "https://kluby.org/turnieje/12395"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "IT4 Polska Challenge 2026 - MASTERS",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-24",
-      "miasto": "Wyszków",
-      "miejsce": "Tenis w Rybienku Leśnym, Wyszków",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12397"
     },
     {
       "zrodlo": "Kluby.org",
@@ -275,6 +195,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Indywidualny Turniej Kobiet",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Mińsk Mazowiecki",
+      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
+      "kategorie": "KOBIETY OPEN",
+      "url": "https://kluby.org/turnieje/12399"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
       "data_od": "2026-11-08",
       "data_do": "2026-11-08",
@@ -292,6 +222,16 @@
       "miejsce": "WKT Mera, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12394"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej Mikstowy Ino-Cup 2026",
+      "data_od": "2026-11-14",
+      "data_do": "2026-11-14",
+      "miasto": "Inowrocław",
+      "miejsce": "CT Set Point, Inowrocław",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12401"
     },
     {
       "zrodlo": "Kluby.org",
