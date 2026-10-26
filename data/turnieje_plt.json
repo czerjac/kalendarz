@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-25T09:11:03+00:00",
+  "pobrano_utc": "2026-10-26T10:10:35+00:00",
   "liczba_turniejow": 52,
   "kategorie_sprawdzone": [
     {
@@ -109,6 +109,15 @@
       "data_do": "2026-11-07",
       "miasto": "Lublin",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-rakietmanii-2026-5708"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Baltic Tennis Club Kołobrzeg Sunday Tour 2026",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Kołobrzeg",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-baltic-tennis-club-kolobrzeg-sunday-tour-2026-5725"
     },
     {
       "zrodlo": "PLT",
@@ -265,6 +274,15 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Kazimierzowo Cup 2026",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Elbląg",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-kazimierzowo-cup-2026-5727"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Jesienny Turniej w Prestige Court 2026",
       "data_od": "2026-11-15",
@@ -373,15 +391,6 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Smolec k. Wrocławia",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5651"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
       "data_od": "2026-11-22",
@@ -406,15 +415,6 @@
       "data_do": "2026-11-22",
       "miasto": "Starachowice",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-as-tenis-challenge-ii-2026-5700"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Starogardu Gdańskiego 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Starogard Gdański",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-starogardu-gdanskiego-2026-5648"
     },
     {
       "zrodlo": "PLT",
@@ -455,11 +455,11 @@
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Jesienny Turniej o Puchar Olszynki Grochowskiej 2026",
+      "nazwa": "2. LIGA. Baltic Tennis Club Kołobrzeg Sunday Tour 2026",
       "data_od": "2026-11-29",
       "data_do": "2026-11-29",
-      "miasto": "Warszawa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5667"
+      "miasto": "Kołobrzeg",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-baltic-tennis-club-kolobrzeg-sunday-tour-2026-5726"
     },
     {
       "zrodlo": "PLT",

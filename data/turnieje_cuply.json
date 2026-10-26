@@ -1,22 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-10-25T09:10:47+00:00",
+  "pobrano_utc": "2026-10-26T10:10:17+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Masters Stargard - dla zaawansowanych",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Stargard",
-      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-stargard-masters-ii-zaawansowani-amatorzy"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "Cuply Challenger Stargard - dla średniozaawansowanych do 4.0 NTRP",
@@ -133,6 +120,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-stargard-masters-open"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Otwarte Mistrzostwa Zielonej Góry dla średniozaawansowanych do 4.0 NTRP",
+      "data_od": "2026-11-28",
+      "data_do": "2026-11-28",
+      "miasto": "Zielona Góra",
+      "miejsce": "Przytok Tennis Club, Zielona Góra",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-zielonej-gory-dla-sredniozaawansowanych-do-40-ntrp"
     }
   ]
 }

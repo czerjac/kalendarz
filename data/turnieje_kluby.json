@@ -1,7 +1,7 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-25T09:11:13+00:00",
-  "liczba_turniejow": 51,
+  "pobrano_utc": "2026-10-26T10:10:45+00:00",
+  "liczba_turniejow": 49,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
@@ -9,11 +9,11 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 22
+      "liczba": 23
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
-      "liczba": 5
+      "liczba": 8
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-01-01&data_do=2027-01-31&zakladka=0",
@@ -21,7 +21,7 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-02-01&data_do=2027-02-28&zakladka=0",
-      "liczba": 3
+      "liczba": 4
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-03-01&data_do=2027-03-31&zakladka=0",
@@ -42,76 +42,6 @@
       "miejsce": "",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12200"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Ziaja Grand Prix Wybrzeża +50",
-      "data_od": "2026-10-24",
-      "data_do": "2026-10-25",
-      "miasto": "Sopot",
-      "miejsce": "Sopot Tenis Klub, Sopot",
-      "kategorie": "SENIORZY +50",
-      "url": "https://kluby.org/turnieje/12379"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Masters 2.LIGA",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Garwolin",
-      "miejsce": "Garwolińska Akademia Tenisowa, Garwolin",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12384"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Debelowa Niedziela w Strefie — turniej deblowy",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Góra Kalwaria",
-      "miejsce": "Strefa Aktywności Góra Kalwaria, Góra Kalwaria",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12366"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej Mikstowy",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Mińsk Mazowiecki",
-      "miejsce": "Klub Sportowy Masters, Mińsk Mazowiecki",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12268"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Warszawa",
-      "miejsce": "TKKF Wars, Warszawa",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12084"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "JESIENNY Festiwal Tenisa TENES Junior (dla gr. Niebieskich i Czerwonych)",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Warszawa",
-      "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12294"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Singiel kobiet AQUARIUS Medical Cup",
-      "data_od": "2026-10-25",
-      "data_do": "2026-10-25",
-      "miasto": "Warszawa",
-      "miejsce": "Szkoła Tenisa Break, Warszawa",
-      "kategorie": "KOBIETY OPEN",
-      "url": "https://kluby.org/turnieje/11956"
     },
     {
       "zrodlo": "Kluby.org",
@@ -142,6 +72,16 @@
       "miejsce": "Matchpoint Żyrardów, Żyrardów",
       "kategorie": "DEBEL MIKST",
       "url": "https://kluby.org/turnieje/11825"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Grand Prix Mazowsza - ST Net",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-07",
+      "miasto": "Warszawa",
+      "miejsce": "ST NET, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12403"
     },
     {
       "zrodlo": "Kluby.org",
@@ -261,7 +201,7 @@
       "miasto": "Warszawa",
       "miejsce": "Szkoła Tenisa Break, Warszawa",
       "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12398"
+      "url": "https://kluby.org/turnieje/12411"
     },
     {
       "zrodlo": "Kluby.org",
@@ -405,6 +345,36 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Świąteczny Wewnętrzny Singlowy Turniej - kat. BASIC+",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-19",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12407"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Świąteczny Wewnętrzny Singlowy Turniej - kat. CLUB i CLUB+",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-19",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12408"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Świąteczny Wewnętrzny Singlowy Turniej - kat. PRO",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-19",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12409"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
       "data_od": "2026-12-20",
       "data_do": "2026-12-20",
@@ -462,6 +432,16 @@
       "miejsce": "TKKF Wars, Warszawa",
       "kategorie": "DEBEL MIKST",
       "url": "https://kluby.org/turnieje/12087"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Game, Set, Love!",
+      "data_od": "2027-02-13",
+      "data_do": "2027-02-13",
+      "miasto": "Żyrardów",
+      "miejsce": "Matchpoint Żyrardów, Żyrardów",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12402"
     },
     {
       "zrodlo": "Kluby.org",
