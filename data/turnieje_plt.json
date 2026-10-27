@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-26T10:10:35+00:00",
+  "pobrano_utc": "2026-10-27T09:50:41+00:00",
   "liczba_turniejow": 52,
   "kategorie_sprawdzone": [
     {
@@ -121,12 +121,12 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Prestige Court Cup II 2026",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Ożarowa Mazowieckiego 2026",
       "data_od": "2026-11-08",
       "data_do": "2026-11-08",
-      "miasto": "Otwock",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-prestige-court-cup-ii-2026-5705"
+      "miasto": "Ożarów Mazowiecki",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5614"
     },
     {
       "zrodlo": "PLT",
@@ -190,6 +190,33 @@
       "data_do": "2026-11-08",
       "miasto": "Sobota k. Poznania",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-otwarte-mistrzostwa-soboty-2026-5674"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Vamos Dzierżoniów - Turniej Niepodległościowy 2026",
+      "data_od": "2026-11-11",
+      "data_do": "2026-11-11",
+      "miasto": "Dzierżoniów",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-vamos-dzierzoniow-turniej-niepodleglosciowy-2026-5731"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Szkoła Tenisa Diłaj - Turniej Niepodległościowy 2026",
+      "data_od": "2026-11-11",
+      "data_do": "2026-11-11",
+      "miasto": "Gdańsk",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-szkola-tenisa-dilaj-turniej-niepodleglosciowy-2026-5732"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Szkoła Tenisa Diłaj - Turniej Niepodległościowy 2026",
+      "data_od": "2026-11-11",
+      "data_do": "2026-11-11",
+      "miasto": "Gdańsk",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-szkola-tenisa-dilaj-turniej-niepodleglosciowy-2026-5733"
     },
     {
       "zrodlo": "PLT",
@@ -283,21 +310,21 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Memoriał Bolesława II Szczodrego 2026",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Gniezno",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-memorial-boleslawa-ii-szczodrego-2026-5730"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Jesienny Turniej w Prestige Court 2026",
       "data_od": "2026-11-15",
       "data_do": "2026-11-15",
       "miasto": "Otwock",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-prestige-court-2026-5706"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Ożarowa Mazowieckiego 2026",
-      "data_od": "2026-11-15",
-      "data_do": "2026-11-15",
-      "miasto": "Ożarów Mazowiecki",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5614"
     },
     {
       "zrodlo": "PLT",
@@ -382,15 +409,6 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Zawady 2026",
-      "data_od": "2026-11-21",
-      "data_do": "2026-11-21",
-      "miasto": "Zawada",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-zawady-2026-5721"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
       "data_od": "2026-11-22",
@@ -400,30 +418,12 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. AS Tenis Challenge 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Starachowice",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-as-tenis-challenge-2026-5622"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. AS Tenis Challenge II 2026",
       "data_od": "2026-11-22",
       "data_do": "2026-11-22",
       "miasto": "Starachowice",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-as-tenis-challenge-ii-2026-5700"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Jesienny Turniej o Puchar Peruna 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Warszawa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-peruna-2026-5582"
     },
     {
       "zrodlo": "PLT",

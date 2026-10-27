@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-26T10:10:15+00:00",
-  "liczba_turniejow": 13,
+  "pobrano_utc": "2026-10-27T09:50:24+00:00",
+  "liczba_turniejow": 14,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -83,6 +83,16 @@
       "ranga": "3",
       "kategorie": "60+, 70+, 80+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9BCCBC4B-7B22-4FF9-A886-CDA244141B72"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "VOLVO Zwierzyniec Cup 2026",
+      "data_od": "2026-11-27",
+      "data_do": "2026-11-29",
+      "miasto": "Białystok",
+      "ranga": "2",
+      "kategorie": "35+, Open Amator, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=90BEF6A3-95D9-4EDC-8F2B-F026D634350F"
     },
     {
       "zrodlo": "PZT TOP",
