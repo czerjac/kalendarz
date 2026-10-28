@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-27T09:50:41+00:00",
+  "pobrano_utc": "2026-10-28T10:36:54+00:00",
   "liczba_turniejow": 52,
   "kategorie_sprawdzone": [
     {
@@ -319,6 +319,15 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Jesienny Turniej w Prestige Court 2026",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Otwock",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-prestige-court-2026-5734"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Jesienny Turniej w Prestige Court 2026",
       "data_od": "2026-11-15",
@@ -352,15 +361,6 @@
       "data_do": "2026-11-15",
       "miasto": "Sanok",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-wiki-sanok-cup-2026-5690"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Teho Cup III 2026",
-      "data_od": "2026-11-15",
-      "data_do": "2026-11-15",
-      "miasto": "Trzebownisko",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-iii-2026-5677"
     },
     {
       "zrodlo": "PLT",
@@ -410,6 +410,15 @@
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Kazimierzowo Cup 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Elbląg",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-kazimierzowo-cup-2026-5735"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
       "data_od": "2026-11-22",
       "data_do": "2026-11-22",
@@ -451,15 +460,6 @@
       "data_do": "2026-11-28",
       "miasto": "Trzebownisko",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-iii-2026-5682"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Baltic Tennis Club Kołobrzeg Sunday Tour 2026",
-      "data_od": "2026-11-29",
-      "data_do": "2026-11-29",
-      "miasto": "Kołobrzeg",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-baltic-tennis-club-kolobrzeg-sunday-tour-2026-5726"
     },
     {
       "zrodlo": "PLT",

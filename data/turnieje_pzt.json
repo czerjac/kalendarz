@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-27T09:50:24+00:00",
-  "liczba_turniejow": 14,
+  "pobrano_utc": "2026-10-28T10:36:38+00:00",
+  "liczba_turniejow": 19,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -23,6 +23,26 @@
       "ranga": "4",
       "kategorie": "Open Amator",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-11-06",
+      "data_do": "2026-11-06",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "70+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=74912A70-7E21-4CB3-94DD-39D24DB1EF20"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "GRAND PRIX MOSZCZENICA",
+      "data_od": "2026-11-07",
+      "data_do": "2026-11-08",
+      "miasto": "MOSZCZENICA",
+      "ranga": "3",
+      "kategorie": "50+, Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=ED2EE78E-35ED-4B7F-AE8F-E0EFB4E08FDF"
     },
     {
       "zrodlo": "PZT TOP",
@@ -86,6 +106,26 @@
     },
     {
       "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-11-20",
+      "data_do": "2026-11-20",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "70+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=FBE400FC-21D9-4DC7-BB88-AC5852D0DBE0"
+    },
+    {
+      "zrodlo": "PZT TOP",
       "nazwa": "VOLVO Zwierzyniec Cup 2026",
       "data_od": "2026-11-27",
       "data_do": "2026-11-29",
@@ -123,6 +163,16 @@
       "ranga": "3",
       "kategorie": "Open",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=966F0076-E046-4D35-83DC-86FAB7AD4C8B"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMECZ PIASECZNO",
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "60+, 70+, 80+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=7DA3E68B-CFEE-44A6-A17E-6E6CDD5659DB"
     },
     {
       "zrodlo": "PZT TOP",
