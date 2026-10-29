@@ -4,7 +4,7 @@
       "miasto": "Białystok",
       "wojewodztwo": "podlaskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "chorzow": {
       "miasto": "Chorzów",
@@ -34,13 +34,13 @@
       "miasto": "Gdańsk",
       "wojewodztwo": "pomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "gorzow wielkopolski": {
       "miasto": "Gorzów Wielkopolski",
       "wojewodztwo": "lubuskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "gryfino": {
       "miasto": "Gryfino",
@@ -52,7 +52,7 @@
       "miasto": "KEDZIERZYN-KOZLE",
       "wojewodztwo": "opolskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "kielce": {
       "miasto": "Kielce",
@@ -70,25 +70,25 @@
       "miasto": "Kołobrzeg",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "krakow": {
       "miasto": "Kraków",
       "wojewodztwo": "małopolskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "minsk mazowiecki": {
       "miasto": "Mińsk Mazowiecki",
       "wojewodztwo": "mazowieckie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:44+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:54+00:00"
     },
     "myszkow": {
       "miasto": "Myszków",
       "wojewodztwo": "śląskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:44+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:54+00:00"
     },
     "myslenice": {
       "miasto": "Myślenice",
@@ -118,7 +118,7 @@
       "miasto": "Otwock",
       "wojewodztwo": "mazowieckie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-10-28T10:37:44+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:54+00:00"
     },
     "olawa": {
       "miasto": "Oława",
@@ -142,7 +142,7 @@
       "miasto": "Rzeszów",
       "wojewodztwo": "podkarpackie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:47+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:57+00:00"
     },
     "radom": {
       "miasto": "Radom",
@@ -178,7 +178,7 @@
       "miasto": "Stargard",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:50+00:00"
+      "aktualizacja_utc": "2026-10-29T10:56:00+00:00"
     },
     "szamotuly": {
       "miasto": "Szamotuły",
@@ -190,7 +190,7 @@
       "miasto": "Szczecin",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:50+00:00"
+      "aktualizacja_utc": "2026-10-29T10:56:00+00:00"
     },
     "szczecin mierzyn": {
       "miasto": "Szczecin / Mierzyn",
@@ -214,7 +214,7 @@
       "miasto": "Warszawa",
       "wojewodztwo": "mazowieckie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:51+00:00"
+      "aktualizacja_utc": "2026-10-29T10:56:02+00:00"
     },
     "wejherowo": {
       "miasto": "Wejherowo",
@@ -238,19 +238,19 @@
       "miasto": "Łódź",
       "wojewodztwo": "łódzkie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:51+00:00"
+      "aktualizacja_utc": "2026-10-29T10:56:02+00:00"
     },
     "zyrardow": {
       "miasto": "Żyrardów",
       "wojewodztwo": "mazowieckie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:51+00:00"
+      "aktualizacja_utc": "2026-10-29T10:56:02+00:00"
     },
     "barlinek": {
       "miasto": "Barlinek",
       "wojewodztwo": "zachodniopomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-10T10:38:51+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "chelmek k oswiecimia": {
       "miasto": "Chełmek k. Oświęcimia",
@@ -280,7 +280,7 @@
       "miasto": "Piaseczno",
       "wojewodztwo": "mazowieckie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:44+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:54+00:00"
     },
     "zawiercie": {
       "miasto": "Zawiercie",
@@ -292,7 +292,7 @@
       "miasto": "Łęczna",
       "wojewodztwo": "lubelskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:51+00:00"
+      "aktualizacja_utc": "2026-10-29T10:56:02+00:00"
     },
     "olsztyn": {
       "miasto": "Olsztyn",
@@ -304,7 +304,7 @@
       "miasto": "Lublin",
       "wojewodztwo": "lubelskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:43+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:53+00:00"
     },
     "legnica": {
       "miasto": "Legnica",
@@ -322,7 +322,7 @@
       "miasto": "Sanok",
       "wojewodztwo": "podkarpackie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-10-28T10:37:47+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:57+00:00"
     },
     "bydgoszcz": {
       "miasto": "Bydgoszcz",
@@ -346,13 +346,13 @@
       "miasto": "Ożarów Mazowiecki",
       "wojewodztwo": "mazowieckie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-10-28T10:37:44+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:54+00:00"
     },
     "inowroclaw": {
       "miasto": "Inowrocław",
       "wojewodztwo": "kujawsko-pomorskie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "wroclaw": {
       "miasto": "Wrocław",
@@ -370,7 +370,7 @@
       "miasto": "Starachowice",
       "wojewodztwo": "świętokrzyskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-10-28T10:37:50+00:00"
+      "aktualizacja_utc": "2026-10-29T10:56:00+00:00"
     },
     "plock": {
       "miasto": "Płock",
@@ -406,7 +406,7 @@
       "miasto": "37-450 Stalowa Wola",
       "wojewodztwo": "podkarpackie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "starogard gdanski": {
       "miasto": "Starogard Gdański",
@@ -424,7 +424,7 @@
       "miasto": "Stalowa Wola",
       "wojewodztwo": "podkarpackie",
       "metoda": "reczna_regula",
-      "aktualizacja_utc": "2026-10-28T10:37:50+00:00"
+      "aktualizacja_utc": "2026-10-29T10:56:00+00:00"
     },
     "nowa sarzyna": {
       "miasto": "Nowa Sarzyna",
@@ -436,7 +436,7 @@
       "miasto": "Trzebownisko",
       "wojewodztwo": "podkarpackie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-10-28T10:37:51+00:00"
+      "aktualizacja_utc": "2026-10-29T10:56:02+00:00"
     },
     "zielona gora": {
       "miasto": "Zielona Góra",
@@ -448,21 +448,21 @@
       "miasto": "Elbląg",
       "wojewodztwo": "warmińsko-mazurskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "dzierzoniow": {
       "miasto": "Dzierżoniów",
       "wojewodztwo": "dolnośląskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     },
     "gniezno": {
       "miasto": "Gniezno",
       "wojewodztwo": "wielkopolskie",
       "metoda": "cache",
-      "aktualizacja_utc": "2026-10-28T10:37:41+00:00"
+      "aktualizacja_utc": "2026-10-29T10:55:51+00:00"
     }
   },
-  "aktualizacja_utc": "2026-10-28T10:37:51+00:00",
+  "aktualizacja_utc": "2026-10-29T10:56:02+00:00",
   "liczba_miast": 77
 }
