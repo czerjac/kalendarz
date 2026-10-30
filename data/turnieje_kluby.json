@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-29T10:55:50+00:00",
-  "liczba_turniejow": 51,
+  "pobrano_utc": "2026-10-30T10:54:01+00:00",
+  "liczba_turniejow": 55,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-10-01&data_do=2026-10-31&zakladka=0",
-      "liczba": 52
+      "liczba": 55
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 25
+      "liczba": 26
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -45,6 +45,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Mistrzostwa Województwa Mazowieckiego w Tenisie o Puchar Marszałka Adama Struzika",
+      "data_od": "2026-10-30",
+      "data_do": "2026-10-30",
+      "miasto": "Płock",
+      "miejsce": "ASAJA SPORT, Płock",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12426"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Halloween Tennis Party",
       "data_od": "2026-10-31",
       "data_do": "2026-10-31",
@@ -52,6 +62,26 @@
       "miejsce": "Perun Wesoła, Warszawa",
       "kategorie": "DEBEL MIKST",
       "url": "https://kluby.org/turnieje/12365"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "NAWIEDZONY MARATON DEBLOWY HALLOWEEN - grupa B",
+      "data_od": "2026-10-31",
+      "data_do": "2026-10-31",
+      "miasto": "Warszawa",
+      "miejsce": "Spójnia Górna, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12424"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "NAWIEDZONY MARATON DEBLOWY HALLOWEEN -grupa A",
+      "data_od": "2026-10-31",
+      "data_do": "2026-10-31",
+      "miasto": "Warszawa",
+      "miejsce": "Spójnia Górna, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12422"
     },
     {
       "zrodlo": "Kluby.org",
@@ -302,6 +332,16 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "KOBIETY OPEN",
       "url": "https://kluby.org/turnieje/12300"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES Single Cup kat. CLUB/ CLUB+ - wewnętrzny turniej dla Klubowiczów",
+      "data_od": "2026-11-28",
+      "data_do": "2026-11-28",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12425"
     },
     {
       "zrodlo": "Kluby.org",
