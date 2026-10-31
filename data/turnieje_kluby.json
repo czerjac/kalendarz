@@ -1,6 +1,6 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-10-30T10:54:01+00:00",
+  "pobrano_utc": "2026-10-31T10:25:07+00:00",
   "liczba_turniejow": 55,
   "miesiace_sprawdzone": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 26
+      "liczba": 27
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -42,16 +42,6 @@
       "miejsce": "",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12200"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Mistrzostwa Województwa Mazowieckiego w Tenisie o Puchar Marszałka Adama Struzika",
-      "data_od": "2026-10-30",
-      "data_do": "2026-10-30",
-      "miasto": "Płock",
-      "miejsce": "ASAJA SPORT, Płock",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12426"
     },
     {
       "zrodlo": "Kluby.org",
@@ -222,6 +212,16 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12298"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Rybienko Indoor Series - DEBEL Vol.1",
+      "data_od": "2026-11-14",
+      "data_do": "2026-11-14",
+      "miasto": "Wyszków",
+      "miejsce": "Tenis w Rybienku Leśnym, Wyszków",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12428"
     },
     {
       "zrodlo": "Kluby.org",

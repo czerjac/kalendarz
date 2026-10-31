@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-30T10:53:50+00:00",
-  "liczba_turniejow": 52,
+  "pobrano_utc": "2026-10-31T10:24:57+00:00",
+  "liczba_turniejow": 56,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -22,31 +22,22 @@
     {
       "kategoria": "PLT Kobiet",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/lista-rund?incoming=true",
-      "liczba": 4
+      "liczba": 5
     },
     {
       "kategoria": "Deble i Miksty",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/lista-rund?incoming=true",
-      "liczba": 5
+      "liczba": 7
     },
     {
       "kategoria": "Kategorie wiekowe",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/lista-rund?incoming=true",
-      "liczba": 0
+      "liczba": 1
     }
   ],
   "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Prestige Court Cup II 2026",
-      "data_od": "2026-10-31",
-      "data_do": "2026-10-31",
-      "miasto": "Otwock",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-prestige-court-cup-ii-2026-5704"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
@@ -418,6 +409,15 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. AS Tenis Challenge 2026",
+      "data_od": "2026-11-22",
+      "data_do": "2026-11-22",
+      "miasto": "Starachowice",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-as-tenis-challenge-2026-5622"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. AS Tenis Challenge II 2026",
       "data_od": "2026-11-22",
@@ -496,6 +496,42 @@
       "data_do": "2026-12-13",
       "miasto": "Łódź",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-otwarte-jesienne-mistrzostwa-lodzi-2026-5698"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "Deble i Miksty",
+      "nazwa": "DEBEL. Finały Jesiennych Mistrzostw Polski 2026",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-20",
+      "miasto": "Giebułtów k. Krakowa",
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-finaly-jesiennych-mistrzostw-polski-2026-5743"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "Deble i Miksty",
+      "nazwa": "MIKST. Finały Jesiennych Mistrzostw Polski 2026",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-20",
+      "miasto": "Giebułtów k. Krakowa",
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-finaly-jesiennych-mistrzostw-polski-2026-5744"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "Kategorie wiekowe",
+      "nazwa": "PLT 45+. Finały Jesiennych Mistrzostw Polski 2026",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-20",
+      "miasto": "Giebułtów k. Krakowa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-45/plt-45-finaly-jesiennych-mistrzostw-polski-2026-5742"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "PLT Kobiet",
+      "nazwa": "PLT KOBIET. Finały Jesiennych Mistrzostw Polski 2026",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-20",
+      "miasto": "Giebułtów k. Krakowa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-finaly-jesiennych-mistrzostw-polski-2026-5741"
     },
     {
       "zrodlo": "PLT",

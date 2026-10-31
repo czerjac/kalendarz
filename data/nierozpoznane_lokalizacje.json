@@ -1,6 +1,6 @@
 {
-  "aktualizacja_utc": "2026-10-30T10:55:36+00:00",
-  "liczba_nierozpoznanych_miast": 2,
+  "aktualizacja_utc": "2026-10-31T10:26:33+00:00",
+  "liczba_nierozpoznanych_miast": 4,
   "miasta": [
     {
       "miasto": "Leszno",
@@ -23,8 +23,8 @@
           "wojewodztwo": "pomorskie"
         },
         {
-          "display_name": "Leszno, gmina Barczewo, powiat olsztyński, województwo warmińsko-mazurskie, 11-010, Polska",
-          "wojewodztwo": "warmińsko-mazurskie"
+          "display_name": "Leszno, gmina Grabów, powiat łęczycki, województwo łódzkie, 99-150, Polska",
+          "wojewodztwo": "łódzkie"
         }
       ]
     },
@@ -51,6 +51,37 @@
         {
           "display_name": "Moszczenica, gmina Bochnia, powiat bocheński, województwo małopolskie, Polska",
           "wojewodztwo": "małopolskie"
+        }
+      ]
+    },
+    {
+      "miasto": "Sobota k. Poznania",
+      "powod": "brak_jednoznacznego_wojewodztwa",
+      "dowody": []
+    },
+    {
+      "miasto": "Wyszków",
+      "powod": "brak_jednoznacznego_wojewodztwa",
+      "dowody": [
+        {
+          "display_name": "Wyszków, gmina Wyszków, powiat wyszkowski, województwo mazowieckie, Polska",
+          "wojewodztwo": "mazowieckie"
+        },
+        {
+          "display_name": "Wyszków, gmina Liw, powiat węgrowski, województwo mazowieckie, 07-100, Polska",
+          "wojewodztwo": "mazowieckie"
+        },
+        {
+          "display_name": "Wyszków, gmina Bogatynia, powiat zgorzelecki, województwo dolnośląskie, Polska",
+          "wojewodztwo": "dolnośląskie"
+        },
+        {
+          "display_name": "Wyszków, gmina Wyszków, powiat wyszkowski, województwo mazowieckie, 02-700, Polska",
+          "wojewodztwo": "mazowieckie"
+        },
+        {
+          "display_name": "powiat wyszkowski, województwo mazowieckie, Polska",
+          "wojewodztwo": "mazowieckie"
         }
       ]
     }
