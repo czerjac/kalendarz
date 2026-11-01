@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-10-31T10:24:57+00:00",
+  "pobrano_utc": "2026-11-01T11:17:54+00:00",
   "liczba_turniejow": 56,
   "kategorie_sprawdzone": [
     {
@@ -38,15 +38,6 @@
   "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Jesienny Turniej w ST Tie-Break 2026",
-      "data_od": "2026-11-01",
-      "data_do": "2026-11-01",
-      "miasto": "Warszawa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-st-tie-break-2026-5688"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
@@ -212,6 +203,15 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Silesia Bytom Cup 2026",
+      "data_od": "2026-11-14",
+      "data_do": "2026-11-14",
+      "miasto": "Bytom",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-silesia-bytom-cup-2026-5745"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Asaja Cup II 2026",
       "data_od": "2026-11-14",
       "data_do": "2026-11-14",
@@ -244,6 +244,15 @@
       "data_do": "2026-11-14",
       "miasto": "Trzebownisko",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-ii-2026-5681"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Silesia Bytom Cup 2026",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Bytom",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-silesia-bytom-cup-2026-5746"
     },
     {
       "zrodlo": "PLT",
@@ -451,15 +460,6 @@
       "data_do": "2026-11-28",
       "miasto": "Trzebownisko",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-iii-2026-5682"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Baltic Tennis Club Kołobrzeg Sunday Tour 2026",
-      "data_od": "2026-11-29",
-      "data_do": "2026-11-29",
-      "miasto": "Kołobrzeg",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-baltic-tennis-club-kolobrzeg-sunday-tour-2026-5726"
     },
     {
       "zrodlo": "PLT",

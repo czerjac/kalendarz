@@ -1,6 +1,6 @@
 {
-  "aktualizacja_utc": "2026-10-31T10:26:33+00:00",
-  "liczba_nierozpoznanych_miast": 4,
+  "aktualizacja_utc": "2026-11-01T11:19:54+00:00",
+  "liczba_nierozpoznanych_miast": 3,
   "miasta": [
     {
       "miasto": "Leszno",
@@ -53,11 +53,6 @@
           "wojewodztwo": "małopolskie"
         }
       ]
-    },
-    {
-      "miasto": "Sobota k. Poznania",
-      "powod": "brak_jednoznacznego_wojewodztwa",
-      "dowody": []
     },
     {
       "miasto": "Wyszków",

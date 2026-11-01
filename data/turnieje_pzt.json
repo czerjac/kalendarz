@@ -1,29 +1,9 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-10-31T10:24:43+00:00",
-  "liczba_turniejow": 19,
+  "pobrano_utc": "2026-11-01T11:17:36+00:00",
+  "liczba_turniejow": 17,
   "turnieje": [
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "V Myszkowska Liga Tenisowa Kobiet",
-      "data_od": "2026-05-11",
-      "data_do": "2026-10-31",
-      "miasto": "Myszków",
-      "ranga": "5",
-      "kategorie": "Open Amator",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=57496268-6699-45FC-8338-7B2675DED639"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "V Myszkowska Liga Tenisowa Mężczyzn",
-      "data_od": "2026-05-11",
-      "data_do": "2026-10-31",
-      "miasto": "Myszków",
-      "ranga": "4",
-      "kategorie": "Open Amator",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=F79C23AE-EB74-4B44-A57D-367785CCEE68"
-    },
     {
       "zrodlo": "PZT TOP",
       "nazwa": "SMECZ PIASECZNO",
