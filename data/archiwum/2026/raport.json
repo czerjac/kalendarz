@@ -1,29 +1,52 @@
 {
   "rok": 2026,
-  "aktualizacja_utc": "2026-10-26T11:35:57+00:00",
+  "aktualizacja_utc": "2026-11-02T13:53:41+00:00",
   "bledy_zrodel": [],
   "liczba_rekordow_zrodlowych": {
-    "PZT TOP": 162,
+    "PZT TOP": 164,
     "TKKF Skanda": 33,
-    "Cuply": 34,
-    "PLT": 476,
-    "Kluby.org": 503
+    "Cuply": 35,
+    "PLT": 478,
+    "Kluby.org": 509
   },
-  "liczba_po_filtrze_dat_i_roku": 1208,
-  "liczba_odrzuconych_jakosc": 0,
-  "odrzucone_jakosc": [],
-  "liczba_po_kontroli_jakosci": 1208,
+  "liczba_po_filtrze_dat_i_roku": 1219,
+  "liczba_odrzuconych_jakosc": 2,
+  "odrzucone_jakosc": [
+    {
+      "id": "2d47e8e6e89c36",
+      "zrodlo": "PZT TOP",
+      "nazwa": "V Myszkowska Liga Tenisowa Kobiet, UKS \"LUKA Tenis Myszków\"",
+      "data_od": "2026-05-11",
+      "data_do": "2026-10-31",
+      "powody": [
+        "rozgrywki_ligowe_lub_challenge",
+        "wydarzenie_wielotygodniowe"
+      ]
+    },
+    {
+      "id": "043120d0a1c781",
+      "zrodlo": "PZT TOP",
+      "nazwa": "V Myszkowska Liga Tenisowa Mężczyzn, UKS \"LUKA Tenis Myszków\"",
+      "data_od": "2026-05-11",
+      "data_do": "2026-10-31",
+      "powody": [
+        "rozgrywki_ligowe_lub_challenge",
+        "wydarzenie_wielotygodniowe"
+      ]
+    }
+  ],
+  "liczba_po_kontroli_jakosci": 1217,
   "liczba_potencjalnych_par_duplikatow": 0,
-  "liczba_niezweryfikowanych": 509,
+  "liczba_niezweryfikowanych": 515,
   "liczba_wg_statusu_archiwum": {
-    "niezweryfikowany": 509,
+    "niezweryfikowany": 515,
     "rozegrany": 155,
-    "zakonczony_wg_zrodla": 544
+    "zakonczony_wg_zrodla": 547
   },
   "audyt": {
-    "aktualizacja_utc": "2026-10-26T11:36:01+00:00",
+    "aktualizacja_utc": "2026-11-02T13:53:44+00:00",
     "pzt_liczba": 162,
-    "pzt_szczegoly_pobrane_w_tym_przebiegu": 4,
+    "pzt_szczegoly_pobrane_w_tym_przebiegu": 1,
     "pzt_bledy_szczegolow": 0,
     "pzt_z_miastem": 162,
     "pzt_z_potwierdzonymi_wynikami": 155,
