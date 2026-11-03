@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T08:36:01.126371+00:00",
-  "run_date": "2026-10-27",
+  "generated_at": "2026-11-03T08:31:09.276085+00:00",
+  "run_date": "2026-11-03",
   "cutoff_exclusive": "2026-07-01",
-  "weekend_start": "2026-10-23",
-  "weekend_end": "2026-10-26",
+  "weekend_start": "2026-10-30",
+  "weekend_end": "2026-11-02",
   "supported_sources": [
     "PLT",
     "Cuply",
@@ -7481,6 +7481,162 @@
         "Tenis Open Polska PZT"
       ],
       "fingerprint": "f14baacb3061422bd075e4c8ecdb7d78f30c46c41cfaea9e03c4e2f022d15280"
+    },
+    {
+      "id": "kluby:12426",
+      "title": "Mistrzostwa Województwa Mazowieckiego w Tenisie o Puchar Marszałka Adama Struzika — wyniki (2026-10-30)",
+      "content": "<p>W dniu 30 października 2026 na obiekcie ASAJA SPORT, Płock (Płock) rozegrano turniej <em>„Mistrzostwa Województwa Mazowieckiego w Tenisie o Puchar Marszałka Adama Struzika”</em> w kategorii DEBEL. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p><strong>Piechowicz Aleksander, Borowski Maciek</strong> – Petera Radosław, Gąsiorowski Mateusz 4/1 4/2<br>\nOlejniczak Kamil, Kowalski Rafał – Petera Radosław, Gąsiorowski Mateusz Brak potwierdzonego wyniku<br>\nPiechowicz Aleksander, Borowski Maciek – <strong>Olejniczak Kamil, Kowalski Rafał</strong> 0/4 0/4</p>\n<h2>Grupa B</h2>\n<p>Musiał Piotr, Chmielewski Piotr – <strong>Adamczuk Artur, Wilczyński Jacek</strong> 0/4 3/4<br>\n<strong>Sitarz Rafał, Barwikowski Marcin</strong> – Adamczuk Artur, Wilczyński Jacek 4/1 4/2<br>\nMusiał Piotr, Chmielewski Piotr – <strong>Sitarz Rafał, Barwikowski Marcin</strong> 1/4 1/4</p>\n<h2>Grupa C</h2>\n<p>Wilk Marek, Flakiewicz Marek – <strong>Chyczewski Maciej, Adamski Sławomir</strong> 0/4 2/4<br>\nLaskowski Dominik, Pośpieszyński Piotr – Chyczewski Maciej, Adamski Sławomir Brak potwierdzonego wyniku<br>\nWilk Marek, Flakiewicz Marek – <strong>Laskowski Dominik, Pośpieszyński Piotr</strong> 2/4 1/4</p>\n<h2>Grupa D</h2>\n<p>Jutrzenka Rafał, Przykłota Jan – <strong>Ciepliński Miłosz, Olszewski Antoni</strong> 2/4 2/4<br>\nDombrowski Piotr, Dul Piotr – <strong>Ciepliński Miłosz, Olszewski Antoni</strong> 3/4 3/4<br>\n<strong>Jutrzenka Rafał, Przykłota Jan</strong> – Dombrowski Piotr, Dul Piotr 4/0 3/4 10/7</p>\n<h2>1/4 finału</h2>\n<p>Olejniczak Kamil, Kowalski Rafał – Chyczewski Maciej, Adamski Sławomir Brak potwierdzonego wyniku<br>\nAdamczuk Artur, Wilczyński Jacek – Ciepliński Miłosz, Olszewski Antoni Brak potwierdzonego wyniku<br>\nLaskowski Dominik, Pośpieszyński Piotr – Piechowicz Aleksander, Borowski Maciek Brak potwierdzonego wyniku<br>\nJutrzenka Rafał, Przykłota Jan – Sitarz Rafał, Barwikowski Marcin Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12426\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12426",
+      "source": "Kluby.org",
+      "date_start": "2026-10-30",
+      "date_end": "2026-10-30",
+      "ready": false,
+      "issues": [
+        "Brak potwierdzonego finału",
+        "DEBEL: Brak części rozegranych meczów lub wyników"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "d0ba240f3124dd3b3d88394f5116be9d1e4c5c542f0cba82bda379c4df8a0671"
+    },
+    {
+      "id": "cuply:102",
+      "title": "Stargard: Karol Gajo triumfuje w turnieju Cuply Challenger Stargard - dla średnio zaawansowanych do 4.0 NTRP",
+      "content": "<p>W dniu 31 października 2026 na obiekcie SOT Stargardzki Ośrodek Tenisowy, Stargard (Stargard) rozegrano turniej <em>„Cuply Challenger Stargard - dla średnio zaawansowanych do 4.0 NTRP”</em> w kategorii Singiel; Cuply Challenger dla średniozaawansowanych (do 4.0 NTRP). Zawody były częścią cyklu Cuply. W turnieju triumfuje <strong>Karol Gajo</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Marceli Śniadecki</strong> – Agnieszka Giermak 4:0, 4:0<br>\n<strong>Arkadiusz Margula</strong> – Kacper Hemperek 4:1, 4:2<br>\n<strong>Marceli Śniadecki</strong> – Kacper Hemperek 4:1, 4:1<br>\n<strong>Arkadiusz Margula</strong> – Agnieszka Giermak 4:0, 4:0<br>\n<strong>Marceli Śniadecki</strong> – Arkadiusz Margula 4:3, 4:3<br>\n<strong>Kacper Hemperek</strong> – Agnieszka Giermak 2:4, 4:3, 10:4</p>\n<h2>Grupa B</h2>\n<p><strong>Florian Szarek</strong> – Mariusz Maćkowiak 4:0, 4:1<br>\n<strong>Karol Gajo</strong> – Filip Szarek 4:1, 4:2<br>\n<strong>Florian Szarek</strong> – Filip Szarek 4:2, 4:1<br>\n<strong>Karol Gajo</strong> – Mariusz Maćkowiak 4:0, 4:0<br>\nFlorian Szarek – <strong>Karol Gajo</strong> 3:4, 2:4<br>\n<strong>Filip Szarek</strong> – Mariusz Maćkowiak 4:1, 4:1</p>\n<h2>Grupa C</h2>\n<p>Wojciech Kotowski – <strong>Jakub Rucinski</strong> 1:4, 2:4<br>\n<strong>Marcin Siewierski</strong> – Jan Gonczarko 4:2, 4:0<br>\nMarcin Siewierski – <strong>Jakub Rucinski</strong> 2:4, 3:4<br>\nWojciech Kotowski – <strong>Jan Gonczarko</strong> 4:2, 3:4, 8:10<br>\n<strong>Wojciech Kotowski</strong> – Marcin Siewierski 4:2, 4:2<br>\nJakub Rucinski – <strong>Jan Gonczarko</strong> 0:4, 1:4</p>\n<h2>Grupa D</h2>\n<p><strong>Jacek Turczyński</strong> – Maciej Konieczny 4:0, 4:1<br>\n<strong>Mateusz Bednarski</strong> – Martyna Feherpataky 4:2, 4:1<br>\n<strong>Jacek Turczyński</strong> – Martyna Feherpataky 1:4, 4:3, 10:2<br>\n<strong>Mateusz Bednarski</strong> – Maciej Konieczny 4:1, 4:0<br>\n<strong>Jacek Turczyński</strong> – Mateusz Bednarski 2:4, 4:2, 10:8<br>\n<strong>Martyna Feherpataky</strong> – Maciej Konieczny (walkower)</p>\n<h2>Grupa E</h2>\n<p><strong>Aleksander Krasiński</strong> – Katarzyna Zawadzka-Koniecka 4:3, 4:3<br>\nMateusz Stępień – <strong>Pawel Adamkiewicz</strong> 3:4, 3:4<br>\n<strong>Aleksander Krasiński</strong> – Pawel Adamkiewicz 4:2, 4:0<br>\n<strong>Mateusz Stępień</strong> – Katarzyna Zawadzka-Koniecka 4:2, 4:1<br>\n<strong>Aleksander Krasiński</strong> – Mateusz Stępień 3:4, 4:2, 12:10<br>\n<strong>Pawel Adamkiewicz</strong> – Katarzyna Zawadzka-Koniecka 4:1, 4:0</p>\n<h2>Grupa F</h2>\n<p><strong>Edgar Koniecki</strong> – Karol Modrzejewski 4:2, 4:1<br>\nMateusz Glegoła – <strong>Bartosz Ludwinek</strong> 3:4, 4:0, 5:10<br>\nEdgar Koniecki – <strong>Bartosz Ludwinek</strong> 1:4, 2:4<br>\n<strong>Mateusz Glegoła</strong> – Karol Modrzejewski 4:0, 4:1<br>\nEdgar Koniecki – <strong>Mateusz Glegoła</strong> 1:4, 1:4<br>\n<strong>Bartosz Ludwinek</strong> – Karol Modrzejewski 4:1, 4:3</p>\n<h2>Ćwierćfinały</h2>\n<p>Marceli Śniadecki – <strong>Mateusz Bednarski</strong> 2:4, 2:4<br>\nBartosz Ludwinek – <strong>Jacek Turczyński</strong> 4:3, 2:4, 8:10<br>\n<strong>Aleksander Krasiński</strong> – Jakub Rucinski 1:4, 4:2, 10:3<br>\n<strong>Karol Gajo</strong> – Mateusz Glegoła 4:1, 4:0</p>\n<h2>Półfinały</h2>\n<p><strong>Mateusz Bednarski</strong> – Jacek Turczyński 1:4, 4:2, 10:6<br>\nAleksander Krasiński – <strong>Karol Gajo</strong> 3:4, 1:4</p>\n<h2>Finał</h2>\n<p>Mateusz Bednarski – <strong>Karol Gajo</strong> 1:4, 4:1, 4:10</p>\n<p>Źródło: <a href=\"https://cuply.pl/turnieje/cuply-challenger-stargard-v-dla-sredniozaawansowanych-do-40-ntrp\">Cuply — wyniki turnieju</a>.</p>",
+      "source_url": "https://cuply.pl/turnieje/cuply-challenger-stargard-v-dla-sredniozaawansowanych-do-40-ntrp",
+      "source": "Cuply",
+      "date_start": "2026-10-31",
+      "date_end": "2026-10-31",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "Cuply",
+      "tags": [
+        "Cuply"
+      ],
+      "fingerprint": "14dc252c03a494aa1d65bf68cb10e411af67af1a618ed6037c5f980a0598026a"
+    },
+    {
+      "id": "kluby:11825",
+      "title": "Turniej Mikstowy (halloween) — wyniki (2026-10-31)",
+      "content": "<p>W dniu 31 października 2026 na obiekcie Matchpoint Żyrardów, Żyrardów (Żyrardów) rozegrano turniej <em>„Turniej Mikstowy (halloween)”</em> w kategorii DEBEL MIKST. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p>Barszczewska Karolina, Basaj Jedrzej – <strong>Śliwa Olga, Wolniewicz Konrad</strong> 3/6<br>\nRoman #1 Grzegorz, Roman Ewa – <strong>Śliwa Olga, Wolniewicz Konrad</strong> 1/6<br>\n<strong>Barszczewska Karolina, Basaj Jedrzej</strong> – Roman #1 Grzegorz, Roman Ewa 6/3</p>\n<h2>Grupa B</h2>\n<p>Balcerak Filip, Tymoszuk Aleksandra – <strong>Kustosz Łukasz, Trybusińska Klaudia</strong> 4/6<br>\n<strong>Koźlicka Justyna, Fromuth Marcin</strong> – Selerski Mariusz, Zakrzewska Anna 6/0<br>\n<strong>Balcerak Filip, Tymoszuk Aleksandra</strong> – Selerski Mariusz, Zakrzewska Anna 6/3<br>\n<strong>Koźlicka Justyna, Fromuth Marcin</strong> – Kustosz Łukasz, Trybusińska Klaudia 6/2<br>\nBalcerak Filip, Tymoszuk Aleksandra – <strong>Koźlicka Justyna, Fromuth Marcin</strong> 4/6<br>\nSelerski Mariusz, Zakrzewska Anna – Kustosz Łukasz, Trybusińska Klaudia Brak potwierdzonego wyniku</p>\n<h2>Grupa C</h2>\n<p><strong>Szczerkowska Paulina, Staśkiewicz Emil</strong> – Szewczyk Wera, Szewczyk Artur 6/1<br>\n<strong>Aniper Veronika, Obydź Michał</strong> – Szczerkowska Maja, Michalak Kacper 6/1<br>\n<strong>Szczerkowska Paulina, Staśkiewicz Emil</strong> – Szczerkowska Maja, Michalak Kacper 6/1<br>\nAniper Veronika, Obydź Michał – <strong>Szewczyk Wera, Szewczyk Artur</strong> 0/6<br>\n<strong>Szczerkowska Paulina, Staśkiewicz Emil</strong> – Aniper Veronika, Obydź Michał 6/2<br>\nSzczerkowska Maja, Michalak Kacper – <strong>Szewczyk Wera, Szewczyk Artur</strong> 0/6</p>\n<h2>1/2 finału</h2>\n<p>Szewczyk Wera, Szewczyk Artur – <strong>Koźlicka Justyna, Fromuth Marcin</strong> Brak potwierdzonego wyniku<br>\nSzczerkowska Paulina, Staśkiewicz Emil – <strong>Śliwa Olga, Wolniewicz Konrad</strong> Brak potwierdzonego wyniku</p>\n<h2>finał</h2>\n<p><strong>Koźlicka Justyna, Fromuth Marcin</strong> – Śliwa Olga, Wolniewicz Konrad Brak potwierdzonego wyniku<br>\nSzewczyk Wera, Szewczyk Artur – <strong>Szczerkowska Paulina, Staśkiewicz Emil</strong> 3/6</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/11825\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/11825",
+      "source": "Kluby.org",
+      "date_start": "2026-10-31",
+      "date_end": "2026-10-31",
+      "ready": false,
+      "issues": [
+        "Brak potwierdzonego finału",
+        "DEBEL MIKST: Brak części rozegranych meczów lub wyników",
+        "Finalista jest sprzeczny z końcową kolejnością",
+        "Zwycięzca finału jest sprzeczny z końcową kolejnością"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "232c97be3337dd37c978876ae4c5a18531eeaeec56dabaddb17aa5205477536f"
+    },
+    {
+      "id": "kluby:12171",
+      "title": "Warszawa: Barwikowski Marcin triumfuje w turnieju TENES GPM Single Cup OPEN",
+      "content": "<p>W dniu 31 października 2026 na obiekcie TENES Klub Sportowy, Warszawa (Warszawa) rozegrano turniej <em>„TENES GPM Single Cup OPEN”</em> w kategorii OPEN. W turnieju triumfuje <strong>Barwikowski Marcin</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Hys Bartek</strong> – Fabisiak Adam 6/1<br>\n<strong>Waraksa Piotr</strong> – Fabisiak Adam 6/1<br>\n<strong>Hys Bartek</strong> – Waraksa Piotr 6/0</p>\n<h2>Grupa B</h2>\n<p><strong>Paczkowski Jakub</strong> – Lazou Adam 6/1<br>\n<strong>Skoczylas Łukasz</strong> – Lazou Adam 7/5<br>\n<strong>Paczkowski Jakub</strong> – Skoczylas Łukasz 6/2</p>\n<h2>Grupa C</h2>\n<p>Hordiienko Yaroslav – <strong>Czernuszewicz Władysław</strong> 5/7<br>\nShafran Oleksandr – <strong>Czernuszewicz Władysław</strong> 4/6<br>\n<strong>Hordiienko Yaroslav</strong> – Shafran Oleksandr 6/1</p>\n<h2>Grupa D</h2>\n<p><strong>Tuchynskyi Serhii</strong> – Sypuła Łukasz 4/1<br>\n<strong>Barwikowski Marcin</strong> – Łasak Kuba 4/2<br>\n<strong>Tuchynskyi Serhii</strong> – Łasak Kuba 4/1<br>\n<strong>Barwikowski Marcin</strong> – Sypuła Łukasz 4/1<br>\nTuchynskyi Serhii – <strong>Barwikowski Marcin</strong> 2/4<br>\n<strong>Łasak Kuba</strong> – Sypuła Łukasz 4/2</p>\n<h2>Grupa E</h2>\n<p>Postek Arkadiusz – <strong>Gorski Daniel</strong> 3/4<br>\n<strong>Pratt Patryk</strong> – Podogrocki Tymon 4/2<br>\n<strong>Postek Arkadiusz</strong> – Podogrocki Tymon 4/0<br>\nPratt Patryk – <strong>Gorski Daniel</strong> 2/4<br>\nPostek Arkadiusz – <strong>Pratt Patryk</strong> 3/4<br>\nPodogrocki Tymon – <strong>Gorski Daniel</strong> 0/4</p>\n<h2>1/4 finału</h2>\n<p><strong>Hys Bartek</strong> – Tuchynskyi Serhii 6/2<br>\n<strong>Paczkowski Jakub</strong> – Hordiienko Yaroslav 6/2<br>\n<strong>Czernuszewicz Władysław</strong> – Pratt Patryk 6/3<br>\n<strong>Barwikowski Marcin</strong> – Gorski Daniel 6/2</p>\n<h2>1/2 finału</h2>\n<p>Hys Bartek – <strong>Paczkowski Jakub</strong> 1/6<br>\nCzernuszewicz Władysław – <strong>Barwikowski Marcin</strong> 2/6</p>\n<h2>finał</h2>\n<p>Paczkowski Jakub – <strong>Barwikowski Marcin</strong> 2/6</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12171\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12171",
+      "source": "Kluby.org",
+      "date_start": "2026-10-31",
+      "date_end": "2026-10-31",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "db5a855569108faf0372ccb1c8e588041d0e25f9bc22a8e625cc59bc25343cdd"
+    },
+    {
+      "id": "kluby:12365",
+      "title": "Halloween Tennis Party — wyniki (2026-10-31)",
+      "content": "<p>W dniu 31 października 2026 na obiekcie Perun Wesoła, Warszawa (Warszawa) rozegrano turniej <em>„Halloween Tennis Party”</em> w kategorii DEBEL MIKST. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12365\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12365",
+      "source": "Kluby.org",
+      "date_start": "2026-10-31",
+      "date_end": "2026-10-31",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "DEBEL MIKST: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "0f6647255c3a707cf626ac310bca19752b3c3c2e086d5f720a73ba036e7d4cdb"
+    },
+    {
+      "id": "kluby:12422",
+      "title": "NAWIEDZONY MARATON DEBLOWY HALLOWEEN -grupa A — wyniki (2026-10-31)",
+      "content": "<p>W dniu 31 października 2026 na obiekcie Spójnia Górna, Warszawa (Warszawa) rozegrano turniej <em>„NAWIEDZONY MARATON DEBLOWY HALLOWEEN -grupa A”</em> w kategorii DEBEL KOBIETY. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p>Depowska Aleksandra, Wieczorek Olga – <strong>Magriel Maria, Morozova Tatiana</strong> 3/5<br>\nSzwarc Anita, Jabłońska Joanna – <strong>Migdał Aleksandra, Mitura Anna</strong> 3/4<br>\nDe Pourbaix Edyta, Sidor Lidia – <strong>Wareluk Justyna, Kozłowska Anna</strong> 0/8<br>\nMajchrzak Katarzyna, Rajska Monika – <strong>Senderowicz Julia, Sjöholm Ola</strong> 1/4<br>\n<strong>Senderowicz Julia, Sjöholm Ola</strong> – Magriel Maria, Morozova Tatiana 6/1<br>\nMajchrzak Katarzyna, Rajska Monika – Wareluk Justyna, Kozłowska Anna Brak potwierdzonego wyniku<br>\n<strong>De Pourbaix Edyta, Sidor Lidia</strong> – Migdał Aleksandra, Mitura Anna 4/3<br>\nDepowska Aleksandra, Wieczorek Olga – <strong>Szwarc Anita, Jabłońska Joanna</strong> 1/7<br>\n<strong>Szwarc Anita, Jabłońska Joanna</strong> – Magriel Maria, Morozova Tatiana 5/2<br>\n<strong>Depowska Aleksandra, Wieczorek Olga</strong> – De Pourbaix Edyta, Sidor Lidia 5/4<br>\nMajchrzak Katarzyna, Rajska Monika – <strong>Migdał Aleksandra, Mitura Anna</strong> 1/6<br>\nSenderowicz Julia, Sjöholm Ola – <strong>Wareluk Justyna, Kozłowska Anna</strong> 3/6<br>\n<strong>Wareluk Justyna, Kozłowska Anna</strong> – Magriel Maria, Morozova Tatiana 6/1<br>\nSenderowicz Julia, Sjöholm Ola – <strong>Migdał Aleksandra, Mitura Anna</strong> 3/4<br>\n<strong>Depowska Aleksandra, Wieczorek Olga</strong> – Majchrzak Katarzyna, Rajska Monika 6/1<br>\n<strong>Szwarc Anita, Jabłońska Joanna</strong> – De Pourbaix Edyta, Sidor Lidia 5/3<br>\n<strong>De Pourbaix Edyta, Sidor Lidia</strong> – Magriel Maria, Morozova Tatiana 6/1<br>\n<strong>Szwarc Anita, Jabłońska Joanna</strong> – Majchrzak Katarzyna, Rajska Monika 6/1<br>\nDepowska Aleksandra, Wieczorek Olga – <strong>Senderowicz Julia, Sjöholm Ola</strong> 3/5<br>\nWareluk Justyna, Kozłowska Anna – <strong>Migdał Aleksandra, Mitura Anna</strong> 3/4<br>\n<strong>Migdał Aleksandra, Mitura Anna</strong> – Magriel Maria, Morozova Tatiana 4/3<br>\nDepowska Aleksandra, Wieczorek Olga – <strong>Wareluk Justyna, Kozłowska Anna</strong> 4/5<br>\nSzwarc Anita, Jabłońska Joanna – Senderowicz Julia, Sjöholm Ola Brak potwierdzonego wyniku<br>\n<strong>De Pourbaix Edyta, Sidor Lidia</strong> – Majchrzak Katarzyna, Rajska Monika 4/2<br>\nMajchrzak Katarzyna, Rajska Monika – <strong>Magriel Maria, Morozova Tatiana</strong> 2/3<br>\nDe Pourbaix Edyta, Sidor Lidia – <strong>Senderowicz Julia, Sjöholm Ola</strong> 2/5<br>\nSzwarc Anita, Jabłońska Joanna – Wareluk Justyna, Kozłowska Anna Brak potwierdzonego wyniku<br>\nDepowska Aleksandra, Wieczorek Olga – Migdał Aleksandra, Mitura Anna Brak potwierdzonego wyniku</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12422\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12422",
+      "source": "Kluby.org",
+      "date_start": "2026-10-31",
+      "date_end": "2026-10-31",
+      "ready": false,
+      "issues": [
+        "DEBEL KOBIETY: Brak części rozegranych meczów lub wyników"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "3e77c65d4c01c9ed58520da266a726412a0019a828275e98d77ce975ccca7db1"
+    },
+    {
+      "id": "kluby:12424",
+      "title": "NAWIEDZONY MARATON DEBLOWY HALLOWEEN - grupa B — wyniki (2026-10-31)",
+      "content": "<p>W dniu 31 października 2026 na obiekcie Spójnia Górna, Warszawa (Warszawa) rozegrano turniej <em>„NAWIEDZONY MARATON DEBLOWY HALLOWEEN - grupa B”</em> w kategorii DEBEL KOBIETY. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<h2>Grupa A</h2>\n<p><strong>Zielińska Dana, Marcinkowska Elżbieta</strong> – Kossakowska Iza, Mąkosa Martyna 7/0<br>\nBarska Małgorzata, Sobstyl Ines – <strong>Konarzewska Ewelina, Wójcik Eliza</strong> 4/5<br>\nPastryk Katarzyna, Szozda Grażyna – <strong>Kozłowska Hanna, Załuska Liliana</strong> 3/4<br>\n<strong>Żarska Monika, Gęborek Anna</strong> – Żołądkiewicz Justyna, Goscieta Karolina 5/2<br>\n<strong>Żołądkiewicz Justyna, Goscieta Karolina</strong> – Kossakowska Iza, Mąkosa Martyna 4/3<br>\n<strong>Żarska Monika, Gęborek Anna</strong> – Kozłowska Hanna, Załuska Liliana 7/2<br>\n<strong>Pastryk Katarzyna, Szozda Grażyna</strong> – Konarzewska Ewelina, Wójcik Eliza 5/4<br>\n<strong>Zielińska Dana, Marcinkowska Elżbieta</strong> – Barska Małgorzata, Sobstyl Ines 5/4<br>\n<strong>Barska Małgorzata, Sobstyl Ines</strong> – Kossakowska Iza, Mąkosa Martyna 5/3<br>\n<strong>Zielińska Dana, Marcinkowska Elżbieta</strong> – Pastryk Katarzyna, Szozda Grażyna 5/2<br>\nŻarska Monika, Gęborek Anna – <strong>Konarzewska Ewelina, Wójcik Eliza</strong> 1/7<br>\n<strong>Żołądkiewicz Justyna, Goscieta Karolina</strong> – Kozłowska Hanna, Załuska Liliana 5/3<br>\n<strong>Kozłowska Hanna, Załuska Liliana</strong> – Kossakowska Iza, Mąkosa Martyna 7/1<br>\nŻołądkiewicz Justyna, Goscieta Karolina – <strong>Konarzewska Ewelina, Wójcik Eliza</strong> 1/7<br>\n<strong>Zielińska Dana, Marcinkowska Elżbieta</strong> – Żarska Monika, Gęborek Anna 4/3<br>\n<strong>Barska Małgorzata, Sobstyl Ines</strong> – Pastryk Katarzyna, Szozda Grażyna 5/3<br>\nPastryk Katarzyna, Szozda Grażyna – <strong>Kossakowska Iza, Mąkosa Martyna</strong> 3/6<br>\nBarska Małgorzata, Sobstyl Ines – <strong>Żarska Monika, Gęborek Anna</strong> 3/5<br>\n<strong>Zielińska Dana, Marcinkowska Elżbieta</strong> – Żołądkiewicz Justyna, Goscieta Karolina 6/1<br>\nKozłowska Hanna, Załuska Liliana – Konarzewska Ewelina, Wójcik Eliza Brak potwierdzonego wyniku<br>\n<strong>Konarzewska Ewelina, Wójcik Eliza</strong> – Kossakowska Iza, Mąkosa Martyna 6/0<br>\n<strong>Zielińska Dana, Marcinkowska Elżbieta</strong> – Kozłowska Hanna, Załuska Liliana 5/2<br>\n<strong>Barska Małgorzata, Sobstyl Ines</strong> – Żołądkiewicz Justyna, Goscieta Karolina 5/2<br>\nPastryk Katarzyna, Szozda Grażyna – Żarska Monika, Gęborek Anna Brak potwierdzonego wyniku<br>\n<strong>Żarska Monika, Gęborek Anna</strong> – Kossakowska Iza, Mąkosa Martyna 6/2<br>\n<strong>Pastryk Katarzyna, Szozda Grażyna</strong> – Żołądkiewicz Justyna, Goscieta Karolina 5/1<br>\n<strong>Barska Małgorzata, Sobstyl Ines</strong> – Kozłowska Hanna, Załuska Liliana 5/3<br>\n<strong>Zielińska Dana, Marcinkowska Elżbieta</strong> – Konarzewska Ewelina, Wójcik Eliza 7/1</p>\n<p>Źródło: <a href=\"https://kluby.org/turnieje/12424\">Kluby.org — wyniki turnieju</a>.</p>",
+      "source_url": "https://kluby.org/turnieje/12424",
+      "source": "Kluby.org",
+      "date_start": "2026-10-31",
+      "date_end": "2026-10-31",
+      "ready": false,
+      "issues": [
+        "DEBEL KOBIETY: Brak części rozegranych meczów lub wyników"
+      ],
+      "voivodeship": "",
+      "cycle": "",
+      "tags": [],
+      "fingerprint": "b7d1fd6b626c9dad1040608625712314bc5bd56fb42f084d9f821570c81183e3"
+    },
+    {
+      "id": "plt:5704",
+      "title": "Prestige Court Cup II 2026 — wyniki (2026-10-31)",
+      "content": "<p>W dniu 31 października 2026 w miejscowości Otwock rozegrano turniej <em>„Prestige Court Cup II 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Kostyantyn Tarnopolskyy</strong> – Łukasz Jaworski 4:1, 4:3<br>\nJakub Wojciechowski – <strong>Kamil Rola</strong> 4:1, 3:4, 7:10<br>\n<strong>Kostyantyn Tarnopolskyy</strong> – Jakub Wojciechowski 4:1, 4:0<br>\nŁukasz Jaworski – <strong>Kamil Rola</strong> 0:4, 4:1, 3:10<br>\n<strong>Kostyantyn Tarnopolskyy</strong> – Kamil Rola 4:0, 4:3<br>\nŁukasz Jaworski – <strong>Jakub Wojciechowski</strong> 1:4, 4:2, 3:10</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-prestige-court-cup-ii-2026-5704/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-prestige-court-cup-ii-2026-5704/wyniki",
+      "source": "PLT",
+      "date_start": "2026-10-31",
+      "date_end": "2026-10-31",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "mazowieckie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "7e51ed4c876f595e475bf0fb6c75d37282aba609631eb1dd063d62612c8c6a76"
+    },
+    {
+      "id": "plt:5688",
+      "title": "Warszawa: Jarosław Gardyszewski triumfuje w turnieju Jesienny Turniej w ST Tie-Break 2026",
+      "content": "<p>W dniu 1 listopada 2026 w miejscowości Warszawa rozegrano turniej <em>„Jesienny Turniej w ST Tie-Break 2026”</em> w kategorii 1. Liga. Zawody były częścią cyklu Polska Liga Tenisa. W turnieju triumfuje <strong>Jarosław Gardyszewski</strong>. Poniżej szczegółowe wyniki.</p>\n<h2>Grupa A</h2>\n<p><strong>Kostyantyn Tarnopolskyy</strong> – Daniel Zyśk 4:2, 4:1<br>\n<strong>Piotr Jatczak</strong> – Aleksander Pakulski 4:1, 4:0<br>\n<strong>Kostyantyn Tarnopolskyy</strong> – Piotr Jatczak 4:1, 4:1<br>\n<strong>Daniel Zyśk</strong> – Aleksander Pakulski 4:1, 1:4, 10:6<br>\n<strong>Kostyantyn Tarnopolskyy</strong> – Aleksander Pakulski 4:1, 4:1<br>\nDaniel Zyśk – <strong>Piotr Jatczak</strong> 0:4, 2:4</p>\n<h2>Grupa B</h2>\n<p><strong>Piotr Zaczkowski</strong> – Krzysztof Majszyk 4:0, 4:0<br>\n<strong>Artur Szymczyk</strong> – Olek Dzieżyc 4:1, 4:2<br>\n<strong>Piotr Zaczkowski</strong> – Artur Szymczyk 4:1, 1:4, 10:8<br>\n<strong>Krzysztof Majszyk</strong> – Olek Dzieżyc 4:0, 4:3<br>\n<strong>Piotr Zaczkowski</strong> – Olek Dzieżyc 4:2, 4:1<br>\nKrzysztof Majszyk – <strong>Artur Szymczyk</strong> 0:4, 1:4</p>\n<h2>Grupa C</h2>\n<p><strong>Marek Gutjar</strong> – Wojciech Amtmański 4:2, 4:3<br>\nPatryk Woś – <strong>Marcin Kwaśniak</strong> 0:4, 1:4<br>\n<strong>Marek Gutjar</strong> – Patryk Woś 4:0, 4:0<br>\n<strong>Wojciech Amtmański</strong> – Marcin Kwaśniak 4:3, 3:4, 10:8<br>\n<strong>Marek Gutjar</strong> – Marcin Kwaśniak 4:2, 4:3<br>\n<strong>Wojciech Amtmański</strong> – Patryk Woś 4:0, 4:2</p>\n<h2>Grupa D</h2>\n<p><strong>Mateusz Decewicz</strong> – Adam. Stokowiec 4:1, 4:0<br>\n<strong>Łukasz Staszków</strong> – Michał Wiśniewski 4:1, 4:0<br>\n<strong>Mateusz Decewicz</strong> – Łukasz Staszków 4:2, 2:4, 10:5<br>\n<strong>Adam. Stokowiec</strong> – Michał Wiśniewski 4:1, 4:1<br>\n<strong>Mateusz Decewicz</strong> – Michał Wiśniewski 4:0, 4:0<br>\nAdam. Stokowiec – <strong>Łukasz Staszków</strong> 1:4, 3:4</p>\n<h2>Grupa E</h2>\n<p>Bernard Szymański – <strong>Jarosław Gardyszewski</strong> 0:4, 0:4 (walkower)<br>\n<strong>Marcin Piliszek</strong> – Kacper Skoczkowski 4:0, 4:0<br>\nBernard Szymański – <strong>Marcin Piliszek</strong> 0:4, 0:4 (walkower)<br>\n<strong>Jarosław Gardyszewski</strong> – Kacper Skoczkowski 4:0, 4:0<br>\nBernard Szymański – <strong>Kacper Skoczkowski</strong> 0:4, 0:4 (walkower)<br>\n<strong>Jarosław Gardyszewski</strong> – Marcin Piliszek 4:2, 4:2</p>\n<h2>1/4 FINAŁU</h2>\n<p><strong>Jarosław Gardyszewski</strong> – Marcin Piliszek 4:1, 4:2<br>\nMateusz Decewicz – <strong>Piotr Zaczkowski</strong> 1:4, 1:4<br>\n<strong>Marek Gutjar</strong> – Artur Szymczyk 4:2, 4:3<br>\n<strong>Kostyantyn Tarnopolskyy</strong> – Łukasz Staszków 4:0, 4:0</p>\n<h2>1/2 FINAŁU</h2>\n<p><strong>Jarosław Gardyszewski</strong> – Piotr Zaczkowski 4:1, 4:0<br>\n<strong>Marek Gutjar</strong> – Kostyantyn Tarnopolskyy 4:3, 1:4, 10:7</p>\n<h2>FINAŁ</h2>\n<p><strong>Jarosław Gardyszewski</strong> – Marek Gutjar 4:0, 4:0 (walkower)</p>\n<p>Źródło: <a href=\"https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-st-tie-break-2026-5688/wyniki\">PLT — wyniki turnieju</a>.</p>",
+      "source_url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-st-tie-break-2026-5688/wyniki",
+      "source": "PLT",
+      "date_start": "2026-11-01",
+      "date_end": "2026-11-01",
+      "ready": true,
+      "issues": [],
+      "voivodeship": "mazowieckie",
+      "cycle": "PLT",
+      "tags": [
+        "Polska Liga Tenisa"
+      ],
+      "fingerprint": "923e14cd20de589f992a3be2c944237fbe4745b770bfed8578b9a261847c95bf"
     }
   ]
 }

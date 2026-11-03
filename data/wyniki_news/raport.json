@@ -1,105 +1,35 @@
 {
-  "generated_at": "2026-10-27T08:36:01.126371+00:00",
-  "attempted": 53,
+  "generated_at": "2026-11-03T08:31:09.276085+00:00",
+  "attempted": 14,
   "errors": [
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-tarnowa-2026-5626",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5672",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-tarnowa-2026-5627",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-prestige-court-cup-ii-2026-5704",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-mistrzostwa-polski-plt-2026-5518",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-ii-2026-5676",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-mistrzostwa-polski-plt-2026-5519",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-st-tie-break-2026-5688",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-lublina-2026-5668",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://cuply.pl/turnieje/cuply-futures-stargard-ii-do-25-ntrp",
-      "source": "Cuply",
-      "error": "HTTPError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-mistrzostwa-polski-plt-2026-5520",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-grand-prix-spin-u-2026-5603",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-omega-smolec-grande-opening-cup-2026-5610",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-omega-smolec-grande-opening-cup-2026-5611",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-lodzi-2026-5659",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-lodzi-2026-5660",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-otwarte-jesienne-mistrzostwa-lodzi-2026-5661",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-otwocka-2026-5658",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-singlowe-weekendy-w-rudawa-tennis-club-iv-2026-5643",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-warszawy-2026-5657",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-otwocka-2026-5685",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-mistrzostwa-soboty-2026-5701",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-warszawy-2026-5684",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-st-tie-break-2026-5689",
       "source": "PLT",
       "error": "ValueError"
     }
   ],
-  "ready": 272,
-  "needs_review": 152,
+  "ready": 276,
+  "needs_review": 157,
   "awaiting_adapter": {
     "TKKF Skanda": 1
   },
