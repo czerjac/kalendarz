@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-11-03T11:57:34+00:00",
+  "pobrano_utc": "2026-11-04T12:11:46+00:00",
   "liczba_turniejow": 56,
   "kategorie_sprawdzone": [
     {
@@ -203,7 +203,7 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Silesia Bytom Cup 2026",
+      "nazwa": "1. LIGA. Silesia Bytom Cup by Multisport 2026",
       "data_od": "2026-11-14",
       "data_do": "2026-11-14",
       "miasto": "Bytom",
@@ -248,7 +248,7 @@
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Silesia Bytom Cup 2026",
+      "nazwa": "2. LIGA. Silesia Bytom Cup by Multisport 2026",
       "data_od": "2026-11-15",
       "data_do": "2026-11-15",
       "miasto": "Bytom",
