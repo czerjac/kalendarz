@@ -1,6 +1,6 @@
 {
-  "aktualizacja_utc": "2026-11-04T12:14:05+00:00",
-  "liczba_nierozpoznanych_miast": 4,
+  "aktualizacja_utc": "2026-11-05T12:27:04+00:00",
+  "liczba_nierozpoznanych_miast": 5,
   "miasta": [
     {
       "miasto": "Legionowo",
@@ -71,6 +71,11 @@
           "wojewodztwo": "małopolskie"
         }
       ]
+    },
+    {
+      "miasto": "Rudawa k. Krakowa",
+      "powod": "brak_jednoznacznego_wojewodztwa",
+      "dowody": []
     },
     {
       "miasto": "Wyszków",

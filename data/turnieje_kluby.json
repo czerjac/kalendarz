@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-11-04T12:12:12+00:00",
-  "liczba_turniejow": 56,
+  "pobrano_utc": "2026-11-05T12:25:09+00:00",
+  "liczba_turniejow": 59,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 32
+      "liczba": 34
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
-      "liczba": 10
+      "liczba": 11
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-01-01&data_do=2027-01-31&zakladka=0",
@@ -135,6 +135,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Head Cup Kielce",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Kielce",
+      "miejsce": "KT Wschodnia Kielce, Kielce",
+      "kategorie": "JUNIORZY",
+      "url": "https://kluby.org/turnieje/12449"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Indywidualny Turniej Kobiet",
       "data_od": "2026-11-08",
       "data_do": "2026-11-08",
@@ -162,6 +172,16 @@
       "miejsce": "WKT Mera, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12394"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej tenisowy o puchar Niepodległości 2026 - mikst OPEN",
+      "data_od": "2026-11-11",
+      "data_do": "2026-11-11",
+      "miasto": "Warszawa",
+      "miejsce": "Korty Macieja, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12447"
     },
     {
       "zrodlo": "Kluby.org",
@@ -372,6 +392,16 @@
       "miejsce": "Warsaw West Tennis Club, Warszawa",
       "kategorie": "TENIS10 NIEBIESKA TENIS10 CZERWONA TENIS10 POMARAŃCZOWA",
       "url": "https://kluby.org/turnieje/12440"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mikołajki w Perunie",
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06",
+      "miasto": "Warszawa",
+      "miejsce": "Perun Wesoła, Warszawa",
+      "kategorie": "TENIS10 NIEBIESKA TENIS10 CZERWONA TENIS10 POMARAŃCZOWA JUNIORZY U14 JUNIORZY U16",
+      "url": "https://kluby.org/turnieje/12448"
     },
     {
       "zrodlo": "Kluby.org",
