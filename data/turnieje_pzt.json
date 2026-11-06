@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-11-05T12:24:26+00:00",
-  "liczba_turniejow": 18,
+  "pobrano_utc": "2026-11-06T12:08:53+00:00",
+  "liczba_turniejow": 19,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -183,6 +183,16 @@
       "ranga": "3",
       "kategorie": "60+, 70+, 80+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=0F436F14-D292-4686-AF9F-C82BC5690CFB"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "LEGIA WINTER OPEN",
+      "data_od": "2027-02-06",
+      "data_do": "2027-02-08",
+      "miasto": "Warszawa",
+      "ranga": "2",
+      "kategorie": "45+, 60+, Open Amator, Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=CCBF736F-8081-4D81-BF00-A7A823BB78D0"
     }
   ]
 }

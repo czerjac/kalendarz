@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-11-05T12:24:43+00:00",
+  "pobrano_utc": "2026-11-06T12:09:16+00:00",
   "liczba_turniejow": 56,
   "kategorie_sprawdzone": [
     {
@@ -35,7 +35,9 @@
       "liczba": 1
     }
   ],
-  "ostrzezenia": [],
+  "ostrzezenia": [
+    "Puchar PLT: pusty odczyt po ponowieniu; zachowano 3 poprzednich przyszłych rekordów"
+  ],
   "bledy": [],
   "turnieje": [
     {
