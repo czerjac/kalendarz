@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-11-06T12:09:16+00:00",
+  "pobrano_utc": "2026-11-07T11:05:57+00:00",
   "liczba_turniejow": 56,
   "kategorie_sprawdzone": [
     {
@@ -35,20 +35,9 @@
       "liczba": 1
     }
   ],
-  "ostrzezenia": [
-    "Puchar PLT: pusty odczyt po ponowieniu; zachowano 3 poprzednich przyszłych rekordów"
-  ],
+  "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Jesienny Turniej w Rakietmanii 2026",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Lublin",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-rakietmanii-2026-5708"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
@@ -75,15 +64,6 @@
       "data_do": "2026-11-08",
       "miasto": "Piaseczno",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5702"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Piaseczna 2026",
-      "data_od": "2026-11-08",
-      "data_do": "2026-11-08",
-      "miasto": "Piaseczno",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5703"
     },
     {
       "zrodlo": "PLT",
@@ -462,6 +442,24 @@
       "data_do": "2026-11-28",
       "miasto": "Trzebownisko",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-iii-2026-5682"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Baltic Tennis Club Kołobrzeg Sunday Tour 2026",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Kołobrzeg",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-baltic-tennis-club-kolobrzeg-sunday-tour-2026-5726"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Jesienny Turniej o Puchar Olszynki Grochowskiej 2026",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5667"
     },
     {
       "zrodlo": "PLT",

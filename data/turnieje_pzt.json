@@ -1,19 +1,9 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-11-06T12:08:53+00:00",
-  "liczba_turniejow": 19,
+  "pobrano_utc": "2026-11-07T11:05:39+00:00",
+  "liczba_turniejow": 18,
   "turnieje": [
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-11-06",
-      "data_do": "2026-11-06",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "70+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=74912A70-7E21-4CB3-94DD-39D24DB1EF20"
-    },
     {
       "zrodlo": "PZT TOP",
       "nazwa": "GRAND PRIX MOSZCZENICA",
