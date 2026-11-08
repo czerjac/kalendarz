@@ -1,35 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-11-07T11:05:40+00:00",
+  "pobrano_utc": "2026-11-08T11:18:08+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Challenger Barlinek do 4.0 NTRP 07.11",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Barlinek",
-      "miejsce": "Akademia Tenisa Barlinek, Barlinek",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/challenger-barlinek-do-40-ntrp"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Ladies Stargard - Otwarte Mistrzostwa Kobiet",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Stargard",
-      "miejsce": "Stargardzki Ośrodek Tenisowy, Stargard",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-ladies-stargard-dla-kobiet"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "Cuply Challenger Szczecin - Turniej Deblowy do 4.0 NTRP",
@@ -133,6 +107,32 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-zielonej-gory-dla-sredniozaawansowanych-do-40-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Szczecin 29.11 - do 4.0 NTRP",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Szczecin",
+      "miejsce": "Tennis Arena, Szczecin",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-2911-do-40-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Stargard - dla średniozaawansowanych do 4.0 NTRP",
+      "data_od": "2026-12-05",
+      "data_do": "2026-12-06",
+      "miasto": "Stargard",
+      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-stargard-dla-sredniozaawansowanych-do-40-ntrp"
     }
   ]
 }

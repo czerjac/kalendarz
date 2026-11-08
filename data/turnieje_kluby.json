@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-11-07T11:06:23+00:00",
-  "liczba_turniejow": 61,
+  "pobrano_utc": "2026-11-08T11:18:47+00:00",
+  "liczba_turniejow": 52,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 36
+      "liczba": 38
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -35,26 +35,6 @@
   "turnieje": [
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Turniej SINGLOWY",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Legionowo",
-      "miejsce": "Spektrum Sportu, Legionowo",
-      "kategorie": "",
-      "url": "https://kluby.org/turnieje/12438"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej o puchar ASAJA Sport",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Płock",
-      "miejsce": "ASAJA SPORT, Płock",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12443"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "4 LEJDIS MASTERS sezon 5 - singiel",
       "data_od": "2026-11-07",
       "data_do": "2026-11-14",
@@ -65,96 +45,6 @@
     },
     {
       "zrodlo": "Kluby.org",
-      "nazwa": "Grand Prix Mazowsza - ST Net",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Warszawa",
-      "miejsce": "ST NET, Warszawa",
-      "kategorie": "OPEN",
-      "url": "https://kluby.org/turnieje/12403"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Grand Prix Mazowsza Juniorów Debel u12, u14, u16",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Warszawa",
-      "miejsce": "Silva Sport, Warszawa",
-      "kategorie": "DEBEL JUNIORZY DEBEL JUNIORZY DEBEL JUNIORZY",
-      "url": "https://kluby.org/turnieje/12445"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Jesień by WKT Mera Kids III",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Warszawa",
-      "miejsce": "WKT Mera, Warszawa",
-      "kategorie": "TENIS10 POMARAŃCZOWA (gs-orange)",
-      "url": "https://kluby.org/turnieje/12455"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "MASTERS TENNIS STARS LEAGUE - SEZON 21",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Warszawa",
-      "miejsce": "Silva Sport, Warszawa",
-      "kategorie": "OPEN (SUPERPRO) OPEN (PRO - Kobiety) OPEN (PRO - Mężczyźni) OPEN (Advanced - Kobiety) OPEN (Advanced - Mężczyźni) OPEN (Basic - Kobiety) OPEN (Basic - Mężczyźni) DEBEL (Kobiety) DEBEL (Mężczyźni)",
-      "url": "https://kluby.org/turnieje/12357"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Olszynka Silvers Cup - Singiel M +45",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Warszawa",
-      "miejsce": "TKKF Olszynka, Warszawa",
-      "kategorie": "SENIORZY +45",
-      "url": "https://kluby.org/turnieje/12330"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Straszny Set! Halloweenowy Turniej Deblowo-Mixtowy - kat. Basic+",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Warszawa",
-      "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12301"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Straszny Set! Halloweenowy Turniej Deblowo-Mixtowy - kat. OPEN",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Warszawa",
-      "miejsce": "TENES Klub Sportowy, Warszawa",
-      "kategorie": "DEBEL",
-      "url": "https://kluby.org/turnieje/12302"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "WTK U12 by WKT Mera",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Warszawa",
-      "miejsce": "WKT Mera, Warszawa",
-      "kategorie": "JUNIORZY U12 (BS U12 (singlowy)) JUNIORKI U12 (GS U12 (singlowy))",
-      "url": "https://kluby.org/turnieje/12457"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Masters 2026",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-07",
-      "miasto": "Żyrardów",
-      "miejsce": "Matchpoint Żyrardów, Żyrardów",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12442"
-    },
-    {
-      "zrodlo": "Kluby.org",
       "nazwa": "Head Cup Kielce",
       "data_od": "2026-11-08",
       "data_do": "2026-11-08",
@@ -162,6 +52,16 @@
       "miejsce": "KT Wschodnia Kielce, Kielce",
       "kategorie": "JUNIORZY",
       "url": "https://kluby.org/turnieje/12449"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "CTN singiel NTRP 3,5",
+      "data_od": "2026-11-08",
+      "data_do": "2026-11-08",
+      "miasto": "Lublin",
+      "miejsce": "LKT Zygmuntowskie, Lublin",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12465"
     },
     {
       "zrodlo": "Kluby.org",
@@ -265,6 +165,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Mazowieckie Deblowe Grand Prix amatorów w tenisie ziemnym. Cykl turniejów deblowych.",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Warszawa",
+      "miejsce": "TKKF Olszynka, Warszawa",
+      "kategorie": "DEBEL +50",
+      "url": "https://kluby.org/turnieje/12463"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "♥️AndrUla Cup -drużynówka o puchar Andrzeja i Uli Caruk ♥️",
       "data_od": "2026-11-15",
       "data_do": "2026-11-15",
@@ -350,7 +260,7 @@
       "data_do": "2026-11-28",
       "miasto": "Warszawa",
       "miejsce": "Perun Wesoła, Warszawa",
-      "kategorie": "TENIS10 ZIELONA (Chłopcy) TENIS10 ZIELONA (Dziewczynki)",
+      "kategorie": "TENIS10 CZERWONA TENIS10 ZIELONA (Chłopcy) TENIS10 ZIELONA (Dziewczynki)",
       "url": "https://kluby.org/turnieje/12311"
     },
     {
