@@ -1,6 +1,6 @@
 {
-  "aktualizacja_utc": "2026-11-08T11:20:45+00:00",
-  "liczba_nierozpoznanych_miast": 3,
+  "aktualizacja_utc": "2026-11-09T12:58:16+00:00",
+  "liczba_nierozpoznanych_miast": 2,
   "miasta": [
     {
       "miasto": "Leszno",
@@ -23,34 +23,8 @@
           "wojewodztwo": "pomorskie"
         },
         {
-          "display_name": "Leszno, gmina Grabów, powiat łęczycki, województwo łódzkie, 99-150, Polska",
-          "wojewodztwo": "łódzkie"
-        }
-      ]
-    },
-    {
-      "miasto": "MOSZCZENICA",
-      "powod": "brak_jednoznacznego_wojewodztwa",
-      "dowody": [
-        {
-          "display_name": "gmina Moszczenica, powiat piotrkowski, województwo łódzkie, 97-310, Polska",
-          "wojewodztwo": "łódzkie"
-        },
-        {
-          "display_name": "Moszczenica, gmina Chojnice, powiat chojnicki, województwo pomorskie, 89-620, Polska",
-          "wojewodztwo": "pomorskie"
-        },
-        {
-          "display_name": "Moszczenica, gmina Zgierz, powiat zgierski, województwo łódzkie, 95-002, Polska",
-          "wojewodztwo": "łódzkie"
-        },
-        {
-          "display_name": "Moszczenica, gmina Moszczenica, powiat piotrkowski, województwo łódzkie, 97-310, Polska",
-          "wojewodztwo": "łódzkie"
-        },
-        {
-          "display_name": "Moszczenica, gmina Bochnia, powiat bocheński, województwo małopolskie, Polska",
-          "wojewodztwo": "małopolskie"
+          "display_name": "Leszno, gmina Barczewo, powiat olsztyński, województwo warmińsko-mazurskie, 11-010, Polska",
+          "wojewodztwo": "warmińsko-mazurskie"
         }
       ]
     },

@@ -1,22 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-11-08T11:18:08+00:00",
+  "pobrano_utc": "2026-11-09T12:55:29+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Szczecin - Turniej Deblowy do 4.0 NTRP",
-      "data_od": "2026-11-08",
-      "data_do": "2026-11-08",
-      "miasto": "Szczecin",
-      "miejsce": "Tennis Arena Szczecin, Szczecin",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-turniej-deblowy-do-40-ntrp"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "Cuply Challenger Szczecin 11.11 - do 4.0 NTRP",
@@ -133,6 +120,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-stargard-dla-sredniozaawansowanych-do-40-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Ladies Kołobrzeg - Turniej dla Kobiet",
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06",
+      "miasto": "Kołobrzeg",
+      "miejsce": "Baltic Tennis Club Kołobrzeg, Kołobrzeg",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-ladies-kolobrzeg-turniej-dla-kobiet"
     }
   ]
 }

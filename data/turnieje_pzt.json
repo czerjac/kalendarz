@@ -1,39 +1,9 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-11-08T11:18:07+00:00",
-  "liczba_turniejow": 18,
+  "pobrano_utc": "2026-11-09T12:55:28+00:00",
+  "liczba_turniejow": 15,
   "turnieje": [
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "GRAND PRIX MOSZCZENICA",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-08",
-      "miasto": "MOSZCZENICA",
-      "ranga": "3",
-      "kategorie": "50+, Open Amator",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=ED2EE78E-35ED-4B7F-AE8F-E0EFB4E08FDF"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "Grand Prix Stalowej Woli Amatorów",
-      "data_od": "2026-11-07",
-      "data_do": "2026-11-08",
-      "miasto": "Stalowa Wola",
-      "ranga": "3",
-      "kategorie": "Open Amator",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=D1B7889D-BC88-497D-B1FD-7EE03998D30C"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-11-08",
-      "data_do": "2026-11-08",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "60+, 70+, 80+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9B7BD390-BDD6-4213-85E3-AE8B662D1A72"
-    },
     {
       "zrodlo": "PZT TOP",
       "nazwa": "OTWARTY TURNIEJ DEBLOWY",
