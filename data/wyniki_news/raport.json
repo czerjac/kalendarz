@@ -1,35 +1,60 @@
 {
-  "generated_at": "2026-11-03T10:25:23.794374+00:00",
-  "attempted": 14,
+  "generated_at": "2026-11-10T10:43:35.916112+00:00",
+  "attempted": 42,
   "errors": [
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-krakowa-2026-5672",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-rakietmanii-2026-5708",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-prestige-court-cup-ii-2026-5704",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-grand-prix-spin-u-ii-2026-5632",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-ii-2026-5676",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-grand-prix-spin-u-ii-2026-5633",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-st-tie-break-2026-5688",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5614",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-st-tie-break-2026-5689",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-smolca-2026-5649",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-smolca-2026-5650",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-prestige-court-cup-ii-2026-5705",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5703",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-otwarte-mistrzostwa-soboty-2026-5674",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-baltic-tennis-club-kolobrzeg-sunday-tour-2026-5725",
       "source": "PLT",
       "error": "ValueError"
     }
   ],
-  "ready": 276,
-  "needs_review": 157,
+  "ready": 293,
+  "needs_review": 168,
   "awaiting_adapter": {
     "TKKF Skanda": 1
   },
