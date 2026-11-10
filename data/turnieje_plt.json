@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-11-09T12:55:46+00:00",
+  "pobrano_utc": "2026-11-10T12:41:44+00:00",
   "liczba_turniejow": 54,
   "kategorie_sprawdzone": [
     {
@@ -251,7 +251,7 @@
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Zawady 2026",
       "data_od": "2026-11-21",
       "data_do": "2026-11-21",
-      "miasto": "Zawada",
+      "miasto": "Zawada k. Opola",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-zawady-2026-5721"
     },
     {
