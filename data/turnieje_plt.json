@@ -1,13 +1,13 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-11-10T12:41:44+00:00",
-  "liczba_turniejow": 54,
+  "pobrano_utc": "2026-11-11T11:54:31+00:00",
+  "liczba_turniejow": 53,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund?incoming=true",
-      "liczba": 4
+      "liczba": 3
     },
     {
       "kategoria": "1. Liga",
@@ -38,42 +38,6 @@
   "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Vamos Dzierżoniów - Turniej Niepodległościowy 2026",
-      "data_od": "2026-11-11",
-      "data_do": "2026-11-11",
-      "miasto": "Dzierżoniów",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-vamos-dzierzoniow-turniej-niepodleglosciowy-2026-5731"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Szkoła Tenisa Diłaj - Turniej Niepodległościowy 2026",
-      "data_od": "2026-11-11",
-      "data_do": "2026-11-11",
-      "miasto": "Gdańsk",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-szkola-tenisa-dilaj-turniej-niepodleglosciowy-2026-5732"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Szkoła Tenisa Diłaj - Turniej Niepodległościowy 2026",
-      "data_od": "2026-11-11",
-      "data_do": "2026-11-11",
-      "miasto": "Gdańsk",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-szkola-tenisa-dilaj-turniej-niepodleglosciowy-2026-5733"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "Puchar PLT",
-      "nazwa": "PUCHAR PLT. Warsaw West - Turniej Niepodległościowy 2026",
-      "data_od": "2026-11-11",
-      "data_do": "2026-11-11",
-      "miasto": "Ożarów Mazowiecki",
-      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-warsaw-west-turniej-niepodleglosciowy-2026-5757"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
@@ -400,12 +364,30 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Jesienny Turniej o Puchar Olszynki Grochowskiej 2026",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5666"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Jesienny Turniej o Puchar Olszynki Grochowskiej 2026",
       "data_od": "2026-11-29",
       "data_do": "2026-11-29",
       "miasto": "Warszawa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5667"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Start Łódż Cup 2026",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Łódź",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-start-lodz-cup-2026-5695"
     },
     {
       "zrodlo": "PLT",
@@ -460,6 +442,15 @@
       "data_do": "2026-12-06",
       "miasto": "Słupsk",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-klubu-perla-2026-5724"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Jesienne Mistrzostwa Rakietmanii 2026",
+      "data_od": "2026-12-12",
+      "data_do": "2026-12-12",
+      "miasto": "Lublin",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-rakietmanii-2026-5750"
     },
     {
       "zrodlo": "PLT",
