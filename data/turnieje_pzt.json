@@ -1,19 +1,9 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-11-11T11:54:16+00:00",
-  "liczba_turniejow": 15,
+  "pobrano_utc": "2026-11-12T12:45:36+00:00",
+  "liczba_turniejow": 14,
   "turnieje": [
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "OTWARTY TURNIEJ DEBLOWY",
-      "data_od": "2026-11-11",
-      "data_do": "2026-11-11",
-      "miasto": "37-450 Stalowa Wola",
-      "ranga": "3",
-      "kategorie": "Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=1DAF25C5-DD73-4FEE-9A98-4CD07761BDB0"
-    },
     {
       "zrodlo": "PZT TOP",
       "nazwa": "XXVII Halowe Mistrzostwa Polski Lekarzy w Tenisie",

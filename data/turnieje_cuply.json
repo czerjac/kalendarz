@@ -1,22 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-11-11T11:54:17+00:00",
+  "pobrano_utc": "2026-11-12T12:45:38+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Szczecin 11.11 - do 4.0 NTRP",
-      "data_od": "2026-11-11",
-      "data_do": "2026-11-11",
-      "miasto": "Szczecin",
-      "miejsce": "Tennis Arena, Szczecin",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-tennis-arena-do-40-ntrp"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "Cuply Challenger Finały - Lato 2026",
@@ -133,6 +120,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-ladies-kolobrzeg-turniej-dla-kobiet"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Challenger Gryfino dla średniozaawansowanych do 4.0 NTRP",
+      "data_od": "2026-12-12",
+      "data_do": "2026-12-12",
+      "miasto": "Gryfino",
+      "miejsce": "MB Tennis Gryfino, Gryfino",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/challenger-gryfino-dla-sredniozaawansowanych-do-40-ntrp"
     }
   ]
 }

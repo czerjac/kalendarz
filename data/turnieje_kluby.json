@@ -1,7 +1,7 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-11-11T11:54:56+00:00",
-  "liczba_turniejow": 51,
+  "pobrano_utc": "2026-11-12T12:46:16+00:00",
+  "liczba_turniejow": 48,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -42,36 +42,6 @@
       "miejsce": "Spójnia Górna, Warszawa",
       "kategorie": "KOBIETY OPEN",
       "url": "https://kluby.org/turnieje/12435"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "TieBreak Kids Cup",
-      "data_od": "2026-11-11",
-      "data_do": "2026-11-11",
-      "miasto": "Warszawa",
-      "miejsce": "Tie Break Koncertowa, Warszawa",
-      "kategorie": "TENIS10 CZERWONA TENIS10 POMARAŃCZOWA TENIS10 POMARAŃCZOWA TENIS10 ZIELONA TENIS10 ZIELONA",
-      "url": "https://kluby.org/turnieje/12469"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej tenisowy o puchar Niepodległości 2026 - mikst OPEN",
-      "data_od": "2026-11-11",
-      "data_do": "2026-11-11",
-      "miasto": "Warszawa",
-      "miejsce": "Korty Macieja, Warszawa",
-      "kategorie": "DEBEL MIKST",
-      "url": "https://kluby.org/turnieje/12447"
-    },
-    {
-      "zrodlo": "Kluby.org",
-      "nazwa": "Turniej z okazji Święta Niepodległości",
-      "data_od": "2026-11-11",
-      "data_do": "2026-11-11",
-      "miasto": "Warszawa",
-      "miejsce": "TenisWil, Warszawa",
-      "kategorie": "TENIS10 ZIELONA JUNIORZY U12",
-      "url": "https://kluby.org/turnieje/12472"
     },
     {
       "zrodlo": "Kluby.org",
