@@ -369,6 +369,30 @@ def fetch(item, session):
         if label and label not in labels:
             labels.append(label)
 
+    # The news parser recognizes only places 1 and 2 on this source page.
+    # Preserve exactly that limited evidence; NEVER call it a full classification.
+    ranking_tables = []
+    for event_meta_item in events:
+        key = event_meta_item.get("klucz")
+        source_table = winners.get(key, {})
+        places = source_table.get("miejsca", {})
+        ranking_tables.append({
+            "event_key": key,
+            "kategoria_nazwa_zrodlowa": ". ".join(
+                x for x in (
+                    event_meta_item.get("kategoria"),
+                    event_meta_item.get("typ"),
+                    event_meta_item.get("plec"),
+                ) if x
+            ),
+            "wiersze": [
+                {"miejsce": rank, "strona": places[rank]}
+                for rank in ("1", "2") if rank in places
+            ],
+            "zakres": "TYLKO_MIEJSCA_1_2",
+            "status": "DANE_ZRODLOWE_NIEZWERYFIKOWANE",
+        })
+
     return {
         "id": "pzt:" + tid,
         "zrodlo": "PZT TOP",
@@ -382,4 +406,5 @@ def fetch(item, session):
         "final_id": single_final,
         "gotowy": bool(all_matches) and not warnings,
         "uwagi": sorted(set(warnings)),
+        "ranking_evidence": {"schema_version": 1, "klasyfikacje_zrodla": ranking_tables},
     }
