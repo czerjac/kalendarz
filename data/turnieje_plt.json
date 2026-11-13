@@ -1,7 +1,7 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-11-12T12:45:51+00:00",
+  "pobrano_utc": "2026-11-13T12:15:21+00:00",
   "liczba_turniejow": 54,
   "kategorie_sprawdzone": [
     {
@@ -22,12 +22,12 @@
     {
       "kategoria": "PLT Kobiet",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/lista-rund?incoming=true",
-      "liczba": 4
+      "liczba": 3
     },
     {
       "kategoria": "Deble i Miksty",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/lista-rund?incoming=true",
-      "liczba": 5
+      "liczba": 6
     },
     {
       "kategoria": "Kategorie wiekowe",
@@ -67,15 +67,6 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Asaja Cup II 2026",
-      "data_od": "2026-11-14",
-      "data_do": "2026-11-14",
-      "miasto": "Rogozino k. Płocka",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-asaja-cup-ii-2026-5716"
-    },
-    {
-      "zrodlo": "PLT",
       "kategoria": "Puchar PLT",
       "nazwa": "PUCHAR PLT. Wiki Sanok Cup 2026",
       "data_od": "2026-11-14",
@@ -86,29 +77,11 @@
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Teho Cup II 2026",
-      "data_od": "2026-11-14",
-      "data_do": "2026-11-14",
-      "miasto": "Trzebownisko",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-ii-2026-5681"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Silesia Bytom Cup by Multisport 2026",
       "data_od": "2026-11-15",
       "data_do": "2026-11-15",
       "miasto": "Bytom",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-silesia-bytom-cup-2026-5746"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Kazimierzowo Cup 2026",
-      "data_od": "2026-11-15",
-      "data_do": "2026-11-15",
-      "miasto": "Elbląg",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-kazimierzowo-cup-2026-5727"
     },
     {
       "zrodlo": "PLT",
@@ -127,15 +100,6 @@
       "data_do": "2026-11-15",
       "miasto": "Otwock",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-prestige-court-2026-5734"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Jesienny Turniej w Prestige Court 2026",
-      "data_od": "2026-11-15",
-      "data_do": "2026-11-15",
-      "miasto": "Otwock",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-prestige-court-2026-5706"
     },
     {
       "zrodlo": "PLT",
@@ -166,6 +130,15 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Teho Cup II 2026",
+      "data_od": "2026-11-15",
+      "data_do": "2026-11-15",
+      "miasto": "Trzebownisko",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-ii-2026-5681"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Jesienny Turniej o Puchar Startu 2026",
       "data_od": "2026-11-15",
@@ -181,15 +154,6 @@
       "data_do": "2026-11-15",
       "miasto": "Łódź",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-startu-2026-5693"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "PLT Kobiet",
-      "nazwa": "PLT KOBIET. Jesienny Turniej o Puchar Startu 2026",
-      "data_od": "2026-11-15",
-      "data_do": "2026-11-15",
-      "miasto": "Łódź",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-jesienny-turniej-o-puchar-startu-2026-5694"
     },
     {
       "zrodlo": "PLT",
@@ -364,6 +328,15 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "Deble i Miksty",
+      "nazwa": "DEBEL. Grand Prix SPIN-u II 2026",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Rzeszów",
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-grand-prix-spin-u-ii-2026-5759"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Teho Cup IV 2026",
       "data_od": "2026-11-29",
@@ -418,6 +391,15 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Grand Prix SPIN-u III 2026",
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06",
+      "miasto": "Rzeszów",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-grand-prix-spin-u-iii-2026-5634"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "2. Liga",
       "nazwa": "2. LIGA. Grand Prix SPIN-u III 2026",
       "data_od": "2026-12-06",
@@ -463,12 +445,30 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Teho Cup IV 2026",
+      "data_od": "2026-12-12",
+      "data_do": "2026-12-12",
+      "miasto": "Trzebownisko",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-iv-2026-5683"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "Deble i Miksty",
       "nazwa": "MIKST. Grand Prix SPIN-u III 2026",
       "data_od": "2026-12-13",
       "data_do": "2026-12-13",
       "miasto": "Rzeszów",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-iii-2026-5631"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Jesienne Mistrzostwa Łodzi 2026",
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13",
+      "miasto": "Łódź",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-lodzi-2026-5699"
     },
     {
       "zrodlo": "PLT",
