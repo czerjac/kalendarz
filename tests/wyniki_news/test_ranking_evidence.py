@@ -9,7 +9,7 @@ from unittest.mock import patch
 
 from wyniki_news.build import article
 from wyniki_news.kluby import fetch as kluby_fetch, ranking_result_markers
-from wyniki_news.pzt import fetch as pzt_fetch
+from wyniki_news.pzt import fetch as pzt_fetch, decode_qs
 from wyniki_news.ranking_audit import audit_snapshot, player_has_fallback_id
 from tests.wyniki_news.test_kluby import MATCHES, STANDINGS
 from tests.wyniki_news.test_pzt import INDEX, SINGLES, DOUBLES, WINNERS
@@ -66,10 +66,12 @@ class RankingEvidenceTests(unittest.TestCase):
                 return INDEX
             if "TournamentTabResults.aspx" in url:
                 return WINNERS
-            if "EVOVC0x" in url:
-                return SINGLES
-            if "EVOVC0y" in url:
-                return DOUBLES
+            if "TournamentMatches.aspx?QS=" in url:
+                source_event = decode_qs(url).get("EventID")
+                if source_event == "EVENT-1":
+                    return SINGLES
+                if source_event == "EVENT-2":
+                    return DOUBLES
             raise AssertionError("Unexpected source URL in fictional test")
 
         with patch("wyniki_news.pzt.get", side_effect=get):
