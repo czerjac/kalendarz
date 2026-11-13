@@ -9,11 +9,11 @@ from urllib.parse import parse_qs, urlencode, urlsplit, urlunsplit
 from bs4 import BeautifulSoup
 
 HOSTS = {"kluby.org", "www.kluby.org"}
-WALKOVER_RE = re.compile(r"\\b(?:w\\.?o\\.?|walkower|krecz|ret\\.?)\\b", re.I)
+WALKOVER_RE = re.compile(r"\b(?:w\.?o\.?|walkower|krecz|ret\.?)\b", re.I)
 # Distinguish explicit textual outcome markers ONLY for ranking diagnostics.
 # Legacy walkower flag above is unchanged for the existing news workflow.
-RANKING_WO_RE = re.compile(r"\\b(?:w\\.?o\\.?|walkower)\\b", re.I)
-RANKING_RET_RE = re.compile(r"\\b(?:krecz|ret\\.?|retired)\\b", re.I)
+RANKING_WO_RE = re.compile(r"\b(?:w\.?o\.?|walkower)\b", re.I)
+RANKING_RET_RE = re.compile(r"\b(?:krecz|ret\.?|retired)\b", re.I)
 
 
 def ranking_result_markers(raw: str) -> dict[str, bool]:
