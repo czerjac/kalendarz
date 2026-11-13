@@ -1,0 +1,36 @@
+name: GP Tour sports-evidence audit (offline)
+
+# This workflow is deliberately separate from the existing news collector.
+# Never fetches original sports websites or publishes WordPress articles.
+on:
+  pull_request:
+    paths:
+      - "wyniki_news/ranking_audit.py"
+      - "wyniki_news/kluby.py"
+      - "wyniki_news/pzt.py"
+      - "tests/wyniki_news/test_ranking_evidence.py"
+      - ".github/workflows/ranking-evidence-audit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install existing news parser dependencies
+        run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+      - name: Run all existing news parser tests plus ranking-evidence tests
+        run: python -m unittest discover -s tests/wyniki_news -v
+      - name: Check existing WordPress plugin remains unaffected
+        run: |
+          php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
+          php tests/wyniki_news/wordpress_import_test.php
+      - name: Aggregate actual stan.json archive (counts only; no player names)
+        run: python -m wyniki_news.ranking_audit
