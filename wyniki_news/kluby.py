@@ -9,7 +9,20 @@ from urllib.parse import parse_qs, urlencode, urlsplit, urlunsplit
 from bs4 import BeautifulSoup
 
 HOSTS = {"kluby.org", "www.kluby.org"}
-WALKOVER_RE = re.compile(r"\b(?:w\.?o\.?|walkower|krecz|ret\.?)\b", re.I)
+WALKOVER_RE = re.compile(r"\\b(?:w\\.?o\\.?|walkower|krecz|ret\\.?)\\b", re.I)
+# Distinguish explicit textual outcome markers ONLY for ranking diagnostics.
+# Legacy walkower flag above is unchanged for the existing news workflow.
+RANKING_WO_RE = re.compile(r"\\b(?:w\\.?o\\.?|walkower)\\b", re.I)
+RANKING_RET_RE = re.compile(r"\\b(?:krecz|ret\\.?|retired)\\b", re.I)
+
+
+def ranking_result_markers(raw: str) -> dict[str, bool]:
+    """Source text signals, not verified facts about playing on court."""
+    return {
+        "tekst_walkower": bool(RANKING_WO_RE.search(raw or "")),
+        "tekst_krecz_ret": bool(RANKING_RET_RE.search(raw or "")),
+    }
+
 SCORE_RE = re.compile(r"(?<!\d)(\d{1,2})\s*[:\-/]\s*(\d{1,2})(?!\d)")
 
 
@@ -219,6 +232,7 @@ def parse_matches(html: str, tournament_id: str, category_id: str, category_name
             "zakonczony": done,
             "data_zrodlowa": None,
             "kategoria_zrodlowa": category_name,
+            "ranking_oznaczenia_wyniku": ranking_result_markers(score_raw),
         })
     if not matches:
         warnings.append("Nie znaleziono rozegranych meczów")
@@ -347,7 +361,7 @@ def fetch(item, session):
     fallback = item.get("kategoria_zrodla") or item.get("kategoria") or item.get("kategorie") or ""
     categories = category_links(soup, fallback)
 
-    all_matches, warnings, finals, names = [], [], [], []
+    all_matches, warnings, finals, names, ranking_tables = [], [], [], [], []
     for cat in categories:
         names.append(cat["nazwa"] or cat["id"])
         html_matches = first_html if not cat["id"] else get(session, with_category(matches_url, cat["id"]))
@@ -355,6 +369,14 @@ def fetch(item, session):
         all_matches.extend(matches)
         warnings.extend(f"{cat['nazwa'] or cat['id']}: {x}" for x in local)
         standings = parse_standings(get(session, with_category(base + "/kolejnosc", cat["id"]), optional=True))
+        # Preserve *all source standings rows already fetched for the news final.
+        # No claim of full or correct classification; Fundacja must verify.
+        ranking_tables.append({
+            "kategoria_id_zrodlowa": cat["id"],
+            "kategoria_nazwa_zrodlowa": cat["nazwa"],
+            "wiersze": standings,
+            "status": "DANE_ZRODLOWE_NIEZWERYFIKOWANE",
+        })
         fid = final_id(matches, standings, warnings)
         if fid:
             finals.append(fid)
@@ -380,4 +402,5 @@ def fetch(item, session):
         "final_id": single_final,
         "gotowy": bool(all_matches) and not warnings,
         "uwagi": sorted(set(warnings)),
+        "ranking_evidence": {"schema_version": 1, "klasyfikacje_zrodla": ranking_tables},
     }
