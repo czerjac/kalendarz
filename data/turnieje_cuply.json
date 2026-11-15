@@ -1,35 +1,9 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-11-14T11:30:18+00:00",
+  "pobrano_utc": "2026-11-15T11:58:28+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Challenger Finały - Lato 2026",
-      "data_od": "2026-11-14",
-      "data_do": "2026-11-14",
-      "miasto": "Stargard",
-      "miejsce": "Stargardzki Ośrodek Tenisowy SOT, Stargard",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-challenger-finaly-i-edycja"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Masters Finały - Lato 2026",
-      "data_od": "2026-11-14",
-      "data_do": "2026-11-14",
-      "miasto": "Stargard",
-      "miejsce": "Stargardzki Ośrodek Tenisowy SOT, Stargard",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-masters-finaly-i-edycja"
-    },
     {
       "zrodlo": "Cuply",
       "nazwa": "Otwarte Mistrzostwa Gorzowa Cuply - dla średniozaawansowanych do 4.0 NTRP",
@@ -133,6 +107,32 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/challenger-gryfino-dla-sredniozaawansowanych-do-40-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Świąteczny Challenger Stargard - dla średniozaawansowanych do 4.0 NTRP",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-19",
+      "miasto": "Stargard",
+      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/cuply-challenger-stargard-dla-sredniozaawansowanych-do-40-ntrp-2"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "Otwarte Mistrzostwa Stargardu Cuply Masters - dla zaawansowanych",
+      "data_od": "2026-12-20",
+      "data_do": "2026-12-20",
+      "miasto": "Stargard",
+      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-stargardu-cuply-masters-dla-zaawansowanych"
     }
   ]
 }
