@@ -1,39 +1,9 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-11-15T11:58:27+00:00",
-  "liczba_turniejow": 14,
+  "pobrano_utc": "2026-11-16T12:47:54+00:00",
+  "liczba_turniejow": 11,
   "turnieje": [
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "XXVII Halowe Mistrzostwa Polski Lekarzy w Tenisie",
-      "data_od": "2026-11-12",
-      "data_do": "2026-11-15",
-      "miasto": "Leszno",
-      "ranga": "3",
-      "kategorie": "35+, 40+, 45+, 50+, 55+, 60+, 65+, 70+, 75+, 80+, 85+, Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=174259E0-AC22-4CE7-8DEC-CEADFDD48DBD"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "\"Quaglia Cup\" TENIS CLUB KK \"ZIMA 2026/27\"",
-      "data_od": "2026-11-14",
-      "data_do": "2026-11-15",
-      "miasto": "KEDZIERZYN-KOZLE",
-      "ranga": "3",
-      "kategorie": "Open",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9A045A61-F311-469F-AD6D-7C00ECCB933C"
-    },
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-11-15",
-      "data_do": "2026-11-15",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "60+, 70+, 80+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9BCCBC4B-7B22-4FF9-A886-CDA244141B72"
-    },
     {
       "zrodlo": "PZT TOP",
       "nazwa": "SMECZ PIASECZNO",

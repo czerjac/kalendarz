@@ -1,33 +1,7 @@
 {
-  "aktualizacja_utc": "2026-11-15T12:00:30+00:00",
-  "liczba_nierozpoznanych_miast": 2,
+  "aktualizacja_utc": "2026-11-16T12:50:14+00:00",
+  "liczba_nierozpoznanych_miast": 1,
   "miasta": [
-    {
-      "miasto": "Leszno",
-      "powod": "brak_jednoznacznego_wojewodztwa",
-      "dowody": [
-        {
-          "display_name": "Leszno, województwo wielkopolskie, Polska",
-          "wojewodztwo": "wielkopolskie"
-        },
-        {
-          "display_name": "Leszno, województwo wielkopolskie, Polska",
-          "wojewodztwo": "wielkopolskie"
-        },
-        {
-          "display_name": "Leszno, gmina Leszno, powiat warszawski zachodni, województwo mazowieckie, 05-084, Polska",
-          "wojewodztwo": "mazowieckie"
-        },
-        {
-          "display_name": "Leszno, Kiełpino, gmina Kartuzy, powiat kartuski, województwo pomorskie, 83-307, Polska",
-          "wojewodztwo": "pomorskie"
-        },
-        {
-          "display_name": "Leszno, gmina Grabów, powiat łęczycki, województwo łódzkie, 99-150, Polska",
-          "wojewodztwo": "łódzkie"
-        }
-      ]
-    },
     {
       "miasto": "Tarnów",
       "powod": "brak_jednoznacznego_wojewodztwa",
