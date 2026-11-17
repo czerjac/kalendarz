@@ -1,60 +1,150 @@
 {
-  "generated_at": "2026-11-10T10:43:35.916112+00:00",
-  "attempted": 42,
+  "generated_at": "2026-11-17T11:26:37.903428+00:00",
+  "attempted": 66,
   "errors": [
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-rakietmanii-2026-5708",
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-arena-tenisa-turniej-niepodleglosciowy-2026-5686",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-grand-prix-spin-u-ii-2026-5632",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-sot-turniej-niepodleglosciowy-2026-5710",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-grand-prix-spin-u-ii-2026-5633",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-sot-turniej-niepodleglosciowy-2026-5711",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5614",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-sot-turniej-niepodleglosciowy-2026-5712",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-smolca-2026-5649",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-vamos-dzierzoniow-turniej-niepodleglosciowy-2026-5731",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-smolca-2026-5650",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-szkola-tenisa-dilaj-turniej-niepodleglosciowy-2026-5732",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-prestige-court-cup-ii-2026-5705",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-szkola-tenisa-dilaj-turniej-niepodleglosciowy-2026-5733",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5703",
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-warsaw-west-turniej-niepodleglosciowy-2026-5757",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-otwarte-mistrzostwa-soboty-2026-5674",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=1DAF25C5-DD73-4FEE-9A98-4CD07761BDB0",
+      "source": "PZT TOP",
+      "error": "RuntimeError"
+    },
+    {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=1DAF25C5-DD73-4FEE-9A98-4CD07761BDB0",
+      "source": "PZT TOP",
+      "error": "RuntimeError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-wiki-sanok-cup-2026-5691",
       "source": "PLT",
       "error": "ValueError"
     },
     {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-baltic-tennis-club-kolobrzeg-sunday-tour-2026-5725",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-rakietmanii-2026-5707",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-asaja-cup-ii-2026-5715",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-asaja-cup-ii-2026-5716",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-ii-2026-5681",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-silesia-bytom-cup-2026-5745",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-ii-2026-5630",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-singlowe-weekendy-w-rudawa-tennis-club-v-2026-5644",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-wiki-sanok-cup-2026-5690",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-prestige-court-2026-5706",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-startu-2026-5692",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-startu-2026-5693",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-jesienny-turniej-o-puchar-startu-2026-5694",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-kazimierzowo-cup-2026-5727",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-iii-2026-5677",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-silesia-bytom-cup-2026-5746",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-memorial-boleslawa-ii-szczodrego-2026-5730",
+      "source": "PLT",
+      "error": "ValueError"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-prestige-court-2026-5734",
       "source": "PLT",
       "error": "ValueError"
     }
   ],
-  "ready": 293,
-  "needs_review": 168,
+  "ready": 318,
+  "needs_review": 178,
   "awaiting_adapter": {
     "TKKF Skanda": 1
   },
