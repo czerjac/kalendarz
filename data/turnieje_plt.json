@@ -1,13 +1,13 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-11-17T13:30:49+00:00",
-  "liczba_turniejow": 51,
+  "pobrano_utc": "2026-11-18T13:06:06+00:00",
+  "liczba_turniejow": 52,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund?incoming=true",
-      "liczba": 3
+      "liczba": 4
     },
     {
       "kategoria": "1. Liga",
@@ -38,15 +38,6 @@
   "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Jesienne Mistrzostwa Tarnowa 2026",
-      "data_od": "2026-11-21",
-      "data_do": "2026-11-21",
-      "miasto": "Tarnów",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-tarnowa-2026-5670"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "Puchar PLT",
@@ -104,15 +95,6 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Singlowe Weekendy w Rudawa Tennis Club V 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Rudawa k. Krakowa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-singlowe-weekendy-w-rudawa-tennis-club-v-2026-5645"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
       "data_od": "2026-11-22",
       "data_do": "2026-11-22",
@@ -136,15 +118,6 @@
       "data_do": "2026-11-22",
       "miasto": "Starachowice",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-as-tenis-challenge-2026-5622"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. AS Tenis Challenge II 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Starachowice",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-as-tenis-challenge-ii-2026-5700"
     },
     {
       "zrodlo": "PLT",
@@ -211,6 +184,15 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Singlowe Weekendy w Rudawa Tennis Club V 2026",
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29",
+      "miasto": "Rudawa k. Krakowa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-singlowe-weekendy-w-rudawa-tennis-club-v-2026-5645"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "Deble i Miksty",
       "nazwa": "DEBEL. Grand Prix SPIN-u II 2026",
       "data_od": "2026-11-29",
@@ -271,24 +253,6 @@
       "data_do": "2026-11-29",
       "miasto": "Łódź",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-start-lodz-cup-2026-5697"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Silesia Bytom Cup II 2026",
-      "data_od": "2026-12-06",
-      "data_do": "2026-12-06",
-      "miasto": "Bytom",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-silesia-bytom-cup-ii-2026-5770"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Silesia Bytom Cup II 2026",
-      "data_od": "2026-12-06",
-      "data_do": "2026-12-06",
-      "miasto": "Bytom",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-silesia-bytom-cup-ii-2026-5771"
     },
     {
       "zrodlo": "PLT",
@@ -445,6 +409,42 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Sopotu 2026",
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13",
+      "miasto": "Sopot",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-sopotu-2026-5738"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Jesienne Mistrzostwa Warszawy 2026",
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienne-mistrzostwa-warszawy-2026-5755"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Jesienne Mistrzostwa Warszawy 2026",
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-warszawy-2026-5756"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Jesienne Mistrzostwa Łodzi 2026",
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13",
+      "miasto": "Łódź",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-lodzi-2026-5699"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "Puchar PLT",
       "nazwa": "PUCHAR PLT. Jesienne Mistrzostwa Łodzi 2026",
       "data_od": "2026-12-13",
@@ -487,6 +487,15 @@
       "data_do": "2026-12-20",
       "miasto": "Giebułtów k. Krakowa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-finaly-jesiennych-mistrzostw-polski-2026-5741"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "Puchar PLT",
+      "nazwa": "PUCHAR PLT. Jesienne Mistrzostwa Ożarowa Mazowieckiego 2026",
+      "data_od": "2026-12-20",
+      "data_do": "2026-12-20",
+      "miasto": "Ożarów Mazowiecki",
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5772"
     },
     {
       "zrodlo": "PLT",

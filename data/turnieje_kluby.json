@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-11-17T13:31:21+00:00",
-  "liczba_turniejow": 42,
+  "pobrano_utc": "2026-11-18T13:06:33+00:00",
+  "liczba_turniejow": 44,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 43
+      "liczba": 44
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
-      "liczba": 14
+      "liczba": 15
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-01-01&data_do=2027-01-31&zakladka=0",
@@ -33,6 +33,16 @@
     }
   ],
   "turnieje": [
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej o puchar ASAJA Sport",
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21",
+      "miasto": "Płock",
+      "miejsce": "ASAJA SPORT, Płock",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12493"
+    },
     {
       "zrodlo": "Kluby.org",
       "nazwa": "LADIES NIGHT - Turniej deblowy dla Pań (wewnętrzny dla klubowiczek)",
@@ -182,6 +192,16 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12480"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Rybienko Indoor Series - DEBEL Vol.2",
+      "data_od": "2026-12-05",
+      "data_do": "2026-12-05",
+      "miasto": "Wyszków",
+      "miejsce": "Tenis w Rybienku Leśnym, Wyszków",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12494"
     },
     {
       "zrodlo": "Kluby.org",
