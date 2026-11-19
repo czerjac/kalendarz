@@ -85,6 +85,32 @@ def event_id(url: str) -> str:
     return "HASH-" + hashlib.sha1(url.encode()).hexdigest()[:20]
 
 
+# The EventID identifies the category/event; PZT's Level separates two
+# INDEPENDENT brackets inside that event. Never infer a main draw from rounds.
+MAIN_DRAW = "glowna"
+CONSOLATION_DRAW = "pocieszenia"
+UNKNOWN_DRAW = "nieustalona"
+
+
+def draw_kind(url: str, html: str = "") -> str:
+    encoded = decode_qs(url)
+    level = clean(encoded.get("Level") or encoded.get("level")).upper()
+    if level == "M":
+        return MAIN_DRAW
+    if level == "C":
+        return CONSOLATION_DRAW
+    # Fallback for PZT pages with no Level field: only an explicit page title
+    # is evidence. General menus containing both labels are not evidence.
+    if html:
+        soup = BeautifulSoup(html, "html.parser")
+        title = fold(clean(soup.get_text(" ", strip=True)).split("Kategoria:", 1)[0])
+        if "turniej pocieszenia" in title and "turniej glowny" not in title:
+            return CONSOLATION_DRAW
+        if "turniej glowny" in title and "turniej pocieszenia" not in title:
+            return MAIN_DRAW
+    return UNKNOWN_DRAW
+
+
 def extract_match_urls(html: str) -> list[str]:
     soup = BeautifulSoup(html, "html.parser")
     out = []
@@ -159,7 +185,10 @@ def parse_event(html: str, source_url: str) -> tuple[dict, list[dict], list[str]
     soup = BeautifulSoup(html, "html.parser")
     meta = event_meta(html)
     eid = event_id(source_url)
+    draw = draw_kind(source_url, html)
     warnings = []
+    if draw == UNKNOWN_DRAW:
+        warnings.append("Nieustalony rodzaj drabinki PZT; wymagana kontrola (nie traktować jako głównej)")
     matches = []
     seq = 0
 
@@ -201,12 +230,15 @@ def parse_event(html: str, source_url: str) -> tuple[dict, list[dict], list[str]
         seq += 1
         current_phase = phase or "Mecze"
         fp = "|".join((eid, current_phase, texts[0], "/".join(sorted(side_names(a))), "/".join(sorted(side_names(b))), result_raw, str(seq)))
+        if draw != MAIN_DRAW:
+            fp += "|" + draw  # Keep existing MAIN IDs stable where possible.
         mid = "pzt-mecz:" + hashlib.sha1(fp.encode()).hexdigest()[:20]
         if not winner:
             warnings.append(f"Nie można ustalić zwycięzcy meczu {mid}")
         matches.append({
             "id": mid,
-            "grupa_id": f"pzt:{eid}:{fold(current_phase)}",
+            "grupa_id": f"pzt:{eid}:{fold(current_phase)}" + (f":{draw}" if draw != MAIN_DRAW else ""),
+            "drabinka": draw,
             "faza": current_phase,
             "runda": current_phase,
             "typ_fazy": phase_kind(current_phase),
@@ -251,15 +283,22 @@ def parse_winners(html: str) -> dict[str, dict]:
     strings = [clean(x) for x in soup.stripped_strings if clean(x)]
     out = {}
     current = None
+    current_draw = MAIN_DRAW
     i = 0
     while i < len(strings):
         header = _category_header(strings[i])
         if header:
             current = {**header, "miejsca": {}}
+            current_draw = MAIN_DRAW
             out[header["klucz"]] = current
             i += 1
             continue
-        if current and strings[i] in {"1", "2"}:
+        label = fold(strings[i])
+        if label in {"turniej glowny", "zwyciezcy - turniej glowny"}:
+            current_draw = MAIN_DRAW
+        elif label in {"turniej pocieszenia", "zwyciezcy - turniej pocieszenia"}:
+            current_draw = CONSOLATION_DRAW
+        if current and current_draw == MAIN_DRAW and strings[i] in {"1", "2"}:
             rank = strings[i]
             need = 2 if fold(current["typ"]) == "gra podwojna" else 1
             names = []
@@ -338,13 +377,21 @@ def fetch(item, session):
         label = ". ".join(x for x in (meta.get("kategoria"), meta.get("typ"), meta.get("plec")) if x) or event_id(url)
         warnings.extend(f"{label}: {x}" for x in local)
 
+    # All main-draw results must precede consolation results in RAW and news;
+    # non-main brackets must never enter the main final verification.
+    draw_order = {MAIN_DRAW: 0, CONSOLATION_DRAW: 1, UNKNOWN_DRAW: 2}
+    all_matches.sort(key=lambda m: draw_order.get(m.get("drabinka"), 2))
+    main_matches = [m for m in all_matches if m.get("drabinka") == MAIN_DRAW]
+    if all_matches and not main_matches:
+        warnings.append("Brak rozpoznanych meczów turnieju głównego")
+
     winners_url = BASE + f"TournamentTabResults.aspx?CategoryID=AIS&Male=&TournamentID={tid}"
     winners = parse_winners(get(session, winners_url))
     unique_keys = [x for x in dict.fromkeys(e.get("klucz") for e in events) if x]
 
     verified_finals = []
     for key in unique_keys:
-        category_matches = [m for m in all_matches if m.get("event_key") == key]
+        category_matches = [m for m in main_matches if m.get("event_key") == key]
         local = []
         fid = verify_final(category_matches, winners.get(key), local)
         if fid:
@@ -356,9 +403,9 @@ def fetch(item, session):
     if len(unique_keys) > 1:
         warnings.append("Turniej wielokategoriowy — news wymaga kontroli redakcyjnej")
     single_final = verified_finals[0] if len(unique_keys) == 1 and len(verified_finals) == 1 else None
-    if len(unique_keys) == 1 and any(m["typ_fazy"] == "puchar" for m in all_matches) and not single_final:
+    if len(unique_keys) == 1 and any(m["typ_fazy"] == "puchar" for m in main_matches) and not single_final:
         warnings.append("Brak potwierdzonego pojedynczego finału")
-    if len(unique_keys) == 1 and all_matches and all(m["typ_fazy"] == "grupa" for m in all_matches):
+    if len(unique_keys) == 1 and main_matches and all(m["typ_fazy"] == "grupa" for m in main_matches):
         warnings.append("Turniej grupowy bez pojedynczego finału — news wymaga kontroli redakcyjnej")
     if not all_matches:
         warnings.append("Brak wyników meczów")

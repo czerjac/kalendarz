@@ -215,10 +215,30 @@ def article(t, meta=None):
         parts.append('<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>')
 
     shown_categories = set()
+    pzt_draws = t.get('zrodlo') == 'PZT TOP' and any(
+        m.get('drabinka') for m in t['mecze']
+    )
+    previous_draw = None
     for gid in dict.fromkeys(m['grupa_id'] for m in t['mecze']):
         group = [m for m in t['mecze'] if m['grupa_id'] == gid]
         source_category = group[0].get('kategoria_zrodlowa') or ''
-        if source_category and source_category != t.get('kategoria') and source_category not in shown_categories:
+        if pzt_draws:
+            draw = group[0].get('drabinka', 'nieustalona')
+            if draw != previous_draw:
+                previous_draw = draw
+                shown_categories.clear()
+                if draw == 'glowna':
+                    parts.append('<h2>Turniej główny</h2>')
+                elif draw == 'pocieszenia':
+                    parts.append('<h2>Turniej pocieszenia — wyniki dodatkowe</h2>')
+                    parts.append('<p>Mecze pocieszenia nie są zaliczane do punktacji GP Tour.</p>')
+                else:
+                    parts.append('<h2>Drabinka nieustalona — do sprawdzenia</h2>')
+            if source_category and source_category not in shown_categories:
+                parts.append('<h3>' + esc(source_category) + '</h3>')
+                shown_categories.add(source_category)
+            heading = 'h4' if source_category else 'h3'
+        elif source_category and source_category != t.get('kategoria') and source_category not in shown_categories:
             parts.append('<h2>' + esc(source_category) + '</h2>')
             shown_categories.add(source_category)
             heading = 'h3'

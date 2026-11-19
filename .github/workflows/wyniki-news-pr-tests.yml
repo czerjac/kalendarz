@@ -1,0 +1,31 @@
+name: Wyniki TenisNET — testy PR (bez pobierania)
+
+on:
+  pull_request:
+    paths:
+      - 'wyniki_news/**'
+      - 'tests/wyniki_news/**'
+      - '.github/workflows/wyniki-news-pr-tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  testy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Zależności wyłącznie do testów offline
+        run: python -m pip install requests==2.32.5 beautifulsoup4==4.13.5
+      - name: Wszystkie syntetyczne testy kolektora
+        run: python -m unittest discover -s tests/wyniki_news -v
+      - name: Kontrola składni plików Pythona
+        run: python -m compileall -q wyniki_news tests/wyniki_news
+
+# NIE uruchamia build, nie kontaktuje się z PZT, nie wypycha stan.json
+# i nie publikuje newsów WordPress. PR wymaga osobnego odbioru i merge.
