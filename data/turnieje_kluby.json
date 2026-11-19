@@ -1,15 +1,15 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-11-18T13:06:33+00:00",
-  "liczba_turniejow": 44,
+  "pobrano_utc": "2026-11-19T13:14:46+00:00",
+  "liczba_turniejow": 47,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 44
+      "liczba": 45
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
-      "liczba": 15
+      "liczba": 17
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-01-01&data_do=2027-01-31&zakladka=0",
@@ -42,6 +42,16 @@
       "miejsce": "ASAJA SPORT, Płock",
       "kategorie": "DEBEL",
       "url": "https://kluby.org/turnieje/12493"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Jesień by WKT Mera Kids IV",
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21",
+      "miasto": "Warszawa",
+      "miejsce": "WKT Mera, Warszawa",
+      "kategorie": "TENIS10 POMARAŃCZOWA",
+      "url": "https://kluby.org/turnieje/12499"
     },
     {
       "zrodlo": "Kluby.org",
@@ -185,6 +195,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Mikołajkowy Turniej Mikstowy",
+      "data_od": "2026-12-05",
+      "data_do": "2026-12-05",
+      "miasto": "Warszawa",
+      "miejsce": "Warsaw West Tennis Club, Warszawa",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12497"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Nocowanka w TENES - edycja Mikołajkowa",
       "data_od": "2026-12-05",
       "data_do": "2026-12-05",
@@ -282,6 +302,16 @@
       "miejsce": "Warsaw West Tennis Club, Warszawa",
       "kategorie": "JUNIORZY U12 JUNIORZY U14 JUNIORZY U18 JUNIORKI U12 JUNIORKI U14 JUNIORKI U18",
       "url": "https://kluby.org/turnieje/12444"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Świąteczny Turniej Mikstowy Ino-Cup 2026",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-19",
+      "miasto": "Inowrocław",
+      "miejsce": "CT Set Point, Inowrocław",
+      "kategorie": "DEBEL MIKST",
+      "url": "https://kluby.org/turnieje/12500"
     },
     {
       "zrodlo": "Kluby.org",
