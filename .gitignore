@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Private local sports-result review bundles: never commit source player data.
+.private_pzt_mp/
