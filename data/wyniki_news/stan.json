@@ -15307,7 +15307,7 @@
       "kategorie": "",
       "miasto": "Smolec k. Wrocławia",
       "miejsce": "Omega Sport",
-      "wojewodztwo": "śląskie",
+      "wojewodztwo": "dolnośląskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -15323,7 +15323,7 @@
       "kategorie": "",
       "miasto": "Smolec k. Wrocławia",
       "miejsce": "Omega Sport",
-      "wojewodztwo": "śląskie",
+      "wojewodztwo": "dolnośląskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -15770,8 +15770,8 @@
       "rodzaje_gry": [
         "singiel"
       ],
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22"
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29"
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5667": {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5667",
@@ -16555,7 +16555,7 @@
         "singiel"
       ],
       "data_od": "2026-11-21",
-      "data_do": "2026-11-22"
+      "data_do": "2026-11-21"
     },
     "https://kluby.org/turnieje/12370": {
       "url": "https://kluby.org/turnieje/12370",
@@ -17090,7 +17090,7 @@
       "kategorie": "",
       "miasto": "Kołobrzeg",
       "miejsce": "Baltic Tennis Club Kołobrzeg",
-      "wojewodztwo": "pomorskie",
+      "wojewodztwo": "zachodniopomorskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -17618,8 +17618,8 @@
       "kategoria_zrodla": "PLT Kobiet",
       "kategorie": "",
       "miasto": "Giebułtów k. Krakowa",
-      "miejsce": "",
-      "wojewodztwo": "",
+      "miejsce": "Tennis & Country Club",
+      "wojewodztwo": "opolskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -17866,7 +17866,7 @@
       "kategoria_zrodla": "1. Liga",
       "kategorie": "",
       "miasto": "Lublin",
-      "miejsce": "",
+      "miejsce": "Rakietmania",
       "wojewodztwo": "lubelskie",
       "cykl": "PLT",
       "rodzaje_gry": [
@@ -18232,7 +18232,7 @@
       "kategoria_zrodla": "1. Liga",
       "kategorie": "",
       "miasto": "Trzebownisko",
-      "miejsce": "",
+      "miejsce": "Teho Sport",
       "wojewodztwo": "podkarpackie",
       "cykl": "PLT",
       "rodzaje_gry": [
@@ -18281,7 +18281,7 @@
       "kategorie": "",
       "miasto": "Smolec k. Wrocławia",
       "miejsce": "Omega Sport",
-      "wojewodztwo": "śląskie",
+      "wojewodztwo": "dolnośląskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -18312,7 +18312,7 @@
       "kategoria_zrodla": "",
       "kategorie": "",
       "miasto": "Gryfino",
-      "miejsce": "Kort tenisowy, Gryfino",
+      "miejsce": "Korty tenisowe naprzeciwko Laguny, Gryfino",
       "wojewodztwo": "zachodniopomorskie",
       "cykl": "Cuply",
       "rodzaje_gry": [
@@ -18376,7 +18376,7 @@
       "kategoria_zrodla": "1. Liga",
       "kategorie": "",
       "miasto": "Kołobrzeg",
-      "miejsce": "",
+      "miejsce": "Baltic Tennis Club Kołobrzeg",
       "wojewodztwo": "zachodniopomorskie",
       "cykl": "PLT",
       "rodzaje_gry": [
@@ -18392,7 +18392,7 @@
       "kategoria_zrodla": "1. Liga",
       "kategorie": "",
       "miasto": "Sopot",
-      "miejsce": "",
+      "miejsce": "Sopot Tenis Klub",
       "wojewodztwo": "pomorskie",
       "cykl": "PLT",
       "rodzaje_gry": [
@@ -18560,6 +18560,408 @@
       ],
       "data_od": "2027-04-03",
       "data_do": "2027-04-03"
+    },
+    "https://kluby.org/turnieje/12520": {
+      "url": "https://kluby.org/turnieje/12520",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Towarzyski Turniej Deblowy",
+      "kategoria_zrodla": "",
+      "kategorie": "DEBEL",
+      "miasto": "Barlinek",
+      "miejsce": "AKADEMIA TENISA BARLINEK",
+      "wojewodztwo": "zachodniopomorskie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21"
+    },
+    "https://kluby.org/turnieje/12493": {
+      "url": "https://kluby.org/turnieje/12493",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Turniej o puchar ASAJA Sport",
+      "kategoria_zrodla": "",
+      "kategorie": "DEBEL",
+      "miasto": "Płock",
+      "miejsce": "ASAJA SPORT",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21"
+    },
+    "https://kluby.org/turnieje/12484": {
+      "url": "https://kluby.org/turnieje/12484",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Park Tennis Academy Open",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "Warszawa",
+      "miejsce": "PARK TENNIS ACADEMY",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21"
+    },
+    "https://kluby.org/turnieje/12482": {
+      "url": "https://kluby.org/turnieje/12482",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Indywidualny Turniej Tenisa Open",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "Mińsk Mazowiecki",
+      "miejsce": "KLUB SPORTOWY MASTERS",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-11-29",
+      "data_do": "2026-11-29"
+    },
+    "https://kluby.org/turnieje/12479": {
+      "url": "https://kluby.org/turnieje/12479",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mikołajkowy Turniej Akademii TENES Junior (dla gr. Pomarańczowych, Zielonych i Żółtych)",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "Warszawa",
+      "miejsce": "TENES KLUB SPORTOWY",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-05",
+      "data_do": "2026-12-05"
+    },
+    "https://kluby.org/turnieje/12497": {
+      "url": "https://kluby.org/turnieje/12497",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mikołajkowy Turniej Mikstowy",
+      "kategoria_zrodla": "",
+      "kategorie": "DEBEL MIKST",
+      "miasto": "Warszawa",
+      "miejsce": "WARSAW WEST TENNIS CLUB",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "data_od": "2026-12-05",
+      "data_do": "2026-12-05"
+    },
+    "https://kluby.org/turnieje/12480": {
+      "url": "https://kluby.org/turnieje/12480",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Nocowanka w TENES - edycja Mikołajkowa",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "Warszawa",
+      "miejsce": "TENES KLUB SPORTOWY",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-05",
+      "data_do": "2026-12-05"
+    },
+    "https://kluby.org/turnieje/12494": {
+      "url": "https://kluby.org/turnieje/12494",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Rybienko Indoor Series - DEBEL Vol.2",
+      "kategoria_zrodla": "",
+      "kategorie": "DEBEL",
+      "miasto": "Wyszków",
+      "miejsce": "TENIS W RYBIENKU LEŚNYM",
+      "wojewodztwo": "",
+      "cykl": "RYBIENKO OPEN SERIES",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "data_od": "2026-12-05",
+      "data_do": "2026-12-05"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-gdanska-2026-5767": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-gdanska-2026-5767",
+      "zrodlo": "PLT",
+      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Gdańska 2026",
+      "kategoria_zrodla": "2. Liga",
+      "kategorie": "",
+      "miasto": "Gdańsk",
+      "miejsce": "Szkoła Tenisa Diłaj",
+      "wojewodztwo": "pomorskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-mistrzostwa-prestige-court-2026-5765": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-mistrzostwa-prestige-court-2026-5765",
+      "zrodlo": "PLT",
+      "nazwa": "1. LIGA. Mistrzostwa Prestige Court 2026",
+      "kategoria_zrodla": "1. Liga",
+      "kategorie": "",
+      "miasto": "Otwock",
+      "miejsce": "Prestige Court - Otwocka Akademia Tenisa",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-mistrzostwa-prestige-court-2026-5766": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-mistrzostwa-prestige-court-2026-5766",
+      "zrodlo": "PLT",
+      "nazwa": "2. LIGA. Mistrzostwa Prestige Court 2026",
+      "kategoria_zrodla": "2. Liga",
+      "kategorie": "",
+      "miasto": "Otwock",
+      "miejsce": "Prestige Court - Otwocka Akademia Tenisa",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-singlowe-weekendy-w-rudawa-tennis-club-turniej-finalowy-2026-5768": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-singlowe-weekendy-w-rudawa-tennis-club-turniej-finalowy-2026-5768",
+      "zrodlo": "PLT",
+      "nazwa": "1. LIGA. Singlowe Weekendy w Rudawa Tennis Club - Turniej Finałowy 2026",
+      "kategoria_zrodla": "1. Liga",
+      "kategorie": "",
+      "miasto": "Rudawa k. Krakowa",
+      "miejsce": "Rudawa Tennis Club",
+      "wojewodztwo": "małopolskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-singlowe-weekendy-w-rudawa-tennis-club-turniej-finalowy-2026-5769": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-singlowe-weekendy-w-rudawa-tennis-club-turniej-finalowy-2026-5769",
+      "zrodlo": "PLT",
+      "nazwa": "2. LIGA. Singlowe Weekendy w Rudawa Tennis Club - Turniej Finałowy 2026",
+      "kategoria_zrodla": "2. Liga",
+      "kategorie": "",
+      "miasto": "Rudawa k. Krakowa",
+      "miejsce": "Rudawa Tennis Club",
+      "wojewodztwo": "małopolskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-omega-sport-2026-5764": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-omega-sport-2026-5764",
+      "zrodlo": "PLT",
+      "nazwa": "2. LIGA. Jesienne Mistrzostwa Omega Sport 2026",
+      "kategoria_zrodla": "2. Liga",
+      "kategorie": "",
+      "miasto": "Smolec k. Wrocławia",
+      "miejsce": "Omega Sport",
+      "wojewodztwo": "dolnośląskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06"
+    },
+    "https://kluby.org/turnieje/12481": {
+      "url": "https://kluby.org/turnieje/12481",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Mikołajkowy Festiwal Tenisa",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "Warszawa",
+      "miejsce": "TENES KLUB SPORTOWY",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-silesia-bytom-cup-ii-2026-5771": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-silesia-bytom-cup-ii-2026-5771",
+      "zrodlo": "PLT",
+      "nazwa": "2. LIGA. Silesia Bytom Cup II 2026",
+      "kategoria_zrodla": "2. Liga",
+      "kategorie": "",
+      "miasto": "Bytom",
+      "miejsce": "Reyon Bytom",
+      "wojewodztwo": "śląskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13"
+    },
+    "https://cuply.pl/turnieje/cuply-challenger-gorzow-1312-do-40-ntrp": {
+      "url": "https://cuply.pl/turnieje/cuply-challenger-gorzow-1312-do-40-ntrp",
+      "zrodlo": "Cuply",
+      "nazwa": "Cuply Challenger Gorzów 13.12 do 4.0 NTRP",
+      "kategoria_zrodla": "",
+      "kategorie": "",
+      "miasto": "Gorzów Wielkopolski",
+      "miejsce": "Play To Win Centrum Tenisowe, Gorzów Wielkopolski",
+      "wojewodztwo": "lubuskie",
+      "cykl": "Cuply",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13"
+    },
+    "https://kluby.org/turnieje/12500": {
+      "url": "https://kluby.org/turnieje/12500",
+      "zrodlo": "Kluby.org",
+      "nazwa": "Świąteczny Turniej Mikstowy Ino-Cup 2026",
+      "kategoria_zrodla": "",
+      "kategorie": "DEBEL MIKST",
+      "miasto": "Inowrocław",
+      "miejsce": "CT SET POINT",
+      "wojewodztwo": "kujawsko-pomorskie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "debel",
+        "mikst"
+      ],
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-19"
+    },
+    "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5772": {
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5772",
+      "zrodlo": "PLT",
+      "nazwa": "PUCHAR PLT. Jesienne Mistrzostwa Ożarowa Mazowieckiego 2026",
+      "kategoria_zrodla": "Puchar PLT",
+      "kategorie": "",
+      "miasto": "Ożarów Mazowiecki",
+      "miejsce": "Warsaw West Tennis Club",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-20",
+      "data_do": "2026-12-20"
+    },
+    "https://kluby.org/turnieje/12512": {
+      "url": "https://kluby.org/turnieje/12512",
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES GPM DEBEL KOBIET",
+      "kategoria_zrodla": "",
+      "kategorie": "DEBEL KOBIETY",
+      "miasto": "Warszawa",
+      "miejsce": "TENES KLUB SPORTOWY",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "data_od": "2027-01-09",
+      "data_do": "2027-01-09"
+    },
+    "https://kluby.org/turnieje/12513": {
+      "url": "https://kluby.org/turnieje/12513",
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES Single Cup kat. CLUB/ CLUB+ - wewnętrzny turniej dla Klubowiczów",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "Warszawa",
+      "miejsce": "TENES KLUB SPORTOWY",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2027-01-09",
+      "data_do": "2027-01-09"
+    },
+    "https://kluby.org/turnieje/12514": {
+      "url": "https://kluby.org/turnieje/12514",
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES GPM Single Cup OPEN",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "Warszawa",
+      "miejsce": "TENES KLUB SPORTOWY",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2027-01-23",
+      "data_do": "2027-01-23"
+    },
+    "https://kluby.org/turnieje/12515": {
+      "url": "https://kluby.org/turnieje/12515",
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES Single Cup kat. CLUB/ CLUB+ - wewnętrzny turniej dla Klubowiczów",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "Warszawa",
+      "miejsce": "TENES KLUB SPORTOWY",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2027-01-23",
+      "data_do": "2027-01-23"
+    },
+    "https://kluby.org/turnieje/12516": {
+      "url": "https://kluby.org/turnieje/12516",
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES GPM DEBEL CUP",
+      "kategoria_zrodla": "",
+      "kategorie": "DEBEL",
+      "miasto": "Warszawa",
+      "miejsce": "TENES KLUB SPORTOWY",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "debel"
+      ],
+      "data_od": "2027-01-30",
+      "data_do": "2027-01-30"
+    },
+    "https://kluby.org/turnieje/12517": {
+      "url": "https://kluby.org/turnieje/12517",
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES Single Cup kat. CLUB/ CLUB+ - wewnętrzny turniej dla Klubowiczów",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "Warszawa",
+      "miejsce": "TENES KLUB SPORTOWY",
+      "wojewodztwo": "mazowieckie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2027-01-30",
+      "data_do": "2027-01-30"
     }
   },
   "attempts": {
@@ -21096,7 +21498,7 @@
       "ready": false
     },
     "https://kluby.org/turnieje/12435": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://cuply.pl/turnieje/cuply-challenger-szczecin-tennis-arena-do-40-ntrp": {
@@ -21168,195 +21570,195 @@
       "ready": false
     },
     "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=174259E0-AC22-4CE7-8DEC-CEADFDD48DBD": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=174259E0-AC22-4CE7-8DEC-CEADFDD48DBD": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://cuply.pl/turnieje/cuply-challenger-finaly-i-edycja": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://cuply.pl/turnieje/cuply-masters-finaly-i-edycja": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://kluby.org/turnieje/12297": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://kluby.org/turnieje/12298": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://kluby.org/turnieje/12401": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://kluby.org/turnieje/12436": {
-      "date": "2026-11-17",
-      "ready": false
+      "date": "2026-11-20",
+      "ready": true
     },
     "https://kluby.org/turnieje/12428": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://kluby.org/turnieje/12453": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-wiki-sanok-cup-2026-5691": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-rakietmanii-2026-5707": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-asaja-cup-ii-2026-5715": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-asaja-cup-ii-2026-5716": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-ii-2026-5681": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-silesia-bytom-cup-2026-5745": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-silesia-bytom-cup-2026-5745/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-rakietmanii-2026-5707/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-asaja-cup-ii-2026-5715/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-wiki-sanok-cup-2026-5758/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9A045A61-F311-469F-AD6D-7C00ECCB933C": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9A045A61-F311-469F-AD6D-7C00ECCB933C": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://cuply.pl/turnieje/cuply-challenger-gorzow-i": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://kluby.org/turnieje/12411": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://kluby.org/turnieje/12414": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://kluby.org/turnieje/12463": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-ii-2026-5630": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-singlowe-weekendy-w-rudawa-tennis-club-v-2026-5644": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-wiki-sanok-cup-2026-5690": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-prestige-court-2026-5706": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-startu-2026-5692": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-startu-2026-5693": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-jesienny-turniej-o-puchar-startu-2026-5694": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-kazimierzowo-cup-2026-5727": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-iii-2026-5677": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-silesia-bytom-cup-2026-5746": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-memorial-boleslawa-ii-szczodrego-2026-5730": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-prestige-court-2026-5734": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-silesia-bytom-cup-2026-5746/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-memorial-boleslawa-ii-szczodrego-2026-5730/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-prestige-court-2026-5734/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-singlowe-weekendy-w-rudawa-tennis-club-v-2026-5644/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-ii-2026-5630/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-2026-5761/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-startu-2026-5692/wyniki": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": true
     },
     "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9BCCBC4B-7B22-4FF9-A886-CDA244141B72": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9BCCBC4B-7B22-4FF9-A886-CDA244141B72": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     },
     "https://kluby.org/turnieje/12389": {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "ready": false
     }
   },
@@ -443977,13 +444379,13 @@
           "sety": [],
           "wynik": "",
           "walkower": false,
-          "zwyciezca": null,
+          "zwyciezca": "a",
           "zakonczony": false,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "KOBIETY OPEN"
         },
         {
-          "id": "kluby-mecz:a0039b1adee665bf7f3e",
+          "id": "kluby-mecz:6e66732e35bd0e4bfed0",
           "grupa_id": "kluby:12435:16068:1/2 finalu",
           "faza": "1/2 finału",
           "runda": "1/2 finału",
@@ -444010,19 +444412,100 @@
               }
             ]
           },
+          "sety": [
+            {
+              "a": 2,
+              "b": 6
+            }
+          ],
+          "wynik": "2/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "KOBIETY OPEN"
+        },
+        {
+          "id": "kluby-mecz:f8ba8c184c253495f467",
+          "grupa_id": "kluby:12435:16068:final",
+          "faza": "finał",
+          "runda": "finał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/18409",
+            "id_zrodlowe": "/gracze/18409",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/18409",
+                "nazwa": "Magdalena Gajda"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/14197",
+            "id_zrodlowe": "/gracze/14197",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/14197",
+                "nazwa": "Lech Aleksandra"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 0,
+              "b": 6
+            }
+          ],
+          "wynik": "0/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "KOBIETY OPEN"
+        },
+        {
+          "id": "kluby-mecz:4dd3f2bdc773d67d5dce",
+          "grupa_id": "kluby:12435:16068:final",
+          "faza": "finał",
+          "runda": "finał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:/gracze/19580",
+            "id_zrodlowe": "/gracze/19580",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/19580",
+                "nazwa": "Wiśnicka Anna"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:/gracze/42041",
+            "id_zrodlowe": "/gracze/42041",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "/gracze/42041",
+                "nazwa": "Szymańska Katarzyna"
+              }
+            ]
+          },
           "sety": [],
           "wynik": "",
           "walkower": false,
-          "zwyciezca": null,
+          "zwyciezca": "b",
           "zakonczony": false,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "KOBIETY OPEN"
         }
       ],
-      "final_id": null,
+      "final_id": "kluby-mecz:f8ba8c184c253495f467",
       "gotowy": false,
       "uwagi": [
-        "Brak potwierdzonego finału",
         "KOBIETY OPEN: Brak części rozegranych meczów lub wyników"
       ]
     },
@@ -448559,7 +449042,7 @@
       "zrodlo": "PZT TOP",
       "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=174259E0-AC22-4CE7-8DEC-CEADFDD48DBD",
       "nazwa": "XXVII Halowe Mistrzostwa Polski Lekarzy w Tenisie, Polski Związek Tenisowy",
-      "kategoria": "40+. Gra pojedyncza. Mężczyźni; 45+. Gra pojedyncza. Kobiety; 45+. Gra podwójna. Kobiety; 45+. Gra pojedyncza. Mężczyźni; 45+. Gra podwójna. Mężczyźni; 50+. Gra podwójna. Mieszany; 50+. Gra pojedyncza. Mężczyźni; 55+. Gra pojedyncza. Kobiety; 55+. Gra podwójna. Kobiety; 55+. Gra pojedyncza. Mężczyźni; 55+. Gra podwójna. Mężczyźni; 60+. Gra pojedyncza. Kobiety; 60+. Gra podwójna. Kobiety; 60+. Gra pojedyncza. Mężczyźni; 65+. Gra pojedyncza. Kobiety; 65+. Gra pojedyncza. Mężczyźni; 65+. Gra podwójna. Mężczyźni; 70+. Gra pojedyncza. Mężczyźni; 75+. Gra pojedyncza. Mężczyźni; 75+. Gra podwójna. Mężczyźni; 80+. Gra pojedyncza. Mężczyźni; 80+. Gra podwójna. Mężczyźni; Open. Gra podwójna. Mieszany; Open. Gra pojedyncza. Kobiety; Open. Gra podwójna. Kobiety; Open. Gra pojedyncza. Mężczyźni; Open. Gra podwójna. Mężczyźni",
+      "kategoria": "40+. Gra pojedyncza. Mężczyźni; 45+. Gra pojedyncza. Kobiety; 45+. Gra podwójna. Kobiety; 45+. Gra pojedyncza. Mężczyźni; 45+. Gra podwójna. Mężczyźni; 50+. Gra podwójna. Mieszany; 50+. Gra pojedyncza. Mężczyźni; 55+. Gra pojedyncza. Kobiety; 55+. Gra podwójna. Kobiety; 55+. Gra pojedyncza. Mężczyźni; 55+. Gra podwójna. Mężczyźni; 60+. Gra pojedyncza. Kobiety; 60+. Gra podwójna. Kobiety; 60+. Gra pojedyncza. Mężczyźni; 65+. Gra pojedyncza. Kobiety; 65+. Gra pojedyncza. Mężczyźni; 65+. Gra podwójna. Mężczyźni; 70+. Gra pojedyncza. Mężczyźni; 75+. Gra pojedyncza. Mężczyźni; 80+. Gra pojedyncza. Mężczyźni; 80+. Gra podwójna. Mężczyźni; Open. Gra podwójna. Mieszany; Open. Gra pojedyncza. Kobiety; Open. Gra podwójna. Kobiety; Open. Gra pojedyncza. Mężczyźni; Open. Gra podwójna. Mężczyźni",
       "data_od": "2026-11-12",
       "data_do": "2026-11-15",
       "miasto": "Leszno",
@@ -448567,6 +449050,7 @@
         {
           "id": "pzt-mecz:b603d787824b0941e59b",
           "grupa_id": "pzt:D848083B-89C6-43AA-8024-82232906B173:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -448614,6 +449098,7 @@
         {
           "id": "pzt-mecz:057d39227121a417bbe6",
           "grupa_id": "pzt:D848083B-89C6-43AA-8024-82232906B173:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -448652,6 +449137,7 @@
         {
           "id": "pzt-mecz:4977990c7efcbe6b0f6e",
           "grupa_id": "pzt:D848083B-89C6-43AA-8024-82232906B173:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -448690,6 +449176,7 @@
         {
           "id": "pzt-mecz:9f694394079e8c33a8fc",
           "grupa_id": "pzt:D848083B-89C6-43AA-8024-82232906B173:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -448737,6 +449224,7 @@
         {
           "id": "pzt-mecz:029f0687b3f639f9b526",
           "grupa_id": "pzt:D848083B-89C6-43AA-8024-82232906B173:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -448784,6 +449272,7 @@
         {
           "id": "pzt-mecz:267393349444bcffa34c",
           "grupa_id": "pzt:D848083B-89C6-43AA-8024-82232906B173:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -448822,6 +449311,7 @@
         {
           "id": "pzt-mecz:70050403f3d934880f93",
           "grupa_id": "pzt:D848083B-89C6-43AA-8024-82232906B173:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -448873,6 +449363,7 @@
         {
           "id": "pzt-mecz:1e621e1e2d77258d3ff2",
           "grupa_id": "pzt:D848083B-89C6-43AA-8024-82232906B173:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -448920,6 +449411,7 @@
         {
           "id": "pzt-mecz:182747e299ed99dd497b",
           "grupa_id": "pzt:D848083B-89C6-43AA-8024-82232906B173:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -448958,6 +449450,7 @@
         {
           "id": "pzt-mecz:b7d53891deb1f2bef3c8",
           "grupa_id": "pzt:D848083B-89C6-43AA-8024-82232906B173:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -449005,6 +449498,7 @@
         {
           "id": "pzt-mecz:85385817df928f27c00d",
           "grupa_id": "pzt:7B7071D7-4B37-4BFD-9D7F-79368C8DB1BB:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -449052,6 +449546,7 @@
         {
           "id": "pzt-mecz:0d820adcd24d8907aa3f",
           "grupa_id": "pzt:7B7071D7-4B37-4BFD-9D7F-79368C8DB1BB:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -449099,6 +449594,7 @@
         {
           "id": "pzt-mecz:187c7b65b6d48b2f46c4",
           "grupa_id": "pzt:7B7071D7-4B37-4BFD-9D7F-79368C8DB1BB:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -449146,6 +449642,7 @@
         {
           "id": "pzt-mecz:cca9f415430155d140d0",
           "grupa_id": "pzt:7B7071D7-4B37-4BFD-9D7F-79368C8DB1BB:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -449193,6 +449690,7 @@
         {
           "id": "pzt-mecz:6f91f21e41898325ff93",
           "grupa_id": "pzt:7B7071D7-4B37-4BFD-9D7F-79368C8DB1BB:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -449240,6 +449738,7 @@
         {
           "id": "pzt-mecz:c1153381ee20d184598c",
           "grupa_id": "pzt:7B7071D7-4B37-4BFD-9D7F-79368C8DB1BB:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -449291,6 +449790,7 @@
         {
           "id": "pzt-mecz:4ebb1824585fd25f95a1",
           "grupa_id": "pzt:7B7071D7-4B37-4BFD-9D7F-79368C8DB1BB:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -449338,6 +449838,7 @@
         {
           "id": "pzt-mecz:907410bb840172d7798d",
           "grupa_id": "pzt:E58ECABE-706D-4535-BE65-EBC873B79530:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -449393,6 +449894,7 @@
         {
           "id": "pzt-mecz:202d392af00ba2826a9e",
           "grupa_id": "pzt:E58ECABE-706D-4535-BE65-EBC873B79530:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -449452,6 +449954,7 @@
         {
           "id": "pzt-mecz:79e2a46e6f6f1870140e",
           "grupa_id": "pzt:E58ECABE-706D-4535-BE65-EBC873B79530:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -449507,6 +450010,7 @@
         {
           "id": "pzt-mecz:7765f6b39888bd428512",
           "grupa_id": "pzt:943444C0-FB3B-4009-8337-1C8415DC7610:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -449554,6 +450058,7 @@
         {
           "id": "pzt-mecz:1c43dcfeda6d38d6fa2d",
           "grupa_id": "pzt:943444C0-FB3B-4009-8337-1C8415DC7610:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -449601,6 +450106,7 @@
         {
           "id": "pzt-mecz:e85219d7d1ab3808fd7b",
           "grupa_id": "pzt:943444C0-FB3B-4009-8337-1C8415DC7610:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -449648,6 +450154,7 @@
         {
           "id": "pzt-mecz:ae5156d521c714438cff",
           "grupa_id": "pzt:943444C0-FB3B-4009-8337-1C8415DC7610:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -449695,6 +450202,7 @@
         {
           "id": "pzt-mecz:0a84901350d68e620fac",
           "grupa_id": "pzt:943444C0-FB3B-4009-8337-1C8415DC7610:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -449742,6 +450250,7 @@
         {
           "id": "pzt-mecz:7b437a1f75c494a3d003",
           "grupa_id": "pzt:943444C0-FB3B-4009-8337-1C8415DC7610:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -449793,6 +450302,7 @@
         {
           "id": "pzt-mecz:ce01bd37388e316c0ca6",
           "grupa_id": "pzt:943444C0-FB3B-4009-8337-1C8415DC7610:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -449831,6 +450341,7 @@
         {
           "id": "pzt-mecz:0edff6ecfcbd809625f2",
           "grupa_id": "pzt:B7A42465-E5F2-42F1-B5A8-4E37888956C2:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -449886,6 +450397,7 @@
         {
           "id": "pzt-mecz:9907048200ac68a2c8d7",
           "grupa_id": "pzt:B7A42465-E5F2-42F1-B5A8-4E37888956C2:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -449945,6 +450457,7 @@
         {
           "id": "pzt-mecz:427c8276449870a3249c",
           "grupa_id": "pzt:B7A42465-E5F2-42F1-B5A8-4E37888956C2:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -450004,6 +450517,7 @@
         {
           "id": "pzt-mecz:41660a664019957c72bc",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -450059,6 +450573,7 @@
         {
           "id": "pzt-mecz:1b96b2ecec47fec033b9",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -450105,6 +450620,7 @@
         {
           "id": "pzt-mecz:528642bb6a98dcd2bd5f",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -450160,6 +450676,7 @@
         {
           "id": "pzt-mecz:19fbf7f3afe15ebabed5",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -450215,6 +450732,7 @@
         {
           "id": "pzt-mecz:21edd9762c390ce70ee8",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -450261,6 +450779,7 @@
         {
           "id": "pzt-mecz:02186ea9ccc0f1416abf",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -450307,6 +450826,7 @@
         {
           "id": "pzt-mecz:05f144dbb1eb99392799",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -450353,6 +450873,7 @@
         {
           "id": "pzt-mecz:60f31f43604ac019faae",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -450399,6 +450920,7 @@
         {
           "id": "pzt-mecz:b8ee8f1c06f205060e9a",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -450454,6 +450976,7 @@
         {
           "id": "pzt-mecz:de6076a8097586aef3ad",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -450509,6 +451032,7 @@
         {
           "id": "pzt-mecz:71b3648c47a9df6a8e74",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -450564,6 +451088,7 @@
         {
           "id": "pzt-mecz:ecc0ca0f0eade984f55f",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -450610,6 +451135,7 @@
         {
           "id": "pzt-mecz:780d8cfba438094d8874",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -450665,6 +451191,7 @@
         {
           "id": "pzt-mecz:d20d418b2cf1b862eae6",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -450720,6 +451247,7 @@
         {
           "id": "pzt-mecz:472eadaae8da203a3ebd",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -450775,6 +451303,7 @@
         {
           "id": "pzt-mecz:110608132c025d95ae60",
           "grupa_id": "pzt:CBE539B9-C81D-4C74-A94D-41654EB56745:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -450834,6 +451363,7 @@
         {
           "id": "pzt-mecz:49827d50cf5b301589c6",
           "grupa_id": "pzt:86A34659-9C67-45C8-8598-7FBF3C895809:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -450881,6 +451411,7 @@
         {
           "id": "pzt-mecz:22c37f935eec9db6fc14",
           "grupa_id": "pzt:86A34659-9C67-45C8-8598-7FBF3C895809:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -450932,6 +451463,7 @@
         {
           "id": "pzt-mecz:fe0bb5ffc6c3e614be8e",
           "grupa_id": "pzt:86A34659-9C67-45C8-8598-7FBF3C895809:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -450979,6 +451511,7 @@
         {
           "id": "pzt-mecz:c02de0b14a0ecf671bee",
           "grupa_id": "pzt:86A34659-9C67-45C8-8598-7FBF3C895809:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -451017,6 +451550,7 @@
         {
           "id": "pzt-mecz:7f5e1d1c1eb48098edd2",
           "grupa_id": "pzt:86A34659-9C67-45C8-8598-7FBF3C895809:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -451055,6 +451589,7 @@
         {
           "id": "pzt-mecz:467ac633977ce4253603",
           "grupa_id": "pzt:86A34659-9C67-45C8-8598-7FBF3C895809:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -451102,6 +451637,7 @@
         {
           "id": "pzt-mecz:4e52cb412dafcb917a24",
           "grupa_id": "pzt:86A34659-9C67-45C8-8598-7FBF3C895809:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -451140,6 +451676,7 @@
         {
           "id": "pzt-mecz:5b509c3a7c57e6a87065",
           "grupa_id": "pzt:86A34659-9C67-45C8-8598-7FBF3C895809:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -451187,6 +451724,7 @@
         {
           "id": "pzt-mecz:5a52bd4e2536b870e6a3",
           "grupa_id": "pzt:86A34659-9C67-45C8-8598-7FBF3C895809:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -451234,6 +451772,7 @@
         {
           "id": "pzt-mecz:a13f0cf6d7ddc639d94d",
           "grupa_id": "pzt:86A34659-9C67-45C8-8598-7FBF3C895809:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -451281,6 +451820,7 @@
         {
           "id": "pzt-mecz:97b7218995a0b0a68a82",
           "grupa_id": "pzt:F4511F09-6BE9-4159-BABE-3EAA515F436D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -451328,6 +451868,7 @@
         {
           "id": "pzt-mecz:3deab8dca1775c6d534f",
           "grupa_id": "pzt:F4511F09-6BE9-4159-BABE-3EAA515F436D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -451375,6 +451916,7 @@
         {
           "id": "pzt-mecz:1681c2ad890d5c72bae4",
           "grupa_id": "pzt:F4511F09-6BE9-4159-BABE-3EAA515F436D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -451422,6 +451964,7 @@
         {
           "id": "pzt-mecz:eb2be72236636c3beb0b",
           "grupa_id": "pzt:F4511F09-6BE9-4159-BABE-3EAA515F436D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -451469,6 +452012,7 @@
         {
           "id": "pzt-mecz:73eb0c3b87fd7736524a",
           "grupa_id": "pzt:F4511F09-6BE9-4159-BABE-3EAA515F436D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -451516,6 +452060,7 @@
         {
           "id": "pzt-mecz:9deceae8e43249afe570",
           "grupa_id": "pzt:F4511F09-6BE9-4159-BABE-3EAA515F436D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -451567,6 +452112,7 @@
         {
           "id": "pzt-mecz:c9c36574b08fb66bf42b",
           "grupa_id": "pzt:EC801384-BBD8-4B69-938E-27815E52F55D:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -451622,6 +452168,7 @@
         {
           "id": "pzt-mecz:ef3140a86cd2d26a6ffb",
           "grupa_id": "pzt:EC801384-BBD8-4B69-938E-27815E52F55D:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -451677,6 +452224,7 @@
         {
           "id": "pzt-mecz:7bd18e103f1ef0d85858",
           "grupa_id": "pzt:EC801384-BBD8-4B69-938E-27815E52F55D:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -451732,6 +452280,7 @@
         {
           "id": "pzt-mecz:b3af22cbe3d3250c3b9c",
           "grupa_id": "pzt:EC801384-BBD8-4B69-938E-27815E52F55D:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -451778,6 +452327,7 @@
         {
           "id": "pzt-mecz:f969e624bbd0ead90a73",
           "grupa_id": "pzt:602EAAEE-0162-4DBC-89D4-80B5B7DA8107:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -451825,6 +452375,7 @@
         {
           "id": "pzt-mecz:90c4a7154a889038a227",
           "grupa_id": "pzt:602EAAEE-0162-4DBC-89D4-80B5B7DA8107:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -451872,6 +452423,7 @@
         {
           "id": "pzt-mecz:7264743560a381c6e8a9",
           "grupa_id": "pzt:602EAAEE-0162-4DBC-89D4-80B5B7DA8107:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -451919,6 +452471,7 @@
         {
           "id": "pzt-mecz:ed69a7b26aa3419bf143",
           "grupa_id": "pzt:602EAAEE-0162-4DBC-89D4-80B5B7DA8107:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -451970,6 +452523,7 @@
         {
           "id": "pzt-mecz:01e500c9d0d440bc63ff",
           "grupa_id": "pzt:602EAAEE-0162-4DBC-89D4-80B5B7DA8107:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -452017,6 +452571,7 @@
         {
           "id": "pzt-mecz:b0cd7aaec974b7a72e62",
           "grupa_id": "pzt:602EAAEE-0162-4DBC-89D4-80B5B7DA8107:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -452068,6 +452623,7 @@
         {
           "id": "pzt-mecz:fa5f3d372f81940aee4f",
           "grupa_id": "pzt:602EAAEE-0162-4DBC-89D4-80B5B7DA8107:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -452115,6 +452671,7 @@
         {
           "id": "pzt-mecz:7ac3cc1b03c743dddaa7",
           "grupa_id": "pzt:3722942F-8AAE-4CAC-8035-9FCA7A7C822E:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -452174,6 +452731,7 @@
         {
           "id": "pzt-mecz:ec029240bd6823e80269",
           "grupa_id": "pzt:3722942F-8AAE-4CAC-8035-9FCA7A7C822E:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -452229,6 +452787,7 @@
         {
           "id": "pzt-mecz:60003acc6fb16c5b3680",
           "grupa_id": "pzt:3722942F-8AAE-4CAC-8035-9FCA7A7C822E:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -452284,6 +452843,7 @@
         {
           "id": "pzt-mecz:a1d7af0bd9fd4f34b97e",
           "grupa_id": "pzt:3722942F-8AAE-4CAC-8035-9FCA7A7C822E:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -452339,6 +452899,7 @@
         {
           "id": "pzt-mecz:2d76f50498c3a750021e",
           "grupa_id": "pzt:3722942F-8AAE-4CAC-8035-9FCA7A7C822E:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -452394,6 +452955,7 @@
         {
           "id": "pzt-mecz:8b825acc997a895decbe",
           "grupa_id": "pzt:3722942F-8AAE-4CAC-8035-9FCA7A7C822E:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -452440,6 +453002,7 @@
         {
           "id": "pzt-mecz:d737b5028c88118f06ed",
           "grupa_id": "pzt:3722942F-8AAE-4CAC-8035-9FCA7A7C822E:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -452495,6 +453058,7 @@
         {
           "id": "pzt-mecz:4b0b38daafc5a0c5f3d9",
           "grupa_id": "pzt:3722942F-8AAE-4CAC-8035-9FCA7A7C822E:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -452554,6 +453118,7 @@
         {
           "id": "pzt-mecz:bb6e1bf129a8c2f3803c",
           "grupa_id": "pzt:3722942F-8AAE-4CAC-8035-9FCA7A7C822E:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -452613,6 +453178,7 @@
         {
           "id": "pzt-mecz:1af6b6b1ba9b6db160c4",
           "grupa_id": "pzt:52229F0F-85A6-427F-9075-59B0B9613245:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -452660,6 +453226,7 @@
         {
           "id": "pzt-mecz:b7ed39d8641d9a53086e",
           "grupa_id": "pzt:52229F0F-85A6-427F-9075-59B0B9613245:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -452707,6 +453274,7 @@
         {
           "id": "pzt-mecz:73df9cd22c351046549a",
           "grupa_id": "pzt:52229F0F-85A6-427F-9075-59B0B9613245:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -452754,6 +453322,7 @@
         {
           "id": "pzt-mecz:1b91541e2647f23b8dc3",
           "grupa_id": "pzt:52229F0F-85A6-427F-9075-59B0B9613245:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -452801,6 +453370,7 @@
         {
           "id": "pzt-mecz:4be65f561264e2c4b87b",
           "grupa_id": "pzt:52229F0F-85A6-427F-9075-59B0B9613245:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -452848,6 +453418,7 @@
         {
           "id": "pzt-mecz:dbe77ac54e5a285afeb7",
           "grupa_id": "pzt:52229F0F-85A6-427F-9075-59B0B9613245:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -452895,6 +453466,7 @@
         {
           "id": "pzt-mecz:1c21c67eec312fd7f653",
           "grupa_id": "pzt:52229F0F-85A6-427F-9075-59B0B9613245:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -452942,6 +453514,7 @@
         {
           "id": "pzt-mecz:05318e3736527f200e6d",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -452989,6 +453562,7 @@
         {
           "id": "pzt-mecz:1cf4f79c082334ad272f",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -453036,6 +453610,7 @@
         {
           "id": "pzt-mecz:2f4625f372f14f99fc15",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -453083,6 +453658,7 @@
         {
           "id": "pzt-mecz:9eca6ab76351ad8c158e",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -453130,6 +453706,7 @@
         {
           "id": "pzt-mecz:11922d24656cb341194a",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -453177,6 +453754,7 @@
         {
           "id": "pzt-mecz:fee57925e6bce2f142b3",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -453228,6 +453806,7 @@
         {
           "id": "pzt-mecz:1bff6e78dd0ec04a2c96",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -453279,6 +453858,7 @@
         {
           "id": "pzt-mecz:a7c8429fbbf31c4add8f",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -453326,6 +453906,7 @@
         {
           "id": "pzt-mecz:03f414e00eed5391dd74",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -453377,6 +453958,7 @@
         {
           "id": "pzt-mecz:5799cd9d988fef8045db",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -453424,6 +454006,7 @@
         {
           "id": "pzt-mecz:118684f240c7986ba2bf",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -453467,6 +454050,7 @@
         {
           "id": "pzt-mecz:c3689547cb28333f369e",
           "grupa_id": "pzt:12DB7F8E-B41A-4FCB-87E1-7AD9B70D4F18:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -453518,6 +454102,7 @@
         {
           "id": "pzt-mecz:4456c8cc6938325b6d9b",
           "grupa_id": "pzt:E6688A55-6FEB-421B-8E00-8EBD15C38B08:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -453565,6 +454150,7 @@
         {
           "id": "pzt-mecz:96fc0002d71baa7bb902",
           "grupa_id": "pzt:E6688A55-6FEB-421B-8E00-8EBD15C38B08:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -453612,6 +454198,7 @@
         {
           "id": "pzt-mecz:92f0b5dcd6cc29c2146b",
           "grupa_id": "pzt:E6688A55-6FEB-421B-8E00-8EBD15C38B08:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -453663,6 +454250,7 @@
         {
           "id": "pzt-mecz:27ec8d431d0863b7ea25",
           "grupa_id": "pzt:D5E7EC80-D2CA-41AC-BA2E-845FA3B57423:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -453710,6 +454298,7 @@
         {
           "id": "pzt-mecz:7fb9c07b1610b73592f1",
           "grupa_id": "pzt:D5E7EC80-D2CA-41AC-BA2E-845FA3B57423:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -453761,6 +454350,7 @@
         {
           "id": "pzt-mecz:32e055218eac2ac626b2",
           "grupa_id": "pzt:D5E7EC80-D2CA-41AC-BA2E-845FA3B57423:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -453808,6 +454398,7 @@
         {
           "id": "pzt-mecz:56ebdba96a63b244e8c3",
           "grupa_id": "pzt:D5E7EC80-D2CA-41AC-BA2E-845FA3B57423:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -453859,6 +454450,7 @@
         {
           "id": "pzt-mecz:72867e2797a389038ca7",
           "grupa_id": "pzt:D5E7EC80-D2CA-41AC-BA2E-845FA3B57423:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -453910,6 +454502,7 @@
         {
           "id": "pzt-mecz:364434f1771bc904a8ca",
           "grupa_id": "pzt:D5E7EC80-D2CA-41AC-BA2E-845FA3B57423:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -453957,6 +454550,7 @@
         {
           "id": "pzt-mecz:81bf3cae62b6d316056c",
           "grupa_id": "pzt:D5E7EC80-D2CA-41AC-BA2E-845FA3B57423:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -454004,6 +454598,7 @@
         {
           "id": "pzt-mecz:3a44b339cf11032ad646",
           "grupa_id": "pzt:B2E1A503-8041-4EA3-9F32-8C0615A87D97:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -454050,6 +454645,7 @@
         {
           "id": "pzt-mecz:c1b780f02fa8ad2ebc87",
           "grupa_id": "pzt:B2E1A503-8041-4EA3-9F32-8C0615A87D97:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -454105,6 +454701,7 @@
         {
           "id": "pzt-mecz:0a74cba1da2fd2b6e36c",
           "grupa_id": "pzt:B2E1A503-8041-4EA3-9F32-8C0615A87D97:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -454164,6 +454761,7 @@
         {
           "id": "pzt-mecz:96f28fb60f302f207a78",
           "grupa_id": "pzt:B2E1A503-8041-4EA3-9F32-8C0615A87D97:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -454223,6 +454821,7 @@
         {
           "id": "pzt-mecz:982c5cc767a9a4f55b3b",
           "grupa_id": "pzt:B2E1A503-8041-4EA3-9F32-8C0615A87D97:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -454278,6 +454877,7 @@
         {
           "id": "pzt-mecz:a468967daca36b93e29e",
           "grupa_id": "pzt:B2E1A503-8041-4EA3-9F32-8C0615A87D97:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -454333,6 +454933,7 @@
         {
           "id": "pzt-mecz:49cb732a2571993fbe81",
           "grupa_id": "pzt:B2E1A503-8041-4EA3-9F32-8C0615A87D97:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -454392,6 +454993,7 @@
         {
           "id": "pzt-mecz:9075679895d25fb48b3d",
           "grupa_id": "pzt:B2E1A503-8041-4EA3-9F32-8C0615A87D97:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -454447,6 +455049,7 @@
         {
           "id": "pzt-mecz:106677b2aa12993fef09",
           "grupa_id": "pzt:8B95F613-CF51-475B-97F2-FD507DE27B86:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -454494,6 +455097,7 @@
         {
           "id": "pzt-mecz:16288d715c2af1bddae3",
           "grupa_id": "pzt:8B95F613-CF51-475B-97F2-FD507DE27B86:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -454541,6 +455145,7 @@
         {
           "id": "pzt-mecz:75fecee093b88dd1d33b",
           "grupa_id": "pzt:8B95F613-CF51-475B-97F2-FD507DE27B86:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -454588,6 +455193,7 @@
         {
           "id": "pzt-mecz:ab4853e0a188a34d864c",
           "grupa_id": "pzt:8B95F613-CF51-475B-97F2-FD507DE27B86:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -454635,6 +455241,7 @@
         {
           "id": "pzt-mecz:d6d2232b0e37d9b71984",
           "grupa_id": "pzt:8B95F613-CF51-475B-97F2-FD507DE27B86:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -454682,6 +455289,7 @@
         {
           "id": "pzt-mecz:4be69d995ca88e57b3ce",
           "grupa_id": "pzt:8B95F613-CF51-475B-97F2-FD507DE27B86:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -454729,6 +455337,7 @@
         {
           "id": "pzt-mecz:309baded22719277a20c",
           "grupa_id": "pzt:8B95F613-CF51-475B-97F2-FD507DE27B86:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -454776,6 +455385,7 @@
         {
           "id": "pzt-mecz:b97c3087f34893e63135",
           "grupa_id": "pzt:8B95F613-CF51-475B-97F2-FD507DE27B86:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -454823,6 +455433,7 @@
         {
           "id": "pzt-mecz:10582ac3c26ef6ca49c8",
           "grupa_id": "pzt:0156EB07-B94F-4C51-9C23-B7725043F882:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -454870,6 +455481,7 @@
         {
           "id": "pzt-mecz:365ab3bc72e9b50213db",
           "grupa_id": "pzt:0156EB07-B94F-4C51-9C23-B7725043F882:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -454917,6 +455529,7 @@
         {
           "id": "pzt-mecz:859418a0fde82dc4d6a6",
           "grupa_id": "pzt:0156EB07-B94F-4C51-9C23-B7725043F882:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -454955,6 +455568,7 @@
         {
           "id": "pzt-mecz:c6bdb2acb43721be415a",
           "grupa_id": "pzt:0156EB07-B94F-4C51-9C23-B7725043F882:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -455002,6 +455616,7 @@
         {
           "id": "pzt-mecz:d9556068f7ad8e9ad122",
           "grupa_id": "pzt:0156EB07-B94F-4C51-9C23-B7725043F882:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -455049,6 +455664,7 @@
         {
           "id": "pzt-mecz:b8d8aed323b8ccb17e3f",
           "grupa_id": "pzt:0156EB07-B94F-4C51-9C23-B7725043F882:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -455096,6 +455712,7 @@
         {
           "id": "pzt-mecz:ea3c970dcc3850bc3407",
           "grupa_id": "pzt:0156EB07-B94F-4C51-9C23-B7725043F882:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -455147,6 +455764,7 @@
         {
           "id": "pzt-mecz:6c70582b216b0af1acde",
           "grupa_id": "pzt:75ED2B87-0C51-4293-90D9-23C9352958B4:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -455185,6 +455803,7 @@
         {
           "id": "pzt-mecz:ce2ce3125f539724f6c0",
           "grupa_id": "pzt:75ED2B87-0C51-4293-90D9-23C9352958B4:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -455232,6 +455851,7 @@
         {
           "id": "pzt-mecz:38cd2806092333799385",
           "grupa_id": "pzt:75ED2B87-0C51-4293-90D9-23C9352958B4:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -455283,6 +455903,7 @@
         {
           "id": "pzt-mecz:89025e8ba6c0df1695c3",
           "grupa_id": "pzt:75ED2B87-0C51-4293-90D9-23C9352958B4:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -455321,6 +455942,7 @@
         {
           "id": "pzt-mecz:897c7a8821b1d21f685d",
           "grupa_id": "pzt:75ED2B87-0C51-4293-90D9-23C9352958B4:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -455368,6 +455990,7 @@
         {
           "id": "pzt-mecz:43cd66c401b409288170",
           "grupa_id": "pzt:75ED2B87-0C51-4293-90D9-23C9352958B4:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -455406,6 +456029,7 @@
         {
           "id": "pzt-mecz:032da8d63026f76be790",
           "grupa_id": "pzt:264C4674-662A-48A6-ACA1-3E3B6C3DD9B6:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -455452,6 +456076,7 @@
         {
           "id": "pzt-mecz:4a5722ba6e0244175e07",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -455507,6 +456132,7 @@
         {
           "id": "pzt-mecz:44070eb4a0da7ca58347",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -455562,6 +456188,7 @@
         {
           "id": "pzt-mecz:b49f4e38df679d2c4e2f",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -455621,6 +456248,7 @@
         {
           "id": "pzt-mecz:eceab85bfd052119146d",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -455676,6 +456304,7 @@
         {
           "id": "pzt-mecz:310ca7b08375e7f5019f",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -455735,6 +456364,7 @@
         {
           "id": "pzt-mecz:45ebf35a57761e0114f8",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -455790,6 +456420,7 @@
         {
           "id": "pzt-mecz:74a402706a20b28709be",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -455845,6 +456476,7 @@
         {
           "id": "pzt-mecz:de0c75edfa361902c919",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -455904,6 +456536,7 @@
         {
           "id": "pzt-mecz:4929a12c6c8ff87e35fc",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -455959,6 +456592,7 @@
         {
           "id": "pzt-mecz:c7342da4cfc93495b267",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -456014,6 +456648,7 @@
         {
           "id": "pzt-mecz:5323baea601729109bea",
           "grupa_id": "pzt:F2784013-B7AE-41D0-8891-432AE8A51B61:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -456073,6 +456708,7 @@
         {
           "id": "pzt-mecz:f967c1547e68f133b27d",
           "grupa_id": "pzt:1141A643-6D5C-4CC3-B031-1D55CA42D4D5:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -456120,6 +456756,7 @@
         {
           "id": "pzt-mecz:2bcb210e26812d1f7424",
           "grupa_id": "pzt:1141A643-6D5C-4CC3-B031-1D55CA42D4D5:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -456167,6 +456804,7 @@
         {
           "id": "pzt-mecz:8007a238eb02ff42a008",
           "grupa_id": "pzt:1141A643-6D5C-4CC3-B031-1D55CA42D4D5:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -456214,6 +456852,7 @@
         {
           "id": "pzt-mecz:d2823f9a093192529232",
           "grupa_id": "pzt:1141A643-6D5C-4CC3-B031-1D55CA42D4D5:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -456261,6 +456900,7 @@
         {
           "id": "pzt-mecz:895ac78ba5dcb567c4ca",
           "grupa_id": "pzt:1141A643-6D5C-4CC3-B031-1D55CA42D4D5:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -456308,6 +456948,7 @@
         {
           "id": "pzt-mecz:a06aee07682b69a6c5d1",
           "grupa_id": "pzt:1141A643-6D5C-4CC3-B031-1D55CA42D4D5:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -456355,6 +456996,7 @@
         {
           "id": "pzt-mecz:269d3c40e707ebb4e16a",
           "grupa_id": "pzt:1141A643-6D5C-4CC3-B031-1D55CA42D4D5:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -456406,6 +457048,7 @@
         {
           "id": "pzt-mecz:2ccbe6890ac4e8f70255",
           "grupa_id": "pzt:FF9A1447-907B-4710-AC64-127F364141B3:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -456461,6 +457104,7 @@
         {
           "id": "pzt-mecz:8b936047da7be9ae3f16",
           "grupa_id": "pzt:FF9A1447-907B-4710-AC64-127F364141B3:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -456516,6 +457160,7 @@
         {
           "id": "pzt-mecz:99a8cee3903ba20050a7",
           "grupa_id": "pzt:FF9A1447-907B-4710-AC64-127F364141B3:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -456571,6 +457216,7 @@
         {
           "id": "pzt-mecz:2f37f6d537da8d80d31f",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -456618,6 +457264,7 @@
         {
           "id": "pzt-mecz:5240d64b4a4cf82ba5dd",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -456665,6 +457312,7 @@
         {
           "id": "pzt-mecz:f2254ed0e0e7fe8b3b15",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -456712,6 +457360,7 @@
         {
           "id": "pzt-mecz:2696e5d59ec09a011f84",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -456759,6 +457408,7 @@
         {
           "id": "pzt-mecz:394a065fd70778460ba2",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -456806,6 +457456,7 @@
         {
           "id": "pzt-mecz:49a4103fa6d0d3845b73",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -456853,6 +457504,7 @@
         {
           "id": "pzt-mecz:dce8b1ac353fcbbe1f04",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -456900,6 +457552,7 @@
         {
           "id": "pzt-mecz:0e7842c01bf445bc9820",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -456943,6 +457596,7 @@
         {
           "id": "pzt-mecz:6c258845f83b2d749993",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:runda: 2",
+          "drabinka": "glowna",
           "faza": "Runda: 2",
           "runda": "Runda: 2",
           "typ_fazy": "puchar",
@@ -456994,6 +457648,7 @@
         {
           "id": "pzt-mecz:0ad52bcf482e46db1394",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -457045,6 +457700,7 @@
         {
           "id": "pzt-mecz:7a4d1cb6cb95ce9727d6",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -457092,6 +457748,7 @@
         {
           "id": "pzt-mecz:6426359c4b98e33d7320",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -457143,6 +457800,7 @@
         {
           "id": "pzt-mecz:80d25eb1367baaf83c56",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -457190,6 +457848,7 @@
         {
           "id": "pzt-mecz:e87c51bedd7926cebf55",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -457237,6 +457896,7 @@
         {
           "id": "pzt-mecz:55fe56daaf81ffba852a",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -457284,6 +457944,7 @@
         {
           "id": "pzt-mecz:e882b832966a13a1824a",
           "grupa_id": "pzt:8262BC84-34BB-4943-ADC3-D92B39305554:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -457331,6 +457992,7 @@
         {
           "id": "pzt-mecz:0ded8d449c01e31667b5",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -457390,6 +458052,7 @@
         {
           "id": "pzt-mecz:71ba85a58ab5dc518125",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -457445,6 +458108,7 @@
         {
           "id": "pzt-mecz:4ce2fe7363a2821b9b5b",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -457504,6 +458168,7 @@
         {
           "id": "pzt-mecz:1955d085566321630b97",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -457559,6 +458224,7 @@
         {
           "id": "pzt-mecz:38a23170275d5497f7d8",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -457614,6 +458280,7 @@
         {
           "id": "pzt-mecz:9f1605113d593722f0e3",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -457669,6 +458336,7 @@
         {
           "id": "pzt-mecz:b5ca679a4fb8e14d76f4",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -457715,6 +458383,7 @@
         {
           "id": "pzt-mecz:ee3fbc80bc42bcb20d99",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -457770,6 +458439,7 @@
         {
           "id": "pzt-mecz:e0604296c6ef2e9f58ca",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -457825,6 +458495,7 @@
         {
           "id": "pzt-mecz:6fe8a827ff4bc7ff7859",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -457884,6 +458555,7 @@
         {
           "id": "pzt-mecz:413e2bb4b7a82ba8a892",
           "grupa_id": "pzt:1CC6D65D-C2C8-44AF-B41D-EA889E32E198:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -457941,8 +458613,6 @@
       "gotowy": false,
       "uwagi": [
         "60+. Gra podwójna. Kobiety: Nie znaleziono rozegranych meczów",
-        "75+. Gra podwójna. Mężczyźni: Nie znaleziono rozegranych meczów",
-        "Brak niezależnej klasyfikacji końcowej do potwierdzenia finału",
         "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
       ]
     },
@@ -461146,19 +461816,19 @@
       "miasto": "Inowrocław",
       "mecze": [
         {
-          "id": "kluby-mecz:818cf932a5434d2dd75b",
+          "id": "kluby-mecz:7efd2fff6a1884ccf4d3",
           "grupa_id": "kluby:12401:16010:grupa a",
           "faza": "Grupa A",
           "runda": "Kolejka 1",
           "typ_fazy": "grupa",
           "strona_a": {
-            "id": "para:/gracze/57306|/gracze/42625",
-            "id_zrodlowe": "/gracze/57306|/gracze/42625",
+            "id": "para:/gracze/61837|/gracze/42625",
+            "id_zrodlowe": "/gracze/61837|/gracze/42625",
             "typ": "para",
             "zawodnicy": [
               {
-                "id": "/gracze/57306",
-                "nazwa": "Julia Belter"
+                "id": "/gracze/61837",
+                "nazwa": "Belter Julia"
               },
               {
                 "id": "/gracze/42625",
@@ -461252,19 +461922,19 @@
           "kategoria_zrodlowa": "DEBEL MIKST"
         },
         {
-          "id": "kluby-mecz:0687bb8b54cebff236f7",
+          "id": "kluby-mecz:e12a31330b5aa0b29295",
           "grupa_id": "kluby:12401:16010:grupa a",
           "faza": "Grupa A",
           "runda": "Kolejka 3",
           "typ_fazy": "grupa",
           "strona_a": {
-            "id": "para:/gracze/57306|/gracze/42625",
-            "id_zrodlowe": "/gracze/57306|/gracze/42625",
+            "id": "para:/gracze/61837|/gracze/42625",
+            "id_zrodlowe": "/gracze/61837|/gracze/42625",
             "typ": "para",
             "zawodnicy": [
               {
-                "id": "/gracze/57306",
-                "nazwa": "Julia Belter"
+                "id": "/gracze/61837",
+                "nazwa": "Belter Julia"
               },
               {
                 "id": "/gracze/42625",
@@ -461802,19 +462472,19 @@
           "kategoria_zrodlowa": "DEBEL MIKST"
         },
         {
-          "id": "kluby-mecz:35ff45746b3434eb3e1a",
+          "id": "kluby-mecz:1ddc821cab38804980f3",
           "grupa_id": "kluby:12401:16010:1/4 finalu",
           "faza": "1/4 finału",
           "runda": "1/4 finału",
           "typ_fazy": "puchar",
           "strona_a": {
-            "id": "para:/gracze/57306|/gracze/42625",
-            "id_zrodlowe": "/gracze/57306|/gracze/42625",
+            "id": "para:/gracze/61837|/gracze/42625",
+            "id_zrodlowe": "/gracze/61837|/gracze/42625",
             "typ": "para",
             "zawodnicy": [
               {
-                "id": "/gracze/57306",
-                "nazwa": "Julia Belter"
+                "id": "/gracze/61837",
+                "nazwa": "Belter Julia"
               },
               {
                 "id": "/gracze/42625",
@@ -462018,19 +462688,19 @@
           "kategoria_zrodlowa": "DEBEL MIKST"
         },
         {
-          "id": "kluby-mecz:6c459d504bdbce458f3c",
+          "id": "kluby-mecz:91d2d7258c3e60add841",
           "grupa_id": "kluby:12401:16010:1/2 finalu",
           "faza": "1/2 finału",
           "runda": "1/2 finału",
           "typ_fazy": "puchar",
           "strona_a": {
-            "id": "para:/gracze/57306|/gracze/42625",
-            "id_zrodlowe": "/gracze/57306|/gracze/42625",
+            "id": "para:/gracze/61837|/gracze/42625",
+            "id_zrodlowe": "/gracze/61837|/gracze/42625",
             "typ": "para",
             "zawodnicy": [
               {
-                "id": "/gracze/57306",
-                "nazwa": "Julia Belter"
+                "id": "/gracze/61837",
+                "nazwa": "Belter Julia"
               },
               {
                 "id": "/gracze/42625",
@@ -462128,19 +462798,19 @@
           "kategoria_zrodlowa": "DEBEL MIKST"
         },
         {
-          "id": "kluby-mecz:55ef30a05cd4b6f4da1a",
+          "id": "kluby-mecz:f919769a701ab7b3f594",
           "grupa_id": "kluby:12401:16010:final",
           "faza": "finał",
           "runda": "finał",
           "typ_fazy": "puchar",
           "strona_a": {
-            "id": "para:/gracze/57306|/gracze/42625",
-            "id_zrodlowe": "/gracze/57306|/gracze/42625",
+            "id": "para:/gracze/61837|/gracze/42625",
+            "id_zrodlowe": "/gracze/61837|/gracze/42625",
             "typ": "para",
             "zawodnicy": [
               {
-                "id": "/gracze/57306",
-                "nazwa": "Julia Belter"
+                "id": "/gracze/61837",
+                "nazwa": "Belter Julia"
               },
               {
                 "id": "/gracze/42625",
@@ -462238,7 +462908,7 @@
           "kategoria_zrodlowa": "DEBEL MIKST"
         }
       ],
-      "final_id": "kluby-mecz:55ef30a05cd4b6f4da1a",
+      "final_id": "kluby-mecz:f919769a701ab7b3f594",
       "gotowy": true,
       "uwagi": []
     },
@@ -462253,7 +462923,7 @@
       "miasto": "Warszawa",
       "mecze": [
         {
-          "id": "kluby-mecz:8635a3a16bca76fadb9e",
+          "id": "kluby-mecz:0fda02eb5333fe5a4d3a",
           "grupa_id": "kluby:12436:16070:grupa a",
           "faza": "Grupa A",
           "runda": "Kolejka 1",
@@ -462288,16 +462958,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 3,
+              "b": 6
+            }
+          ],
+          "wynik": "3/6",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:20517dc38d5d6ffcb358",
+          "id": "kluby-mecz:c7ff5c1989c4b9263359",
           "grupa_id": "kluby:12436:16070:grupa a",
           "faza": "Grupa A",
           "runda": "Kolejka 1",
@@ -462332,16 +463007,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 4,
+              "b": 6
+            }
+          ],
+          "wynik": "4/6",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:3d276a0630b8726ad81a",
+          "id": "kluby-mecz:4f72a1524125348ab06d",
           "grupa_id": "kluby:12436:16070:grupa a",
           "faza": "Grupa A",
           "runda": "Kolejka 2",
@@ -462376,16 +463056,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 7,
+              "b": 5
+            }
+          ],
+          "wynik": "7/5",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:24bb564086c8d73fb99c",
+          "id": "kluby-mecz:66ff5d6ef88abba543c9",
           "grupa_id": "kluby:12436:16070:grupa a",
           "faza": "Grupa A",
           "runda": "Kolejka 2",
@@ -462420,16 +463105,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 1,
+              "b": 6
+            }
+          ],
+          "wynik": "1/6",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:82e830d49e9d23a09a05",
+          "id": "kluby-mecz:d0b7726ab101d39b21b0",
           "grupa_id": "kluby:12436:16070:grupa a",
           "faza": "Grupa A",
           "runda": "Kolejka 3",
@@ -462464,16 +463154,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 6,
+              "b": 4
+            }
+          ],
+          "wynik": "6/4",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:ffe2d472e2bde8a29b25",
+          "id": "kluby-mecz:23d39b7d21f526392df6",
           "grupa_id": "kluby:12436:16070:grupa a",
           "faza": "Grupa A",
           "runda": "Kolejka 3",
@@ -462508,16 +463203,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 6,
+              "b": 0
+            }
+          ],
+          "wynik": "6/0",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:1f5b3c8fa9f15627734e",
+          "id": "kluby-mecz:efb00a56e78dfc3f1621",
           "grupa_id": "kluby:12436:16070:grupa b",
           "faza": "Grupa B",
           "runda": "Kolejka 1",
@@ -462552,16 +463252,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 2,
+              "b": 6
+            }
+          ],
+          "wynik": "2/6",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:e70c2c91c3fe1471a5dc",
+          "id": "kluby-mecz:253ab9101b6b3ac21d9f",
           "grupa_id": "kluby:12436:16070:grupa b",
           "faza": "Grupa B",
           "runda": "Kolejka 1",
@@ -462596,16 +463301,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 4,
+              "b": 6
+            }
+          ],
+          "wynik": "4/6",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:269d5a63a3a3d26b3604",
+          "id": "kluby-mecz:a4554b589aa5be983967",
           "grupa_id": "kluby:12436:16070:grupa b",
           "faza": "Grupa B",
           "runda": "Kolejka 2",
@@ -462640,16 +463350,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 7,
+              "b": 5
+            }
+          ],
+          "wynik": "7/5",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:49075ec7f448ab6d44ea",
+          "id": "kluby-mecz:1e02da5953d777eea46a",
           "grupa_id": "kluby:12436:16070:grupa b",
           "faza": "Grupa B",
           "runda": "Kolejka 2",
@@ -462684,16 +463399,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 4,
+              "b": 6
+            }
+          ],
+          "wynik": "4/6",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:35affb16697b1b6c8635",
+          "id": "kluby-mecz:4e8f7da4206360023389",
           "grupa_id": "kluby:12436:16070:grupa b",
           "faza": "Grupa B",
           "runda": "Kolejka 3",
@@ -462728,16 +463448,21 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 7,
+              "b": 6
+            }
+          ],
+          "wynik": "7/6",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         },
         {
-          "id": "kluby-mecz:70243c65c6fc53b4839c",
+          "id": "kluby-mecz:3aa903fba669e2fbd070",
           "grupa_id": "kluby:12436:16070:grupa b",
           "faza": "Grupa B",
           "runda": "Kolejka 3",
@@ -462772,20 +463497,214 @@
               }
             ]
           },
-          "sety": [],
-          "wynik": "",
+          "sety": [
+            {
+              "a": 7,
+              "b": 5
+            }
+          ],
+          "wynik": "7/5",
           "walkower": false,
-          "zwyciezca": null,
-          "zakonczony": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "DEBEL KOBIETY"
+        },
+        {
+          "id": "kluby-mecz:11b299b8d7ae899e90ef",
+          "grupa_id": "kluby:12436:16070:1/2 finalu",
+          "faza": "1/2 finału",
+          "runda": "1/2 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "para:/gracze/1898|/gracze/15690",
+            "id_zrodlowe": "/gracze/1898|/gracze/15690",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "/gracze/1898",
+                "nazwa": "Majchrzak Katarzyna"
+              },
+              {
+                "id": "/gracze/15690",
+                "nazwa": "Piątkowska Monika"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:/gracze/18637|/gracze/20634",
+            "id_zrodlowe": "/gracze/18637|/gracze/20634",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "/gracze/18637",
+                "nazwa": "Konarzewska Ewelina"
+              },
+              {
+                "id": "/gracze/20634",
+                "nazwa": "Wieczorek Olga"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 1,
+              "b": 6
+            }
+          ],
+          "wynik": "1/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "DEBEL KOBIETY"
+        },
+        {
+          "id": "kluby-mecz:4d6a249a340203cecee4",
+          "grupa_id": "kluby:12436:16070:1/2 finalu",
+          "faza": "1/2 finału",
+          "runda": "1/2 finału",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "para:/gracze/55437|/gracze/5155",
+            "id_zrodlowe": "/gracze/55437|/gracze/5155",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "/gracze/55437",
+                "nazwa": "Lasocka Magdalena"
+              },
+              {
+                "id": "/gracze/5155",
+                "nazwa": "Tomczyk Joanna"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:/gracze/1746|/gracze/19185",
+            "id_zrodlowe": "/gracze/1746|/gracze/19185",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "/gracze/1746",
+                "nazwa": "Sobstyl Ines"
+              },
+              {
+                "id": "/gracze/19185",
+                "nazwa": "Kłos Izabela"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 2,
+              "b": 6
+            }
+          ],
+          "wynik": "2/6",
+          "walkower": false,
+          "zwyciezca": "b",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "DEBEL KOBIETY"
+        },
+        {
+          "id": "kluby-mecz:bca03d013a22096e6cfb",
+          "grupa_id": "kluby:12436:16070:final",
+          "faza": "finał",
+          "runda": "finał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "para:/gracze/18637|/gracze/20634",
+            "id_zrodlowe": "/gracze/18637|/gracze/20634",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "/gracze/18637",
+                "nazwa": "Konarzewska Ewelina"
+              },
+              {
+                "id": "/gracze/20634",
+                "nazwa": "Wieczorek Olga"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:/gracze/1746|/gracze/19185",
+            "id_zrodlowe": "/gracze/1746|/gracze/19185",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "/gracze/1746",
+                "nazwa": "Sobstyl Ines"
+              },
+              {
+                "id": "/gracze/19185",
+                "nazwa": "Kłos Izabela"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "6/3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "DEBEL KOBIETY"
+        },
+        {
+          "id": "kluby-mecz:bd8217bc36eb01766d0a",
+          "grupa_id": "kluby:12436:16070:final",
+          "faza": "finał",
+          "runda": "finał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "para:/gracze/1898|/gracze/15690",
+            "id_zrodlowe": "/gracze/1898|/gracze/15690",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "/gracze/1898",
+                "nazwa": "Majchrzak Katarzyna"
+              },
+              {
+                "id": "/gracze/15690",
+                "nazwa": "Piątkowska Monika"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "para:/gracze/55437|/gracze/5155",
+            "id_zrodlowe": "/gracze/55437|/gracze/5155",
+            "typ": "para",
+            "zawodnicy": [
+              {
+                "id": "/gracze/55437",
+                "nazwa": "Lasocka Magdalena"
+              },
+              {
+                "id": "/gracze/5155",
+                "nazwa": "Tomczyk Joanna"
+              }
+            ]
+          },
+          "sety": [],
+          "wynik": "walkower",
+          "walkower": true,
+          "zwyciezca": "a",
+          "zakonczony": true,
           "data_zrodlowa": null,
           "kategoria_zrodlowa": "DEBEL KOBIETY"
         }
       ],
-      "final_id": null,
-      "gotowy": false,
-      "uwagi": [
-        "DEBEL KOBIETY: Brak części rozegranych meczów lub wyników"
-      ]
+      "final_id": "kluby-mecz:bca03d013a22096e6cfb",
+      "gotowy": true,
+      "uwagi": []
     },
     "kluby:12428": {
       "id": "kluby:12428",
@@ -466181,6 +467100,7 @@
         {
           "id": "pzt-mecz:31740c07ce65ab1828ca",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -466228,6 +467148,7 @@
         {
           "id": "pzt-mecz:5a16335a224992a3deca",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -466275,6 +467196,7 @@
         {
           "id": "pzt-mecz:0b0e5e26ebccb7c6514a",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -466322,6 +467244,7 @@
         {
           "id": "pzt-mecz:887f0a495545d2f43e4c",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:runda: 1",
+          "drabinka": "glowna",
           "faza": "Runda: 1",
           "runda": "Runda: 1",
           "typ_fazy": "puchar",
@@ -466369,6 +467292,7 @@
         {
           "id": "pzt-mecz:830d010975c0916f049f",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -466416,6 +467340,7 @@
         {
           "id": "pzt-mecz:a1a967219126605c8489",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -466467,6 +467392,7 @@
         {
           "id": "pzt-mecz:931d0b080b70a06ace5b",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -466514,6 +467440,7 @@
         {
           "id": "pzt-mecz:734e6a6decdc4a9b730d",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:cwiercfinal",
+          "drabinka": "glowna",
           "faza": "Ćwierćfinał",
           "runda": "Ćwierćfinał",
           "typ_fazy": "puchar",
@@ -466561,6 +467488,7 @@
         {
           "id": "pzt-mecz:180367ca33dea5d89fad",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -466608,6 +467536,7 @@
         {
           "id": "pzt-mecz:0f0734ab5346baa6bff7",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:polfinal",
+          "drabinka": "glowna",
           "faza": "Półfinał",
           "runda": "Półfinał",
           "typ_fazy": "puchar",
@@ -466655,6 +467584,7 @@
         {
           "id": "pzt-mecz:3b1a095d874d1c0db957",
           "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:final",
+          "drabinka": "glowna",
           "faza": "Finał",
           "runda": "Finał",
           "typ_fazy": "puchar",
@@ -466700,243 +467630,9 @@
           "event_key": "open|gra pojedyncza|mezczyzni"
         },
         {
-          "id": "pzt-mecz:472172b8acac0c04c3b4",
-          "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:cwiercfinal",
-          "faza": "Ćwierćfinał",
-          "runda": "Ćwierćfinał",
-          "typ_fazy": "puchar",
-          "strona_a": {
-            "id": "osoba:pzt-nazwa:1ce1410f1fba25f9f5",
-            "id_zrodlowe": "pzt-nazwa:1ce1410f1fba25f9f5",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:1ce1410f1fba25f9f5",
-                "nazwa": "Rybiński Grzegorz"
-              }
-            ]
-          },
-          "strona_b": {
-            "id": "osoba:pzt-nazwa:2c2b4d25768a7402d3",
-            "id_zrodlowe": "pzt-nazwa:2c2b4d25768a7402d3",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:2c2b4d25768a7402d3",
-                "nazwa": "Wójcik Tomasz"
-              }
-            ]
-          },
-          "sety": [
-            {
-              "a": 6,
-              "b": 3
-            },
-            {
-              "a": 6,
-              "b": 2
-            }
-          ],
-          "wynik": "6:3 6:2",
-          "walkower": false,
-          "zwyciezca": "a",
-          "zakonczony": true,
-          "data_zrodlowa": null,
-          "kategoria_zrodlowa": "Open. Gra pojedyncza. Mężczyźni",
-          "event_id": "E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32",
-          "event_key": "open|gra pojedyncza|mezczyzni"
-        },
-        {
-          "id": "pzt-mecz:74eee2c46abb7c00107f",
-          "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:cwiercfinal",
-          "faza": "Ćwierćfinał",
-          "runda": "Ćwierćfinał",
-          "typ_fazy": "puchar",
-          "strona_a": {
-            "id": "osoba:pzt-nazwa:86edbbd3d31dcaa88b",
-            "id_zrodlowe": "pzt-nazwa:86edbbd3d31dcaa88b",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:86edbbd3d31dcaa88b",
-                "nazwa": "Stochaj Marek"
-              }
-            ]
-          },
-          "strona_b": {
-            "id": "osoba:pzt-nazwa:ab258eaa568855e1f8",
-            "id_zrodlowe": "pzt-nazwa:ab258eaa568855e1f8",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:ab258eaa568855e1f8",
-                "nazwa": "Kucharski Grzegorz"
-              }
-            ]
-          },
-          "sety": [
-            {
-              "a": 6,
-              "b": 4
-            },
-            {
-              "a": 6,
-              "b": 4
-            }
-          ],
-          "wynik": "6:4 6:4",
-          "walkower": false,
-          "zwyciezca": "a",
-          "zakonczony": true,
-          "data_zrodlowa": null,
-          "kategoria_zrodlowa": "Open. Gra pojedyncza. Mężczyźni",
-          "event_id": "E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32",
-          "event_key": "open|gra pojedyncza|mezczyzni"
-        },
-        {
-          "id": "pzt-mecz:01bb7bd06e93ba0cdb1d",
-          "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:polfinal",
-          "faza": "Półfinał",
-          "runda": "Półfinał",
-          "typ_fazy": "puchar",
-          "strona_a": {
-            "id": "osoba:pzt-nazwa:1ce1410f1fba25f9f5",
-            "id_zrodlowe": "pzt-nazwa:1ce1410f1fba25f9f5",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:1ce1410f1fba25f9f5",
-                "nazwa": "Rybiński Grzegorz"
-              }
-            ]
-          },
-          "strona_b": {
-            "id": "osoba:pzt-nazwa:ed3eda1cbbd32cc87f",
-            "id_zrodlowe": "pzt-nazwa:ed3eda1cbbd32cc87f",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:ed3eda1cbbd32cc87f",
-                "nazwa": "Miraszewski Bartosz"
-              }
-            ]
-          },
-          "sety": [
-            {
-              "a": 7,
-              "b": 6
-            },
-            {
-              "a": 7,
-              "b": 6
-            }
-          ],
-          "wynik": "7:6 7:6",
-          "walkower": false,
-          "zwyciezca": "a",
-          "zakonczony": true,
-          "data_zrodlowa": null,
-          "kategoria_zrodlowa": "Open. Gra pojedyncza. Mężczyźni",
-          "event_id": "E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32",
-          "event_key": "open|gra pojedyncza|mezczyzni"
-        },
-        {
-          "id": "pzt-mecz:d5b22c757cec12cb8f2d",
-          "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:polfinal",
-          "faza": "Półfinał",
-          "runda": "Półfinał",
-          "typ_fazy": "puchar",
-          "strona_a": {
-            "id": "osoba:pzt-nazwa:569203cfa07305cdda",
-            "id_zrodlowe": "pzt-nazwa:569203cfa07305cdda",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:569203cfa07305cdda",
-                "nazwa": "Mikołajczyk Łukasz"
-              }
-            ]
-          },
-          "strona_b": {
-            "id": "osoba:pzt-nazwa:86edbbd3d31dcaa88b",
-            "id_zrodlowe": "pzt-nazwa:86edbbd3d31dcaa88b",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:86edbbd3d31dcaa88b",
-                "nazwa": "Stochaj Marek"
-              }
-            ]
-          },
-          "sety": [
-            {
-              "a": 6,
-              "b": 3
-            },
-            {
-              "a": 6,
-              "b": 3
-            }
-          ],
-          "wynik": "6:3 6:3",
-          "walkower": false,
-          "zwyciezca": "a",
-          "zakonczony": true,
-          "data_zrodlowa": null,
-          "kategoria_zrodlowa": "Open. Gra pojedyncza. Mężczyźni",
-          "event_id": "E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32",
-          "event_key": "open|gra pojedyncza|mezczyzni"
-        },
-        {
-          "id": "pzt-mecz:52ba993d1f445e407179",
-          "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:final",
-          "faza": "Finał",
-          "runda": "Finał",
-          "typ_fazy": "puchar",
-          "strona_a": {
-            "id": "osoba:pzt-nazwa:569203cfa07305cdda",
-            "id_zrodlowe": "pzt-nazwa:569203cfa07305cdda",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:569203cfa07305cdda",
-                "nazwa": "Mikołajczyk Łukasz"
-              }
-            ]
-          },
-          "strona_b": {
-            "id": "osoba:pzt-nazwa:1ce1410f1fba25f9f5",
-            "id_zrodlowe": "pzt-nazwa:1ce1410f1fba25f9f5",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:1ce1410f1fba25f9f5",
-                "nazwa": "Rybiński Grzegorz"
-              }
-            ]
-          },
-          "sety": [
-            {
-              "a": 6,
-              "b": 3
-            },
-            {
-              "a": 6,
-              "b": 4
-            }
-          ],
-          "wynik": "6:3 6:4",
-          "walkower": false,
-          "zwyciezca": "a",
-          "zakonczony": true,
-          "data_zrodlowa": null,
-          "kategoria_zrodlowa": "Open. Gra pojedyncza. Mężczyźni",
-          "event_id": "E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32",
-          "event_key": "open|gra pojedyncza|mezczyzni"
-        },
-        {
           "id": "pzt-mecz:bac647a88740afe33474",
           "grupa_id": "pzt:E60A4BDC-CB47-4381-98AB-A871D18C69DC:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -466988,6 +467684,7 @@
         {
           "id": "pzt-mecz:60c123cd38c1e0fe42df",
           "grupa_id": "pzt:E60A4BDC-CB47-4381-98AB-A871D18C69DC:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -467043,6 +467740,7 @@
         {
           "id": "pzt-mecz:699f97bf169790c9f5dc",
           "grupa_id": "pzt:E60A4BDC-CB47-4381-98AB-A871D18C69DC:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -467094,6 +467792,7 @@
         {
           "id": "pzt-mecz:7208d3374d5e8c93879b",
           "grupa_id": "pzt:E60A4BDC-CB47-4381-98AB-A871D18C69DC:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -467149,6 +467848,7 @@
         {
           "id": "pzt-mecz:d0086d35d456bfe15e10",
           "grupa_id": "pzt:E60A4BDC-CB47-4381-98AB-A871D18C69DC:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -467200,6 +467900,7 @@
         {
           "id": "pzt-mecz:ff8208d0044a11a7f513",
           "grupa_id": "pzt:E60A4BDC-CB47-4381-98AB-A871D18C69DC:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -467255,14 +467956,254 @@
           "kategoria_zrodlowa": "Open. Gra podwójna. Mężczyźni",
           "event_id": "E60A4BDC-CB47-4381-98AB-A871D18C69DC",
           "event_key": "open|gra podwojna|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:d156bca55050db60599f",
+          "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:cwiercfinal:pocieszenia",
+          "drabinka": "pocieszenia",
+          "faza": "Ćwierćfinał",
+          "runda": "Ćwierćfinał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:1ce1410f1fba25f9f5",
+            "id_zrodlowe": "pzt-nazwa:1ce1410f1fba25f9f5",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:1ce1410f1fba25f9f5",
+                "nazwa": "Rybiński Grzegorz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:2c2b4d25768a7402d3",
+            "id_zrodlowe": "pzt-nazwa:2c2b4d25768a7402d3",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:2c2b4d25768a7402d3",
+                "nazwa": "Wójcik Tomasz"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 2
+            }
+          ],
+          "wynik": "6:3 6:2",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open. Gra pojedyncza. Mężczyźni",
+          "event_id": "E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32",
+          "event_key": "open|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:ea1d44740f4c9e6ee29d",
+          "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:cwiercfinal:pocieszenia",
+          "drabinka": "pocieszenia",
+          "faza": "Ćwierćfinał",
+          "runda": "Ćwierćfinał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:86edbbd3d31dcaa88b",
+            "id_zrodlowe": "pzt-nazwa:86edbbd3d31dcaa88b",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:86edbbd3d31dcaa88b",
+                "nazwa": "Stochaj Marek"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:ab258eaa568855e1f8",
+            "id_zrodlowe": "pzt-nazwa:ab258eaa568855e1f8",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:ab258eaa568855e1f8",
+                "nazwa": "Kucharski Grzegorz"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 4
+            },
+            {
+              "a": 6,
+              "b": 4
+            }
+          ],
+          "wynik": "6:4 6:4",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open. Gra pojedyncza. Mężczyźni",
+          "event_id": "E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32",
+          "event_key": "open|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:0a38907024c7691f8efc",
+          "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:polfinal:pocieszenia",
+          "drabinka": "pocieszenia",
+          "faza": "Półfinał",
+          "runda": "Półfinał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:1ce1410f1fba25f9f5",
+            "id_zrodlowe": "pzt-nazwa:1ce1410f1fba25f9f5",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:1ce1410f1fba25f9f5",
+                "nazwa": "Rybiński Grzegorz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:ed3eda1cbbd32cc87f",
+            "id_zrodlowe": "pzt-nazwa:ed3eda1cbbd32cc87f",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:ed3eda1cbbd32cc87f",
+                "nazwa": "Miraszewski Bartosz"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 7,
+              "b": 6
+            },
+            {
+              "a": 7,
+              "b": 6
+            }
+          ],
+          "wynik": "7:6 7:6",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open. Gra pojedyncza. Mężczyźni",
+          "event_id": "E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32",
+          "event_key": "open|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:5848ff7fd9fa4de87ee8",
+          "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:polfinal:pocieszenia",
+          "drabinka": "pocieszenia",
+          "faza": "Półfinał",
+          "runda": "Półfinał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:569203cfa07305cdda",
+            "id_zrodlowe": "pzt-nazwa:569203cfa07305cdda",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:569203cfa07305cdda",
+                "nazwa": "Mikołajczyk Łukasz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:86edbbd3d31dcaa88b",
+            "id_zrodlowe": "pzt-nazwa:86edbbd3d31dcaa88b",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:86edbbd3d31dcaa88b",
+                "nazwa": "Stochaj Marek"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 3
+            }
+          ],
+          "wynik": "6:3 6:3",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open. Gra pojedyncza. Mężczyźni",
+          "event_id": "E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32",
+          "event_key": "open|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:7b538f1ba23fd839a414",
+          "grupa_id": "pzt:E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32:final:pocieszenia",
+          "drabinka": "pocieszenia",
+          "faza": "Finał",
+          "runda": "Finał",
+          "typ_fazy": "puchar",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:569203cfa07305cdda",
+            "id_zrodlowe": "pzt-nazwa:569203cfa07305cdda",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:569203cfa07305cdda",
+                "nazwa": "Mikołajczyk Łukasz"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:1ce1410f1fba25f9f5",
+            "id_zrodlowe": "pzt-nazwa:1ce1410f1fba25f9f5",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:1ce1410f1fba25f9f5",
+                "nazwa": "Rybiński Grzegorz"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 3
+            },
+            {
+              "a": 6,
+              "b": 4
+            }
+          ],
+          "wynik": "6:3 6:4",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "Open. Gra pojedyncza. Mężczyźni",
+          "event_id": "E82AC6F9-16A5-4C1B-BD8B-A39831AF1C32",
+          "event_key": "open|gra pojedyncza|mezczyzni"
         }
       ],
       "final_id": null,
       "gotowy": false,
       "uwagi": [
+        "Brak niezależnej klasyfikacji końcowej do potwierdzenia finału",
         "Open. Gra podwójna. Mężczyźni: Nie udało się jednoznacznie rozpoznać obu par w części meczów deblowych",
-        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej",
-        "Więcej niż jeden zakończony finał w jednej konkurencji"
+        "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
       ]
     },
     "cuply:90": {
@@ -475656,6 +476597,7 @@
         {
           "id": "pzt-mecz:988059ce10f9207632fa",
           "grupa_id": "pzt:ECE30DF6-6C52-47B1-B4F2-CE9AE06F7247:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -475699,6 +476641,7 @@
         {
           "id": "pzt-mecz:fbc8dc35a51ace6654a5",
           "grupa_id": "pzt:ECE30DF6-6C52-47B1-B4F2-CE9AE06F7247:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -475742,6 +476685,7 @@
         {
           "id": "pzt-mecz:f1c0926c55df3186be8b",
           "grupa_id": "pzt:ECE30DF6-6C52-47B1-B4F2-CE9AE06F7247:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -475785,6 +476729,7 @@
         {
           "id": "pzt-mecz:1f47647d9a6f264a19de",
           "grupa_id": "pzt:ECE30DF6-6C52-47B1-B4F2-CE9AE06F7247:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -475828,6 +476773,7 @@
         {
           "id": "pzt-mecz:3381a62186e176ea912f",
           "grupa_id": "pzt:ECE30DF6-6C52-47B1-B4F2-CE9AE06F7247:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -475871,6 +476817,7 @@
         {
           "id": "pzt-mecz:6b1fafb586178faa0c56",
           "grupa_id": "pzt:ECE30DF6-6C52-47B1-B4F2-CE9AE06F7247:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -475914,6 +476861,7 @@
         {
           "id": "pzt-mecz:2c472d1f096997dbfe3f",
           "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -475957,6 +476905,7 @@
         {
           "id": "pzt-mecz:e5b515929de776f10f7c",
           "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476000,6 +476949,7 @@
         {
           "id": "pzt-mecz:30610fed1dd8203e09d5",
           "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476043,6 +476993,7 @@
         {
           "id": "pzt-mecz:c43b120428a44a666533",
           "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -476086,6 +477037,7 @@
         {
           "id": "pzt-mecz:f40c57c21929015af878",
           "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -476129,6 +477081,7 @@
         {
           "id": "pzt-mecz:acc2ac8a40ab3177191f",
           "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa b",
+          "drabinka": "glowna",
           "faza": "Grupa B",
           "runda": "Grupa B",
           "typ_fazy": "grupa",
@@ -476170,137 +477123,9 @@
           "event_key": "70+|gra pojedyncza|mezczyzni"
         },
         {
-          "id": "pzt-mecz:15e55f451fcf6400dec5",
-          "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa faza finalowa. grupa 1 - 2",
-          "faza": "Grupa Faza finałowa. Grupa 1 - 2",
-          "runda": "Grupa Faza finałowa. Grupa 1 - 2",
-          "typ_fazy": "grupa",
-          "strona_a": {
-            "id": "osoba:pzt-nazwa:1da99e3f30634bbab2",
-            "id_zrodlowe": "pzt-nazwa:1da99e3f30634bbab2",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:1da99e3f30634bbab2",
-                "nazwa": "Mocoń Marian"
-              }
-            ]
-          },
-          "strona_b": {
-            "id": "osoba:pzt-nazwa:d0a43977ab1bac0f71",
-            "id_zrodlowe": "pzt-nazwa:d0a43977ab1bac0f71",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:d0a43977ab1bac0f71",
-                "nazwa": "Dąbrowski Mirosław"
-              }
-            ]
-          },
-          "sety": [
-            {
-              "a": 6,
-              "b": 0
-            }
-          ],
-          "wynik": "6:0",
-          "walkower": false,
-          "zwyciezca": "a",
-          "zakonczony": true,
-          "data_zrodlowa": null,
-          "kategoria_zrodlowa": "70+. Gra pojedyncza. Mężczyźni",
-          "event_id": "AA790C37-9515-4EF4-9CCF-7DCE3943B7EC",
-          "event_key": "70+|gra pojedyncza|mezczyzni"
-        },
-        {
-          "id": "pzt-mecz:a06a4ec9c8346ef895e5",
-          "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa faza finalowa. grupa 3 - 4",
-          "faza": "Grupa Faza finałowa. Grupa 3 - 4",
-          "runda": "Grupa Faza finałowa. Grupa 3 - 4",
-          "typ_fazy": "grupa",
-          "strona_a": {
-            "id": "osoba:pzt-nazwa:50599e8ad82c0be226",
-            "id_zrodlowe": "pzt-nazwa:50599e8ad82c0be226",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:50599e8ad82c0be226",
-                "nazwa": "Bąk Wiesław"
-              }
-            ]
-          },
-          "strona_b": {
-            "id": "osoba:pzt-nazwa:3d05621ebe2e5c44e7",
-            "id_zrodlowe": "pzt-nazwa:3d05621ebe2e5c44e7",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:3d05621ebe2e5c44e7",
-                "nazwa": "Maranda Piotr"
-              }
-            ]
-          },
-          "sety": [
-            {
-              "a": 6,
-              "b": 0
-            }
-          ],
-          "wynik": "6:0",
-          "walkower": false,
-          "zwyciezca": "a",
-          "zakonczony": true,
-          "data_zrodlowa": null,
-          "kategoria_zrodlowa": "70+. Gra pojedyncza. Mężczyźni",
-          "event_id": "AA790C37-9515-4EF4-9CCF-7DCE3943B7EC",
-          "event_key": "70+|gra pojedyncza|mezczyzni"
-        },
-        {
-          "id": "pzt-mecz:4cd8c53cb37be20f609a",
-          "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa faza finalowa. grupa 5 - 6",
-          "faza": "Grupa Faza finałowa. Grupa 5 - 6",
-          "runda": "Grupa Faza finałowa. Grupa 5 - 6",
-          "typ_fazy": "grupa",
-          "strona_a": {
-            "id": "osoba:pzt-nazwa:be075c60df36c72b9d",
-            "id_zrodlowe": "pzt-nazwa:be075c60df36c72b9d",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:be075c60df36c72b9d",
-                "nazwa": "Wójcik Ryszard"
-              }
-            ]
-          },
-          "strona_b": {
-            "id": "osoba:pzt-nazwa:f8b0a71eba93154d78",
-            "id_zrodlowe": "pzt-nazwa:f8b0a71eba93154d78",
-            "typ": "osoba",
-            "zawodnicy": [
-              {
-                "id": "pzt-nazwa:f8b0a71eba93154d78",
-                "nazwa": "Witkowski Waldemar"
-              }
-            ]
-          },
-          "sety": [
-            {
-              "a": 6,
-              "b": 1
-            }
-          ],
-          "wynik": "6:1",
-          "walkower": false,
-          "zwyciezca": "a",
-          "zakonczony": true,
-          "data_zrodlowa": null,
-          "kategoria_zrodlowa": "70+. Gra pojedyncza. Mężczyźni",
-          "event_id": "AA790C37-9515-4EF4-9CCF-7DCE3943B7EC",
-          "event_key": "70+|gra pojedyncza|mezczyzni"
-        },
-        {
           "id": "pzt-mecz:f446fe9e1f5c33f3c861",
           "grupa_id": "pzt:DE33FE74-BF05-4210-90E4-BCFE6A07D11D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476344,6 +477169,7 @@
         {
           "id": "pzt-mecz:6796c54e85a5d65b6c8f",
           "grupa_id": "pzt:DE33FE74-BF05-4210-90E4-BCFE6A07D11D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476387,6 +477213,7 @@
         {
           "id": "pzt-mecz:f75bd4698e5bb23a7f71",
           "grupa_id": "pzt:DE33FE74-BF05-4210-90E4-BCFE6A07D11D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476430,6 +477257,7 @@
         {
           "id": "pzt-mecz:5dd2dd116621f08cc0d6",
           "grupa_id": "pzt:DE33FE74-BF05-4210-90E4-BCFE6A07D11D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476473,6 +477301,7 @@
         {
           "id": "pzt-mecz:eb3f4eee4c00a75191be",
           "grupa_id": "pzt:DE33FE74-BF05-4210-90E4-BCFE6A07D11D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476516,6 +477345,7 @@
         {
           "id": "pzt-mecz:b8808b0cf3ec3a11e3ac",
           "grupa_id": "pzt:DE33FE74-BF05-4210-90E4-BCFE6A07D11D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476559,6 +477389,7 @@
         {
           "id": "pzt-mecz:110cdca717f48ee366b8",
           "grupa_id": "pzt:DE33FE74-BF05-4210-90E4-BCFE6A07D11D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476602,6 +477433,7 @@
         {
           "id": "pzt-mecz:c0f30480949bc3b5fa87",
           "grupa_id": "pzt:DE33FE74-BF05-4210-90E4-BCFE6A07D11D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476645,6 +477477,7 @@
         {
           "id": "pzt-mecz:dbdbbfcab2889991327a",
           "grupa_id": "pzt:DE33FE74-BF05-4210-90E4-BCFE6A07D11D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476688,6 +477521,7 @@
         {
           "id": "pzt-mecz:033a07829a7c43badc70",
           "grupa_id": "pzt:DE33FE74-BF05-4210-90E4-BCFE6A07D11D:grupa a",
+          "drabinka": "glowna",
           "faza": "Grupa A",
           "runda": "Grupa A",
           "typ_fazy": "grupa",
@@ -476727,11 +477561,144 @@
           "kategoria_zrodlowa": "80+. Gra pojedyncza. Mężczyźni",
           "event_id": "DE33FE74-BF05-4210-90E4-BCFE6A07D11D",
           "event_key": "80+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:144806aaed76d98660ac",
+          "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa faza finalowa. grupa 1 - 2:nieustalona",
+          "drabinka": "nieustalona",
+          "faza": "Grupa Faza finałowa. Grupa 1 - 2",
+          "runda": "Grupa Faza finałowa. Grupa 1 - 2",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:1da99e3f30634bbab2",
+            "id_zrodlowe": "pzt-nazwa:1da99e3f30634bbab2",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:1da99e3f30634bbab2",
+                "nazwa": "Mocoń Marian"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:d0a43977ab1bac0f71",
+            "id_zrodlowe": "pzt-nazwa:d0a43977ab1bac0f71",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:d0a43977ab1bac0f71",
+                "nazwa": "Dąbrowski Mirosław"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 0
+            }
+          ],
+          "wynik": "6:0",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "70+. Gra pojedyncza. Mężczyźni",
+          "event_id": "AA790C37-9515-4EF4-9CCF-7DCE3943B7EC",
+          "event_key": "70+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:5143a24f4f31c242765b",
+          "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa faza finalowa. grupa 3 - 4:nieustalona",
+          "drabinka": "nieustalona",
+          "faza": "Grupa Faza finałowa. Grupa 3 - 4",
+          "runda": "Grupa Faza finałowa. Grupa 3 - 4",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:50599e8ad82c0be226",
+            "id_zrodlowe": "pzt-nazwa:50599e8ad82c0be226",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:50599e8ad82c0be226",
+                "nazwa": "Bąk Wiesław"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:3d05621ebe2e5c44e7",
+            "id_zrodlowe": "pzt-nazwa:3d05621ebe2e5c44e7",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:3d05621ebe2e5c44e7",
+                "nazwa": "Maranda Piotr"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 0
+            }
+          ],
+          "wynik": "6:0",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "70+. Gra pojedyncza. Mężczyźni",
+          "event_id": "AA790C37-9515-4EF4-9CCF-7DCE3943B7EC",
+          "event_key": "70+|gra pojedyncza|mezczyzni"
+        },
+        {
+          "id": "pzt-mecz:f1925caedeb62466ecbd",
+          "grupa_id": "pzt:AA790C37-9515-4EF4-9CCF-7DCE3943B7EC:grupa faza finalowa. grupa 5 - 6:nieustalona",
+          "drabinka": "nieustalona",
+          "faza": "Grupa Faza finałowa. Grupa 5 - 6",
+          "runda": "Grupa Faza finałowa. Grupa 5 - 6",
+          "typ_fazy": "grupa",
+          "strona_a": {
+            "id": "osoba:pzt-nazwa:be075c60df36c72b9d",
+            "id_zrodlowe": "pzt-nazwa:be075c60df36c72b9d",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:be075c60df36c72b9d",
+                "nazwa": "Wójcik Ryszard"
+              }
+            ]
+          },
+          "strona_b": {
+            "id": "osoba:pzt-nazwa:f8b0a71eba93154d78",
+            "id_zrodlowe": "pzt-nazwa:f8b0a71eba93154d78",
+            "typ": "osoba",
+            "zawodnicy": [
+              {
+                "id": "pzt-nazwa:f8b0a71eba93154d78",
+                "nazwa": "Witkowski Waldemar"
+              }
+            ]
+          },
+          "sety": [
+            {
+              "a": 6,
+              "b": 1
+            }
+          ],
+          "wynik": "6:1",
+          "walkower": false,
+          "zwyciezca": "a",
+          "zakonczony": true,
+          "data_zrodlowa": null,
+          "kategoria_zrodlowa": "70+. Gra pojedyncza. Mężczyźni",
+          "event_id": "AA790C37-9515-4EF4-9CCF-7DCE3943B7EC",
+          "event_key": "70+|gra pojedyncza|mezczyzni"
         }
       ],
       "final_id": null,
       "gotowy": false,
       "uwagi": [
+        "70+. Gra pojedyncza. Mężczyźni: Nieustalony rodzaj drabinki PZT; wymagana kontrola (nie traktować jako głównej)",
         "ECE30DF6-6C52-47B1-B4F2-CE9AE06F7247: Nie znaleziono tabeli meczów",
         "Turniej wielokategoriowy — news wymaga kontroli redakcyjnej"
       ]

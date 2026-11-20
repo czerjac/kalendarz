@@ -1,57 +1,7 @@
 {
-  "generated_at": "2026-11-17T11:26:37.903428+00:00",
-  "attempted": 66,
+  "generated_at": "2026-11-20T22:16:38.017745+00:00",
+  "attempted": 49,
   "errors": [
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-arena-tenisa-turniej-niepodleglosciowy-2026-5686",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-sot-turniej-niepodleglosciowy-2026-5710",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-sot-turniej-niepodleglosciowy-2026-5711",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-sot-turniej-niepodleglosciowy-2026-5712",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-vamos-dzierzoniow-turniej-niepodleglosciowy-2026-5731",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-szkola-tenisa-dilaj-turniej-niepodleglosciowy-2026-5732",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-szkola-tenisa-dilaj-turniej-niepodleglosciowy-2026-5733",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-warsaw-west-turniej-niepodleglosciowy-2026-5757",
-      "source": "PLT",
-      "error": "ValueError"
-    },
-    {
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=1DAF25C5-DD73-4FEE-9A98-4CD07761BDB0",
-      "source": "PZT TOP",
-      "error": "RuntimeError"
-    },
-    {
-      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=1DAF25C5-DD73-4FEE-9A98-4CD07761BDB0",
-      "source": "PZT TOP",
-      "error": "RuntimeError"
-    },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-wiki-sanok-cup-2026-5691",
       "source": "PLT",
@@ -143,8 +93,8 @@
       "error": "ValueError"
     }
   ],
-  "ready": 318,
-  "needs_review": 178,
+  "ready": 319,
+  "needs_review": 177,
   "awaiting_adapter": {
     "TKKF Skanda": 1
   },
