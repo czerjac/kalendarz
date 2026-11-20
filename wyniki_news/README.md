@@ -15,6 +15,30 @@ Osobny dodatek do istniejącego kalendarza. Nie zmienia jego wtyczki, zbierania 
 - Niepełne lub sprzeczne dane blokują automatyczną publikację: wpis pozostaje szkicem. Nie jest to gwarancja poprawności samego źródła.
 - Adaptery nie scalają automatycznie tożsamości zawodników ani turniejów pomiędzy serwisami.
 
+## Jednorazowy odczyt MP TOP PZT 2026 dla GP Tour (bez zmian kalendarza)
+
+Kwietniowe **Kozerki (27.03–02.04.2026)** wypadają przed zwykłym progiem 1 lipca 2026 r.; **Gdynia (08–14.08.2026)** jest poza bieżącym siedmiodniowym oknem. Obie imprezy istnieją w `data/wyniki_news/stan.json` pod `known`, lecz w odczycie z 20.11.2026 nie mają odpowiednich rekordów pod `results`. **Metadane to nie pobrane drabinki.**
+
+Dodatkowy, WYŁĄCZNIE RĘCZNY moduł `wyniki_news.pzt_mp_2026_backfill` używa istniejącego parsera `pzt.fetch()`. Domyślnie wykonuje tylko lokalny podgląd **bez sieci i zapisów**:
+
+```bash
+python -m wyniki_news.pzt_mp_2026_backfill --archive data/wyniki_news/stan.json
+```
+
+Po sprawdzeniu warunków dostępu do źródła i uprawnień do wykorzystania wyników, jednorazowy odczyt (wyłącznie po świadomej decyzji operatora) można przeprowadzić:
+
+```bash
+python -m wyniki_news.pzt_mp_2026_backfill --archive data/wyniki_news/stan.json --fetch --output .private_pzt_mp/review_mp_2026.json
+```
+
+Skrypt ogranicza tempo do co najmniej 1,5 s między żądaniami i najwyżej 250 żądań łącznie, identyfikuje tylko dwa oficjalne `TournamentID`, odmawia częściowego zapisu, nadpisania pliku albo obcięcia ponad 500 meczów w jednym turnieju. Wypisuje wyłącznie liczby, nie nazwiska. Paczka jest lokalna, uprawnienia pliku 600, a katalog `.private_pzt_mp/` znajduje się w `.gitignore`. Bez modyfikowania `stan.json`, `feed.json`, WordPressa, GitHub CRON lub bazy Cyber_GO.
+
+**To nie są zatwierdzone punkty GP Tour.** Wynik PZT wielokategoryjny może pozostać `gotowy=false` w modelu newsowym mimo poprawnego pobrania meczów. Parser daje mecze, ale nie kompletną klasyfikację wszystkich miejsc; identyfikator `pzt-nazwa:...` pochodzi z nazwiska i nie wystarcza do automatycznego powiązania Player. Paczkę trzeba zaimportować jako RAW do TenisOne w kontrolowanym etapie i wykonać kontrolę Event, par, miejsc, zwycięstw na korcie, rang Gdynia R1/Kozerki R2 i mapowania, bez automatycznego publikowania.
+
+Próba użycia skryptu nie zastępuje prawnej oceny wykorzystania zbioru wyników PZT.
+
+---
+
 ## Harmonogram
 
 `wyniki-newsy.yml`: wtorek 04:00, `Europe/Warsaw` (uwzględnia czas letni). GitHub może opóźnić zadanie; harmonogram wymaga aktywnego workflow na głównej gałęzi. Ręczne uruchomienie jest dostępne w Actions.
