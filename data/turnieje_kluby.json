@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-11-19T13:14:46+00:00",
-  "liczba_turniejow": 47,
+  "pobrano_utc": "2026-11-20T12:57:16+00:00",
+  "liczba_turniejow": 54,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 45
+      "liczba": 46
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -13,7 +13,7 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-01-01&data_do=2027-01-31&zakladka=0",
-      "liczba": 5
+      "liczba": 11
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-02-01&data_do=2027-02-28&zakladka=0",
@@ -35,6 +35,16 @@
   "turnieje": [
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "Towarzyski Turniej Deblowy",
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21",
+      "miasto": "Barlinek",
+      "miejsce": "Akademia Tenisa Barlinek, Barlinek",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12520"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Turniej o puchar ASAJA Sport",
       "data_od": "2026-11-21",
       "data_do": "2026-11-21",
@@ -50,7 +60,7 @@
       "data_do": "2026-11-21",
       "miasto": "Warszawa",
       "miejsce": "WKT Mera, Warszawa",
-      "kategorie": "TENIS10 POMARAŃCZOWA",
+      "kategorie": "TENIS10 POMARAŃCZOWA (bs-orange)",
       "url": "https://kluby.org/turnieje/12499"
     },
     {
@@ -365,6 +375,26 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "TENES GPM DEBEL KOBIET",
+      "data_od": "2027-01-09",
+      "data_do": "2027-01-09",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "DEBEL KOBIETY",
+      "url": "https://kluby.org/turnieje/12512"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES Single Cup kat. CLUB/ CLUB+ - wewnętrzny turniej dla Klubowiczów",
+      "data_od": "2027-01-09",
+      "data_do": "2027-01-09",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12513"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Debel 35+ Zima z WARS-em 2026/27",
       "data_od": "2027-01-10",
       "data_do": "2027-01-10",
@@ -395,6 +425,26 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "TENES GPM Single Cup OPEN",
+      "data_od": "2027-01-23",
+      "data_do": "2027-01-23",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12514"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES Single Cup kat. CLUB/ CLUB+ - wewnętrzny turniej dla Klubowiczów",
+      "data_od": "2027-01-23",
+      "data_do": "2027-01-23",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12515"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Debel Mikst 35+ Zima z WARS-em 2026/27",
       "data_od": "2027-01-24",
       "data_do": "2027-01-24",
@@ -402,6 +452,26 @@
       "miejsce": "TKKF Wars, Warszawa",
       "kategorie": "DEBEL MIKST",
       "url": "https://kluby.org/turnieje/12087"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES GPM DEBEL CUP",
+      "data_od": "2027-01-30",
+      "data_do": "2027-01-30",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "DEBEL",
+      "url": "https://kluby.org/turnieje/12516"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "TENES Single Cup kat. CLUB/ CLUB+ - wewnętrzny turniej dla Klubowiczów",
+      "data_od": "2027-01-30",
+      "data_do": "2027-01-30",
+      "miasto": "Warszawa",
+      "miejsce": "TENES Klub Sportowy, Warszawa",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12517"
     },
     {
       "zrodlo": "Kluby.org",
