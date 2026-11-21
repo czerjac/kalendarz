@@ -100,12 +100,32 @@ def fetch_selected(archive: dict, urls: list[str], *, session,
     return reports
 
 
+def project_statuses(existing: dict, archive: dict, urls: list[str]) -> dict:
+    """Small public metadata projection; never includes participant or match data."""
+    if not isinstance(existing, dict) or existing.get("schema_version") != 1:
+        existing = {"schema_version": 1, "entries": {}}
+    entries = existing.get("entries")
+    if not isinstance(entries, dict):
+        entries = {}
+    for url in urls:
+        info = archive["attempts"][url]
+        entries[url] = {
+            "status": info["status"],
+            "checked_at": info["checked_at"],
+            "date": info["date"],
+            "matches_count": info["matches_count"],
+        }
+    return {"schema_version": 1, "entries": entries}
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(description="Ręczne pobieranie wskazanych wyników GP Tour")
     p.add_argument("--url", action="append", default=[], help="Dokładny URL z kalendarza (maks. 10)")
     p.add_argument("--from-env", action="store_true",
                    help="Czytaj URLs z SELECTED_TOURNAMENT_URLS (po jednym w wierszu)")
     p.add_argument("--archive", type=Path, default=ARCHIVE)
+    p.add_argument("--status-output", type=Path,
+                   default=build.OUT / "selected_status.json")
     p.add_argument("--fetch", action="store_true", help="Świadome pobranie i zapis do archiwum")
     args = p.parse_args(argv)
     urls = list(args.url)
@@ -126,6 +146,8 @@ def main(argv=None):
     with requests.Session() as session:
         report = fetch_selected(archive, urls, session=session, today=today)
     build.save(args.archive, archive)
+    status = build.load(args.status_output, {"schema_version": 1, "entries": {}})
+    build.save(args.status_output, project_statuses(status, archive, urls))
     counts = {status: sum(x["status"] == status for x in report)
               for status in ("FETCHED", "PARTIAL", "NO_RESULTS", "ERROR")}
     print(json.dumps({"mode": "FETCHED_UNAPPROVED", "attempts": counts},

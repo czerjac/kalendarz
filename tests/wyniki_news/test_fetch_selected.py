@@ -3,7 +3,7 @@ from datetime import date
 import unittest
 
 from wyniki_news import build
-from wyniki_news.fetch_selected import validate_selection, fetch_selected
+from wyniki_news.fetch_selected import validate_selection, fetch_selected, project_statuses
 
 URL = "https://portal.pzt.pl/TournamentResults.aspx?TournamentID=TEST"
 TODAY = date(2026, 11, 21)
@@ -77,6 +77,21 @@ class SelectedFetchTests(unittest.TestCase):
                               adapters={"PZT TOP": fails})
         self.assertEqual(rows[0]["status"], "ERROR")
         self.assertEqual(len(archive["results"]["pzt:test"]["mecze"]), 2)
+
+    def test_status_projection_contains_only_metadata_and_merges_previous(self):
+        a = fixture()
+        fetch_selected(a, [URL], session=object(), today=TODAY,
+                       adapters={"PZT TOP": lambda item, session: result([
+                           {"zakonczony": True, "zawodnik": "TEST PERSON"}])})
+        projected = project_statuses(
+            {"schema_version": 1, "entries": {"https://example.test/old": {
+                "status": "FETCHED"}}}, a, [URL])
+        self.assertEqual(projected["schema_version"], 1)
+        self.assertIn("https://example.test/old", projected["entries"])
+        self.assertEqual(projected["entries"][URL]["matches_count"], 1)
+        self.assertNotIn("TEST PERSON", str(projected))
+        self.assertEqual(set(projected["entries"][URL]),
+                         {"status", "checked_at", "date", "matches_count"})
 
     def test_ongoing_match_marks_partial_but_keeps_raw(self):
         archive = fixture()
