@@ -97,6 +97,67 @@ def eligible_news_result(result):
     return end > CUTOFF
 
 
+
+def project_result_catalog(state):
+    """Compact calendar projection, including tournaments WITHOUT any results.
+
+    Uses existing discover/known and links matched result IDs to calendar items.
+    No player names, matches or private profile data leave the RAW archive.
+    """
+    known = state.get("known", {})
+    results = state.get("results", {})
+    attempts = state.get("attempts", {})
+    discovered = {}
+    if not isinstance(known, dict) or not isinstance(results, dict):
+        return {"schema_version": 1, "items": []}
+    # A result URL need not equal its calendar URL (e.g. /wyniki pages).
+    for result in results.values():
+        if not isinstance(result, dict) or not result.get("mecze"):
+            continue
+        meta = metadata_for_result(result, known)
+        url = meta.get("url") or result.get("url")
+        if isinstance(url, str):
+            discovered[url] = max(discovered.get(url, 0), len(result["mecze"]))
+    items = []
+    for url, item in known.items():
+        if not isinstance(url, str) or not isinstance(item, dict):
+            continue
+        if item.get("zrodlo") not in ADAPTERS:
+            continue
+        name = item.get("nazwa")
+        if not isinstance(name, str) or not name.strip():
+            continue
+        try:
+            start = date.fromisoformat(item["data_od"])
+            end = date.fromisoformat(item.get("data_do") or item["data_od"])
+        except (TypeError, ValueError, KeyError):
+            continue
+        if start < date(2026, 1, 1) or end < start:
+            continue
+        attempt = attempts.get(url, {}) if isinstance(attempts, dict) else {}
+        if not isinstance(attempt, dict):
+            attempt = {}
+        status = attempt.get("status")
+        if status not in {"FETCHED", "NO_RESULTS", "PARTIAL", "ERROR"}:
+            status = "UNCHECKED"
+        if url in discovered:
+            status = "FETCHED"
+        items.append({
+            "url": url,
+            "source": item["zrodlo"],
+            "name": name.strip()[:255],
+            "start": start.isoformat(),
+            "end": end.isoformat(),
+            "city": str(item.get("miasto") or "")[:150],
+            "status": status,
+            "matches_count": discovered.get(url, int(attempt.get("matches_count") or 0)),
+            "checked_at": str(attempt.get("checked_at") or attempt.get("date") or "")[:40],
+        })
+    items.sort(key=lambda x: (x["end"], x["name"], x["url"]), reverse=True)
+    return {"schema_version": 1, "items": items}
+
+
+
 def label(side, separator=', '):
     return separator.join(p['nazwa'] for p in side['zawodnicy']) if side else 'Nieustalony uczestnik'
 
@@ -434,6 +495,7 @@ def main():
         'posts': posts,
     }
     save(OUT / 'stan.json', state)
+    save(OUT / 'selected_catalog.json', project_result_catalog(state))
     save(OUT / 'feed.json', feed)
     report = {
         'generated_at': now.isoformat(),

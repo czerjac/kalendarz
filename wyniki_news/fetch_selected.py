@@ -146,6 +146,8 @@ def main(argv=None):
     with requests.Session() as session:
         report = fetch_selected(archive, urls, session=session, today=today)
     build.save(args.archive, archive)
+    build.save(build.OUT / "selected_catalog.json",
+               build.project_result_catalog(archive))
     status = build.load(args.status_output, {"schema_version": 1, "entries": {}})
     build.save(args.status_output, project_statuses(status, archive, urls))
     counts = {status: sum(x["status"] == status for x in report)
