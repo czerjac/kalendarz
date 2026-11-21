@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T22:16:38.017745+00:00",
-  "attempted": 49,
+  "generated_at": "2026-11-21T13:50:54.438568+00:00",
+  "attempted": 50,
   "errors": [
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-wiki-sanok-cup-2026-5691",
@@ -94,7 +94,7 @@
     }
   ],
   "ready": 319,
-  "needs_review": 177,
+  "needs_review": 178,
   "awaiting_adapter": {
     "TKKF Skanda": 1
   },

@@ -15306,8 +15306,8 @@
       "kategoria_zrodla": "1. Liga",
       "kategorie": "",
       "miasto": "Smolec k. Wrocławia",
-      "miejsce": "Omega Sport",
-      "wojewodztwo": "dolnośląskie",
+      "miejsce": "",
+      "wojewodztwo": "",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -16297,7 +16297,7 @@
       "kategoria_zrodla": "1. Liga",
       "kategorie": "",
       "miasto": "Piaseczno",
-      "miejsce": "Arena Tenisa & Badmintona Piaseczno",
+      "miejsce": "",
       "wojewodztwo": "mazowieckie",
       "cykl": "PLT",
       "rodzaje_gry": [
@@ -17455,7 +17455,7 @@
       "kategoria_zrodla": "2. Liga",
       "kategorie": "",
       "miasto": "Elbląg",
-      "miejsce": "Ośrodek Tenisowy Kazimierzowo",
+      "miejsce": "",
       "wojewodztwo": "warmińsko-mazurskie",
       "cykl": "PLT",
       "rodzaje_gry": [
@@ -18232,7 +18232,7 @@
       "kategoria_zrodla": "1. Liga",
       "kategorie": "",
       "miasto": "Trzebownisko",
-      "miejsce": "Teho Sport",
+      "miejsce": "",
       "wojewodztwo": "podkarpackie",
       "cykl": "PLT",
       "rodzaje_gry": [
@@ -18377,7 +18377,7 @@
       "kategorie": "",
       "miasto": "Kołobrzeg",
       "miejsce": "Baltic Tennis Club Kołobrzeg",
-      "wojewodztwo": "zachodniopomorskie",
+      "wojewodztwo": "pomorskie",
       "cykl": "PLT",
       "rodzaje_gry": [
         "singiel"
@@ -18424,7 +18424,7 @@
       "kategoria_zrodla": "1. Liga",
       "kategorie": "",
       "miasto": "Trzebownisko",
-      "miejsce": "",
+      "miejsce": "Teho Sport",
       "wojewodztwo": "podkarpackie",
       "cykl": "PLT",
       "rodzaje_gry": [
@@ -18962,6 +18962,38 @@
       ],
       "data_od": "2027-01-30",
       "data_do": "2027-01-30"
+    },
+    "https://kluby.org/turnieje/12521": {
+      "url": "https://kluby.org/turnieje/12521",
+      "zrodlo": "Kluby.org",
+      "nazwa": "BMW Dynamic Motors Tennis Tour",
+      "kategoria_zrodla": "",
+      "kategorie": "OPEN",
+      "miasto": "Bydgoszcz",
+      "miejsce": "FAST TENNIS & PADEL CLUB",
+      "wojewodztwo": "kujawsko-pomorskie",
+      "cykl": "",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21"
+    },
+    "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-silesia-bytom-cup-ii-2026-5770": {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-silesia-bytom-cup-ii-2026-5770",
+      "zrodlo": "PLT",
+      "nazwa": "1. LIGA. Silesia Bytom Cup II 2026",
+      "kategoria_zrodla": "1. Liga",
+      "kategorie": "",
+      "miasto": "Bytom",
+      "miejsce": "",
+      "wojewodztwo": "śląskie",
+      "cykl": "PLT",
+      "rodzaje_gry": [
+        "singiel"
+      ],
+      "data_od": "2026-12-13",
+      "data_do": "2026-12-13"
     }
   },
   "attempts": {
@@ -21498,7 +21530,7 @@
       "ready": false
     },
     "https://kluby.org/turnieje/12435": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://cuply.pl/turnieje/cuply-challenger-szczecin-tennis-arena-do-40-ntrp": {
@@ -21570,195 +21602,199 @@
       "ready": false
     },
     "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=174259E0-AC22-4CE7-8DEC-CEADFDD48DBD": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=174259E0-AC22-4CE7-8DEC-CEADFDD48DBD": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://cuply.pl/turnieje/cuply-challenger-finaly-i-edycja": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://cuply.pl/turnieje/cuply-masters-finaly-i-edycja": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://kluby.org/turnieje/12297": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://kluby.org/turnieje/12298": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://kluby.org/turnieje/12401": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://kluby.org/turnieje/12436": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://kluby.org/turnieje/12428": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://kluby.org/turnieje/12453": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-wiki-sanok-cup-2026-5691": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-rakietmanii-2026-5707": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-asaja-cup-ii-2026-5715": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-asaja-cup-ii-2026-5716": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-ii-2026-5681": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-silesia-bytom-cup-2026-5745": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-silesia-bytom-cup-2026-5745/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-rakietmanii-2026-5707/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-asaja-cup-ii-2026-5715/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-wiki-sanok-cup-2026-5758/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9A045A61-F311-469F-AD6D-7C00ECCB933C": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9A045A61-F311-469F-AD6D-7C00ECCB933C": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://cuply.pl/turnieje/cuply-challenger-gorzow-i": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://kluby.org/turnieje/12411": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://kluby.org/turnieje/12414": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://kluby.org/turnieje/12463": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-ii-2026-5630": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-singlowe-weekendy-w-rudawa-tennis-club-v-2026-5644": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-wiki-sanok-cup-2026-5690": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-w-prestige-court-2026-5706": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-startu-2026-5692": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-startu-2026-5693": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-jesienny-turniej-o-puchar-startu-2026-5694": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-kazimierzowo-cup-2026-5727": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-iii-2026-5677": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-silesia-bytom-cup-2026-5746": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-memorial-boleslawa-ii-szczodrego-2026-5730": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-prestige-court-2026-5734": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-silesia-bytom-cup-2026-5746/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-memorial-boleslawa-ii-szczodrego-2026-5730/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-w-prestige-court-2026-5734/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-singlowe-weekendy-w-rudawa-tennis-club-v-2026-5644/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/deble-miksty/mikst-grand-prix-spin-u-ii-2026-5630/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-2026-5761/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-startu-2026-5692/wyniki": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": true
     },
     "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=9BCCBC4B-7B22-4FF9-A886-CDA244141B72": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=9BCCBC4B-7B22-4FF9-A886-CDA244141B72": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "ready": false
     },
     "https://kluby.org/turnieje/12389": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
+      "ready": false
+    },
+    "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D": {
+      "date": "2026-11-21",
       "ready": false
     }
   },
@@ -477718,6 +477754,23 @@
       "uwagi": [
         "Brak wyników meczów",
         "OPEN: Nie znaleziono tabeli meczów"
+      ]
+    },
+    "pzt:3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D": {
+      "id": "pzt:3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D",
+      "zrodlo": "PZT TOP",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D",
+      "nazwa": "SMECZ PIASECZNO",
+      "kategoria": "",
+      "data_od": "2026-11-20",
+      "data_do": "2026-11-20",
+      "miasto": "PIASECZNO",
+      "mecze": [],
+      "final_id": null,
+      "gotowy": false,
+      "uwagi": [
+        "Brak wyników meczów",
+        "E91B16B7-DEC1-4582-A60E-463299430F28: Nie znaleziono tabeli meczów"
       ]
     }
   }

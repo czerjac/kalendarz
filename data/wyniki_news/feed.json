@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T22:16:38.017745+00:00",
-  "run_date": "2026-11-20",
+  "generated_at": "2026-11-21T13:50:54.438568+00:00",
+  "run_date": "2026-11-21",
   "cutoff_exclusive": "2026-07-01",
   "weekend_start": "2026-11-13",
   "weekend_end": "2026-11-16",
@@ -8746,6 +8746,26 @@
       "cycle": "",
       "tags": [],
       "fingerprint": "80ec08cfb173b029f1e7dfc058b3b47471e398059bac94a2cb33551dece4ca6f"
+    },
+    {
+      "id": "pzt:3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D",
+      "title": "SMECZ PIASECZNO — wyniki (2026-11-20)",
+      "content": "<p>W dniu 20 listopada 2026 w miejscowości PIASECZNO rozegrano turniej <em>„SMECZ PIASECZNO”</em> w kategorii 70+. Zawody były częścią cyklu TOP PZT. Poniżej szczegółowe wyniki.</p>\n<p><strong>Wyniki wymagają sprawdzenia; zestawienie może być niepełne.</strong></p>\n<p>Źródło: <a href=\"http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&amp;TournamentID=3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D\">PZT TOP — wyniki turnieju</a>.</p>",
+      "source_url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D",
+      "source": "PZT TOP",
+      "date_start": "2026-11-20",
+      "date_end": "2026-11-20",
+      "ready": false,
+      "issues": [
+        "Brak wyników meczów",
+        "E91B16B7-DEC1-4582-A60E-463299430F28: Nie znaleziono tabeli meczów"
+      ],
+      "voivodeship": "mazowieckie",
+      "cycle": "TOP PZT",
+      "tags": [
+        "Tenis Open Polska PZT"
+      ],
+      "fingerprint": "306aba2fd222332e59da3d2d6fc146951ff365d5621d57db4240b733faa6125f"
     }
   ]
 }
