@@ -26,6 +26,20 @@ def result(matches):
 
 
 class SelectedFetchTests(unittest.TestCase):
+    def test_source_catalog_includes_unfetched_turnament(self):
+        catalog = build.project_result_catalog(fixture())
+        self.assertEqual(len(catalog["items"]), 1)
+        self.assertEqual(catalog["items"][0]["status"], "UNCHECKED")
+        self.assertEqual(catalog["items"][0]["name"], "Testowy turniej")
+        self.assertNotIn("mecze", catalog["items"][0])
+
+    def test_catalog_marks_old_archive_results_fetched(self):
+        state = fixture()
+        state["results"]["pzt:test"] = result([{"zakonczony": True}])
+        catalog = build.project_result_catalog(state)
+        self.assertEqual(catalog["items"][0]["status"], "FETCHED")
+        self.assertEqual(catalog["items"][0]["matches_count"], 1)
+
     def test_2026_pre_july_is_eligible_for_sport_not_news(self):
         self.assertEqual(len(validate_selection(fixture(), [URL], today=TODAY)), 1)
         self.assertFalse(build.eligible_news_result(result([{"zakonczony": True}])))
