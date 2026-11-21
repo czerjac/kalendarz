@@ -1,6 +1,11 @@
 name: GP Tour — pobierz wskazane wyniki
 
 on:
+  pull_request:
+    paths:
+      - 'wyniki_news/**'
+      - 'tests/wyniki_news/**'
+      - '.github/workflows/gptour-selected-results.yml'
   workflow_dispatch:
     inputs:
       urls:
@@ -20,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     env:
-      SELECTED_TOURNAMENT_URLS: ${{ inputs.urls }}
+      SELECTED_TOURNAMENT_URLS: ${{ inputs.urls || '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,8 +36,10 @@ jobs:
       - name: Testy parserów i wyboru turniejów
         run: python -m unittest discover -s tests/wyniki_news -v
       - name: Pobierz wyłącznie wskazane wyniki sportowe
+        if: github.event_name == 'workflow_dispatch'
         run: python -m wyniki_news.fetch_selected --from-env --fetch
       - name: Zapisz wyłącznie RAW i statusy pobrań
+        if: github.event_name == 'workflow_dispatch'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
