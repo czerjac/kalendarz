@@ -1,19 +1,9 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-11-20T12:56:38+00:00",
-  "liczba_turniejow": 11,
+  "pobrano_utc": "2026-11-21T12:41:49+00:00",
+  "liczba_turniejow": 10,
   "turnieje": [
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-11-20",
-      "data_do": "2026-11-20",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "70+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D"
-    },
     {
       "zrodlo": "PZT TOP",
       "nazwa": "SMECZ PIASECZNO",

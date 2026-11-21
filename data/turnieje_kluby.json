@@ -1,11 +1,11 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-11-20T12:57:16+00:00",
-  "liczba_turniejow": 54,
+  "pobrano_utc": "2026-11-21T12:42:40+00:00",
+  "liczba_turniejow": 55,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
-      "liczba": 46
+      "liczba": 47
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
@@ -42,6 +42,16 @@
       "miejsce": "Akademia Tenisa Barlinek, Barlinek",
       "kategorie": "DEBEL",
       "url": "https://kluby.org/turnieje/12520"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "BMW Dynamic Motors Tennis Tour",
+      "data_od": "2026-11-21",
+      "data_do": "2026-11-21",
+      "miasto": "Bydgoszcz",
+      "miejsce": "Fast Tennis & Padel Club, Bydgoszcz",
+      "kategorie": "OPEN",
+      "url": "https://kluby.org/turnieje/12521"
     },
     {
       "zrodlo": "Kluby.org",

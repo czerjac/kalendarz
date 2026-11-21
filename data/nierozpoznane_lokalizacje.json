@@ -1,33 +1,7 @@
 {
-  "aktualizacja_utc": "2026-11-20T12:58:50+00:00",
-  "liczba_nierozpoznanych_miast": 2,
+  "aktualizacja_utc": "2026-11-21T12:44:05+00:00",
+  "liczba_nierozpoznanych_miast": 1,
   "miasta": [
-    {
-      "miasto": "Tarnów",
-      "powod": "brak_jednoznacznego_wojewodztwa",
-      "dowody": [
-        {
-          "display_name": "Tarnów, województwo małopolskie, Polska",
-          "wojewodztwo": "małopolskie"
-        },
-        {
-          "display_name": "Tarnów, województwo małopolskie, Polska",
-          "wojewodztwo": "małopolskie"
-        },
-        {
-          "display_name": "Tarnów, województwo małopolskie, Polska",
-          "wojewodztwo": "małopolskie"
-        },
-        {
-          "display_name": "Tarnów, gmina Wierzbica, powiat chełmski, województwo lubelskie, Polska",
-          "wojewodztwo": "lubelskie"
-        },
-        {
-          "display_name": "Tarnów, gmina Ząbkowice Śląskie, powiat ząbkowicki, województwo dolnośląskie, Polska",
-          "wojewodztwo": "dolnośląskie"
-        }
-      ]
-    },
     {
       "miasto": "Wyszków",
       "powod": "brak_jednoznacznego_wojewodztwa",
