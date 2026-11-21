@@ -1,6 +1,11 @@
 name: Wyniki i newsy amatorskie
 
 on:
+  pull_request:
+    paths:
+      - 'wyniki_news/**'
+      - 'tests/wyniki_news/**'
+      - '.github/workflows/**'
   push:
     branches: [main]
     paths:
@@ -38,8 +43,10 @@ jobs:
           php -l wordpress/tenis-net-wyniki/tenis-net-wyniki.php
           php tests/wyniki_news/wordpress_import_test.php
       - name: Pobierz dostępne wyniki z poprzednich siedmiu dni
+        if: github.event_name != 'pull_request'
         run: python -m wyniki_news.build
       - name: Zapisz wyłącznie osobny katalog wyników
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

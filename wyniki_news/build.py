@@ -88,6 +88,15 @@ def eligible(item, today):
         return False
 
 
+def eligible_news_result(result):
+    """Do not leak older GP Tour RAW into WordPress's post-July news feed."""
+    try:
+        end = date.fromisoformat(result.get('data_do') or result['data_od'])
+    except (TypeError, ValueError, KeyError):
+        return False
+    return end > CUTOFF
+
+
 def label(side, separator=', '):
     return separator.join(p['nazwa'] for p in side['zawodnicy']) if side else 'Nieustalony uczestnik'
 
@@ -408,7 +417,8 @@ def main():
             save(OUT / 'stan.json', state)
             time.sleep(0.25)
 
-    posts = [article(t, metadata_for_result(t, state['known'])) for t in state['results'].values()]
+    posts = [article(t, metadata_for_result(t, state['known']))
+             for t in state['results'].values() if eligible_news_result(t)]
     posts.sort(key=lambda x: (x['date_end'], x['id']))
     # Weekly window is Friday–Monday; delayed results use backfill/manual import or retry queue.
     monday = today - timedelta(days=(today.weekday() - 0) % 7)
