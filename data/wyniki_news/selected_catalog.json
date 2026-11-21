@@ -14396,9 +14396,9 @@
       "start": "2026-03-27",
       "end": "2026-04-02",
       "city": "Grodzisk Mazowiecki",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": ""
+      "status": "FETCHED",
+      "matches_count": 452,
+      "checked_at": "2026-11-21T21:00:03.144350+00:00"
     },
     {
       "url": "https://kluby.org/turnieje/11349",
