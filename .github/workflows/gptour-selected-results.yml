@@ -1,0 +1,44 @@
+name: GP Tour — pobierz wskazane wyniki
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'Adresy URL istniejących turniejów z kalendarza (jeden w każdym wierszu, maks. 10)'
+        required: true
+        type: string
+
+concurrency:
+  group: wyniki-newsy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  selected:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      SELECTED_TOURNAMENT_URLS: ${{ inputs.urls }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Zależności
+        run: pip install requests==2.32.5 beautifulsoup4==4.13.5
+      - name: Testy parserów i wyboru turniejów
+        run: python -m unittest discover -s tests/wyniki_news -v
+      - name: Pobierz wyłącznie wskazane wyniki sportowe
+        run: python -m wyniki_news.fetch_selected --from-env --fetch
+      - name: Zapisz wyłącznie RAW i statusy pobrań
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/wyniki_news/stan.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'GP Tour: ręczne pobranie wskazanych wyników'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
