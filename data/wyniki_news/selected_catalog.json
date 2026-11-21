@@ -8401,9 +8401,9 @@
       "start": "2026-08-08",
       "end": "2026-08-14",
       "city": "Gdynia",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": ""
+      "status": "FETCHED",
+      "matches_count": 573,
+      "checked_at": "2026-11-21T20:37:16.112499+00:00"
     },
     {
       "url": "https://kluby.org/turnieje/12022",

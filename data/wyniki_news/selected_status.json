@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "entries": {
+    "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=32C58E6F-6764-4169-BF5E-8384BE371F3E": {
+      "status": "FETCHED",
+      "checked_at": "2026-11-21T20:37:16.112499+00:00",
+      "date": "2026-11-21",
+      "matches_count": 573
+    }
+  }
+}
