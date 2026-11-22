@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-11-21T12:42:14+00:00",
-  "liczba_turniejow": 51,
+  "pobrano_utc": "2026-11-22T12:38:33+00:00",
+  "liczba_turniejow": 50,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -12,7 +12,7 @@
     {
       "kategoria": "1. Liga",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/lista-rund?incoming=true",
-      "liczba": 20
+      "liczba": 19
     },
     {
       "kategoria": "2. Liga",
@@ -38,69 +38,6 @@
   "ostrzezenia": [],
   "bledy": [],
   "turnieje": [
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Kazimierzowo Cup 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Elbląg",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-kazimierzowo-cup-2026-5735"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Piaseczna 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Piaseczno",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5702"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Smolec k. Wrocławia",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5651"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Smolec k. Wrocławia",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5652"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. AS Tenis Challenge 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Starachowice",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-as-tenis-challenge-2026-5622"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Jesienny Turniej o Puchar Peruna 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Warszawa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-peruna-2026-5582"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Jesienny Turniej o Puchar Peruna 2026",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "Warszawa",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-peruna-2026-5583"
-    },
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
@@ -445,6 +382,24 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Finały Jesiennych Mistrzostw Polski 2026",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-20",
+      "miasto": "Giebułtów k. Krakowa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-finaly-jesiennych-mistrzostw-polski-2026-5739"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Finały Jesiennych Mistrzostw Polski 2026",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-20",
+      "miasto": "Giebułtów k. Krakowa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-finaly-jesiennych-mistrzostw-polski-2026-5740"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "Deble i Miksty",
       "nazwa": "DEBEL. Finały Jesiennych Mistrzostw Polski 2026",
       "data_od": "2026-12-19",
@@ -481,6 +436,15 @@
     },
     {
       "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Otwarte Zimowe Mistrzostwa Elbląga 2026",
+      "data_od": "2026-12-20",
+      "data_do": "2026-12-20",
+      "miasto": "Elbląg",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-zimowe-mistrzostwa-elblaga-2026-5760"
+    },
+    {
+      "zrodlo": "PLT",
       "kategoria": "Puchar PLT",
       "nazwa": "PUCHAR PLT. Jesienne Mistrzostwa Ożarowa Mazowieckiego 2026",
       "data_od": "2026-12-20",
@@ -496,6 +460,33 @@
       "data_do": "2026-12-20",
       "miasto": "Rzeszów",
       "url": "https://polskaligatenisa.pl/turnieje/deble-miksty/debel-grand-prix-spin-u-ii-2026-5628"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Świąteczny Turniej w Smolcu 2026",
+      "data_od": "2026-12-20",
+      "data_do": "2026-12-20",
+      "miasto": "Smolec k. Wrocławia",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-swiateczny-turniej-w-smolcu-2026-5728"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Świąteczny Turniej Olszynki Grochowskiej 2026",
+      "data_od": "2026-12-20",
+      "data_do": "2026-12-20",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-swiateczny-turniej-olszynki-grochowskiej-2026-5752"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Świąteczny Turniej Olszynki Grochowskiej 2026",
+      "data_od": "2026-12-20",
+      "data_do": "2026-12-20",
+      "miasto": "Warszawa",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-swiateczny-turniej-olszynki-grochowskiej-2026-5753"
     }
   ]
 }
