@@ -1,19 +1,9 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-11-22T12:38:18+00:00",
-  "liczba_turniejow": 10,
+  "pobrano_utc": "2026-11-23T14:42:41+00:00",
+  "liczba_turniejow": 9,
   "turnieje": [
-    {
-      "zrodlo": "PZT TOP",
-      "nazwa": "SMECZ PIASECZNO",
-      "data_od": "2026-11-22",
-      "data_do": "2026-11-22",
-      "miasto": "PIASECZNO",
-      "ranga": "3",
-      "kategorie": "60+, 70+, 80+",
-      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=FBE400FC-21D9-4DC7-BB88-AC5852D0DBE0"
-    },
     {
       "zrodlo": "PZT TOP",
       "nazwa": "VOLVO Zwierzyniec Cup 2026",
