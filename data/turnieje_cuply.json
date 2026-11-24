@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-11-23T14:42:42+00:00",
+  "pobrano_utc": "2026-11-24T14:54:22+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -97,6 +97,19 @@
     },
     {
       "zrodlo": "Cuply",
+      "nazwa": "MAJERAN - ZOOM Tenis CUP X",
+      "data_od": "2026-12-19",
+      "data_do": "2026-12-19",
+      "miasto": "Szczecin",
+      "miejsce": "Zoom Tennis Academy, Szczecin",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/majeran-zoom-tenis-cup-x"
+    },
+    {
+      "zrodlo": "Cuply",
       "nazwa": "Otwarte Mistrzostwa Stargardu Cuply Masters - dla zaawansowanych",
       "data_od": "2026-12-20",
       "data_do": "2026-12-20",
@@ -107,19 +120,6 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-stargardu-cuply-masters-dla-zaawansowanych"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Cuply Masters Kołobrzeg - dla zaawansowanych",
-      "data_od": "2026-12-27",
-      "data_do": "2026-12-27",
-      "miasto": "Kołobrzeg",
-      "miejsce": "Baltic Tennis Club Kołobrzeg, Kołobrzeg",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/cuply-masters-kolobrzeg-dla-zaawansowanych"
     },
     {
       "zrodlo": "Cuply",
