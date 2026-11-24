@@ -244,6 +244,17 @@
       "checked_at": ""
     },
     {
+      "url": "https://cuply.pl/turnieje/cuply-masters-kolobrzeg-dla-zaawansowanych",
+      "source": "Cuply",
+      "name": "Cuply Masters Kołobrzeg - dla zaawansowanych",
+      "start": "2026-12-27",
+      "end": "2026-12-27",
+      "city": "Kołobrzeg",
+      "status": "UNCHECKED",
+      "matches_count": 0,
+      "checked_at": ""
+    },
+    {
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-jesienne-mistrzostwa-ozarowa-mazowieckiego-2026-5772",
       "source": "PLT",
       "name": "PUCHAR PLT. Jesienne Mistrzostwa Ożarowa Mazowieckiego 2026",
@@ -332,6 +343,17 @@
       "checked_at": ""
     },
     {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-swiateczny-turniej-olszynki-grochowskiej-2026-5753",
+      "source": "PLT",
+      "name": "2. LIGA. Świąteczny Turniej Olszynki Grochowskiej 2026",
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "city": "Warszawa",
+      "status": "UNCHECKED",
+      "matches_count": 0,
+      "checked_at": ""
+    },
+    {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-zimowe-mistrzostwa-elblaga-2026-5760",
       "source": "PLT",
       "name": "2. LIGA. Otwarte Zimowe Mistrzostwa Elbląga 2026",
@@ -346,6 +368,39 @@
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-finaly-jesiennych-mistrzostw-polski-2026-5740",
       "source": "PLT",
       "name": "2. LIGA. Finały Jesiennych Mistrzostw Polski 2026",
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "city": "Giebułtów k. Krakowa",
+      "status": "UNCHECKED",
+      "matches_count": 0,
+      "checked_at": ""
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-swiateczny-turniej-w-smolcu-2026-5728",
+      "source": "PLT",
+      "name": "1. LIGA. Świąteczny Turniej w Smolcu 2026",
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "city": "Smolec k. Wrocławia",
+      "status": "UNCHECKED",
+      "matches_count": 0,
+      "checked_at": ""
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-swiateczny-turniej-olszynki-grochowskiej-2026-5752",
+      "source": "PLT",
+      "name": "1. LIGA. Świąteczny Turniej Olszynki Grochowskiej 2026",
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "city": "Warszawa",
+      "status": "UNCHECKED",
+      "matches_count": 0,
+      "checked_at": ""
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-finaly-jesiennych-mistrzostw-polski-2026-5739",
+      "source": "PLT",
+      "name": "1. LIGA. Finały Jesiennych Mistrzostw Polski 2026",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "city": "Giebułtów k. Krakowa",
@@ -679,6 +734,17 @@
       "start": "2026-12-06",
       "end": "2026-12-06",
       "city": "Smolec k. Wrocławia",
+      "status": "UNCHECKED",
+      "matches_count": 0,
+      "checked_at": ""
+    },
+    {
+      "url": "https://kluby.org/turnieje/12525",
+      "source": "Kluby.org",
+      "name": "Mikołajkowy Turniej Mikstowy",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "city": "Mińsk Mazowiecki",
       "status": "UNCHECKED",
       "matches_count": 0,
       "checked_at": ""
@@ -1091,6 +1157,17 @@
       "checked_at": ""
     },
     {
+      "url": "https://kluby.org/turnieje/12522",
+      "source": "Kluby.org",
+      "name": "Olszynka Silvers Cup - Singiel M +45",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "city": "Warszawa",
+      "status": "UNCHECKED",
+      "matches_count": 0,
+      "checked_at": ""
+    },
+    {
       "url": "https://kluby.org/turnieje/12369",
       "source": "Kluby.org",
       "name": "OLSZYNKA MIKST - Open",
@@ -1165,7 +1242,18 @@
       "city": "Mińsk Mazowiecki",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=FBE400FC-21D9-4DC7-BB88-AC5852D0DBE0",
+      "source": "PZT TOP",
+      "name": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "city": "PIASECZNO",
+      "status": "FETCHED",
+      "matches_count": 45,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=FBE400FC-21D9-4DC7-BB88-AC5852D0DBE0",
@@ -1176,7 +1264,7 @@
       "city": "PIASECZNO",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://kluby.org/turnieje/12094",
@@ -1185,9 +1273,9 @@
       "start": "2026-11-22",
       "end": "2026-11-22",
       "city": "Warszawa",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": ""
+      "status": "FETCHED",
+      "matches_count": 14,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://cuply.pl/turnieje/cuply-challenger-kolobrzeg-2802-do-40-ntrp-2",
@@ -1196,9 +1284,20 @@
       "start": "2026-11-22",
       "end": "2026-11-22",
       "city": "Kołobrzeg",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": ""
+      "status": "FETCHED",
+      "matches_count": 10,
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5652/wyniki",
+      "source": "PLT",
+      "name": "2. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "city": "Smolec k. Wrocławia",
+      "status": "FETCHED",
+      "matches_count": 19,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5652",
@@ -1209,7 +1308,18 @@
       "city": "Smolec k. Wrocławia",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-kazimierzowo-cup-2026-5735/wyniki",
+      "source": "PLT",
+      "name": "2. LIGA. Kazimierzowo Cup 2026",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "city": "Elbląg",
+      "status": "FETCHED",
+      "matches_count": 19,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-kazimierzowo-cup-2026-5735",
@@ -1220,7 +1330,18 @@
       "city": "Elbląg",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-peruna-2026-5583/wyniki",
+      "source": "PLT",
+      "name": "2. LIGA. Jesienny Turniej o Puchar Peruna 2026",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "city": "Warszawa",
+      "status": "FETCHED",
+      "matches_count": 36,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-peruna-2026-5583",
@@ -1231,7 +1352,7 @@
       "city": "Warszawa",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-as-tenis-challenge-ii-2026-5700",
@@ -1242,7 +1363,7 @@
       "city": "Starachowice",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-starogardu-gdanskiego-2026-5648",
@@ -1253,7 +1374,18 @@
       "city": "Starogard Gdański",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5702/wyniki",
+      "source": "PLT",
+      "name": "1. LIGA. Otwarte Jesienne Mistrzostwa Piaseczna 2026",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "city": "Piaseczno",
+      "status": "FETCHED",
+      "matches_count": 6,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-piaseczna-2026-5702",
@@ -1264,7 +1396,18 @@
       "city": "Piaseczno",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5651/wyniki",
+      "source": "PLT",
+      "name": "1. LIGA. Otwarte Jesienne Mistrzostwa Dolnego Śląska 2026",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "city": "Smolec k. Wrocławia",
+      "status": "FETCHED",
+      "matches_count": 19,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-dolnego-slaska-2026-5651",
@@ -1275,7 +1418,18 @@
       "city": "Smolec k. Wrocławia",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-peruna-2026-5582/wyniki",
+      "source": "PLT",
+      "name": "1. LIGA. Jesienny Turniej o Puchar Peruna 2026",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "city": "Warszawa",
+      "status": "FETCHED",
+      "matches_count": 19,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-peruna-2026-5582",
@@ -1286,7 +1440,18 @@
       "city": "Warszawa",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-as-tenis-challenge-2026-5622/wyniki",
+      "source": "PLT",
+      "name": "1. LIGA. AS Tenis Challenge 2026",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "city": "Starachowice",
+      "status": "FETCHED",
+      "matches_count": 19,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-as-tenis-challenge-2026-5622",
@@ -1297,7 +1462,7 @@
       "city": "Starachowice",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://kluby.org/turnieje/12493",
@@ -1306,9 +1471,9 @@
       "start": "2026-11-21",
       "end": "2026-11-21",
       "city": "Płock",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": ""
+      "status": "FETCHED",
+      "matches_count": 15,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://kluby.org/turnieje/12520",
@@ -1317,9 +1482,9 @@
       "start": "2026-11-21",
       "end": "2026-11-21",
       "city": "Barlinek",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": ""
+      "status": "FETCHED",
+      "matches_count": 19,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://kluby.org/turnieje/12484",
@@ -1328,9 +1493,20 @@
       "start": "2026-11-21",
       "end": "2026-11-21",
       "city": "Warszawa",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": ""
+      "status": "FETCHED",
+      "matches_count": 12,
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-jesienne-mistrzostwa-tarnowa-2026-5669/wyniki",
+      "source": "PLT",
+      "name": "PUCHAR PLT. Jesienne Mistrzostwa Tarnowa 2026",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "city": "Tarnów",
+      "status": "FETCHED",
+      "matches_count": 12,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/puchar-plt/puchar-plt-jesienne-mistrzostwa-tarnowa-2026-5669",
@@ -1341,7 +1517,7 @@
       "city": "Tarnów",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://kluby.org/turnieje/12178",
@@ -1352,7 +1528,7 @@
       "city": "Warszawa",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://kluby.org/turnieje/12299",
@@ -1361,9 +1537,9 @@
       "start": "2026-11-21",
       "end": "2026-11-21",
       "city": "Warszawa",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": ""
+      "status": "FETCHED",
+      "matches_count": 28,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://cuply.pl/turnieje/cuply-challenger-stargard-do-40-ntrp-21-11-2026",
@@ -1372,9 +1548,9 @@
       "start": "2026-11-21",
       "end": "2026-11-21",
       "city": "Stargard",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": ""
+      "status": "FETCHED",
+      "matches_count": 42,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://kluby.org/turnieje/12521",
@@ -1383,9 +1559,9 @@
       "start": "2026-11-21",
       "end": "2026-11-21",
       "city": "Bydgoszcz",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": ""
+      "status": "FETCHED",
+      "matches_count": 15,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-pomorskiej-2026-5714",
@@ -1396,7 +1572,7 @@
       "city": "Łódź",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienne-mistrzostwa-tarnowa-2026-5670",
@@ -1407,7 +1583,18 @@
       "city": "Tarnów",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-zawady-2026-5721/wyniki",
+      "source": "PLT",
+      "name": "1. LIGA. Otwarte Jesienne Mistrzostwa Zawady 2026",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "city": "Zawada k. Opola",
+      "status": "FETCHED",
+      "matches_count": 19,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-zawady-2026-5721",
@@ -1418,7 +1605,7 @@
       "city": "Zawada k. Opola",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-jesienny-turniej-o-puchar-pomorskiej-2026-5713",
@@ -1429,7 +1616,18 @@
       "city": "Łódź",
       "status": "UNCHECKED",
       "matches_count": 0,
-      "checked_at": ""
+      "checked_at": "2026-11-24"
+    },
+    {
+      "url": "https://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&Male=&TournamentID=3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D",
+      "source": "PZT TOP",
+      "name": "SMECZ PIASECZNO, Smecz Bogumił i Wspólnicy Sp. j. /Smecz Siedliska-Piaseczno/",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "city": "PIASECZNO",
+      "status": "UNCHECKED",
+      "matches_count": 0,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=3FCB5F0E-71E3-4988-802A-6A5B66BD2E1D",
@@ -1438,9 +1636,9 @@
       "start": "2026-11-20",
       "end": "2026-11-20",
       "city": "PIASECZNO",
-      "status": "UNCHECKED",
-      "matches_count": 0,
-      "checked_at": "2026-11-21"
+      "status": "FETCHED",
+      "matches_count": 3,
+      "checked_at": "2026-11-24"
     },
     {
       "url": "https://kluby.org/turnieje/12389",
