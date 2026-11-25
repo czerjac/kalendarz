@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-11-24T14:54:22+00:00",
+  "pobrano_utc": "2026-11-25T14:26:09+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -29,6 +29,19 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-szczecin-2911-do-40-ntrp"
+    },
+    {
+      "zrodlo": "Cuply",
+      "nazwa": "SLT Mexicano Futures (3 liga, rookie) - 1 kolejka 04.12",
+      "data_od": "2026-12-04",
+      "data_do": "2026-12-04",
+      "miasto": "Szczecin",
+      "miejsce": "Tennis Arena, Szczecin",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/slt-mexicano-futures-3-liga-rookie-1-kolejka-0412"
     },
     {
       "zrodlo": "Cuply",
@@ -120,19 +133,6 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-stargardu-cuply-masters-dla-zaawansowanych"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Otwarte Mistrzostwa Zielonej Góry dla średniozaawansowanych do 4.0 NTRP",
-      "data_od": "2026-12-27",
-      "data_do": "2026-12-27",
-      "miasto": "Zielona Góra",
-      "miejsce": "Przytok Tennis Club, Zielona Góra",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-zielonej-gory-dla-sredniozaawansowanych-do-40-ntrp"
     }
   ]
 }

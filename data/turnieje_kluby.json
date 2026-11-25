@@ -1,7 +1,7 @@
 {
   "zrodlo": "Kluby.org",
-  "pobrano_utc": "2026-11-24T14:55:03+00:00",
-  "liczba_turniejow": 54,
+  "pobrano_utc": "2026-11-25T14:26:47+00:00",
+  "liczba_turniejow": 56,
   "miesiace_sprawdzone": [
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-11-01&data_do=2026-11-30&zakladka=0",
@@ -9,7 +9,7 @@
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2026-12-01&data_do=2026-12-31&zakladka=0",
-      "liczba": 21
+      "liczba": 23
     },
     {
       "url": "https://kluby.org/tenis/turnieje?filtr=1&opcja=kalendarz&data_od=2027-01-01&data_do=2027-01-31&zakladka=0",
@@ -162,6 +162,16 @@
       "miejsce": "TENES Klub Sportowy, Warszawa",
       "kategorie": "OPEN",
       "url": "https://kluby.org/turnieje/12480"
+    },
+    {
+      "zrodlo": "Kluby.org",
+      "nazwa": "Puchar Świętego Mikołaja",
+      "data_od": "2026-12-05",
+      "data_do": "2026-12-05",
+      "miasto": "Warszawa",
+      "miejsce": "TenisPoint, Warszawa",
+      "kategorie": "TENIS10 ZIELONA JUNIORZY U14 JUNIORZY U18 DEBEL JUNIORZY",
+      "url": "https://kluby.org/turnieje/12539"
     },
     {
       "zrodlo": "Kluby.org",
@@ -335,6 +345,16 @@
     },
     {
       "zrodlo": "Kluby.org",
+      "nazwa": "ŚWIĄTECZNA GORĄCZKA NA KORCIE - Jednodniowe półkolonie tenisowe dla dzieci i młodzieży",
+      "data_od": "2026-12-23",
+      "data_do": "2026-12-23",
+      "miasto": "Warszawa",
+      "miejsce": "Perun Wesoła, Warszawa",
+      "kategorie": "",
+      "url": "https://kluby.org/turnieje/12538"
+    },
+    {
+      "zrodlo": "Kluby.org",
       "nazwa": "Poświąteczne Deble",
       "data_od": "2026-12-27",
       "data_do": "2026-12-27",
@@ -466,8 +486,8 @@
     {
       "zrodlo": "Kluby.org",
       "nazwa": "Mixt Americano",
-      "data_od": "2027-01-31",
-      "data_do": "2027-01-31",
+      "data_od": "2027-01-30",
+      "data_do": "2027-01-30",
       "miasto": "Żyrardów",
       "miejsce": "Matchpoint Żyrardów, Żyrardów",
       "kategorie": "OPEN",
