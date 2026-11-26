@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-11-25T14:26:09+00:00",
+  "pobrano_utc": "2026-11-26T13:56:13+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -71,6 +71,19 @@
     },
     {
       "zrodlo": "Cuply",
+      "nazwa": "SLT Mexicano Pearls dla Kobiet (2 liga, rookie) - 1 kolejka 11.12",
+      "data_od": "2026-12-11",
+      "data_do": "2026-12-11",
+      "miasto": "Szczecin",
+      "miejsce": "Tennis Arena, Szczecin",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/slt-mexicano-pearls-dla-kobiet-2-liga-rookie-1-kolejka-1112"
+    },
+    {
+      "zrodlo": "Cuply",
       "nazwa": "Challenger Gryfino dla średniozaawansowanych do 4.0 NTRP",
       "data_od": "2026-12-12",
       "data_do": "2026-12-12",
@@ -97,6 +110,19 @@
     },
     {
       "zrodlo": "Cuply",
+      "nazwa": "SLT Mexicano Challenger (2 i 1 liga) - 1 kolejka 18.12",
+      "data_od": "2026-12-18",
+      "data_do": "2026-12-18",
+      "miasto": "Szczecin",
+      "miejsce": "Tennis Arena, Szczecin",
+      "typ_gry": "",
+      "poziom": "",
+      "plec": "",
+      "wpisowe": "",
+      "url": "https://cuply.pl/turnieje/slt-mexicano-challenger-2-i-1-liga-1-kolejka-1812"
+    },
+    {
+      "zrodlo": "Cuply",
       "nazwa": "Świąteczny Challenger Stargard - dla średniozaawansowanych do 4.0 NTRP",
       "data_od": "2026-12-19",
       "data_do": "2026-12-19",
@@ -107,32 +133,6 @@
       "plec": "",
       "wpisowe": "",
       "url": "https://cuply.pl/turnieje/cuply-challenger-stargard-dla-sredniozaawansowanych-do-40-ntrp-2"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "MAJERAN - ZOOM Tenis CUP X",
-      "data_od": "2026-12-19",
-      "data_do": "2026-12-19",
-      "miasto": "Szczecin",
-      "miejsce": "Zoom Tennis Academy, Szczecin",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/majeran-zoom-tenis-cup-x"
-    },
-    {
-      "zrodlo": "Cuply",
-      "nazwa": "Otwarte Mistrzostwa Stargardu Cuply Masters - dla zaawansowanych",
-      "data_od": "2026-12-20",
-      "data_do": "2026-12-20",
-      "miasto": "Stargard",
-      "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
-      "typ_gry": "",
-      "poziom": "",
-      "plec": "",
-      "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/otwarte-mistrzostwa-stargardu-cuply-masters-dla-zaawansowanych"
     }
   ]
 }

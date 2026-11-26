@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-11-25T14:26:21+00:00",
-  "liczba_turniejow": 50,
+  "pobrano_utc": "2026-11-26T13:56:28+00:00",
+  "liczba_turniejow": 51,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -12,7 +12,7 @@
     {
       "kategoria": "1. Liga",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/lista-rund?incoming=true",
-      "liczba": 19
+      "liczba": 20
     },
     {
       "kategoria": "2. Liga",
@@ -145,6 +145,15 @@
       "data_do": "2026-11-29",
       "miasto": "Łódź",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-start-lodz-cup-2026-5697"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Otwarte Jesienne Mistrzostwa Gdańska 2026",
+      "data_od": "2026-12-06",
+      "data_do": "2026-12-06",
+      "miasto": "Gdańsk",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-otwarte-jesienne-mistrzostwa-gdanska-2026-5773"
     },
     {
       "zrodlo": "PLT",
@@ -284,7 +293,7 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Silesia Bytom Cup II 2026",
+      "nazwa": "1. LIGA. Silesia Bytom Cup II by Bolero 2026",
       "data_od": "2026-12-13",
       "data_do": "2026-12-13",
       "miasto": "Bytom",
@@ -293,7 +302,7 @@
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Silesia Bytom Cup II 2026",
+      "nazwa": "2. LIGA. Silesia Bytom Cup II by Bolero 2026",
       "data_od": "2026-12-13",
       "data_do": "2026-12-13",
       "miasto": "Bytom",
