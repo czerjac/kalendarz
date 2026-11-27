@@ -1,8 +1,8 @@
 {
   "zrodlo": "PLT",
   "adres_startowy": "https://polskaligatenisa.pl/turnieje/puchar-plt/lista-rund",
-  "pobrano_utc": "2026-11-26T13:56:28+00:00",
-  "liczba_turniejow": 51,
+  "pobrano_utc": "2026-11-27T13:55:11+00:00",
+  "liczba_turniejow": 47,
   "kategorie_sprawdzone": [
     {
       "kategoria": "Puchar PLT",
@@ -12,17 +12,17 @@
     {
       "kategoria": "1. Liga",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/lista-rund?incoming=true",
-      "liczba": 20
+      "liczba": 19
     },
     {
       "kategoria": "2. Liga",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/lista-rund?incoming=true",
-      "liczba": 20
+      "liczba": 18
     },
     {
       "kategoria": "PLT Kobiet",
       "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/lista-rund?incoming=true",
-      "liczba": 2
+      "liczba": 1
     },
     {
       "kategoria": "Deble i Miksty",
@@ -49,21 +49,12 @@
     },
     {
       "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Wieczorny Turniej w Arenie Tenisa 2026",
-      "data_od": "2026-11-28",
-      "data_do": "2026-11-28",
-      "miasto": "Piaseczno",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-wieczorny-turniej-w-arenie-tenisa-2026-5687"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Teho Cup III 2026",
+      "kategoria": "1. Liga",
+      "nazwa": "1. LIGA. Teho Cup IV 2026",
       "data_od": "2026-11-28",
       "data_do": "2026-11-28",
       "miasto": "Trzebownisko",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-teho-cup-iii-2026-5682"
+      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-iv-2026-5678"
     },
     {
       "zrodlo": "PLT",
@@ -95,15 +86,6 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Teho Cup IV 2026",
-      "data_od": "2026-11-29",
-      "data_do": "2026-11-29",
-      "miasto": "Trzebownisko",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-teho-cup-iv-2026-5678"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
       "nazwa": "1. LIGA. Jesienny Turniej o Puchar Olszynki Grochowskiej 2026",
       "data_od": "2026-11-29",
       "data_do": "2026-11-29",
@@ -118,33 +100,6 @@
       "data_do": "2026-11-29",
       "miasto": "Warszawa",
       "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-jesienny-turniej-o-puchar-olszynki-grochowskiej-2026-5667"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Start Łódż Cup 2026",
-      "data_od": "2026-11-29",
-      "data_do": "2026-11-29",
-      "miasto": "Łódź",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-start-lodz-cup-2026-5695"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Start Łódż Cup 2026",
-      "data_od": "2026-11-29",
-      "data_do": "2026-11-29",
-      "miasto": "Łódź",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-start-lodz-cup-2026-5696"
-    },
-    {
-      "zrodlo": "PLT",
-      "kategoria": "PLT Kobiet",
-      "nazwa": "PLT KOBIET. Start Łódż Cup 2026",
-      "data_od": "2026-11-29",
-      "data_do": "2026-11-29",
-      "miasto": "Łódź",
-      "url": "https://polskaligatenisa.pl/turnieje/polska-liga-tenisa-kobiet/plt-kobiet-start-lodz-cup-2026-5697"
     },
     {
       "zrodlo": "PLT",
@@ -185,7 +140,7 @@
     {
       "zrodlo": "PLT",
       "kategoria": "1. Liga",
-      "nazwa": "1. LIGA. Singlowe Weekendy w Rudawa Tennis Club - Turniej Finałowy 2026",
+      "nazwa": "1. LIGA. Singlowe Weekendy w Rudawa Tennis Club VI 2026",
       "data_od": "2026-12-06",
       "data_do": "2026-12-06",
       "miasto": "Rudawa k. Krakowa",
@@ -194,7 +149,7 @@
     {
       "zrodlo": "PLT",
       "kategoria": "2. Liga",
-      "nazwa": "2. LIGA. Singlowe Weekendy w Rudawa Tennis Club - Turniej Finałowy 2026",
+      "nazwa": "2. LIGA. Singlowe Weekendy w Rudawa Tennis Club VI 2026",
       "data_od": "2026-12-06",
       "data_do": "2026-12-06",
       "miasto": "Rudawa k. Krakowa",
@@ -478,6 +433,15 @@
       "data_do": "2026-12-20",
       "miasto": "Smolec k. Wrocławia",
       "url": "https://polskaligatenisa.pl/turnieje/polska-i-liga-tenisa/1-liga-swiateczny-turniej-w-smolcu-2026-5728"
+    },
+    {
+      "zrodlo": "PLT",
+      "kategoria": "2. Liga",
+      "nazwa": "2. LIGA. Świąteczny Turniej w Smolcu 2026",
+      "data_od": "2026-12-20",
+      "data_do": "2026-12-20",
+      "miasto": "Smolec k. Wrocławia",
+      "url": "https://polskaligatenisa.pl/turnieje/polska-ii-liga-tenisa/2-liga-swiateczny-turniej-w-smolcu-2026-5729"
     },
     {
       "zrodlo": "PLT",

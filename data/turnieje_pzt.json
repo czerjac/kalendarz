@@ -1,8 +1,8 @@
 {
   "zrodlo": "PZT TOP",
   "adres_zrodla": "https://top.pzt.pl/Kalendarz.aspx",
-  "pobrano_utc": "2026-11-26T13:56:12+00:00",
-  "liczba_turniejow": 12,
+  "pobrano_utc": "2026-11-27T13:54:49+00:00",
+  "liczba_turniejow": 16,
   "turnieje": [
     {
       "zrodlo": "PZT TOP",
@@ -33,6 +33,16 @@
       "ranga": "3",
       "kategorie": "60+, 70+, 80+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=EDDE49D4-949E-4CCC-AA6B-9B033647BEB5"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "SMESCZ PIASECZNO",
+      "data_od": "2026-12-04",
+      "data_do": "2026-12-04",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "70+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=332F445A-6CD5-4D60-A429-0D9F56986E4E"
     },
     {
       "zrodlo": "PZT TOP",
@@ -86,6 +96,16 @@
     },
     {
       "zrodlo": "PZT TOP",
+      "nazwa": "SMESCZ PIASECZNO",
+      "data_od": "2026-12-18",
+      "data_do": "2026-12-18",
+      "miasto": "PIASECZNO",
+      "ranga": "3",
+      "kategorie": "70+",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=5EBAB35A-D94B-4F7F-81E2-CE4ACB127F67"
+    },
+    {
+      "zrodlo": "PZT TOP",
       "nazwa": "SMECZ PIASECZNO",
       "data_od": "2026-12-20",
       "data_do": "2026-12-20",
@@ -113,6 +133,26 @@
       "ranga": "3",
       "kategorie": "60+, 70+, 80+",
       "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=DE919800-8950-4E88-9AE1-04EDEB0AF93C"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "TRZECH KRÓLI - TURNIEJ MIKSTA",
+      "data_od": "2027-01-06",
+      "data_do": "2027-01-06",
+      "miasto": "Stalowa Wola",
+      "ranga": "4",
+      "kategorie": "Open",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=04CB2EA1-C750-450D-A503-071C574AB818"
+    },
+    {
+      "zrodlo": "PZT TOP",
+      "nazwa": "GRAND PRIX STALOWEJ WOLI AMATORÓW",
+      "data_od": "2027-01-09",
+      "data_do": "2027-01-10",
+      "miasto": "Stalowa Wola",
+      "ranga": "3",
+      "kategorie": "Open Amator",
+      "url": "http://portal.pzt.pl/TournamentResults.aspx?CategoryID=AIS&TournamentID=D8B08A83-75FD-463D-863E-327B4C3B5394"
     },
     {
       "zrodlo": "PZT TOP",

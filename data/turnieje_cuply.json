@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-11-26T13:56:13+00:00",
+  "pobrano_utc": "2026-11-27T13:54:50+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "zrodlo": "Cuply",
-      "nazwa": "SLT Mexicano Futures (3 liga, rookie) - 1 kolejka 04.12",
+      "nazwa": "SLT Mexicano Diamonds dla Kobiet (1 liga, ekstraliga) - 1 kolejka 4.12",
       "data_od": "2026-12-04",
       "data_do": "2026-12-04",
       "miasto": "Szczecin",
@@ -41,7 +41,7 @@
       "poziom": "",
       "plec": "",
       "wpisowe": "",
-      "url": "https://cuply.pl/turnieje/slt-mexicano-futures-3-liga-rookie-1-kolejka-0412"
+      "url": "https://cuply.pl/turnieje/slt-mexicano-diamonds-dla-kobiet-1-liga-ekstraliga-1-kolejka-0801"
     },
     {
       "zrodlo": "Cuply",
