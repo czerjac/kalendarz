@@ -1,7 +1,7 @@
 {
   "zrodlo": "Cuply",
   "adres_zrodla": "https://cuply.pl/turnieje",
-  "pobrano_utc": "2026-11-27T13:54:50+00:00",
+  "pobrano_utc": "2026-11-28T13:01:54+00:00",
   "liczba_turniejow": 10,
   "turnieje": [
     {
@@ -47,7 +47,7 @@
       "zrodlo": "Cuply",
       "nazwa": "Cuply Challenger Stargard - dla średniozaawansowanych do 4.0 NTRP",
       "data_od": "2026-12-05",
-      "data_do": "2026-12-06",
+      "data_do": "2026-12-05",
       "miasto": "Stargard",
       "miejsce": "SOT Stargardzki Ośrodek Tenisowy, Stargard",
       "typ_gry": "",
